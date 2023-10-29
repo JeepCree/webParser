@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Главная</title>
-    <link rel="stylesheet" th:href="@{/css/styles.css}" />
+    <link rel="stylesheet" href="../static/css/styles.css" th:href="@{/css/styles.css}" />
 </head>
 <body>
-
-<script th:src="@{/js/script.js}"></script>
+<div class="declaration-page">
+    <div class="dropdown">
+        <button class="dropbtn">[ Меню ]</button>
+        <div class="dropdown-content">
+            <a href="add-shop">Добавить магазин</a>
+        </div>
+    </div>
+</div>
+<script src="../static/js/script.js" th:src="@{/js/script.js}"></script>
 </body>
 </html>
