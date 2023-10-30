@@ -1,7 +1,7 @@
 package ua.com.mobifix.parser.models;
 
 public class Shop {
-    String name = "mobifix";
+    String name;
 
     public String getName() {
         return name;
@@ -10,8 +10,4 @@ public class Shop {
     public void setName(String name) {
         this.name = name;
     }
-
-    public String getProductPrefix(){
-        return this.name;
     }
-}

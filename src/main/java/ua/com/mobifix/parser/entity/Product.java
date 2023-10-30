@@ -1,12 +1,11 @@
 package ua.com.mobifix.parser.entity;
 
 import jakarta.persistence.*;
-import java.sql.Date;
 import java.sql.Timestamp;
 
 @Entity
 public class Product {
-    @Id()
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String article;
