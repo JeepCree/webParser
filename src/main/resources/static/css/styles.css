@@ -1,47 +1,77 @@
-/* Стили для выпадающего меню */
-.dropdown {
+/* Стилизация кнопки и меню */
+.menu {
     position: relative;
     display: inline-block;
-    display: inline;
 
 }
 
-/* Стиль для кнопки при наведении */
-.dropbtn {
-    background-color: #6a6e6a;
-    color: white;
-    padding: 10px;
+.menu-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 30px;
     border: none;
     cursor: pointer;
-    border-radius: 4px;
-    min-width: 100px;
-    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    border-radius: 5px;
 }
 
-/* Стиль для кнопки при наведении */
-.dropbtn:hover {
-    background-color: #626562; /* Измените цвет при наведении */
+.menu-list, .sub-menu {
+    list-style-type: none; /* Убираем маркеры */
+    padding: 0;
+    margin: 0;
+    min-width: max-content;
+    border-radius: 5px;
 }
 
-.dropdown-content {
+.menu-list {
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-item:hover .sub-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+.sub-menu {
     display: none;
     position: absolute;
-    background-color: #ececec;
-    min-width: 200px;
-    z-index: 1;
+    top: 0;
+    left: 100%;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
+.menu-item:hover .sub-menu {
+    display: block;
+}
+
+.menu-list a, .sub-menu a {
+    padding: 8px 25px;
     text-decoration: none;
     display: block;
+    color: #333;
 }
 
-.dropdown-content a:hover {
-    background-color: #c0c0c0;
+.menu-list a:hover, .sub-menu a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
 }
 
-.dropdown:hover .dropdown-content {
+.menu:hover .menu-list {
     display: block;
+}
+
+.menu:hover .menu-button {
+    background-color: #297fb8;
 }
