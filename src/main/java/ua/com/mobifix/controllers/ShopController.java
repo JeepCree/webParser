@@ -13,5 +13,6 @@ public class ShopController {
     public ShopController(ShopRepository shopRepository){
         this.shopRepository = shopRepository;
     }
+    
 }
 
