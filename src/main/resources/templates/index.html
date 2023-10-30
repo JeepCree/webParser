@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../static/css/styles.css" th:href="@{/css/styles.css}" />
 </head>
 <body>
-<div>
+<div class="menu-container">
     <div class="menu">
     <button class="menu-button">[ Меню ]</button>
     <ul class="menu-list">
@@ -36,6 +36,10 @@
     </ul>
 </div>
 </div>
+<div class="page-info">
+    <span th:text="${pageInfo}">Page-Info</span>
+</div>
+
 <script src="../static/js/script.js" th:src="@{/js/script.js}"></script>
 </body>
 </html>
