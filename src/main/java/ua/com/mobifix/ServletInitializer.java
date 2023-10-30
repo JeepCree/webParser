@@ -1,4 +1,4 @@
-package ua.com.mobifix.parser;
+package ua.com.mobifix;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

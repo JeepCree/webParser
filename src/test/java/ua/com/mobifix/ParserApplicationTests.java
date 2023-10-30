@@ -1,4 +1,4 @@
-package ua.com.mobifix.parser;
+package ua.com.mobifix;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

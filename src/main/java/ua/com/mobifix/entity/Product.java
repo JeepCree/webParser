@@ -1,7 +1,8 @@
-package ua.com.mobifix.parser.entity;
+package ua.com.mobifix.entity;
+
+import java.sql.Timestamp;
 
 import jakarta.persistence.*;
-import java.sql.Timestamp;
 
 @Entity
 public class Product {
