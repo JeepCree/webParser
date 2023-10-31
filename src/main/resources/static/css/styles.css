@@ -78,14 +78,15 @@
 
 .menu-container {
     display: inline;
-    margin-right: 100px; /* Укажите нужный отступ между элементами */
+    margin-right: 400px; /* Укажите нужный отступ между элементами */
 }
 .page-info {
     display: inline;
-    margin-right: 100px; /* Укажите нужный отступ между элементами */
+    margin-right: 10px; /* Укажите нужный отступ между элементами */
     font-family: Tahoma, sans-serif; /* Устанавливаем шрифт */
     font-size: 24px; /* Устанавливаем размер шрифта */
     color: #090909; /* Устанавливаем цвет текста */
     text-align: center; /* Устанавливаем выравнивание текста */
     font-weight: bold; /* Устанавливаем жирный шрифт */
+    text-align: center;
 }
