@@ -2,8 +2,9 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Главная</title>
+    <title th:text="${pageInfo}">Главная</title>
     <link rel="stylesheet" href="../static/css/styles.css" th:href="@{/css/styles.css}" />
+    <link rel="icon" href="../static/favicon.ico" type="image/x-icon">
 </head>
 <body>
 <div class="menu-container">
@@ -11,18 +12,17 @@
     <button class="menu-button">[ Меню ]</button>
     <ul class="menu-list">
         <li class="menu-item">
+            <a href="#">Каталог</a>
+            <ul class="sub-menu">
+                <li><a href="/catalog">Загрузить</a></li>
+                <li><a href="/catalog-settings">Настроить</a></li>
+            </ul>
+        </li>
+        <li class="menu-item">
             <a href="#">Магазины</a>
             <ul class="sub-menu">
                 <li><a href="/add-shop">Добавить</a></li>
                 <li><a href="/shop-settings">Настроить</a></li>
-            </ul>
-        </li>
-        <li class="menu-item">
-            <a href="#">Пункт 2</a>
-            <ul class="sub-menu">
-                <li><a href="#">Подпункт 2.1</a></li>
-                <li><a href="#">Подпункт 2.2</a></li>
-                <li><a href="#">Подпункт 2.3</a></li>
             </ul>
         </li>
         <li class="menu-item">

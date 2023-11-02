@@ -26,4 +26,16 @@ public class UiController {
         model.addAttribute("pageInfo", homePage);
         return "shop-settings";
     }
+    @GetMapping("/catalog")
+    private String getCatalogPage(Model model){
+        String homePage = "Catalog";
+        model.addAttribute("pageInfo", homePage);
+        return "catalog";
+    }
+    @GetMapping("/catalog-settings")
+    private String getCatalogSettingsPage(Model model){
+        String homePage = "Catalog Settings";
+        model.addAttribute("pageInfo", homePage);
+        return "catalog-settings";
+    }
 }

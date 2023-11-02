@@ -5,7 +5,7 @@
 }
 
 .menu-button {
-    background-color: #3498db;
+    background-color: #242524;
     color: #fff;
     padding: 8px 30px;
     border: none;
@@ -72,21 +72,21 @@
 }
 
 .menu:hover .menu-button {
-    background-color: #297fb8;
+    background-color: #0a0a0a;
 }
 /* конец стилизации кнопки и меню */
 
 .menu-container {
     display: inline;
-    margin-right: 400px; /* Укажите нужный отступ между элементами */
+    margin-right: 10px; /* Укажите нужный отступ между элементами */
 }
 .page-info {
     display: inline;
-    margin-right: 10px; /* Укажите нужный отступ между элементами */
+    margin: 200px; /* Укажите нужный отступ между элементами */
     font-family: Tahoma, sans-serif; /* Устанавливаем шрифт */
-    font-size: 24px; /* Устанавливаем размер шрифта */
+    font-size: 20px; /* Устанавливаем размер шрифта */
     color: #090909; /* Устанавливаем цвет текста */
     text-align: center; /* Устанавливаем выравнивание текста */
-    font-weight: bold; /* Устанавливаем жирный шрифт */
     text-align: center;
+    font-weight: bold; /* Устанавливаем жирный шрифт */
 }
