@@ -40,21 +40,48 @@
     <span th:text="${pageInfo}">Page-Info</span>
 </div>
 <hr>
-<div class="catalog-conteiner">
-<tr th:each="item : ${catalog}">
-    <td th:text="${item.getName()}"></td><br>
-</tr>
-</div>
-<div class="basic-conteiner">
-<p>basic-conteiner</p>
-    <form class="menu-categories" action="/catalog-settings" method="post" name="menu-categories-form">
-        <input type="text" th:name="newCategory" value="">
-        <select id="parentCategory" name="parentCategory">
-            <option th:each="item : ${catalog}" th:value="${item.getId()}" th:text="${item.getName()}"></option>
-        </select>
-        <button>Save</button>
-
-    </form>
+<div class="bodye">
+    <div class="catalog-conteiner">
+        <p>catalog-conteiner</p>
+        <tr th:each="item : ${catalog}">
+            <td th:text="${item.getName()}"></td><br>
+        </tr>
+    </div>
+    <div class="basic-conteiner">
+        <p>basic-conteiner</p>
+        <form class="menu-categories" action="/catalog-settings" method="post" name="menu-categories-form">
+            <label for="parentCategory">Select parent category:</label><br>
+            <select id="parentCategory" name="parentCategory">
+                <option value="parent">Parent</option>
+                <option th:each="item : ${catalog}" th:value="${item.getId()}" th:text="${item.getName()}"></option>
+            </select><br>
+            <label for="active">Select is active category:</label><br>
+            <select id="active" name="isActive">
+                <option value="true">Yes</option>
+                <option value="false">No</option>
+            </select><br>
+            <label for="newCategory">Enter category name:</label><br>
+            <input id="newCategory" type="text" name="newCategory" value="" required><br>
+            <label for="description">Enter description:</label><br>
+            <input id="description" type="text" name="description" value="" required><br>
+            <label for="metaTitle">Enter metaTitle:</label><br>
+            <input id="metaTitle" type="text" name="metaTitle" value="" required><br>
+            <label for="metaDescription">Enter metaDescription:</label><br>
+            <input id="metaDescription" type="text" name="metaDescription" value="" required><br>
+            <label for="metaKeywords">Enter metaKeywords:</label><br>
+            <input id="metaKeywords" type="text" name="metaKeywords" value="" required><br>
+            <label for="humanReadableUrl">Enter humanReadableUrl:</label><br>
+            <input id="humanReadableUrl" type="text" name="humanReadableUrl" value="" required><br>
+            <label for="urlImage">Enter urlImage:</label><br>
+            <input id="urlImage" type="text" name="urlImage" value="" required><br>
+            <label for="shop">Select shop:</label><br>
+            <select id="shop" name="shopName">
+                <option value="true">Yes</option>
+                <option value="false">No</option>
+            </select>
+            <button>Save</button>
+        </form>
+    </div>
 </div>
 <script src="../static/js/script.js" th:src="@{/js/script.js}"></script>
 </body>
