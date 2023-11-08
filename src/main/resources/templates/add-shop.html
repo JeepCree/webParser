@@ -40,6 +40,24 @@
     <span th:text="${pageInfo}">Page-Info</span>
 </div>
 <hr>
+<div class="body">
+    <div class="catalog-conteiner">
+        <p><b>Магазины</b></p>
+        <tr th:each="item : ${catalog}">
+            <td th:text="${item.getName()}"></td><br>
+        </tr>
+    </div>
+    <div class="basic-conteiner">
+        <p>basic-conteiner</p>
+        <form class="menu-shops" action="/add-shop" method="post" name="menu-shops-form">
+            <label for="newShop">Enter Shop name:</label><br>
+            <input id="newShop" type="text" name="newShop" value="" required><br>
+            <label for="link">Enter description:</label><br>
+            <input id="link" type="text" name="link" value="" required><br>
+            <button>Save</button>
+        </form>
+    </div>
+</div>
 <script src="../static/js/script.js" th:src="@{/js/script.js}"></script>
 </body>
 </html>
