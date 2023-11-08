@@ -1,29 +1,33 @@
-document.getElementById('submit-button').addEventListener('click', function() {
-    // Получите значение выбранного элемента "shop-catalog"
-    var selectedShop = document.getElementById('shop-catalog').value;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="category-tree">
+    <!-- Здесь будет дерево категорий -->
+</div>
+<style>
+    /* Стили для категорий */
+    .category {
+        margin-left: 20px;
+        display: none;
+    }
 
-    // Создайте скрытый input в форме и установите в него значение "shopName"
-    var hiddenInput = document.createElement('input');
-    hiddenInput.type = 'hidden';
-    hiddenInput.name = 'shopName';
-    hiddenInput.value = selectedShop;
+    /* Стили для кнопки "открыть/закрыть" */
+    .toggle-button::before {
+        content: "▶"; /* Символ "Вправо" для закрытой категории */
+        cursor: pointer;
+    }
 
-    // Добавьте скрытый input к форме
-    document.forms['menu-categories-form'].appendChild(hiddenInput);
+    .toggle-button.open::before {
+        content: "▼"; /* Символ "Вниз" для открытой категории */
+    }
 
-    // Теперь отправьте форму
-    document.forms['menu-categories-form'].submit();
-});
-
-
-
-///////////////////////////////////////
-
-
-
-
-const categories = [
-    {
+</style>
+<script>
+    const categories = [{
         "id": 27,
         "active": true,
         "name": "Дисплеи",
@@ -205,29 +209,32 @@ const categories = [
         "humanReadableUrl": "Модуль Samsung Galaxy S30",
         "urlImage": "Модуль Samsung Galaxy S30",
         "shopName": null
-    }
-];
+    }];
 
-const categoryTree = document.getElementById("category-tree");
+    const categoryTree = document.getElementById("category-tree");
 
-function createCategoryList(parentId) {
-    const ul = document.createElement("ul");
-    categories.forEach(category => {
-        if (category.parentId === parentId) {
-            const li = document.createElement("li");
-            li.innerHTML = `<span class="toggle-button"></span> ${category.name}`;
-            const childCategories = createCategoryList(category.id);
-            if (childCategories.childNodes.length > 0) {
-                li.querySelector(".toggle-button").addEventListener("click", () => {
-                    childCategories.style.display = childCategories.style.display === "none" ? "block" : "none";
-                    li.querySelector(".toggle-button").classList.toggle("open");
-                });
-                li.appendChild(childCategories);
+    function createCategoryList(parentId) {
+        const ul = document.createElement("ul");
+        categories.forEach(category => {
+            if (category.parentId === parentId) {
+                const li = document.createElement("li");
+                li.innerHTML = `<span class="toggle-button"></span> ${category.name}`;
+                const childCategories = createCategoryList(category.id);
+                if (childCategories.childNodes.length > 0) {
+                    li.querySelector(".toggle-button").addEventListener("click", () => {
+                        childCategories.style.display = childCategories.style.display === "none" ? "block" : "none";
+                        li.querySelector(".toggle-button").classList.toggle("open");
+                    });
+                    li.appendChild(childCategories);
+                }
+                ul.appendChild(li);
             }
-            ul.appendChild(li);
-        }
-    });
-    return ul;
-}
+        });
+        return ul;
+    }
 
-categoryTree.appendChild(createCategoryList(0));
+    categoryTree.appendChild(createCategoryList(0));
+
+</script>
+</body>
+</html>
