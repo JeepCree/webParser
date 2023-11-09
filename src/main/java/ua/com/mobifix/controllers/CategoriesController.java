@@ -1,5 +1,7 @@
 package ua.com.mobifix.controllers;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -60,6 +62,15 @@ public class CategoriesController {
             category.setUrlImage(urlImage);
             category.setShopName(shopName);
             categoriesRepository.save(category);
+            ObjectMapper objectMapper = new ObjectMapper();
+//            objectMapper.enable(SerializationFeature.WRITE_ENUMS_USING_TO_STRING);
+            try {
+                String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAll());
+                model.addAttribute("jsonString", categoriesJson);
+                System.out.println(categoriesJson);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
             model.addAttribute("catalog", categoriesRepository.findAll());
             model.addAttribute("shops", shopRepository.findAll());
             model.addAttribute("showElement", true);

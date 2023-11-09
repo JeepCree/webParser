@@ -104,7 +104,42 @@
     /*display: block; !* Для использования flex-контейнера *!*/
     /*align-items: flex-start; !* Выравнивание по верхнему краю *!*/
 }
+/* Убираем маркеры у списка и элементов списка */
+ul, li {
+    list-style: none;
+}
+
+/* Стили для категорий */
+.category {
+    margin-left: 10px;
+    display: none;
+}
+
+/* Стили для кнопки "открыть/закрыть" */
+.toggle-button::before {
+    content: " + "; /* Символ "Вправо" для закрытой категории */
+    cursor: pointer;
+}
+
+.toggle-button.open::before {
+    content: " - "; /* Символ "Вниз" для открытой категории */
+}
+
+/* Стили для ссылок */
+.category-link {
+    text-decoration: none;
+    color: #000; /* Цвет текста ссылки */
+    cursor: pointer;
+}
+
+/* Стили для выделения при наведении */
+.category-link:hover {
+    background-color: #e0e0e0; /* Цвет фона при наведении */
+    border-radius: 5px; /* Скругление углов */
+}
+
 bodye {
     display: inline;
     border: 3px solid #000;
 }
+

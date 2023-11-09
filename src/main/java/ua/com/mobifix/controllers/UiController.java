@@ -46,14 +46,14 @@ public class UiController {
         String homePage = "Shop Settings";
         model.addAttribute("pageInfo", homePage);
         ObjectMapper objectMapper = new ObjectMapper();
-//        objectMapper.enable(SerializationFeature.WRITE_ENUMS_USING_TO_STRING);
-//        try {
-//            String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.getByIdAndNameAndParentId());
+        objectMapper.enable(SerializationFeature.WRITE_ENUMS_USING_TO_STRING);
+        try {
+            String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAll());
 //            model.addAttribute("info", categoriesJson);
-            System.out.println(categoriesRepository);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
+            System.out.println(categoriesJson);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         return "shop-settings";
     }
@@ -72,6 +72,14 @@ public class UiController {
             model.addAttribute("showElement", false);
             return "catalog-settings";
         } else {
+            ObjectMapper objectMapper = new ObjectMapper();
+            try {
+                String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAll());
+                model.addAttribute("jsonString", categoriesJson);
+                System.out.println("GET: " + categoriesJson);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
             model.addAttribute("showElement", true);
             model.addAttribute("catalog", categoryService.getAllCategories());
             model.addAttribute("shops", shopRepository.findAll());
