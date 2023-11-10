@@ -27,5 +27,18 @@ public class ShopController {
         model.addAttribute("catalog", shopRepository.findAll());
         return "add-shop";
         }
+    @PostMapping("/edit-shop")
+    private String editShop(Model model, String newShop, String link){
+        return "redirect:/add-shop";
     }
+    @PostMapping("/delete-shop")
+    private String deleteShop(Model model, Integer deleteShop){
+        if (shopRepository.existsById(deleteShop)) {
+            shopRepository.deleteById(deleteShop);
+        } else {
+            return "redirect:/add-shop";
+        }
+        return "redirect:/add-shop";
+    }
+}
 

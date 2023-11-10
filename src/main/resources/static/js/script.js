@@ -1,22 +1,18 @@
-
 document.addEventListener("DOMContentLoaded", function() {
-    const categories = JSON.parse(categoriesJson);
-
-    // console.log('Categories:', categories);
-
-    const categoryTree = document.getElementById("category-tree");
+const categories = JSON.parse(categoriesJson);
+const categoryTree = document.getElementById("category-tree");
     function createCategoryList(parentId) {
         const ul = document.createElement("ul");
-        ul.style.display = parentId === 0 ? "block" : "none"; // Изменение стиля отображения в зависимости от parentId
+        ul.style.display = parentId === 0 ? "block" : "none";
         categories.forEach((category, index, array) => {
             if (category.parentId === parentId) {
                 const li = document.createElement("li");
                 const link = document.createElement("a");
-                link.href = `#category-${category.id}`; // Установка href для отправки запроса на сервер (замените на ваш URL)
+                link.setAttribute("data-id", category.id);
+                link.href = `#${category.id}`;
                 link.textContent = category.name;
-                link.classList.add("category-link"); // Добавление класса для стилей ссылки
+                link.classList.add("category-link");
                 li.appendChild(link);
-
                 const childCategories = createCategoryList(category.id);
                 if (childCategories.childNodes.length > 0) {
                     const toggleButton = document.createElement("span");
@@ -28,20 +24,54 @@ document.addEventListener("DOMContentLoaded", function() {
                     li.insertBefore(toggleButton, link);
                     li.appendChild(childCategories);
                 } else {
-                    link.style.marginLeft = "20px"; // Добавление отступа для последней вложенной категории
+                    link.style.marginLeft = "20px";
                 }
                 ul.appendChild(li);
-
-                // Добавление обработчика события для клика по ссылке
                 link.addEventListener("click", (event) => {
                     event.preventDefault();
-                    // Вместо alert можно добавить ваш код для отправки запроса на сервер с ID категории
-                    console.log(`Отправить запрос на сервер с ID категории: ${category.id}`);
+                    const categoryId = link.getAttribute("data-id");
+                    fetch('/getCatalog', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ categoryId: categoryId })
+                    })
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error(`Network response was not ok: ${response.status}`);
+                            }
+                            return response.text();
+                        })
+                        .then(data => {
+                            console.log('Ответ от сервера:', data);
+                            // Обновляем страницу с помощью полученного HTML-кода
+                            document.documentElement.innerHTML = data;
+                        })
+                        .catch(error => {
+                            console.error('Ошибка запроса:', error);
+                        });
                 });
             }
         });
         return ul;
     }
-
     categoryTree.appendChild(createCategoryList(0));
+});
+
+
+
+var deleteButtons = document.querySelectorAll('.delete-button');
+// Перебираем каждую кнопку и добавляем обработчик события
+deleteButtons.forEach(function(button) {
+    button.addEventListener('click', function(event) {
+        // Остановим отправку формы
+        event.preventDefault();
+
+        // Здесь можно вывести модальное окно с вопросом о подтверждении
+        if (confirm('Вы уверены, что хотите удалить этого пользователя? Все данные о транзакциях пользователя так же будут удалены!')) {
+            // Если пользователь подтверждает, отправляем форму
+            event.target.closest('form').submit();
+        }
+    });
 });

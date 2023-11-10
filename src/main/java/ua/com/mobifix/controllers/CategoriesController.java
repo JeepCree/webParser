@@ -3,11 +3,10 @@ package ua.com.mobifix.controllers;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 import ua.com.mobifix.entity.Categories;
 import ua.com.mobifix.entity.CategoriesRepository;
 import ua.com.mobifix.entity.ProductRepository;
@@ -74,7 +73,32 @@ public class CategoriesController {
             model.addAttribute("catalog", categoriesRepository.findAll());
             model.addAttribute("shops", shopRepository.findAll());
             model.addAttribute("showElement", true);
-            return "catalog-settings";
+            return "redirect:/catalog-settings";
         }
+    }
+    @PostMapping("/getCatalog")
+//    @ResponseBody
+    public String getCatalog(@RequestBody String requestBody) {
+        try {
+            // Обработка тела запроса
+            System.out.println("Received POST request with body: " + requestBody);
+
+            // Добавьте ваш код обработки данных и возврата ответа
+
+            return "index";
+        } catch (Exception e) {
+            // Логирование ошибки
+            e.printStackTrace();
+            return "error";
+        }
+    }
+    @GetMapping("/getCatalog")
+    public String getCatalogget(String requestBody) {
+        // Обработка тела запроса
+        System.out.println("GetMapping: " + requestBody);
+
+        // Добавьте ваш код обработки данных и возврата ответа
+
+        return "index";
     }
 }
