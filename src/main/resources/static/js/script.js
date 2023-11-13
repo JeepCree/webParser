@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-const categories = JSON.parse(categoriesJson);
-const categoryTree = document.getElementById("category-tree");
+    const categories = JSON.parse(categoriesJson);
+    const categoryTree = document.getElementById("category-tree");
     function createCategoryList(parentId) {
         const ul = document.createElement("ul");
         ul.style.display = parentId === 0 ? "block" : "none";
@@ -58,7 +58,6 @@ const categoryTree = document.getElementById("category-tree");
     }
     categoryTree.appendChild(createCategoryList(0));
 });
-
 
 
 var deleteButtons = document.querySelectorAll('.delete-button');

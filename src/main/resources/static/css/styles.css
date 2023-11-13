@@ -95,12 +95,18 @@
     margin-right: 10px;
     border: 1px solid #000;
     padding: 10px;
+    position: static;
+    width: 30%;
+    overflow: auto;
 }
 .basic-conteiner{
     display: inline-block;
     margin-right: 10px;
     border: 1px solid #000;
     padding: 10px;
+    position: absolute;
+    width: 60%;
+    overflow: auto;
     /*display: block; !* Для использования flex-контейнера *!*/
     /*align-items: flex-start; !* Выравнивание по верхнему краю *!*/
 }

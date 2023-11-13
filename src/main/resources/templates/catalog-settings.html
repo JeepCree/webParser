@@ -59,7 +59,7 @@
 <!--        </tr>-->
     </div>
     <div class="basic-conteiner">
-        <p>basic-conteiner</p>
+        <h2>Добавить новую категорию</h2>
         <form class="menu-categories" action="/catalog-settings" method="post" name="menu-categories-form">
             <label for="parentCategory">Select parent category:</label><br>
             <select id="parentCategory" name="parentCategory" required>
@@ -85,11 +85,11 @@
             <input id="humanReadableUrl" type="text" name="humanReadableUrl" value="" required><br>
             <label for="urlImage">Enter urlImage:</label><br>
             <input id="urlImage" type="text" name="urlImage" value="" required><br>
-<!--            <label for="shop">Select shop:</label><br>-->
-<!--            <select id="shop" name="shopName">-->
-<!--                <option th:each="item : ${shops}" th:value="${item.getId()}" th:text="${item.getName()}"></option>-->
-<!--            </select>-->
-            <button>Save</button>
+            <label for="shop">Select shop:</label><br>
+            <select id="shop" name="shopName">
+                <option th:each="item : ${shops}" th:value="${item.getId()}" th:text="${item.getName()}"></option>
+            </select><br><br>
+            <button>&#10004 Save new category</button>
         </form>
     </div>
 </div>
