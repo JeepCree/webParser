@@ -41,27 +41,23 @@
 </div>
 <hr>
 <div class="body">
-    <div class="catalog-conteiner">
-        <label for="shop-catalog">Select shop:</label><br>
-        <select id="shop-catalog" name="shopName">
-            <option th:each="item : ${shops}" th:value="${item.getName()}" th:text="${item.getName()}"></option>
-        </select>
-        <p><b>Категории</b></p>
-        <div id="category-tree">
-            <!-- Здесь будет дерево категорий -->
-        </div>
-                <tr>
-                    <td th:value="${jsonString}" id="jsonStr"></td><br>
-                </tr>
-<!--        <tr th:each="item : ${catalog}">-->
-<!--            <td th:text="${item.getName()}"></td><br>-->
-<!--        </tr>-->
-    </div>
+<!--    <div class="catalog-conteiner">-->
+<!--        <label for="shop-catalog">Select shop:</label><br>-->
+<!--        <select id="shop-catalog" name="shopName">-->
+<!--            <option th:each="item : ${shops}" th:value="${item.getName()}" th:text="${item.getName()}"></option>-->
+<!--        </select>-->
+<!--        <p><b>Категории</b></p>-->
+<!--        <div id="category-tree">-->
+<!--        </div>-->
+<!--                <tr>-->
+<!--                    <td th:value="${jsonString}" id="jsonStr"></td><br>-->
+<!--                </tr>-->
+<!--    </div>-->
     <div class="basic-conteiner">
         <h2>Изменить категорию</h2>
         <form class="menu-categories" action="/catalog-settings" method="post" name="menu-categories-form">
             <label for="parentCategory">Select parent category:</label><br>
-            <select id="parentCategory" name="parentCategory" th:field="*{name}>
+            <select id="parentCategory" name="parentCategory">
                 <option value="0">Parent</option>
                 <option th:each="item : ${catalog}" th:value="${item.getId()}" th:text="${item.getName()}"></option>
             </select><br>
