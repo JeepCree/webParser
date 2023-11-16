@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import ua.com.mobifix.entity.Categories;
 import ua.com.mobifix.entity.CategoriesRepository;
+import ua.com.mobifix.entity.Shop;
 import ua.com.mobifix.entity.ShopRepository;
 import ua.com.mobifix.service.CategoryService;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -21,7 +22,7 @@ public class UiController {
     private ShopRepository shopRepository;
     private CategoriesRepository categoriesRepository;
     @Autowired
-    UiController(CategoryService categoryService,
+    public UiController(CategoryService categoryService,
                  ShopRepository shopRepository,
                  CategoriesRepository categoriesRepository){
         this.categoryService = categoryService;
@@ -29,20 +30,29 @@ public class UiController {
         this.categoriesRepository = categoriesRepository;
     }
     @GetMapping("/")
-    private String getIndexPage(Model model){
+    public String getIndexPage(Model model){
         String homePage = "Home Page";
         model.addAttribute("pageInfo", homePage);
         return "index";
     }
     @GetMapping("/add-shop")
-    private String getAddShopPage(Model model){
+    public String getAddShopPage(Model model){
         String homePage = "Add Shop";
         model.addAttribute("pageInfo", homePage);
         model.addAttribute("catalog", shopRepository.findAll());
         return "add-shop";
     }
+//    @GetMapping("/edit-shop")
+//    public String getEditShopPage(Model model, Long editShop) {
+//        String homePage = "Edit Shop";
+//        model.addAttribute("pageInfo", homePage);
+//        model.addAttribute("catalog", shopRepository.findAll());
+//        List<Shop> shop = shopRepository.getById(editShop);
+//        model.addAttribute("shop", shop);
+//        return "edit-shop";
+//    }
     @GetMapping("/shop-settings")
-    private String getShopSettingsPage(Model model){
+    public String getShopSettingsPage(Model model){
         String homePage = "Shop Settings";
         model.addAttribute("pageInfo", homePage);
         ObjectMapper objectMapper = new ObjectMapper();
@@ -58,13 +68,13 @@ public class UiController {
         return "shop-settings";
     }
     @GetMapping("/catalog")
-    private String getCatalogPage(Model model){
+    public String getCatalogPage(Model model){
         String homePage = "Catalog";
         model.addAttribute("pageInfo", homePage);
         return "catalog";
     }
     @GetMapping("/catalog-settings")
-    private String getCatalogSettingsPage(Model model){
+    public String getCatalogSettingsPage(Model model){
         String homePage = "Catalog Settings";
         model.addAttribute("pageInfo", homePage);
         if(shopRepository.findAll().isEmpty()){

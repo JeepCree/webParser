@@ -41,8 +41,8 @@
 </div>
 <hr>
 <div class="body">
-    <div class="catalog-conteiner">
-        <b><span>Магазины</span></b>
+    <div class="catalog-conteiner" id="add-shop">
+        <h2>Магазины</h2>
         <table>
         <tr th:each="item : ${catalog}">
             <td th:text="${item.getName()}"></td>
@@ -66,7 +66,7 @@
         </table>
     </div>
     <div class="basic-conteiner">
-        <p>basic-conteiner</p>
+        <h2>Добавить магазин</h2>
         <form class="menu-shops" action="/add-shop" method="post" name="menu-shops-form">
             <label for="newShop">Enter Shop name:</label><br>
             <input id="newShop" type="text" name="newShop" value="" required><br>

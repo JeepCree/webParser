@@ -40,8 +40,7 @@
     <span th:text="${pageInfo}">Page-Info</span>
 </div>
 <hr>
-<a th:if="${!showElement}" href="/add-shop">Add Shop</a>
-<div class="body" th:if="${showElement}">
+<div class="body">
     <div class="catalog-conteiner">
         <label for="shop-catalog">Select shop:</label><br>
         <select id="shop-catalog" name="shopName">
@@ -59,10 +58,10 @@
 <!--        </tr>-->
     </div>
     <div class="basic-conteiner">
-        <h2>Добавить новую категорию</h2>
+        <h2>Изменить категорию</h2>
         <form class="menu-categories" action="/catalog-settings" method="post" name="menu-categories-form">
             <label for="parentCategory">Select parent category:</label><br>
-            <select id="parentCategory" name="parentCategory" required>
+            <select id="parentCategory" name="parentCategory" th:field="*{name}>
                 <option value="0">Parent</option>
                 <option th:each="item : ${catalog}" th:value="${item.getId()}" th:text="${item.getName()}"></option>
             </select><br>
@@ -89,7 +88,7 @@
             <select id="shop" name="shopName">
                 <option th:each="item : ${shops}" th:value="${item.getId()}" th:text="${item.getName()}"></option>
             </select><br><br>
-            <button>&#10004 Save new category</button>
+            <button>&#10004 Save category</button>
         </form>
     </div>
 </div>

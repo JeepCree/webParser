@@ -66,13 +66,15 @@
         </table>
     </div>
     <div class="basic-conteiner">
-        <p>basic-conteiner</p>
-        <form class="menu-shops" action="/add-shop" method="post" name="menu-shops-form">
-            <label for="newShop">Enter Shop name:</label><br>
-            <input id="newShop" type="text" name="newShop" value="" required><br>
-            <label for="link">Enter url:</label><br>
-            <input id="link" type="text" name="link" value="" required><br><br>
-            <button>Save</button>
+        <p th:text="${shop.getName()}"></p>
+        <form class="menu-shops" action="/save-shop" method="post" name="menu-shops-form" th:object="${shop}">
+                <input type="hidden" th:field="*{id}" name="id">
+                <label for="name">Edit Shop name:</label><br>
+                <input type="text" id="name" name="name" th:field="*{name}"><br>
+                <label for="link">Edit url:</label><br>
+                <input type="text" id="link" name="link" th:field="*{link}"><br><br>
+                <button>Save</button>
+
         </form>
     </div>
 </div>

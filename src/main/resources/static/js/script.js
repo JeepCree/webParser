@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 const li = document.createElement("li");
                 const link = document.createElement("a");
                 link.setAttribute("data-id", category.id);
-                link.href = `#${category.id}`;
+                // link.href = `?id=${category.id}`;
                 link.textContent = category.name;
                 link.classList.add("category-link");
                 li.appendChild(link);
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
                 ul.appendChild(li);
                 link.addEventListener("click", (event) => {
-                    event.preventDefault();
+                    // event.preventDefault();
                     const categoryId = link.getAttribute("data-id");
                     fetch('/getCatalog', {
                         method: 'POST',

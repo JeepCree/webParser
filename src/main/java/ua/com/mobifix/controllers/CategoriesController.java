@@ -1,5 +1,6 @@
 package ua.com.mobifix.controllers;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -77,28 +78,32 @@ public class CategoriesController {
         }
     }
     @PostMapping("/getCatalog")
-//    @ResponseBody
-    public String getCatalog(@RequestBody String requestBody) {
+    public String getCatalog(@RequestBody String requestBody, Model model) {
+        ObjectMapper objectMapper = new ObjectMapper();
         try {
-            // Обработка тела запроса
-            System.out.println("Received POST request with body: " + requestBody);
-
-            // Добавьте ваш код обработки данных и возврата ответа
-
-            return "index";
+            JsonNode jsonNode = objectMapper.readTree(requestBody);
+            String categoryId = jsonNode.get("categoryId").asText();
+            System.out.println("JSON Parse" + categoryId);
+model.addAttribute("pageInfo", "JS redirect");
+            String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAll());
+            model.addAttribute("jsonString", categoriesJson);
+            System.out.println("categoriesJson" + categoriesJson);
+            model.addAttribute("catalog", categoriesRepository.findAll());
+            model.addAttribute("shops", shopRepository.findAll());
+            return "edit-catalog";
         } catch (Exception e) {
             // Логирование ошибки
             e.printStackTrace();
             return "error";
         }
     }
-    @GetMapping("/getCatalog")
-    public String getCatalogget(String requestBody) {
-        // Обработка тела запроса
-        System.out.println("GetMapping: " + requestBody);
-
-        // Добавьте ваш код обработки данных и возврата ответа
-
-        return "index";
-    }
+//    @GetMapping("/getCatalog")
+//    public String getCatalogget(String requestBody) {
+//        // Обработка тела запроса
+//        System.out.println("GetMapping: " + requestBody);
+//
+//        // Добавьте ваш код обработки данных и возврата ответа
+//
+//        return "index";
+//    }
 }
