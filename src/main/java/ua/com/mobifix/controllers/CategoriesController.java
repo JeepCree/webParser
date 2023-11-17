@@ -67,14 +67,13 @@ public class CategoriesController {
             try {
                 String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAll());
                 model.addAttribute("jsonString", categoriesJson);
-                System.out.println(categoriesJson);
             } catch (Exception e) {
                 e.printStackTrace();
             }
             model.addAttribute("catalog", categoriesRepository.findAll());
             model.addAttribute("shops", shopRepository.findAll());
             model.addAttribute("showElement", true);
-            return "redirect:/catalog-settings";
+            return "catalog-settings";
         }
     }
     @PostMapping("/getCatalog")
@@ -82,14 +81,13 @@ public class CategoriesController {
         ObjectMapper objectMapper = new ObjectMapper();
         try {
             JsonNode jsonNode = objectMapper.readTree(requestBody);
-            String categoryId = jsonNode.get("categoryId").asText();
-            System.out.println("JSON Parse" + categoryId);
-model.addAttribute("pageInfo", "JS redirect");
+            Long categoryId = jsonNode.get("categoryId").asLong();
+            model.addAttribute("pageInfo", "JS redirect");
             String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAll());
             model.addAttribute("jsonString", categoriesJson);
-            System.out.println("categoriesJson" + categoriesJson);
             model.addAttribute("catalog", categoriesRepository.findAll());
             model.addAttribute("shops", shopRepository.findAll());
+            model.addAttribute("category", categoryService.findCategoryById(categoryId));
             return "edit-catalog";
         } catch (Exception e) {
             // Логирование ошибки
@@ -97,13 +95,34 @@ model.addAttribute("pageInfo", "JS redirect");
             return "error";
         }
     }
-//    @GetMapping("/getCatalog")
-//    public String getCatalogget(String requestBody) {
-//        // Обработка тела запроса
-//        System.out.println("GetMapping: " + requestBody);
-//
-//        // Добавьте ваш код обработки данных и возврата ответа
-//
-//        return "index";
-//    }
+    @PostMapping("/save-category")
+    private String saveCategory(Model model,
+                                  Long id,
+                                  String name,
+                                  Long parentCategory,
+                                  Boolean active,
+                                  String description,
+                                  String metaTitle,
+                                  String metaDescription,
+                                  String metaKeywords,
+                                  String humanReadableUrl,
+                                  String urlImage,
+                                  String shopName){
+//        model.addAttribute("showElement", true);
+        System.out.println("NAME " + name);
+        System.out.println("PARENTID " + parentCategory);
+            Categories category = new Categories();
+            category.setName(name);
+            category.setParentId(parentCategory);
+            category.setActive(active);
+            category.setDescription(description);
+            category.setMetaTitle(metaTitle);
+            category.setMetaDescription(metaDescription);
+            category.setMetaKeywords(metaKeywords);
+            category.setHumanReadableUrl(humanReadableUrl);
+            category.setUrlImage(urlImage);
+            category.setShopName(shopName);
+            categoryService.updateCategory(id, category);
+            return "redirect:/catalog-settings";
+    }
 }

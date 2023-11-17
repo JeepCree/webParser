@@ -42,7 +42,7 @@ public class ShopController {
         return "edit-shop";
     }
     @PostMapping("/save-shop")
-    public String saveShop(Model model, Long id, String name, String link){
+    public String updateShop(Model model, Long id, String name, String link){
         Shop shop = new Shop();
         shop.setName(name);
         shop.setLink(link);

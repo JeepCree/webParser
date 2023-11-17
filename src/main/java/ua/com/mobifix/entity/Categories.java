@@ -36,13 +36,14 @@ public class Categories {
         this.id = id;
     }
 
-    public boolean isActive() {
+    public boolean getActive() {
         return active;
     }
 
     public void setActive(boolean active) {
         this.active = active;
     }
+
 
     public String getName() {
         return name;

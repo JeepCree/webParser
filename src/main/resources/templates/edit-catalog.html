@@ -54,37 +54,38 @@
 <!--                </tr>-->
 <!--    </div>-->
     <div class="basic-conteiner">
-        <h2>Изменить категорию</h2>
-        <form class="menu-categories" action="/catalog-settings" method="post" name="menu-categories-form">
+        <h2>Редактирование категории</h2>
+        <form class="menu-categories" action="/save-category" method="post" name="menu-categories-form" th:object="${category}">
+            <input type="hidden" th:field="*{id}" name="id">
             <label for="parentCategory">Select parent category:</label><br>
             <select id="parentCategory" name="parentCategory">
                 <option value="0">Parent</option>
-                <option th:each="item : ${catalog}" th:value="${item.getId()}" th:text="${item.getName()}"></option>
+                <option th:each="items : ${catalog}" th:value="${items.id}" th:text="${items.getName()}"></option>
             </select><br>
             <label for="active">Select is active category:</label><br>
-            <select id="active" name="isActive">
-                <option value="true">Yes</option>
-                <option value="false">No</option>
+            <select id="active" name="active" th:field="*{active}">
+                <option th:value="${true}">Yes</option>
+                <option th:value="${false}">No</option>
             </select><br>
-            <label for="newCategory">Enter category name:</label><br>
-            <input id="newCategory" type="text" name="newCategory" value="" required><br>
+            <label for="name">Enter category name:</label><br>
+            <input id="name" type="text" name="name" value="" th:field="${category.name}" required><br>
             <label for="description">Enter description:</label><br>
-            <input id="description" type="text" name="description" value="" required><br>
+            <input id="description" type="text" name="description" value="" th:field="*{description}" required><br>
             <label for="metaTitle">Enter metaTitle:</label><br>
-            <input id="metaTitle" type="text" name="metaTitle" value="" required><br>
+            <input id="metaTitle" type="text" name="metaTitle" value="" th:field="*{metaTitle}" required><br>
             <label for="metaDescription">Enter metaDescription:</label><br>
-            <input id="metaDescription" type="text" name="metaDescription" value="" required><br>
+            <input id="metaDescription" type="text" name="metaDescription" value="" th:field="*{metaDescription}" required><br>
             <label for="metaKeywords">Enter metaKeywords:</label><br>
-            <input id="metaKeywords" type="text" name="metaKeywords" value="" required><br>
+            <input id="metaKeywords" type="text" name="metaKeywords" value="" th:field="*{metaKeywords}" required><br>
             <label for="humanReadableUrl">Enter humanReadableUrl:</label><br>
-            <input id="humanReadableUrl" type="text" name="humanReadableUrl" value="" required><br>
+            <input id="humanReadableUrl" type="text" name="humanReadableUrl" value="" th:field="*{humanReadableUrl}" required><br>
             <label for="urlImage">Enter urlImage:</label><br>
-            <input id="urlImage" type="text" name="urlImage" value="" required><br>
+            <input id="urlImage" type="text" name="urlImage" value="" th:field="*{urlImage}" required><br>
             <label for="shop">Select shop:</label><br>
-            <select id="shop" name="shopName">
+            <select id="shop" name="shopName" th:field="*{shopName}" >
                 <option th:each="item : ${shops}" th:value="${item.getId()}" th:text="${item.getName()}"></option>
             </select><br><br>
-            <button>&#10004 Save category</button>
+            <button>&#10004 Save new category</button>
         </form>
     </div>
 </div>
