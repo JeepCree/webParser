@@ -54,13 +54,13 @@
 <!--                </tr>-->
 <!--    </div>-->
     <div class="basic-conteiner">
-        <h2>Редактирование категории</h2>
+        <h2 th:text="'Изменить категорию: ' + ${category.name}">Редактирование категории</h2>
         <form class="menu-categories" action="/save-category" method="post" name="menu-categories-form" th:object="${category}">
             <input type="hidden" th:field="*{id}" name="id">
             <label for="parentCategory">Select parent category:</label><br>
             <select id="parentCategory" name="parentCategory">
-                <option value="0">Parent</option>
-                <option th:each="items : ${catalog}" th:value="${items.id}" th:text="${items.getName()}"></option>
+                <option value="0" th:field="*{name}">Parent</option>
+                <option th:each="items : ${catalog}" th:value="${items.id}" th:text="${items.getName()}" th:field="*{name}"></option>
             </select><br>
             <label for="active">Select is active category:</label><br>
             <select id="active" name="active" th:field="*{active}">
@@ -85,7 +85,11 @@
             <select id="shop" name="shopName" th:field="*{shopName}" >
                 <option th:each="item : ${shops}" th:value="${item.getId()}" th:text="${item.getName()}"></option>
             </select><br><br>
-            <button>&#10004 Save new category</button>
+            <button>&#10004 Save this category</button>
+        </form><br>
+        <form class="delete" action="/delete-category" method="post" name="delete-categories-form" th:object="${category}">
+            <input type="hidden" th:field="*{id}" name="id">
+            <button>&#10004 Delete this category</button>
         </form>
     </div>
 </div>

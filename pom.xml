@@ -11,7 +11,7 @@
 	<groupId>ua.com.mobifix</groupId>
 	<artifactId>sellersParser</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>sellersParser</name>
 	<description>parser for internet sellers</description>
 	<properties>

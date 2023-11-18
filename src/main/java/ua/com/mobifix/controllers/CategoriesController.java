@@ -82,7 +82,7 @@ public class CategoriesController {
         try {
             JsonNode jsonNode = objectMapper.readTree(requestBody);
             Long categoryId = jsonNode.get("categoryId").asLong();
-            model.addAttribute("pageInfo", "JS redirect");
+            model.addAttribute("pageInfo", "Edit Category");
             String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAll());
             model.addAttribute("jsonString", categoriesJson);
             model.addAttribute("catalog", categoriesRepository.findAll());
@@ -108,9 +108,6 @@ public class CategoriesController {
                                   String humanReadableUrl,
                                   String urlImage,
                                   String shopName){
-//        model.addAttribute("showElement", true);
-        System.out.println("NAME " + name);
-        System.out.println("PARENTID " + parentCategory);
             Categories category = new Categories();
             category.setName(name);
             category.setParentId(parentCategory);
@@ -124,5 +121,14 @@ public class CategoriesController {
             category.setShopName(shopName);
             categoryService.updateCategory(id, category);
             return "redirect:/catalog-settings";
+    }
+    @PostMapping("/delete-category")
+    private String deleteCategory(Long id){
+        if (categoriesRepository.existsById(id.intValue())) {
+            categoriesRepository.deleteById(id.intValue());
+        } else {
+            return "redirect:/catalog-settings";
+        }
+        return "redirect:/catalog-settings";
     }
 }

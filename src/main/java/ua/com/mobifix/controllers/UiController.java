@@ -42,15 +42,6 @@ public class UiController {
         model.addAttribute("catalog", shopRepository.findAll());
         return "add-shop";
     }
-//    @GetMapping("/edit-shop")
-//    public String getEditShopPage(Model model, Long editShop) {
-//        String homePage = "Edit Shop";
-//        model.addAttribute("pageInfo", homePage);
-//        model.addAttribute("catalog", shopRepository.findAll());
-//        List<Shop> shop = shopRepository.getById(editShop);
-//        model.addAttribute("shop", shop);
-//        return "edit-shop";
-//    }
     @GetMapping("/shop-settings")
     public String getShopSettingsPage(Model model){
         String homePage = "Shop Settings";
@@ -59,8 +50,6 @@ public class UiController {
         objectMapper.enable(SerializationFeature.WRITE_ENUMS_USING_TO_STRING);
         try {
             String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAll());
-//            model.addAttribute("info", categoriesJson);
-            System.out.println(categoriesJson);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -86,7 +75,6 @@ public class UiController {
             try {
                 String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAll());
                 model.addAttribute("jsonString", categoriesJson);
-                System.out.println("GET: " + categoriesJson);
             } catch (Exception e) {
                 e.printStackTrace();
             }
