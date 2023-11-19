@@ -67,7 +67,7 @@ public class ShopController {
     @PostMapping("/save-to-json")
     public String saveToJson(){
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        try (FileWriter writer = new FileWriter("src/main/resources/data/shop_export_" + Time.getTime() + ".json")) {
+        try (FileWriter writer = new FileWriter("../src/main/resources/data/shop_export_" + Time.getTime() + ".json")) {
             gson.toJson(shopRepository.findAll(), writer);
         } catch (IOException e) {
             e.printStackTrace();
