@@ -7,6 +7,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -85,12 +86,13 @@ public class CategoriesController {
     }
     @PostMapping("/getCatalog")
     public String getCatalog(@RequestBody String requestBody, Model model) throws JsonProcessingException {
+
         model.addAttribute("pageInfo", "Edit Category");
         ObjectMapper objectMapper = new ObjectMapper();
         try {
             JsonNode jsonNode = objectMapper.readTree(requestBody);
             Long categoryId = jsonNode.get("categoryId").asLong();
-            String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAll());
+            String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAll(Sort.by(Sort.Order.asc("name"))));
             model.addAttribute("jsonString", categoriesJson);
             model.addAttribute("catalog", categoriesRepository.findAll());
             model.addAttribute("shops", shopRepository.findAll());

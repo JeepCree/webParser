@@ -175,14 +175,14 @@ hr {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    border: 1px solid #242524;
+    border: 1px solid #a9a8a8;
     border-radius: 5px;
-    background-color: #ffffff;
+    background-color: #e7e7e7;
     color: #000000;
     transition: background-color 0.3s, color 0.3s;
 }
 .save-button:hover {
-    background-color: #1fc700;
+    background-color: #73cb63;
     border-color: #242524;
     color: #000000;
 }
@@ -197,9 +197,9 @@ hr {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    border: 1px solid #242524;
+    border: 1px solid #a9a8a8;
     border-radius: 5px;
-    background-color: #ffffff;
+    background-color: #e7e7e7;
     color: #000000;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -219,9 +219,9 @@ hr {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    border: 1px solid #242524;
+    border: 1px solid #a9a8a8;
     border-radius: 5px;
-    background-color: #ffffff;
+    background-color: #e7e7e7;
     color: #000000;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -229,6 +229,11 @@ hr {
     background-color: #ff4848;
     border-color: #242524;
     color: #000000;
+}
+
+.button-content {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .save-to-json {

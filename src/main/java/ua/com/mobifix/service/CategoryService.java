@@ -2,6 +2,7 @@ package ua.com.mobifix.service;
 
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import ua.com.mobifix.entity.Categories;
 import ua.com.mobifix.entity.CategoriesRepository;
