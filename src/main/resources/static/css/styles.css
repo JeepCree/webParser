@@ -114,7 +114,7 @@
     border: 1px solid #000;
     padding: 20px;
     position: absolute;
-    width: 60%;
+    width: 75%;
     min-height: 80vh;
     overflow: auto;
     box-shadow: 5px 5px 7px #575651;
@@ -156,15 +156,77 @@ ul, li {
     border-radius: 5px; /* Скругление углов */
 }
 
-/*.body {*/
-/*    display: inline;*/
-/*    border: 1px solid #000;*/
-/*}*/
 
 h2 {
-    text-align: center;
+    text-align: left;
 }
 hr {
     box-shadow: 0px 0px 4px #1bb300;
     margin-bottom: 15px;
+}
+
+.save-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #242524;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+}
+.save-button:hover {
+    background-color: #1fc700;
+    border-color: #242524;
+    color: #000000;
+}
+
+.edit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #242524;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+}
+.edit-button:hover {
+    background-color: #ffdd53;
+    border-color: #242524;
+    color: #000000;
+}
+
+.delete-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #242524;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+}
+.delete-button:hover {
+    background-color: #ff4848;
+    border-color: #242524;
+    color: #000000;
 }
