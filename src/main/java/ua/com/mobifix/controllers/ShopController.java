@@ -1,5 +1,7 @@
 package ua.com.mobifix.controllers;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -11,6 +13,10 @@ import ua.com.mobifix.entity.Categories;
 import ua.com.mobifix.entity.Shop;
 import ua.com.mobifix.entity.ShopRepository;
 import ua.com.mobifix.service.ShopService;
+import ua.com.mobifix.service.Time;
+
+import java.io.FileWriter;
+import java.io.IOException;
 
 @Controller
 @RequestMapping(path="/")
@@ -55,6 +61,16 @@ public class ShopController {
             shopRepository.deleteById(deleteShop);
         } else {
             return "redirect:/add-shop";
+        }
+        return "redirect:/add-shop";
+    }
+    @PostMapping("/save-to-json")
+    public String saveToJson(){
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        try (FileWriter writer = new FileWriter("src/main/resources/data/shop_export_" + Time.getTime() + ".json")) {
+            gson.toJson(shopRepository.findAll(), writer);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
         return "redirect:/add-shop";
     }

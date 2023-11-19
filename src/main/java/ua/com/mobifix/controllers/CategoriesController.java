@@ -1,8 +1,11 @@
 package ua.com.mobifix.controllers;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -14,6 +17,10 @@ import ua.com.mobifix.entity.ProductRepository;
 import ua.com.mobifix.entity.ShopRepository;
 import ua.com.mobifix.service.CategoryService;
 import ua.com.mobifix.service.ShopService;
+import ua.com.mobifix.service.Time;
+
+import java.io.FileWriter;
+import java.io.IOException;
 
 @Controller
 @RequestMapping(path="/")
@@ -77,22 +84,27 @@ public class CategoriesController {
         }
     }
     @PostMapping("/getCatalog")
-    public String getCatalog(@RequestBody String requestBody, Model model) {
+    public String getCatalog(@RequestBody String requestBody, Model model) throws JsonProcessingException {
+        model.addAttribute("pageInfo", "Edit Category");
         ObjectMapper objectMapper = new ObjectMapper();
         try {
             JsonNode jsonNode = objectMapper.readTree(requestBody);
             Long categoryId = jsonNode.get("categoryId").asLong();
-            model.addAttribute("pageInfo", "Edit Category");
             String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAll());
             model.addAttribute("jsonString", categoriesJson);
             model.addAttribute("catalog", categoriesRepository.findAll());
             model.addAttribute("shops", shopRepository.findAll());
             model.addAttribute("category", categoryService.findCategoryById(categoryId));
+
+                model.addAttribute("parentCategoryName", categoryService.findCategoryById(categoryService.findCategoryById(categoryId).getParentId()).getName());
+
+            System.out.println(categoryService.findCategoryById(categoryService.findCategoryById(categoryId).getParentId()).getName());
             return "edit-catalog";
         } catch (Exception e) {
-            // Логирование ошибки
-            e.printStackTrace();
-            return "error";
+            JsonNode jsonNode = objectMapper.readTree(requestBody);
+            Long categoryId = jsonNode.get("categoryId").asLong();
+            model.addAttribute("parentCategoryName", "Parent");
+            return "edit-catalog";
         }
     }
     @PostMapping("/save-category")
@@ -128,6 +140,16 @@ public class CategoriesController {
             categoriesRepository.deleteById(id.intValue());
         } else {
             return "redirect:/catalog-settings";
+        }
+        return "redirect:/catalog-settings";
+    }
+    @PostMapping("/save-categories-to-json")
+    public String saveCartegoriesToJson(){
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        try (FileWriter writer = new FileWriter("src/main/resources/data/categories_export_" + Time.getTime() + ".json")) {
+            gson.toJson(categoriesRepository.findAll(), writer);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
         return "redirect:/catalog-settings";
     }

@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     li.insertBefore(toggleButton, link);
                     li.appendChild(childCategories);
                 } else {
-                    link.style.marginLeft = "20px";
+                    // link.style.marginLeft = "20px";
                 }
                 ul.appendChild(li);
                 link.addEventListener("click", (event) => {
