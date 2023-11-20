@@ -22,6 +22,8 @@ import ua.com.mobifix.service.Time;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Comparator;
+import java.util.stream.Collectors;
 
 @Controller
 @RequestMapping(path="/")
@@ -92,15 +94,12 @@ public class CategoriesController {
         try {
             JsonNode jsonNode = objectMapper.readTree(requestBody);
             Long categoryId = jsonNode.get("categoryId").asLong();
-            String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAll(Sort.by(Sort.Order.asc("name"))));
+            String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAllByOrderByNameAsc());
             model.addAttribute("jsonString", categoriesJson);
-            model.addAttribute("catalog", categoriesRepository.findAll());
+            model.addAttribute("catalog", categoriesRepository.findAllByOrderByNameAsc());
             model.addAttribute("shops", shopRepository.findAll());
             model.addAttribute("category", categoryService.findCategoryById(categoryId));
-
-                model.addAttribute("parentCategoryName", categoryService.findCategoryById(categoryService.findCategoryById(categoryId).getParentId()).getName());
-
-            System.out.println(categoryService.findCategoryById(categoryService.findCategoryById(categoryId).getParentId()).getName());
+            model.addAttribute("parentCategoryName", categoryService.findCategoryById(categoryService.findCategoryById(categoryId).getParentId()).getName());
             return "edit-catalog";
         } catch (Exception e) {
             JsonNode jsonNode = objectMapper.readTree(requestBody);
@@ -148,8 +147,8 @@ public class CategoriesController {
     @PostMapping("/save-categories-to-json")
     public String saveCartegoriesToJson(){
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        try (FileWriter writer = new FileWriter("../src/main/resources/data/categories_export_" + Time.getTime() + ".json")) {
-            gson.toJson(categoriesRepository.findAll(), writer);
+        try (FileWriter writer = new FileWriter("C:\\Users\\dima2\\IdeaProjects\\webParser\\src\\main\\resources\\data\\categories_export_" + Time.getTime() + ".json")) {
+            gson.toJson(categoriesRepository.findAllByOrderByNameAsc(), writer);
         } catch (IOException e) {
             e.printStackTrace();
         }

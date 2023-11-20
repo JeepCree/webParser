@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 public class Shop {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    long id;
+    Long id;
     String name;
     String link;
     public long getId() {

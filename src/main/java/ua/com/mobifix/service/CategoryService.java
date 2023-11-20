@@ -8,8 +8,10 @@ import ua.com.mobifix.entity.Categories;
 import ua.com.mobifix.entity.CategoriesRepository;
 import ua.com.mobifix.entity.Shop;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 public class CategoryService {
@@ -41,4 +43,8 @@ public class CategoryService {
         existingCategory.setShopName(category.getShopName());
         return categoriesRepository.save(existingCategory);
     }
+    public List<Categories> sortAscByName() {
+        return categoriesRepository.findAll().stream().sorted(Comparator.comparing(x -> x.getName())).collect(Collectors.toList());
+    }
+
 }

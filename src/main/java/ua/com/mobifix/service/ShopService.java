@@ -7,7 +7,9 @@ import ua.com.mobifix.entity.CategoriesRepository;
 import ua.com.mobifix.entity.Shop;
 import ua.com.mobifix.entity.ShopRepository;
 
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class ShopService {
@@ -28,5 +30,8 @@ public class ShopService {
         existingShop.setName(shop.getName());
         existingShop.setLink(shop.getLink());
         return shopRepository.save(existingShop);
+    }
+    public List<Shop> sortAscByName() {
+        return shopRepository.findAll().stream().sorted(Comparator.comparing(x -> x.getName())).collect(Collectors.toList());
     }
 }

@@ -17,6 +17,9 @@ import ua.com.mobifix.service.Time;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Collectors;
 
 @Controller
 @RequestMapping(path="/")
@@ -34,7 +37,7 @@ public class ShopController {
         shop.setName(newShop);
         shop.setLink(link);
         shopRepository.save(shop);
-        model.addAttribute("catalog", shopRepository.findAll());
+        model.addAttribute("catalog", shopRepository.findAllByOrderByNameAsc());
         return "add-shop";
         }
 
@@ -42,7 +45,7 @@ public class ShopController {
     public String editShop(Model model, Long editShop ){
         String homePage = "Edit Shop";
         model.addAttribute("pageInfo", homePage);
-        model.addAttribute("catalog", shopRepository.findAll());
+        model.addAttribute("catalog", shopRepository.findAllByOrderByNameAsc());
         Shop shop = shopRepository.getById(editShop);
         model.addAttribute("shop", shop);
         return "edit-shop";
@@ -67,12 +70,13 @@ public class ShopController {
     @PostMapping("/save-to-json")
     public String saveToJson(){
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        try (FileWriter writer = new FileWriter("../src/main/resources/data/shop_export_" + Time.getTime() + ".json")) {
-            gson.toJson(shopRepository.findAll(), writer);
+        try (FileWriter writer = new FileWriter("C:\\Users\\dima2\\IdeaProjects\\webParser\\src\\main\\resources\\data\\shop_export_" + Time.getTime() + ".json")) {
+            gson.toJson(shopRepository.findAllByOrderByNameAsc(), writer);
         } catch (IOException e) {
             e.printStackTrace();
         }
         return "redirect:/add-shop";
     }
+
 }
 
