@@ -40,6 +40,26 @@
     <span th:text="${pageInfo}">Page-Info</span>
 </div>
 <hr>
-<script src="../static/js/script.js" th:src="@{/js/script.js}"></script>
+<div class="body">
+    <div class="catalog-conteiner">
+        <!--        <label for="shop-catalog">Select shop:</label><br>-->
+        <!--        <select id="shop-catalog" name="shopName">-->
+        <!--            <option th:each="item : ${shops}" th:value="${item.getName()}" th:text="${item.getName()}"></option>-->
+        <!--        </select>-->
+        <p><b>Категории</b></p>
+        <div id="category-tree">
+            <tr>
+                <td th:value="${jsonString}" id="jsonStr"></td>
+            </tr>
+        </div>
+
+    </div>
+    <div class="basic-conteiner">
+    </div>
+</div>
+<script th:inline="javascript">
+    var categoriesJson = /*[[${jsonString}]]*/ '';
+</script>
+<script src="../static/js/script.js" th:src="@{/js/script-for-catalog.js}"></script>
 </body>
 </html>

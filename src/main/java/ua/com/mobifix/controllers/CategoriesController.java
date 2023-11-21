@@ -22,7 +22,9 @@ import ua.com.mobifix.service.Time;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.Comparator;
+import java.util.List;
 import java.util.stream.Collectors;
 
 @Controller
@@ -96,7 +98,8 @@ public class CategoriesController {
             Long categoryId = jsonNode.get("categoryId").asLong();
             String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAllByOrderByNameAsc());
             model.addAttribute("jsonString", categoriesJson);
-            model.addAttribute("catalog", categoriesRepository.findAllByOrderByNameAsc());
+            List<Long> categoryIds = Arrays.asList(categoryId);
+            model.addAttribute("catalog", categoriesRepository.findAllByIdNotInOrderByNameAsc(categoryIds));
             model.addAttribute("shops", shopRepository.findAll());
             model.addAttribute("category", categoryService.findCategoryById(categoryId));
             model.addAttribute("parentCategoryName", categoryService.findCategoryById(categoryService.findCategoryById(categoryId).getParentId()).getName());
@@ -107,6 +110,25 @@ public class CategoriesController {
             model.addAttribute("parentCategoryName", "Parent");
             return "edit-catalog";
         }
+    }
+    @PostMapping("/getAllCatalog")
+    public String getAllCatalog(@RequestBody String requestBody, Model model) throws JsonProcessingException {
+
+        model.addAttribute("pageInfo", "All Catalog");
+
+        try {
+            ObjectMapper objectMapper = new ObjectMapper();
+            String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAllByOrderByNameAsc());
+            model.addAttribute("jsonString", categoriesJson);
+            ObjectMapper objectMapper2 = new ObjectMapper();
+            JsonNode jsonNode = objectMapper2.readTree(requestBody);
+            Long categoryId = jsonNode.get("categoryId").asLong();
+
+            return "redirect:/catalog";
+        } catch (Exception e) {
+           e.printStackTrace();
+        }
+        return "redirect:/catalog";
     }
     @PostMapping("/save-category")
     private String saveCategory(Model model,

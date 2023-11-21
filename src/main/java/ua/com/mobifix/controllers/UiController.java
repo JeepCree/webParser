@@ -39,7 +39,7 @@ public class UiController {
     public String getAddShopPage(Model model){
         String homePage = "Add Shop";
         model.addAttribute("pageInfo", homePage);
-        model.addAttribute("catalog", shopRepository.findAll());
+        model.addAttribute("catalog", shopRepository.findAllByOrderByNameAsc());
         return "add-shop";
     }
     @GetMapping("/shop-settings")
@@ -49,7 +49,7 @@ public class UiController {
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.enable(SerializationFeature.WRITE_ENUMS_USING_TO_STRING);
         try {
-            String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAll());
+            String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAllByOrderByNameAsc());
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -60,6 +60,13 @@ public class UiController {
     public String getCatalogPage(Model model){
         String homePage = "Catalog";
         model.addAttribute("pageInfo", homePage);
+        ObjectMapper objectMapper = new ObjectMapper();
+        try {
+            String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAllByOrderByNameAsc());
+            model.addAttribute("jsonString", categoriesJson);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return "catalog";
     }
     @GetMapping("/catalog-settings")
@@ -73,14 +80,14 @@ public class UiController {
         } else {
             ObjectMapper objectMapper = new ObjectMapper();
             try {
-                String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAll());
+                String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAllByOrderByNameAsc());
                 model.addAttribute("jsonString", categoriesJson);
             } catch (Exception e) {
                 e.printStackTrace();
             }
             model.addAttribute("showElement", true);
-            model.addAttribute("catalog", categoryService.getAllCategories());
-            model.addAttribute("shops", shopRepository.findAll());
+            model.addAttribute("catalog", categoriesRepository.findAllByOrderByNameAsc());
+            model.addAttribute("shops", shopRepository.findAllByOrderByNameAsc());
         }
         return "catalog-settings";
     }

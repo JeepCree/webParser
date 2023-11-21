@@ -31,7 +31,4 @@ public class ShopService {
         existingShop.setLink(shop.getLink());
         return shopRepository.save(existingShop);
     }
-    public List<Shop> sortAscByName() {
-        return shopRepository.findAll().stream().sorted(Comparator.comparing(x -> x.getName())).collect(Collectors.toList());
-    }
 }
