@@ -18,12 +18,6 @@ public class ShopService {
     public ShopService (ShopRepository shopRepository){
         this.shopRepository = shopRepository;
     }
-    public List<Shop> getAllShops(){
-        return shopRepository.findAll();
-    }
-    public Shop save(Shop shop){
-        return shopRepository.save(shop);
-    }
     public Shop updateShop(Long id, Shop shop){
         Shop existingShop = shopRepository.findById(id.intValue())
                 .orElseThrow(() -> new EntityNotFoundException("Магазин с id " + id + " не найден"));

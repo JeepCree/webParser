@@ -20,12 +20,9 @@ public class CategoryService {
     public CategoryService(CategoriesRepository categoriesRepository){
         this.categoriesRepository = categoriesRepository;
     }
-    public List<Categories> getAllCategories(){
-        return categoriesRepository.findAll();
-    }
-    public Categories findCategoryById(Long categoryId) {
+     public Categories findCategoryById(Long categoryId) {
         Optional<Categories> optionalCategory = categoriesRepository.findById(categoryId.intValue());
-        return optionalCategory.orElse(null); // возвращает объект Categories или null, если он отсутствует
+        return optionalCategory.orElse(null);
     }
     public Categories updateCategory (Long id, Categories category){
         Categories existingCategory = categoriesRepository.findById(id.intValue())
@@ -43,8 +40,4 @@ public class CategoryService {
         existingCategory.setShopName(category.getShopName());
         return categoriesRepository.save(existingCategory);
     }
-    public List<Categories> sortAscByName() {
-        return categoriesRepository.findAll().stream().sorted(Comparator.comparing(x -> x.getName())).collect(Collectors.toList());
-    }
-
 }

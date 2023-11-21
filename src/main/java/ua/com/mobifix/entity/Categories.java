@@ -21,13 +21,6 @@ public class Categories {
     private String humanReadableUrl;
     private String urlImage;
     private String shopName;
-//    public Categories(){
-//        if (parentId.equals(0)){
-//            this.rootCategory = true;
-//        } else {
-//            this.rootCategory = false;
-//        }
-//    }
     public Long getId() {
         return id;
     }
@@ -43,7 +36,6 @@ public class Categories {
     public void setActive(boolean active) {
         this.active = active;
     }
-
 
     public String getName() {
         return name;
