@@ -240,3 +240,7 @@ hr {
     position: absolute;
     bottom: 20px;
 }
+
+.catalog-table, .table-line, .table-sheet {
+    border: 1px solid black;
+}

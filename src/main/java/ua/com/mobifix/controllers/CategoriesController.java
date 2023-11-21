@@ -111,11 +111,9 @@ public class CategoriesController {
             return "edit-catalog";
         }
     }
-    @PostMapping("/getAllCatalog")
+    @PostMapping("/get-all-catalog")
     public String getAllCatalog(@RequestBody String requestBody, Model model) throws JsonProcessingException {
-
         model.addAttribute("pageInfo", "All Catalog");
-
         try {
             ObjectMapper objectMapper = new ObjectMapper();
             String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAllByOrderByNameAsc());
@@ -123,12 +121,12 @@ public class CategoriesController {
             ObjectMapper objectMapper2 = new ObjectMapper();
             JsonNode jsonNode = objectMapper2.readTree(requestBody);
             Long categoryId = jsonNode.get("categoryId").asLong();
-
-            return "redirect:/catalog";
+            return "catalog";
         } catch (Exception e) {
            e.printStackTrace();
+            return "catalog";
         }
-        return "redirect:/catalog";
+
     }
     @PostMapping("/save-category")
     private String saveCategory(Model model,
