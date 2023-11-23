@@ -17,6 +17,7 @@ import ua.com.mobifix.entity.CategoriesRepository;
 import ua.com.mobifix.entity.ProductRepository;
 import ua.com.mobifix.entity.ShopRepository;
 import ua.com.mobifix.service.CategoryService;
+import ua.com.mobifix.service.ProductService;
 import ua.com.mobifix.service.ShopService;
 import ua.com.mobifix.service.Time;
 
@@ -32,17 +33,24 @@ import java.util.stream.Collectors;
 public class CategoriesController {
     private final CategoriesRepository categoriesRepository;
     private final ShopRepository shopRepository;
+    private final ProductRepository productRepository;
     private final CategoryService categoryService;
     private final ShopService shopService;
+    private final ProductService productService;
+
     @Autowired
     public CategoriesController(CategoriesRepository categoriesRepository,
                                 CategoryService categoryService,
                                 ShopService shopService,
-                                ShopRepository shopRepository){
+                                ShopRepository shopRepository,
+                                ProductService productService,
+                                ProductRepository productRepository){
         this.categoriesRepository = categoriesRepository;
         this.categoryService = categoryService;
         this.shopService = shopService;
         this.shopRepository = shopRepository;
+        this.productService = productService;
+        this.productRepository = productRepository;
     }
     @PostMapping("/catalog-settings")
     private String addNewCategory(Model model,
@@ -90,7 +98,6 @@ public class CategoriesController {
     }
     @PostMapping("/getCatalog")
     public String getCatalog(@RequestBody String requestBody, Model model) throws JsonProcessingException {
-
         model.addAttribute("pageInfo", "Edit Category");
         ObjectMapper objectMapper = new ObjectMapper();
         try {
@@ -114,13 +121,24 @@ public class CategoriesController {
     @PostMapping("/get-all-catalog")
     public String getAllCatalog(@RequestBody String requestBody, Model model) throws JsonProcessingException {
         model.addAttribute("pageInfo", "All Catalog");
+        ObjectMapper objectMapper = new ObjectMapper();
         try {
-            ObjectMapper objectMapper = new ObjectMapper();
             String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAllByOrderByNameAsc());
             model.addAttribute("jsonString", categoriesJson);
-            ObjectMapper objectMapper2 = new ObjectMapper();
-            JsonNode jsonNode = objectMapper2.readTree(requestBody);
-            Long categoryId = jsonNode.get("categoryId").asLong();
+            JsonNode jsonNode = objectMapper.readTree(requestBody);
+            String categoryIds = jsonNode.get("categoryIds").asText();
+            System.out.println(categoryIds);
+
+            List<Long> categoryIdsList = Arrays.asList(categoryIds.split(","))
+                    .stream()
+                    .map(Long::parseLong)
+                    .collect(Collectors.toList());
+
+            model.addAttribute("productList", productRepository.findAllByCategoriesIn(categoryIdsList));
+            System.out.println(productRepository.findAllByCategoriesIn(categoryIdsList));
+
+
+
             return "catalog";
         } catch (Exception e) {
            e.printStackTrace();

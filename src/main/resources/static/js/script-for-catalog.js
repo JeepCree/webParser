@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const categories = JSON.parse(categoriesJson);
+    console.log(categories);
     const categoryTree = document.getElementById("category-tree");
 
     function createCategoryList(parentId) {
@@ -33,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 ul.appendChild(li);
 
                 link.addEventListener("click", (event) => {
-                    event.preventDefault();
+                    // event.preventDefault();
                     const categoryId = link.getAttribute("data-id");
                     const descendantIds = getDescendantIds(category);
                     const idsToSend = [categoryId, ...descendantIds].join(',');
@@ -55,6 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             console.log('Ответ от сервера:', data);
                             // Обновляем страницу с помощью полученного HTML-кода
                             document.documentElement.innerHTML = data;
+                            location.reload();
                         })
                         .catch(error => {
                             console.error('Ошибка запроса:', error);

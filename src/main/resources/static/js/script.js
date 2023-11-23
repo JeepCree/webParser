@@ -47,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             console.log('Ответ от сервера:', data);
                             // Обновляем страницу с помощью полученного HTML-кода
                             document.documentElement.innerHTML = data;
+                            // location.reload();
                         })
                         .catch(error => {
                             console.error('Ошибка запроса:', error);

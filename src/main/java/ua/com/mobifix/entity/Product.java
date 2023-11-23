@@ -10,7 +10,7 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String article;
-    private String categories;
+    private Long categories;
     private String name;
     private String stock;
     private String price;

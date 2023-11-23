@@ -42,22 +42,17 @@
 <hr>
 <div class="body">
     <div class="catalog-conteiner">
-        <!--        <label for="shop-catalog">Select shop:</label><br>-->
-        <!--        <select id="shop-catalog" name="shopName">-->
-        <!--            <option th:each="item : ${shops}" th:value="${item.getName()}" th:text="${item.getName()}"></option>-->
-        <!--        </select>-->
         <p><b>Категории</b></p>
         <div id="category-tree">
-            <tr>
-                <td th:value="${jsonString}" id="jsonStr"></td>
-            </tr>
+<!--            <tr>-->
+<!--                <td th:value="${jsonString}" id="jsonStr"></td>-->
+<!--            </tr>-->
         </div>
-
     </div>
     <div class="basic-conteiner">
-        <table class="catalog-table">
-            <tr class="table-line">
-                <td class="table-sheet">Article</td>
+        <table class="catalog-table" >
+            <tr class="table-line" th:each="item : ${catalog}">
+                <td class="table-sheet" th:text="${ite}">Article</td>
                 <td class="table-sheet">Categories</td>
                 <td class="table-sheet">Name</td>
                 <td class="table-sheet">Stock</td>
@@ -70,6 +65,6 @@
 <script th:inline="javascript">
     var categoriesJson = /*[[${jsonString}]]*/ '';
 </script>
-<script src="../static/js/script.js" th:src="@{/js/script-for-catalog.js}"></script>
+<script src="../static/js/script-for-catalog.js" th:src="@{/js/script-for-catalog.js}"></script>
 </body>
 </html>
