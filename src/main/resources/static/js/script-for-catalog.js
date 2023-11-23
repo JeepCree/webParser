@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const categoryTree = document.getElementById("category-tree");
 
     function createCategoryList(parentId) {
+
         const ul = document.createElement("ul");
         ul.style.display = parentId === 0 ? "block" : "none";
 
@@ -47,16 +48,17 @@ document.addEventListener("DOMContentLoaded", function() {
                         body: JSON.stringify({ categoryIds: idsToSend })
                     })
                         .then(response => {
+                            location.reload();
                             if (!response.ok) {
                                 throw new Error(`Network response was not ok: ${response.status}`);
                             }
                             return response.text();
                         })
                         .then(data => {
-                            console.log('Ответ от сервера:', data);
+                            // console.log('Ответ от сервера:', data);
+                            // location.reload();
                             // Обновляем страницу с помощью полученного HTML-кода
                             document.documentElement.innerHTML = data;
-                            location.reload();
                         })
                         .catch(error => {
                             console.error('Ошибка запроса:', error);

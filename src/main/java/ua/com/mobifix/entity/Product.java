@@ -34,11 +34,11 @@ public class Product {
         this.article = article;
     }
 
-    public String getCategories() {
+    public Long getCategories() {
         return categories;
     }
 
-    public void setCategories(String categories) {
+    public void setCategories(Long categories) {
         this.categories = categories;
     }
 
