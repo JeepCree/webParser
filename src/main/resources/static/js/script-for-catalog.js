@@ -48,17 +48,19 @@ document.addEventListener("DOMContentLoaded", function() {
                         body: JSON.stringify({ categoryIds: idsToSend })
                     })
                         .then(response => {
-                            location.reload();
+
                             if (!response.ok) {
                                 throw new Error(`Network response was not ok: ${response.status}`);
                             }
                             return response.text();
+
                         })
                         .then(data => {
                             // console.log('Ответ от сервера:', data);
-                            // location.reload();
+                            location.reload();
                             // Обновляем страницу с помощью полученного HTML-кода
                             document.documentElement.innerHTML = data;
+                            // location.reload();
                         })
                         .catch(error => {
                             console.error('Ошибка запроса:', error);
