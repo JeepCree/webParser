@@ -51,8 +51,16 @@
     </div>
     <div class="basic-conteiner">
         <table class="catalog-table" >
-            <tr class="table-line" th:each="item : ${productList}">
+            <tr class="table-line">
                 <td class="table-sheet">Article</td>
+                <td class="table-sheet">Categories</td>
+                <td class="table-sheet">Name</td>
+                <td class="table-sheet">Stock</td>
+                <td class="table-sheet">Price</td>
+                <td class="table-sheet">Link</td>
+            </tr>
+            <tr class="table-line" th:each="item : ${productList}">
+                <td class="table-sheet" th:text="${item.getArticle()}">Article</td>
                 <td class="table-sheet" th:text="${item.getCategories()}">Categories</td>
                 <td class="table-sheet" th:text="${item.getName()}">Name</td>
                 <td class="table-sheet" th:text="${item.getStock()}">Stock</td>

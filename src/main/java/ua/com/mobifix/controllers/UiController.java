@@ -7,10 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import ua.com.mobifix.entity.Categories;
-import ua.com.mobifix.entity.CategoriesRepository;
-import ua.com.mobifix.entity.Shop;
-import ua.com.mobifix.entity.ShopRepository;
+import ua.com.mobifix.entity.*;
 import ua.com.mobifix.service.CategoryService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -22,13 +19,16 @@ public class UiController {
     private CategoryService categoryService;
     private ShopRepository shopRepository;
     private CategoriesRepository categoriesRepository;
+    private ProductRepository productRepository;
     @Autowired
     public UiController(CategoryService categoryService,
                  ShopRepository shopRepository,
-                 CategoriesRepository categoriesRepository){
+                 CategoriesRepository categoriesRepository,
+                        ProductRepository productRepository){
         this.categoryService = categoryService;
         this.shopRepository = shopRepository;
         this.categoriesRepository = categoriesRepository;
+        this.productRepository = productRepository;
     }
     @GetMapping("/")
     public String getIndexPage(Model model){
@@ -68,6 +68,7 @@ public class UiController {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        model.addAttribute("productList", productRepository.findAll());
         return "catalog";
     }
     @GetMapping("/catalog-settings")

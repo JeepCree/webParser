@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             return response.text();
                         })
                         .then(data => {
-                            console.log('Ответ от сервера:', data);
+                            // console.log('Ответ от сервера:', data);
                             // Обновляем страницу с помощью полученного HTML-кода
                             document.documentElement.innerHTML = data;
                             // location.reload();
@@ -60,9 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
     categoryTree.appendChild(createCategoryList(0));
 });
 
-
-var deleteButtons = document.querySelectorAll('.delete-button');
-// Перебираем каждую кнопку и добавляем обработчик события
+let deleteButtons = document.querySelectorAll('.delete-button');
 deleteButtons.forEach(function(button) {
     button.addEventListener('click', function(event) {
         // Остановим отправку формы

@@ -127,18 +127,11 @@ public class CategoriesController {
             model.addAttribute("jsonString", categoriesJson);
             JsonNode jsonNode = objectMapper.readTree(requestBody);
             String categoryIds = jsonNode.get("categoryIds").asText();
-            System.out.println(categoryIds);
-
             List<Long> categoryIdsList = Arrays.asList(categoryIds.split(","))
                     .stream()
                     .map(Long::parseLong)
                     .collect(Collectors.toList());
-
             model.addAttribute("productList", productRepository.findAllByCategoriesIn(categoryIdsList));
-            System.out.println(productRepository.findAllByCategoriesIn(categoryIdsList));
-
-
-
             return "catalog";
         } catch (Exception e) {
            e.printStackTrace();

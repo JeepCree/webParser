@@ -1,10 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const categories = JSON.parse(categoriesJson);
-    console.log(categories);
     const categoryTree = document.getElementById("category-tree");
 
     function createCategoryList(parentId) {
-
         const ul = document.createElement("ul");
         ul.style.display = parentId === 0 ? "block" : "none";
 
@@ -35,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 ul.appendChild(li);
 
                 link.addEventListener("click", (event) => {
-                    // event.preventDefault();
+                    event.preventDefault();  // Отмена действия по умолчанию
                     const categoryId = link.getAttribute("data-id");
                     const descendantIds = getDescendantIds(category);
                     const idsToSend = [categoryId, ...descendantIds].join(',');
@@ -48,19 +46,16 @@ document.addEventListener("DOMContentLoaded", function() {
                         body: JSON.stringify({ categoryIds: idsToSend })
                     })
                         .then(response => {
-
                             if (!response.ok) {
                                 throw new Error(`Network response was not ok: ${response.status}`);
                             }
                             return response.text();
-
                         })
                         .then(data => {
-                            // console.log('Ответ от сервера:', data);
-                            location.reload();
-                            // Обновляем страницу с помощью полученного HTML-кода
-                            document.documentElement.innerHTML = data;
-                            // location.reload();
+                            document.body.innerHTML = data;
+                            const updatedCategoryTree = document.getElementById("category-tree");
+                            updatedCategoryTree.innerHTML = "";
+                            updatedCategoryTree.appendChild(createCategoryList(0));
                         })
                         .catch(error => {
                             console.error('Ошибка запроса:', error);
@@ -85,6 +80,7 @@ document.addEventListener("DOMContentLoaded", function() {
         return descendantIds;
     }
 });
+
 
 
 
