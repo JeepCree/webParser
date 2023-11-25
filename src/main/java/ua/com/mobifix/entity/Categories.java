@@ -1,19 +1,17 @@
 package ua.com.mobifix.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
 public class Categories {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private boolean active;
     private String name;
     private Long parentId;
     private boolean rootCategory;
+    @Column(length = 80192)
     private String description;
     private String metaTitle;
     private String metaDescription;

@@ -43,29 +43,27 @@
 <div class="body">
     <div class="catalog-conteiner">
         <p><b>Категории</b></p>
-        <div id="category-tree">
-<!--            <tr>-->
-<!--                <td th:value="${jsonString}" id="jsonStr"></td>-->
-<!--            </tr>-->
-        </div>
+        <div id="category-tree"></div>
     </div>
     <div class="basic-conteiner">
         <table class="catalog-table" >
-            <tr class="table-line">
-                <td class="table-sheet">Article</td>
-                <td class="table-sheet">Categories</td>
-                <td class="table-sheet">Name</td>
-                <td class="table-sheet">Stock</td>
-                <td class="table-sheet">Price</td>
-                <td class="table-sheet">Link</td>
+            <thead>
+            <tr class="table-line-first">
+                <th class="table-sheet-article">Article</th>
+<!--                <th class="table-sheet-categories">Categories</th>-->
+                <th class="table-sheet-name">Name</th>
+                <th class="table-sheet-stock">Stock</th>
+                <th class="table-sheet-price">Price</th>
+                <th class="table-sheet-link">Link</th>
             </tr>
+            </thead>
             <tr class="table-line" th:each="item : ${productList}">
-                <td class="table-sheet" th:text="${item.getArticle()}">Article</td>
-                <td class="table-sheet" th:text="${item.getCategories()}">Categories</td>
-                <td class="table-sheet" th:text="${item.getName()}">Name</td>
-                <td class="table-sheet" th:text="${item.getStock()}">Stock</td>
-                <td class="table-sheet" th:text="${item.getPrice()}">Price</td>
-                <td class="table-sheet" th:text="${item.getLink()}">Link</td>
+                <td class="table-sheet-article" th:text="${item.getArticle()}">Article</td>
+<!--                <td class="table-sheet-categories" th:text="${item.getCategories()}">Categories</td>-->
+                <td class="table-sheet-name" th:text="${item.getName()}"></td>
+                <td class="table-sheet-stock" th:text="${item.getStock()}">Stock</td>
+                <td class="table-sheet-price" th:text="${item.getPrice()}">Price</td>
+                <td class="table-sheet-link" th:text="${item.getLink()}">Link</td>
             </tr>
         </table>
     </div>

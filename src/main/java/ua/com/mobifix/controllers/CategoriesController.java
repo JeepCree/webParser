@@ -6,23 +6,19 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.opencsv.exceptions.CsvException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import ua.com.mobifix.entity.Categories;
-import ua.com.mobifix.entity.CategoriesRepository;
-import ua.com.mobifix.entity.ProductRepository;
-import ua.com.mobifix.entity.ShopRepository;
-import ua.com.mobifix.service.CategoryService;
-import ua.com.mobifix.service.ProductService;
-import ua.com.mobifix.service.ShopService;
-import ua.com.mobifix.service.Time;
+import ua.com.mobifix.entity.*;
+import ua.com.mobifix.service.*;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.sql.Timestamp;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
@@ -184,5 +180,36 @@ public class CategoriesController {
             e.printStackTrace();
         }
         return "redirect:/catalog-settings";
+    }
+    @GetMapping("/import-categories")
+    public String importCsv() {
+        System.out.println("start");
+        try {
+            List<String[]> csvData = CsvParser.parseCsv("C:\\Users\\dima2\\IdeaProjects\\webParser\\src\\main\\resources\\data\\import_categories.csv");
+
+            for (String[] row : csvData) {
+                Categories categories = new Categories();
+
+                categories.setId(Long.parseLong(row[0]));
+                categories.setParentId(Long.parseLong(row[1]));
+                categories.setName(row[2]);
+//                categories.setUrlImage(row[3]);
+//                categories.setMetaKeywords(row[4]);
+//                categories.setDescription(row[5]);
+//                categories.setMetaTitle(row[6]);
+//                categories.setMetaDescription(row[7]);
+//                categories.setShopName(row[8]);
+//                categories.setActive(Boolean.parseBoolean(row[9]));
+
+                categoriesRepository.save(categories);
+            }
+            System.out.println("ok");
+            return "catalog"; // Можете вернуть имя представления для успешного импорта
+        } catch (IOException e) {
+            e.printStackTrace();
+            return "catalog"; // Можете вернуть имя представления для неудачи импорта
+        } catch (CsvException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

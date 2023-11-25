@@ -68,7 +68,7 @@ public class UiController {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        model.addAttribute("productList", productRepository.findAll());
+//        model.addAttribute("productList", productRepository.findAll());
         return "catalog";
     }
     @GetMapping("/catalog-settings")

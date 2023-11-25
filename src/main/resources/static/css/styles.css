@@ -96,8 +96,8 @@
     border: 1px solid #000;
     padding: 10px;
     position: relative;
-    width: 15%;
-    min-height: 80vh;
+    min-width: 15%;
+    min-height: 83vh;
     overflow: auto;
     box-shadow: 5px 5px 5px #575651;
     border-radius: 5px;
@@ -114,8 +114,9 @@
     border: 1px solid #000;
     padding: 20px;
     position: absolute;
-    width: 75%;
+    min-width: 75%;
     min-height: 80vh;
+    max-height: 80vh;
     overflow: auto;
     box-shadow: 5px 5px 7px #575651;
     border-radius: 5px;
@@ -243,6 +244,9 @@ hr {
 
 
 
+
+
+
 .basic-conteiner .catalog-table {
     width: 100%;
     border-collapse: collapse;
@@ -255,8 +259,9 @@ hr {
     text-align: left;
 }
 
-.basic-conteiner .catalog-table th {
-    background-color: #f2f2f2; /* Цвет фона для заголовка */
+.basic-conteiner .catalog-table .table-line-first th {
+    background-color: #e0e0e0; /* Цвет фона для заголовка */
+    border: 3px solid #d2d2d2;
 }
 
 .basic-conteiner .catalog-table tr:nth-child(even) {
@@ -269,5 +274,22 @@ hr {
 
 .basic-conteiner .catalog-table th,
 .basic-conteiner .catalog-table td {
-    padding: 15px;
+    padding: 5px;
+}
+
+.table-sheet-article {
+    width: 50px;
+}
+.table-sheet-categories {
+    width: 50px;
+    text-align: center;
+}
+.table-sheet-stock {
+    width: 20px;
+}
+.table-sheet-price {
+    width: 20px;
+}
+.table-sheet-link {
+    width: 20px;
 }

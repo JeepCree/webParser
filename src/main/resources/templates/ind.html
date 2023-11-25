@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel-Like Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #989898;
+            text-align: left;
+            padding: 5px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            box-shadow: 1px 1px 5px #888888;
+            position: relative;
+            user-select: none;
+        }
+
+        th {
+            background-color: #8c8c8c;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #e0e0e0;
+        }
+
+        .resizable {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .resizable .handle {
+            background-color: #eee;
+            cursor: ew-resize;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            width: 8px;
+            top: 0;
+        }
+
+        .editable {
+            cursor: pointer;
+        }
+
+        .edit-input {
+            width: 100%;
+            /*box-sizing: border-box;*/
+        }
+    </style>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th style="width: 10%;" class="resizable">Column 1</th>
+        <th style="width: 15%;" class="resizable">Column 2</th>
+        <th style="width: 20%;" class="resizable">Column 3</th>
+        <th style="width: 15%;" class="resizable">Column 4</th>
+        <th style="width: 20%;" class="resizable">Column 5</th>
+        <th style="width: 20%;" class="resizable">Column 6</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td class="editable">Data 1</td>
+        <td class="editable">Data 2</td>
+        <td class="editable">Data 3</td>
+        <td class="editable">Data 4</td>
+        <td class="editable">Data 5</td>
+        <td class="editable">Data 6</td>
+    </tr>
+    <!-- Дополнительные строки... -->
+    </tbody>
+</table>
+<script>
+    const resizableColumns = document.querySelectorAll('.resizable');
+    const editableCells = document.querySelectorAll('.editable');
+
+    resizableColumns.forEach(column => {
+        let isResizing = false;
+        let startMouseX;
+        let startWidth;
+
+        const handle = document.createElement('div');
+        handle.className = 'handle';
+        column.appendChild(handle);
+
+        handle.addEventListener('mousedown', (event) => {
+            isResizing = true;
+            startMouseX = event.clientX;
+            startWidth = getColumnWidth(column);
+
+            document.addEventListener('mousemove', handleMouseMove);
+            document.addEventListener('mouseup', () => {
+                isResizing = false;
+                document.removeEventListener('mousemove', handleMouseMove);
+            });
+        });
+
+        function handleMouseMove(event) {
+            if (isResizing) {
+                const delta = event.clientX - startMouseX;
+                const newWidth = startWidth + delta;
+                setColumnWidth(column, newWidth);
+            }
+        }
+
+        function getColumnWidth(column) {
+            return parseFloat(window.getComputedStyle(column).width);
+        }
+
+        function setColumnWidth(column, width) {
+            column.style.width = `${width}px`;
+        }
+    });
+
+    editableCells.forEach(cell => {
+        cell.addEventListener('dblclick', () => {
+            const text = cell.textContent;
+            cell.innerHTML = '<input class="edit-input" type="text" value="' + text + '" />';
+            const input = cell.querySelector('input');
+            input.focus();
+            input.setSelectionRange(0, text.length); // Выделить текст внутри input
+            input.addEventListener('blur', () => {
+                cell.textContent = input.value;
+            });
+        });
+    });
+</script>
+</body>
+</html>
