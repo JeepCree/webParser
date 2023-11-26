@@ -116,7 +116,7 @@ public class CategoriesController {
     }
     @PostMapping("/get-all-catalog")
     public String getAllCatalog(@RequestBody String requestBody, Model model) throws JsonProcessingException {
-        model.addAttribute("pageInfo", "All Catalog");
+
         ObjectMapper objectMapper = new ObjectMapper();
         try {
             String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAllByOrderByNameAsc());
@@ -127,6 +127,7 @@ public class CategoriesController {
                     .stream()
                     .map(Long::parseLong)
                     .collect(Collectors.toList());
+            model.addAttribute("pageInfo", categoryIds);
             model.addAttribute("productList", productRepository.findAllByCategoriesIn(categoryIdsList));
             return "catalog";
         } catch (Exception e) {
@@ -185,7 +186,7 @@ public class CategoriesController {
     public String importCsv() {
         System.out.println("start");
         try {
-            List<String[]> csvData = CsvParser.parseCsv("C:\\Users\\dima2\\IdeaProjects\\webParser\\src\\main\\resources\\data\\import_categories.csv");
+            List<String[]> csvData = CsvParser.parseCsv("C:\\Share\\import_categories.csv");
 
             for (String[] row : csvData) {
                 Categories categories = new Categories();

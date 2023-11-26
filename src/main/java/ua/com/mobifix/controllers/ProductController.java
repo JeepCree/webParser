@@ -27,7 +27,7 @@ public class ProductController {
     public String importCsv() {
         System.out.println("start");
         try {
-            List<String[]> csvData = CsvParser.parseCsv("C:\\Users\\dima2\\IdeaProjects\\webParser\\src\\main\\resources\\data\\import.csv");
+            List<String[]> csvData = CsvParser.parseCsv("C:\\Share\\import.csv");
 
             for (String[] row : csvData) {
                 Product product = new Product();

@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 @Entity
 public class Categories {
     @Id
-//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private boolean active;
     private String name;
