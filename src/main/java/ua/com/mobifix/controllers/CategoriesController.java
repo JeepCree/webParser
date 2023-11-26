@@ -127,7 +127,7 @@ public class CategoriesController {
                     .stream()
                     .map(Long::parseLong)
                     .collect(Collectors.toList());
-            model.addAttribute("pageInfo", categoryIds);
+            model.addAttribute("pageInfo", "Products");
             model.addAttribute("productList", productRepository.findAllByCategoriesIn(categoryIdsList));
             return "catalog";
         } catch (Exception e) {

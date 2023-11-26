@@ -96,8 +96,7 @@
     border: 1px solid #000;
     padding: 20px;
     position: relative;
-    min-width: 25vh;
-    max-width: 25vh;
+    width: 25vh;
     min-height: 80vh;
     max-height: 80vh;
     overflow: auto;
@@ -106,6 +105,9 @@
     white-space: nowrap; /* Предотвращаем перенос текста на новую строку */
     overflow-x: auto;
 }
+/*.catalog-conteiner:hover{*/
+/*    width: 50vh;*/
+/*}*/
 .basic-conteiner{
     display: inline-block;
     margin-right: 10px;
