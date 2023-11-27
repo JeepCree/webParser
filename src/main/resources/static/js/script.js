@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     li.insertBefore(toggleButton, link);
                     li.appendChild(childCategories);
                 } else {
-                    // link.style.marginLeft = "20px";
+                    link.style.marginLeft = "20px";
                 }
                 ul.appendChild(li);
                 link.addEventListener("click", (event) => {
@@ -44,10 +44,9 @@ document.addEventListener("DOMContentLoaded", function() {
                             return response.text();
                         })
                         .then(data => {
-                            // console.log('Ответ от сервера:', data);
+                            console.log('Ответ от сервера:', data);
                             // Обновляем страницу с помощью полученного HTML-кода
                             document.documentElement.innerHTML = data;
-                            // location.reload();
                         })
                         .catch(error => {
                             console.error('Ошибка запроса:', error);
@@ -60,7 +59,9 @@ document.addEventListener("DOMContentLoaded", function() {
     categoryTree.appendChild(createCategoryList(0));
 });
 
-let deleteButtons = document.querySelectorAll('.delete-button');
+
+var deleteButtons = document.querySelectorAll('.delete-button');
+// Перебираем каждую кнопку и добавляем обработчик события
 deleteButtons.forEach(function(button) {
     button.addEventListener('click', function(event) {
         // Остановим отправку формы

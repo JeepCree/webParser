@@ -18,7 +18,7 @@ public class CsvParser {
         // Создайте CSVParser с нужными настройками
         CSVParser csvParser = new CSVParserBuilder()
                 .withSeparator(separator)
-                .withIgnoreQuotations(true)
+                .withIgnoreQuotations(false)
                 .build();
 
         try (CSVReader reader = new CSVReaderBuilder(new FileReader(filePath))

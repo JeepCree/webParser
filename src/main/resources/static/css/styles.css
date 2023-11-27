@@ -25,7 +25,7 @@
     position: absolute;
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 3;
     top: 100%;
     left: 0;
     display: none;
@@ -93,30 +93,49 @@
 .catalog-conteiner{
     display: inline-block;
     margin-right: 10px;
-    border: 1px solid #000;
-    padding: 20px;
-    position: relative;
-    width: 25vh;
-    min-height: 80vh;
-    max-height: 80vh;
-    overflow: auto;
+    margin-top: 5px;
+    border: 1px solid #757575;
+    padding: 5px;
+    position: absolute;
+    width: 10px;
+    height: 85%;
+    overflow: hidden;
     box-shadow: 5px 5px 5px #575651;
     border-radius: 5px;
-    white-space: nowrap; /* Предотвращаем перенос текста на новую строку */
-    overflow-x: auto;
+    /*white-space: nowrap; !* Предотвращаем перенос текста на новую строку *!*/
+    transition: width 0.1s;
+    z-index: 2;
+    background-color: #eaeaea;
+    overflow-y: auto;
+    background-image: url("../menu-navigation.svg");
+    background-size: 18px 18px;
+    background-position: 1px 2px;
+    background-repeat: no-repeat;
+
+
 }
-/*.catalog-conteiner:hover{*/
-/*    width: 50vh;*/
-/*}*/
+.catalog-conteiner:hover{
+    width: 25%;
+    height: 85%;
+    padding: 5px;
+    background-size: 25px 25px;
+    background-position: 10px 10px;
+    /*background-image: url("../menu-navigation.svg");*/
+    /*background-position: left center;*/
+    /*background-repeat: no-repeat;*/
+}
+.catalog-conteiner p{
+    margin-left: 50px;
+}
 .basic-conteiner{
     display: inline-block;
     margin-right: 10px;
-    border: 1px solid #000;
-    padding: 20px;
+    margin-left: 30px;
+    border: 1px solid #757575;
+    padding: 10px;
     position: absolute;
-    min-width: 80%;
-    min-height: 80vh;
-    max-height: 80vh;
+    min-width: 94.5%;
+    height: 85%;
     overflow: auto;
     box-shadow: 5px 5px 7px #575651;
     border-radius: 5px;
@@ -310,4 +329,8 @@ hr {
     border-radius: 3px; /* Закругленные углы */
     border: 1px solid #5fad54;
     min-height: 40px;
+}
+
+.highlighted-cell {
+    background-color: #deaf1b;
 }

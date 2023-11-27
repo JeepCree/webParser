@@ -98,3 +98,88 @@ deleteButtons.forEach(function(button) {
         }
     });
 });
+
+
+
+
+
+
+function enableEditing(cell) {
+    // Добавляем класс для стилизации при редактировании
+    cell.classList.add('highlighted-cell');
+
+    // Находим внутренний элемент, который содержит контент
+    const editableContent = cell.querySelector('.editable-content');
+
+    // Проверяем, что элемент был найден, прежде чем устанавливать атрибут contentEditable
+    if (editableContent) {
+        // Устанавливаем атрибут contentEditable в true для редактирования
+        editableContent.contentEditable = 'true';
+
+        // Сохраняем оригинальное значение ячейки
+        cell.setAttribute('data-original-value', editableContent.innerText.trim());
+
+        // Устанавливаем фокус на редактируемый элемент
+        setTimeout(() => {
+            editableContent.focus();
+        }, 0);
+    }
+}
+
+
+
+
+
+
+
+
+
+function enableEditing(cell) {
+    // Добавляем класс для стилизации при редактировании
+    cell.classList.add('highlighted-cell');
+
+    // Находим внутренний элемент, который содержит контент
+    const editableContent = cell.querySelector('.editable-content');
+
+    // Проверяем, что элемент был найден, прежде чем устанавливать атрибут contentEditable
+    if (editableContent) {
+        // Устанавливаем атрибут contentEditable в true для редактирования
+        editableContent.contentEditable = 'true';
+
+        // Сохраняем оригинальное значение ячейки
+        cell.setAttribute('data-original-value', editableContent.innerText.trim());
+
+        // Устанавливаем фокус на редактируемый элемент
+        setTimeout(() => {
+            editableContent.focus();
+        }, 0);
+    }
+}
+
+function saveData(cell) {
+    // Находим внутренний элемент, который содержит контент
+    const editableContent = cell.querySelector('.editable-content');
+
+    // Проверяем, что элемент был найден, прежде чем устанавливать атрибут contentEditable
+    if (editableContent) {
+        // Устанавливаем атрибут contentEditable в false после редактирования
+        editableContent.contentEditable = 'false';
+
+        // Получаем новое значение из ячейки
+        const newValue = editableContent.innerText.trim();
+
+        // Проверка, изменилось ли значение
+        const originalValue = cell.getAttribute('data-original-value');
+        if (newValue !== originalValue) {
+            // Отправляем данные на сервер (здесь нужно реализовать отправку данных на ваш сервер)
+            console.log(`Sending data to the server: ${newValue}`);
+        } else {
+            console.log("Value not changed. No data sent to the server.");
+        }
+
+        // Удаляем класс после редактирования
+        cell.classList.remove('highlighted-cell');
+    }
+
+    console.log('Blur event processed.');
+}

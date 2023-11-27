@@ -13,9 +13,11 @@
         #resizableDiv {
             width: 10px;
             height: 100vh; /* Занимает всю высоту экрана */
-            background-color: #3498db;
+            background-color: #1bb300;
             float: left;
             transition: width 0.5s;
+            position: absolute;
+            z-index: 2; /* Устанавливаем z-index, чтобы он находился выше других элементов */
         }
 
         #resizableDiv:hover {
@@ -26,13 +28,15 @@
             height: 100vh; /* Занимает всю высоту экрана */
             margin-left: 10px;
             background-color: #ecf0f1;
+            position: relative; /* Устанавливаем позицию в relative, чтобы другие элементы могли влиять на его позицию */
+            z-index: 1; /* Устанавливаем z-index, чтобы он находился ниже resizableDiv */
         }
     </style>
 </head>
 <body>
 
-<div id="resizableDiv"></div>
-<div id="content"></div>
+<div id="resizableDiv">1</div>
+<div id="content">2</div>
 
 </body>
 </html>

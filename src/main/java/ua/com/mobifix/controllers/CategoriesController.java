@@ -190,7 +190,6 @@ public class CategoriesController {
 
             for (String[] row : csvData) {
                 Categories categories = new Categories();
-
                 categories.setId(Long.parseLong(row[0]));
                 categories.setParentId(Long.parseLong(row[1]));
                 categories.setName(row[2]);
@@ -201,7 +200,6 @@ public class CategoriesController {
 //                categories.setMetaDescription(row[7]);
 //                categories.setShopName(row[8]);
 //                categories.setActive(Boolean.parseBoolean(row[9]));
-
                 categoriesRepository.save(categories);
             }
             System.out.println("ok");
