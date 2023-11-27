@@ -63,10 +63,10 @@
                     <div class="editable-content" contenteditable="false" th:text="${item.getName()}"></div>
                 </td>
                 <td class="table-sheet-stock" ondblclick="enableEditing(this)" onfocusout="saveData(this)">
-                    <div class="editable-content" contenteditable="false" oninput="validateIntegerInput(this)" th:text="${item.getStock()}"></div>
+                    <div class="editable-content" contenteditable="false" th:text="${item.getStock()}"></div>
                 </td>
                 <td class="table-sheet-price" ondblclick="enableEditing(this)" onfocusout="saveData(this)">
-                    <div class="editable-content" contenteditable="false" oninput="validateDecimalInput(this)" th:text="${item.getPrice()}"></div>
+                    <div class="editable-content" contenteditable="false" th:text="${item.getPrice()}"></div>
                 </td>
                 <td class="table-sheet-link" ondblclick="enableEditing(this)" onfocusout="saveData(this)">
                     <div class="editable-content" contenteditable="false" th:text="${item.getLink()}"></div>

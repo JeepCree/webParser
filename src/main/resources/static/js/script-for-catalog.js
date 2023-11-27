@@ -197,12 +197,3 @@ function saveData(cell) {
 
     console.log('Focusout event processed.');
 }
-
-function validateIntegerInput(element) {
-    // Очистим содержимое от всего, кроме цифр
-    element.innerText = element.innerText.replace(/[^\d]/g, '');
-}
-function validateDecimalInput(element) {
-    // Получаем текст из элемента
-
-};
