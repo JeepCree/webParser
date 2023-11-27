@@ -56,21 +56,30 @@
                 <th class="table-sheet-link">Link</th>
             </tr>
             </thead>
-            <tr class="table-line" th:each="item : ${productList}">
+            <tbody>
+            <tr class="table-line" th:each="item : ${productList}" th:data-id="${item.getId()}">
                 <td class="table-sheet-article" th:text="${item.getArticle()}">Article</td>
-                <td class="table-sheet-name" ondblclick="enableEditing(this)" onblur="saveData(this)">
+                <td class="table-sheet-name" ondblclick="enableEditing(this)" onfocusout="saveData(this)">
                     <div class="editable-content" contenteditable="false" th:text="${item.getName()}"></div>
                 </td>
-                <td class="table-sheet-stock" contenteditable="false" ondblclick="enableEditing(this)" onblur="saveData(this)" th:text="${item.getStock()}">Stock</td>
-                <td class="table-sheet-price" contenteditable="false" ondblclick="enableEditing(this)" onblur="saveData(this)" th:text="${item.getPrice()}">Price</td>
-                <td class="table-sheet-link" contenteditable="false" ondblclick="enableEditing(this)" onblur="saveData(this)" th:text="${item.getLink()}">Link</td>
+                <td class="table-sheet-stock" ondblclick="enableEditing(this)" onfocusout="saveData(this)">
+                    <div class="editable-content" contenteditable="false" oninput="validateIntegerInput(this)" th:text="${item.getStock()}"></div>
+                </td>
+                <td class="table-sheet-price" ondblclick="enableEditing(this)" onfocusout="saveData(this)">
+                    <div class="editable-content" contenteditable="false" oninput="validateDecimalInput(this)" th:text="${item.getPrice()}"></div>
+                </td>
+                <td class="table-sheet-link" ondblclick="enableEditing(this)" onfocusout="saveData(this)">
+                    <div class="editable-content" contenteditable="false" th:text="${item.getLink()}"></div>
+                </td>
             </tr>
+            </tbody>
         </table>
     </div>
 </div>
 <script th:inline="javascript">
     var categoriesJson = /*[[${jsonString}]]*/ '';
 </script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="../static/js/script-for-catalog.js" th:src="@{/js/script-for-catalog.js}"></script>
 </body>
 </html>

@@ -106,7 +106,7 @@ deleteButtons.forEach(function(button) {
 
 function enableEditing(cell) {
     // Добавляем класс для стилизации при редактировании
-    cell.classList.add('highlighted-cell');
+    cell.classList.add('highlighted-cell', 'editing');
 
     // Находим внутренний элемент, который содержит контент
     const editableContent = cell.querySelector('.editable-content');
@@ -120,39 +120,7 @@ function enableEditing(cell) {
         cell.setAttribute('data-original-value', editableContent.innerText.trim());
 
         // Устанавливаем фокус на редактируемый элемент
-        setTimeout(() => {
-            editableContent.focus();
-        }, 0);
-    }
-}
-
-
-
-
-
-
-
-
-
-function enableEditing(cell) {
-    // Добавляем класс для стилизации при редактировании
-    cell.classList.add('highlighted-cell');
-
-    // Находим внутренний элемент, который содержит контент
-    const editableContent = cell.querySelector('.editable-content');
-
-    // Проверяем, что элемент был найден, прежде чем устанавливать атрибут contentEditable
-    if (editableContent) {
-        // Устанавливаем атрибут contentEditable в true для редактирования
-        editableContent.contentEditable = 'true';
-
-        // Сохраняем оригинальное значение ячейки
-        cell.setAttribute('data-original-value', editableContent.innerText.trim());
-
-        // Устанавливаем фокус на редактируемый элемент
-        setTimeout(() => {
-            editableContent.focus();
-        }, 0);
+        editableContent.focus();
     }
 }
 
@@ -171,15 +139,70 @@ function saveData(cell) {
         // Проверка, изменилось ли значение
         const originalValue = cell.getAttribute('data-original-value');
         if (newValue !== originalValue) {
+            // Собираем данные для отправки на сервер
+            const rowId = cell.parentElement.dataset.id;
+            console.log('row ID: ' + rowId);
+            const columnName = cell.classList.contains('table-sheet-name') ? 'name' :
+                cell.classList.contains('table-sheet-stock') ? 'stock' :
+                    cell.classList.contains('table-sheet-price') ? 'price' :
+                        cell.classList.contains('table-sheet-link') ? 'link' : '';
+            console.log('column Name: ' + columnName);
+            console.log('new Value: ' + newValue);
+
             // Отправляем данные на сервер (здесь нужно реализовать отправку данных на ваш сервер)
-            console.log(`Sending data to the server: ${newValue}`);
-        } else {
-            console.log("Value not changed. No data sent to the server.");
+            fetch('save-sheet', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    rowId: rowId,
+                    columnName: columnName,
+                    newValue: newValue
+                }),
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Success:', data);
+
+                    // Проверяем, является ли data равным true
+                    if (data === true) {
+                        // Если успешно, показываем оповещение
+                        Swal.fire({
+                            title: 'Успешно!',
+                            text: 'Операция выполнена успешно.',
+                            icon: 'success',
+                            confirmButtonText: 'OK'
+                        });
+                    } else {
+                        // В противном случае вы можете добавить обработку ошибок или другую логику
+                        console.error('Операция не выполнена успешно.');
+                        editableContent.innerText = originalValue;
+                        Swal.fire({
+                            title: 'Ошибка!',
+                            text: 'Операция не выполнена успешно.',
+                            icon: 'error',
+                            confirmButtonText: 'OK'
+                        });
+                    }
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
         }
 
-        // Удаляем класс после редактирования
-        cell.classList.remove('highlighted-cell');
+        // Удаляем классы после редактирования
+        cell.classList.remove('highlighted-cell', 'editing');
     }
 
-    console.log('Blur event processed.');
+    console.log('Focusout event processed.');
 }
+
+function validateIntegerInput(element) {
+    // Очистим содержимое от всего, кроме цифр
+    element.innerText = element.innerText.replace(/[^\d]/g, '');
+}
+function validateDecimalInput(element) {
+    // Получаем текст из элемента
+
+};

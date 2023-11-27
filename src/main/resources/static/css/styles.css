@@ -286,7 +286,7 @@ hr {
 }
 
 .basic-conteiner .catalog-table tr:nth-child(even) {
-    background-color: #f9f9f9; /* Четные строки */
+    background-color: #f3f3f3; /* Четные строки */
 }
 
 .basic-conteiner .catalog-table tr:nth-child(odd) {
@@ -332,5 +332,12 @@ hr {
 }
 
 .highlighted-cell {
-    background-color: #deaf1b;
+    background-color: #ffef85;
+}
+.editing {
+    border: 1px solid #1a1a1a;
+}
+
+.editable-content[contenteditable="true"] {
+    outline: none;
 }

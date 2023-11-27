@@ -12,8 +12,8 @@ public class Product {
     private String article;
     private Long categories;
     private String name;
-    private String stock;
-    private String price;
+    private Integer stock;
+    private Double price;
     private String link;
     @Temporal(TemporalType.TIMESTAMP)
     private Timestamp timestampField;
@@ -50,19 +50,19 @@ public class Product {
         this.name = name;
     }
 
-    public String getStock() {
+    public Integer getStock() {
         return stock;
     }
 
-    public void setStock(String stock) {
+    public void setStock(Integer stock) {
         this.stock = stock;
     }
 
-    public String getPrice() {
+    public Double getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 

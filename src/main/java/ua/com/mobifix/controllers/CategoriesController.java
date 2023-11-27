@@ -115,7 +115,7 @@ public class CategoriesController {
         }
     }
     @PostMapping("/get-all-catalog")
-    public String getAllCatalog(@RequestBody String requestBody, Model model) throws JsonProcessingException {
+    public String getAllCatalog(@RequestBody String requestBody, Model model) {
 
         ObjectMapper objectMapper = new ObjectMapper();
         try {
@@ -134,7 +134,6 @@ public class CategoriesController {
            e.printStackTrace();
             return "catalog";
         }
-
     }
     @PostMapping("/save-category")
     private String saveCategory(Model model,
