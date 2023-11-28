@@ -44,7 +44,6 @@ public class ProductController {
                 product.setTimestampField(new Timestamp(System.currentTimeMillis()));
                 productRepository.save(product);
             }
-            System.out.println("ok");
             return "catalog"; // Можете вернуть имя представления для успешного импорта
         } catch (IOException e) {
             e.printStackTrace();

@@ -5,7 +5,6 @@
     <title th:text="${pageInfo}">Главная</title>
     <link rel="stylesheet" href="../static/css/styles.css" th:href="@{/css/styles.css}" />
     <link rel="icon" href="../favicon.svg" type="image/x-icon">
-</head>
 <body>
 <div class="menu-container">
     <div class="menu">
@@ -46,7 +45,7 @@
         <div id="category-tree"></div>
     </div>
     <div class="basic-conteiner">
-        <table class="catalog-table" >
+        <table class="catalog-table" id="productTable">
             <thead>
             <tr class="table-line-first">
                 <th class="table-sheet-article">Article</th>

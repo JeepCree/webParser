@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     li.insertBefore(toggleButton, link);
                     li.appendChild(childCategories);
                 } else {
-                    link.style.marginLeft = "20px";
+                    link.style.marginLeft = "10px";
                 }
 
                 ul.appendChild(li);
@@ -51,11 +51,28 @@ document.addEventListener("DOMContentLoaded", function() {
                             }
                             return response.text();
                         })
+                        // .then(data => {
+                        //     document.body.innerHTML = data;
+                        //     const updatedCategoryTree = document.getElementById("category-tree");
+                        //     updatedCategoryTree.innerHTML = "";
+                        //     updatedCategoryTree.appendChild(createCategoryList(0));
+                        // })
                         .then(data => {
-                            document.body.innerHTML = data;
-                            const updatedCategoryTree = document.getElementById("category-tree");
-                            updatedCategoryTree.innerHTML = "";
-                            updatedCategoryTree.appendChild(createCategoryList(0));
+                            const parser = new DOMParser();
+                            const updatedTableBody = parser.parseFromString(data, 'text/html').body.querySelector('tbody');
+
+                            // Находим текущее тело таблицы
+                            const currentTableBody = document.querySelector('#productTable tbody');
+
+                            // Удаляем все дочерние элементы из текущего тела таблицы
+                            while (currentTableBody.firstChild) {
+                                currentTableBody.removeChild(currentTableBody.firstChild);
+                            }
+
+                            // Добавляем новые строки
+                            updatedTableBody.childNodes.forEach(node => {
+                                currentTableBody.appendChild(node.cloneNode(true));
+                            });
                         })
                         .catch(error => {
                             console.error('Ошибка запроса:', error);
@@ -81,11 +98,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-
-
-
 var deleteButtons = document.querySelectorAll('.delete-button');
-// Перебираем каждую кнопку и добавляем обработчик события
 deleteButtons.forEach(function(button) {
     button.addEventListener('click', function(event) {
         // Остановим отправку формы
@@ -98,11 +111,6 @@ deleteButtons.forEach(function(button) {
         }
     });
 });
-
-
-
-
-
 
 function enableEditing(cell) {
     // Добавляем класс для стилизации при редактировании
@@ -123,7 +131,6 @@ function enableEditing(cell) {
         editableContent.focus();
     }
 }
-
 function saveData(cell) {
     // Находим внутренний элемент, который содержит контент
     const editableContent = cell.querySelector('.editable-content');
@@ -179,18 +186,24 @@ function saveData(cell) {
                             setTimeout(() => {
                                 // Удаляем класс через 5 секунд
                                 cell.classList.remove('highlighted-cell-ok');
-                            }, 5000);
+                            }, 2000);
                         }, 0);
                     } else {
                         // В противном случае вы можете добавить обработку ошибок или другую логику
-                        console.error('Операция не выполнена успешно.');
                         editableContent.innerText = originalValue;
-                        Swal.fire({
-                            title: 'Ошибка!',
-                            text: 'Операция не выполнена успешно.',
-                            icon: 'error',
-                            confirmButtonText: 'OK'
-                        });
+                        // Swal.fire({
+                        //     title: 'Ошибка!',
+                        //     text: 'Операция не выполнена успешно.',
+                        //     icon: 'error',
+                        //     confirmButtonText: 'OK'
+                        // });
+                        setTimeout(() => {
+                            cell.classList.add('highlighted-cell-err');
+                            setTimeout(() => {
+                                // Удаляем класс через 5 секунд
+                                cell.classList.remove('highlighted-cell-err');
+                            }, 5000);
+                        }, 0);
                     }
                 })
                 .catch((error) => {
@@ -204,3 +217,53 @@ function saveData(cell) {
 
     console.log('Focusout event processed.');
 }
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const table = document.getElementById('productTable');
+    const tbody = table.querySelector('tbody');
+
+    let currentSortColumn = null;
+    let isAscending = true;
+
+    function sortTable(columnIndex) {
+        const rows = Array.from(tbody.querySelectorAll('tr'));
+
+        rows.sort((a, b) => {
+            const aValue = a.cells[columnIndex].textContent.trim();
+            const bValue = b.cells[columnIndex].textContent.trim();
+
+            return isNaN(aValue) || isNaN(bValue)
+                ? aValue.localeCompare(bValue)
+                : parseFloat(aValue) - parseFloat(bValue);
+        });
+
+        if (!isAscending) {
+            rows.reverse();
+        }
+
+        tbody.innerHTML = '';
+        rows.forEach(row => tbody.appendChild(row));
+    }
+
+    function handleHeaderClick(event) {
+        console.log("sdfvsd");
+        const clickedColumnIndex = Array.from(event.target.parentNode.cells).indexOf(event.target);
+
+        if (clickedColumnIndex !== -1) {
+            if (currentSortColumn === clickedColumnIndex) {
+                isAscending = !isAscending;
+            } else {
+                currentSortColumn = clickedColumnIndex;
+                isAscending = true;
+            }
+
+            sortTable(clickedColumnIndex);
+        }
+    }
+
+    table.querySelector('thead').addEventListener('click', handleHeaderClick);
+});

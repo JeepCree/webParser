@@ -102,25 +102,25 @@
     overflow: hidden;
     box-shadow: 5px 5px 5px #575651;
     border-radius: 5px;
-    /*white-space: nowrap; !* Предотвращаем перенос текста на новую строку *!*/
-    transition: width 0.1s;
+    white-space: nowrap; /* Предотвращаем перенос текста на новую строку */
+    transition: width 1s;
     z-index: 2;
-    background-color: #eaeaea;
-    overflow-y: auto;
-    background-image: url("../menu-navigation.svg");
+    background-color: #f3f3f3;
+    background-image: url("../square-alt-arrow-right-svgrepo-com.svg");
     background-size: 18px 18px;
-    background-position: 1px 2px;
+    background-position: 1px;
     background-repeat: no-repeat;
 
 
 }
 .catalog-conteiner:hover{
+    overflow-y: auto;
     width: 25%;
     height: 85%;
     padding: 5px;
     background-size: 25px 25px;
     background-position: 10px 10px;
-    /*background-image: url("../menu-navigation.svg");*/
+    background-image: url("../menu-navigation.svg");
     /*background-position: left center;*/
     /*background-repeat: no-repeat;*/
 }
@@ -153,21 +153,50 @@ ul, li {
     display: none;
 }
 
-/* Стили для кнопки "открыть/закрыть" */
+
+
+
 .toggle-button::before {
-    content: " + "; /* Символ "Вправо" для закрытой категории */
+    content: ""; /* Очистка содержимого, так как мы будем использовать фоновое изображение */
+    display: inline-block; /* Установка элемента как строчного блока */
+    width: 25px; /* Ширина изображения */
+    height: 25px; /* Высота изображения */
+    background-repeat: no-repeat; /* Запрет повторения фонового изображения */
+    background-position: center; /* Размещение изображения по центру */
+    background-size: cover; /* Масштабирование изображения, чтобы оно полностью покрывало контейнер */
     cursor: pointer;
+    overflow: visible; /* Избегаем обрезания изображения */
+
+}
+
+.toggle-button::before {
+    background-image: url('../folder-svgrepo-com.svg'); /* Изображение для закрытой категории */
 }
 
 .toggle-button.open::before {
-    content: " - "; /* Символ "Вниз" для открытой категории */
+    background-image: url('../folder-alt-svgrepo-com.svg'); /* Изображение для открытой категории */
 }
+
+
+
+/*!* Стили для кнопки "открыть/закрыть" *!*/
+/*.toggle-button::before {*/
+/*    content: " + "; !* Символ "Вправо" для закрытой категории *!*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.toggle-button.open::before {*/
+/*    content: " - "; !* Символ "Вниз" для открытой категории *!*/
+/*}*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700&display=swap');
 
 /* Стили для ссылок */
 .category-link {
     text-decoration: none;
     color: #000; /* Цвет текста ссылки */
     cursor: pointer;
+    font-family: 'Open Sans', sans-serif; /* Замените 'Your Font Name' на имя вашего шрифта */
+    font-size: 20px; /* Размер шрифта */
 }
 
 /* Стили для выделения при наведении */
@@ -293,28 +322,33 @@ hr {
     background-color: #ffffff; /* Нечетные строки */
 }
 
-.basic-conteiner .catalog-table th,
+.basic-conteiner .catalog-table th {
+    padding-right: 20px;
+}
 .basic-conteiner .catalog-table td {
     padding: 5px;
 }
 
-.table-sheet-article {
-    width: 50px;
-}
-.table-sheet-categories {
-    width: 50px;
-    text-align: center;
-}
-.table-sheet-stock {
-    width: 20px;
-}
-.table-sheet-price {
-    width: 20px;
-    /*height: 50px;*/
-}
-.table-sheet-link {
-    width: 20px;
-}
+/*.table-sheet-article {*/
+/*    !*min-width: 75px;*!*/
+/*    text-align: center;*/
+/*    !*padding-right: 30px;*!*/
+/*}*/
+/*.table-sheet-categories {*/
+/*    width: 100px;*/
+/*    text-align: center;*/
+/*}*/
+/*.table-sheet-stock {*/
+/*    width: 100px;*/
+/*    text-align: center;*/
+/*}*/
+/*.table-sheet-price {*/
+/*    width: 100px;*/
+/*    !*height: 50px;*!*/
+/*}*/
+/*.table-sheet-link {*/
+/*    width: 100px;*/
+/*}*/
 
 
 ::-webkit-scrollbar {
@@ -337,6 +371,25 @@ hr {
 .highlighted-cell-ok {
     background-color: #9fff85;
 }
+.highlighted-cell-err {
+    background-color: #f83b3b;
+}
 .editable-content[contenteditable="true"] {
     outline: none;
 }
+
+th {
+    cursor: pointer;
+    background-image: url("../sort-svgrepo-com.svg");
+    background-size: 18px 18px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
