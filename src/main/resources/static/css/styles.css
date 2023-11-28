@@ -1,9 +1,13 @@
+.menu-container {
+    display: inline;
+    margin-right: 10px; /* Укажите нужный отступ между элементами */
+}
+
 /* Стилизация кнопки и меню */
 .menu {
     position: relative;
     display: inline-block;
 }
-
 .menu-button {
     background-color: #242524;
     color: #fff;
@@ -12,7 +16,6 @@
     cursor: pointer;
     border-radius: 5px;
 }
-
 .menu-list, .sub-menu {
     list-style-type: none; /* Убираем маркеры */
     padding: 0;
@@ -20,7 +23,6 @@
     min-width: max-content;
     border-radius: 5px;
 }
-
 .menu-list {
     position: absolute;
     background-color: #f9f9f9;
@@ -30,18 +32,15 @@
     left: 0;
     display: none;
 }
-
 .menu-item {
     position: relative;
 }
-
 .menu-item:hover .sub-menu {
     display: block;
     position: absolute;
     top: 0;
     left: 100%;
 }
-
 .sub-menu {
     display: none;
     position: absolute;
@@ -50,36 +49,27 @@
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-
 .menu-item:hover .sub-menu {
     display: block;
 }
-
 .menu-list a, .sub-menu a {
     padding: 8px 25px;
     text-decoration: none;
     display: block;
     color: #333;
 }
-
 .menu-list a:hover, .sub-menu a:hover {
     background-color: #ddd;
     border-radius: 5px;
 }
-
 .menu:hover .menu-list {
     display: block;
 }
-
 .menu:hover .menu-button {
     background-color: #0a0a0a;
 }
 /* конец стилизации кнопки и меню */
 
-.menu-container {
-    display: inline;
-    margin-right: 10px; /* Укажите нужный отступ между элементами */
-}
 .page-info {
     display: inline;
     margin: 200px; /* Укажите нужный отступ между элементами */
@@ -87,9 +77,9 @@
     font-size: 20px; /* Устанавливаем размер шрифта */
     color: #090909; /* Устанавливаем цвет текста */
     text-align: center; /* Устанавливаем выравнивание текста */
-    text-align: center;
     font-weight: bold; /* Устанавливаем жирный шрифт */
 }
+
 .catalog-conteiner{
     display: inline-block;
     margin-right: 10px;
@@ -110,8 +100,6 @@
     background-size: 18px 18px;
     background-position: 1px;
     background-repeat: no-repeat;
-
-
 }
 .catalog-conteiner:hover{
     overflow-y: auto;
@@ -127,6 +115,7 @@
 .catalog-conteiner p{
     margin-left: 50px;
 }
+
 .basic-conteiner{
     display: inline-block;
     margin-right: 10px;
@@ -146,6 +135,13 @@
 ul, li {
     list-style: none;
 }
+h2 {
+    text-align: left;
+}
+hr {
+    box-shadow: 1px 1px 4px #1bb300;
+    margin-bottom: 15px;
+}
 
 /* Стили для категорий */
 .category {
@@ -153,68 +149,41 @@ ul, li {
     display: none;
 }
 
-
-
-
+/* Иконки категорий */
 .toggle-button::before {
     content: ""; /* Очистка содержимого, так как мы будем использовать фоновое изображение */
     display: inline-block; /* Установка элемента как строчного блока */
-    width: 25px; /* Ширина изображения */
-    height: 25px; /* Высота изображения */
+    width: 30px; /* Ширина изображения */
+    height: 30px; /* Высота изображения */
     background-repeat: no-repeat; /* Запрет повторения фонового изображения */
-    background-position: center; /* Размещение изображения по центру */
+    background-position: 1px 4px; /* Размещение изображения по центру */
     background-size: cover; /* Масштабирование изображения, чтобы оно полностью покрывало контейнер */
     cursor: pointer;
     overflow: visible; /* Избегаем обрезания изображения */
-
 }
-
 .toggle-button::before {
     background-image: url('../folder-svgrepo-com.svg'); /* Изображение для закрытой категории */
 }
-
 .toggle-button.open::before {
     background-image: url('../folder-alt-svgrepo-com.svg'); /* Изображение для открытой категории */
 }
 
-
-
-/*!* Стили для кнопки "открыть/закрыть" *!*/
-/*.toggle-button::before {*/
-/*    content: " + "; !* Символ "Вправо" для закрытой категории *!*/
-/*    cursor: pointer;*/
-/*}*/
-
-/*.toggle-button.open::before {*/
-/*    content: " - "; !* Символ "Вниз" для открытой категории *!*/
-/*}*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700&display=swap');
-
-/* Стили для ссылок */
+/* Стили для ссылок категорий */
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
 .category-link {
     text-decoration: none;
     color: #000; /* Цвет текста ссылки */
     cursor: pointer;
-    font-family: 'Open Sans', sans-serif; /* Замените 'Your Font Name' на имя вашего шрифта */
+    font-family: 'Kelly Slab', sans-serif; /* Замените 'Your Font Name' на имя вашего шрифта */
     font-size: 20px; /* Размер шрифта */
 }
-
-/* Стили для выделения при наведении */
 .category-link:hover {
     /*background-color: #d71717; !* Цвет фона при наведении *!*/
     font-weight: bold;
     border-radius: 5px; /* Скругление углов */
 }
 
-
-h2 {
-    text-align: left;
-}
-hr {
-    box-shadow: 0px 0px 4px #1bb300;
-    margin-bottom: 15px;
-}
-
+/* Стили для кнопок */
 .save-button {
     display: flex;
     align-items: center;
@@ -236,7 +205,6 @@ hr {
     border-color: #242524;
     color: #000000;
 }
-
 .edit-button {
     display: flex;
     align-items: center;
@@ -258,7 +226,6 @@ hr {
     border-color: #242524;
     color: #000000;
 }
-
 .delete-button {
     display: flex;
     align-items: center;
@@ -280,7 +247,6 @@ hr {
     border-color: #242524;
     color: #000000;
 }
-
 .button-content {
     margin-left: 10px;
     margin-right: 10px;
