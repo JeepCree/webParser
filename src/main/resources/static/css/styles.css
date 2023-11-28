@@ -334,10 +334,9 @@ hr {
 .highlighted-cell {
     background-color: #ffef85;
 }
-.editing {
-    border: 1px solid #1a1a1a;
+.highlighted-cell-ok {
+    background-color: #9fff85;
 }
-
 .editable-content[contenteditable="true"] {
     outline: none;
 }

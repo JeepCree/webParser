@@ -69,7 +69,7 @@ public class ProductController {
                 productRepository.save(product);
             } else if (columnName.equals("stock")){
                 Product product = productRepository.findById(productId.intValue()).get();
-                product.setStock(Integer.getInteger(newValue));
+                product.setStock(Integer.parseInt(newValue));
                 productRepository.save(product);
             } else if (columnName.equals("price")) {
                 Product product = productRepository.findById(productId.intValue()).get();

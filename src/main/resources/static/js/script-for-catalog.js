@@ -106,7 +106,7 @@ deleteButtons.forEach(function(button) {
 
 function enableEditing(cell) {
     // Добавляем класс для стилизации при редактировании
-    cell.classList.add('highlighted-cell', 'editing');
+    cell.classList.add('highlighted-cell');
 
     // Находим внутренний элемент, который содержит контент
     const editableContent = cell.querySelector('.editable-content');
@@ -168,12 +168,13 @@ function saveData(cell) {
                     // Проверяем, является ли data равным true
                     if (data === true) {
                         // Если успешно, показываем оповещение
-                        Swal.fire({
-                            title: 'Успешно!',
-                            text: 'Операция выполнена успешно.',
-                            icon: 'success',
-                            confirmButtonText: 'OK'
-                        });
+                        // Swal.fire({
+                        //     title: 'Успешно!',
+                        //     text: 'Операция выполнена успешно.',
+                        //     icon: 'success',
+                        //     confirmButtonText: 'OK'
+                        // });
+                        cell.classList.add('highlighted-cell-ok');
                     } else {
                         // В противном случае вы можете добавить обработку ошибок или другую логику
                         console.error('Операция не выполнена успешно.');
