@@ -174,7 +174,13 @@ function saveData(cell) {
                         //     icon: 'success',
                         //     confirmButtonText: 'OK'
                         // });
-                        cell.classList.add('highlighted-cell-ok');
+                        setTimeout(() => {
+                            cell.classList.add('highlighted-cell-ok');
+                            setTimeout(() => {
+                                // Удаляем класс через 5 секунд
+                                cell.classList.remove('highlighted-cell-ok');
+                            }, 5000);
+                        }, 0);
                     } else {
                         // В противном случае вы можете добавить обработку ошибок или другую логику
                         console.error('Операция не выполнена успешно.');
@@ -193,7 +199,7 @@ function saveData(cell) {
         }
 
         // Удаляем классы после редактирования
-        cell.classList.remove('highlighted-cell', 'editing');
+        cell.classList.remove('highlighted-cell');
     }
 
     console.log('Focusout event processed.');

@@ -80,7 +80,7 @@ public class ProductController {
                 product.setLink(newValue);
                 productRepository.save(product);
             }
-            System.out.println(productId + " / " + columnName + " / " + newValue);
+            System.out.println(requestBody);
             return true;
         } catch (Exception e) {
             e.printStackTrace();
