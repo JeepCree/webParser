@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <meta charset="UTF-8">
     <title th:text="${pageInfo}">Главная</title>
     <link rel="stylesheet" href="../static/css/styles.css" th:href="@{/css/styles.css}" />
     <link rel="icon" href="../favicon.svg" type="image/x-icon">
+</head>
+
 <body>
-<div class="menu-container">
+<div class="top-container">
+    <div class="menu-container">
     <div class="menu">
     <button class="menu-button">[ Меню ]</button>
     <ul class="menu-list">
@@ -35,8 +39,13 @@
     </ul>
 </div>
 </div>
-<div class="page-info">
+    <div class="page-info">
     <span th:text="${pageInfo}">Page-Info</span>
+</div>
+    <div class="search-container">
+        <input class="search-input" placeholder="Поиск">
+        <button class="clear-button" onclick="clearSearch()">X</button>
+    </div>
 </div>
 <hr>
 <div class="body">
@@ -82,4 +91,5 @@
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="../static/js/script-for-catalog.js" th:src="@{/js/script-for-catalog.js}"></script>
 </body>
+
 </html>

@@ -1,6 +1,37 @@
+.top-container {
+    display: flex;
+    justify-content: space-between; /* или другие значения: flex-start, flex-end, center, space-around, space-evenly */
+    align-items: center; /
+    height: 50px;
+}
 .menu-container {
-    display: inline;
-    margin-right: 10px; /* Укажите нужный отступ между элементами */
+    margin-right: 20px; /* Укажите нужный отступ между элементами */
+    /*width: 120px;*/
+}
+/* Стили для поля ввода поиска */
+.search-input {
+    width: 200px; /* Задайте ширину поля ввода по вашему усмотрению */
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /*margin-right: 20px;*/
+}
+
+/* Стили для кнопки быстрой очистки */
+.clear-button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    color: #888;
+    outline: none;
+    padding: 8px;
+    margin-right: 20px;
+}
+
+.clear-button:hover {
+    color: #333;
 }
 
 /* Стилизация кнопки и меню */
@@ -71,12 +102,12 @@
 /* конец стилизации кнопки и меню */
 
 .page-info {
-    display: inline;
-    margin: 200px; /* Укажите нужный отступ между элементами */
+    /*display: inline;*/
+    margin-right: 10px; /* Укажите нужный отступ между элементами */
     font-family: Tahoma, sans-serif; /* Устанавливаем шрифт */
     font-size: 20px; /* Устанавливаем размер шрифта */
     color: #090909; /* Устанавливаем цвет текста */
-    text-align: center; /* Устанавливаем выравнивание текста */
+    text-align: left; /* Устанавливаем выравнивание текста */
     font-weight: bold; /* Устанавливаем жирный шрифт */
 }
 

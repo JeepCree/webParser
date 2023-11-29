@@ -218,10 +218,6 @@ function saveData(cell) {
     console.log('Focusout event processed.');
 }
 
-
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
     const table = document.getElementById('productTable');
     const tbody = table.querySelector('tbody');
@@ -266,4 +262,80 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     table.querySelector('thead').addEventListener('click', handleHeaderClick);
+});
+
+
+
+
+
+
+// document.addEventListener("DOMContentLoaded", function () {
+//     const searchInput = document.querySelector('.search-input');
+//     const table = document.getElementById('productTable');
+//     const tbody = table.querySelector('tbody');
+//
+//     searchInput.addEventListener('input', function () {
+//         const searchValue = searchInput.value.toLowerCase();
+//
+//         // Получаем все строки таблицы
+//         const rows = Array.from(tbody.querySelectorAll('tr'));
+//
+//         // Фильтруем строки по значениям в колонках "Article" и "Name"
+//         rows.forEach(row => {
+//             const articleColumnValue = row.querySelector('.table-sheet-article').innerText.toLowerCase();
+//             const nameColumnValue = row.querySelector('.table-sheet-name .editable-content').innerText.toLowerCase();
+//
+//             if (articleColumnValue.includes(searchValue) || nameColumnValue.includes(searchValue)) {
+//                 row.style.display = '';
+//             } else {
+//                 row.style.display = 'none';
+//             }
+//         });
+//     });
+// });
+
+function clearSearch() {
+    const searchInput = document.querySelector('.search-input');
+    searchInput.value = '';
+    // Дополнительные действия, которые могут быть необходимы после очистки
+}
+document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.querySelector('.search-input');
+    const table = document.getElementById('productTable');
+    const tbody = table.querySelector('tbody');
+
+    // Функция для обновления таблицы в зависимости от значения поиска
+    function updateTable(searchValue) {
+        // Получаем все строки таблицы
+        const rows = Array.from(tbody.querySelectorAll('tr'));
+
+        // Фильтруем строки по значениям в колонках "Article" и "Name"
+        rows.forEach(row => {
+            const articleColumnValue = row.querySelector('.table-sheet-article').innerText.toLowerCase();
+            const nameColumnValue = row.querySelector('.table-sheet-name .editable-content').innerText.toLowerCase();
+
+            if (articleColumnValue.includes(searchValue) || nameColumnValue.includes(searchValue)) {
+                row.style.display = '';
+            } else {
+                row.style.display = 'none';
+            }
+        });
+    }
+
+    // Слушатель события ввода для поля поиска
+    searchInput.addEventListener('input', function () {
+        const searchValue = searchInput.value.toLowerCase();
+        updateTable(searchValue);
+    });
+
+    // Слушатель события клика для кнопки очистки
+    const clearButton = document.querySelector('.clear-button');
+    clearButton.addEventListener('click', function () {
+        // Очищаем значение поля ввода
+        searchInput.value = '';
+        // Обновляем таблицу с пустым значением поиска
+        updateTable('');
+    });
+
+    // ... (остальной ваш код)
 });
