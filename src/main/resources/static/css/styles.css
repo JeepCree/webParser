@@ -128,7 +128,7 @@
     transition: width 1s;
     z-index: 2;
     background-color: #f3f3f3;
-    background-image: url("../square-alt-arrow-right-svgrepo-com.svg");
+    background-image: url("../img/square-alt-arrow-right-svgrepo-com.svg");
     background-size: 18px 18px;
     background-position: 1px;
     background-repeat: no-repeat;
@@ -140,7 +140,7 @@
     padding: 5px;
     background-size: 25px 25px;
     background-position: 10px 10px;
-    background-image: url("../menu-navigation.svg");
+    background-image: url("../img/menu-navigation.svg");
     /*background-position: left center;*/
     /*background-repeat: no-repeat;*/
 }
@@ -194,10 +194,10 @@ hr {
     overflow: visible; /* Избегаем обрезания изображения */
 }
 .toggle-button::before {
-    background-image: url('../folder-svgrepo-com.svg'); /* Изображение для закрытой категории */
+    background-image: url('../img/folder-svgrepo-com.svg'); /* Изображение для закрытой категории */
 }
 .toggle-button.open::before {
-    background-image: url('../folder-alt-svgrepo-com.svg'); /* Изображение для открытой категории */
+    background-image: url('../img/folder-alt-svgrepo-com.svg'); /* Изображение для открытой категории */
 }
 
 /* Стили для ссылок категорий */
@@ -378,7 +378,7 @@ hr {
 
 th {
     cursor: pointer;
-    background-image: url("../sort-svgrepo-com.svg");
+    background-image: url("../img/sort-svgrepo-com.svg");
     background-size: 18px 18px;
     background-position: right;
     background-repeat: no-repeat;
@@ -405,4 +405,37 @@ select, input {
     border: 1px solid #ccc;
     box-sizing: border-box;
     margin-top: 5px;
+}
+
+
+
+
+
+.top-table-menu {
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px #575651;
+    border-radius: 25px;
+    white-space: nowrap;
+    transition: 0.1s;
+    z-index: 2;
+    border: #149f00 solid 1px;
+    /*background-color: rgba(243, 243, 243, 0.19);*/
+    cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+    text-align: center;
+    background: url("../img/add-circle-svgrepo-com.svg") no-repeat;
+    background-size: cover; /* Adjust to fit the container */
+    width: 25px;
+    height: 25px;
+}
+
+.top-table-menu:hover {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: url("../img/add-circle-svgrepo-com.svg") no-repeat;
+    background-size: cover; /* Adjust to fit the container */
 }

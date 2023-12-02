@@ -246,7 +246,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function handleHeaderClick(event) {
-        console.log("sdfvsd");
         const clickedColumnIndex = Array.from(event.target.parentNode.cells).indexOf(event.target);
 
         if (clickedColumnIndex !== -1) {
@@ -256,7 +255,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 currentSortColumn = clickedColumnIndex;
                 isAscending = true;
             }
-
             sortTable(clickedColumnIndex);
         }
     }
@@ -307,5 +305,10 @@ function clearSearch() {
     const searchInput = document.querySelector('.search-input');
     searchInput.value = '';
     // Дополнительные действия, которые могут быть необходимы после очистки
+}
+
+function addNewProduct() {
+    // Your JavaScript logic here
+    alert('Button clicked!');
 }
 
