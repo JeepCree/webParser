@@ -1,0 +1,681 @@
+[
+  {
+    "id": 30166,
+    "active": false,
+    "name": "Alcatel",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30164,
+    "active": false,
+    "name": "Alcatel",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30130,
+    "active": false,
+    "name": "Apple",
+    "parentId": 20025,
+    "rootCategory": false
+  },
+  {
+    "id": 30097,
+    "active": false,
+    "name": "Apple",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30217,
+    "active": false,
+    "name": "Apple",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30216,
+    "active": false,
+    "name": "Apple",
+    "parentId": 20016,
+    "rootCategory": false
+  },
+  {
+    "id": 30159,
+    "active": false,
+    "name": "Asus",
+    "parentId": 20016,
+    "rootCategory": false
+  },
+  {
+    "id": 30155,
+    "active": false,
+    "name": "Asus",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30154,
+    "active": false,
+    "name": "Asus",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30153,
+    "active": false,
+    "name": "Asus",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30082,
+    "active": false,
+    "name": "Blackberry",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30083,
+    "active": false,
+    "name": "Blackberry",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30201,
+    "active": false,
+    "name": "Bravis",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30206,
+    "active": false,
+    "name": "Bravis",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30205,
+    "active": false,
+    "name": "Doogee",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30202,
+    "active": false,
+    "name": "Doogee",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30050,
+    "active": false,
+    "name": "Fly",
+    "parentId": 20016,
+    "rootCategory": false
+  },
+  {
+    "id": 30051,
+    "active": false,
+    "name": "Fly",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30055,
+    "active": false,
+    "name": "Fly",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30056,
+    "active": false,
+    "name": "Fly",
+    "parentId": 20025,
+    "rootCategory": false
+  },
+  {
+    "id": 30065,
+    "active": false,
+    "name": "Fly",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30209,
+    "active": false,
+    "name": "Google",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30208,
+    "active": false,
+    "name": "Google",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30039,
+    "active": false,
+    "name": "HTC",
+    "parentId": 20025,
+    "rootCategory": false
+  },
+  {
+    "id": 30004,
+    "active": false,
+    "name": "HTC",
+    "parentId": 20016,
+    "rootCategory": false
+  },
+  {
+    "id": 30066,
+    "active": false,
+    "name": "HTC",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30025,
+    "active": false,
+    "name": "HTC",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30032,
+    "active": false,
+    "name": "HTC",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30090,
+    "active": false,
+    "name": "Huawei",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30091,
+    "active": false,
+    "name": "Huawei",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30161,
+    "active": false,
+    "name": "Huawei",
+    "parentId": 20016,
+    "rootCategory": false
+  },
+  {
+    "id": 30098,
+    "active": false,
+    "name": "Huawei",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30128,
+    "active": false,
+    "name": "Huawei",
+    "parentId": 20025,
+    "rootCategory": false
+  },
+  {
+    "id": 30087,
+    "active": false,
+    "name": "Lenovo",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30125,
+    "active": false,
+    "name": "Lenovo",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30093,
+    "active": false,
+    "name": "Lenovo",
+    "parentId": 20016,
+    "rootCategory": false
+  },
+  {
+    "id": 30129,
+    "active": false,
+    "name": "Lenovo",
+    "parentId": 20025,
+    "rootCategory": false
+  },
+  {
+    "id": 30088,
+    "active": false,
+    "name": "Lenovo",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30003,
+    "active": false,
+    "name": "LG",
+    "parentId": 20016,
+    "rootCategory": false
+  },
+  {
+    "id": 30031,
+    "active": false,
+    "name": "LG",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30038,
+    "active": false,
+    "name": "LG",
+    "parentId": 20025,
+    "rootCategory": false
+  },
+  {
+    "id": 30067,
+    "active": false,
+    "name": "LG",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30024,
+    "active": false,
+    "name": "LG",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30218,
+    "active": true,
+    "name": "lsknvdsbhjdsfk jkshkjhkjsdh hdsh iujkhdfghds hd  dshfd dsf",
+    "parentId": 20037,
+    "rootCategory": false,
+    "description": "edsaf",
+    "metaTitle": "asfd",
+    "metaDescription": "dsaf",
+    "metaKeywords": "fds",
+    "humanReadableUrl": "sdf",
+    "urlImage": "dsf",
+    "shopName": "4"
+  },
+  {
+    "id": 30163,
+    "active": false,
+    "name": "Meizu",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30157,
+    "active": false,
+    "name": "Meizu",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30156,
+    "active": false,
+    "name": "Meizu",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30160,
+    "active": false,
+    "name": "Meizu",
+    "parentId": 20016,
+    "rootCategory": false
+  },
+  {
+    "id": 30005,
+    "active": false,
+    "name": "Motorola",
+    "parentId": 20016,
+    "rootCategory": false
+  },
+  {
+    "id": 30068,
+    "active": false,
+    "name": "Motorola",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30026,
+    "active": false,
+    "name": "Motorola",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30033,
+    "active": false,
+    "name": "Motorola",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30036,
+    "active": false,
+    "name": "Nokia",
+    "parentId": 20025,
+    "rootCategory": false
+  },
+  {
+    "id": 30001,
+    "active": false,
+    "name": "Nokia",
+    "parentId": 20016,
+    "rootCategory": false
+  },
+  {
+    "id": 30022,
+    "active": false,
+    "name": "Nokia",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30029,
+    "active": false,
+    "name": "Nokia",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30069,
+    "active": false,
+    "name": "Nokia",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30199,
+    "active": false,
+    "name": "Nomi",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30162,
+    "active": false,
+    "name": "Nomi",
+    "parentId": 20016,
+    "rootCategory": false
+  },
+  {
+    "id": 30165,
+    "active": false,
+    "name": "Nomi",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30211,
+    "active": false,
+    "name": "OnePlus",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30204,
+    "active": false,
+    "name": "OnePlus",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30213,
+    "active": false,
+    "name": "Oppo",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30214,
+    "active": false,
+    "name": "Oppo",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30099,
+    "active": false,
+    "name": "Prestigio",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30100,
+    "active": false,
+    "name": "Prestigio",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30113,
+    "active": false,
+    "name": "Prestigio",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30115,
+    "active": false,
+    "name": "Prestigio",
+    "parentId": 20016,
+    "rootCategory": false
+  },
+  {
+    "id": 30210,
+    "active": false,
+    "name": "Realme",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30212,
+    "active": false,
+    "name": "Realme",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30030,
+    "active": false,
+    "name": "Samsung",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30023,
+    "active": false,
+    "name": "Samsung",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30002,
+    "active": false,
+    "name": "Samsung",
+    "parentId": 20016,
+    "rootCategory": false
+  },
+  {
+    "id": 30037,
+    "active": false,
+    "name": "Samsung",
+    "parentId": 20025,
+    "rootCategory": false
+  },
+  {
+    "id": 30070,
+    "active": false,
+    "name": "Samsung",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30027,
+    "active": false,
+    "name": "Sony",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30041,
+    "active": false,
+    "name": "Sony",
+    "parentId": 20025,
+    "rootCategory": false
+  },
+  {
+    "id": 30006,
+    "active": false,
+    "name": "Sony",
+    "parentId": 20016,
+    "rootCategory": false
+  },
+  {
+    "id": 30034,
+    "active": false,
+    "name": "Sony",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30071,
+    "active": false,
+    "name": "Sony",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30028,
+    "active": false,
+    "name": "Sony Ericsson",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30007,
+    "active": false,
+    "name": "Sony Ericsson",
+    "parentId": 20016,
+    "rootCategory": false
+  },
+  {
+    "id": 30035,
+    "active": false,
+    "name": "Sony Ericsson",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30072,
+    "active": false,
+    "name": "Sony Ericsson",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30126,
+    "active": false,
+    "name": "Xiaomi",
+    "parentId": 20030,
+    "rootCategory": false
+  },
+  {
+    "id": 30207,
+    "active": false,
+    "name": "Xiaomi",
+    "parentId": 20025,
+    "rootCategory": false
+  },
+  {
+    "id": 30134,
+    "active": false,
+    "name": "Xiaomi",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30158,
+    "active": false,
+    "name": "Xiaomi",
+    "parentId": 20016,
+    "rootCategory": false
+  },
+  {
+    "id": 30127,
+    "active": false,
+    "name": "Xiaomi",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 30200,
+    "active": false,
+    "name": "ZTE",
+    "parentId": 20026,
+    "rootCategory": false
+  },
+  {
+    "id": 30203,
+    "active": false,
+    "name": "ZTE",
+    "parentId": 20017,
+    "rootCategory": false
+  },
+  {
+    "id": 20017,
+    "active": false,
+    "name": "Дисплеи",
+    "parentId": 0,
+    "rootCategory": false
+  },
+  {
+    "id": 20030,
+    "active": false,
+    "name": "Задние крышки",
+    "parentId": 0,
+    "rootCategory": false
+  },
+  {
+    "id": 20037,
+    "active": false,
+    "name": "Защитные стекла",
+    "parentId": 0,
+    "rootCategory": false
+  },
+  {
+    "id": 20026,
+    "active": false,
+    "name": "Сенсорные стекла",
+    "parentId": 0,
+    "rootCategory": false
+  },
+  {
+    "id": 20025,
+    "active": false,
+    "name": "Шлейфы",
+    "parentId": 0,
+    "rootCategory": false
+  }
+]

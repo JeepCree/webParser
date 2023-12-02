@@ -175,7 +175,7 @@ public class CategoriesController {
     @PostMapping("/save-categories-to-json")
     public String saveCartegoriesToJson(){
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        try (FileWriter writer = new FileWriter("C:\\Users\\dima2\\IdeaProjects\\webParser\\src\\main\\resources\\data\\categories_export_" + Time.getTime() + ".json")) {
+        try (FileWriter writer = new FileWriter("C:\\Users\\dima2\\OneDrive\\Рабочий стол\\webParser\\src\\main\\resources\\data\\categories_export_" + Time.getTime() + ".json")) {
             gson.toJson(categoriesRepository.findAllByOrderByNameAsc(), writer);
         } catch (IOException e) {
             e.printStackTrace();

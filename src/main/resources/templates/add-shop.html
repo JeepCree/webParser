@@ -45,7 +45,7 @@
 <div class="body">
     <div class="catalog-conteiner" id="add-shop">
         <h2>Магазины</h2>
-        <table>
+        <table class="shop-catalog">
         <tr th:each="item : ${catalog}">
             <td th:text="${item.getName()}"></td>
             <td>

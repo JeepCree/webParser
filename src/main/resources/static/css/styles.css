@@ -127,7 +127,7 @@
     box-shadow: 5px 5px 5px #575651;
     border-radius: 5px;
     white-space: nowrap; /* Предотвращаем перенос текста на новую строку */
-    transition: width 1s;
+    transition: width 0.5s;
     z-index: 3;
     background-color: #f3f3f3;
     background-image: url("../img/square-alt-arrow-right-svgrepo-com.svg");
@@ -137,6 +137,7 @@
 }
 .catalog-conteiner:hover{
     overflow-y: auto;
+    overflow-x: auto;
     width: 25%;
     height: 85%;
     padding: 5px;
@@ -473,6 +474,13 @@ select, input {
     text-align: center;
     background: url("../img/cancel-close-svgrepo-com.svg") no-repeat;
     background-size: cover; /* Adjust to fit the container */
+}
+
+.shop-catalog {
+    margin-left: 40px;
+}
+.catalog-conteiner h2 {
+    margin-left: 40px;
 }
 
 /*.close-edit-category {*/
