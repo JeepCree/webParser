@@ -449,15 +449,16 @@ select, input {
     width: 26px;
     height: 26px;
     background-color: #8a8a8a;
-    color: #fff;
+    color: #fff; /* Цвет текста белый */
     text-align: center;
-    text-decoration: none;
     line-height: 26px;
     border-radius: 13px;
     margin: 5px;
 }
+
 .close-edit-category a {
     text-decoration: none;
+    color: #fff; /* Цвет текста белый */
 }
 .close-edit-category:hover {
     background-color: #797979; /* Изменение цвета при наведении курсора */
