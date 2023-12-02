@@ -44,12 +44,15 @@
 <hr>
 <div class="body">
     <div class="basic-conteiner">
+        <div class="close-edit-category">
+            <a href="/catalog-settings">X</a>
+        </div>
         <h2 th:text="'Изменить категорию: ' + ${category.name}">Редактирование категории</h2>
         <form class="menu-categories" action="/save-category" method="post" name="menu-categories-form" th:object="${category}">
             <input type="hidden" th:field="*{id}" name="id">
             <label for="parentCategory">Select parent category:</label><br>
             <select id="parentCategory" name="parentCategory">
-                <option value="0" th:text="${parentCategoryName}"></option>
+                <option th:value="${parentCategoryId}" th:text="${parentCategoryName}"></option>
                 <option value="0">Parent</option>
                 <option th:each="items : ${catalog}" th:value="${items.id}" th:text="${items.getName()}"></option>
             </select><br>

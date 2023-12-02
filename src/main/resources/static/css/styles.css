@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+
 .top-container {
     display: flex;
     justify-content: space-between; /* или другие значения: flex-start, flex-end, center, space-around, space-evenly */
@@ -58,7 +60,7 @@
     position: absolute;
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    z-index: 3;
+    z-index: 4;
     top: 100%;
     left: 0;
     display: none;
@@ -105,7 +107,7 @@
     /*display: inline;*/
     display: inline-block;
     margin-right: 10px; /* Укажите нужный отступ между элементами */
-    font-family: Tahoma, sans-serif; /* Устанавливаем шрифт */
+    font-family: 'Kelly Slab', sans-serif; /* Замените 'Your Font Name' на имя вашего шрифта */
     font-size: 20px; /* Устанавливаем размер шрифта */
     color: #090909; /* Устанавливаем цвет текста */
     text-align: left; /* Устанавливаем выравнивание текста */
@@ -126,7 +128,7 @@
     border-radius: 5px;
     white-space: nowrap; /* Предотвращаем перенос текста на новую строку */
     transition: width 1s;
-    z-index: 2;
+    z-index: 3;
     background-color: #f3f3f3;
     background-image: url("../img/square-alt-arrow-right-svgrepo-com.svg");
     background-size: 18px 18px;
@@ -201,7 +203,7 @@ hr {
 }
 
 /* Стили для ссылок категорий */
-@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+
 .category-link {
     text-decoration: none;
     color: #000; /* Цвет текста ссылки */
@@ -438,4 +440,25 @@ select, input {
     text-align: center;
     background: url("../img/add-circle-svgrepo-com.svg") no-repeat;
     background-size: cover; /* Adjust to fit the container */
+}
+
+.close-edit-category {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 26px;
+    height: 26px;
+    background-color: #8a8a8a;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 26px;
+    border-radius: 13px;
+    margin: 5px;
+}
+.close-edit-category a {
+    text-decoration: none;
+}
+.close-edit-category:hover {
+    background-color: #797979; /* Изменение цвета при наведении курсора */
 }

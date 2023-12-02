@@ -106,6 +106,7 @@ public class CategoriesController {
             model.addAttribute("shops", shopRepository.findAll());
             model.addAttribute("category", categoryService.findCategoryById(categoryId));
             model.addAttribute("parentCategoryName", categoryService.findCategoryById(categoryService.findCategoryById(categoryId).getParentId()).getName());
+            model.addAttribute("parentCategoryId", categoryService.findCategoryById(categoryService.findCategoryById(categoryId).getParentId()).getId());
             return "edit-catalog";
         } catch (Exception e) {
             JsonNode jsonNode = objectMapper.readTree(requestBody);
