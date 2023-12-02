@@ -6,7 +6,7 @@
 }
 .menu-container {
     margin-right: 20px; /* Укажите нужный отступ между элементами */
-    /*width: 120px;*/
+
 }
 /* Стили для поля ввода поиска */
 .search-input {
@@ -103,6 +103,7 @@
 
 .page-info {
     /*display: inline;*/
+    display: inline-block;
     margin-right: 10px; /* Укажите нужный отступ между элементами */
     font-family: Tahoma, sans-serif; /* Устанавливаем шрифт */
     font-size: 20px; /* Устанавливаем размер шрифта */
@@ -386,7 +387,22 @@ th {
 
 
 
+label {
+    /*display: block;*/
+    margin-top: 8px;
+    padding-bottom: 8px;
+    font-family: 'Kelly Slab', sans-serif;
+    font-weight: bold;
+    color: #707070;
 
-
-
-
+}
+select, input {
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 5px;
+}

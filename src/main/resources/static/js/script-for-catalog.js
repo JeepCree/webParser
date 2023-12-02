@@ -264,41 +264,6 @@ document.addEventListener('DOMContentLoaded', function () {
     table.querySelector('thead').addEventListener('click', handleHeaderClick);
 });
 
-
-
-
-
-
-// document.addEventListener("DOMContentLoaded", function () {
-//     const searchInput = document.querySelector('.search-input');
-//     const table = document.getElementById('productTable');
-//     const tbody = table.querySelector('tbody');
-//
-//     searchInput.addEventListener('input', function () {
-//         const searchValue = searchInput.value.toLowerCase();
-//
-//         // Получаем все строки таблицы
-//         const rows = Array.from(tbody.querySelectorAll('tr'));
-//
-//         // Фильтруем строки по значениям в колонках "Article" и "Name"
-//         rows.forEach(row => {
-//             const articleColumnValue = row.querySelector('.table-sheet-article').innerText.toLowerCase();
-//             const nameColumnValue = row.querySelector('.table-sheet-name .editable-content').innerText.toLowerCase();
-//
-//             if (articleColumnValue.includes(searchValue) || nameColumnValue.includes(searchValue)) {
-//                 row.style.display = '';
-//             } else {
-//                 row.style.display = 'none';
-//             }
-//         });
-//     });
-// });
-
-function clearSearch() {
-    const searchInput = document.querySelector('.search-input');
-    searchInput.value = '';
-    // Дополнительные действия, которые могут быть необходимы после очистки
-}
 document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.querySelector('.search-input');
     const table = document.getElementById('productTable');
@@ -336,6 +301,11 @@ document.addEventListener("DOMContentLoaded", function () {
         // Обновляем таблицу с пустым значением поиска
         updateTable('');
     });
-
-    // ... (остальной ваш код)
 });
+
+function clearSearch() {
+    const searchInput = document.querySelector('.search-input');
+    searchInput.value = '';
+    // Дополнительные действия, которые могут быть необходимы после очистки
+}
+
