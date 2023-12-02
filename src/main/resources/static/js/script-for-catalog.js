@@ -312,3 +312,4 @@ function addNewProduct() {
     alert('Button clicked!');
 }
 
+
