@@ -3,21 +3,21 @@
 .top-container {
     display: flex;
     justify-content: space-between; /* или другие значения: flex-start, flex-end, center, space-around, space-evenly */
-    align-items: center; /
-    height: 50px;
+    align-items: center;
+    height: 30px;
 }
 .menu-container {
     margin-right: 20px; /* Укажите нужный отступ между элементами */
 
 }
 /* Стили для поля ввода поиска */
-.search-input {
+input.search-input {
     width: 200px; /* Задайте ширину поля ввода по вашему усмотрению */
     padding: 8px;
     font-size: 14px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    /*margin-right: 20px;*/
+    margin: 2px;
 }
 
 /* Стили для кнопки быстрой очистки */

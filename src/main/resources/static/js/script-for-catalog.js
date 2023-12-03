@@ -309,8 +309,9 @@ function clearSearch() {
 
 function addNewProduct() {
     var div = document.getElementById('add-new-product');
-    console.log(div);
+    div.innerText('add');
     div.style.display = (div.style.display === 'block') ? 'none' : 'block';
+
 
 }
 
