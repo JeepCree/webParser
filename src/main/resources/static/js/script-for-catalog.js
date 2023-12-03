@@ -308,8 +308,10 @@ function clearSearch() {
 }
 
 function addNewProduct() {
-    // Your JavaScript logic here
-    alert('Button clicked!');
+    var div = document.getElementById('add-new-product');
+    console.log(div);
+    div.style.display = (div.style.display === 'block') ? 'none' : 'block';
+
 }
 
 

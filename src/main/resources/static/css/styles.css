@@ -435,8 +435,8 @@ select, input {
 }
 
 .top-table-menu:hover {
-    width: 50px;
-    height: 50px;
+    width: 27px;
+    height: 27px;
     text-align: center;
     background: url("../img/add-circle-svgrepo-com.svg") no-repeat;
     background-size: cover; /* Adjust to fit the container */
@@ -482,7 +482,20 @@ select, input {
 .catalog-conteiner h2 {
     margin-left: 40px;
 }
-
+#add-new-product {
+    display: none; /* Начинаем с скрытия элемента */
+    position: fixed; /* Фиксированная позиция */
+    top: 50%; /* Расположение сверху на 50% высоты экрана */
+    left: 50%; /* Расположение слева на 50% ширины экрана */
+    transform: translate(-50%, -50%); /* Центрирование элемента */
+    z-index: 10; /* Высокий уровень z-index, чтобы разместить поверх других элементов */
+    background-color: #e7e7e7;
+    width: 950px;
+    height: 550px;
+    box-shadow: 3px 3px 3px #757575;
+    border: #6b6b6b 1px solid;
+    border-radius: 5px;
+}
 /*.close-edit-category {*/
 /*    position: absolute;*/
 /*    top: 0;*/
