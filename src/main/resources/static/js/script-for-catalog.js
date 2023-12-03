@@ -309,7 +309,7 @@ function clearSearch() {
 
 function addNewProduct() {
     var div = document.getElementById('add-new-product');
-    div.innerText('add');
+    div.innerText = 'ADD';
     div.style.display = (div.style.display === 'block') ? 'none' : 'block';
 
 
