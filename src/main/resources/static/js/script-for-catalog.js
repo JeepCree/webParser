@@ -308,6 +308,7 @@ function clearSearch() {
 }
 
 function addNewProduct() {
+    console.log('press!');
     var div = document.getElementById('add-new-product');
     div.innerText = 'ADD';
     div.style.display = (div.style.display === 'block') ? 'none' : 'block';
