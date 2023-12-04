@@ -222,6 +222,9 @@ h2 {
 .basic-conteiner .catalog-table td {
     border: 1px solid #ddd;
     padding: 8px;
+    text-align: center;
+}
+.basic-conteiner .catalog-table td.table-sheet-name {
     text-align: left;
 }
 .basic-conteiner .catalog-table .table-line-first th {
@@ -237,6 +240,7 @@ h2 {
 }
 .basic-conteiner .catalog-table th {
     padding-right: 20px;
+    padding-left: 35px;
 }
 .basic-conteiner .catalog-table td {
     padding: 5px;
@@ -396,6 +400,7 @@ select, input {
     cursor: pointer; /* Add cursor pointer to indicate it's clickable */
     text-align: center;
     background: url("../img/add-circle-svgrepo-com.svg") no-repeat;
+    background-color: #efefef;
     background-size: cover; /* Adjust to fit the container */
     width: 25px;
     height: 25px;
@@ -405,6 +410,7 @@ select, input {
     height: 27px;
     text-align: center;
     background: url("../img/add-circle-svgrepo-com.svg") no-repeat;
+    background-color: #efefef;
     background-size: cover; /* Adjust to fit the container */
 }
 
@@ -500,3 +506,4 @@ select, input {
     height: 20px;
     background-color: #ffdd53;
 }
+
