@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     const categoryId = link.getAttribute("data-id");
                     const descendantIds = getDescendantIds(category);
                     const idsToSend = [categoryId, ...descendantIds].join(',');
-
+                    catId = categoryId;
                     fetch('/get-all-catalog', {
                         method: 'POST',
                         headers: {
@@ -307,13 +307,15 @@ function clearSearch() {
     // Дополнительные действия, которые могут быть необходимы после очистки
 }
 
-function addNewProduct() {
-    console.log('press!');
-    var div = document.getElementById('add-new-product');
-    div.innerText = 'ADD';
-    div.style.display = (div.style.display === 'block') ? 'none' : 'block';
-
-
+let catId;
+function openAddNewProduct() {
+    let div = document.getElementById('add-new-product');
+    div.style.display = 'block';
+    document.getElementById('catIdInput').value = catId;
+}
+function closeAddNewProduct() {
+    let div = document.getElementById('add-new-product');
+    div.style.display = 'none';
 }
 
 

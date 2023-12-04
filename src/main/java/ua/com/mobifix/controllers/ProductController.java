@@ -33,7 +33,7 @@ public class ProductController {
 
             for (String[] row : csvData) {
                 Product product = new Product();
-                product.setArticle(row[0]);
+                product.setArticle(Integer.parseInt(row[0]));
                 product.setName(row[1]);
                 product.setPrice(Double.parseDouble(row[2]));
                 product.setStock(Integer.getInteger(row[3]));
@@ -85,5 +85,22 @@ public class ProductController {
             e.printStackTrace();
             return false;
         }
+    }
+    @PostMapping("/add-new-product")
+    public String saveNewProduct(String catId, String name, String stock, String price, String link, Model model) {
+        System.out.println(catId);
+        System.out.println(name);
+        System.out.println(stock);
+        System.out.println(price);
+        System.out.println(link);
+        Product product = new Product();
+        product.setArticle(productRepository.findTopByOrderByArticleDesc().getArticle() + 1);
+        product.setCategories(Long.parseLong(catId));
+        product.setName(name);
+        product.setStock(Integer.parseInt(stock));
+        product.setPrice(Double.parseDouble(price));
+        product.setLink(link);
+        productRepository.save(product);
+        return "redirect:/catalog";
     }
 }

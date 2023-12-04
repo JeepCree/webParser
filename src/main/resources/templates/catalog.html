@@ -54,15 +54,26 @@
         <div id="category-tree"></div>
     </div>
     <div class="basic-conteiner">
-        <div class="top-table-menu" onclick="addNewProduct()">
+        <div class="top-table-menu" onclick="openAddNewProduct()">
         </div>
-        <div id="add-new-product">
-<!--            <input type="text" th:text="${categoryId}">-->
-            <div class="head-container-block">
-5346543
+            <div id="add-new-product">
+                <h2>Добавить новый товар</h2>
+                <form th:action="@{/add-new-product}" method="post">
+                    <input type="hidden" id="catIdInput" name="catId" th:value="${catId}"/>
+                    <label for="name">Name</label><br>
+                    <input id="name" type="text" name="name" value="" required><br>
+                    <label for="stock">Stock</label><br>
+                    <input id="stock" type="text" name="stock" value="" required><br>
+                    <label for="price">Price</label><br>
+                    <input id="price" type="text" name="price" value="" required><br>
+                    <label for="link">Link</label><br>
+                    <input id="link" type="text" name="link" value="" required><br>
+                    <button class="save-button" type="submit">Сохранить</button>
+                </form>
+                <div class="close-top-table-menu" id="save-product" onclick="closeAddNewProduct()">
+
+                </div>
             </div>
-            <span th:text="${categoryId}"></span>
-        </div>
         <table class="catalog-table" id="productTable">
             <thead>
             <tr class="table-line-first">

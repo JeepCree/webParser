@@ -6,34 +6,10 @@
     align-items: center;
     height: 30px;
 }
+
 .menu-container {
     margin-right: 20px; /* Укажите нужный отступ между элементами */
 
-}
-/* Стили для поля ввода поиска */
-input.search-input {
-    width: 200px; /* Задайте ширину поля ввода по вашему усмотрению */
-    padding: 8px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin: 2px;
-}
-
-/* Стили для кнопки быстрой очистки */
-.clear-button {
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-    font-size: 14px;
-    color: #888;
-    outline: none;
-    padding: 8px;
-    margin-right: 20px;
-}
-
-.clear-button:hover {
-    color: #333;
 }
 
 /* Стилизация кнопки и меню */
@@ -114,6 +90,30 @@ input.search-input {
     font-weight: bold; /* Устанавливаем жирный шрифт */
 }
 
+/* Стили для поля ввода поиска */
+input.search-input {
+    width: 200px; /* Задайте ширину поля ввода по вашему усмотрению */
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 2px;
+}
+/* Стили для кнопки быстрой очистки */
+.clear-button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    color: #888;
+    outline: none;
+    padding: 8px;
+    margin-right: 20px;
+}
+.clear-button:hover {
+    color: #333;
+}
+
 .catalog-conteiner{
     display: inline-block;
     margin-right: 10px;
@@ -151,20 +151,8 @@ input.search-input {
     margin-left: 50px;
 }
 
-.basic-conteiner{
-    display: inline-block;
-    margin-right: 10px;
-    margin-left: 30px;
-    border: 1px solid #757575;
-    padding: 10px;
-    position: absolute;
-    min-width: 94.5%;
-    height: 85%;
-    overflow: auto;
-    box-shadow: 5px 5px 7px #575651;
-    border-radius: 5px;
-    /*display: block; !* Для использования flex-контейнера *!*/
-    /*align-items: flex-start; !* Выравнивание по верхнему краю *!*/
+hr {
+    box-shadow: 1px 1px 4px #1bb300;
 }
 /* Убираем маркеры у списка и элементов списка */
 ul, li {
@@ -173,16 +161,12 @@ ul, li {
 h2 {
     text-align: left;
 }
-hr {
-    box-shadow: 1px 1px 4px #1bb300;
-}
 
 /* Стили для категорий */
 .category {
     /*margin-left: 10px;*/
     display: none;
 }
-
 /* Иконки категорий */
 .toggle-button::before {
     content: ""; /* Очистка содержимого, так как мы будем использовать фоновое изображение */
@@ -201,9 +185,7 @@ hr {
 .toggle-button.open::before {
     background-image: url('../img/folder-alt-svgrepo-com.svg'); /* Изображение для открытой категории */
 }
-
 /* Стили для ссылок категорий */
-
 .category-link {
     text-decoration: none;
     color: #000; /* Цвет текста ссылки */
@@ -215,6 +197,49 @@ hr {
     /*background-color: #d71717; !* Цвет фона при наведении *!*/
     font-weight: bold;
     border-radius: 5px; /* Скругление углов */
+}
+
+.basic-conteiner{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 30px;
+    border: 1px solid #757575;
+    padding: 10px;
+    position: absolute;
+    min-width: 94.5%;
+    height: 85%;
+    overflow: auto;
+    box-shadow: 5px 5px 7px #575651;
+    border-radius: 5px;
+    /*display: block; !* Для использования flex-контейнера *!*/
+    /*align-items: flex-start; !* Выравнивание по верхнему краю *!*/
+}
+.basic-conteiner .catalog-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.basic-conteiner .catalog-table th,
+.basic-conteiner .catalog-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.basic-conteiner .catalog-table .table-line-first th {
+    background-color: #e0e0e0; /* Цвет фона для заголовка */
+    border: 3px solid #d2d2d2;
+    text-align: center;
+}
+.basic-conteiner .catalog-table tr:nth-child(even) {
+    background-color: #f3f3f3; /* Четные строки */
+}
+.basic-conteiner .catalog-table tr:nth-child(odd) {
+    background-color: #ffffff; /* Нечетные строки */
+}
+.basic-conteiner .catalog-table th {
+    padding-right: 20px;
+}
+.basic-conteiner .catalog-table td {
+    padding: 5px;
 }
 
 /* Стили для кнопок */
@@ -297,60 +322,6 @@ hr {
 
 
 
-.basic-conteiner .catalog-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.basic-conteiner .catalog-table th,
-.basic-conteiner .catalog-table td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
-
-.basic-conteiner .catalog-table .table-line-first th {
-    background-color: #e0e0e0; /* Цвет фона для заголовка */
-    border: 3px solid #d2d2d2;
-    text-align: center;
-}
-
-.basic-conteiner .catalog-table tr:nth-child(even) {
-    background-color: #f3f3f3; /* Четные строки */
-}
-
-.basic-conteiner .catalog-table tr:nth-child(odd) {
-    background-color: #ffffff; /* Нечетные строки */
-}
-
-.basic-conteiner .catalog-table th {
-    padding-right: 20px;
-}
-.basic-conteiner .catalog-table td {
-    padding: 5px;
-}
-
-/*.table-sheet-article {*/
-/*    !*min-width: 75px;*!*/
-/*    text-align: center;*/
-/*    !*padding-right: 30px;*!*/
-/*}*/
-/*.table-sheet-categories {*/
-/*    width: 100px;*/
-/*    text-align: center;*/
-/*}*/
-/*.table-sheet-stock {*/
-/*    width: 100px;*/
-/*    text-align: center;*/
-/*}*/
-/*.table-sheet-price {*/
-/*    width: 100px;*/
-/*    !*height: 50px;*!*/
-/*}*/
-/*.table-sheet-link {*/
-/*    width: 100px;*/
-/*}*/
-
 
 ::-webkit-scrollbar {
     width: 7px; /* Ширина полосы прокрутки */
@@ -358,7 +329,6 @@ hr {
     border: 1px solid #cbcbcb;
     border-radius: 3px; /* Закругленные углы */
 }
-
 ::-webkit-scrollbar-thumb {
     background-color: #73cb63; /* Цвет полосы прокрутки */
     border-radius: 3px; /* Закругленные углы */
@@ -386,10 +356,6 @@ th {
     background-position: right;
     background-repeat: no-repeat;
 }
-
-
-
-
 label {
     /*display: block;*/
     margin-top: 8px;
@@ -434,7 +400,6 @@ select, input {
     width: 25px;
     height: 25px;
 }
-
 .top-table-menu:hover {
     width: 27px;
     height: 27px;
@@ -443,7 +408,37 @@ select, input {
     background-size: cover; /* Adjust to fit the container */
 }
 
+.close-top-table-menu {
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    overflow: hidden;
 
+    border-radius: 25px;
+    white-space: nowrap;
+    transition: 0.2s;
+    z-index: 1;
+    /*border: #149f00 solid 1px;*/
+    /*background-color: rgba(243, 243, 243, 0.19);*/
+    cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+    text-align: center;
+    background: url("../img/cancel-close-svgrepo-com.svg") no-repeat;
+    background-size: cover; /* Adjust to fit the container */
+    width: 25px;
+    height: 25px;
+    box-shadow: 3px 3px 3px #575651;
+}
+
+.close-top-table-menu:hover {
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    background: url("../img/cancel-close-svgrepo-com.svg") no-repeat;
+    background-size: cover; /* Adjust to fit the container */
+}
 
 .close-edit-category {
     margin: 5px;
@@ -484,15 +479,17 @@ select, input {
     margin-left: 40px;
 }
 #add-new-product {
+    padding: 40px;
+    padding-top: 5px;
     display: none; /* Начинаем с скрытия элемента */
     position: fixed; /* Фиксированная позиция */
     top: 50%; /* Расположение сверху на 50% высоты экрана */
     left: 50%; /* Расположение слева на 50% ширины экрана */
     transform: translate(-50%, -50%); /* Центрирование элемента */
     z-index: 10; /* Высокий уровень z-index, чтобы разместить поверх других элементов */
-    background-color: #f3f3f3;
-    width: 950px;
-    height: 550px;
+    background-color: rgb(255, 255, 255);
+    width: 750px;
+    height: 450px;
     box-shadow: 3px 3px 3px #757575;
     border: #6b6b6b 1px solid;
     border-radius: 5px;
@@ -503,32 +500,3 @@ select, input {
     height: 20px;
     background-color: #ffdd53;
 }
-/*.close-edit-category {*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    right: 0;*/
-/*    width: 26px;*/
-/*    height: 26px;*/
-/*    background-color: #ffffff;*/
-/*    color: #ffffff; !* Цвет текста белый *!*/
-/*    text-align: center;*/
-/*    line-height: 26px;*/
-/*    border-radius: 13px;*/
-/*    margin: 10px;*/
-/*    border: #757575 1px solid;*/
-/*}*/
-
-/*.close-edit-category a {*/
-/*    text-decoration: none;*/
-/*    color: #000000; !* Цвет текста белый *!*/
-/*}*/
-/*.close-edit-category a:hover {*/
-/*    text-decoration: none;*/
-/*    color: #000000; !* Цвет текста белый *!*/
-/*}*/
-/*.close-edit-category:hover {*/
-/*    background-color: #f83b3b; !* Изменение цвета при наведении курсора *!*/
-/*    color: #ffffff; !* Цвет текста белый *!*/
-/*    margin: 9px;*/
-/*    box-shadow: 2px 2px 2px #0a0a0a;*/
-/*}*/
