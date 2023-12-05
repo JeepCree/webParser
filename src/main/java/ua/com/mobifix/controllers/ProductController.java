@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.opencsv.exceptions.CsvException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -102,5 +103,22 @@ public class ProductController {
         product.setLink(link);
         productRepository.save(product);
         return "redirect:/catalog";
+    }
+    @PostMapping("/delete-product")
+    @ResponseBody
+    public boolean deleteProduct(@RequestParam int catId) {
+
+        try {
+            productRepository.deleteById(catId);
+            return true;
+        } catch (EmptyResultDataAccessException e) {
+            // Обработка ошибки, например, запись не найдена
+            e.printStackTrace(); // Замените это на ваш обработчик ошибок
+            return false;
+        } catch (Exception e) {
+            // Обработка других ошибок удаления
+            e.printStackTrace(); // Замените это на ваш обработчик ошибок
+            return false;
+        }
     }
 }

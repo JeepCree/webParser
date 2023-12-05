@@ -319,3 +319,36 @@ function closeAddNewProduct() {
 }
 
 
+function deleteProduct(itemId) {
+    // Создаем объект FormData и добавляем параметр itemId
+    var formData = new FormData();
+    formData.append('catId', itemId);
+
+    // Опции для запроса
+    var options = {
+        method: 'POST',
+        body: formData,
+        // Указываем, что ожидаем ответ в формате JSON
+        headers: {
+            'Accept': 'application/json',
+            // другие заголовки...
+        },
+    };
+
+    // Выполняем запрос
+    fetch('/delete-product', options)
+        .then(response => response.json())
+        .then(data => {
+            // Обработка успешного ответа от сервера
+            console.log('Ответ:', data);
+            if (data == true){
+                alert("Товар " + itemId + " удален!");
+            } else {
+                alert("Товар " + itemId + " НЕ удален!");
+            }
+        })
+        .catch(error => {
+            // Обработка ошибок
+            console.error('Error:', error);
+        });
+}

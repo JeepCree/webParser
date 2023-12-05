@@ -224,6 +224,10 @@ h2 {
     padding: 8px;
     text-align: center;
 }
+.basic-conteiner .catalog-table th.table-sheet-delete,
+.basic-conteiner .catalog-table td.table-sheet-delete {
+    max-width: 20px;
+}
 .basic-conteiner .catalog-table td.table-sheet-name {
     text-align: left;
 }
@@ -359,6 +363,17 @@ th {
     background-size: 18px 18px;
     background-position: right;
     background-repeat: no-repeat;
+}
+.basic-conteiner .catalog-table th.table-sheet-delete {
+    width: 20px;
+    margin: 3px;
+}
+th.table-sheet-delete {
+    background-image: url("");
+    background-size: 18px 18px;
+    background-position: right;
+    background-repeat: no-repeat;
+    cursor: auto;
 }
 label {
     /*display: block;*/
@@ -507,3 +522,31 @@ select, input {
     background-color: #ffdd53;
 }
 
+
+.delete-product {
+    /*margin: 5px;*/
+    width: 15px;
+    height: 15px;
+    /*position: absolute;*/
+    overflow: hidden;
+    border-radius: 7px;
+    white-space: nowrap;
+    transition: 0.2s;
+    z-index: 1;
+    /*border: #149f00 solid 1px;*/
+    /*background-color: rgba(243, 243, 243, 0.19);*/
+    cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+    text-align: center;
+    background: url("../img/cancel-close-svgrepo-com.svg") no-repeat;
+    background-size: cover; /* Adjust to fit the container */
+
+    box-shadow: 3px 3px 3px #575651;
+}
+
+.delete-product:hover {
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    background: url("../img/cancel-close-svgrepo-com.svg") no-repeat;
+    background-size: cover; /* Adjust to fit the container */
+}

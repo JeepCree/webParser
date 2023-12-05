@@ -82,10 +82,12 @@
                 <th class="table-sheet-stock">Stock</th>
                 <th class="table-sheet-price">Price</th>
                 <th class="table-sheet-link">Link</th>
+                <th class="table-sheet-delete"></th>
             </tr>
             </thead>
             <tbody>
             <tr class="table-line" th:each="item : ${productList}" th:data-id="${item.getId()}">
+
                 <td class="table-sheet-article" th:text="${item.getArticle()}">Article</td>
                 <td class="table-sheet-name" ondblclick="enableEditing(this)" onfocusout="saveData(this)">
                     <div class="editable-content" contenteditable="false" th:text="${item.getName()}"></div>
@@ -98,6 +100,9 @@
                 </td>
                 <td class="table-sheet-link" ondblclick="enableEditing(this)" onfocusout="saveData(this)">
                     <div class="editable-content" contenteditable="false" th:text="${item.getLink()}"></div>
+                </td>
+                <td class="table-sheet-delete" th:value="${item.getId()}">
+                    <div class="delete-product" onclick="deleteProduct(this.parentElement.getAttribute('value'))"></div>
                 </td>
             </tr>
             </tbody>
