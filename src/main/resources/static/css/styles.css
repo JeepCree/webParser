@@ -214,42 +214,60 @@ h2 {
     /*display: block; !* Для использования flex-контейнера *!*/
     /*align-items: flex-start; !* Выравнивание по верхнему краю *!*/
 }
-.basic-conteiner .catalog-table {
-    width: 100%;
+/*.basic-conteiner .catalog-table {*/
+/*    width: 100%;*/
+/*    border-collapse: collapse;*/
+/*}*/
+.catalog-table {
     border-collapse: collapse;
 }
 .basic-conteiner .catalog-table th,
 .basic-conteiner .catalog-table td {
     border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-}
-.basic-conteiner .catalog-table th.table-sheet-delete,
-.basic-conteiner .catalog-table td.table-sheet-delete {
-    max-width: 20px;
-}
-.basic-conteiner .catalog-table td.table-sheet-name {
+    padding: 2px;
     text-align: left;
+    /*border-collapse: collapse;*/
 }
-.basic-conteiner .catalog-table .table-line-first th {
-    background-color: #e0e0e0; /* Цвет фона для заголовка */
-    border: 3px solid #d2d2d2;
-    text-align: center;
-}
+/*.basic-conteiner .catalog-table th.table-sheet-delete,*/
+/*.basic-conteiner .catalog-table td.table-sheet-delete {*/
+/*    width: 20px;*/
+/*}*/
+/*.basic-conteiner .catalog-table td.table-sheet-name {*/
+/*    text-align: left;*/
+/*}*/
+/*.basic-conteiner .catalog-table .table-line-first th {*/
+/*    background-color: #e0e0e0; !* Цвет фона для заголовка *!*/
+/*    border: 3px solid #d2d2d2;*/
+/*    text-align: center;*/
+/*}*/
 .basic-conteiner .catalog-table tr:nth-child(even) {
     background-color: #f3f3f3; /* Четные строки */
 }
 .basic-conteiner .catalog-table tr:nth-child(odd) {
     background-color: #ffffff; /* Нечетные строки */
 }
-.basic-conteiner .catalog-table th {
+/*.basic-conteiner .catalog-table th {*/
+/*    !*padding-right: 20px;*!*/
+/*    !*padding-left: 35px;*!*/
+/*}*/
+/*.basic-conteiner .catalog-table td {*/
+/*    !*padding: 5px;*!*/
+/*    width: 20px;*/
+/*    margin: 5px;*/
+/*}*/
+th.table-sheet-article, td.table-sheet-article {
+    /*width: 100px;*/
+    padding-left: 40px;
     padding-right: 20px;
-    padding-left: 35px;
+    /*width: 110px;*/
 }
-.basic-conteiner .catalog-table td {
-    padding: 5px;
+th.table-sheet-name, td.table-sheet-name {
+    width: 1000px;
 }
-
+th.table-sheet-price, td.table-sheet-price,
+th.table-sheet-stock, td.table-sheet-stock {
+    width: 70px;
+}
 /* Стили для кнопок */
 .save-button {
     display: flex;
@@ -364,17 +382,16 @@ th {
     background-position: right;
     background-repeat: no-repeat;
 }
-.basic-conteiner .catalog-table th.table-sheet-delete {
-    width: 20px;
-    margin: 3px;
-}
-th.table-sheet-delete {
-    background-image: url("");
-    background-size: 18px 18px;
-    background-position: right;
-    background-repeat: no-repeat;
-    cursor: auto;
-}
+/*.basic-conteiner .catalog-table th.table-sheet-delete {*/
+/*    margin: 3px;*/
+/*}*/
+/*th.table-sheet-delete {*/
+/*    background-image: url("");*/
+/*    background-size: 18px 18px;*/
+/*    background-position: right;*/
+/*    background-repeat: no-repeat;*/
+/*    cursor: auto;*/
+/*}*/
 label {
     /*display: block;*/
     margin-top: 8px;
@@ -382,7 +399,6 @@ label {
     font-family: 'Kelly Slab', sans-serif;
     font-weight: bold;
     color: #707070;
-
 }
 select, input {
     background-color: #f6f6f6;
@@ -549,4 +565,13 @@ select, input {
     text-align: center;
     background: url("../img/cancel-close-svgrepo-com.svg") no-repeat;
     background-size: cover; /* Adjust to fit the container */
+}
+
+th {
+    background-color: #e7e7e7;
+    border: #dedede solid 3px;
+}
+.table-sheet-article .art {
+    margin-left: 35px;
+    margin-right: 20px;
 }

@@ -88,12 +88,8 @@ public class ProductController {
         }
     }
     @PostMapping("/add-new-product")
-    public String saveNewProduct(String catId, String name, String stock, String price, String link, Model model) {
-        System.out.println(catId);
-        System.out.println(name);
-        System.out.println(stock);
-        System.out.println(price);
-        System.out.println(link);
+    @ResponseBody
+    public boolean saveNewProduct(String catId, String name, String stock, String price, String link, Model model) {
         Product product = new Product();
         product.setArticle(productRepository.findTopByOrderByArticleDesc().getArticle() + 1);
         product.setCategories(Long.parseLong(catId));
@@ -102,7 +98,7 @@ public class ProductController {
         product.setPrice(Double.parseDouble(price));
         product.setLink(link);
         productRepository.save(product);
-        return "redirect:/catalog";
+        return true;
     }
     @PostMapping("/delete-product")
     @ResponseBody

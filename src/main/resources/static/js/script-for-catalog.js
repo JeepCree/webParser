@@ -1,3 +1,5 @@
+let catId;
+let descIds;
 document.addEventListener("DOMContentLoaded", function() {
     const categories = JSON.parse(categoriesJson);
     const categoryTree = document.getElementById("category-tree");
@@ -38,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     const descendantIds = getDescendantIds(category);
                     const idsToSend = [categoryId, ...descendantIds].join(',');
                     catId = categoryId;
+                    descIds = descendantIds;
                     fetch('/get-all-catalog', {
                         method: 'POST',
                         headers: {
@@ -58,6 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         //     updatedCategoryTree.appendChild(createCategoryList(0));
                         // })
                         .then(data => {
+                            console.log(data);
                             const parser = new DOMParser();
                             const updatedTableBody = parser.parseFromString(data, 'text/html').body.querySelector('tbody');
 
@@ -85,7 +89,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     categoryTree.appendChild(createCategoryList(0));
-
     function getDescendantIds(category) {
         let descendantIds = [];
         categories.forEach((c) => {
@@ -148,13 +151,10 @@ function saveData(cell) {
         if (newValue !== originalValue) {
             // Собираем данные для отправки на сервер
             const rowId = cell.parentElement.dataset.id;
-            console.log('row ID: ' + rowId);
             const columnName = cell.classList.contains('table-sheet-name') ? 'name' :
                 cell.classList.contains('table-sheet-stock') ? 'stock' :
                     cell.classList.contains('table-sheet-price') ? 'price' :
                         cell.classList.contains('table-sheet-link') ? 'link' : '';
-            console.log('column Name: ' + columnName);
-            console.log('new Value: ' + newValue);
 
             // Отправляем данные на сервер (здесь нужно реализовать отправку данных на ваш сервер)
             fetch('save-sheet', {
@@ -168,7 +168,7 @@ function saveData(cell) {
                     newValue: newValue
                 }),
             })
-                .then(response => response.json())
+                .then(response => response.text())
                 .then(data => {
                     console.log('Success:', data);
 
@@ -271,10 +271,11 @@ document.addEventListener("DOMContentLoaded", function () {
     function updateTable(searchValue) {
         // Получаем все строки таблицы
         const rows = Array.from(tbody.querySelectorAll('tr'));
+        console.log(rows);
 
         // Фильтруем строки по значениям в колонках "Article" и "Name"
         rows.forEach(row => {
-            const articleColumnValue = row.querySelector('.table-sheet-article').innerText.toLowerCase();
+            const articleColumnValue = row.querySelector('.td-table-sheet-article').innerText.toLowerCase();
             const nameColumnValue = row.querySelector('.table-sheet-name .editable-content').innerText.toLowerCase();
 
             if (articleColumnValue.includes(searchValue) || nameColumnValue.includes(searchValue)) {
@@ -307,7 +308,7 @@ function clearSearch() {
     // Дополнительные действия, которые могут быть необходимы после очистки
 }
 
-let catId;
+
 function openAddNewProduct() {
     let div = document.getElementById('add-new-product');
     div.style.display = 'block';
@@ -340,9 +341,56 @@ function deleteProduct(itemId) {
         .then(response => response.json())
         .then(data => {
             // Обработка успешного ответа от сервера
-            console.log('Ответ:', data);
             if (data == true){
-                alert("Товар " + itemId + " удален!");
+
+                // вставка
+
+                const idsToSend = [catId, ...descIds].join(',');
+                fetch('/get-all-catalog', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ categoryIds: idsToSend })
+                })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`Network response was not ok: ${response.status}`);
+                        }
+                        return response.text();
+                    })
+                    // .then(data => {
+                    //     document.body.innerHTML = data;
+                    //     const updatedCategoryTree = document.getElementById("category-tree");
+                    //     updatedCategoryTree.innerHTML = "";
+                    //     updatedCategoryTree.appendChild(createCategoryList(0));
+                    // })
+                    .then(data => {
+                        const parser = new DOMParser();
+                        const updatedTableBody = parser.parseFromString(data, 'text/html').body.querySelector('tbody');
+
+                        // Находим текущее тело таблицы
+                        const currentTableBody = document.querySelector('#productTable tbody');
+
+                        // Удаляем все дочерние элементы из текущего тела таблицы
+                        while (currentTableBody.firstChild) {
+                            currentTableBody.removeChild(currentTableBody.firstChild);
+                        }
+
+                        // Добавляем новые строки
+                        updatedTableBody.childNodes.forEach(node => {
+                            currentTableBody.appendChild(node.cloneNode(true));
+                        });
+                    })
+                    .catch(error => {
+                        console.error('Ошибка запроса:', error);
+                    });
+                // конец вставки
+
+
+
+
+
             } else {
                 alert("Товар " + itemId + " НЕ удален!");
             }
@@ -351,4 +399,113 @@ function deleteProduct(itemId) {
             // Обработка ошибок
             console.error('Error:', error);
         });
+}
+
+
+
+
+    function sendData() {
+    // Получение значений полей формы
+    var catId = document.getElementById('catIdInput').value;
+    var name = document.getElementById('name').value;
+    var stock = document.getElementById('stock').value;
+    var price = document.getElementById('price').value;
+    var link = document.getElementById('link').value;
+
+    // Создание объекта FormData для упрощения передачи данных
+    var formData = new FormData();
+    formData.append('catId', catId);
+    formData.append('name', name);
+    formData.append('stock', stock);
+    formData.append('price', price);
+    formData.append('link', link);
+
+    // Отправка данных на сервер с использованием fetch
+    fetch('/add-new-product', {
+    method: 'POST',
+    body: formData
+})
+    .then(response => {
+    // Проверка статуса ответа
+    if (!response.ok) {
+    throw new Error('Ошибка при отправке данных на сервер.');
+}
+    return response.json();
+})
+    .then(data => {
+        // Обработка успешного ответа от сервера
+        if (data == true){
+
+            // вставка
+
+            const idsToSend = [catId, ...descIds].join(',');
+            fetch('/get-all-catalog', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ categoryIds: idsToSend })
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Network response was not ok: ${response.status}`);
+                    }
+                    return response.text();
+                })
+                // .then(data => {
+                //     document.body.innerHTML = data;
+                //     const updatedCategoryTree = document.getElementById("category-tree");
+                //     updatedCategoryTree.innerHTML = "";
+                //     updatedCategoryTree.appendChild(createCategoryList(0));
+                // })
+                .then(data => {
+                    const parser = new DOMParser();
+                    const updatedTableBody = parser.parseFromString(data, 'text/html').body.querySelector('tbody');
+
+                    // Находим текущее тело таблицы
+                    const currentTableBody = document.querySelector('#productTable tbody');
+
+                    // Удаляем все дочерние элементы из текущего тела таблицы
+                    while (currentTableBody.firstChild) {
+                        currentTableBody.removeChild(currentTableBody.firstChild);
+                    }
+
+                    // Добавляем новые строки
+                    updatedTableBody.childNodes.forEach(node => {
+                        currentTableBody.appendChild(node.cloneNode(true));
+                    });
+                })
+                .catch(error => {
+                    console.error('Ошибка запроса:', error);
+                });
+            // конец вставки
+
+
+
+
+
+        } else {
+            alert("Товар " + itemId + " НЕ добавлен!");
+        }
+    })
+
+
+
+    .catch(error => {
+    // Обработка ошибки
+    console.error(error);
+});
+}
+
+    // Обработка отправки формы
+    document.querySelector('form').addEventListener('submit', function (event) {
+    event.preventDefault(); // Предотвращение стандартной отправки формы
+    sendData(); // Вызов функции отправки данных
+});
+
+    // Дополнительная функция для закрытия окна добавления нового товара
+    function closeAddNewProduct() {
+    // Реализуйте логику закрытия окна, если необходимо
+        let div = document.getElementById('add-new-product');
+        div.style.display = 'none';
 }
