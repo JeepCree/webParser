@@ -138,6 +138,7 @@ function saveData(cell) {
     // Находим внутренний элемент, который содержит контент
     const editableContent = cell.querySelector('.editable-content');
 
+
     // Проверяем, что элемент был найден, прежде чем устанавливать атрибут contentEditable
     if (editableContent) {
         // Устанавливаем атрибут contentEditable в false после редактирования
@@ -145,7 +146,6 @@ function saveData(cell) {
 
         // Получаем новое значение из ячейки
         const newValue = editableContent.innerText.trim();
-
         // Проверка, изменилось ли значение
         const originalValue = cell.getAttribute('data-original-value');
         if (newValue !== originalValue) {
@@ -168,10 +168,8 @@ function saveData(cell) {
                     newValue: newValue
                 }),
             })
-                .then(response => response.text())
+                .then(response => response.json())
                 .then(data => {
-                    console.log('Success:', data);
-
                     // Проверяем, является ли data равным true
                     if (data === true) {
                         // Если успешно, показываем оповещение
@@ -215,7 +213,6 @@ function saveData(cell) {
         cell.classList.remove('highlighted-cell');
     }
 
-    console.log('Focusout event processed.');
 }
 
 document.addEventListener('DOMContentLoaded', function () {

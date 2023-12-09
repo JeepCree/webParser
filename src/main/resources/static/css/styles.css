@@ -263,6 +263,7 @@ th.table-sheet-article, td.table-sheet-article {
 }
 th.table-sheet-name, td.table-sheet-name {
     width: 1000px;
+    text-align: center;
 }
 th.table-sheet-price, td.table-sheet-price,
 th.table-sheet-stock, td.table-sheet-stock {
