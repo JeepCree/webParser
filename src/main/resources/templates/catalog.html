@@ -50,6 +50,15 @@
 <hr>
 <div class="body">
     <div class="catalog-conteiner">
+        <form id="storeForm">
+            <select id="storeSelect" name="store" onchange="sendSelectedStore()">
+                <option value="store1">Магазин 1</option>
+                <option value="store2">Магазин 2</option>
+                <option value="store3">Магазин 3</option>
+                <option value="store4">Магазин 4</option>
+                <option value="store5">Магазин 5</option>
+            </select>
+        </form>
         <h2>Категории</h2>
         <div id="category-tree"></div>
     </div>
