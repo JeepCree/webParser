@@ -137,6 +137,7 @@ public class CategoriesController {
             return "catalog";
         }
     }
+
     @PostMapping("/save-category")
     private String saveCategory(Model model,
                                   Long id,
@@ -182,6 +183,18 @@ public class CategoriesController {
             e.printStackTrace();
         }
         return "redirect:/catalog-settings";
+    }
+
+    @PostMapping("/get-store-catalog")
+    @ResponseBody
+    public String getShops(@RequestBody String requestBody) throws JsonProcessingException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        if (requestBody.equals(1)) {
+            String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAllByOrderByNameAsc());
+            return categoriesJson;
+        } else {
+            return null;
+        }
     }
     @GetMapping("/import-categories")
     public String importCsv() {

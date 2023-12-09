@@ -52,11 +52,7 @@
     <div class="catalog-conteiner">
         <form id="storeForm">
             <select id="storeSelect" name="store" onchange="sendSelectedStore()">
-                <option value="store1">Магазин 1</option>
-                <option value="store2">Магазин 2</option>
-                <option value="store3">Магазин 3</option>
-                <option value="store4">Магазин 4</option>
-                <option value="store5">Магазин 5</option>
+                <option th:each="item : ${shops}" th:value="${item.getId()}" th:text="${item.getName()}"></option>
             </select>
         </form>
         <h2>Категории</h2>
@@ -120,7 +116,7 @@
 </div>
 
 <script th:inline="javascript">
-    var categoriesJson = /*[[${jsonString}]]*/ '';
+    let categoriesJson = /*[[${jsonString}]]*/ '';
 </script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="../static/js/script-for-catalog.js" th:src="@{/js/script-for-catalog.js}"></script>

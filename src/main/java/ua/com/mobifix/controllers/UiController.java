@@ -65,6 +65,9 @@ public class UiController {
         try {
             String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAllByOrderByNameAsc());
             model.addAttribute("jsonString", categoriesJson);
+//            String shopJson = objectMapper.writeValueAsString(shopRepository.findAllByOrderByNameAsc());
+            model.addAttribute("shops", shopRepository.findAllByOrderByNameAsc());
+            System.out.println(shopRepository.findAllByOrderByNameAsc());
         } catch (Exception e) {
             e.printStackTrace();
         }
