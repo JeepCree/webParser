@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазины</title>
+</head>
+<body>
+
+<h1>Выберите магазин:</h1>
+
+<form id="storeForm">
+    <select id="storeSelect" name="store" onchange="sendSelectedStore()">
+        <option value="store1">Магазин 1</option>
+        <option value="store2">Магазин 2</option>
+        <option value="store3">Магазин 3</option>
+        <option value="store4">Магазин 4</option>
+        <option value="store5">Магазин 5</option>
+    </select>
+</form>
+
+<script>
+    function sendSelectedStore() {
+        const selectElement = document.getElementById('storeSelect');
+        const selectedStore = selectElement.value;
+
+        // Отправка выбранного магазина на сервер (замените '/api/save-store' на ваш реальный эндпоинт)
+        fetch('/api/save-store', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ store: selectedStore })
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`Network response was not ok: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log('Ответ от сервера:', data);
+                // Добавьте здесь код для обработки ответа от сервера, если необходимо
+            })
+            .catch(error => {
+                console.error('Ошибка запроса:', error);
+            });
+    }
+</script>
+
+</body>
+</html>
