@@ -49,6 +49,7 @@ public class ShopController {
         model.addAttribute("shop", shop);
         return "edit-shop";
     }
+
     @PostMapping("/save-shop")
     public String updateShop(Model model, Long id, String name, String link){
         Shop shop = new Shop();

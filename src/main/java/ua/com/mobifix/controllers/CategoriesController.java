@@ -186,15 +186,21 @@ public class CategoriesController {
     }
 
     @PostMapping("/get-store-catalog")
-    @ResponseBody
-    public String getShops(@RequestBody String requestBody) throws JsonProcessingException {
+    public String getShops(@RequestBody String requestBody, Model model) throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
-        if (requestBody.equals(1)) {
+        JsonNode jsonNode = objectMapper.readTree(requestBody);
+        String shopId = jsonNode.get("store").asText();
+        if (shopId.equals("2")) {
+
+            System.out.println("in if");
             String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAllByOrderByNameAsc());
+            model.addAttribute("jsonString", categoriesJson);
             return categoriesJson;
         } else {
-            return null;
+            System.out.println("in else");
+            return "catalog";
         }
+//        return requestBody;
     }
     @GetMapping("/import-categories")
     public String importCsv() {

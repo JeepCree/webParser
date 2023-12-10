@@ -1,5 +1,6 @@
 let catId;
 let descIds;
+categoriesJson = categoriesJson;
 document.addEventListener("DOMContentLoaded", function() {
     const categories = JSON.parse(categoriesJson);
     const categoryTree = document.getElementById("category-tree");
@@ -315,8 +316,6 @@ function closeAddNewProduct() {
     let div = document.getElementById('add-new-product');
     div.style.display = 'none';
 }
-
-
 function deleteProduct(itemId) {
     // Создаем объект FormData и добавляем параметр itemId
     var formData = new FormData();
@@ -510,10 +509,9 @@ function deleteProduct(itemId) {
 
 
 
-function sendSelectedStore() {
+    function sendSelectedStore() {
     const selectElement = document.getElementById('storeSelect');
     const selectedStore = selectElement.value;
-
     // Отправка выбранного магазина на сервер (замените '/api/save-store' на ваш реальный эндпоинт)
     fetch('/get-store-catalog', {
         method: 'POST',
@@ -530,9 +528,8 @@ function sendSelectedStore() {
         })
         .then(data => {
             console.log('Ответ от сервера:', data);
-            // categoriesJson = data;
-            // Добавьте здесь код для обработки ответа от сервера, если необходимо
         })
+
         .catch(error => {
             console.error('Ошибка запроса:', error);
         });
