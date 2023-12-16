@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.opencsv.exceptions.CsvException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -86,17 +87,17 @@ public class ProductController {
             return false;
         }
     }
-    @PostMapping("/add-new-product")
+    @PostMapping({"/add-new-product"})
     @ResponseBody
     public boolean saveNewProduct(String catId, String name, String stock, String price, String link, Model model) {
         Product product = new Product();
-        product.setArticle(productRepository.findTopByOrderByArticleDesc().getArticle() + 1);
+        product.setArticle(this.productRepository.findTopByOrderByArticleDesc().getArticle() + 1);
         product.setCategories(Long.parseLong(catId));
         product.setName(name);
         product.setStock(Integer.parseInt(stock));
         product.setPrice(Double.parseDouble(price));
         product.setLink(link);
-        productRepository.save(product);
+        this.productRepository.save(product);
         return true;
     }
     @PostMapping("/delete-product")

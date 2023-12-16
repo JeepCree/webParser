@@ -8,4 +8,5 @@ import java.util.List;
 public interface CategoriesRepository extends JpaRepository<Categories, Integer> {
     List<Categories> findAllByOrderByNameAsc();
     List<Categories> findAllByIdNotInOrderByNameAsc(List<Long> idsToExclude);
+    List<Categories> findAllByShopIdOrderByNameAsc(Long shopId);
 }

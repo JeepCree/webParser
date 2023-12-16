@@ -1,108 +1,104 @@
 let catId;
 let descIds;
+let selectedStore;
 categoriesJson = categoriesJson;
-document.addEventListener("DOMContentLoaded", function() {
-    const categories = JSON.parse(categoriesJson);
-    const categoryTree = document.getElementById("category-tree");
 
-    function createCategoryList(parentId) {
-        const ul = document.createElement("ul");
-        ul.style.display = parentId === 0 ? "block" : "none";
+//СОЗДАНИЕ КАТАЛОГА КАТЕГОРИЙ
+// document.addEventListener("DOMContentLoaded", function() {
+//     const categories = JSON.parse(categoriesJson);
+//     const categoryTree = document.getElementById("category-tree");
+//
+//     function createCategoryList(parentId) {
+//         const ul = document.createElement("ul");
+//         ul.style.display = parentId === 0 ? "block" : "none";
+//
+//         categories.forEach((category) => {
+//             if (category.parentId === parentId) {
+//                 const li = document.createElement("li");
+//                 const link = document.createElement("a");
+//                 link.setAttribute("data-id", category.id);
+//                 link.textContent = category.name;
+//                 link.classList.add("category-link");
+//                 li.appendChild(link);
+//
+//                 const childCategories = createCategoryList(category.id);
+//
+//                 if (childCategories.childNodes.length > 0) {
+//                     const toggleButton = document.createElement("span");
+//                     toggleButton.className = "toggle-button";
+//                     toggleButton.addEventListener("click", () => {
+//                         childCategories.style.display = childCategories.style.display === "none" ? "block" : "none";
+//                         toggleButton.classList.toggle("open");
+//                     });
+//                     li.insertBefore(toggleButton, link);
+//                     li.appendChild(childCategories);
+//                 } else {
+//                     link.style.marginLeft = "10px";
+//                 }
+//
+//                 ul.appendChild(li);
+//
+//                 link.addEventListener("click", (event) => {
+//                     event.preventDefault();  // Отмена действия по умолчанию
+//                     const categoryId = link.getAttribute("data-id");
+//                     const descendantIds = getDescendantIds(category);
+//                     const idsToSend = [categoryId, ...descendantIds].join(',');
+//                     catId = categoryId;
+//                     descIds = descendantIds;
+//                     fetch('/get-all-catalog', {
+//                         method: 'POST',
+//                         headers: {
+//                             'Content-Type': 'application/json'
+//                         },
+//                         body: JSON.stringify({ categoryIds: idsToSend })
+//                     })
+//                         .then(response => {
+//                             if (!response.ok) {
+//                                 throw new Error(`Network response was not ok: ${response.status}`);
+//                             }
+//                             return response.text();
+//                         })
+//                         .then(data => {
+//                             const parser = new DOMParser();
+//                             const updatedTableBody = parser.parseFromString(data, 'text/html').body.querySelector('tbody');
+//
+//                             // Находим текущее тело таблицы
+//                             const currentTableBody = document.querySelector('#productTable tbody');
+//
+//                             // Удаляем все дочерние элементы из текущего тела таблицы
+//                             while (currentTableBody.firstChild) {
+//                                 currentTableBody.removeChild(currentTableBody.firstChild);
+//                             }
+//                             // Добавляем новые строки
+//                             updatedTableBody.childNodes.forEach(node => {
+//                                 currentTableBody.appendChild(node.cloneNode(true));
+//                             });
+//                         })
+//                         .catch(error => {
+//                             console.error('Ошибка запроса:', error);
+//                         });
+//                 });
+//             }
+//         });
+//
+//         return ul;
+//     }
+//
+//     categoryTree.appendChild(createCategoryList(0));
+//     function getDescendantIds(category) {
+//         let descendantIds = [];
+//         categories.forEach((c) => {
+//             if (c.parentId === category.id) {
+//                 descendantIds.push(c.id);
+//                 descendantIds = descendantIds.concat(getDescendantIds(c));
+//             }
+//         });
+//         return descendantIds;
+//     }
+// });
 
-        categories.forEach((category) => {
-            if (category.parentId === parentId) {
-                const li = document.createElement("li");
-                const link = document.createElement("a");
-                link.setAttribute("data-id", category.id);
-                link.textContent = category.name;
-                link.classList.add("category-link");
-                li.appendChild(link);
-
-                const childCategories = createCategoryList(category.id);
-
-                if (childCategories.childNodes.length > 0) {
-                    const toggleButton = document.createElement("span");
-                    toggleButton.className = "toggle-button";
-                    toggleButton.addEventListener("click", () => {
-                        childCategories.style.display = childCategories.style.display === "none" ? "block" : "none";
-                        toggleButton.classList.toggle("open");
-                    });
-                    li.insertBefore(toggleButton, link);
-                    li.appendChild(childCategories);
-                } else {
-                    link.style.marginLeft = "10px";
-                }
-
-                ul.appendChild(li);
-
-                link.addEventListener("click", (event) => {
-                    event.preventDefault();  // Отмена действия по умолчанию
-                    const categoryId = link.getAttribute("data-id");
-                    const descendantIds = getDescendantIds(category);
-                    const idsToSend = [categoryId, ...descendantIds].join(',');
-                    catId = categoryId;
-                    descIds = descendantIds;
-                    fetch('/get-all-catalog', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify({ categoryIds: idsToSend })
-                    })
-                        .then(response => {
-                            if (!response.ok) {
-                                throw new Error(`Network response was not ok: ${response.status}`);
-                            }
-                            return response.text();
-                        })
-                        // .then(data => {
-                        //     document.body.innerHTML = data;
-                        //     const updatedCategoryTree = document.getElementById("category-tree");
-                        //     updatedCategoryTree.innerHTML = "";
-                        //     updatedCategoryTree.appendChild(createCategoryList(0));
-                        // })
-                        .then(data => {
-                            console.log(data);
-                            const parser = new DOMParser();
-                            const updatedTableBody = parser.parseFromString(data, 'text/html').body.querySelector('tbody');
-
-                            // Находим текущее тело таблицы
-                            const currentTableBody = document.querySelector('#productTable tbody');
-
-                            // Удаляем все дочерние элементы из текущего тела таблицы
-                            while (currentTableBody.firstChild) {
-                                currentTableBody.removeChild(currentTableBody.firstChild);
-                            }
-
-                            // Добавляем новые строки
-                            updatedTableBody.childNodes.forEach(node => {
-                                currentTableBody.appendChild(node.cloneNode(true));
-                            });
-                        })
-                        .catch(error => {
-                            console.error('Ошибка запроса:', error);
-                        });
-                });
-            }
-        });
-
-        return ul;
-    }
-
-    categoryTree.appendChild(createCategoryList(0));
-    function getDescendantIds(category) {
-        let descendantIds = [];
-        categories.forEach((c) => {
-            if (c.parentId === category.id) {
-                descendantIds.push(c.id);
-                descendantIds = descendantIds.concat(getDescendantIds(c));
-            }
-        });
-        return descendantIds;
-    }
-});
-
-var deleteButtons = document.querySelectorAll('.delete-button');
+//ФУНКЦИЯ ПОДТВЕРЖДЕНИЯ УДАЛЕНИЯ
+let deleteButtons = document.querySelectorAll('.delete-button');
 deleteButtons.forEach(function(button) {
     button.addEventListener('click', function(event) {
         // Остановим отправку формы
@@ -116,6 +112,7 @@ deleteButtons.forEach(function(button) {
     });
 });
 
+//РЕДАКТИРОВАНИЕ СТРОКИ В ТАБЛИЦЕ
 function enableEditing(cell) {
     // Добавляем класс для стилизации при редактировании
     cell.classList.add('highlighted-cell');
@@ -135,6 +132,8 @@ function enableEditing(cell) {
         editableContent.focus();
     }
 }
+
+//СОХРАНЕНИЕ СТРОКИ В ТАБЛИЦЕ
 function saveData(cell) {
     // Находим внутренний элемент, который содержит контент
     const editableContent = cell.querySelector('.editable-content');
@@ -173,13 +172,6 @@ function saveData(cell) {
                 .then(data => {
                     // Проверяем, является ли data равным true
                     if (data === true) {
-                        // Если успешно, показываем оповещение
-                        // Swal.fire({
-                        //     title: 'Успешно!',
-                        //     text: 'Операция выполнена успешно.',
-                        //     icon: 'success',
-                        //     confirmButtonText: 'OK'
-                        // });
                         setTimeout(() => {
                             cell.classList.add('highlighted-cell-ok');
                             setTimeout(() => {
@@ -190,12 +182,6 @@ function saveData(cell) {
                     } else {
                         // В противном случае вы можете добавить обработку ошибок или другую логику
                         editableContent.innerText = originalValue;
-                        // Swal.fire({
-                        //     title: 'Ошибка!',
-                        //     text: 'Операция не выполнена успешно.',
-                        //     icon: 'error',
-                        //     confirmButtonText: 'OK'
-                        // });
                         setTimeout(() => {
                             cell.classList.add('highlighted-cell-err');
                             setTimeout(() => {
@@ -209,13 +195,12 @@ function saveData(cell) {
                     console.error('Error:', error);
                 });
         }
-
         // Удаляем классы после редактирования
         cell.classList.remove('highlighted-cell');
     }
-
 }
 
+//СОРТИРОВКА СТОЛБЦОВ ТАБЛИЦЫ
 document.addEventListener('DOMContentLoaded', function () {
     const table = document.getElementById('productTable');
     const tbody = table.querySelector('tbody');
@@ -260,6 +245,7 @@ document.addEventListener('DOMContentLoaded', function () {
     table.querySelector('thead').addEventListener('click', handleHeaderClick);
 });
 
+//ОБНОВЛЕНИЕ ТАБЛИЦЫ В ЗАВИСИМОСТИ ОТ ЗНАЧЕНИЯ ПОИСКА
 document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.querySelector('.search-input');
     const table = document.getElementById('productTable');
@@ -269,7 +255,6 @@ document.addEventListener("DOMContentLoaded", function () {
     function updateTable(searchValue) {
         // Получаем все строки таблицы
         const rows = Array.from(tbody.querySelectorAll('tr'));
-        console.log(rows);
 
         // Фильтруем строки по значениям в колонках "Article" и "Name"
         rows.forEach(row => {
@@ -300,22 +285,21 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+//ОЧИСТКА ЗНАЧЕНИЯ ПОИСКА
 function clearSearch() {
     const searchInput = document.querySelector('.search-input');
     searchInput.value = '';
     // Дополнительные действия, которые могут быть необходимы после очистки
 }
 
-
+//ОТКРЫТИЕ КАРТОЧКИ ДОБАВЛЕНИЯ ТОВАРА
 function openAddNewProduct() {
     let div = document.getElementById('add-new-product');
     div.style.display = 'block';
     document.getElementById('catIdInput').value = catId;
 }
-function closeAddNewProduct() {
-    let div = document.getElementById('add-new-product');
-    div.style.display = 'none';
-}
+
+//УДАЛЕНИЕ ПРОДУКТА
 function deleteProduct(itemId) {
     // Создаем объект FormData и добавляем параметр itemId
     var formData = new FormData();
@@ -397,119 +381,113 @@ function deleteProduct(itemId) {
         });
 }
 
-
-
-
-    function sendData() {
-    // Получение значений полей формы
-    var catId = document.getElementById('catIdInput').value;
-    var name = document.getElementById('name').value;
-    var stock = document.getElementById('stock').value;
-    var price = document.getElementById('price').value;
-    var link = document.getElementById('link').value;
-
-    // Создание объекта FormData для упрощения передачи данных
-    var formData = new FormData();
-    formData.append('catId', catId);
-    formData.append('name', name);
-    formData.append('stock', stock);
-    formData.append('price', price);
-    formData.append('link', link);
-
-    // Отправка данных на сервер с использованием fetch
-    fetch('/add-new-product', {
-    method: 'POST',
-    body: formData
-})
-    .then(response => {
-    // Проверка статуса ответа
-    if (!response.ok) {
-    throw new Error('Ошибка при отправке данных на сервер.');
-}
-    return response.json();
-})
-    .then(data => {
-        // Обработка успешного ответа от сервера
-        if (data == true){
-
-            // вставка
-
-            const idsToSend = [catId, ...descIds].join(',');
-            fetch('/get-all-catalog', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ categoryIds: idsToSend })
-            })
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`Network response was not ok: ${response.status}`);
-                    }
-                    return response.text();
-                })
-                // .then(data => {
-                //     document.body.innerHTML = data;
-                //     const updatedCategoryTree = document.getElementById("category-tree");
-                //     updatedCategoryTree.innerHTML = "";
-                //     updatedCategoryTree.appendChild(createCategoryList(0));
-                // })
-                .then(data => {
-                    const parser = new DOMParser();
-                    const updatedTableBody = parser.parseFromString(data, 'text/html').body.querySelector('tbody');
-
-                    // Находим текущее тело таблицы
-                    const currentTableBody = document.querySelector('#productTable tbody');
-
-                    // Удаляем все дочерние элементы из текущего тела таблицы
-                    while (currentTableBody.firstChild) {
-                        currentTableBody.removeChild(currentTableBody.firstChild);
-                    }
-
-                    // Добавляем новые строки
-                    updatedTableBody.childNodes.forEach(node => {
-                        currentTableBody.appendChild(node.cloneNode(true));
-                    });
-                })
-                .catch(error => {
-                    console.error('Ошибка запроса:', error);
-                });
-            // конец вставки
-
-
-
-
-
-        } else {
-            alert("Товар " + itemId + " НЕ добавлен!");
-        }
-    })
-
-
-
-    .catch(error => {
-    // Обработка ошибки
-    console.error(error);
-});
-}
-
-    // Обработка отправки формы
-    document.querySelector('form').addEventListener('submit', function (event) {
+//СОХРАНЕНИЕ НОВОГО ТОВАРА
+document.querySelector('form#saveProduct').addEventListener('submit', function (event) {
     event.preventDefault(); // Предотвращение стандартной отправки формы
+    function sendData() {
+        // Получение значений полей формы
+        var catId = document.getElementById('catIdInput').value;
+        var name = document.getElementById('name').value;
+        var stock = document.getElementById('stock').value;
+        var price = document.getElementById('price').value;
+        var link = document.getElementById('link').value;
+
+        // Создание объекта FormData для упрощения передачи данных
+        var formData = new FormData();
+        formData.append('catId', catId);
+        formData.append('name', name);
+        formData.append('stock', stock);
+        formData.append('price', price);
+        formData.append('link', link);
+
+        // Отправка данных на сервер с использованием fetch
+        fetch('/add-new-product', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => {
+                // Проверка статуса ответа
+                if (!response.ok) {
+                    throw new Error('Ошибка при отправке данных на сервер.');
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Обработка успешного ответа от сервера
+                if (data == true){
+
+                    // вставка
+
+                    const idsToSend = [catId, ...descIds].join(',');
+                    fetch('/get-all-catalog', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ categoryIds: idsToSend })
+                    })
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error(`Network response was not ok: ${response.status}`);
+                            }
+                            return response.json();
+                        })
+                        // .then(data => {
+                        //     document.body.innerHTML = data;
+                        //     const updatedCategoryTree = document.getElementById("category-tree");
+                        //     updatedCategoryTree.innerHTML = "";
+                        //     updatedCategoryTree.appendChild(createCategoryList(0));
+                        // })
+                        .then(data => {
+                            const parser = new DOMParser();
+                            const updatedTableBody = parser.parseFromString(data, 'text/html').body.querySelector('tbody');
+
+                            // Находим текущее тело таблицы
+                            const currentTableBody = document.querySelector('#productTable tbody');
+
+                            // Удаляем все дочерние элементы из текущего тела таблицы
+                            while (currentTableBody.firstChild) {
+                                currentTableBody.removeChild(currentTableBody.firstChild);
+                            }
+
+                            // Добавляем новые строки
+                            updatedTableBody.childNodes.forEach(node => {
+                                currentTableBody.appendChild(node.cloneNode(true));
+                            });
+                        })
+                        .catch(error => {
+                            console.error('Ошибка запроса:', error);
+                        });
+                    // конец вставки
+
+
+
+
+
+                } else {
+                    alert("Товар " + itemId + " НЕ добавлен!");
+                }
+            })
+
+
+
+            .catch(error => {
+                // Обработка ошибки
+                console.error(error);
+            });
+    }
     sendData(); // Вызов функции отправки данных
 });
 
-    // Дополнительная функция для закрытия окна добавления нового товара
-    function closeAddNewProduct() {
+//ЗАКРЫТИЕ КАРТОЧКИ ДОБАВЛЕНИЯ ТОВАРА
+function closeAddNewProduct() {
     // Реализуйте логику закрытия окна, если необходимо
         let div = document.getElementById('add-new-product');
         div.style.display = 'none';
 }
 
-
-
-
-    function sendSelectedStore() {
+//ОТПРАВКА ДАННЫХ О ВЫБРАННОМ МАГАЗИНЕ (дописать логику)
+function sendSelectedStore() {
     const selectElement = document.getElementById('storeSelect');
     const selectedStore = selectElement.value;
     // Отправка выбранного магазина на сервер (замените '/api/save-store' на ваш реальный эндпоинт)
@@ -527,9 +505,116 @@ function deleteProduct(itemId) {
             return response.json();
         })
         .then(data => {
-            console.log('Ответ от сервера:', data);
-        })
+            console.log(data);
+            if (data !== "false"){
+                //начало
 
+                const categories = data;
+                const categoryTree = document.getElementById("category-tree");
+                const productTableBody = document.querySelector('#productTable tbody');
+                categoryTree.innerHTML = '';
+                productTableBody.innerHTML = '';
+                function createCategoryList(parentId) {
+                    const ul = document.createElement("ul");
+                    ul.style.display = parentId === 0 ? "block" : "none";
+
+                    categories.forEach((category) => {
+                        if (category.parentId === parentId) {
+                            const li = document.createElement("li");
+                            const link = document.createElement("a");
+                            link.setAttribute("data-id", category.id);
+                            link.textContent = category.name;
+                            link.classList.add("category-link");
+                            li.appendChild(link);
+
+                            const childCategories = createCategoryList(category.id);
+
+                            if (childCategories.childNodes.length > 0) {
+                                const toggleButton = document.createElement("span");
+                                toggleButton.className = "toggle-button";
+                                toggleButton.addEventListener("click", () => {
+                                    childCategories.style.display = childCategories.style.display === "none" ? "block" : "none";
+                                    toggleButton.classList.toggle("open");
+                                });
+                                li.insertBefore(toggleButton, link);
+                                li.appendChild(childCategories);
+                            } else {
+                                link.style.marginLeft = "10px";
+                            }
+
+                            ul.appendChild(li);
+
+                            link.addEventListener("click", (event) => {
+                                event.preventDefault();  // Отмена действия по умолчанию
+                                const categoryId = link.getAttribute("data-id");
+                                const descendantIds = getDescendantIds(category);
+                                const idsToSend = [categoryId, ...descendantIds].join(',');
+                                catId = categoryId;
+                                descIds = descendantIds;
+                                fetch('/get-all-catalog', {
+                                    method: 'POST',
+                                    headers: {
+                                        'Content-Type': 'application/json'
+                                    },
+                                    body: JSON.stringify({ categoryIds: idsToSend })
+                                })
+                                    .then(response => {
+                                        if (!response.ok) {
+                                            throw new Error(`Network response was not ok: ${response.status}`);
+                                        }
+                                        return response.text();
+                                    })
+                                    .then(data => {
+                                        const parser = new DOMParser();
+                                        const updatedTableBody = parser.parseFromString(data, 'text/html').body.querySelector('tbody');
+
+                                        // Находим текущее тело таблицы
+                                        const currentTableBody = document.querySelector('#productTable tbody');
+
+                                        // Удаляем все дочерние элементы из текущего тела таблицы
+                                        while (currentTableBody.firstChild) {
+                                            currentTableBody.removeChild(currentTableBody.firstChild);
+                                        }
+                                        // Добавляем новые строки
+                                        updatedTableBody.childNodes.forEach(node => {
+                                            currentTableBody.appendChild(node.cloneNode(true));
+                                        });
+                                    })
+                                    // .then(data => {
+                                    //     const parser = new DOMParser();
+                                    //     const updatedTableBody = parser.parseFromString(data, 'text/html').body.querySelector('tbody');
+                                    //     // Добавляем новые строки
+                                    //     updatedTableBody.childNodes.forEach(node => {
+                                    //         productTableBody.appendChild(node.cloneNode(true));
+                                    //     });
+                                    // })
+                                    .catch(error => {
+                                        console.error('Ошибка запроса:', error);
+                                    });
+                            });
+                        }
+                    });
+
+                    return ul;
+                }
+
+                categoryTree.appendChild(createCategoryList(0));
+                function getDescendantIds(category) {
+                    let descendantIds = [];
+                    categories.forEach((c) => {
+                        if (c.parentId === category.id) {
+                            descendantIds.push(c.id);
+                            descendantIds = descendantIds.concat(getDescendantIds(c));
+                        }
+                    });
+                    return descendantIds;
+                }
+                //конец
+            } else {
+                console.log('Ответ от сервера:', data);
+            }
+
+        })
         .catch(error => {
             console.error('Ошибка запроса:', error);
         });

@@ -18,7 +18,7 @@ public class Categories {
     private String metaKeywords;
     private String humanReadableUrl;
     private String urlImage;
-    private String shopName;
+    private Long shopId;
     public Long getId() {
         return id;
     }
@@ -107,11 +107,15 @@ public class Categories {
         this.urlImage = urlImage;
     }
 
-    public String getShopName() {
-        return shopName;
+    public boolean isActive() {
+        return active;
     }
 
-    public void setShopName(String shopName) {
-        this.shopName = shopName;
+    public Long getShopId() {
+        return shopId;
+    }
+
+    public void setShopId(Long shopId) {
+        this.shopId = shopId;
     }
 }

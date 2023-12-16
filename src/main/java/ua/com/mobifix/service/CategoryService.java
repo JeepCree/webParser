@@ -24,6 +24,7 @@ public class CategoryService {
         Optional<Categories> optionalCategory = categoriesRepository.findById(categoryId.intValue());
         return optionalCategory.orElse(null);
     }
+
     public Categories updateCategory (Long id, Categories category){
         Categories existingCategory = categoriesRepository.findById(id.intValue())
                 .orElseThrow(() -> new EntityNotFoundException("Категория с id " + id + " не найден"));
@@ -37,7 +38,7 @@ public class CategoryService {
         existingCategory.setMetaKeywords(category.getMetaKeywords());
         existingCategory.setHumanReadableUrl(category.getHumanReadableUrl());
         existingCategory.setUrlImage(category.getUrlImage());
-        existingCategory.setShopName(category.getShopName());
+        existingCategory.setShopId(category.getShopId());
         return categoriesRepository.save(existingCategory);
     }
 }

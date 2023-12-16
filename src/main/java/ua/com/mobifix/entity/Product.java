@@ -15,6 +15,7 @@ public class Product {
     private Integer stock;
     private Double price;
     private String link;
+    private Long shopId;
     @Temporal(TemporalType.TIMESTAMP)
     private Timestamp timestampField;
 
@@ -72,6 +73,14 @@ public class Product {
 
     public void setLink(String link) {
         this.link = link;
+    }
+
+    public Long getShopId() {
+        return shopId;
+    }
+
+    public void setShopId(Long shopId) {
+        this.shopId = shopId;
     }
 
     public Timestamp getTimestampField() {

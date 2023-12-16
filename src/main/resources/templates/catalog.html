@@ -39,10 +39,10 @@
     </ul>
 </div>
 </div>
-    <div class="page-info">
+<div class="page-info">
     <span th:text="${pageInfo}">Page-Info</span>
 </div>
-    <div class="search-container">
+<div class="search-container">
         <input class="search-input" placeholder="Поиск">
         <button class="clear-button" onclick="clearSearch()">X</button>
     </div>
@@ -59,11 +59,11 @@
         <div id="category-tree"></div>
     </div>
     <div class="basic-conteiner">
-        <div class="top-table-menu" onclick="openAddNewProduct()">
-        </div>
+        <div class="top-table-menu" onclick="openAddNewProduct()"></div>
             <div id="add-new-product">
+                <div class="close-top-table-menu" id="save-product" onclick="closeAddNewProduct()"></div>
                 <h2>Добавить новый товар</h2>
-                <form th:action="@{/add-new-product}" method="post">
+                <form th:action="@{/add-new-product}" method="post" id="saveProduct">
                     <input type="hidden" id="catIdInput" name="catId" th:value="${catId}"/>
                     <label for="name">Name</label><br>
                     <input id="name" type="text" name="name" value="" required><br>
@@ -75,9 +75,6 @@
                     <input id="link" type="text" name="link" value="" required><br>
                     <button class="save-button" type="submit">Сохранить</button>
                 </form>
-                <div class="close-top-table-menu" id="save-product" onclick="closeAddNewProduct()">
-
-                </div>
             </div>
         <table class="catalog-table" id="productTable">
             <thead>
@@ -92,7 +89,6 @@
             </thead>
             <tbody>
             <tr class="table-line" th:each="item : ${productList}" th:data-id="${item.getId()}">
-
                 <td class="td-table-sheet-article" th:text="${item.getArticle()}"><span class="art">Article</span></td>
                 <td class="table-sheet-name" ondblclick="enableEditing(this)" onfocusout="saveData(this)">
                     <div class="editable-content" contenteditable="false" th:text="${item.getName()}"></div>
@@ -115,11 +111,8 @@
     </div>
 </div>
 
-<script th:inline="javascript">
-    let categoriesJson = /*[[${jsonString}]]*/ '';
-</script>
+<script th:inline="javascript">let categoriesJson = /*[[${jsonString}]]*/ '';</script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="../static/js/script-for-catalog.js" th:src="@{/js/script-for-catalog.js}"></script>
 </body>
-
 </html>

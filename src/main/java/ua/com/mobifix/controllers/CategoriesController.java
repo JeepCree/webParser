@@ -59,7 +59,7 @@ public class CategoriesController {
                                   String metaKeywords,
                                   String humanReadableUrl,
                                   String urlImage,
-                                  String shopName){
+                                  Long shopId){
         if(shopRepository.findAll().isEmpty()){
             model.addAttribute("subject", "Add Shop");
             model.addAttribute("showElement", false);
@@ -76,7 +76,7 @@ public class CategoriesController {
             category.setMetaKeywords(metaKeywords);
             category.setHumanReadableUrl(humanReadableUrl);
             category.setUrlImage(urlImage);
-            category.setShopName(shopName);
+            category.setShopId(shopId);
             categoriesRepository.save(category);
             ObjectMapper objectMapper = new ObjectMapper();
 //            objectMapper.enable(SerializationFeature.WRITE_ENUMS_USING_TO_STRING);
@@ -150,7 +150,7 @@ public class CategoriesController {
                                   String metaKeywords,
                                   String humanReadableUrl,
                                   String urlImage,
-                                  String shopName){
+                                  Long shopId){
             Categories category = new Categories();
             category.setName(name);
             category.setParentId(parentCategory);
@@ -161,7 +161,7 @@ public class CategoriesController {
             category.setMetaKeywords(metaKeywords);
             category.setHumanReadableUrl(humanReadableUrl);
             category.setUrlImage(urlImage);
-            category.setShopName(shopName);
+            category.setShopId(shopId);
             categoryService.updateCategory(id, category);
             return "redirect:/catalog-settings";
     }
@@ -186,21 +186,13 @@ public class CategoriesController {
     }
 
     @PostMapping("/get-store-catalog")
-    public String getShops(@RequestBody String requestBody, Model model) throws JsonProcessingException {
+    @ResponseBody
+    public List<Categories> getShops(@RequestBody String requestBody, Model model) throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
         JsonNode jsonNode = objectMapper.readTree(requestBody);
-        String shopId = jsonNode.get("store").asText();
-        if (shopId.equals("2")) {
+        Long shopId = jsonNode.get("store").asLong();
 
-            System.out.println("in if");
-            String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAllByOrderByNameAsc());
-            model.addAttribute("jsonString", categoriesJson);
-            return categoriesJson;
-        } else {
-            System.out.println("in else");
-            return "catalog";
-        }
-//        return requestBody;
+        return categoriesRepository.findAllByShopIdOrderByNameAsc(shopId);
     }
     @GetMapping("/import-categories")
     public String importCsv() {
