@@ -45,6 +45,11 @@
 <a th:if="${!showElement}" href="/add-shop">Add Shop</a>
 <div class="body" th:if="${showElement}">
     <div class="catalog-conteiner">
+        <form id="storeForm">
+            <select id="storeSelect" name="store" onchange="sendSelectedStore()">
+                <option th:each="item : ${shops}" th:value="${item.getId()}" th:text="${item.getName()}"></option>
+            </select>
+        </form>
         <h2>Категории</h2>
         <div id="category-tree">
             <tr>

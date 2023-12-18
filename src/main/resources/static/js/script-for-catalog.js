@@ -619,3 +619,8 @@ function sendSelectedStore() {
             console.error('Ошибка запроса:', error);
         });
 }
+
+function closeEditCategory() {
+    // Replace 'newPage.html' with the URL of the page you want to redirect to
+    window.location.href = '/catalog-settings';
+}
