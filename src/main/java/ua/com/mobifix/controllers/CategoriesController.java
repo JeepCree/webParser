@@ -65,6 +65,9 @@ public class CategoriesController {
             model.addAttribute("showElement", false);
             return "catalog-settings";
         } else {
+            if (parentCategory.equals(null)){
+                parentCategory = 0L;
+            }
             model.addAttribute("showElement", false);
             Categories category = new Categories();
             category.setName(newCategory);
@@ -77,6 +80,7 @@ public class CategoriesController {
             category.setHumanReadableUrl(humanReadableUrl);
             category.setUrlImage(urlImage);
             category.setShopId(shopId);
+            System.out.println(shopId);
             categoriesRepository.save(category);
             ObjectMapper objectMapper = new ObjectMapper();
 //            objectMapper.enable(SerializationFeature.WRITE_ENUMS_USING_TO_STRING);
@@ -151,6 +155,9 @@ public class CategoriesController {
                                   String humanReadableUrl,
                                   String urlImage,
                                   Long shopId){
+        if (parentCategory.equals(null)){
+            parentCategory = 0L;
+        }
             Categories category = new Categories();
             category.setName(name);
             category.setParentId(parentCategory);

@@ -19,6 +19,7 @@ public class Categories {
     private String humanReadableUrl;
     private String urlImage;
     private Long shopId;
+
     public Long getId() {
         return id;
     }
