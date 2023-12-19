@@ -91,7 +91,12 @@ public class ProductController {
     @ResponseBody
     public boolean saveNewProduct(String catId, String name, String stock, String price, String link, Model model) {
         Product product = new Product();
-        product.setArticle(this.productRepository.findTopByOrderByArticleDesc().getArticle() + 1);
+        System.out.println(productRepository.findTopByOrderByArticleDesc());
+        if (productRepository.findTopByOrderByArticleDesc() == null){
+            product.setArticle(1);
+        } else {
+            product.setArticle(this.productRepository.findTopByOrderByArticleDesc().getArticle() + 1);
+        }
         product.setCategories(Long.parseLong(catId));
         product.setName(name);
         product.setStock(Integer.parseInt(stock));

@@ -430,7 +430,7 @@ document.querySelector('form#saveProduct').addEventListener('submit', function (
                             if (!response.ok) {
                                 throw new Error(`Network response was not ok: ${response.status}`);
                             }
-                            return response.json();
+                            return response.text();
                         })
                         // .then(data => {
                         //     document.body.innerHTML = data;
