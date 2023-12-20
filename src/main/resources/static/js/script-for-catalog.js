@@ -477,6 +477,7 @@ document.querySelector('form#saveProduct').addEventListener('submit', function (
             });
     }
     sendData(); // Вызов функции отправки данных
+    closeAddNewProduct();
 });
 
 //ЗАКРЫТИЕ КАРТОЧКИ ДОБАВЛЕНИЯ ТОВАРА
@@ -647,6 +648,7 @@ function showContextMenu(event) {
 }
 
 function editProduct() {
+
     // Получаем данные о товаре с сервера (замените на свой код загрузки данных)
     var productId = window.selectedRow.getAttribute('data-id');
     var article = window.selectedRow.querySelector('.td-table-sheet-article').innerText;
@@ -654,9 +656,19 @@ function editProduct() {
     var stock = window.selectedRow.querySelector('.table-sheet-stock .editable-content').innerText;
     var price = window.selectedRow.querySelector('.table-sheet-price .editable-content').innerText;
 
+    function openEditNewProduct() {
+        let div = document.getElementById('full-edit-product');
+        div.style.display = 'block';
+    }
+    openEditNewProduct();
     // Замените следующую строку на ваш код для загрузки данных с сервера
     // Вместо алерта можно открыть модальное окно для редактирования
-    alert("Редактирование товара\nID: " + productId + "\nArticle: " + article + "\nName: " + name + "\nStock: " + stock + "\nPrice: " + price);
+    // alert("Редактирование товара\nID: " + productId + "\nArticle: " + article + "\nName: " + name + "\nStock: " + stock + "\nPrice: " + price);
+}
+
+function delProduct(){
+    var productId = window.selectedRow.getAttribute('data-id');
+    deleteProduct(productId);
 }
 
 document.addEventListener("click", function () {

@@ -79,7 +79,11 @@
             </div>
         <div id="context-menu">
             <div onclick="editProduct()">Edit product</div>
+            <div onclick="delProduct()">Delete product</div>
             <!-- Добавьте другие пункты меню по необходимости -->
+        </div>
+        <div id="full-edit-product">
+
         </div>
         <table class="catalog-table" id="productTable">
             <thead>
@@ -89,7 +93,7 @@
                 <th class="table-sheet-stock">Stock</th>
                 <th class="table-sheet-price">Price</th>
 <!--                <th class="table-sheet-link">Link</th>-->
-                <th class="table-sheet-delete"></th>
+<!--                <th class="table-sheet-delete"></th>-->
             </tr>
             </thead>
             <tbody>
@@ -107,9 +111,9 @@
 <!--                <td class="table-sheet-link" ondblclick="enableEditing(this)" onfocusout="saveData(this)">-->
 <!--                    <div class="editable-content" contenteditable="false" th:text="${item.getLink()}"></div>-->
 <!--                </td>-->
-                <td class="table-sheet-delete" th:value="${item.getId()}">
-                    <div class="delete-product" onclick="deleteProduct(this.parentElement.getAttribute('value'))"></div>
-                </td>
+<!--                <td class="table-sheet-delete" th:value="${item.getId()}">-->
+<!--                    <div class="delete-product" onclick="deleteProduct(this.parentElement.getAttribute('value'))"></div>-->
+<!--                </td>-->
             </tr>
             </tbody>
         </table>

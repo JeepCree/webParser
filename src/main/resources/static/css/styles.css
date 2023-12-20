@@ -587,13 +587,22 @@ th {
 
 
 /*/////////////////////////*/
+#full-edit-product {
+    display: none;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #1bb300;
+    z-index: 1;
+}
 #context-menu {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 5px #888888;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid #8a8a8a;
+    box-shadow: 3px 3px 3px #5d5d5d;
     z-index: 1;
+    border-radius: 5px;
 }
 
 #context-menu div {
@@ -602,5 +611,5 @@ th {
 }
 
 #context-menu div:hover {
-    background-color: #ddd;
+    background-color: rgba(255, 197, 55, 0.5);
 }
