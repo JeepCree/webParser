@@ -624,3 +624,42 @@ function closeEditCategory() {
     // Replace 'newPage.html' with the URL of the page you want to redirect to
     window.location.href = '/catalog-settings';
 }
+
+
+
+
+///////////////////////////////////////////////
+
+function showContextMenu(event) {
+    event.preventDefault();
+
+    var contextMenu = document.getElementById("context-menu");
+
+    // Получаем координаты события относительно таблицы
+    var tableCoordinates = document.getElementById("productTable").getBoundingClientRect();
+
+    // Устанавливаем положение контекстного меню относительно таблицы
+    contextMenu.style.display = "block";
+    contextMenu.style.left = event.clientX - tableCoordinates.left + 10 + "px";
+    contextMenu.style.top = event.clientY - tableCoordinates.top + 10 + "px";
+
+    window.selectedRow = event.currentTarget;
+}
+
+function editProduct() {
+    // Получаем данные о товаре с сервера (замените на свой код загрузки данных)
+    var productId = window.selectedRow.getAttribute('data-id');
+    var article = window.selectedRow.querySelector('.td-table-sheet-article').innerText;
+    var name = window.selectedRow.querySelector('.table-sheet-name .editable-content').innerText;
+    var stock = window.selectedRow.querySelector('.table-sheet-stock .editable-content').innerText;
+    var price = window.selectedRow.querySelector('.table-sheet-price .editable-content').innerText;
+
+    // Замените следующую строку на ваш код для загрузки данных с сервера
+    // Вместо алерта можно открыть модальное окно для редактирования
+    alert("Редактирование товара\nID: " + productId + "\nArticle: " + article + "\nName: " + name + "\nStock: " + stock + "\nPrice: " + price);
+}
+
+document.addEventListener("click", function () {
+    var contextMenu = document.getElementById("context-menu");
+    contextMenu.style.display = "none";
+});

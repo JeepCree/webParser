@@ -3,49 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Магазины</title>
+    <title>Контекстное меню в таблице</title>
+    <style>
+        #context-menu {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+            box-shadow: 3px 3px 5px #888888;
+            z-index: 1;
+        }
+
+        #context-menu a {
+            color: black;
+            padding: 8px 10px;
+            text-decoration: none;
+            display: block;
+        }
+
+        #context-menu a:hover {
+            background-color: #ddd;
+        }
+    </style>
 </head>
 <body>
 
-<h1>Выберите магазин:</h1>
+<table id="myTable">
+    <tr oncontextmenu="showContextMenu(event)">
+        <td>Товар 1</td>
+        <td>Описание товара 1</td>
+        <td>Цена 1</td>
+    </tr>
+    <tr oncontextmenu="showContextMenu(event)">
+        <td>Товар 2</td>
+        <td>Описание товара 2</td>
+        <td>Цена 2</td>
+    </tr>
+    <!-- Добавьте другие строки и ячейки по необходимости -->
+</table>
 
-<form id="storeForm">
-    <select id="storeSelect" name="store" onchange="sendSelectedStore()">
-        <option value="store1">Магазин 1</option>
-        <option value="store2">Магазин 2</option>
-        <option value="store3">Магазин 3</option>
-        <option value="store4">Магазин 4</option>
-        <option value="store5">Магазин 5</option>
-    </select>
-</form>
+<div id="context-menu">
+    <a href="#" onclick="editProduct()">Редактировать товар</a>
+</div>
 
 <script>
-    function sendSelectedStore() {
-        const selectElement = document.getElementById('storeSelect');
-        const selectedStore = selectElement.value;
+    function showContextMenu(event) {
+        event.preventDefault();
 
-        // Отправка выбранного магазина на сервер (замените '/api/save-store' на ваш реальный эндпоинт)
-        fetch('/api/save-store', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ store: selectedStore })
-        })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`Network response was not ok: ${response.status}`);
-                }
-                return response.json();
-            })
-            .then(data => {
-                console.log('Ответ от сервера:', data);
-                // Добавьте здесь код для обработки ответа от сервера, если необходимо
-            })
-            .catch(error => {
-                console.error('Ошибка запроса:', error);
-            });
+        var contextMenu = document.getElementById("context-menu");
+        contextMenu.style.display = "block";
+        contextMenu.style.left = event.pageX + "px";
+        contextMenu.style.top = event.pageY + "px";
+
+        // Сохраняем ссылку на текущую выбранную строку
+        window.selectedRow = event.currentTarget;
     }
+
+    function editProduct() {
+        // Получаем данные о товаре с сервера (замените на свой код загрузки данных)
+        var productId = window.selectedRow.cells[0].innerText; // ID товара
+        // Замените следующую строку на ваш код для загрузки данных с сервера
+        var productData = { name: "Товар " + productId, description: "Описание товара " + productId, price: "Цена " + productId };
+
+        // Добавьте код для открытия модального окна редактирования
+        alert("Редактирование товара: " + productData.name + "\nОписание: " + productData.description + "\nЦена: " + productData.price);
+
+        // Дополнительно, вы можете использовать productData для предварительного заполнения формы редактирования
+    }
+
+    document.addEventListener("click", function () {
+        var contextMenu = document.getElementById("context-menu");
+        contextMenu.style.display = "none";
+    });
 </script>
 
 </body>
