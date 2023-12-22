@@ -590,9 +590,10 @@ th {
 #full-edit-product {
     display: none;
     position: absolute;
-    height: 50px;
-    width: 50px;
-    background-color: #1bb300;
+    height: 400px;
+    width: 1000px;
+    margin: 50px;
+    background-color: #797979;
     z-index: 1;
 }
 #context-menu {
