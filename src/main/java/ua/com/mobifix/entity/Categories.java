@@ -7,9 +7,13 @@ public class Categories {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(nullable = false)
     private boolean active;
+    @Column(nullable = false, length = 80192)
     private String name;
+    @Column(nullable = false)
     private Long parentId;
+    @Column(nullable = false)
     private boolean rootCategory;
     @Column(length = 80192)
     private String description;
@@ -18,6 +22,7 @@ public class Categories {
     private String metaKeywords;
     private String humanReadableUrl;
     private String urlImage;
+    @Column(nullable = false)
     private Long shopId;
 
     public Long getId() {

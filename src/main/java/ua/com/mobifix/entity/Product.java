@@ -10,11 +10,17 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Integer article;
+    @Column(nullable = false)
     private Long categories;
+    @Column(nullable = false)
     private String name;
     private Integer stock;
     private Double price;
+    @Column(unique = true, nullable = false)
     private String link;
+    @Column(unique = true)
+    private String imageLink;
+//    @Column(nullable = false)
     private Long shopId;
     @Temporal(TemporalType.TIMESTAMP)
     private Timestamp timestampField;
