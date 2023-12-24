@@ -25,6 +25,14 @@ public class Product {
     @Temporal(TemporalType.TIMESTAMP)
     private Timestamp timestampField;
 
+    public String getImageLink() {
+        return imageLink;
+    }
+
+    public void setImageLink(String imageLink) {
+        this.imageLink = imageLink;
+    }
+
     public Long getId() {
         return id;
     }
