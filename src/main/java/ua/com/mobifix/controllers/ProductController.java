@@ -17,6 +17,8 @@ import java.io.IOException;
 import java.sql.Timestamp;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Controller
@@ -105,6 +107,25 @@ public class ProductController {
         this.productRepository.save(product);
         return true;
     }
+
+    @PostMapping("/full-edit-product")
+    @ResponseBody
+    public JsonNode fullEditProduct(@RequestBody Map<String, Integer> requestBody) {
+        Integer article = requestBody.get("article");
+
+        // Добавьте необходимую обработку ошибок, например, проверку на null или отсутствие статьи
+
+        Product optionalProduct = productRepository.findByArticle(article);
+
+        // Обработайте случай, если optionalProduct равен null
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        JsonNode jsonProduct = objectMapper.valueToTree(optionalProduct);
+
+        return jsonProduct;
+    }
+
+
     @PostMapping("/delete-product")
     @ResponseBody
     public boolean deleteProduct(@RequestParam int catId) {

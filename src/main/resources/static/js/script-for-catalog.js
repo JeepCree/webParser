@@ -486,6 +486,11 @@ function closeAddNewProduct() {
         let div = document.getElementById('add-new-product');
         div.style.display = 'none';
 }
+function closeEditProduct() {
+    // Реализуйте логику закрытия окна, если необходимо
+    let div = document.getElementById('full-edit-product');
+    div.style.display = 'none';
+}
 
 //ОТПРАВКА ДАННЫХ О ВЫБРАННОМ МАГАЗИНЕ (дописать логику)
 function sendSelectedStore() {
@@ -647,6 +652,11 @@ function showContextMenu(event) {
     window.selectedRow = event.currentTarget;
 }
 
+function openEditNewProduct() {
+    let div = document.getElementById('full-edit-product');
+    div.style.display = 'block';
+}
+
 function editProduct() {
 
     // Получаем данные о товаре с сервера (замените на свой код загрузки данных)
@@ -656,10 +666,32 @@ function editProduct() {
     var stock = window.selectedRow.querySelector('.table-sheet-stock .editable-content').innerText;
     var price = window.selectedRow.querySelector('.table-sheet-price .editable-content').innerText;
 
-    function openEditNewProduct() {
-        let div = document.getElementById('full-edit-product');
-        div.style.display = 'block';
-    }
+    fetch('/full-edit-product', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ article: article })
+    })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Network response was not ok: ${response.status}`);
+            }
+            return response.text();
+        })
+        // .then(data => {
+        //     document.body.innerHTML = data;
+        //     const updatedCategoryTree = document.getElementById("category-tree");
+        //     updatedCategoryTree.innerHTML = "";
+        //     updatedCategoryTree.appendChild(createCategoryList(0));
+        // })
+        .then(data => {
+            console.log("DATA - " + data);
+        })
+        .catch(error => {
+            console.error('Ошибка запроса:', error);
+        });
+
     openEditNewProduct();
     // Замените следующую строку на ваш код для загрузки данных с сервера
     // Вместо алерта можно открыть модальное окно для редактирования

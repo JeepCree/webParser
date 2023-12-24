@@ -532,6 +532,9 @@ select, input {
     border: #6b6b6b 1px solid;
     border-radius: 5px;
 }
+#add-new-product:hover {
+    z-index: 20;
+}
 
 .head-container-block {
     width: 100%;
@@ -588,14 +591,27 @@ th {
 
 /*/////////////////////////*/
 #full-edit-product {
-    display: none;
-    position: absolute;
-    height: 400px;
-    width: 1000px;
-    margin: 50px;
-    background-color: #797979;
-    z-index: 1;
+    padding: 40px;
+    padding-top: 5px;
+    display: none; /* Начинаем с скрытия элемента */
+    position: fixed; /* Фиксированная позиция */
+    top: 45%; /* Расположение сверху на 50% высоты экрана */
+    left: 45%; /* Расположение слева на 50% ширины экрана */
+    transform: translate(-50%, -50%); /* Центрирование элемента */
+    z-index: 10; /* Высокий уровень z-index, чтобы разместить поверх других элементов */
+    background-color: rgb(255, 255, 255);
+    width: 750px;
+    height: 450px;
+    box-shadow: 3px 3px 3px #757575;
+    border: #6b6b6b 1px solid;
+    border-radius: 5px;
+    overflow: auto;
 }
+#full-edit-product:hover {
+    z-index: 20;
+}
+
+
 #context-menu {
     display: none;
     position: absolute;

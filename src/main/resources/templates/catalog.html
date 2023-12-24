@@ -83,7 +83,28 @@
             <!-- Добавьте другие пункты меню по необходимости -->
         </div>
         <div id="full-edit-product">
+            <div class="close-top-table-menu" id="edit-product-cart" onclick="closeEditProduct()"></div>
+            <h2>Edit Product</h2>
+            <form th:action="@{/full-edit-product}" method="post" id="full-edit-product-form">
+                <label for="category">Select Category:</label><br>
+                <select id="category" name="categoryName" field="test" >
+                    <!--                    <option th:each="item : ${shops}" th:value="${item.getId()}" th:text="${item.getName()}"></option>-->
+                </select>
+                <label for="nameProduct">Enter Name:</label><br>
+                <input id="nameProduct" type="text" name="nameProduct" value="" field="test" required><br>
+                <label for="stockProduct">Enter Stock:</label><br>
+                <input id="stockProduct" type="text" name="stockProduct" value="" field="test" required><br>
+                <label for="priceProduct">Enter Price:</label><br>
+                <input id="priceProduct" type="text" name="priceProduct" value="" field="test" required><br>
+                <label for="linkProduct">Enter Link:</label><br>
+                <input id="linkProduct" type="text" name="linkProduct" value="" field="test" required><br>
+                <label for="shopProduct">Select shop:</label><br>
+                <select id="shopProduct" name="shopProduct" field="test" >
+                    <!--                    <option th:each="item : ${shops}" th:value="${item.getId()}" th:text="${item.getName()}"></option>-->
+                </select>
 
+                <button class="save-button" type="submit">Сохранить</button>
+            </form>
         </div>
         <table class="catalog-table" id="productTable">
             <thead>
