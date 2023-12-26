@@ -56,18 +56,25 @@ public class Run {
 //        String password = "hhzhtncwlsvjnk2uhodn83ccntdtjc7r";
 //        String replace = "Все з категорії: ";
 //        String replacement = "";
+//mobiking
+//        settings.setUrlShop("https://mobiking.com.ua/");
+//        settings.setSelectCategoryTag("#body > div.content > section.baner-wrap > div > div > div.left-menu-wrap > ul > li");
+//        settings.setSelectCategoryNameTag("#body > div.content > section.baner-wrap > div > div > div.left-menu-wrap > ul > li > div > a");
+//        settings.setSelectCategoryAttrHref("href");
+//        settings.setUrlPrefix("https://mobiking.com.ua");
+//        settings.setCookieName("sessionid");
+//        settings.setCookieValue("hhzhtncwlsvjnk2uhodn83ccntdtjc7r");
+//        settings.setReplaceCategoryName("Все з категорії: ");
+//        settings.setReplacementCategoryName("");
 
-        settings.setUrlShop("https://mobiking.com.ua/");
-        settings.setSelectCategoryTag("#body > div.content > section.baner-wrap > div > div > div.left-menu-wrap > ul > li");
-        settings.setSelectCategoryNameTag("#body > div.content > section.baner-wrap > div > div > div.left-menu-wrap > ul > li > div > a");
+//AKS
+        settings.setUrlShop("https://www.aks.ua");
+        settings.setSelectCategoryTag(".nav-list-block > ul > li > a");
+        settings.setSelectCategoryNameTag("a");
         settings.setSelectCategoryAttrHref("href");
-        settings.setUrlPrefix("https://mobiking.com.ua");
-        settings.setCookieName("sessionid");
-        settings.setCookieValue("hhzhtncwlsvjnk2uhodn83ccntdtjc7r");
-        settings.setReplaceCategoryName("Все з категорії: ");
-        settings.setReplacementCategoryName("");
+        settings.setUrlPrefix("https://www.aks.ua");
 
-        parser.getCatalog(settings);
+        parser.getCatalog(settings, 1005L);
 
     }
 }

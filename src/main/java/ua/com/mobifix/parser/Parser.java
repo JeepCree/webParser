@@ -1,5 +1,6 @@
 package ua.com.mobifix.parser;
 
+import org.apache.catalina.filters.RemoteIpFilter;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -7,13 +8,21 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Parser {
-//    public void getCatalog(String[] array){
-    public void getCatalog(ScanCategorySettings settings){
-        Map<String, String> catalogMap = new HashMap<>();
+    public void getCatalog(ScanCategorySettings settings, Long lastCategoryId){
+        lastCategoryId++;
+        List<AllScanCategory> categoryList = new ArrayList<>();
+
+        if (settings.getCookieName().equals("") || settings.getCookieValue().equals("")){
+            settings.setCookieName("noName");
+            settings.setCookieValue("noValue");
+        }
+
         try {
             Connection.Response response = Jsoup.connect(settings.getUrlShop()).method(Connection.Method.GET).execute();
             Document page = Jsoup.connect(settings.getUrlShop())
@@ -23,22 +32,29 @@ public class Parser {
             Elements elements = page.select(settings.getSelectCategoryTag());
 
             for (Element element : elements) {
-                String text = element.select(settings.getSelectCategoryNameTag()).text()
+
+                String name = element.select(settings.getSelectCategoryNameTag()).text()
                         .replace(settings.getReplaceCategoryName(), settings.getReplacementCategoryName());
-                String linked = element.select(settings.getSelectCategoryNameTag()).attr(settings.getSelectCategoryAttrHref());
-                if(!linked.isEmpty() || !text.isEmpty()){
-                    catalogMap.put(text, settings.getUrlPrefix() + linked);
+                String link = element.select(settings.getSelectCategoryNameTag()).attr(settings.getSelectCategoryAttrHref())
+                        .replace(settings.getReplaceCategoryUrl(), settings.getReplacementCategoryUrl());
+                if (!link.isEmpty() || !name.isEmpty()) {
+                    AllScanCategory category = new AllScanCategory();
+                    category.setCategoryId(lastCategoryId);
+                    lastCategoryId++;
+                    category.setCategoryName(name);
+                    category.setCategoryUrl(settings.getUrlPrefix() + link);
+                    category.setParentCategoryId(0L);
+                    categoryList.add(category);
                 }
             }
-            for (Map.Entry<String, String> entry : catalogMap.entrySet()) {
-                    System.out.println(entry.getKey() + " | " + entry.getValue());
+
+            for (AllScanCategory l : categoryList){
+                System.out.println(l.getCategoryId() + " " + l.getCategoryName() + " " + l.getCategoryUrl() + " " + l.getParentCategoryId());
             }
+
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
-    public void getCategory(){
-
     }
 }
 
