@@ -11,23 +11,24 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Parser {
-    public void getCatalog(String[] array){
+//    public void getCatalog(String[] array){
+    public void getCatalog(ScanCategorySettings settings){
         Map<String, String> catalogMap = new HashMap<>();
         try {
-            Connection.Response response = Jsoup.connect(array[0]).method(Connection.Method.GET).execute();
-            Document page = Jsoup.connect(array[0] + array[1])
+            Connection.Response response = Jsoup.connect(settings.getUrlShop()).method(Connection.Method.GET).execute();
+            Document page = Jsoup.connect(settings.getUrlShop())
                     .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-//                    .cookies(response.cookies())
-                    .cookie(array[6], array[7])
+                    .cookie(settings.getCookieName(), settings.getCookieValue())
                     .get();
-//            Elements elements = page.getElementsByClass(array[2]);
-            Elements elements = page.select(array[2]);
-            System.out.println(elements.size());
+            Elements elements = page.select(settings.getSelectCategoryTag());
 
             for (Element element : elements) {
-                String text = element.select(array[3]).text().replace(array[8], array[9]);
-                String linked = element.select(array[3]).attr(array[4]);
-                catalogMap.put(text, array[5] + linked);
+                String text = element.select(settings.getSelectCategoryNameTag()).text()
+                        .replace(settings.getReplaceCategoryName(), settings.getReplacementCategoryName());
+                String linked = element.select(settings.getSelectCategoryNameTag()).attr(settings.getSelectCategoryAttrHref());
+                if(!linked.isEmpty() || !text.isEmpty()){
+                    catalogMap.put(text, settings.getUrlPrefix() + linked);
+                }
             }
             for (Map.Entry<String, String> entry : catalogMap.entrySet()) {
                     System.out.println(entry.getKey() + " | " + entry.getValue());

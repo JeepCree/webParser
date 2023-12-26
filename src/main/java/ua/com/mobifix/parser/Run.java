@@ -2,6 +2,8 @@ package ua.com.mobifix.parser;
 
 public class Run {
     public static void main(String[] args) {
+        ScanCategorySettings settings = new ScanCategorySettings();
+        Parser parser = new Parser();
 //++
 //        String urlShop = "https://all-spares.ua";
 //        String endPoint = "/ru/full-catalog/";
@@ -45,21 +47,27 @@ public class Run {
 //        String href = "href";
 //        String urlPrefix = "https:";
 
-        String urlShop = "https://mobiking.com.ua/";
-        String endPoint = "";
-        String getByClass = "#body > div.content > section.baner-wrap > div > div > div.left-menu-wrap > ul > li";
-        String select = "#body > div.content > section.baner-wrap > div > div > div.left-menu-wrap > ul > li > div > a";
-        String href = "href";
-        String urlPrefix = "https://mobiking.com.ua";
-        String login = "sessionid";
-        String password = "hhzhtncwlsvjnk2uhodn83ccntdtjc7r";
-        String replace = "Все з категорії: ";
-        String replacement = "";
+//        String urlShop = "https://mobiking.com.ua/";
+//        String getByClass = "#body > div.content > section.baner-wrap > div > div > div.left-menu-wrap > ul > li";
+//        String select = "#body > div.content > section.baner-wrap > div > div > div.left-menu-wrap > ul > li > div > a";
+//        String href = "href";
+//        String urlPrefix = "https://mobiking.com.ua";
+//        String login = "sessionid";
+//        String password = "hhzhtncwlsvjnk2uhodn83ccntdtjc7r";
+//        String replace = "Все з категорії: ";
+//        String replacement = "";
 
-        String[] array = {urlShop, endPoint, getByClass, select, href, urlPrefix, login, password, replace, replacement};
+        settings.setUrlShop("https://mobiking.com.ua/");
+        settings.setSelectCategoryTag("#body > div.content > section.baner-wrap > div > div > div.left-menu-wrap > ul > li");
+        settings.setSelectCategoryNameTag("#body > div.content > section.baner-wrap > div > div > div.left-menu-wrap > ul > li > div > a");
+        settings.setSelectCategoryAttrHref("href");
+        settings.setUrlPrefix("https://mobiking.com.ua");
+        settings.setCookieName("sessionid");
+        settings.setCookieValue("hhzhtncwlsvjnk2uhodn83ccntdtjc7r");
+        settings.setReplaceCategoryName("Все з категорії: ");
+        settings.setReplacementCategoryName("");
 
-        new Parser().getCatalog(array);
-//        new Parser().getCatalog(url, endPoint, getByClass, select, href, urlPrefix);
+        parser.getCatalog(settings);
 
     }
 }
