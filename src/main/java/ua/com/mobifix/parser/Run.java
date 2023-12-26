@@ -2,42 +2,64 @@ package ua.com.mobifix.parser;
 
 public class Run {
     public static void main(String[] args) {
-//        String url = "https://all-spares.ua";
+//++
+//        String urlShop = "https://all-spares.ua";
 //        String endPoint = "/ru/full-catalog/";
-//        String getByClass = "page_full-catalog_facet_title_link";
-//        String select = ".page_full-catalog_facet_title_text";
-//        String href = "href";
-//        boolean addLink = true;
-//
-//        String url = "https://www.aks.ua";
-//        String endPoint = "/uk/sitemap.html";
-//        String getByClass = "sitemap_title";
+//        String getByClass = "body > div:nth-child(2) > div > header > div.widget_site-menu > div > div.menu-row > div > div > div.layout_header_quick-catalog_menu_nav > a";
 //        String select = "a";
 //        String href = "href";
-//        boolean addLink = true;
-//
-//        String url = "https://hotline.ua";
+//        String urlPrefix = "https://all-spares.ua";
+//++
+//        String urlShop = "https://www.aks.ua";
 //        String endPoint = "/";
-//        String getByClass = "categories-section__link";
-//        String select = ".text";
+//        String getByClass = ".nav-list-block > ul > li > a";
+//        String select = "a";
 //        String href = "href";
-//        boolean addLink = true;
-
-//        String url = "https://www.service-market.com.ua";
+//        String urlPrefix = "https://www.aks.ua";
+//++
+//        String urlShop = "https://hotline.ua";
 //        String endPoint = "/";
-//        String getByClass = "main-nav__link";
-//        String select = "span.main-nav__title";
+//        String getByClass = "#__layout > div > div.default-layout__content-container > main > section.index-page-section.categories-section > div > a";
+//        String select = "a";
 //        String href = "href";
-//        boolean addLink = false;
+//        String urlPrefix = "https://hotline.ua";
+//++
+//        String urlShop = "https://www.service-market.com.ua";
+//        String endPoint = "/";
+//        String getByClass = "body > div.page__body > div.page__wrapper > div.page__container > div > div.col-md-3.page__mainnav-vertical.hidden-xs.hidden-sm > nav > ul > li";
+//        String select = "body > div.page__body > div.page__wrapper > div.page__container > div > div.col-md-3.page__mainnav-vertical.hidden-xs.hidden-sm > nav > ul > li > a";
+//        String href = "href";
+//        String urlPrefix = "";
+//++
+//        String urlShop = "https://www.moyo.ua";
+//        String endPoint = "";
+//        String getByClass = "body > div.main-wrap > main > div > section > div.catalog-banner > div.catalog-container > ul > li";
+//        String select = "body > div.main-wrap > main > div > section > div.catalog-banner > div.catalog-container > ul > li > span";
+//        String href = "data-href";
+//        String urlPrefix = "https://www.moyo.ua";
+//++
+//        String urlShop = "https://artmobile.ua/";
+//        String endPoint = "";
+//        String getByClass = "#sb-site > div.wrapper > div.container-fluid > div > div.col-md-3.col-md-pull-7.cats > div.category-sidebar.hidden-xs.hidden-sm > div.cats-menu > ul > li";
+//        String select = "#sb-site > div.wrapper > div.container-fluid > div > div.col-md-3.col-md-pull-7.cats > div.category-sidebar.hidden-xs.hidden-sm > div.cats-menu > ul > li > a";
+//        String href = "href";
+//        String urlPrefix = "https:";
 
-        String url = "https://www.moyo.ua";
+        String urlShop = "https://mobiking.com.ua/";
         String endPoint = "";
-        String getByClass = "menu_link";
-        String select = "a";
+        String getByClass = "#body > div.content > section.baner-wrap > div > div > div.left-menu-wrap > ul > li";
+        String select = "#body > div.content > section.baner-wrap > div > div > div.left-menu-wrap > ul > li > div > a";
         String href = "href";
-        boolean needLink = true;
+        String urlPrefix = "https://mobiking.com.ua";
+        String login = "sessionid";
+        String password = "hhzhtncwlsvjnk2uhodn83ccntdtjc7r";
+        String replace = "Все з категорії: ";
+        String replacement = "";
 
-        new Parser().getCatalog(url, endPoint, getByClass, select, href, needLink);
+        String[] array = {urlShop, endPoint, getByClass, select, href, urlPrefix, login, password, replace, replacement};
+
+        new Parser().getCatalog(array);
+//        new Parser().getCatalog(url, endPoint, getByClass, select, href, urlPrefix);
 
     }
 }

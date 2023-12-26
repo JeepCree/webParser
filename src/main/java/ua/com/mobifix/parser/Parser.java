@@ -11,38 +11,33 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Parser {
-    public void getCatalog(String urlShop, String endPoint, String getByClass, String select, String href, boolean needLink){
+    public void getCatalog(String[] array){
         Map<String, String> catalogMap = new HashMap<>();
-
         try {
-            Connection.Response response = Jsoup.connect(urlShop).method(Connection.Method.GET).execute();
-            System.out.println(response.body());
-
-            Document page = Jsoup.connect(urlShop + endPoint)
+            Connection.Response response = Jsoup.connect(array[0]).method(Connection.Method.GET).execute();
+            Document page = Jsoup.connect(array[0] + array[1])
                     .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-                    .cookies(response.cookies())
+//                    .cookies(response.cookies())
+                    .cookie(array[6], array[7])
                     .get();
+//            Elements elements = page.getElementsByClass(array[2]);
+            Elements elements = page.select(array[2]);
+            System.out.println(elements.size());
 
-            Elements elements = page.getElementsByClass(getByClass);
-// Создание карты для хранения данных
-
-            // Обход элементов и добавление данных в карту
             for (Element element : elements) {
-                String text = element.select(select).text();
-                String link = element.attr(href);
-                catalogMap.put(text, link);
+                String text = element.select(array[3]).text().replace(array[8], array[9]);
+                String linked = element.select(array[3]).attr(array[4]);
+                catalogMap.put(text, array[5] + linked);
             }
-            if (needLink == false) {
-                urlShop = "";
-            }
-            // Вывод карты
             for (Map.Entry<String, String> entry : catalogMap.entrySet()) {
-//                System.out.println(entry.getKey() + " | " + urlShop + entry.getValue());
+                    System.out.println(entry.getKey() + " | " + entry.getValue());
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+    public void getCategory(){
+
     }
 }
 
