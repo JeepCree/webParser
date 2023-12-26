@@ -128,6 +128,7 @@ public class Run {
         settings.setSelectCategoryNameTagLevel5("a");
         settings.setSelectCategoryAttrHrefLevel5("href");
 
+
         for (AllScanCategory el : parser.getCatalog(settings, 0L)) {
             System.out.println(el.getCategoryId() + " " + el.getCategoryName() + " " + el.getCategoryUrl() + " " + el.getParentCategoryId());
         }
