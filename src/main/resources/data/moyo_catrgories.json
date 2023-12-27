@@ -1,0 +1,2150 @@
+[
+  {
+    "categoryId": 1,
+    "categoryName": "Apple",
+    "categoryUrl": "https://www.moyo.ua/portal_brand/apple_1/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 2,
+    "categoryName": "Смартфони і мобільні телефони",
+    "categoryUrl": "https://www.moyo.ua/telecommunication/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 3,
+    "categoryName": "Смартфони",
+    "categoryUrl": "https://www.moyo.ua/ua/telecommunication/smart/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 4,
+    "categoryName": "Мобільні телефони",
+    "categoryUrl": "https://www.moyo.ua/ua/telecommunication/cell_phones/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 5,
+    "categoryName": "Модеми",
+    "categoryUrl": "https://www.moyo.ua/ua/telecommunication/modems/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 6,
+    "categoryName": "Стаціонарні телефони",
+    "categoryUrl": "https://www.moyo.ua/ua/telecommunication/telefon/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 7,
+    "categoryName": "Стартові пакети",
+    "categoryUrl": "https://www.moyo.ua/ua/telecommunication/operators/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 8,
+    "categoryName": "Ваучери",
+    "categoryUrl": "https://www.moyo.ua/ua/telecommunication/vauchery/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 9,
+    "categoryName": "Міні-АТС",
+    "categoryUrl": "https://www.moyo.ua/ua/telecommunication/mini_ats/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 10,
+    "categoryName": "Базові блоки",
+    "categoryUrl": "https://www.moyo.ua/ua/telecommunication/mini_ats/ats-bazovie-bloki/",
+    "parentCategoryId": 9
+  },
+  {
+    "categoryId": 11,
+    "categoryName": "Комплектуючі до міні-АТС",
+    "categoryUrl": "https://www.moyo.ua/ua/telecommunication/mini_ats/komplectuyouschie/",
+    "parentCategoryId": 9
+  },
+  {
+    "categoryId": 12,
+    "categoryName": "АТС опції",
+    "categoryUrl": "https://www.moyo.ua/ua/telecommunication/mini_ats/ats-opcii/",
+    "parentCategoryId": 9
+  },
+  {
+    "categoryId": 13,
+    "categoryName": "Системні телефони",
+    "categoryUrl": "https://www.moyo.ua/ua/telecommunication/mini_ats/systemnie-telephony/",
+    "parentCategoryId": 9
+  },
+  {
+    "categoryId": 14,
+    "categoryName": "Ноутбуки, планшети та комп\u0027ютерна техніка",
+    "categoryUrl": "https://www.moyo.ua/portal_brand/comp_and_periphery/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 15,
+    "categoryName": "Телевізори та аудіотехніка",
+    "categoryUrl": "https://www.moyo.ua/portal_brand/tv_multimedia/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 16,
+    "categoryName": "Ігрові консолі та геймінг",
+    "categoryUrl": "https://www.moyo.ua/portal_brand/game_consol_gaming/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 17,
+    "categoryName": "Аудіотехніка",
+    "categoryUrl": "https://www.moyo.ua/portal_brand/audio/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 18,
+    "categoryName": "Фото, Відео та Гаджети",
+    "categoryUrl": "https://www.moyo.ua/portal_brand/photo_video/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 19,
+    "categoryName": "Смарт-годинники та гаджети",
+    "categoryUrl": "https://www.moyo.ua/portal_brand/watch_gadget/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 20,
+    "categoryName": "Техніка для дому",
+    "categoryUrl": "https://www.moyo.ua/portal_brand/home_applian/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 21,
+    "categoryName": "Техніка для кухні",
+    "categoryUrl": "https://www.moyo.ua/portal_brand/kitchen_applian/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 22,
+    "categoryName": "Краса та здоров\u0027я",
+    "categoryUrl": "https://www.moyo.ua/portal_brand/beauty_health/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 23,
+    "categoryName": "Посуд",
+    "categoryUrl": "https://www.moyo.ua/posuda/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 24,
+    "categoryName": "Кухонний посуд",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuhonnaja_posuda/",
+    "parentCategoryId": 23
+  },
+  {
+    "categoryId": 25,
+    "categoryName": "Сковороди",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuhonnaja_posuda/skovorody/",
+    "parentCategoryId": 24
+  },
+  {
+    "categoryId": 26,
+    "categoryName": "Каструлі",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuhonnaja_posuda/kastrjuli/",
+    "parentCategoryId": 24
+  },
+  {
+    "categoryId": 27,
+    "categoryName": "Кришки",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuhonnaja_posuda/kryshki/",
+    "parentCategoryId": 24
+  },
+  {
+    "categoryId": 28,
+    "categoryName": "Набори посуду",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuhonnaja_posuda/nabory_posudy/",
+    "parentCategoryId": 24
+  },
+  {
+    "categoryId": 29,
+    "categoryName": "Сотейники та кухонні ковші",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuhonnaja_posuda/sotejniki_i_kovshi/",
+    "parentCategoryId": 24
+  },
+  {
+    "categoryId": 30,
+    "categoryName": "Чайники",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuhonnaja_posuda/chajniki/",
+    "parentCategoryId": 24
+  },
+  {
+    "categoryId": 31,
+    "categoryName": "Заварники",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuhonnaja_posuda/zavarniki/",
+    "parentCategoryId": 24
+  },
+  {
+    "categoryId": 32,
+    "categoryName": "Турки",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuhonnaja_posuda/turki/",
+    "parentCategoryId": 24
+  },
+  {
+    "categoryId": 33,
+    "categoryName": "Гейзерні кавоварки",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuhonnaja_posuda/kofevarki_gejzernye/",
+    "parentCategoryId": 24
+  },
+  {
+    "categoryId": 34,
+    "categoryName": "Фондюшниця",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuhonnaja_posuda/fondju/",
+    "parentCategoryId": 24
+  },
+  {
+    "categoryId": 35,
+    "categoryName": "Посуд для сервірування",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/posuda_dlya_serviriv/",
+    "parentCategoryId": 23
+  },
+  {
+    "categoryId": 36,
+    "categoryName": "Тарілки",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/posuda_dlya_serviriv/tarelki/",
+    "parentCategoryId": 35
+  },
+  {
+    "categoryId": 37,
+    "categoryName": "Салатники",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/posuda_dlya_serviriv/salatniki/",
+    "parentCategoryId": 35
+  },
+  {
+    "categoryId": 38,
+    "categoryName": "Блюда",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/posuda_dlya_serviriv/bljuda/",
+    "parentCategoryId": 35
+  },
+  {
+    "categoryId": 39,
+    "categoryName": "Столові сервізи",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/posuda_dlya_serviriv/stolovye_servizy/",
+    "parentCategoryId": 35
+  },
+  {
+    "categoryId": 40,
+    "categoryName": "Столові прибори",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/posuda_dlya_serviriv/stolovye_pribory/",
+    "parentCategoryId": 35
+  },
+  {
+    "categoryId": 41,
+    "categoryName": "Набори для спецій",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/posuda_dlya_serviriv/nabory_dlja_specij/",
+    "parentCategoryId": 35
+  },
+  {
+    "categoryId": 42,
+    "categoryName": "Молочники",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/posuda_dlya_serviriv/molochniki/",
+    "parentCategoryId": 35
+  },
+  {
+    "categoryId": 43,
+    "categoryName": "Цукорниці",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/posuda_dlya_serviriv/sakharnitsy/",
+    "parentCategoryId": 35
+  },
+  {
+    "categoryId": 44,
+    "categoryName": "Чайні та кавові сервізи",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/posuda_dlya_serviriv/chajnye_i_kofejnye_s/",
+    "parentCategoryId": 35
+  },
+  {
+    "categoryId": 45,
+    "categoryName": "Марміти",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/posuda_dlya_serviriv/marmity/",
+    "parentCategoryId": 35
+  },
+  {
+    "categoryId": 46,
+    "categoryName": "Аксесуари для сервірування столу",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/posuda_dlya_serviriv/acess_dlya_servir/",
+    "parentCategoryId": 35
+  },
+  {
+    "categoryId": 47,
+    "categoryName": "Посуд для напоїв",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_napitkov/",
+    "parentCategoryId": 23
+  },
+  {
+    "categoryId": 48,
+    "categoryName": "Чашки та блюдця",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_napitkov/chashki_i_bljudca/",
+    "parentCategoryId": 47
+  },
+  {
+    "categoryId": 49,
+    "categoryName": "Склянки",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_napitkov/stakany/",
+    "parentCategoryId": 47
+  },
+  {
+    "categoryId": 50,
+    "categoryName": "Келихи",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_napitkov/bokaly/",
+    "parentCategoryId": 47
+  },
+  {
+    "categoryId": 51,
+    "categoryName": "Глечики",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_napitkov/kuvshun/",
+    "parentCategoryId": 47
+  },
+  {
+    "categoryId": 52,
+    "categoryName": "Термоси",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_napitkov/termosy/",
+    "parentCategoryId": 47
+  },
+  {
+    "categoryId": 53,
+    "categoryName": "Спортивні пляшки для води",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_napitkov/butylki/",
+    "parentCategoryId": 47
+  },
+  {
+    "categoryId": 54,
+    "categoryName": "Посуд для нарізання",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_narezki/",
+    "parentCategoryId": 23
+  },
+  {
+    "categoryId": 55,
+    "categoryName": "Кухонні ножі",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_narezki/nozhi_keramicheskie/",
+    "parentCategoryId": 54
+  },
+  {
+    "categoryId": 56,
+    "categoryName": "Набори кухонних ножів",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_narezki/nabory_kuhonnyh_nozh/",
+    "parentCategoryId": 54
+  },
+  {
+    "categoryId": 57,
+    "categoryName": "Кухонні ножиці",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_narezki/nozhnitsy_kuhon/",
+    "parentCategoryId": 54
+  },
+  {
+    "categoryId": 58,
+    "categoryName": "Точила для кухонних ножів",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_narezki/tochila/",
+    "parentCategoryId": 54
+  },
+  {
+    "categoryId": 59,
+    "categoryName": "Овочечистки",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_narezki/ovoshechistki/",
+    "parentCategoryId": 54
+  },
+  {
+    "categoryId": 60,
+    "categoryName": "Тертки та овочерізки",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_narezki/terki_i_ovoshherezki/",
+    "parentCategoryId": 54
+  },
+  {
+    "categoryId": 61,
+    "categoryName": "Обробні дошки",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_narezki/doski_razdelochnye/",
+    "parentCategoryId": 54
+  },
+  {
+    "categoryId": 62,
+    "categoryName": "Посуд для зберігання",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_khraneniya/",
+    "parentCategoryId": 23
+  },
+  {
+    "categoryId": 63,
+    "categoryName": "Судки",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_khraneniya/sudki/",
+    "parentCategoryId": 62
+  },
+  {
+    "categoryId": 64,
+    "categoryName": "Банки",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_khraneniya/banki/",
+    "parentCategoryId": 62
+  },
+  {
+    "categoryId": 65,
+    "categoryName": "Хлібниці",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_khraneniya/hlebnicy/",
+    "parentCategoryId": 62
+  },
+  {
+    "categoryId": 66,
+    "categoryName": "Посуд для запікання",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_zapekania/",
+    "parentCategoryId": 23
+  },
+  {
+    "categoryId": 67,
+    "categoryName": "Форми для випікання",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/dlya_zapekania/formy_dlya_vypechki/",
+    "parentCategoryId": 66
+  },
+  {
+    "categoryId": 68,
+    "categoryName": "Кухонне приладдя",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuh_prinadlezh/",
+    "parentCategoryId": 23
+  },
+  {
+    "categoryId": 69,
+    "categoryName": "Вінчики",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuh_prinadlezh/venchik/",
+    "parentCategoryId": 68
+  },
+  {
+    "categoryId": 70,
+    "categoryName": "Лопатки",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuh_prinadlezh/lopatki/",
+    "parentCategoryId": 68
+  },
+  {
+    "categoryId": 71,
+    "categoryName": "Ложки кухонні",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuh_prinadlezh/lozhka_kuh/",
+    "parentCategoryId": 68
+  },
+  {
+    "categoryId": 72,
+    "categoryName": "Ополоники",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuh_prinadlezh/polovniki/",
+    "parentCategoryId": 68
+  },
+  {
+    "categoryId": 73,
+    "categoryName": "Картоплем\u0027ялки",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuh_prinadlezh/kartofelemyalki/",
+    "parentCategoryId": 68
+  },
+  {
+    "categoryId": 74,
+    "categoryName": "Шумівки",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuh_prinadlezh/shumovki/",
+    "parentCategoryId": 68
+  },
+  {
+    "categoryId": 75,
+    "categoryName": "Пензлики кулінарні",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuh_prinadlezh/kist_kulinar/",
+    "parentCategoryId": 68
+  },
+  {
+    "categoryId": 76,
+    "categoryName": "Аксесуари для кухні",
+    "categoryUrl": "https://www.moyo.ua/ua/posuda/kuh_prinadlezh/aksessuary_dlja_kuhn/",
+    "parentCategoryId": 68
+  },
+  {
+    "categoryId": 77,
+    "categoryName": "Товари для дому та відпочинку",
+    "categoryUrl": "https://www.moyo.ua/portal_brand/christopeit_sport/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 78,
+    "categoryName": "Інструменти та Садова техніка",
+    "categoryUrl": "https://www.moyo.ua/instrument/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 79,
+    "categoryName": "Електроінструменти",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/",
+    "parentCategoryId": 78
+  },
+  {
+    "categoryId": 80,
+    "categoryName": "Набори електроінструментів",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/nabor-electroinstrum/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 81,
+    "categoryName": "Болгарки",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/bolgarky/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 82,
+    "categoryName": "Віброшліфмашини",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/vibroshlifmashiny/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 83,
+    "categoryName": "Гайковерти",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/gaykoverty/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 84,
+    "categoryName": "Гравери",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/gravery/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 85,
+    "categoryName": "Дрилі",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/dreli/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 86,
+    "categoryName": "Клейові пістолети",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/kleevyie_pistolety/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 87,
+    "categoryName": "Фарбопульти",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/kraskopultyi/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 88,
+    "categoryName": "Пили монтажні",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/montajnye_pilu/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 89,
+    "categoryName": "Електроножиці",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/nozhnitsyi_po_metall/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 90,
+    "categoryName": "Відбійні молотки",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/otboynyie_molotki/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 91,
+    "categoryName": "Паяльники",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/payalniki/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 92,
+    "categoryName": "Паяльники для пластикових труб",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/payalniki_dlya_plast/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 93,
+    "categoryName": "Перфоратори",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/perforatoryi/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 94,
+    "categoryName": "Полірувальні машини",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/pol_mashini/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 95,
+    "categoryName": "Промислові пилососи",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/promyishlennyie_pyil/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 96,
+    "categoryName": "Рейсмуси",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/reysmusyi/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 97,
+    "categoryName": "Реноватор",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/renovatoryi/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 98,
+    "categoryName": "Шабельні пили",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/sab_pyly/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 99,
+    "categoryName": "Свердлильні верстати",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/sverlilnyie_stanki/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 100,
+    "categoryName": "Будівельні фени",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/stroitelnyie_fenyi/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 101,
+    "categoryName": "Точильні верстати",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/tochilnyie_stanki/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 102,
+    "categoryName": "Торцювальні пили",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/torc_pyly/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 103,
+    "categoryName": "Фрезер",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/frezernyie_stanki/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 104,
+    "categoryName": "Циркулярні пили",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/cyrc_pyly/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 105,
+    "categoryName": "Шліфмашини",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/shlifmashinyi/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 106,
+    "categoryName": "Шуруповерти",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/shurupovertyi/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 107,
+    "categoryName": "Електролобзики",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/elektrolobziki/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 108,
+    "categoryName": "Електрорубанки",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/elektrorubanki/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 109,
+    "categoryName": "Електричні степлери",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/electroinstrument/elektricheskie_stepl/",
+    "parentCategoryId": 79
+  },
+  {
+    "categoryId": 110,
+    "categoryName": "Садова техніка",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/sadovaya_technika/",
+    "parentCategoryId": 78
+  },
+  {
+    "categoryId": 111,
+    "categoryName": "Мотика",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/sadovaya_technika/motyga/",
+    "parentCategoryId": 110
+  },
+  {
+    "categoryId": 112,
+    "categoryName": "Граблі",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/sadovaya_technika/grabli/",
+    "parentCategoryId": 110
+  },
+  {
+    "categoryId": 113,
+    "categoryName": "Вила",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/sadovaya_technika/vily/",
+    "parentCategoryId": 110
+  },
+  {
+    "categoryId": 114,
+    "categoryName": "Аксесуари та витратні матеріали",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/sadovaya_technika/akses-i-raskhod/",
+    "parentCategoryId": 110
+  },
+  {
+    "categoryId": 115,
+    "categoryName": "Повітродувки",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/sadovaya_technika/vozduhoduvki/",
+    "parentCategoryId": 110
+  },
+  {
+    "categoryId": 116,
+    "categoryName": "Висоторізи",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/sadovaya_technika/vyisotorezyi/",
+    "parentCategoryId": 110
+  },
+  {
+    "categoryId": 117,
+    "categoryName": "Газонокосарки",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/sadovaya_technika/gazonokosilki/",
+    "parentCategoryId": 110
+  },
+  {
+    "categoryId": 118,
+    "categoryName": "Мотокоси і садові тримери",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/sadovaya_technika/sadovyie_trimmeryi/",
+    "parentCategoryId": 110
+  },
+  {
+    "categoryId": 119,
+    "categoryName": "Мотопомпи",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/sadovaya_technika/motopompyi/",
+    "parentCategoryId": 110
+  },
+  {
+    "categoryId": 120,
+    "categoryName": "Культиватори",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/sadovaya_technika/motokultivatoryi/",
+    "parentCategoryId": 110
+  },
+  {
+    "categoryId": 121,
+    "categoryName": "Мінімийки",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/sadovaya_technika/minimoyki/",
+    "parentCategoryId": 110
+  },
+  {
+    "categoryId": 122,
+    "categoryName": "Кущорізи",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/sadovaya_technika/nozhnitsyi_dlya_kust/",
+    "parentCategoryId": 110
+  },
+  {
+    "categoryId": 123,
+    "categoryName": "Обприскувачі",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/sadovaya_technika/opryiskivateli/",
+    "parentCategoryId": 110
+  },
+  {
+    "categoryId": 124,
+    "categoryName": "Садові аератори",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/sadovaya_technika/sadovyie_aeratoryi/",
+    "parentCategoryId": 110
+  },
+  {
+    "categoryId": 125,
+    "categoryName": "Садові подрібнювачі",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/sadovaya_technika/sadovyie_izmelchitel/",
+    "parentCategoryId": 110
+  },
+  {
+    "categoryId": 126,
+    "categoryName": "Ланцюгові пили",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/sadovaya_technika/tsepnyie_pilyi/",
+    "parentCategoryId": 110
+  },
+  {
+    "categoryId": 127,
+    "categoryName": "Вимірювальний інструмент",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/izmerytelniy_instrum/",
+    "parentCategoryId": 78
+  },
+  {
+    "categoryId": 128,
+    "categoryName": "Вимірювачі вологості",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/izmerytelniy_instrum/izmer_vlazhn/",
+    "parentCategoryId": 127
+  },
+  {
+    "categoryId": 129,
+    "categoryName": "Далекоміри",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/izmerytelniy_instrum/dalnomeryi/",
+    "parentCategoryId": 127
+  },
+  {
+    "categoryId": 130,
+    "categoryName": "Металодетектори",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/izmerytelniy_instrum/detektori_metalla/",
+    "parentCategoryId": 127
+  },
+  {
+    "categoryId": 131,
+    "categoryName": "Термодетектори",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/izmerytelniy_instrum/termodetektoryi/",
+    "parentCategoryId": 127
+  },
+  {
+    "categoryId": 132,
+    "categoryName": "Нівеліри",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/izmerytelniy_instrum/niveliryi/",
+    "parentCategoryId": 127
+  },
+  {
+    "categoryId": 133,
+    "categoryName": "Кутоміри",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/izmerytelniy_instrum/uglomeryi/",
+    "parentCategoryId": 127
+  },
+  {
+    "categoryId": 134,
+    "categoryName": "Штативи для вимірювальних інструментів",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/izmerytelniy_instrum/shtativyi/",
+    "parentCategoryId": 127
+  },
+  {
+    "categoryId": 135,
+    "categoryName": "Рулетки",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/izmerytelniy_instrum/ruletki/",
+    "parentCategoryId": 127
+  },
+  {
+    "categoryId": 136,
+    "categoryName": "Косинці",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/izmerytelniy_instrum/ugolniki/",
+    "parentCategoryId": 127
+  },
+  {
+    "categoryId": 137,
+    "categoryName": "Рівні",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/izmerytelniy_instrum/urovni/",
+    "parentCategoryId": 127
+  },
+  {
+    "categoryId": 138,
+    "categoryName": "Стаціонарне обладнання",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/stacionarnoe_oborudo/",
+    "parentCategoryId": 78
+  },
+  {
+    "categoryId": 139,
+    "categoryName": "Генератори",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/stacionarnoe_oborudo/generatoryi/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 140,
+    "categoryName": "Плиткорізи",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/stacionarnoe_oborudo/plitkorezyi/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 141,
+    "categoryName": "Зварювальне обладнання",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/stacionarnoe_oborudo/svarochnoe_oborudova/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 142,
+    "categoryName": "Стабілізатори напруги",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/stacionarnoe_oborudo/stabilizatoryi_napry/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 143,
+    "categoryName": "Компресори",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/stacionarnoe_oborudo/kompressory/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 144,
+    "categoryName": "Насосне обладнання",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/stacionarnoe_oborudo/nasosnoe_oborudovani/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 145,
+    "categoryName": "Станки та верстати",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/stacionarnoe_oborudo/stanki-verstaki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 146,
+    "categoryName": "Ручний інструмент",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/",
+    "parentCategoryId": 78
+  },
+  {
+    "categoryId": 147,
+    "categoryName": "Тачки і візки",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/tachki-telegki/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 148,
+    "categoryName": "Заклепники",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/zaklepochniki/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 149,
+    "categoryName": "Ключі",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/klyuchi/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 150,
+    "categoryName": "Набори інструментів",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/naboryi_ruchnyih_ins/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 151,
+    "categoryName": "Ножиці по металу",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/nozhnitsyi_ruchnie/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 152,
+    "categoryName": "Викрутки",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/otvertki_i_naboryi_b/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 153,
+    "categoryName": "Воротки, рукоятки і торцеві головки",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/Rukoyatki_vortki/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 154,
+    "categoryName": "Степлери механічні",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/stepleryi_mehaniches/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 155,
+    "categoryName": "Сумки і ящики для інструментів",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/Sumki_i_yaschiki/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 156,
+    "categoryName": "Навскісники",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/stusla/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 157,
+    "categoryName": "Сокири",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/toporyi/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 158,
+    "categoryName": "Лопати",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/lopaty/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 159,
+    "categoryName": "Ручні пили",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/ruchnye_pily/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 160,
+    "categoryName": "Лещата",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/tiski/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 161,
+    "categoryName": "Садові ножиці",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/sadovye_nozhnicy/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 162,
+    "categoryName": "Сучкорізи",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/suchkorezy/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 163,
+    "categoryName": "Цвяходери",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/gvozdodery/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 164,
+    "categoryName": "Секатори",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/sekatory/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 165,
+    "categoryName": "Молотки і кувалди",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/molotki_i_kuvaldy/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 166,
+    "categoryName": "Напилки",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/napilniki/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 167,
+    "categoryName": "Будівельні ножі",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/stroitelnye_nojy/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 168,
+    "categoryName": "Плоскогубці і пасатижі",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/ploskogubci_i_pasati/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 169,
+    "categoryName": "Стамески та зубила",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/stameski_i_zubila/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 170,
+    "categoryName": "Щітки та шкребки",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/ruchnoy_instrument/schetki_i_skrebki/",
+    "parentCategoryId": 146
+  },
+  {
+    "categoryId": 171,
+    "categoryName": "Техніка для поливу",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/polivnaya_tehnika/",
+    "parentCategoryId": 78
+  },
+  {
+    "categoryId": 172,
+    "categoryName": "Ємності для води",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/polivnaya_tehnika/emkosti-dlya-vody/",
+    "parentCategoryId": 171
+  },
+  {
+    "categoryId": 173,
+    "categoryName": "Аксесуари для шлангів",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/polivnaya_tehnika/aksessuaryi_k_shlang/",
+    "parentCategoryId": 171
+  },
+  {
+    "categoryId": 174,
+    "categoryName": "Дощовики",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/polivnaya_tehnika/dozhdevateli/",
+    "parentCategoryId": 171
+  },
+  {
+    "categoryId": 175,
+    "categoryName": "Розпилювачі",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/polivnaya_tehnika/polivochnyie_pistole/",
+    "parentCategoryId": 171
+  },
+  {
+    "categoryId": 176,
+    "categoryName": "Таймери подачі води",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/polivnaya_tehnika/taymeryi_podachi_vod/",
+    "parentCategoryId": 171
+  },
+  {
+    "categoryId": 177,
+    "categoryName": "Шланги для поливу",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/polivnaya_tehnika/shlangi_i_katushki/",
+    "parentCategoryId": 171
+  },
+  {
+    "categoryId": 178,
+    "categoryName": "Комплекти для поливу",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/polivnaya_tehnika/kompl_dlya_polyva/",
+    "parentCategoryId": 171
+  },
+  {
+    "categoryId": 179,
+    "categoryName": "Захисне екіпірування",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/zahist/",
+    "parentCategoryId": 78
+  },
+  {
+    "categoryId": 180,
+    "categoryName": "Робоче взуття",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/zahist/spetsobuv/",
+    "parentCategoryId": 179
+  },
+  {
+    "categoryId": 181,
+    "categoryName": "Спецодяг",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/zahist/specodejda/",
+    "parentCategoryId": 179
+  },
+  {
+    "categoryId": 182,
+    "categoryName": "Захисні рукавички",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/zahist/zaschita_ruk/",
+    "parentCategoryId": 179
+  },
+  {
+    "categoryId": 183,
+    "categoryName": "Каски і захисні щитки",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/zahist/sredstva_zaschityi_l/",
+    "parentCategoryId": 179
+  },
+  {
+    "categoryId": 184,
+    "categoryName": "Захисні комбінезони",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/zahist/zaschitnyie_kombinez/",
+    "parentCategoryId": 179
+  },
+  {
+    "categoryId": 185,
+    "categoryName": "Засоби захисту слуху",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/zahist/sredstva_zaschityi_s/",
+    "parentCategoryId": 179
+  },
+  {
+    "categoryId": 186,
+    "categoryName": "Респіратори та маски",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/zahist/sredstva_zaschityi_o/",
+    "parentCategoryId": 179
+  },
+  {
+    "categoryId": 187,
+    "categoryName": "Захисні окуляри",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/zahist/zaschitnye_ochki/",
+    "parentCategoryId": 179
+  },
+  {
+    "categoryId": 188,
+    "categoryName": "Витратні матеріали та аксесуари",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/",
+    "parentCategoryId": 78
+  },
+  {
+    "categoryId": 189,
+    "categoryName": "Аксесуари для пневмоінструменту",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/aks_dlya_pnevmoinst/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 190,
+    "categoryName": "Зарядні пристрої для електроінструменту",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/zaryad-dlya-instrm/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 191,
+    "categoryName": "Акумулятори для електроінструменту",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/akkum-dlya-instrum/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 192,
+    "categoryName": "Аксесуарів для вимірювальної техніки",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/aks_dlya_izmer_tehn/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 193,
+    "categoryName": "Аксесуари для мінімийок високого тиску",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/aks_dlya_minimoek/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 194,
+    "categoryName": "Аксесуари для болгарок",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/acc_bolgarok/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 195,
+    "categoryName": "Аксесуари для газонокосарок",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/aksessuaryi_dlya_gaz/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 196,
+    "categoryName": "Аксесуари для граверів",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/aksessuaryi_dlya_gra/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 197,
+    "categoryName": "Аксесуари для фрезерів",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/dlya_frezerov/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 198,
+    "categoryName": "Аксесуари для дрилів і шуруповертів",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/dlya_dreley_shurupov/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 199,
+    "categoryName": "Аксесуари для лобзиків і шабельних пил",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/dlya_lobzikov_sabeln/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 200,
+    "categoryName": "Аксесуари для мотокос і садових тримерів",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/dlya_motokos_trimmer/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 201,
+    "categoryName": "Аксесуари для перфораторів і відбійних молотків",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/dlya_perforatorov_ot/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 202,
+    "categoryName": "Аксесуари для промислових пилососів",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/dlya_promyishlennyih/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 203,
+    "categoryName": "Аксесуари для реноваторів",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/dlya_renovatora/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 204,
+    "categoryName": "Аксесуари для зварювальних робіт",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/dlya_svarochnyih_rab/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 205,
+    "categoryName": "Аксесуари для ланцюгових пил",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/dlya_tsepnyih_pil/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 206,
+    "categoryName": "Скоби для степлерів",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/dlya_steplerov/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 207,
+    "categoryName": "Пильні диски",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/dlya_tsirkulyarnyih_/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 208,
+    "categoryName": "Аксесуари для шліфмашин",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/dlya_shlifmashin/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 209,
+    "categoryName": "Аксесуари для ремонтних робіт",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/acc_instrument/aksessuary_dlja_remo/",
+    "parentCategoryId": 188
+  },
+  {
+    "categoryId": 210,
+    "categoryName": "Пневматичний інструмент",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/pnevmaticheskiy_inst/",
+    "parentCategoryId": 78
+  },
+  {
+    "categoryId": 211,
+    "categoryName": "Пневмодрилі",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/pnevmaticheskiy_inst/pnevmodreli/",
+    "parentCategoryId": 210
+  },
+  {
+    "categoryId": 212,
+    "categoryName": "Пневматичні фарбопульти",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/pnevmaticheskiy_inst/pnevm_kraskopulty/",
+    "parentCategoryId": 210
+  },
+  {
+    "categoryId": 213,
+    "categoryName": "Набори пневмоінструментів",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/pnevmaticheskiy_inst/nabory_pnevmoinst/",
+    "parentCategoryId": 210
+  },
+  {
+    "categoryId": 214,
+    "categoryName": "Пневматичні відбійні молотки",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/pnevmaticheskiy_inst/pnevm_otboy_molotki/",
+    "parentCategoryId": 210
+  },
+  {
+    "categoryId": 215,
+    "categoryName": "Пневмостеплери",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/pnevmaticheskiy_inst/pnevmosteplery/",
+    "parentCategoryId": 210
+  },
+  {
+    "categoryId": 216,
+    "categoryName": "Пневматичні шліфувальні машини",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/pnevmaticheskiy_inst/pnevma_shlifmashiny/",
+    "parentCategoryId": 210
+  },
+  {
+    "categoryId": 217,
+    "categoryName": "Пневмогайковерти",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/pnevmaticheskiy_inst/pnevmogayikoverty/",
+    "parentCategoryId": 210
+  },
+  {
+    "categoryId": 218,
+    "categoryName": "Пневмопістолети",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/pnevmaticheskiy_inst/pnevmopistolety/",
+    "parentCategoryId": 210
+  },
+  {
+    "categoryId": 219,
+    "categoryName": "Аксесуари до пневматичного інструмента",
+    "categoryUrl": "https://www.moyo.ua/ua/instrument/pnevmaticheskiy_inst/aksessyari-k-pnevma/",
+    "parentCategoryId": 210
+  },
+  {
+    "categoryId": 220,
+    "categoryName": "Спорядження та екіпірування",
+    "categoryUrl": "https://www.moyo.ua/snar_i_ekip/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 221,
+    "categoryName": "Тактичний одяг",
+    "categoryUrl": "https://www.moyo.ua/ua/snar_i_ekip/tact_odezhda/",
+    "parentCategoryId": 220
+  },
+  {
+    "categoryId": 222,
+    "categoryName": "Жилети",
+    "categoryUrl": "https://www.moyo.ua/ua/snar_i_ekip/tact_odezhda/zhilety/",
+    "parentCategoryId": 221
+  },
+  {
+    "categoryId": 223,
+    "categoryName": "Кофти",
+    "categoryUrl": "https://www.moyo.ua/ua/snar_i_ekip/tact_odezhda/kofty/",
+    "parentCategoryId": 221
+  },
+  {
+    "categoryId": 224,
+    "categoryName": "Шкарпетки",
+    "categoryUrl": "https://www.moyo.ua/ua/snar_i_ekip/tact_odezhda/noski/",
+    "parentCategoryId": 221
+  },
+  {
+    "categoryId": 225,
+    "categoryName": "Термобілизна",
+    "categoryUrl": "https://www.moyo.ua/ua/snar_i_ekip/tact_odezhda/termobelye/",
+    "parentCategoryId": 221
+  },
+  {
+    "categoryId": 226,
+    "categoryName": "Балаклави",
+    "categoryUrl": "https://www.moyo.ua/ua/snar_i_ekip/tact_odezhda/balaklavy/",
+    "parentCategoryId": 221
+  },
+  {
+    "categoryId": 227,
+    "categoryName": "Рукавички",
+    "categoryUrl": "https://www.moyo.ua/ua/snar_i_ekip/tact_odezhda/gloves/",
+    "parentCategoryId": 221
+  },
+  {
+    "categoryId": 228,
+    "categoryName": "Тактичне спорядження",
+    "categoryUrl": "https://www.moyo.ua/ua/snar_i_ekip/tact_equip/",
+    "parentCategoryId": 220
+  },
+  {
+    "categoryId": 229,
+    "categoryName": "Захисне спорядження",
+    "categoryUrl": "https://www.moyo.ua/ua/snar_i_ekip/tact_equip/zashchit_snar/",
+    "parentCategoryId": 228
+  },
+  {
+    "categoryId": 230,
+    "categoryName": "Плитоноски",
+    "categoryUrl": "https://www.moyo.ua/ua/snar_i_ekip/tact_equip/plitonoski/",
+    "parentCategoryId": 228
+  },
+  {
+    "categoryId": 231,
+    "categoryName": "Тактичні ремені",
+    "categoryUrl": "https://www.moyo.ua/ua/snar_i_ekip/tact_equip/takt_remni/",
+    "parentCategoryId": 228
+  },
+  {
+    "categoryId": 232,
+    "categoryName": "Тактичний годинник",
+    "categoryUrl": "https://www.moyo.ua/ua/snar_i_ekip/tact_equip/takt_chasy/",
+    "parentCategoryId": 228
+  },
+  {
+    "categoryId": 233,
+    "categoryName": "Військові аптечки",
+    "categoryUrl": "https://www.moyo.ua/ua/snar_i_ekip/tact_equip/voyennyye_aptechki/",
+    "parentCategoryId": 228
+  },
+  {
+    "categoryId": 234,
+    "categoryName": "Підсумки",
+    "categoryUrl": "https://www.moyo.ua/ua/snar_i_ekip/tact_equip/podsumki/",
+    "parentCategoryId": 228
+  },
+  {
+    "categoryId": 235,
+    "categoryName": "Тактичні рюкзаки",
+    "categoryUrl": "https://www.moyo.ua/ua/snar_i_ekip/tact_equip/takti_ryukzaki/",
+    "parentCategoryId": 228
+  },
+  {
+    "categoryId": 236,
+    "categoryName": "Сольові грілки",
+    "categoryUrl": "https://www.moyo.ua/ua/snar_i_ekip/tact_equip/khimich_grelki/",
+    "parentCategoryId": 228
+  },
+  {
+    "categoryId": 237,
+    "categoryName": "Тактичні лопати",
+    "categoryUrl": "https://www.moyo.ua/ua/snar_i_ekip/tact_equip/takt_lopat/",
+    "parentCategoryId": 228
+  },
+  {
+    "categoryId": 238,
+    "categoryName": "Товари для дітей",
+    "categoryUrl": "https://www.moyo.ua/detskij_mir/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 239,
+    "categoryName": "Iграшки",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/igrushki/",
+    "parentCategoryId": 238
+  },
+  {
+    "categoryId": 240,
+    "categoryName": "Радіокеровані іграшки",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/igrushki/radioupravljaemye_ig/",
+    "parentCategoryId": 239
+  },
+  {
+    "categoryId": 241,
+    "categoryName": "Конструктори",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/igrushki/konstruktory/",
+    "parentCategoryId": 239
+  },
+  {
+    "categoryId": 242,
+    "categoryName": "Іграшкові машинки",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/igrushki/avtomobili_i_tehnika/",
+    "parentCategoryId": 239
+  },
+  {
+    "categoryId": 243,
+    "categoryName": "Іграшкова зброя",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/igrushki/igrushechnoe_oruzhie/",
+    "parentCategoryId": 239
+  },
+  {
+    "categoryId": 244,
+    "categoryName": "Ляльки",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/igrushki/kukly_i_aksessuary/",
+    "parentCategoryId": 239
+  },
+  {
+    "categoryId": 245,
+    "categoryName": "М\u0027які іграшки",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/igrushki/mjagkie_igrushki/",
+    "parentCategoryId": 239
+  },
+  {
+    "categoryId": 246,
+    "categoryName": "Інтерактивні іграшки",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/igrushki/interaktivnye_igrush/",
+    "parentCategoryId": 239
+  },
+  {
+    "categoryId": 247,
+    "categoryName": "Дитячі музичні інструменти",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/igrushki/detskie_muzykalnye_i/",
+    "parentCategoryId": 239
+  },
+  {
+    "categoryId": 248,
+    "categoryName": "Ігрові набори",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/igrushki/igrovye_i_sjuzhetnye/",
+    "parentCategoryId": 239
+  },
+  {
+    "categoryId": 249,
+    "categoryName": "Ігрові фігурки",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/igrushki/igrovye_figurki/",
+    "parentCategoryId": 239
+  },
+  {
+    "categoryId": 250,
+    "categoryName": "Іграшки для купання",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/igrushki/igrushki_dlja_kupani/",
+    "parentCategoryId": 239
+  },
+  {
+    "categoryId": 251,
+    "categoryName": "Дитячий текстиль",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/detskiy_textil/",
+    "parentCategoryId": 238
+  },
+  {
+    "categoryId": 252,
+    "categoryName": "Коляски та автокрісла",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/koljaski_i_avtokresl/",
+    "parentCategoryId": 238
+  },
+  {
+    "categoryId": 253,
+    "categoryName": "Дитячі автокрісла",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/koljaski_i_avtokresl/avtokresla/",
+    "parentCategoryId": 252
+  },
+  {
+    "categoryId": 254,
+    "categoryName": "Аксесуари для автокрісел",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/koljaski_i_avtokresl/aksessuary_dlja_avto/",
+    "parentCategoryId": 252
+  },
+  {
+    "categoryId": 255,
+    "categoryName": "Дитячі коляски",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/koljaski_i_avtokresl/detskie_koljaski/",
+    "parentCategoryId": 252
+  },
+  {
+    "categoryId": 256,
+    "categoryName": "Все для найменших",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/vsjo_dlja_samyh_male/",
+    "parentCategoryId": 238
+  },
+  {
+    "categoryId": 257,
+    "categoryName": "Ходунки",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/vsjo_dlja_samyh_male/detskie_hodunki/",
+    "parentCategoryId": 256
+  },
+  {
+    "categoryId": 258,
+    "categoryName": "Стільчики для годування",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/vsjo_dlja_samyh_male/stulchiki_dlja_korml/",
+    "parentCategoryId": 256
+  },
+  {
+    "categoryId": 259,
+    "categoryName": "Розвиваючі килимки",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/vsjo_dlja_samyh_male/razvivajushhie_kovri/",
+    "parentCategoryId": 256
+  },
+  {
+    "categoryId": 260,
+    "categoryName": "Іграшки для новонароджених",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/vsjo_dlja_samyh_male/igrushki_dlja_novoro/",
+    "parentCategoryId": 256
+  },
+  {
+    "categoryId": 261,
+    "categoryName": "Мобілі і музичні каруселі",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/vsjo_dlja_samyh_male/mobili_i_muzykalnye_/",
+    "parentCategoryId": 256
+  },
+  {
+    "categoryId": 262,
+    "categoryName": "Брязкальця, підвіски, прорізувачі",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/vsjo_dlja_samyh_male/pogremushki_podveski/",
+    "parentCategoryId": 256
+  },
+  {
+    "categoryId": 263,
+    "categoryName": "Розвиваючі ігри",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/razvivajushhie_igry_/",
+    "parentCategoryId": 238
+  },
+  {
+    "categoryId": 264,
+    "categoryName": "Настільні ігри",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/razvivajushhie_igry_/nastolnye_igry/",
+    "parentCategoryId": 263
+  },
+  {
+    "categoryId": 265,
+    "categoryName": "Товари для рукоділля",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/razvivajushhie_igry_/rukodelie_i_tvorches/",
+    "parentCategoryId": 263
+  },
+  {
+    "categoryId": 266,
+    "categoryName": "Набори для дослідів",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/razvivajushhie_igry_/nabory_dlja_nauchnyh/",
+    "parentCategoryId": 263
+  },
+  {
+    "categoryId": 267,
+    "categoryName": "Пазли і мозаїки",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/razvivajushhie_igry_/pazly_i_mozaiki/",
+    "parentCategoryId": 263
+  },
+  {
+    "categoryId": 268,
+    "categoryName": "Товари для свята",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/razvivajushhie_igry_/dlya_prazdnika/",
+    "parentCategoryId": 263
+  },
+  {
+    "categoryId": 269,
+    "categoryName": "Няньки і відеоняні",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/uhod_i_zabota/",
+    "parentCategoryId": 238
+  },
+  {
+    "categoryId": 270,
+    "categoryName": "Товари дитячої гігієни",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/gigiena_i_uhod/",
+    "parentCategoryId": 238
+  },
+  {
+    "categoryId": 271,
+    "categoryName": "Підгузки",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/gigiena_i_uhod/detskie_podguzniki/",
+    "parentCategoryId": 270
+  },
+  {
+    "categoryId": 272,
+    "categoryName": "Дитячі шампуні",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/gigiena_i_uhod/detskie-shampuni/",
+    "parentCategoryId": 270
+  },
+  {
+    "categoryId": 273,
+    "categoryName": "Дитяче мило",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/gigiena_i_uhod/detskoe-mylo/",
+    "parentCategoryId": 270
+  },
+  {
+    "categoryId": 274,
+    "categoryName": "Дитячий крем",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/gigiena_i_uhod/detskiy-krem/",
+    "parentCategoryId": 270
+  },
+  {
+    "categoryId": 275,
+    "categoryName": "Дитячі серветки",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/gigiena_i_uhod/detskie-salfetki/",
+    "parentCategoryId": 270
+  },
+  {
+    "categoryId": 276,
+    "categoryName": "Пляшечки для годування",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/gigiena_i_uhod/butylochki_poilniki/",
+    "parentCategoryId": 270
+  },
+  {
+    "categoryId": 277,
+    "categoryName": "Дитячий посуд",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/gigiena_i_uhod/detskaja_posuda_i_ak/",
+    "parentCategoryId": 270
+  },
+  {
+    "categoryId": 278,
+    "categoryName": "Дитячі ванночки та аксесуари",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/gigiena_i_uhod/detskie_vannochki_i_/",
+    "parentCategoryId": 270
+  },
+  {
+    "categoryId": 279,
+    "categoryName": "Дитячі горщики і сидіння",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/gigiena_i_uhod/detskie_gorshki_i_si/",
+    "parentCategoryId": 270
+  },
+  {
+    "categoryId": 280,
+    "categoryName": "Товари для догляду за дітьми",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/gigiena_i_uhod/predmety_uhoda_za_de/",
+    "parentCategoryId": 270
+  },
+  {
+    "categoryId": 281,
+    "categoryName": "Пустушки",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/gigiena_i_uhod/pustyshki_i_aksessua/",
+    "parentCategoryId": 270
+  },
+  {
+    "categoryId": 282,
+    "categoryName": "Соски для пляшечок",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/gigiena_i_uhod/soski/",
+    "parentCategoryId": 270
+  },
+  {
+    "categoryId": 283,
+    "categoryName": "Дитячі меблі",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/detskaja_mebel/",
+    "parentCategoryId": 238
+  },
+  {
+    "categoryId": 284,
+    "categoryName": "Столи, парти та стільчики",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/detskaja_mebel/stoly_party_i_stulch/",
+    "parentCategoryId": 283
+  },
+  {
+    "categoryId": 285,
+    "categoryName": "Дитячі матраци",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/detskaja_mebel/matrasy_detskie/",
+    "parentCategoryId": 283
+  },
+  {
+    "categoryId": 286,
+    "categoryName": "Дитячі світильники",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/detskaja_mebel/det_svetylnyky/",
+    "parentCategoryId": 283
+  },
+  {
+    "categoryId": 287,
+    "categoryName": "Дитячий транспорт",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/detskij_transport/",
+    "parentCategoryId": 238
+  },
+  {
+    "categoryId": 288,
+    "categoryName": "Веломобілі",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/detskij_transport/velomobili/",
+    "parentCategoryId": 287
+  },
+  {
+    "categoryId": 289,
+    "categoryName": "Дитячі самокати",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/detskij_transport/detskie_samokaty/",
+    "parentCategoryId": 287
+  },
+  {
+    "categoryId": 290,
+    "categoryName": "Дитячі велосипеди",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/detskij_transport/trehkolesnye_velosip/",
+    "parentCategoryId": 287
+  },
+  {
+    "categoryId": 291,
+    "categoryName": "Ролики",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/detskij_transport/rolikovyie_konki/",
+    "parentCategoryId": 287
+  },
+  {
+    "categoryId": 292,
+    "categoryName": "Скейтборд",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/detskij_transport/skeytbordy/",
+    "parentCategoryId": 287
+  },
+  {
+    "categoryId": 293,
+    "categoryName": "Біговели",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/detskij_transport/chudomobili/",
+    "parentCategoryId": 287
+  },
+  {
+    "categoryId": 294,
+    "categoryName": "Захист для катання",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/detskij_transport/zaschita_dlya_katani/",
+    "parentCategoryId": 287
+  },
+  {
+    "categoryId": 295,
+    "categoryName": "Активний дитячий відпочинок",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/aktivnyj_detski_otdy/",
+    "parentCategoryId": 238
+  },
+  {
+    "categoryId": 296,
+    "categoryName": "Мильні бульбашки",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/aktivnyj_detski_otdy/mylnye-puzyri/",
+    "parentCategoryId": 295
+  },
+  {
+    "categoryId": 297,
+    "categoryName": "Дитячі сонцезахисні окуляри",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/aktivnyj_detski_otdy/detskie_soln_ochki/",
+    "parentCategoryId": 295
+  },
+  {
+    "categoryId": 298,
+    "categoryName": "Дитячі ігрові комплекси",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/aktivnyj_detski_otdy/detskie_igrovye_komp/",
+    "parentCategoryId": 295
+  },
+  {
+    "categoryId": 299,
+    "categoryName": "Ігри на відкритому повітрі",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/aktivnyj_detski_otdy/igry_na_otkrytom_voz/",
+    "parentCategoryId": 295
+  },
+  {
+    "categoryId": 300,
+    "categoryName": "Батути",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/aktivnyj_detski_otdy/batuty/",
+    "parentCategoryId": 295
+  },
+  {
+    "categoryId": 301,
+    "categoryName": "Водний дитячий відпочинок",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/aktivnyj_detski_otdy/vodnyj_detskij_otdyh/",
+    "parentCategoryId": 295
+  },
+  {
+    "categoryId": 302,
+    "categoryName": "Шкільне приладдя",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/shkolnye_rjukzaki/",
+    "parentCategoryId": 238
+  },
+  {
+    "categoryId": 303,
+    "categoryName": "Парасольки дитячі",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/shkolnye_rjukzaki/zonti-detskij/",
+    "parentCategoryId": 302
+  },
+  {
+    "categoryId": 304,
+    "categoryName": "Шкільні сумки, клатчі",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/shkolnye_rjukzaki/sumki_dlja_obuvi/",
+    "parentCategoryId": 302
+  },
+  {
+    "categoryId": 305,
+    "categoryName": "Пенали, мультипенали, гаманці",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/shkolnye_rjukzaki/penaly/",
+    "parentCategoryId": 302
+  },
+  {
+    "categoryId": 306,
+    "categoryName": "Шкільні рюкзаки та ранці",
+    "categoryUrl": "https://www.moyo.ua/ua/detskij_mir/shkolnye_rjukzaki/rjukzaki_shkolnye/",
+    "parentCategoryId": 302
+  },
+  {
+    "categoryId": 307,
+    "categoryName": "LEGO",
+    "categoryUrl": "https://www.moyo.ua/ua/portal_brand/lego/",
+    "parentCategoryId": 238
+  },
+  {
+    "categoryId": 308,
+    "categoryName": "Зоотовари",
+    "categoryUrl": "https://www.moyo.ua/zootov/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 309,
+    "categoryName": "Товари для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/",
+    "parentCategoryId": 308
+  },
+  {
+    "categoryId": 310,
+    "categoryName": "Сухий корм для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/sukh_ko_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 311,
+    "categoryName": "Вологий корм для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/vlaz_korm_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 312,
+    "categoryName": "Замінники молока для цуценят",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/zamen_mol_d_shchenk/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 313,
+    "categoryName": "Ласощі для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/lakom_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 314,
+    "categoryName": "Миски для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/miski_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 315,
+    "categoryName": "Вітаміни для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/vitam_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 316,
+    "categoryName": "Захисні коміри для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/zash_vorot_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 317,
+    "categoryName": "Ветеринарні препарати для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/vet_prep_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 318,
+    "categoryName": "Засоби для догляду за собаками",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/sred_d_ukhod_z_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 319,
+    "categoryName": "Лежанки для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/lezh_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 320,
+    "categoryName": "Пакети для прибирання за собаками",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/pak_dl_ubork_z_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 321,
+    "categoryName": "Нашийники для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/osheyniki-dlya-sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 322,
+    "categoryName": "Намордники для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/namor_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 323,
+    "categoryName": "Повідці для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/povod_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 324,
+    "categoryName": "Шлейки для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/shl_dl_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 325,
+    "categoryName": "Переноски для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/peren_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 326,
+    "categoryName": "Іграшки для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/igrush_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 327,
+    "categoryName": "Одяг для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/odezh_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 328,
+    "categoryName": "Гребінці для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/rasch_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 329,
+    "categoryName": "Пуходерки для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/puhder_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 330,
+    "categoryName": "Фурмінатори для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/furmin_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 331,
+    "categoryName": "Кігтерізи для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/kogt_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 332,
+    "categoryName": "Шампуні для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/shamp_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 333,
+    "categoryName": "Пелюшки для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/pelenk_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 334,
+    "categoryName": "Туалети для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/tualet_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 335,
+    "categoryName": "Підгузки для собак",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_dl_sob/podguz_d_sobak/",
+    "parentCategoryId": 309
+  },
+  {
+    "categoryId": 336,
+    "categoryName": "Товари для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/",
+    "parentCategoryId": 308
+  },
+  {
+    "categoryId": 337,
+    "categoryName": "Сухий корм для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/sukh_korm_d_kotov/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 338,
+    "categoryName": "Вологий корм для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/vlaz_korm_d_koshek/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 339,
+    "categoryName": "Замінники молока для кошенят",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/zamen_mol_d_kotyat/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 340,
+    "categoryName": "Ласощі для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/lakom_d_koshek/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 341,
+    "categoryName": "Миски для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/miski_d_kotov/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 342,
+    "categoryName": "Вітаміни для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/vitam_d_kotov/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 343,
+    "categoryName": "Ветеринарні препарати для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/vet_prep_d_koshek/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 344,
+    "categoryName": "Засоби для догляду за котами",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/sred_d_ukh_za_kosh/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 345,
+    "categoryName": "Лежанки для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/lezhan_d_kotov/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 346,
+    "categoryName": "Нашийники для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/osheyn_d_koshek/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 347,
+    "categoryName": "Шлейки для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/shleyki_d_kotov/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 348,
+    "categoryName": "Іграшки для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/igrush_d_kotov/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 349,
+    "categoryName": "Дряпки",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/kogtetochki/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 350,
+    "categoryName": "Переноски для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/perenos_d_kotov/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 351,
+    "categoryName": "Шампуні для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/shampuni-dlya-kotov/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 352,
+    "categoryName": "Кігтерізи для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/kogterez_d_kotov/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 353,
+    "categoryName": "Гребінці для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/rasches_d_kotov/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 354,
+    "categoryName": "Пуходерки для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/pukhod_d_kotov/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 355,
+    "categoryName": "Фурмінатори для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/furmin_d_koshek/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 356,
+    "categoryName": "Наповнювачі для котячого туалету",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/napol_d_kosh_tual/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 357,
+    "categoryName": "Туалети для котів",
+    "categoryUrl": "https://www.moyo.ua/ua/zootov/tov_d_kotov/tual_d_kotov/",
+    "parentCategoryId": 336
+  },
+  {
+    "categoryId": 358,
+    "categoryName": "Уцінені товари",
+    "categoryUrl": "https://www.moyo.ua/promo/utsinka/",
+    "parentCategoryId": 0
+  }
+]

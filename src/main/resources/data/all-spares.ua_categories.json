@@ -1,0 +1,3416 @@
+[
+  {
+    "categoryId": 1,
+    "categoryName": "Запчасти",
+    "categoryUrl": "https://all-spares.ua/ru/menu/spares/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 2,
+    "categoryName": "Дисплеи",
+    "categoryUrl": "https://all-spares.ua/ru/spares/lcds/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 3,
+    "categoryName": "Аккумуляторы",
+    "categoryUrl": "https://all-spares.ua/ru/spares/batteries/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 4,
+    "categoryName": "Шлейфы",
+    "categoryUrl": "https://all-spares.ua/ru/spares/flat-cables/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 5,
+    "categoryName": "Корпусные части",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 6,
+    "categoryName": "Внешние корпусные части",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/outer-housing-parts/",
+    "parentCategoryId": 5
+  },
+  {
+    "categoryId": 7,
+    "categoryName": "Корпусы",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/outer-housing-parts/housings/",
+    "parentCategoryId": 6
+  },
+  {
+    "categoryId": 8,
+    "categoryName": "Задние панели корпуса",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/outer-housing-parts/housing-back-covers/",
+    "parentCategoryId": 6
+  },
+  {
+    "categoryId": 9,
+    "categoryName": "Задние крышки батареи",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/outer-housing-parts/battery-back-covers/",
+    "parentCategoryId": 6
+  },
+  {
+    "categoryId": 10,
+    "categoryName": "Стекла корпуса",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/outer-housing-parts/housing-glasses/",
+    "parentCategoryId": 6
+  },
+  {
+    "categoryId": 11,
+    "categoryName": "Стекла камер",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/outer-housing-parts/camera-lenses/",
+    "parentCategoryId": 6
+  },
+  {
+    "categoryId": 12,
+    "categoryName": "Верхние + нижние панели корпуса",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/outer-housing-parts/top-plus-bottom-housing-panels/",
+    "parentCategoryId": 6
+  },
+  {
+    "categoryId": 13,
+    "categoryName": "Клавиатуры",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/outer-housing-parts/keyboards/",
+    "parentCategoryId": 6
+  },
+  {
+    "categoryId": 14,
+    "categoryName": "Рамки сенсорного экрана",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/outer-housing-parts/touchscreen-frames/",
+    "parentCategoryId": 6
+  },
+  {
+    "categoryId": 15,
+    "categoryName": "Внутренние корпусные части",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/inner-housing-parts/",
+    "parentCategoryId": 5
+  },
+  {
+    "categoryId": 16,
+    "categoryName": "Рамки крепления дисплея",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/inner-housing-parts/lcd-binding-frames/",
+    "parentCategoryId": 15
+  },
+  {
+    "categoryId": 17,
+    "categoryName": "Средние части корпуса",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/inner-housing-parts/housing-middle-parts/",
+    "parentCategoryId": 15
+  },
+  {
+    "categoryId": 18,
+    "categoryName": "Металлические защитные фильтры",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/inner-housing-parts/metal-protective-filters/",
+    "parentCategoryId": 15
+  },
+  {
+    "categoryId": 19,
+    "categoryName": "Комплекты для ремонта дисплейного модуля",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/inner-housing-parts/kits-for-lcd-module-repair/",
+    "parentCategoryId": 15
+  },
+  {
+    "categoryId": 20,
+    "categoryName": "Защитные экраны дисплея",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/inner-housing-parts/display-screen-protectors/",
+    "parentCategoryId": 15
+  },
+  {
+    "categoryId": 21,
+    "categoryName": "Поворотные механизмы доводки",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/inner-housing-parts/hinge-modules/",
+    "parentCategoryId": 15
+  },
+  {
+    "categoryId": 22,
+    "categoryName": "Двухсторонние клеящие ленты",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/touchscreen-double-side-adhesive-tapes/",
+    "parentCategoryId": 5
+  },
+  {
+    "categoryId": 23,
+    "categoryName": "Стикеры батареи",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/touchscreen-double-side-adhesive-tapes/battery-stickers/",
+    "parentCategoryId": 22
+  },
+  {
+    "categoryId": 24,
+    "categoryName": "Стикеры датчика стилуса",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/touchscreen-double-side-adhesive-tapes/stylus-pen-sensor-stickers/",
+    "parentCategoryId": 22
+  },
+  {
+    "categoryId": 25,
+    "categoryName": "Стикеры дисплея",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/touchscreen-double-side-adhesive-tapes/lcd-stickers/",
+    "parentCategoryId": 22
+  },
+  {
+    "categoryId": 26,
+    "categoryName": "Стикеры задних панелей корпусов (двухсторонний скотч)",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/touchscreen-double-side-adhesive-tapes/housing-back-panel-stickers-double-sided-adhesive-tape/",
+    "parentCategoryId": 22
+  },
+  {
+    "categoryId": 27,
+    "categoryName": "Стикеры тачскрина и задней панели корпуса (двухсторонний скотч)",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/touchscreen-double-side-adhesive-tapes/touchscreen-and-back-panel-stickers-double-sided-adhesive-tape/",
+    "parentCategoryId": 22
+  },
+  {
+    "categoryId": 28,
+    "categoryName": "Защитные стикеры подсветки",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/touchscreen-double-side-adhesive-tapes/backlight-protective-stickers/",
+    "parentCategoryId": 22
+  },
+  {
+    "categoryId": 29,
+    "categoryName": "Стикеры подсветки дисплея",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/touchscreen-double-side-adhesive-tapes/lcd-backlight-sticker/",
+    "parentCategoryId": 22
+  },
+  {
+    "categoryId": 30,
+    "categoryName": "Стикеры тачскрина панели (двухсторонний скотч)",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/touchscreen-double-side-adhesive-tapes/touchscreen-panel-stickers-double-sided-adhesive-tape/",
+    "parentCategoryId": 22
+  },
+  {
+    "categoryId": 31,
+    "categoryName": "Винты",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/screws/",
+    "parentCategoryId": 5
+  },
+  {
+    "categoryId": 32,
+    "categoryName": "Кнопки, джойстики, заглушки",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/buttons-joysticks-plugs/",
+    "parentCategoryId": 5
+  },
+  {
+    "categoryId": 33,
+    "categoryName": "Пластики кнопки меню",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/buttons-joysticks-plugs/plastics-for-menu-button/",
+    "parentCategoryId": 32
+  },
+  {
+    "categoryId": 34,
+    "categoryName": "Пластики кнопки HOME",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/buttons-joysticks-plugs/plastics-for-home-button/",
+    "parentCategoryId": 32
+  },
+  {
+    "categoryId": 35,
+    "categoryName": "Боковые заглушки",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/buttons-joysticks-plugs/side-button-caps/",
+    "parentCategoryId": 32
+  },
+  {
+    "categoryId": 36,
+    "categoryName": "Пластики боковых кнопок корпуса",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/buttons-joysticks-plugs/housing-side-button-plastics/",
+    "parentCategoryId": 32
+  },
+  {
+    "categoryId": 37,
+    "categoryName": "Заглушки коннектора зарядки",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/buttons-joysticks-plugs/charging-connector-plugs/",
+    "parentCategoryId": 32
+  },
+  {
+    "categoryId": 38,
+    "categoryName": "Держатели SIM-карты",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/sim-card-holders/",
+    "parentCategoryId": 5
+  },
+  {
+    "categoryId": 39,
+    "categoryName": "Держатели карт памяти",
+    "categoryUrl": "https://all-spares.ua/ru/spares/housing-and-accessories-for-them/memory-card-slot-holders/",
+    "parentCategoryId": 5
+  },
+  {
+    "categoryId": 40,
+    "categoryName": "Коннекторы",
+    "categoryUrl": "https://all-spares.ua/ru/spares/connectors/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 41,
+    "categoryName": "Коннекторы micro-USB",
+    "categoryUrl": "https://all-spares.ua/ru/spares/connectors/micro-usb-connectors/",
+    "parentCategoryId": 40
+  },
+  {
+    "categoryId": 42,
+    "categoryName": "Коннекторы зарядки",
+    "categoryUrl": "https://all-spares.ua/ru/spares/connectors/charge-connectors/",
+    "parentCategoryId": 40
+  },
+  {
+    "categoryId": 43,
+    "categoryName": "Коннекторы SIM-карты",
+    "categoryUrl": "https://all-spares.ua/ru/spares/connectors/sim-card-connectors/",
+    "parentCategoryId": 40
+  },
+  {
+    "categoryId": 44,
+    "categoryName": "Коннекторы карты памяти",
+    "categoryUrl": "https://all-spares.ua/ru/spares/connectors/memory-cards-connectors/",
+    "parentCategoryId": 40
+  },
+  {
+    "categoryId": 45,
+    "categoryName": "Коннекторы Handsfree",
+    "categoryUrl": "https://all-spares.ua/ru/spares/connectors/handsfree-connectors/",
+    "parentCategoryId": 40
+  },
+  {
+    "categoryId": 46,
+    "categoryName": "Коннекторы HDMI",
+    "categoryUrl": "https://all-spares.ua/ru/spares/connectors/hdmi-connectors/",
+    "parentCategoryId": 40
+  },
+  {
+    "categoryId": 47,
+    "categoryName": "Коннекторы батареи",
+    "categoryUrl": "https://all-spares.ua/ru/spares/connectors/battery-connectors/",
+    "parentCategoryId": 40
+  },
+  {
+    "categoryId": 48,
+    "categoryName": "Коннекторы дисплеев",
+    "categoryUrl": "https://all-spares.ua/ru/spares/connectors/lcd-connectors/",
+    "parentCategoryId": 40
+  },
+  {
+    "categoryId": 49,
+    "categoryName": "Коннекторы сенсорного экрана",
+    "categoryUrl": "https://all-spares.ua/ru/spares/connectors/touchscreen-connectors/",
+    "parentCategoryId": 40
+  },
+  {
+    "categoryId": 50,
+    "categoryName": "Звуковые и виброзапчасти",
+    "categoryUrl": "https://all-spares.ua/ru/spares/sound-and-vibrating-spares/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 51,
+    "categoryName": "Динамики",
+    "categoryUrl": "https://all-spares.ua/ru/spares/sound-and-vibrating-spares/speakers/",
+    "parentCategoryId": 50
+  },
+  {
+    "categoryId": 52,
+    "categoryName": "Звонки",
+    "categoryUrl": "https://all-spares.ua/ru/spares/sound-and-vibrating-spares/buzzers/",
+    "parentCategoryId": 50
+  },
+  {
+    "categoryId": 53,
+    "categoryName": "Динамики + звонки",
+    "categoryUrl": "https://all-spares.ua/ru/spares/sound-and-vibrating-spares/speakers-plus-buzzers/",
+    "parentCategoryId": 50
+  },
+  {
+    "categoryId": 54,
+    "categoryName": "Микрофоны",
+    "categoryUrl": "https://all-spares.ua/ru/spares/sound-and-vibrating-spares/microphones/",
+    "parentCategoryId": 50
+  },
+  {
+    "categoryId": 55,
+    "categoryName": "Вибромоторы",
+    "categoryUrl": "https://all-spares.ua/ru/spares/sound-and-vibrating-spares/vibrating-motors/",
+    "parentCategoryId": 50
+  },
+  {
+    "categoryId": 56,
+    "categoryName": "Запчасти для зарядных станций и инверторов",
+    "categoryUrl": "https://all-spares.ua/ru/spares/spare-parts-for-charging-stations-and-inverters/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 57,
+    "categoryName": "Микросхемы драйверы",
+    "categoryUrl": "https://all-spares.ua/ru/spares/spare-parts-for-charging-stations-and-inverters/power-control-ics/",
+    "parentCategoryId": 56
+  },
+  {
+    "categoryId": 58,
+    "categoryName": "Транзисторы",
+    "categoryUrl": "https://all-spares.ua/ru/spares/spare-parts-for-charging-stations-and-inverters/transistors/",
+    "parentCategoryId": 56
+  },
+  {
+    "categoryId": 59,
+    "categoryName": "Универсальные аккумуляторы и комплектующие к ним",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 60,
+    "categoryName": "Аккумуляторы 18650",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/batteries-18650/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 61,
+    "categoryName": "Аппараты точечной сварки",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/spot-welding-machines/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 62,
+    "categoryName": "Контроллеры заряда Li-ion аккумуляторов",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/li-ion-battery-charge-controllers/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 63,
+    "categoryName": "BMS-контроллеры",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/bms-controllers/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 64,
+    "categoryName": "Проволока в силиконовой изоляции",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/wires-in-silicone-insulation/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 65,
+    "categoryName": "Электроды для точечной сварки",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/spot-welding-pins/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 66,
+    "categoryName": "Корпуса для аккумуляторов 18650",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/cases-for-18650-batteries/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 67,
+    "categoryName": "Крепления для аккумуляторов 18650",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/holders-for-18650-batteries/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 68,
+    "categoryName": "Бумажные изоляции для аккумуляторов 18650",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/paper-insulation-for-18650-batteries/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 69,
+    "categoryName": "Ленты никелевые для сварки аккумуляторов",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/nickel-tapes-for-batteries-welding/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 70,
+    "categoryName": "Никелевые пластины для сварки аккумуляторов",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/nickel-plates-for-batteries-welding/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 71,
+    "categoryName": "Термоуcадочные трубки",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/heat-shrink-tubes/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 72,
+    "categoryName": "Двухсторонние скотчи",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/double-sided-adhesive-tapes/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 73,
+    "categoryName": "Термоскотчи",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/thermal-tapes/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 74,
+    "categoryName": "Изоленты",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/insulating-tapes/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 75,
+    "categoryName": "Держатели аккумуляторов 18650 для точечной сварки",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/battery-holders-18650-for-spot-welding/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 76,
+    "categoryName": "Держатели аккумуляторов для точечной сварки",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/battery-holder-for-spot-welding/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 77,
+    "categoryName": "Держатели электродов для точечной сварки",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/split-spot-welding-pens/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 78,
+    "categoryName": "Расходные материалы для электромонтажа",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/electrical-installation-consumables/",
+    "parentCategoryId": 59
+  },
+  {
+    "categoryId": 79,
+    "categoryName": "Кабели-провода",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/electrical-installation-consumables/cables-wires/",
+    "parentCategoryId": 78
+  },
+  {
+    "categoryId": 80,
+    "categoryName": "Клеммы самозажимные",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/electrical-installation-consumables/wire-connection-clips/",
+    "parentCategoryId": 78
+  },
+  {
+    "categoryId": 81,
+    "categoryName": "Ленты-застёжки для кабелей",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/electrical-installation-consumables/mounting-tapes/",
+    "parentCategoryId": 78
+  },
+  {
+    "categoryId": 82,
+    "categoryName": "Наконечники",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/electrical-installation-consumables/wire-terminals/",
+    "parentCategoryId": 78
+  },
+  {
+    "categoryId": 83,
+    "categoryName": "Силовые разъемы и вилки",
+    "categoryUrl": "https://all-spares.ua/ru/spares/universal-batteries-and-accessories-for-them/electrical-installation-consumables/power-connectors-and-plugs/",
+    "parentCategoryId": 78
+  },
+  {
+    "categoryId": 84,
+    "categoryName": "Подсветки дисплея",
+    "categoryUrl": "https://all-spares.ua/ru/spares/lcd-backlight/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 85,
+    "categoryName": "Сенсорные экраны",
+    "categoryUrl": "https://all-spares.ua/ru/spares/touchscreens/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 86,
+    "categoryName": "Кнопки и джойстики",
+    "categoryUrl": "https://all-spares.ua/ru/spares/buttons-and-joysticks/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 87,
+    "categoryName": "Кнопки включения",
+    "categoryUrl": "https://all-spares.ua/ru/spares/buttons-and-joysticks/on-off-buttons/",
+    "parentCategoryId": 86
+  },
+  {
+    "categoryId": 88,
+    "categoryName": "Кнопки универсальные включения/звука",
+    "categoryUrl": "https://all-spares.ua/ru/spares/buttons-and-joysticks/on-off-and-sound-buttons/",
+    "parentCategoryId": 86
+  },
+  {
+    "categoryId": 89,
+    "categoryName": "Кнопки блокировки телефона",
+    "categoryUrl": "https://all-spares.ua/ru/spares/buttons-and-joysticks/phone-lock-buttons/",
+    "parentCategoryId": 86
+  },
+  {
+    "categoryId": 90,
+    "categoryName": "Кнопки звука",
+    "categoryUrl": "https://all-spares.ua/ru/spares/buttons-and-joysticks/sound-buttons/",
+    "parentCategoryId": 86
+  },
+  {
+    "categoryId": 91,
+    "categoryName": "Кнопки ФОТО",
+    "categoryUrl": "https://all-spares.ua/ru/spares/buttons-and-joysticks/photo-buttons/",
+    "parentCategoryId": 86
+  },
+  {
+    "categoryId": 92,
+    "categoryName": "Джойстики",
+    "categoryUrl": "https://all-spares.ua/ru/spares/buttons-and-joysticks/joysticks/",
+    "parentCategoryId": 86
+  },
+  {
+    "categoryId": 93,
+    "categoryName": "Камеры",
+    "categoryUrl": "https://all-spares.ua/ru/spares/cameras/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 94,
+    "categoryName": "Микросхемы и процессоры",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 95,
+    "categoryName": "Контроллеры заряда батареи",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/battery-charge-controllers/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 96,
+    "categoryName": "EMI-фильтры",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/emi-filters/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 97,
+    "categoryName": "GSM-модули",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/gsm-modules/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 98,
+    "categoryName": "Аудио фильтры",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/audio-filters/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 99,
+    "categoryName": "Микросхемы камеры",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/camera-ics/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 100,
+    "categoryName": "Микросхемы памяти",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/memory-ics/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 101,
+    "categoryName": "Микросхемы управления DUAL SIM",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/dual-sim-control-microchips/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 102,
+    "categoryName": "Микросхемы управления GPS",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/gps-control-ics/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 103,
+    "categoryName": "Микросхемы управления Wi-Fi",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/wi-fi-ics/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 104,
+    "categoryName": "Микросхемы управления вспышки",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/flash-control-ics/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 105,
+    "categoryName": "Микросхемы управления зарядкой",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/charge-control-ics/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 106,
+    "categoryName": "Микросхемы управления зарядкой и USB",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/charging-and-usb-control-chips/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 107,
+    "categoryName": "Микросхемы управления звуком",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/sound-control-ics/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 108,
+    "categoryName": "Микросхемы управления компаса",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/compass-control-ics/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 109,
+    "categoryName": "Микросхемы управления питанием",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/power-control-ic/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 110,
+    "categoryName": "Микросхемы управления питанием (драйвер дисплея)",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/power-control-ics-display-driver/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 111,
+    "categoryName": "Микросхемы управления подсветкой",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/light-ics/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 112,
+    "categoryName": "Микросхемы управления сенсора",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/resistive-sensor-control-ics/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 113,
+    "categoryName": "Микросхемы усилители полифонии",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/polyphony-amplifier-ics/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 114,
+    "categoryName": "Микросхемы-стабилизаторы карт памяти",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/mmc-regulator-microchips/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 115,
+    "categoryName": "Микросхемы-стабилизаторы питания",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/voltage-regulator-chips/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 116,
+    "categoryName": "Сопроцессоры движения",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/motion-coprocessors/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 117,
+    "categoryName": "Транзисторы подсветки",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/backlight-transistors/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 118,
+    "categoryName": "Усилители мощности",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/power-amplifier-ics/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 119,
+    "categoryName": "Центральные процессоры",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/cpus/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 120,
+    "categoryName": "Микросхемы управления гироскопа",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/gyroscope-control-ics/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 121,
+    "categoryName": "Микросхемы управления радио",
+    "categoryUrl": "https://all-spares.ua/ru/spares/ics-and-processor/radio-control-ics/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 122,
+    "categoryName": "Клавиатурные модули",
+    "categoryUrl": "https://all-spares.ua/ru/spares/keyboard-modules/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 123,
+    "categoryName": "Аксессуары",
+    "categoryUrl": "https://all-spares.ua/ru/menu/accessories/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 124,
+    "categoryName": "Power Bank",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/power-banks/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 125,
+    "categoryName": "Зарядные устройства",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/chargers/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 126,
+    "categoryName": "Кабели, адаптеры",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/cables-adapters/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 127,
+    "categoryName": "USB кабели",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/cables-adapters/usb-cables/",
+    "parentCategoryId": 126
+  },
+  {
+    "categoryId": 128,
+    "categoryName": "Кабели для зарядки",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/cables-adapters/charging-cables/",
+    "parentCategoryId": 126
+  },
+  {
+    "categoryId": 129,
+    "categoryName": "AUX-кабели",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/cables-adapters/aux-cables/",
+    "parentCategoryId": 126
+  },
+  {
+    "categoryId": 130,
+    "categoryName": "Адаптеры для зарядки PD trigger",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/cables-adapters/charging-adapters-for-pd-trigger/",
+    "parentCategoryId": 126
+  },
+  {
+    "categoryId": 131,
+    "categoryName": "Кабели питания",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/cables-adapters/power-supply-cables/",
+    "parentCategoryId": 126
+  },
+  {
+    "categoryId": 132,
+    "categoryName": "Bluetooth адаптеры",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/cables-adapters/bluetooth-adapters/",
+    "parentCategoryId": 126
+  },
+  {
+    "categoryId": 133,
+    "categoryName": "Адаптеры",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/cables-adapters/adapters/",
+    "parentCategoryId": 126
+  },
+  {
+    "categoryId": 134,
+    "categoryName": "Кабели HDMI",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/cables-adapters/hdmi-cables/",
+    "parentCategoryId": 126
+  },
+  {
+    "categoryId": 135,
+    "categoryName": "Кабели-OTG",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/cables-adapters/otg-cables/",
+    "parentCategoryId": 126
+  },
+  {
+    "categoryId": 136,
+    "categoryName": "OTG-кабеля тип C",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/cables-adapters/otg-cables/type-c-otg-cables/",
+    "parentCategoryId": 135
+  },
+  {
+    "categoryId": 137,
+    "categoryName": "Кабеля micro-USB OTG",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/cables-adapters/otg-cables/cables-micro-usb-otg/",
+    "parentCategoryId": 135
+  },
+  {
+    "categoryId": 138,
+    "categoryName": "Кабеля MHL micro USB в HDMI",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/cables-adapters/mhl-cables-micro-usb-in-hdmi/",
+    "parentCategoryId": 126
+  },
+  {
+    "categoryId": 139,
+    "categoryName": "Органайзеры для кабелей",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/cable-wrap-tapes/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 140,
+    "categoryName": "Чехлы",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/cases/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 141,
+    "categoryName": "Защитных стекл камеры",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/camera-glass-screen-protectors/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 142,
+    "categoryName": "Защитные стёкла",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/tempered-glass-screen-protectors/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 143,
+    "categoryName": "Защитные плёнки",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/protective-films/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 144,
+    "categoryName": "Товары для авто",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/products-for-cars/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 145,
+    "categoryName": "Компрессоры",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/products-for-cars/compressors/",
+    "parentCategoryId": 144
+  },
+  {
+    "categoryId": 146,
+    "categoryName": "Автомобильные пылесосы",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/products-for-cars/car-vacuum-cleaners/",
+    "parentCategoryId": 144
+  },
+  {
+    "categoryId": 147,
+    "categoryName": "Пусковые устройства",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/products-for-cars/car-jump-starters/",
+    "parentCategoryId": 144
+  },
+  {
+    "categoryId": 148,
+    "categoryName": "Наборы инструментов для снятия обшивки автомобиля",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/products-for-cars/car-trim-removal-tool-kits/",
+    "parentCategoryId": 144
+  },
+  {
+    "categoryId": 149,
+    "categoryName": "Автомобильные зеркала",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/products-for-cars/auxiliary-mirrors/",
+    "parentCategoryId": 144
+  },
+  {
+    "categoryId": 150,
+    "categoryName": "Контейнеры для мусора",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/products-for-cars/car-trash-cans/",
+    "parentCategoryId": 144
+  },
+  {
+    "categoryId": 151,
+    "categoryName": "Органайзеры",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/products-for-cars/organizers/",
+    "parentCategoryId": 144
+  },
+  {
+    "categoryId": 152,
+    "categoryName": "Парковочные карты",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/products-for-cars/temporary-parking-numbers/",
+    "parentCategoryId": 144
+  },
+  {
+    "categoryId": 153,
+    "categoryName": "Фильтры",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/products-for-cars/filters/",
+    "parentCategoryId": 144
+  },
+  {
+    "categoryId": 154,
+    "categoryName": "Вентиляторы",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/products-for-cars/fans/",
+    "parentCategoryId": 144
+  },
+  {
+    "categoryId": 155,
+    "categoryName": "Антискользящие коврики",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/products-for-cars/anti-slip-pads/",
+    "parentCategoryId": 144
+  },
+  {
+    "categoryId": 156,
+    "categoryName": "FM-трансмиттеры",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/products-for-cars/fm-transmitters/",
+    "parentCategoryId": 144
+  },
+  {
+    "categoryId": 157,
+    "categoryName": "Брелки с бесконтактным RFID чипом",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/keys/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 158,
+    "categoryName": "Плоттеры",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/film-cutting-plotters/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 159,
+    "categoryName": "Гидрогелевые плёнки",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/hydrogel-films/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 160,
+    "categoryName": "Гарнитура",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/headphones/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 161,
+    "categoryName": "Микрофоны петличные",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/lapel-microphones/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 162,
+    "categoryName": "Подставки для ноутбука",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/laptop-stands/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 163,
+    "categoryName": "Портативные беспроводные колонки",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/portable-wireless-speakers/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 164,
+    "categoryName": "Держатели-крючки",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/shell-vehicle-hooks/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 165,
+    "categoryName": "Держатели",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/holders/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 166,
+    "categoryName": "Автомобильные держатели",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/holders/car-holders/",
+    "parentCategoryId": 165
+  },
+  {
+    "categoryId": 167,
+    "categoryName": "Металлические пластины",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/holders/metal-plates/",
+    "parentCategoryId": 165
+  },
+  {
+    "categoryId": 168,
+    "categoryName": "Держатели",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/holders/holders/",
+    "parentCategoryId": 165
+  },
+  {
+    "categoryId": 169,
+    "categoryName": "USB-хабы",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/usb-hubs/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 170,
+    "categoryName": "Кольцевые лампы",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/ring-light-lamps/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 171,
+    "categoryName": "Наконечники для стилусов",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/stylus-tips/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 172,
+    "categoryName": "Стилусы",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/styluses/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 173,
+    "categoryName": "Контроллеры заряда Li-ion аккумуляторов",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/li-ion-battery-charge-controllers/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 174,
+    "categoryName": "Инструменты для извлечения SIM-карты",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/sim-card-extractors/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 175,
+    "categoryName": "Micro-SIM, Nano-SIM адаптеры",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/micro-sim-nano-sim-adapters/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 176,
+    "categoryName": "Коврики для мыши",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/mouse-mat/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 177,
+    "categoryName": "Саундбары",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/soundbar/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 178,
+    "categoryName": "Компьютерные мыши",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/computer-mouse/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 179,
+    "categoryName": "Наушники",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/earphones/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 180,
+    "categoryName": "Ленты (защита) для плоттера",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/tape-protection-for-plotter/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 181,
+    "categoryName": "Караоке микрофоны",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/karaoke-microphone/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 182,
+    "categoryName": "Готуємось до зими",
+    "categoryUrl": "https://all-spares.ua/ru/accessories/gotuyemos-do-zimi/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 183,
+    "categoryName": "Оборудование для ремонта",
+    "categoryUrl": "https://all-spares.ua/ru/menu/equipment/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 184,
+    "categoryName": "Энергонезависимость",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-independence/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 185,
+    "categoryName": "Power Bank",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-independence/power-banks/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 186,
+    "categoryName": "Зарядные станции",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-independence/charging-station/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 187,
+    "categoryName": "Генераторы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-independence/generators/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 188,
+    "categoryName": "Масла для генераторов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-independence/generators-oils/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 189,
+    "categoryName": "Сетевые зарядные устройства",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-independence/mains-chargers/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 190,
+    "categoryName": "Резервное питание роутеров, модемов, камер",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-independence/uninterruptible-power-supplies-for-routers-modems-cameras/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 191,
+    "categoryName": "Резервные источники питания",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-independence/uninterruptible-power-supplies-for-routers-modems-cameras/uninterruptible-power-supplies/",
+    "parentCategoryId": 190
+  },
+  {
+    "categoryId": 192,
+    "categoryName": "Кабели-переходники для питания от 5 В",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-independence/uninterruptible-power-supplies-for-routers-modems-cameras/adapters-cables/",
+    "parentCategoryId": 190
+  },
+  {
+    "categoryId": 193,
+    "categoryName": "Настольные лампы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-independence/desktop-lamps/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 194,
+    "categoryName": "Фонарики",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-independence/torches/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 195,
+    "categoryName": "Солнечные панели",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-independence/solar-panel/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 196,
+    "categoryName": "Инверторы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-independence/power-inverter/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 197,
+    "categoryName": "Аккумуляторы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-independence/batteries/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 198,
+    "categoryName": "Стабилизаторы напряжения",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-independence/voltage-stabilizers/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 199,
+    "categoryName": "Газосигнализаторы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-independence/gas-detectors/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 200,
+    "categoryName": "Всё для ремонта дисплейного модуля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 201,
+    "categoryName": "Калибраторы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/calibrators/",
+    "parentCategoryId": 200
+  },
+  {
+    "categoryId": 202,
+    "categoryName": "Зажимы для фиксации дисплейного модуля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-plastic-clamps/",
+    "parentCategoryId": 200
+  },
+  {
+    "categoryId": 203,
+    "categoryName": "Инструменты для поднятия дисплея/тачскрина",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/tools-for-touchscreen-lcd-lifting/",
+    "parentCategoryId": 200
+  },
+  {
+    "categoryId": 204,
+    "categoryName": "Коврики монтажные",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/insulation-mats/",
+    "parentCategoryId": 200
+  },
+  {
+    "categoryId": 205,
+    "categoryName": "Валики прижимные резиновые",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/rubber-rollers/",
+    "parentCategoryId": 200
+  },
+  {
+    "categoryId": 206,
+    "categoryName": "Присоски для поднятия дисплея, тачскрина",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/suction-cups/",
+    "parentCategoryId": 200
+  },
+  {
+    "categoryId": 207,
+    "categoryName": "Комплектующие для ремонта дисплейного модуля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-components/",
+    "parentCategoryId": 200
+  },
+  {
+    "categoryId": 208,
+    "categoryName": "OCA-пленки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-components/double-sided-adhesive-oca-films/",
+    "parentCategoryId": 207
+  },
+  {
+    "categoryId": 209,
+    "categoryName": "Задние поляризационные фильтры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-components/back-polarizing-filters/",
+    "parentCategoryId": 207
+  },
+  {
+    "categoryId": 210,
+    "categoryName": "Поляризационные пленки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-components/lcd-polarization-films/",
+    "parentCategoryId": 207
+  },
+  {
+    "categoryId": 211,
+    "categoryName": "Оборудование для ремонта дисплейного модуля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/",
+    "parentCategoryId": 200
+  },
+  {
+    "categoryId": 212,
+    "categoryName": "Устройства для снятия ОСА-клея",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/oca-glue-removing-machine/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 213,
+    "categoryName": "Полировочные машины",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/buffing-machine/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 214,
+    "categoryName": "Полуавтоматические устройства для подачи клея",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/semi-automatic-glue-dispensers/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 215,
+    "categoryName": "Антистатические камеры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/esd-cameras/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 216,
+    "categoryName": "Вакуумные насосы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/vacuum-pumps/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 217,
+    "categoryName": "Воздушные компрессоры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/air-compressors/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 218,
+    "categoryName": "Запасные монтажные коврики",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/extra-insulation-rubber-pads/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 219,
+    "categoryName": "Нагревательные коврики для разборки (cепаратор)",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/heating-stations-separator-mat/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 220,
+    "categoryName": "Ультрафиолетовые лампы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/uv-lamps/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 221,
+    "categoryName": "Устройства для снятия задней панели корпуса",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/devices-for-removing-housing-back-panel/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 222,
+    "categoryName": "Устройства для отклеивания дисплеев",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/lcd-ungluing-device/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 223,
+    "categoryName": "Устройства для приклеивания рамки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/frame-gluing-machines/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 224,
+    "categoryName": "Устройства для расклеивания и склеивания дисплейного модуля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/devices-for-gluing-and-ungluing-lcd-modules/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 225,
+    "categoryName": "Устройства для склеивания дисплейного модуля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/lcd-module-gluing-machines/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 226,
+    "categoryName": "Ультрафиолетовые лампы для сушки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/uv-drying-lamps/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 227,
+    "categoryName": "Лазерные сепараторы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/laser-separating-machines/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 228,
+    "categoryName": "Ручки для разбивания стекла задней крышки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/back-glass-breakers/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 229,
+    "categoryName": "Формы для защиты задней крышки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/back-cover-protection-molds/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 230,
+    "categoryName": "Дымопоглотители",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/smoke-absorbers/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 231,
+    "categoryName": "Устройства для расклеивания дисплейного модуля (сепаратор)",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/lcd-touch-screen-glass-separators/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 232,
+    "categoryName": "Базовые платформы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/basic-platforms/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 233,
+    "categoryName": "Пресс-формы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/molds/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 234,
+    "categoryName": "Химия и расходные материалы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/",
+    "parentCategoryId": 200
+  },
+  {
+    "categoryId": 235,
+    "categoryName": "Жидкости",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/glue-removers/",
+    "parentCategoryId": 234
+  },
+  {
+    "categoryId": 236,
+    "categoryName": "Фиксаторы резьбы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/glue-threads/",
+    "parentCategoryId": 234
+  },
+  {
+    "categoryId": 237,
+    "categoryName": "Жала-лопатки с лезвием",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/shovel-soldering-iron-tips-with-blade/",
+    "parentCategoryId": 234
+  },
+  {
+    "categoryId": 238,
+    "categoryName": "Лезвия для удаления клея",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/glue-removing-blades/",
+    "parentCategoryId": 234
+  },
+  {
+    "categoryId": 239,
+    "categoryName": "Сменные лезвия",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/spare-blades/",
+    "parentCategoryId": 234
+  },
+  {
+    "categoryId": 240,
+    "categoryName": "Клеи и пистолеты для клея",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/glues-and-glue-guns/",
+    "parentCategoryId": 234
+  },
+  {
+    "categoryId": 241,
+    "categoryName": "Салфетки из микрофибры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/microfiber-clothes/",
+    "parentCategoryId": 234
+  },
+  {
+    "categoryId": 242,
+    "categoryName": "Стикеры для OCA-пленки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/sticker-for-oca-film/",
+    "parentCategoryId": 234
+  },
+  {
+    "categoryId": 243,
+    "categoryName": "Очистители",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/removers/",
+    "parentCategoryId": 234
+  },
+  {
+    "categoryId": 244,
+    "categoryName": "Струны для отклеивания стекла",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/glass-separator-wires/",
+    "parentCategoryId": 234
+  },
+  {
+    "categoryId": 245,
+    "categoryName": "Отвертки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/screwdrivers/",
+    "parentCategoryId": 200
+  },
+  {
+    "categoryId": 246,
+    "categoryName": "Наборы отвёрток",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/screwdrivers/screwdriver-sets/",
+    "parentCategoryId": 245
+  },
+  {
+    "categoryId": 247,
+    "categoryName": "Отвертки \"звездочка+крестовая\"",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/screwdrivers/pentalobeplusphillips-screwdrivers/",
+    "parentCategoryId": 245
+  },
+  {
+    "categoryId": 248,
+    "categoryName": "Отвертки трехлепестковые (Tri-Wing)",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/screwdrivers/tri-wing-screwdrivers/",
+    "parentCategoryId": 245
+  },
+  {
+    "categoryId": 249,
+    "categoryName": "Крестообразные отвертки (Phillips)",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/screwdrivers/phillips-screwdrivers/",
+    "parentCategoryId": 245
+  },
+  {
+    "categoryId": 250,
+    "categoryName": "Отвертки \"звездочка\"",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/screwdrivers/pentalobe-screwdrivers/",
+    "parentCategoryId": 245
+  },
+  {
+    "categoryId": 251,
+    "categoryName": "Отвертки крестовые",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/screwdrivers/crosshead-screwdrivers/",
+    "parentCategoryId": 245
+  },
+  {
+    "categoryId": 252,
+    "categoryName": "Фиксаторы дисплейного модуля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/mobile-device-lcd-module-repair/lcd-module-moulds/",
+    "parentCategoryId": 200
+  },
+  {
+    "categoryId": 253,
+    "categoryName": "Паяльное оборудование",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 254,
+    "categoryName": "Термовоздушные паяльные станции",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/hot-air-soldering-stations/",
+    "parentCategoryId": 253
+  },
+  {
+    "categoryId": 255,
+    "categoryName": "Паяльные станции",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-stations/",
+    "parentCategoryId": 253
+  },
+  {
+    "categoryId": 256,
+    "categoryName": "Паяльные комплексы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/bga-rework-systems/",
+    "parentCategoryId": 253
+  },
+  {
+    "categoryId": 257,
+    "categoryName": "Пaяльники",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-irons/",
+    "parentCategoryId": 253
+  },
+  {
+    "categoryId": 258,
+    "categoryName": "Демонтажные станции",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/desoldering-stations/",
+    "parentCategoryId": 253
+  },
+  {
+    "categoryId": 259,
+    "categoryName": "Инфракрасные паяльные станции",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/infrared-soldering-stations/",
+    "parentCategoryId": 253
+  },
+  {
+    "categoryId": 260,
+    "categoryName": "Аксессуары для пайки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-accessories/",
+    "parentCategoryId": 253
+  },
+  {
+    "categoryId": 261,
+    "categoryName": "Комплекты паяльных жал",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-accessories/soldering-iron-tip-sets/",
+    "parentCategoryId": 260
+  },
+  {
+    "categoryId": 262,
+    "categoryName": "Насадки термофена",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-accessories/replacement-air-nozzles/",
+    "parentCategoryId": 260
+  },
+  {
+    "categoryId": 263,
+    "categoryName": "Оловоотсосы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-accessories/desoldering-pumps/",
+    "parentCategoryId": 260
+  },
+  {
+    "categoryId": 264,
+    "categoryName": "Паяльные жала",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-accessories/soldering-iron-tips/",
+    "parentCategoryId": 260
+  },
+  {
+    "categoryId": 265,
+    "categoryName": "Преднагреватели плат",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/preheaters/",
+    "parentCategoryId": 253
+  },
+  {
+    "categoryId": 266,
+    "categoryName": "SMART-преднагреватели",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/smart-pre-heaters/",
+    "parentCategoryId": 253
+  },
+  {
+    "categoryId": 267,
+    "categoryName": "Реболлинг",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/bga-reballing/",
+    "parentCategoryId": 253
+  },
+  {
+    "categoryId": 268,
+    "categoryName": "Платформы для предварительного подогрева",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/bga-reballing/preheating-platform/",
+    "parentCategoryId": 267
+  },
+  {
+    "categoryId": 269,
+    "categoryName": "Фиксаторы плат",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/bga-reballing/pcb-supporters/",
+    "parentCategoryId": 267
+  },
+  {
+    "categoryId": 270,
+    "categoryName": "3D BGA-трафареты",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/bga-reballing/3d-bga-stencils/",
+    "parentCategoryId": 267
+  },
+  {
+    "categoryId": 271,
+    "categoryName": "BGA-трафареты",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/bga-reballing/bga-stencils/",
+    "parentCategoryId": 267
+  },
+  {
+    "categoryId": 272,
+    "categoryName": "BGA-шарики",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/bga-reballing/bga-balls/",
+    "parentCategoryId": 267
+  },
+  {
+    "categoryId": 273,
+    "categoryName": "Наборы BGA-трафаретов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/bga-reballing/bga-stencils-kits/",
+    "parentCategoryId": 267
+  },
+  {
+    "categoryId": 274,
+    "categoryName": "Наборы для BGA-реболлинга",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/bga-reballing/bga-reballing-kits/",
+    "parentCategoryId": 267
+  },
+  {
+    "categoryId": 275,
+    "categoryName": "Столы для BGA-трафаретов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/bga-reballing/bga-reballing-stands/",
+    "parentCategoryId": 267
+  },
+  {
+    "categoryId": 276,
+    "categoryName": "Специализированное паяльное оборудование",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/specialized-soldering-equipment/",
+    "parentCategoryId": 253
+  },
+  {
+    "categoryId": 277,
+    "categoryName": "Инструменты для постобработки 3D-печати",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/specialized-soldering-equipment/3d-print-retouching-tools/",
+    "parentCategoryId": 276
+  },
+  {
+    "categoryId": 278,
+    "categoryName": "Горелки газовые",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/specialized-soldering-equipment/gas-torches/",
+    "parentCategoryId": 276
+  },
+  {
+    "categoryId": 279,
+    "categoryName": "Паяльные ванны",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/specialized-soldering-equipment/solder-pots/",
+    "parentCategoryId": 276
+  },
+  {
+    "categoryId": 280,
+    "categoryName": "Паяльные печи",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/specialized-soldering-equipment/solder-ovens/",
+    "parentCategoryId": 276
+  },
+  {
+    "categoryId": 281,
+    "categoryName": "Термопинцеты",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/specialized-soldering-equipment/hot-tweezers/",
+    "parentCategoryId": 276
+  },
+  {
+    "categoryId": 282,
+    "categoryName": "Вспомогательное оборудование для пайки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/",
+    "parentCategoryId": 253
+  },
+  {
+    "categoryId": 283,
+    "categoryName": "Макетные платы и компоненты",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/breadboards-and-accessories/",
+    "parentCategoryId": 282
+  },
+  {
+    "categoryId": 284,
+    "categoryName": "Теплоотводы для микросхем",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/heat-clips/",
+    "parentCategoryId": 282
+  },
+  {
+    "categoryId": 285,
+    "categoryName": "Штативы для фенов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/holders/",
+    "parentCategoryId": 282
+  },
+  {
+    "categoryId": 286,
+    "categoryName": "Держатели плат",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/pcb-holders/",
+    "parentCategoryId": 282
+  },
+  {
+    "categoryId": 287,
+    "categoryName": "Держатели аккумуляторов для точечной сварки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/battery-holder-for-spot-welding/",
+    "parentCategoryId": 282
+  },
+  {
+    "categoryId": 288,
+    "categoryName": "Дымопоглотители",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/smoke-absorbers/",
+    "parentCategoryId": 282
+  },
+  {
+    "categoryId": 289,
+    "categoryName": "Пинцеты вакуумные",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/vacuum-pick-up-tools/",
+    "parentCategoryId": 282
+  },
+  {
+    "categoryId": 290,
+    "categoryName": "Пинцеты электровакуумные",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/vacuum-pick-up-stations/",
+    "parentCategoryId": 282
+  },
+  {
+    "categoryId": 291,
+    "categoryName": "Подставки для катушки припоя",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/solder-coil-reel-holders/",
+    "parentCategoryId": 282
+  },
+  {
+    "categoryId": 292,
+    "categoryName": "Подставки под паяльник",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/soldering-stands/",
+    "parentCategoryId": 282
+  },
+  {
+    "categoryId": 293,
+    "categoryName": "Телескопические зеркала",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/telescopic-inspection-mirrors/",
+    "parentCategoryId": 282
+  },
+  {
+    "categoryId": 294,
+    "categoryName": "Телескопические магниты",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/telescopic-magnetic-pick-up-tools/",
+    "parentCategoryId": 282
+  },
+  {
+    "categoryId": 295,
+    "categoryName": "Газовые паяльники",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/gas-powered-soldering-irons/",
+    "parentCategoryId": 253
+  },
+  {
+    "categoryId": 296,
+    "categoryName": "Запчасти для паяльного оборудования",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/",
+    "parentCategoryId": 253
+  },
+  {
+    "categoryId": 297,
+    "categoryName": "Наборы фильтров демонтажного паяльника",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/desoldering-gun-filter-sets/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 298,
+    "categoryName": "Пружины-фильтры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/spring-filters/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 299,
+    "categoryName": "Запасные паяльники",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/spare-soldering-irons/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 300,
+    "categoryName": "Запасные термопинцеты",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/spare-hot-tweezers/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 301,
+    "categoryName": "Запасные фены",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/spare-hot-air-guns/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 302,
+    "categoryName": "Компрессоры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/compressors/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 303,
+    "categoryName": "Нагревательные элементы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/heating-elements/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 304,
+    "categoryName": "Накидные гайки паяльника",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/soldering-iron-cap-nuts/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 305,
+    "categoryName": "Наконечники",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/tips/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 306,
+    "categoryName": "Системы охлаждения",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/cooling-systems/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 307,
+    "categoryName": "Контрольно-измерительные приборы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 308,
+    "categoryName": "Анализаторы работы электроприводов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/motor-drive-analyzer/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 309,
+    "categoryName": "Мультиметры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/multimeters/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 310,
+    "categoryName": "Токоизмерительные клещи",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/clamp-meters/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 311,
+    "categoryName": "Цифровые осциллографы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/digital-oscilloscopes/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 312,
+    "categoryName": "Генераторы сигналов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/function-waveform-generators/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 313,
+    "categoryName": "Анализаторы спектра",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/spectrum-analyzers/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 314,
+    "categoryName": "Мегаомметры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/insulation-testers/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 315,
+    "categoryName": "Пирометры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/infrared-thermometers/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 316,
+    "categoryName": "Измерители RLC",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/rlc-meters/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 317,
+    "categoryName": "Анализаторы батарей",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/battery-analyzers/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 318,
+    "categoryName": "Бесконтактные индикаторы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/non-contact-detectors/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 319,
+    "categoryName": "Тепловизоры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/thermal-imaging-cameras/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 320,
+    "categoryName": "Тестеры-пробники",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/pen-type-testers/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 321,
+    "categoryName": "Мультиметры-пробники",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/pen-type-testers/pen-type-multimeters/",
+    "parentCategoryId": 320
+  },
+  {
+    "categoryId": 322,
+    "categoryName": "Тестеры напряжения",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/pen-type-testers/pen-type-voltage-testers/",
+    "parentCategoryId": 320
+  },
+  {
+    "categoryId": 323,
+    "categoryName": "Измерители сопротивления заземления и аксессуары",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/earth-resistance-meters-and-accessories/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 324,
+    "categoryName": "Измерители сопротивления заземления",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/earth-resistance-meters-and-accessories/grounding-resistance-meters/",
+    "parentCategoryId": 323
+  },
+  {
+    "categoryId": 325,
+    "categoryName": "Другие измерители",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 326,
+    "categoryName": "Измерители уровня LPG",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/lpg-level-meter/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 327,
+    "categoryName": "Калибраторы манометров",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/pressure-gauge-calibrator/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 328,
+    "categoryName": "Регистраторы качества напряжения",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/voltage-quality-recorder/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 329,
+    "categoryName": "Электрические калибраторы давления",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/pressure-calibrator/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 330,
+    "categoryName": "Обслуживание автомобильных зарядных станций",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/car-charging-stations-maintenance/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 331,
+    "categoryName": "Устройства акустической визуализации",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/acoustic-imaging-cameras/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 332,
+    "categoryName": "Тестеры электроустановок",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/power-line-testers/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 333,
+    "categoryName": "Анализаторы качества электроэнергии",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/power-quality-analyzers/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 334,
+    "categoryName": "Микроомметры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/micro-ohm-meters/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 335,
+    "categoryName": "Калибраторы напряжения и тока",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/voltage-current-calibrators/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 336,
+    "categoryName": "Калибраторы давления",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/pressure-calibrators/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 337,
+    "categoryName": "Модули давления",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/pressure-modules/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 338,
+    "categoryName": "Нагрузки электронные программируемые",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/programmable-dc-electronic-loads/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 339,
+    "categoryName": "Дифманометры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/differential-pressure-gauges/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 340,
+    "categoryName": "Электронные барометры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-barometers/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 341,
+    "categoryName": "Толщиномеры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/coating-thickness-gauge/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 342,
+    "categoryName": "Влагомеры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/moisture-meters/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 343,
+    "categoryName": "Цифровые USB регистраторы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-usb-dataloggers/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 344,
+    "categoryName": "Цифровые виброметры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-vibration-testers/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 345,
+    "categoryName": "Анализаторы кабеля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/cable-analyzers/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 346,
+    "categoryName": "Дозиметры (радиометры)",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/dosimeters-radiometers/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 347,
+    "categoryName": "Измерители цепи фаза-ноль и напряжения прикосновения",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/phase-zero-circuit-and-touch-voltage-meters/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 348,
+    "categoryName": "Логические анализаторы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/logic-analyzers/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 349,
+    "categoryName": "Фазовые детекторы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/phase-detectors/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 350,
+    "categoryName": "Цифровые анемометры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-anemometers/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 351,
+    "categoryName": "Цифровые дальномеры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-distance-measurers/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 352,
+    "categoryName": "Цифровые измерители солнечного излучения",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-solar-radiation-meter/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 353,
+    "categoryName": "Цифровые люксметры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-light-meters/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 354,
+    "categoryName": "Цифровые тахометры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-tachometers/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 355,
+    "categoryName": "Цифровые термогигрометры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-temperature-and-humidity-meters/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 356,
+    "categoryName": "Цифровые термометры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-thermometers/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 357,
+    "categoryName": "Цифровые шумомеры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-sound-level-meters/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 358,
+    "categoryName": "Частотомеры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/frequency-counters/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 359,
+    "categoryName": "Тестеры розеток",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/socket-testers/",
+    "parentCategoryId": 325
+  },
+  {
+    "categoryId": 360,
+    "categoryName": "Аксессуары и ПО для измерительных приборов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 361,
+    "categoryName": "Входные адаптеры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/input-adapters/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 362,
+    "categoryName": "Адаптеры питания",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/battery-chargers/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 363,
+    "categoryName": "Тестеры-пробники напряжения",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/voltprobe/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 364,
+    "categoryName": "Внешние адаптеры для анализаторов качества энергоснабжения",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/external-adapter-for-power-quality-analyzers/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 365,
+    "categoryName": "Внешние датчики вибрации",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/external-vibration-sensors/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 366,
+    "categoryName": "Комплекты измерительных проводов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/test-lead-sets/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 367,
+    "categoryName": "Адаптеры Wi-Fi",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/wi-fi-adapters/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 368,
+    "categoryName": "Активные щупы для осциллографов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/oscilloscope-active-probes/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 369,
+    "categoryName": "Генераторы AWG",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/awg-generators/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 370,
+    "categoryName": "Компенсационные модули",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/deskew-fixtures/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 371,
+    "categoryName": "Рэковые крепления для измерительных приборов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/instrument-rackmount-kits/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 372,
+    "categoryName": "Модули логического анализатора",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/logic-analyzer-probes/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 373,
+    "categoryName": "Коаксиальные кабели (BNC)",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/coaxial-cables-bnc/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 374,
+    "categoryName": "Токовые пробники для осциллографа",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/oscilloscope-probes/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 375,
+    "categoryName": "Аттенюаторы для осциллографов и генераторов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/attenuators-for-oscilloscopes-and-generators/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 376,
+    "categoryName": "Аттенюаторы анализаторов спектра",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/spectrum-analyzer-attenuators/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 377,
+    "categoryName": "Демонстрационные РЧ-модули",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/demo-rf-modules/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 378,
+    "categoryName": "Лицензионные ключи и ПО",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 379,
+    "categoryName": "Мосты для измерения КСВН",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/vswr-bridges/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 380,
+    "categoryName": "Наборы RF адаптеров анализатора спектра",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/rf-adaptor-kits/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 381,
+    "categoryName": "Наборы аксессуаров анализаторов спектра",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/spectrum-analyzer-accessory-kits/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 382,
+    "categoryName": "Наборы антенн ближнего поля анализаторов спектра",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/spectrum-analyzer-near-field-probe-sets/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 383,
+    "categoryName": "Токоизмерительные клещи-приставка",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/ac-dc-current-clamp-add-on/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 384,
+    "categoryName": "Усилители мощности выходного сигнала генератора",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/waveform-generator-signal-power-amplifiers/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 385,
+    "categoryName": "Датчики температуры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/temperature-probes/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 386,
+    "categoryName": "Измерительные щупы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/test-leads/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 387,
+    "categoryName": "Сумки для приборов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/equipment-bags/",
+    "parentCategoryId": 360
+  },
+  {
+    "categoryId": 388,
+    "categoryName": "Инструменты",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 389,
+    "categoryName": "Лопатки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/spudgers/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 390,
+    "categoryName": "Магнитные держатели",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/magnetic-holders/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 391,
+    "categoryName": "Отвертки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/screwdrivers/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 392,
+    "categoryName": "Отвертки шлицевые",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/screwdrivers/slotted-screwdrivers/",
+    "parentCategoryId": 391
+  },
+  {
+    "categoryId": 393,
+    "categoryName": "Отвертки крестовые",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/screwdrivers/crosshead-screwdrivers/",
+    "parentCategoryId": 391
+  },
+  {
+    "categoryId": 394,
+    "categoryName": "Отвертки звездообразные Torx",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/screwdrivers/torx-screwdrivers/",
+    "parentCategoryId": 391
+  },
+  {
+    "categoryId": 395,
+    "categoryName": "Отвертки трехлепестковые Tri-Point",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/screwdrivers/tri-point-screwdrivers/",
+    "parentCategoryId": 391
+  },
+  {
+    "categoryId": 396,
+    "categoryName": "Отвертки Pentalobe",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/screwdrivers/pentalobe-screwdrivers/",
+    "parentCategoryId": 391
+  },
+  {
+    "categoryId": 397,
+    "categoryName": "Отвертки шестигранные",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/screwdrivers/hex-screwdrivers/",
+    "parentCategoryId": 391
+  },
+  {
+    "categoryId": 398,
+    "categoryName": "Отвертки звездообразные пятиконечные",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/screwdrivers/5-point-torx-screwdrivers/",
+    "parentCategoryId": 391
+  },
+  {
+    "categoryId": 399,
+    "categoryName": "Отвертки трехлепестковые Tri-Wing",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/screwdrivers/tri-wing-screwdrivers/",
+    "parentCategoryId": 391
+  },
+  {
+    "categoryId": 400,
+    "categoryName": "Отвертки с битами",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/screwdrivers/screwdrivers-with-bits/",
+    "parentCategoryId": 391
+  },
+  {
+    "categoryId": 401,
+    "categoryName": "Отвертки торцевые",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/screwdrivers/hex-nut-screwdrivers/",
+    "parentCategoryId": 391
+  },
+  {
+    "categoryId": 402,
+    "categoryName": "Отвертки-индикаторы напряжения",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/screwdrivers/voltage-test-screwdrivers/",
+    "parentCategoryId": 391
+  },
+  {
+    "categoryId": 403,
+    "categoryName": "Намагничивающие устройства",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/screwdrivers/magnetizers/",
+    "parentCategoryId": 391
+  },
+  {
+    "categoryId": 404,
+    "categoryName": "Кусачки, бокорезы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/cutting-pliers-side-cutting-pliers/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 405,
+    "categoryName": "Кусачки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/cutting-pliers-side-cutting-pliers/cutting-pliers/",
+    "parentCategoryId": 404
+  },
+  {
+    "categoryId": 406,
+    "categoryName": "Длинногубцы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/long-nose-pliers/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 407,
+    "categoryName": "Пинцеты монтажные",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/mounting-tweezers/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 408,
+    "categoryName": "Матрицы сменные",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/crimp-die-sets/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 409,
+    "categoryName": "Матрицы обжима изолированных гаечных клемм",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/crimp-die-sets/insulated-terminal-die-sets/",
+    "parentCategoryId": 408
+  },
+  {
+    "categoryId": 410,
+    "categoryName": "Матрицы обжима Solar-конекторов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/crimp-die-sets/solar-connectors-matrix-crimper/",
+    "parentCategoryId": 408
+  },
+  {
+    "categoryId": 411,
+    "categoryName": "Матрицы обжима неизолированных блокировочных коннекторов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/crimp-die-sets/inter-locking-and-non-insulated-terminal-crimp-die-sets/",
+    "parentCategoryId": 408
+  },
+  {
+    "categoryId": 412,
+    "categoryName": "Матрицы обжима неизолированных гаечных клем и втулочных наконечников",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/crimp-die-sets/non-insulated-and-pin-terminals-die-sets/",
+    "parentCategoryId": 408
+  },
+  {
+    "categoryId": 413,
+    "categoryName": "Матрицы обжима штекерных коннекторов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/crimp-die-sets/pin-terminal-crimp-die-sets/",
+    "parentCategoryId": 408
+  },
+  {
+    "categoryId": 414,
+    "categoryName": "Стрипперы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/wire-strippers/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 415,
+    "categoryName": "Стрипперы для круглого кабеля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/wire-strippers/round-cable-strippers/",
+    "parentCategoryId": 414
+  },
+  {
+    "categoryId": 416,
+    "categoryName": "Стрипперы для монтажных проводов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/wire-strippers/mounting-cables-strippers/",
+    "parentCategoryId": 414
+  },
+  {
+    "categoryId": 417,
+    "categoryName": "Стрипперы для монтажных проводов торцевые",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/wire-strippers/mounting-cable-face-strippers/",
+    "parentCategoryId": 414
+  },
+  {
+    "categoryId": 418,
+    "categoryName": "Стрипперы для плоского кабеля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/wire-strippers/flat-cable-strippers/",
+    "parentCategoryId": 414
+  },
+  {
+    "categoryId": 419,
+    "categoryName": "Стрипперы с возвратным механизмом",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/wire-strippers/wire-strippers-with-return-springs/",
+    "parentCategoryId": 414
+  },
+  {
+    "categoryId": 420,
+    "categoryName": "Стрипперы с возвратным механизмом торцевые",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/wire-strippers/face-wire-strippers-with-return-spring/",
+    "parentCategoryId": 414
+  },
+  {
+    "categoryId": 421,
+    "categoryName": "Стрипперы-кримперы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/wire-strippers/wire-strippers-and-crimpers/",
+    "parentCategoryId": 414
+  },
+  {
+    "categoryId": 422,
+    "categoryName": "Кримперы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/crimp-tools/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 423,
+    "categoryName": "Кримперы без матриц",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/crimp-tools/crimp-tool-frames/",
+    "parentCategoryId": 422
+  },
+  {
+    "categoryId": 424,
+    "categoryName": "Кримперы для D-SUB разъемов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/crimp-tools/d-sub-contact-crimp-tools/",
+    "parentCategoryId": 422
+  },
+  {
+    "categoryId": 425,
+    "categoryName": "Кримперы для изолированных гаечных клемм",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/crimp-tools/insulated-terminal-crimp-tools/",
+    "parentCategoryId": 422
+  },
+  {
+    "categoryId": 426,
+    "categoryName": "Кримперы для неизолированных блокировочных коннекторов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/crimp-tools/inter-locking-and-non-insulated-terminal-crimp-tools/",
+    "parentCategoryId": 422
+  },
+  {
+    "categoryId": 427,
+    "categoryName": "Кримперы для неизолированных гаечных клем и втулочных наконечников",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/crimp-tools/heavy-duty-crimping-tools/",
+    "parentCategoryId": 422
+  },
+  {
+    "categoryId": 428,
+    "categoryName": "Кримперы для Solar-коннекторов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/crimp-tools/mc4-crimping-tools/",
+    "parentCategoryId": 422
+  },
+  {
+    "categoryId": 429,
+    "categoryName": "Кримперы для плоских изолированных разъемов (РПИ)",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/crimp-tools/insulated-open-barrel-terminals-crimping-tools/",
+    "parentCategoryId": 422
+  },
+  {
+    "categoryId": 430,
+    "categoryName": "Кримперы для штекерных коннекторов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/crimp-tools/pin-terminal-crimp-tools/",
+    "parentCategoryId": 422
+  },
+  {
+    "categoryId": 431,
+    "categoryName": "Сменные лезвия кримпера",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/crimp-tools/spare-crimper-blades/",
+    "parentCategoryId": 422
+  },
+  {
+    "categoryId": 432,
+    "categoryName": "Клещи",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/pliers/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 433,
+    "categoryName": "Клещи с фиксатором",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/pliers/locking-pliers/",
+    "parentCategoryId": 432
+  },
+  {
+    "categoryId": 434,
+    "categoryName": "Клещи переставные",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/pliers/adjustable-pliers/",
+    "parentCategoryId": 432
+  },
+  {
+    "categoryId": 435,
+    "categoryName": "Ножницы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/shears/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 436,
+    "categoryName": "Скальпели и лезвия",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/scalpels-and-blades/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 437,
+    "categoryName": "Лезвия скальпеля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/scalpels-and-blades/scalpel-blades/",
+    "parentCategoryId": 436
+  },
+  {
+    "categoryId": 438,
+    "categoryName": "Скальпели",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/scalpels-and-blades/scalpels/",
+    "parentCategoryId": 436
+  },
+  {
+    "categoryId": 439,
+    "categoryName": "Мультитулы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/multitools/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 440,
+    "categoryName": "Разводные ключи",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/adjustable-wrenches/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 441,
+    "categoryName": "Cкребки для снятия клея",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/glue-scrapers/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 442,
+    "categoryName": "Инструменты для извлечения микросхем",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/ic-extractors/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 443,
+    "categoryName": "Пассатижи",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/combination-pliers/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 444,
+    "categoryName": "Плоскогубцы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/flat-nose-pliers/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 445,
+    "categoryName": "Шестигранные ключи",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/hex-keys/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 446,
+    "categoryName": "Ножи и лезвия",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/knives-and-blades/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 447,
+    "categoryName": "Ножи",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/knives-and-blades/knives/",
+    "parentCategoryId": 446
+  },
+  {
+    "categoryId": 448,
+    "categoryName": "Тиски слесарные",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/vices/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 449,
+    "categoryName": "Высечные ножницы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/nibbling-shears/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 450,
+    "categoryName": "Монтажные столики",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/assembly-tables/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 451,
+    "categoryName": "Защитные очки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/protective-glasses/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 452,
+    "categoryName": "Пилы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/saws/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 453,
+    "categoryName": "Сменные полотна",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/saws/spare-blades/",
+    "parentCategoryId": 452
+  },
+  {
+    "categoryId": 454,
+    "categoryName": "Пилы и ножовки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/saws/saws-and-hacksaws/",
+    "parentCategoryId": 452
+  },
+  {
+    "categoryId": 455,
+    "categoryName": "Трубные ключи",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/pipe-wrenches/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 456,
+    "categoryName": "Резаки для кабеля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/cable-cutters/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 457,
+    "categoryName": "Резаки для пластиковых труб",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/plastic-pipe-cutters/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 458,
+    "categoryName": "Груши для обдува",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/blower-brushes/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 459,
+    "categoryName": "Измерительные инструменты",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/measurement-tools/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 460,
+    "categoryName": "Автоматические оптические нивелиры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/measurement-tools/automatic-optical-levels/",
+    "parentCategoryId": 459
+  },
+  {
+    "categoryId": 461,
+    "categoryName": "Держатели приборов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/measurement-tools/instrument-holders/",
+    "parentCategoryId": 459
+  },
+  {
+    "categoryId": 462,
+    "categoryName": "Курвиметры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/measurement-tools/opisometers/",
+    "parentCategoryId": 459
+  },
+  {
+    "categoryId": 463,
+    "categoryName": "Лазерные нивелиры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/measurement-tools/laser-auto-levels/",
+    "parentCategoryId": 459
+  },
+  {
+    "categoryId": 464,
+    "categoryName": "Лазерные уровни",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/measurement-tools/laser-levels/",
+    "parentCategoryId": 459
+  },
+  {
+    "categoryId": 465,
+    "categoryName": "Нивелирные рейки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/measurement-tools/leveling-rods/",
+    "parentCategoryId": 459
+  },
+  {
+    "categoryId": 466,
+    "categoryName": "Приёмники лазерных лучей",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/measurement-tools/laser-receivers/",
+    "parentCategoryId": 459
+  },
+  {
+    "categoryId": 467,
+    "categoryName": "Цифровые электронные уровни",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/measurement-tools/digital-electronic-levels/",
+    "parentCategoryId": 459
+  },
+  {
+    "categoryId": 468,
+    "categoryName": "Штативы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/measurement-tools/tripods/",
+    "parentCategoryId": 459
+  },
+  {
+    "categoryId": 469,
+    "categoryName": "Рулетки измерительные",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/measurement-tools/measuring-tapes/",
+    "parentCategoryId": 459
+  },
+  {
+    "categoryId": 470,
+    "categoryName": "Штангенциркули",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/measurement-tools/calipers/",
+    "parentCategoryId": 459
+  },
+  {
+    "categoryId": 471,
+    "categoryName": "Ключи гаечные регулируемые",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/adjustable-ratcheting-wrenches/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 472,
+    "categoryName": "Ключи гнездовые",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/socket-wrenches/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 473,
+    "categoryName": "Молотки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/hammers/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 474,
+    "categoryName": "Пробойники",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/hole-punchers/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 475,
+    "categoryName": "Съёмники для стопорных колец",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/hand-tools/retaining-rings-removers/",
+    "parentCategoryId": 388
+  },
+  {
+    "categoryId": 476,
+    "categoryName": "Наборы инструментов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 477,
+    "categoryName": "Наборы инструментов для разборки мобильных устройств",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/toolkits-for-repairing-mobile-devices/",
+    "parentCategoryId": 476
+  },
+  {
+    "categoryId": 478,
+    "categoryName": "Наборы инструментов в кейсе",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/tool-kits-in-cases/",
+    "parentCategoryId": 476
+  },
+  {
+    "categoryId": 479,
+    "categoryName": "Наборы инструментов в сумке",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/tool-kits-in-bags/",
+    "parentCategoryId": 476
+  },
+  {
+    "categoryId": 480,
+    "categoryName": "Наборы диэлектрического инструмента",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/insulated-tool-kits/",
+    "parentCategoryId": 476
+  },
+  {
+    "categoryId": 481,
+    "categoryName": "Наборы отверток",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/screwdriver-sets/",
+    "parentCategoryId": 476
+  },
+  {
+    "categoryId": 482,
+    "categoryName": "Наборы отверток",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/screwdriver-sets/screwdriver-sets/",
+    "parentCategoryId": 481
+  },
+  {
+    "categoryId": 483,
+    "categoryName": "Наборы подстроечных отверток",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/screwdriver-sets/alignment-screwdrivers-sets/",
+    "parentCategoryId": 481
+  },
+  {
+    "categoryId": 484,
+    "categoryName": "Наборы для разбора мобильных телефонов и планшетов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/screwdriver-sets/screwdriver-sets-for-cell-phones-and-tablets/",
+    "parentCategoryId": 481
+  },
+  {
+    "categoryId": 485,
+    "categoryName": "Битодержатели с битами",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/bit-holders-with-bits/",
+    "parentCategoryId": 476
+  },
+  {
+    "categoryId": 486,
+    "categoryName": "Наборы торцевых головок и бит",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/socket-and-bit-sets-with-ratchet/",
+    "parentCategoryId": 476
+  },
+  {
+    "categoryId": 487,
+    "categoryName": "Наборы гаечных ключей",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/wrench-sets/",
+    "parentCategoryId": 476
+  },
+  {
+    "categoryId": 488,
+    "categoryName": "Инструменты для пайки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/soldering-tools/",
+    "parentCategoryId": 476
+  },
+  {
+    "categoryId": 489,
+    "categoryName": "Наборы пинцетов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/tweezers-sets/",
+    "parentCategoryId": 476
+  },
+  {
+    "categoryId": 490,
+    "categoryName": "Наборы скальпелей",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/knife-sets/",
+    "parentCategoryId": 476
+  },
+  {
+    "categoryId": 491,
+    "categoryName": "Наборы шестигранных ключей",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/hex-key-sets/",
+    "parentCategoryId": 476
+  },
+  {
+    "categoryId": 492,
+    "categoryName": "Наборы надфилей",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/needle-files-sets/",
+    "parentCategoryId": 476
+  },
+  {
+    "categoryId": 493,
+    "categoryName": "Наборы инструментов для снятия стопорных колец",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/retaining-ring-pliers-sets/",
+    "parentCategoryId": 476
+  },
+  {
+    "categoryId": 494,
+    "categoryName": "Наборы инструментов для снятия обшивки автомобиля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/tool-kits/car-trim-removal-tool-kits/",
+    "parentCategoryId": 476
+  },
+  {
+    "categoryId": 495,
+    "categoryName": "Электроинструменты",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 496,
+    "categoryName": "Отбойные молотки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/demolition-hammers/",
+    "parentCategoryId": 495
+  },
+  {
+    "categoryId": 497,
+    "categoryName": "Фрезерно-гравировальные станки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/cnc-router-machines/",
+    "parentCategoryId": 495
+  },
+  {
+    "categoryId": 498,
+    "categoryName": "Лазерно-гравировальные станки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/laser-cnc-router-machines/",
+    "parentCategoryId": 495
+  },
+  {
+    "categoryId": 499,
+    "categoryName": "Мини-шлифмашины, мини-граверы, мини-дрели",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/mini-grinders-mini-engravers-mini-rotary-tools/",
+    "parentCategoryId": 495
+  },
+  {
+    "categoryId": 500,
+    "categoryName": "Универсальные инструменты",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/mini-grinders-mini-engravers-mini-rotary-tools/multifunctional-tools/",
+    "parentCategoryId": 499
+  },
+  {
+    "categoryId": 501,
+    "categoryName": "Аксессуары",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/mini-grinders-mini-engravers-mini-rotary-tools/accessories/",
+    "parentCategoryId": 499
+  },
+  {
+    "categoryId": 502,
+    "categoryName": "Наборы аксессуаров",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/mini-grinders-mini-engravers-mini-rotary-tools/acessories-sets/",
+    "parentCategoryId": 499
+  },
+  {
+    "categoryId": 503,
+    "categoryName": "Электрические отвертки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/electrical-screwdrivers/",
+    "parentCategoryId": 495
+  },
+  {
+    "categoryId": 504,
+    "categoryName": "Беспроводные электрические отвертки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/electrical-screwdrivers/cordless-power-screwdrivers/",
+    "parentCategoryId": 503
+  },
+  {
+    "categoryId": 505,
+    "categoryName": "Аккумуляторные дрели-шуруповерты",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/cordless-drill-screwdrivers/",
+    "parentCategoryId": 495
+  },
+  {
+    "categoryId": 506,
+    "categoryName": "Аксессуары для электроинструментов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/power-tool-accessories/",
+    "parentCategoryId": 495
+  },
+  {
+    "categoryId": 507,
+    "categoryName": "Круги зачистные конические",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/power-tool-accessories/conic-grinding-wheels/",
+    "parentCategoryId": 506
+  },
+  {
+    "categoryId": 508,
+    "categoryName": "Круги зачистные по металлу",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/power-tool-accessories/grinding-wheels-for-metal/",
+    "parentCategoryId": 506
+  },
+  {
+    "categoryId": 509,
+    "categoryName": "Круги отрезные по металлу",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/power-tool-accessories/metalworking-cutoff-wheels/",
+    "parentCategoryId": 506
+  },
+  {
+    "categoryId": 510,
+    "categoryName": "Кулачковые патроны",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/power-tool-accessories/multi-tool-chuck/",
+    "parentCategoryId": 506
+  },
+  {
+    "categoryId": 511,
+    "categoryName": "Наборы метчиков и сверл",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/power-tool-accessories/drill-and-tap-sets/",
+    "parentCategoryId": 506
+  },
+  {
+    "categoryId": 512,
+    "categoryName": "Наборы сверл",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/power-tool-accessories/drill-sets/",
+    "parentCategoryId": 506
+  },
+  {
+    "categoryId": 513,
+    "categoryName": "Наборы сверл и бит",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/power-tool-accessories/drill-and-bit-sets/",
+    "parentCategoryId": 506
+  },
+  {
+    "categoryId": 514,
+    "categoryName": "Наборы сверл перьевых",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/power-tool-accessories/spade-drill-sets/",
+    "parentCategoryId": 506
+  },
+  {
+    "categoryId": 515,
+    "categoryName": "Наборы сверл по металлу",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/power-tool-accessories/metal-cutting-drill-sets/",
+    "parentCategoryId": 506
+  },
+  {
+    "categoryId": 516,
+    "categoryName": "Наборы сверл твердосплавных",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/power-tool-accessories/carborundum-drill-sets/",
+    "parentCategoryId": 506
+  },
+  {
+    "categoryId": 517,
+    "categoryName": "Сверла по металлу",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/power-tool-accessories/metal-cutting-drills/",
+    "parentCategoryId": 506
+  },
+  {
+    "categoryId": 518,
+    "categoryName": "Стойки для крепления инструмента",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/power-tool-accessories/workstation/",
+    "parentCategoryId": 506
+  },
+  {
+    "categoryId": 519,
+    "categoryName": "Биты для отвертки",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/power-tool-accessories/screwdriver-bits/",
+    "parentCategoryId": 506
+  },
+  {
+    "categoryId": 520,
+    "categoryName": "Дрели ударные",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/impact-drills/",
+    "parentCategoryId": 495
+  },
+  {
+    "categoryId": 521,
+    "categoryName": "Угловые шлифмашины",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/angle-grinders/",
+    "parentCategoryId": 495
+  },
+  {
+    "categoryId": 522,
+    "categoryName": "Перфораторы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-tools/perforators/",
+    "parentCategoryId": 495
+  },
+  {
+    "categoryId": 523,
+    "categoryName": "Обслуживание телекоммуникационных сетей",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 524,
+    "categoryName": "Кримперы для IDC-коннекторов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/idc-crimping-tools/",
+    "parentCategoryId": 523
+  },
+  {
+    "categoryId": 525,
+    "categoryName": "Наборы инструментов для обслуживания сетевого оборудования",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/telecommunication-network-tool-kits/",
+    "parentCategoryId": 523
+  },
+  {
+    "categoryId": 526,
+    "categoryName": "Тестеры кабеля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/cable-testers/",
+    "parentCategoryId": 523
+  },
+  {
+    "categoryId": 527,
+    "categoryName": "Тестеры-трассоискатели",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/line-trackers/",
+    "parentCategoryId": 523
+  },
+  {
+    "categoryId": 528,
+    "categoryName": "Тестеры телефонные",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/telecom-testers/",
+    "parentCategoryId": 523
+  },
+  {
+    "categoryId": 529,
+    "categoryName": "Кримперы для витой пары",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/twisted-pair-crimp-tools/",
+    "parentCategoryId": 523
+  },
+  {
+    "categoryId": 530,
+    "categoryName": "Матрицы обжима витой пары",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/twisted-pair-crimp-tool-die-sets/",
+    "parentCategoryId": 523
+  },
+  {
+    "categoryId": 531,
+    "categoryName": "Кримперы для коаксиального кабеля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/coaxial-cable-crimp-tools/",
+    "parentCategoryId": 523
+  },
+  {
+    "categoryId": 532,
+    "categoryName": "Матрицы обжима коаксиального кабеля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/coaxial-cable-crimp-die-sets/",
+    "parentCategoryId": 523
+  },
+  {
+    "categoryId": 533,
+    "categoryName": "Стрипперы для витой пары",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/twisted-pair-strippers/",
+    "parentCategoryId": 523
+  },
+  {
+    "categoryId": 534,
+    "categoryName": "Стрипперы для коаксиального кабеля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/coaxial-cable-strippers/",
+    "parentCategoryId": 523
+  },
+  {
+    "categoryId": 535,
+    "categoryName": "Стрипперы для коаксиального кабеля и витой пары",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/coaxial-cable-and-twisted-pair-strippers/",
+    "parentCategoryId": 523
+  },
+  {
+    "categoryId": 536,
+    "categoryName": "Инструменты для протяжки кабеля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/fish-tapes/",
+    "parentCategoryId": 523
+  },
+  {
+    "categoryId": 537,
+    "categoryName": "Инструменты для заделки плинтов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/punch-down-tools-and-blades/",
+    "parentCategoryId": 523
+  },
+  {
+    "categoryId": 538,
+    "categoryName": "Инструменты для расшивки кабеля на кросс",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/punch-down-tools-and-blades/punch-down-tools/",
+    "parentCategoryId": 537
+  },
+  {
+    "categoryId": 539,
+    "categoryName": "Сменные лезвия",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/punch-down-tools-and-blades/spare-blades/",
+    "parentCategoryId": 537
+  },
+  {
+    "categoryId": 540,
+    "categoryName": "Степлеры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/staplers/",
+    "parentCategoryId": 523
+  },
+  {
+    "categoryId": 541,
+    "categoryName": "Кабельные степлеры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/staplers/cable-staples/",
+    "parentCategoryId": 540
+  },
+  {
+    "categoryId": 542,
+    "categoryName": "Кримперы для штекеров Scotchlok",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/network-equipment/scotchlok-crimping-tools/",
+    "parentCategoryId": 523
+  },
+  {
+    "categoryId": 543,
+    "categoryName": "Обслуживание оптоволоконных сетей",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/fiber-optic-network-maintenance/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 544,
+    "categoryName": "Сварочные аппараты для оптоволокна",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/fiber-optic-network-maintenance/fusion-splicers/",
+    "parentCategoryId": 543
+  },
+  {
+    "categoryId": 545,
+    "categoryName": "Рефлектометры",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/fiber-optic-network-maintenance/reflectometers/",
+    "parentCategoryId": 543
+  },
+  {
+    "categoryId": 546,
+    "categoryName": "Тестеры оптоволокна",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/fiber-optic-network-maintenance/fiber-optic-testers/",
+    "parentCategoryId": 543
+  },
+  {
+    "categoryId": 547,
+    "categoryName": "Скалыватели",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/fiber-optic-network-maintenance/fiber-cleavers/",
+    "parentCategoryId": 543
+  },
+  {
+    "categoryId": 548,
+    "categoryName": "Источники стабилизированного лазерного излучения",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/fiber-optic-network-maintenance/optical-laser-sources/",
+    "parentCategoryId": 543
+  },
+  {
+    "categoryId": 549,
+    "categoryName": "Измерители оптической мощности",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/fiber-optic-network-maintenance/optical-power-meters/",
+    "parentCategoryId": 543
+  },
+  {
+    "categoryId": 550,
+    "categoryName": "Наборы инструментов для обслуживания оптоволокна",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/fiber-optic-network-maintenance/fiber-optic-network-tool-kits/",
+    "parentCategoryId": 543
+  },
+  {
+    "categoryId": 551,
+    "categoryName": "Стрипперы для оптоволокна",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/fiber-optic-network-maintenance/fiber-optics-strippers/",
+    "parentCategoryId": 543
+  },
+  {
+    "categoryId": 552,
+    "categoryName": "Кримперы коннекторов оптоволоконного кабеля",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/fiber-optic-network-maintenance/fiber-cable-connectors-crimp-tools/",
+    "parentCategoryId": 543
+  },
+  {
+    "categoryId": 553,
+    "categoryName": "Производство оптоволоконных патч-кордов",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/fiber-optic-network-maintenance/fiber-optic-patch-cord-production/",
+    "parentCategoryId": 543
+  },
+  {
+    "categoryId": 554,
+    "categoryName": "Идентификаторы активного волокна",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/fiber-optic-network-maintenance/optical-fiber-identifiers/",
+    "parentCategoryId": 543
+  },
+  {
+    "categoryId": 555,
+    "categoryName": "Аксессуары и запчасти для оптоволоконного оборудования",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/fiber-optic-network-maintenance/fiber-optic-accessories-and-spare-parts/",
+    "parentCategoryId": 543
+  },
+  {
+    "categoryId": 556,
+    "categoryName": "Источники питания",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/power-supplies/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 557,
+    "categoryName": "Микроскопы и оптика",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/microscopes-and-optical-devices/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 558,
+    "categoryName": "Линзы, лупы, лампы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/lenses-magnifiers-lamps/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 559,
+    "categoryName": "Хранение и транспортировка",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/storage-and-transportation/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 560,
+    "categoryName": "Ультразвуковая очистка",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/ultrasonic-cleaning/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 561,
+    "categoryName": "Расходные материалы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/consumables/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 562,
+    "categoryName": "Антистатическая защита",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/esd-safety/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 563,
+    "categoryName": "Товары для дома и офиса",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/home-and-office-appliances/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 564,
+    "categoryName": "Автомобильные аксессуары",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/car-accessories/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 565,
+    "categoryName": "Универcальные USB-программаторы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/universal-device-programmers/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 566,
+    "categoryName": "Программаторы",
+    "categoryUrl": "https://all-spares.ua/ru/equipment/programmers/",
+    "parentCategoryId": 183
+  },
+  {
+    "categoryId": 567,
+    "categoryName": "Прошивка и разблокировка",
+    "categoryUrl": "https://all-spares.ua/ru/menu/gsm/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 568,
+    "categoryName": "Обучающие игрушки",
+    "categoryUrl": "https://all-spares.ua/ru/menu/toys/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 569,
+    "categoryName": "Светодиодные технологии",
+    "categoryUrl": "https://all-spares.ua/ru/menu/energy/",
+    "parentCategoryId": 0
+  }
+]

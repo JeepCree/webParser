@@ -1,6 +1,10 @@
 package ua.com.mobifix.parser;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class ScanCategorySettings {
+    private String shopName = "noNameShop";
     private String urlShop = "";
     private String selectCategoryTag = "";
     private String selectCategoryTagLevel2 = "";
@@ -20,6 +24,7 @@ public class ScanCategorySettings {
     private String urlPrefix = "";
     private String cookieName = "";
     private String cookieValue = "";
+    private Map cookies;
     private String replaceCategoryName = "";
     private String replaceCategoryNameLevel2 = "";
     private String replaceCategoryNameLevel3 = "";
@@ -40,6 +45,22 @@ public class ScanCategorySettings {
     private String replacementCategoryUrlLevel3 = "";
     private String replacementCategoryUrlLevel4 = "";
     private String replacementCategoryUrlLevel5 = "";
+
+    public Map getCookies() {
+        return cookies;
+    }
+
+    public void setCookies(Map cookies) {
+        this.cookies = cookies;
+    }
+
+    public String getShopName() {
+        return shopName;
+    }
+
+    public void setShopName(String shopName) {
+        this.shopName = shopName;
+    }
 
     public String getUrlShop() {
         return urlShop;

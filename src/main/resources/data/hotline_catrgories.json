@@ -1,0 +1,5474 @@
+[
+  {
+    "categoryId": 1,
+    "categoryName": "HOTLINE.FINANCE",
+    "categoryUrl": "https://hotline.ua//hotline.finance/ua?utm_source\u003dhotline.ua\u0026utm_medium\u003dcpc\u0026utm_campaign\u003dcatalogonmainpage",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 2,
+    "categoryName": "Енергозабезпечення",
+    "categoryUrl": "https://hotline.ua/ua/power/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 3,
+    "categoryName": "Зарядні станції",
+    "categoryUrl": "https://hotline.ua/ua/mobile/zaryadnye-stancii/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 4,
+    "categoryName": "Генератори",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/generatory/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 5,
+    "categoryName": "Зовнішні акумулятори (Power Bank)",
+    "categoryUrl": "https://hotline.ua/ua/mobile/universalnye-batarei/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 6,
+    "categoryName": "Джерела безперебійного живлення (ДБЖ)",
+    "categoryUrl": "https://hotline.ua/ua/computer/istochniki-besperebojnogo-pitaniya/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 7,
+    "categoryName": "Акумулятори для ДБЖ",
+    "categoryUrl": "https://hotline.ua/ua/computer/akkumulyatory-dlya-ibp/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 8,
+    "categoryName": "Стабілізатори напруги",
+    "categoryUrl": "https://hotline.ua/ua/computer/stabilizatory-napryazheniya/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 9,
+    "categoryName": "Перетворювачі напруги",
+    "categoryUrl": "https://hotline.ua/ua/auto/preobrazovateli-napryazheniya/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 10,
+    "categoryName": "Акумулятори, батарейки",
+    "categoryUrl": "https://hotline.ua/ua/computer/akkumulyatory-batarejki/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 11,
+    "categoryName": "Зарядні пристрої для акумуляторів",
+    "categoryUrl": "https://hotline.ua/ua/computer/zaryadnye-ustrojstva-dlya-akkumulyatorov-aa-aaa/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 12,
+    "categoryName": "Мережеві фільтри, подовжувачі",
+    "categoryUrl": "https://hotline.ua/ua/computer/setevye-filtry/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 13,
+    "categoryName": "Світлодіодні лампи",
+    "categoryUrl": "https://hotline.ua/ua/dom/elektrolampy/40777/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 14,
+    "categoryName": "Розумні розетки з Wi-Fi",
+    "categoryUrl": "https://hotline.ua/ua/dom/umnye-rozetki/559816/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 15,
+    "categoryName": "Датчики руху",
+    "categoryUrl": "https://hotline.ua/ua/office/datchikipoint-izveschateli/126127/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 16,
+    "categoryName": "Багатотарифні електролічильники",
+    "categoryUrl": "https://hotline.ua/ua/dom/schetchiki-elektroenergii/80706/",
+    "parentCategoryId": 2
+  },
+  {
+    "categoryId": 17,
+    "categoryName": "Авто і Мото",
+    "categoryUrl": "https://hotline.ua/ua/auto/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 18,
+    "categoryName": "Всі бренди",
+    "categoryUrl": "https://hotline.ua/zapchasti/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 19,
+    "categoryName": "Автошини",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtoshiny-i-motoshiny/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 20,
+    "categoryName": "Автомобільні насоси, компресори",
+    "categoryUrl": "https://hotline.ua/ua/auto/nasosy-i-kompressory/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 21,
+    "categoryName": "Колісні диски",
+    "categoryUrl": "https://hotline.ua/ua/auto/kolesnye-diski/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 22,
+    "categoryName": "Ланцюги протиковзання",
+    "categoryUrl": "https://hotline.ua/ua/auto/cepi-protivoskolzheniya/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 23,
+    "categoryName": "Домкрати",
+    "categoryUrl": "https://hotline.ua/ua/auto/domkraty/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 24,
+    "categoryName": "Ковпаки",
+    "categoryUrl": "https://hotline.ua/ua/auto/kolpaki-dlya-koles/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 25,
+    "categoryName": "Вантажні шини",
+    "categoryUrl": "https://hotline.ua/ua/auto/gruzovye-shiny/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 26,
+    "categoryName": "Мотошини",
+    "categoryUrl": "https://hotline.ua/ua/auto/motoshiny/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 27,
+    "categoryName": "Контроль тиску в шинах",
+    "categoryUrl": "https://hotline.ua/ua/auto/sistemy-kontrolya-davleniya-v-shinah/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 28,
+    "categoryName": "Акумулятори AGM (Start-Stop)",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtomobilnye-akkumulyatory/78116/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 29,
+    "categoryName": "Автомобільні акумулятори EFB",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtomobilnye-akkumulyatory/674032/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 30,
+    "categoryName": "Гелеві акумулятори",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtomobilnye-akkumulyatory/581363/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 31,
+    "categoryName": "Тягові акумулятори",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtomobilnye-akkumulyatory/619747/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 32,
+    "categoryName": "Автомобільні акумулятори",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtomobilnye-akkumulyatory/7044/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 33,
+    "categoryName": "Відеореєстратори",
+    "categoryUrl": "https://hotline.ua/ua/auto/videoregistratory/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 34,
+    "categoryName": "Екшн-камери",
+    "categoryUrl": "https://hotline.ua/ua/av/ekshn-kamery/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 35,
+    "categoryName": "Автомагнітоли",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtomagnitoly-i-dvd/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 36,
+    "categoryName": "Автомобільна акустика",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtomobilnaya-akustika/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 37,
+    "categoryName": "Автомобільні сабвуфери",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtomobilnye-sabvufery/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 38,
+    "categoryName": "FM-трансмітери",
+    "categoryUrl": "https://hotline.ua/ua/auto/fm-transmittery/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 39,
+    "categoryName": "GPS-навігатори",
+    "categoryUrl": "https://hotline.ua/ua/auto/gps-navigatory/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 40,
+    "categoryName": "Автопідсилювачі",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtousiliteli/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 41,
+    "categoryName": "GPS-трекери",
+    "categoryUrl": "https://hotline.ua/ua/auto/gps-trekery/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 42,
+    "categoryName": "Перехідні рамки для автомагнітол",
+    "categoryUrl": "https://hotline.ua/ua/auto/perehodnye-ramki-dlya-avtomagnitol/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 43,
+    "categoryName": "Автомобільні монітори",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtotelevizory/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 44,
+    "categoryName": "Автомобільні антени",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtomobilnye-antenny/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 45,
+    "categoryName": "Аксесуари для відеореєстраторів",
+    "categoryUrl": "https://hotline.ua/ua/auto/aksessuary-dlya-videoregistratorov/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 46,
+    "categoryName": "Аксесуари для екшн-камер",
+    "categoryUrl": "https://hotline.ua/ua/av/aksessuary-dlya-ekshn-kamer/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 47,
+    "categoryName": "Матеріали для шумоізоляції",
+    "categoryUrl": "https://hotline.ua/ua/auto/materialy-dlya-shumoizolyacii/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 48,
+    "categoryName": "Фари, ліхтарі",
+    "categoryUrl": "https://hotline.ua/ua/auto/fary-fonari-osnovnye-dopolnitelnye/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 49,
+    "categoryName": "Комплекти ксенонового світла",
+    "categoryUrl": "https://hotline.ua/ua/auto/komplekty-ksenonovogo-sveta/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 50,
+    "categoryName": "Автолампи",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtolampy/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 51,
+    "categoryName": "Автокилимки",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtomobilnye-kovriki/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 52,
+    "categoryName": "Дитячі автокрісла",
+    "categoryUrl": "https://hotline.ua/ua/deti/avtokresla/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 53,
+    "categoryName": "Аксесуари салону",
+    "categoryUrl": "https://hotline.ua/ua/auto/aksessuary-salona/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 54,
+    "categoryName": "Автотримач для смартфонів",
+    "categoryUrl": "https://hotline.ua/ua/mobile/avtomobilnye-derzhateli-dlya-smartfonov-i-kpk/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 55,
+    "categoryName": "Авто кріплення для лиж і сноубордів",
+    "categoryUrl": "https://hotline.ua/ua/auto/avto-krepleniya-dlya-lyzh-i-snoubordov/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 56,
+    "categoryName": "Рейлінги і поперечки",
+    "categoryUrl": "https://hotline.ua/ua/auto/rejlingi-i-poperechiny/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 57,
+    "categoryName": "Окуляри для водіння",
+    "categoryUrl": "https://hotline.ua/ua/sport/sportivnye-ochki/376265/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 58,
+    "categoryName": "Багажні бокси",
+    "categoryUrl": "https://hotline.ua/ua/auto/bagazhnye-boksy/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 59,
+    "categoryName": "Авто кріплення для велосипедів",
+    "categoryUrl": "https://hotline.ua/ua/auto/krepleniya-dlya-velosipedov/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 60,
+    "categoryName": "Портативні холодильники",
+    "categoryUrl": "https://hotline.ua/ua/bt/portativnye-holodilniki/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 61,
+    "categoryName": "Чохли, накидки на сидіння",
+    "categoryUrl": "https://hotline.ua/ua/auto/chehly-na-sidenya/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 62,
+    "categoryName": "Чохли для кузова автомобіля",
+    "categoryUrl": "https://hotline.ua/ua/auto/chehly-na-kuzov/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 63,
+    "categoryName": "Вітровики",
+    "categoryUrl": "https://hotline.ua/ua/auto/deflektory-okon-vetroviki/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 64,
+    "categoryName": "Автомобільні пилососи",
+    "categoryUrl": "https://hotline.ua/ua/bt/pylesosy/1233173/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 65,
+    "categoryName": "Шкребки та щітки для авто",
+    "categoryUrl": "https://hotline.ua/ua/auto/schetki-skrebki-mochalki/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 66,
+    "categoryName": "Мінімийки",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/minimojki/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 67,
+    "categoryName": "Автошампуні",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtoshampuni/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 68,
+    "categoryName": "Поліролі",
+    "categoryUrl": "https://hotline.ua/ua/auto/poliroli/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 69,
+    "categoryName": "Очисники кузова автомобіля",
+    "categoryUrl": "https://hotline.ua/ua/auto/ochistiteli-kuzova/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 70,
+    "categoryName": "Засоби догляду за салоном автомобіля",
+    "categoryUrl": "https://hotline.ua/ua/auto/uhod-za-salonom-avtomobilya/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 71,
+    "categoryName": "Очисники колісних дисків",
+    "categoryUrl": "https://hotline.ua/ua/auto/ochistiteli-kolesnyh-diskov/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 72,
+    "categoryName": "Автомобільні мастила",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtomobilnye-masla/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 73,
+    "categoryName": "Антифризи",
+    "categoryUrl": "https://hotline.ua/ua/auto/antifrizy/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 74,
+    "categoryName": "Автохімія для скла",
+    "categoryUrl": "https://hotline.ua/ua/auto/zhidkosti-stekloomyvatelya/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 75,
+    "categoryName": "Автомобільні промивки, очищувачі",
+    "categoryUrl": "https://hotline.ua/ua/auto/promyvkipoint-ochistiteli/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 76,
+    "categoryName": "Автогерметики та клеї",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtogermetiki-i-klei/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 77,
+    "categoryName": "Автошампуні",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtoshampuni/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 78,
+    "categoryName": "Мастила і консерванти",
+    "categoryUrl": "https://hotline.ua/ua/auto/smazkipoint-konservanty/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 79,
+    "categoryName": "Поліролі",
+    "categoryUrl": "https://hotline.ua/ua/auto/poliroli/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 80,
+    "categoryName": "Очищувачі кузова",
+    "categoryUrl": "https://hotline.ua/ua/auto/ochistiteli-kuzova/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 81,
+    "categoryName": "Розморожувачі",
+    "categoryUrl": "https://hotline.ua/ua/auto/razmorazhivateli/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 82,
+    "categoryName": "Ремонтні фарби і матеріали для полірування",
+    "categoryUrl": "https://hotline.ua/ua/auto/remontnye-kraski-i-materialy-dlya-polirovki/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 83,
+    "categoryName": "Догляд за салоном авто",
+    "categoryUrl": "https://hotline.ua/ua/auto/uhod-za-salonom-avtomobilya/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 84,
+    "categoryName": "Очищувач дисків",
+    "categoryUrl": "https://hotline.ua/ua/auto/ochistiteli-kolesnyh-diskov/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 85,
+    "categoryName": "Полірувальні машини",
+    "categoryUrl": "https://hotline.ua/ua/tools/polirovalnye-mashiny/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 86,
+    "categoryName": "Присадки до палива",
+    "categoryUrl": "https://hotline.ua/ua/auto/prisadki-k-toplivu/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 87,
+    "categoryName": "Гальмівні рідини",
+    "categoryUrl": "https://hotline.ua/ua/auto/tormoznye-zhidkosti/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 88,
+    "categoryName": "Домкрати",
+    "categoryUrl": "https://hotline.ua/ua/auto/domkraty/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 89,
+    "categoryName": "Насоси та компресори",
+    "categoryUrl": "https://hotline.ua/ua/auto/nasosy-i-kompressory/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 90,
+    "categoryName": "Двірники (склоочисники)",
+    "categoryUrl": "https://hotline.ua/ua/auto/dvorniki-stekloochistiteli/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 91,
+    "categoryName": "Пуско-зарядні пристрої",
+    "categoryUrl": "https://hotline.ua/ua/auto/pusko-zaryadnye-ustrojstva/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 92,
+    "categoryName": "Каністри, лійки",
+    "categoryUrl": "https://hotline.ua/ua/auto/kanistry/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 93,
+    "categoryName": "Лебідки та троси",
+    "categoryUrl": "https://hotline.ua/ua/auto/lebedki-i-trosy/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 94,
+    "categoryName": "Набори інструментів",
+    "categoryUrl": "https://hotline.ua/ua/tools/nabory-instrumentov/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 95,
+    "categoryName": "Автогерметики",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtogermetiki-i-klei/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 96,
+    "categoryName": "Ліхтарики",
+    "categoryUrl": "https://hotline.ua/ua/tourism/fonariki/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 97,
+    "categoryName": "Автоінструмент",
+    "categoryUrl": "https://hotline.ua/ua/tools/populyarno-seychas-tools/avtoinstrument/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 98,
+    "categoryName": "Автомобільні акумулятори",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtomobilnye-akkumulyatory/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 99,
+    "categoryName": "Пуско-зарядні пристрої",
+    "categoryUrl": "https://hotline.ua/ua/auto/pusko-zaryadnye-ustrojstva/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 100,
+    "categoryName": "Підігрів сидінь",
+    "categoryUrl": "https://hotline.ua/ua/auto/podogrev-sidenij/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 101,
+    "categoryName": "Автолампи",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtolampy/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 102,
+    "categoryName": "Автосигналізації",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtosignalizacii/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 103,
+    "categoryName": "Свічки запалювання",
+    "categoryUrl": "https://hotline.ua/ua/auto/svechi-zazhiganiya/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 104,
+    "categoryName": "Фари",
+    "categoryUrl": "https://hotline.ua/ua/auto/fary-fonari-osnovnye-dopolnitelnye/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 105,
+    "categoryName": "Аксесуари для сигналізацій",
+    "categoryUrl": "https://hotline.ua/ua/auto/aksessuary-dlya-signalizacij/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 106,
+    "categoryName": "Камери заднього виду",
+    "categoryUrl": "https://hotline.ua/ua/auto/kamery-zadnego-vida/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 107,
+    "categoryName": "Комплекти ксенонового світла",
+    "categoryUrl": "https://hotline.ua/ua/auto/komplekty-ksenonovogo-sveta/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 108,
+    "categoryName": "Паркувальні системи",
+    "categoryUrl": "https://hotline.ua/ua/auto/parkovochnye-sistemy/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 109,
+    "categoryName": "Перетворювачі напруги (інвертори)",
+    "categoryUrl": "https://hotline.ua/ua/auto/preobrazovateli-napryazheniya/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 110,
+    "categoryName": "Алкотестери",
+    "categoryUrl": "https://hotline.ua/ua/auto/alkotestery/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 111,
+    "categoryName": "Антирадари (радар-детектори)",
+    "categoryUrl": "https://hotline.ua/ua/auto/antiradary/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 112,
+    "categoryName": "Системи гучного зв\u0027язку",
+    "categoryUrl": "https://hotline.ua/ua/mobile/sistemy-gromkoj-svyazi/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 113,
+    "categoryName": "Аксесуари для електромобілів",
+    "categoryUrl": "https://hotline.ua/ua/auto/aksessuary-dlya-elektromobilej/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 114,
+    "categoryName": "Центральні замки",
+    "categoryUrl": "https://hotline.ua/ua/auto/centralnye-zamki/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 115,
+    "categoryName": "GPS-трекери",
+    "categoryUrl": "https://hotline.ua/ua/auto/gps-trekery/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 116,
+    "categoryName": "Мотоцикли, скутери",
+    "categoryUrl": "https://hotline.ua/ua/auto/motocykly/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 117,
+    "categoryName": "Мотошоломи",
+    "categoryUrl": "https://hotline.ua/ua/auto/motoshlemy-i-podshlemniki/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 118,
+    "categoryName": "Мотошини",
+    "categoryUrl": "https://hotline.ua/ua/auto/motoshiny/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 119,
+    "categoryName": "Мотоекіпіровка",
+    "categoryUrl": "https://hotline.ua/ua/auto/motokurtki-i-motozhilety/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 120,
+    "categoryName": "Мотоаксессуари",
+    "categoryUrl": "https://hotline.ua/ua/auto/motokofry/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 121,
+    "categoryName": "Акумулятори для мотоциклів",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtomobilnye-akkumulyatory/7045/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 122,
+    "categoryName": "Мотомастила",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtomobilnye-masla/5201/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 123,
+    "categoryName": "Свічки запалювання",
+    "categoryUrl": "https://hotline.ua/ua/auto/svechi-zazhiganiya/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 124,
+    "categoryName": "Зимові шини",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtoshiny-i-motoshiny/5011/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 125,
+    "categoryName": "Акумулятори",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtomobilnye-akkumulyatory/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 126,
+    "categoryName": "Підігрів сидінь",
+    "categoryUrl": "https://hotline.ua/ua/auto/podogrev-sidenij/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 127,
+    "categoryName": "Пуско-зарядні пристрої",
+    "categoryUrl": "https://hotline.ua/ua/auto/pusko-zaryadnye-ustrojstva/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 128,
+    "categoryName": "Зимовий склоомивач",
+    "categoryUrl": "https://hotline.ua/ua/auto/zhidkosti-stekloomyvatelya/17601/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 129,
+    "categoryName": "Антигель",
+    "categoryUrl": "https://hotline.ua/ua/auto/prisadki-k-toplivu/16202/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 130,
+    "categoryName": "Розморожувачі",
+    "categoryUrl": "https://hotline.ua/ua/auto/razmorazhivateli/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 131,
+    "categoryName": "Шкребки та щітки для авто",
+    "categoryUrl": "https://hotline.ua/ua/auto/schetki-skrebki-mochalki/17358-17359/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 132,
+    "categoryName": "Ланцюги на колеса",
+    "categoryUrl": "https://hotline.ua/ua/auto/cepi-protivoskolzheniya/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 133,
+    "categoryName": "Автосигналізації",
+    "categoryUrl": "https://hotline.ua/ua/auto/avtosignalizacii/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 134,
+    "categoryName": "Аксесуари для сигналізацій",
+    "categoryUrl": "https://hotline.ua/ua/auto/aksessuary-dlya-signalizacij/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 135,
+    "categoryName": "GPS-трекери",
+    "categoryUrl": "https://hotline.ua/ua/auto/gps-trekery/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 136,
+    "categoryName": "Центральний замок",
+    "categoryUrl": "https://hotline.ua/ua/auto/centralnye-zamki/",
+    "parentCategoryId": 17
+  },
+  {
+    "categoryId": 137,
+    "categoryName": "Побутова техніка",
+    "categoryUrl": "https://hotline.ua/ua/bt/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 138,
+    "categoryName": "Все для дому",
+    "categoryUrl": "https://hotline.ua/ua/dom/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 139,
+    "categoryName": "Офісні крісла",
+    "categoryUrl": "https://hotline.ua/ua/dom/ofisnye-kresla/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 140,
+    "categoryName": "Матраци",
+    "categoryUrl": "https://hotline.ua/ua/dom/matrasy/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 141,
+    "categoryName": "Ліжка",
+    "categoryUrl": "https://hotline.ua/ua/dom/krovati/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 142,
+    "categoryName": "Шафи, вітальні, стінки, полиці",
+    "categoryUrl": "https://hotline.ua/ua/dom/shkafy/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 143,
+    "categoryName": "Дивани",
+    "categoryUrl": "https://hotline.ua/ua/dom/divany/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 144,
+    "categoryName": "Столи",
+    "categoryUrl": "https://hotline.ua/ua/dom/obedennye-stoly/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 145,
+    "categoryName": "Комоди, тумби, трюмо",
+    "categoryUrl": "https://hotline.ua/ua/dom/komody-tumby-stoliki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 146,
+    "categoryName": "Комп\u0027ютерні та офісні столи",
+    "categoryUrl": "https://hotline.ua/ua/dom/ofisnye-i-kompyuternye-stoly/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 147,
+    "categoryName": "Стільці, табурети",
+    "categoryUrl": "https://hotline.ua/ua/dom/stulya/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 148,
+    "categoryName": "Крісла, пуфики",
+    "categoryUrl": "https://hotline.ua/ua/dom/kresla/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 149,
+    "categoryName": "Масажні крісла",
+    "categoryUrl": "https://hotline.ua/ua/dom/massazhnye-kresla/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 150,
+    "categoryName": "Кухні",
+    "categoryUrl": "https://hotline.ua/ua/dom/kuhni/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 151,
+    "categoryName": "Кухонні куточки",
+    "categoryUrl": "https://hotline.ua/ua/dom/kuhonnye-ugolki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 152,
+    "categoryName": "Журнальні та кавові столики",
+    "categoryUrl": "https://hotline.ua/ua/dom/zhurnalnye-i-kofejnye-stoliki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 153,
+    "categoryName": "Вішалки",
+    "categoryUrl": "https://hotline.ua/ua/dom/veshalki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 154,
+    "categoryName": "Спальні",
+    "categoryUrl": "https://hotline.ua/ua/dom/spalni/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 155,
+    "categoryName": "Двоярусні ліжка",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-krovati/380728/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 156,
+    "categoryName": "Дитячі ліжка",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-krovati/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 157,
+    "categoryName": "Барні стільці та стійки",
+    "categoryUrl": "https://hotline.ua/ua/dom/barnye-stulya-i-stojki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 158,
+    "categoryName": "Масажні столи",
+    "categoryUrl": "https://hotline.ua/ua/dom/massazhnye-stoly/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 159,
+    "categoryName": "Меблі для ванної кімнати",
+    "categoryUrl": "https://hotline.ua/ua/remont/mebel-dlya-vannoj-komnaty/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 160,
+    "categoryName": "Надувні ліжка",
+    "categoryUrl": "https://hotline.ua/ua/tourism/naduvnye-matrasy-i-kresla/10684/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 161,
+    "categoryName": "Плетені меблі",
+    "categoryUrl": "https://hotline.ua/ua/dom/pletenaya-mebel/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 162,
+    "categoryName": "Розкладачки",
+    "categoryUrl": "https://hotline.ua/ua/tourism/kempingovaya-mebel/10793/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 163,
+    "categoryName": "Столи трансформери",
+    "categoryUrl": "https://hotline.ua/ua/dom/obedennye-stoly/110151/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 164,
+    "categoryName": "Меблева фурнітура",
+    "categoryUrl": "https://hotline.ua/ua/dom/mebelnaya-furnitura/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 165,
+    "categoryName": "Аксесуари для офісних крісел",
+    "categoryUrl": "https://hotline.ua/ua/dom/aksessuary-dlya-ofisnyh-kresel/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 166,
+    "categoryName": "Комплектуючі для меблів",
+    "categoryUrl": "https://hotline.ua/ua/dom/komplektuyuschie-dlya-mebeli/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 167,
+    "categoryName": "Матраци",
+    "categoryUrl": "https://hotline.ua/ua/dom/matrasy/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 168,
+    "categoryName": "Подушки",
+    "categoryUrl": "https://hotline.ua/ua/dom/podushki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 169,
+    "categoryName": "Комплекти постільної білизни",
+    "categoryUrl": "https://hotline.ua/ua/dom/komplekty-postelnogo-belya/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 170,
+    "categoryName": "Ковдри",
+    "categoryUrl": "https://hotline.ua/ua/dom/odeyala/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 171,
+    "categoryName": "Простирадла, підковдри, наволочки",
+    "categoryUrl": "https://hotline.ua/ua/dom/prostyni/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 172,
+    "categoryName": "Пледи",
+    "categoryUrl": "https://hotline.ua/ua/dom/pledy/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 173,
+    "categoryName": "Електрогрілки",
+    "categoryUrl": "https://hotline.ua/ua/krasota/elektrogrelki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 174,
+    "categoryName": "Наматрацники",
+    "categoryUrl": "https://hotline.ua/ua/dom/namatrasniki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 175,
+    "categoryName": "Покривала",
+    "categoryUrl": "https://hotline.ua/ua/dom/pokryvala/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 176,
+    "categoryName": "Скатертини, серветки",
+    "categoryUrl": "https://hotline.ua/ua/dom/skaterti/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 177,
+    "categoryName": "Рушники",
+    "categoryUrl": "https://hotline.ua/ua/dom/polotenca/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 178,
+    "categoryName": "Штори",
+    "categoryUrl": "https://hotline.ua/ua/dom/shtory/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 179,
+    "categoryName": "Кава",
+    "categoryUrl": "https://hotline.ua/ua/dom/kofe/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 180,
+    "categoryName": "Чай",
+    "categoryUrl": "https://hotline.ua/ua/dom/chaj/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 181,
+    "categoryName": "Кондитерські вироби",
+    "categoryUrl": "https://hotline.ua/ua/dom/konditerskie-izdeliya/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 182,
+    "categoryName": "Какао",
+    "categoryUrl": "https://hotline.ua/ua/dom/kakao/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 183,
+    "categoryName": "Міцні алкогольні напої",
+    "categoryUrl": "https://hotline.ua/ua/dom/alkogolnye-napitki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 184,
+    "categoryName": "Вино",
+    "categoryUrl": "https://hotline.ua/ua/dom/vino/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 185,
+    "categoryName": "Лікери, вермути",
+    "categoryUrl": "https://hotline.ua/ua/dom/likerypoint-vermuty/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 186,
+    "categoryName": "Пиво, сидр",
+    "categoryUrl": "https://hotline.ua/ua/dom/pivopoint-sidr/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 187,
+    "categoryName": "Сковороди",
+    "categoryUrl": "https://hotline.ua/ua/dom/skovorody/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 188,
+    "categoryName": "Каструлі, ковші, сотейники",
+    "categoryUrl": "https://hotline.ua/ua/dom/kastryuli-kovshi-sotejniki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 189,
+    "categoryName": "Набори каструль, сковорід",
+    "categoryUrl": "https://hotline.ua/ua/dom/nabory-kastryul-skovorodok/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 190,
+    "categoryName": "Форми для запікання, дека, гусятниці",
+    "categoryUrl": "https://hotline.ua/ua/dom/posuda-dlya-zapekaniya/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 191,
+    "categoryName": "Ножі кухонні",
+    "categoryUrl": "https://hotline.ua/ua/dom/nozhi-kuhonnye/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 192,
+    "categoryName": "Кухонне приладдя",
+    "categoryUrl": "https://hotline.ua/ua/dom/kuhonnye-prinadlezhnosti/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 193,
+    "categoryName": "Кришки для каструль, сковорід",
+    "categoryUrl": "https://hotline.ua/ua/dom/kryshki-dlya-kastryul-skovorodok/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 194,
+    "categoryName": "Тертки, шинковки, подрібнювачі",
+    "categoryUrl": "https://hotline.ua/ua/dom/terki-shinkovki-izmelchiteli/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 195,
+    "categoryName": "Обробні дошки",
+    "categoryUrl": "https://hotline.ua/ua/dom/razdelochnye-doski/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 196,
+    "categoryName": "Точила і аксесуари для ножів",
+    "categoryUrl": "https://hotline.ua/ua/dom/aksessuary-dlya-kuhonnyh-nozhej/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 197,
+    "categoryName": "Миски, друшляки",
+    "categoryUrl": "https://hotline.ua/ua/dom/miski-durshlagi/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 198,
+    "categoryName": "Набори для фондю, марміти",
+    "categoryUrl": "https://hotline.ua/ua/dom/fondyu-marmity/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 199,
+    "categoryName": "Термоси",
+    "categoryUrl": "https://hotline.ua/ua/dom/termosy/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 200,
+    "categoryName": "Чайники",
+    "categoryUrl": "https://hotline.ua/ua/dom/chajniki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 201,
+    "categoryName": "Турки, гейзерні кавоварки",
+    "categoryUrl": "https://hotline.ua/ua/dom/turki-gejzernye-kofevarki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 202,
+    "categoryName": "Заварювальні чайники",
+    "categoryUrl": "https://hotline.ua/ua/dom/zavarochnye-chajniki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 203,
+    "categoryName": "Хлібниці",
+    "categoryUrl": "https://hotline.ua/ua/dom/hlebnicy/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 204,
+    "categoryName": "Ємності для сипучих продуктів",
+    "categoryUrl": "https://hotline.ua/ua/dom/emkosti-dlya-sypuchih-produktov/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 205,
+    "categoryName": "Харчові контейнери",
+    "categoryUrl": "https://hotline.ua/ua/dom/pischevye-kontejnery/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 206,
+    "categoryName": "Келихи, склянки, чарки",
+    "categoryUrl": "https://hotline.ua/ua/dom/bokaly-stakany-ryumki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 207,
+    "categoryName": "Сервізи",
+    "categoryUrl": "https://hotline.ua/ua/dom/servizy/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 208,
+    "categoryName": "Чашки",
+    "categoryUrl": "https://hotline.ua/ua/dom/chashki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 209,
+    "categoryName": "Столові прибори",
+    "categoryUrl": "https://hotline.ua/ua/dom/stolovye-nozhi-vilki-lozhki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 210,
+    "categoryName": "Тарілки",
+    "categoryUrl": "https://hotline.ua/ua/dom/tarelki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 211,
+    "categoryName": "Глечики, графіни, набори для напоїв",
+    "categoryUrl": "https://hotline.ua/ua/dom/kuvshiny-grafiny/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 212,
+    "categoryName": "Предмети сервірування",
+    "categoryUrl": "https://hotline.ua/ua/dom/predmety-servirovki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 213,
+    "categoryName": "Набори для спецій і соусів",
+    "categoryUrl": "https://hotline.ua/ua/dom/nabory-dlya-specij-i-sousov/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 214,
+    "categoryName": "Господарські товари",
+    "categoryUrl": "https://hotline.ua/ua/dom/hoztovary/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 215,
+    "categoryName": "Туалетний папір, серветки, рушники",
+    "categoryUrl": "https://hotline.ua/ua/dom/tualetnaya-bumaga--salfetki--polotenca/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 216,
+    "categoryName": "Сушарки для білизни",
+    "categoryUrl": "https://hotline.ua/ua/dom/sushilki-dlya-belya/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 217,
+    "categoryName": "Прасувальні дошки",
+    "categoryUrl": "https://hotline.ua/ua/bt/gladilnye-doski/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 218,
+    "categoryName": "Відра для сміття",
+    "categoryUrl": "https://hotline.ua/ua/dom/hoztovary/85011/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 219,
+    "categoryName": "Відра для прибирання",
+    "categoryUrl": "https://hotline.ua/ua/dom/hoztovary/85170/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 220,
+    "categoryName": "Швабри, щітки, віники",
+    "categoryUrl": "https://hotline.ua/ua/dom/hoztovary/85026/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 221,
+    "categoryName": "Вішалки",
+    "categoryUrl": "https://hotline.ua/ua/dom/hoztovary/85012/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 222,
+    "categoryName": "Мішки для пилососів",
+    "categoryUrl": "https://hotline.ua/ua/bt/aksessuary-dlya-pylesosov/44863-573140/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 223,
+    "categoryName": "Кошики для білизни",
+    "categoryUrl": "https://hotline.ua/ua/dom/hoztovary/85015/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 224,
+    "categoryName": "Мопи, пади, ганчірки",
+    "categoryUrl": "https://hotline.ua/ua/dom/hoztovary/85018/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 225,
+    "categoryName": "Чохли для одягу",
+    "categoryUrl": "https://hotline.ua/ua/tourism/organajzery-dlya-odezhdy/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 226,
+    "categoryName": "Чохли для прасувальних дошок",
+    "categoryUrl": "https://hotline.ua/ua/bt/aksessuary-dlya-utyugov/570488/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 227,
+    "categoryName": "Засоби для прання",
+    "categoryUrl": "https://hotline.ua/ua/dom/sredstva-dlya-stirki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 228,
+    "categoryName": "Засоби по догляду за побутовою технікою",
+    "categoryUrl": "https://hotline.ua/ua/dom/sredstva-po-uhodu-za-bytovoj-tehnikoj/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 229,
+    "categoryName": "Засоби для миття посуду",
+    "categoryUrl": "https://hotline.ua/ua/dom/sredstva-dlya-mytya-posudy/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 230,
+    "categoryName": "Засоби для прибирання",
+    "categoryUrl": "https://hotline.ua/ua/dom/sredstva-dlya-uborki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 231,
+    "categoryName": "Засоби від комах",
+    "categoryUrl": "https://hotline.ua/ua/dom/sredstva-ot-nasekomyh/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 232,
+    "categoryName": "IP-камери відеоспостереження",
+    "categoryUrl": "https://hotline.ua/ua/dom/ip-kamery-videonablyudeniya/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 233,
+    "categoryName": "Розумний дім, контролери та комплекти",
+    "categoryUrl": "https://hotline.ua/ua/dom/umnyj-dom/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 234,
+    "categoryName": "Домофони",
+    "categoryUrl": "https://hotline.ua/ua/dom/domofony/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 235,
+    "categoryName": "Відеореєстратори для охоронних систем",
+    "categoryUrl": "https://hotline.ua/ua/dom/videoregistratory-dlya-ohrannyh-sistem/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 236,
+    "categoryName": "Smart колонки",
+    "categoryUrl": "https://hotline.ua/ua/av/akusticheskie-kolonki/582197/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 237,
+    "categoryName": "Комплекти сигналізацій",
+    "categoryUrl": "https://hotline.ua/ua/dom/komplekty-signalizacij/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 238,
+    "categoryName": "Датчики, сповіщувачі",
+    "categoryUrl": "https://hotline.ua/ua/dom/datchikipoint-izveschateli/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 239,
+    "categoryName": "Wi-Fi маршрутизатори",
+    "categoryUrl": "https://hotline.ua/ua/computer/besprovodnoe-oborudovanie/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 240,
+    "categoryName": "Охоронні системи",
+    "categoryUrl": "https://hotline.ua/ua/dom/ohrannye-sistemy/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 241,
+    "categoryName": "Датчики, сповіщувачі для розумного будинку",
+    "categoryUrl": "https://hotline.ua/ua/office/datchikipoint-izveschateli/134163/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 242,
+    "categoryName": "Wi-Fi адаптери",
+    "categoryUrl": "https://hotline.ua/ua/computer/setevye-adaptery/558985/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 243,
+    "categoryName": "Модеми з Wi-Fi",
+    "categoryUrl": "https://hotline.ua/ua/computer/modemy-3g-gsm-cdma/43813/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 244,
+    "categoryName": "Wi-Fi-модулі для кондиціонерів",
+    "categoryUrl": "https://hotline.ua/ua/bt/aksessuary-dlya-kondicionerov/587547/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 245,
+    "categoryName": "Пульти дистанційного керування світлодіодами",
+    "categoryUrl": "https://hotline.ua/ua/dom/aksessuary-dlya-svetodiodnyh-lamp-i-lent/566698/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 246,
+    "categoryName": "Сейфи",
+    "categoryUrl": "https://hotline.ua/ua/dom/sejfy/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 247,
+    "categoryName": "Розумні розетки",
+    "categoryUrl": "https://hotline.ua/ua/dom/umnye-rozetki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 248,
+    "categoryName": "Вимикачі керовані",
+    "categoryUrl": "https://hotline.ua/ua/dom/vyklyuchateli-rozetki/137452/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 249,
+    "categoryName": "Таймери",
+    "categoryUrl": "https://hotline.ua/ua/dom/rele-vremeni-tajmery/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 250,
+    "categoryName": "Захисні реле напруги",
+    "categoryUrl": "https://hotline.ua/ua/dom/rele-napryazheniyapoint-toka/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 251,
+    "categoryName": "Датчики руху для освітлення",
+    "categoryUrl": "https://hotline.ua/ua/dom/datchiki-dvizheniya-dlya-osvescheniya/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 252,
+    "categoryName": "Терморегулятори",
+    "categoryUrl": "https://hotline.ua/ua/remont/teplyj-pol-termoregulyatory/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 253,
+    "categoryName": "Відеодзвінки дверні",
+    "categoryUrl": "https://hotline.ua/ua/remont/dvernye-zvonki/582431/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 254,
+    "categoryName": "Люстри, бра",
+    "categoryUrl": "https://hotline.ua/ua/dom/lyustry-lampy-bra-torshery/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 255,
+    "categoryName": "Настільні лампи",
+    "categoryUrl": "https://hotline.ua/ua/dom/nastolnye-lampypoint-nochniki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 256,
+    "categoryName": "Торшери",
+    "categoryUrl": "https://hotline.ua/ua/dom/torshery/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 257,
+    "categoryName": "Електролампи",
+    "categoryUrl": "https://hotline.ua/ua/dom/elektrolampy/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 258,
+    "categoryName": "Світлодіодні стрічки",
+    "categoryUrl": "https://hotline.ua/ua/dom/svetodiodnye-lenty/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 259,
+    "categoryName": "Датчики руху для освітлення",
+    "categoryUrl": "https://hotline.ua/ua/dom/datchiki-dvizheniya-dlya-osvescheniya/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 260,
+    "categoryName": "Акумуляторні світильники",
+    "categoryUrl": "https://hotline.ua/ua/dom/akkumulyatornye-svetilniki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 261,
+    "categoryName": "Електрогірлянди",
+    "categoryUrl": "https://hotline.ua/ua/dom/elektrogirlyandy/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 262,
+    "categoryName": "Блоки живлення для світлодіодного освітлення",
+    "categoryUrl": "https://hotline.ua/ua/dom/aksessuary-dlya-svetodiodnyh-lamp-i-lent/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 263,
+    "categoryName": "Нічники",
+    "categoryUrl": "https://hotline.ua/ua/deti/nochniki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 264,
+    "categoryName": "Вимикачі, розетки",
+    "categoryUrl": "https://hotline.ua/ua/dom/vyklyuchateli-rozetki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 265,
+    "categoryName": "Розумні розетки",
+    "categoryUrl": "https://hotline.ua/ua/dom/umnye-rozetki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 266,
+    "categoryName": "Мережеві фільтри, подовжувачі",
+    "categoryUrl": "https://hotline.ua/ua/computer/setevye-filtry/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 267,
+    "categoryName": "Електролічильники",
+    "categoryUrl": "https://hotline.ua/ua/dom/schetchiki-elektroenergii/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 268,
+    "categoryName": "Щити (корпуси) для вимикачів і лічильників",
+    "categoryUrl": "https://hotline.ua/ua/dom/schity-korpusa-dlya-vyklyuchatelej-i-schetchikov/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 269,
+    "categoryName": "Силові кабелі, дроти",
+    "categoryUrl": "https://hotline.ua/ua/dom/silovye-kabeli-provoda/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 270,
+    "categoryName": "Акумулятори, батарейки",
+    "categoryUrl": "https://hotline.ua/ua/computer/akkumulyatory-batarejki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 271,
+    "categoryName": "Стабілізатори напруги",
+    "categoryUrl": "https://hotline.ua/ua/computer/stabilizatory-napryazheniya/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 272,
+    "categoryName": "Автоматичні вимикачі",
+    "categoryUrl": "https://hotline.ua/ua/dom/avtomaticheskie-vyklyuchateli/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 273,
+    "categoryName": "Реле напруги, струму",
+    "categoryUrl": "https://hotline.ua/ua/dom/rele-napryazheniyapoint-toka/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 274,
+    "categoryName": "Реле часу (таймери)",
+    "categoryUrl": "https://hotline.ua/ua/dom/rele-vremeni-tajmery/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 275,
+    "categoryName": "Захисні реле (інші)",
+    "categoryUrl": "https://hotline.ua/ua/dom/zaschitnye-relepoint-tajmery/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 276,
+    "categoryName": "Аромадіффузори",
+    "categoryUrl": "https://hotline.ua/ua/dom/aromaterapiya/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 277,
+    "categoryName": "Вази",
+    "categoryUrl": "https://hotline.ua/ua/dom/vazy/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 278,
+    "categoryName": "Горщики і кашпо для рослин",
+    "categoryUrl": "https://hotline.ua/ua/dom/gorshki-i-kashpo-dlya-rastenij/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 279,
+    "categoryName": "Жалюзі, ролети та рулонні штори",
+    "categoryUrl": "https://hotline.ua/ua/dom/zhalyuzi-rolety-i-rulonnye-shtory/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 280,
+    "categoryName": "Дзеркала",
+    "categoryUrl": "https://hotline.ua/ua/dom/zerkala/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 281,
+    "categoryName": "Календарі",
+    "categoryUrl": "https://hotline.ua/ua/dom/kalendari/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 282,
+    "categoryName": "Каміни",
+    "categoryUrl": "https://hotline.ua/ua/bt/kaminy/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 283,
+    "categoryName": "Карнизи для штор",
+    "categoryUrl": "https://hotline.ua/ua/dom/karnizy-dlya-shtor/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 284,
+    "categoryName": "Кімнатні рослини",
+    "categoryUrl": "https://hotline.ua/ua/dom/komnatnye-rasteniya/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 285,
+    "categoryName": "Килими",
+    "categoryUrl": "https://hotline.ua/ua/dom/kovry/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 286,
+    "categoryName": "Настінні та підлогові годинники",
+    "categoryUrl": "https://hotline.ua/ua/dom/nastennye-i-napolnye-chasy/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 287,
+    "categoryName": "Настільні годинники",
+    "categoryUrl": "https://hotline.ua/ua/dom/nastolnye-chasy-meteostancii/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 288,
+    "categoryName": "Свічники, свічки",
+    "categoryUrl": "https://hotline.ua/ua/dom/podsvechniki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 289,
+    "categoryName": "Рамки для фотографій",
+    "categoryUrl": "https://hotline.ua/ua/av/ramki-dlya-fotografij/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 290,
+    "categoryName": "Штори",
+    "categoryUrl": "https://hotline.ua/ua/dom/shtory/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 291,
+    "categoryName": "Декор (різне)",
+    "categoryUrl": "https://hotline.ua/ua/dom/dekor-raznoe/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 292,
+    "categoryName": "Подарункові сертифікати",
+    "categoryUrl": "https://hotline.ua/ua/dom/podarochnye-sertifikaty/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 293,
+    "categoryName": "Новорічні ялинки",
+    "categoryUrl": "https://hotline.ua/ua/dom/novogodnie-elki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 294,
+    "categoryName": "Електрогірлянди",
+    "categoryUrl": "https://hotline.ua/ua/dom/elektrogirlyandy/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 295,
+    "categoryName": "Новорічні фігурки",
+    "categoryUrl": "https://hotline.ua/ua/dom/dedy-morozy-i-snegurochki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 296,
+    "categoryName": "Ялинкові іграшки",
+    "categoryUrl": "https://hotline.ua/ua/dom/elochnye-igrushki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 297,
+    "categoryName": "Новорічні календарі",
+    "categoryUrl": "https://hotline.ua/ua/dom/kalendari/625304/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 298,
+    "categoryName": "Скатертини новорічні",
+    "categoryUrl": "https://hotline.ua/ua/dom/skaterti/647976/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 299,
+    "categoryName": "Різдвяні вінки",
+    "categoryUrl": "https://hotline.ua/ua/dom/elochnye-igrushki/111525/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 300,
+    "categoryName": "Свічки",
+    "categoryUrl": "https://hotline.ua/ua/dom/podsvechniki/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 301,
+    "categoryName": "Ігристе вино",
+    "categoryUrl": "https://hotline.ua/ua/dom/vino/633244/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 302,
+    "categoryName": "Келихи для шампанського",
+    "categoryUrl": "https://hotline.ua/ua/dom/bokaly-stakany-ryumki/15874/",
+    "parentCategoryId": 138
+  },
+  {
+    "categoryId": 303,
+    "categoryName": "Дача, сад",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 304,
+    "categoryName": "Бензопили, електропили",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/cepnye-pily/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 305,
+    "categoryName": "Мінімийки",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/minimojki/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 306,
+    "categoryName": "Аксесуари для мінімийок",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/aksessuary-dlya-minimoek/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 307,
+    "categoryName": "Ланцюги та шини для пил",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/cepi-pilnye/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 308,
+    "categoryName": "Культиватори, мотоблоки",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/kultivatory/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 309,
+    "categoryName": "Навісне обладнання до тракторів, мотоблоків і культиваторів",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/navesnoe-oborudovanie-k-traktoram-motoblokam-i-kultivatoram/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 310,
+    "categoryName": "Газонокосарки, сінокосарки",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/gazonokosilki/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 311,
+    "categoryName": "Мотокоси, тримери",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/motokosy-trimmery/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 312,
+    "categoryName": "Садові подрібнювачі",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/sadovye-izmelchiteli/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 313,
+    "categoryName": "Двигуни для садової техніки",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/dvigateli-dlya-traktorov-motoblokov-i-kultivatorov/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 314,
+    "categoryName": "Садові трактори, райдери",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/sadovye-traktory/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 315,
+    "categoryName": "Кущорізи, висоторізи",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/kustorezy/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 316,
+    "categoryName": "Садові пилососи (повітродувки)",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/sadovye-pylesosy/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 317,
+    "categoryName": "Дроворуби",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/drovokoly/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 318,
+    "categoryName": "Мотооприскувачі",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/opryskivateli/33753/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 319,
+    "categoryName": "Аератори",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/aeratory/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 320,
+    "categoryName": "Снігоприбирачі",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/snegouborschiki/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 321,
+    "categoryName": "Аксесуари для садової техніки",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/aksessuary-dlya-sadovoj-tehniki/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 322,
+    "categoryName": "Генератори",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/generatory/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 323,
+    "categoryName": "Стабілізатори напруги",
+    "categoryUrl": "https://hotline.ua/ua/computer/stabilizatory-napryazheniya/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 324,
+    "categoryName": "Подовжувачі",
+    "categoryUrl": "https://hotline.ua/ua/computer/setevye-filtry/45669/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 325,
+    "categoryName": "Зарядні станції",
+    "categoryUrl": "https://hotline.ua/ua/mobile/zaryadnye-stancii/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 326,
+    "categoryName": "Захисні реле",
+    "categoryUrl": "https://hotline.ua/ua/dom/zaschitnye-relepoint-tajmery/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 327,
+    "categoryName": "Інвертори для сонячних батарей",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/invertory-dlya-solnechnyh-batarej/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 328,
+    "categoryName": "Сонячні панелі (батареї), електростанції",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/solnechnye-paneli-batareipoint-elektrostancii/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 329,
+    "categoryName": "Зарядні пристрої на сонячних батареях",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/zaryadnye-ustrojstva-na-solnechnyh-batareyah/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 330,
+    "categoryName": "Сонячні колектори, геліосистеми",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/solnechnye-kollektorypoint-fotomoduli/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 331,
+    "categoryName": "Вітро-сонячні контролери",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/vetro-solnechnye-kontrollery/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 332,
+    "categoryName": "Котли опалення",
+    "categoryUrl": "https://hotline.ua/ua/remont/kotly-otopleniya/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 333,
+    "categoryName": "Радіатори опалення",
+    "categoryUrl": "https://hotline.ua/ua/remont/radiatory-otopleniya/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 334,
+    "categoryName": "Бойлери, колонки, водонагрівачі",
+    "categoryUrl": "https://hotline.ua/ua/remont/bojlery-kolonki-vodonagrevateli/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 335,
+    "categoryName": "Розширювальні баки для систем опалення та водопостачання",
+    "categoryUrl": "https://hotline.ua/ua/remont/rasshiritelnye-baki-dlya-sistem-otopleniya-i-vodosnabzheniya/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 336,
+    "categoryName": "Теплові насоси",
+    "categoryUrl": "https://hotline.ua/ua/remont/teplovye-nasosy/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 337,
+    "categoryName": "Труби та фітинги",
+    "categoryUrl": "https://hotline.ua/ua/remont/truby-i-fitingi/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 338,
+    "categoryName": "Печі для саун",
+    "categoryUrl": "https://hotline.ua/ua/remont/pechi-dlya-saun/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 339,
+    "categoryName": "Печі на дровах",
+    "categoryUrl": "https://hotline.ua/ua/remont/pechi-na-drovah/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 340,
+    "categoryName": "Сонячні колектори, геліосистеми",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/solnechnye-kollektorypoint-fotomoduli/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 341,
+    "categoryName": "Рідинні електронасоси",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/nasosy-vodosnabzheniya/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 342,
+    "categoryName": "Аксесуари для насосів",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/aksessuary-dlya-nasosov/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 343,
+    "categoryName": "Гідроакумулятори для насосів",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/gidroakkumulyatory/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 344,
+    "categoryName": "Обприскувачі",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/opryskivateli/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 345,
+    "categoryName": "Шланги та приладдя",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/shlangi-i-prinadlezhnosti/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 346,
+    "categoryName": "Мотопомпи",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/motopompy/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 347,
+    "categoryName": "Дощувачі",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/dozhdevateli/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 348,
+    "categoryName": "Лійки садові",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/lejki/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 349,
+    "categoryName": "Баки для води, рукомийники",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/baki-dlya-vody/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 350,
+    "categoryName": "Аксесуари для водопостачання, поливу",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/aksessuary-dlya-vodosnabzheniyapoint-poliva/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 351,
+    "categoryName": "Біотуалети",
+    "categoryUrl": "https://hotline.ua/ua/remont/biotualety/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 352,
+    "categoryName": "Засоби для біотуалету і септика",
+    "categoryUrl": "https://hotline.ua/ua/remont/zhidkost-dlya-biotualetov/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 353,
+    "categoryName": "Кемпінгові меблі",
+    "categoryUrl": "https://hotline.ua/ua/tourism/kempingovaya-mebel/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 354,
+    "categoryName": "Вуличні світильники",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/sadovo-parkovye-svetilniki/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 355,
+    "categoryName": "Мангали, барбекю",
+    "categoryUrl": "https://hotline.ua/ua/tourism/nabory-dlya-piknika/43557-43641/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 356,
+    "categoryName": "Садові меблі",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/sadovaya-mebel/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 357,
+    "categoryName": "Плетені меблі",
+    "categoryUrl": "https://hotline.ua/ua/dom/pletenaya-mebel/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 358,
+    "categoryName": "Садові гойдалки",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/sadovye-kacheli/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 359,
+    "categoryName": "Гамаки",
+    "categoryUrl": "https://hotline.ua/ua/tourism/gamaki/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 360,
+    "categoryName": "Садові фігури, фонтани",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/sadovo-parkovye-figury/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 361,
+    "categoryName": "Насоси для фонтанів і ставків",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/nasosy-vodosnabzheniya/46036/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 362,
+    "categoryName": "Пастки, відлякувачі",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/lovushki-otpugivateli/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 363,
+    "categoryName": "Засоби від комах",
+    "categoryUrl": "https://hotline.ua/ua/dom/sredstva-ot-nasekomyh/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 364,
+    "categoryName": "Басейни надувні, каркасні",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/bassejny/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 365,
+    "categoryName": "Аксесуари для басейнів",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/aksessuary-dlya-bassejnov/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 366,
+    "categoryName": "Дезінфікуючі і очисні засоби для басейнів",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/dezinficiruyuschie-i-ochistnye-sredstva-dlya-bassejnov/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 367,
+    "categoryName": "Теплиці, парники, агроволокно",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/teplicy-parniki/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 368,
+    "categoryName": "Добрива",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/udobreniya/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 369,
+    "categoryName": "Засоби захисту рослин",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/sredstva-zaschity-rastenij/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 370,
+    "categoryName": "Лампи для рослин (фітолампи)",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/lampy-dlya-vyraschivaniya-rastenij/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 371,
+    "categoryName": "Пастки, відлякувачі",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/lovushki-otpugivateli/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 372,
+    "categoryName": "Компостери садові",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/kompostery/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 373,
+    "categoryName": "Сітка захисна (рабиця)",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/stroitelnaya-setka-rabica/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 374,
+    "categoryName": "Огорожа, паркан",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/ograzhdeniepoint-zaborpoint-palisadniki/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 375,
+    "categoryName": "Бордюрна стрічка",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/bordyurnaya-lenta/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 376,
+    "categoryName": "Затіняюча сітка",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/stroitelnaya-setka-rabica/88180/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 377,
+    "categoryName": "Насіння овочів і трав",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/semena-ovoschej/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 378,
+    "categoryName": "Насіння газонної трави",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/semena-gazonnoj-travy/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 379,
+    "categoryName": "Зернодробарки, корморізки",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/zernodrobilki/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 380,
+    "categoryName": "Інкубатори побутові",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/inkubatory-bytovye/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 381,
+    "categoryName": "Автоклави",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/avtoklavy/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 382,
+    "categoryName": "Соковитискачі",
+    "categoryUrl": "https://hotline.ua/ua/bt/sokovyzhimalki/98049-98050/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 383,
+    "categoryName": "Пивоварні, дистилятори",
+    "categoryUrl": "https://hotline.ua/ua/bt/pivovarnipoint-distillyatory/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 384,
+    "categoryName": "Граблі, лопати, вила",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/grabli-lopaty-vily/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 385,
+    "categoryName": "Секатори, сучкорізи, садові ножиці",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/sekatory-suchkorezy/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 386,
+    "categoryName": "Тачки садові, будівельні",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/tachki-sadovye-stroitelnye/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 387,
+    "categoryName": "Сокири",
+    "categoryUrl": "https://hotline.ua/ua/tools/topory/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 388,
+    "categoryName": "Садові пили, ножі, коси",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/sadovye-pily/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 389,
+    "categoryName": "Сапи, ручні культиватори, сівалки",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/sapki-ruchnye-kultivatory-seyalki/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 390,
+    "categoryName": "Обприскувачі",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/opryskivateli/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 391,
+    "categoryName": "Рукоятки подовжувальні, знімачі плодів",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/rukoyatki-udlinitelnye/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 392,
+    "categoryName": "Модеми 4G (LTE), 3G, CDMA",
+    "categoryUrl": "https://hotline.ua/ua/computer/modemy-3g-gsm-cdma/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 393,
+    "categoryName": "Антени бездротових мереж",
+    "categoryUrl": "https://hotline.ua/ua/computer/antenny-dlya-besprovodnyh-setej/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 394,
+    "categoryName": "Приемники телевидения T2",
+    "categoryUrl": "https://hotline.ua/ua/av/resivery-sputnikovogo-tv/10643/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 395,
+    "categoryName": "Телевізійні антени",
+    "categoryUrl": "https://hotline.ua/ua/av/televizionnye-antenny/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 396,
+    "categoryName": "Ресивери цифрового телебачення",
+    "categoryUrl": "https://hotline.ua/ua/av/resivery-sputnikovogo-tv/10640-10641/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 397,
+    "categoryName": "Світильник на сонячних батареях",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/sadovo-parkovye-svetilniki/128505/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 398,
+    "categoryName": "Інвертори для сонячних батарей",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/invertory-dlya-solnechnyh-batarej/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 399,
+    "categoryName": "Зарядні пристрої на сонячних батареях",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/zaryadnye-ustrojstva-na-solnechnyh-batareyah/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 400,
+    "categoryName": "Сонячні колектори, геліосистеми",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/solnechnye-kollektorypoint-fotomoduli/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 401,
+    "categoryName": "Снігоприбирачі",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/snegouborschiki/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 402,
+    "categoryName": "Лопата снігоприбиральна",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/grabli-lopaty-vily/66953/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 403,
+    "categoryName": "Снігоприбиральник для мотоблока",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/navesnoe-oborudovanie-k-traktoram-motoblokam-i-kultivatoram/48196/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 404,
+    "categoryName": "Пастки, відлякувачі",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/lovushki-otpugivateli/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 405,
+    "categoryName": "Засоби від комах",
+    "categoryUrl": "https://hotline.ua/ua/dom/sredstva-ot-nasekomyh/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 406,
+    "categoryName": "Устаткування для інтернету і телебачення",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/internet-i-televidenie/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 407,
+    "categoryName": "Комп\u0027ютерні та офісні столи",
+    "categoryUrl": "https://hotline.ua/ua/dom/ofisnye-i-kompyuternye-stoly/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 408,
+    "categoryName": "Крісла офісні",
+    "categoryUrl": "https://hotline.ua/ua/dom/ofisnye-kresla/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 409,
+    "categoryName": "Офісна шафа",
+    "categoryUrl": "https://hotline.ua/ua/dom/shkafy/363505/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 410,
+    "categoryName": "Тумба офісна",
+    "categoryUrl": "https://hotline.ua/ua/dom/komody-tumby-stoliki/21864/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 411,
+    "categoryName": "Настільна лампа",
+    "categoryUrl": "https://hotline.ua/ua/dom/nastolnye-lampypoint-nochniki/573167/",
+    "parentCategoryId": 303
+  },
+  {
+    "categoryId": 412,
+    "categoryName": "Дитячі товари",
+    "categoryUrl": "https://hotline.ua/ua/deti/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 413,
+    "categoryName": "Автокрісла",
+    "categoryUrl": "https://hotline.ua/ua/deti/avtokresla/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 414,
+    "categoryName": "Дитячі коляски",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-kolyaski/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 415,
+    "categoryName": "Музичні каруселі, мобілі",
+    "categoryUrl": "https://hotline.ua/ua/deti/muzykalnye-karuseli-mobili/44495-44497/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 416,
+    "categoryName": "Аксесуари для автокрісел",
+    "categoryUrl": "https://hotline.ua/ua/deti/aksessuary-dlya-avtokresel/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 417,
+    "categoryName": "Чохли",
+    "categoryUrl": "https://hotline.ua/ua/deti/aksessuary-dlya-avtokresel/63742/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 418,
+    "categoryName": "Вкладиші",
+    "categoryUrl": "https://hotline.ua/ua/deti/aksessuary-dlya-avtokresel/63845/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 419,
+    "categoryName": "Бази",
+    "categoryUrl": "https://hotline.ua/ua/deti/aksessuary-dlya-avtokresel/63736/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 420,
+    "categoryName": "Люльки для колясок",
+    "categoryUrl": "https://hotline.ua/ua/deti/lyulki-dlya-kolyasok/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 421,
+    "categoryName": "Конверти в коляску",
+    "categoryUrl": "https://hotline.ua/ua/deti/konverty-v-kolyasku/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 422,
+    "categoryName": "Аксесуари для колясок",
+    "categoryUrl": "https://hotline.ua/ua/deti/aksessuary-dlya-kolyasok/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 423,
+    "categoryName": "Підвіски",
+    "categoryUrl": "https://hotline.ua/ua/deti/pogremushki-gryzunki/68087/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 424,
+    "categoryName": "Дощовики",
+    "categoryUrl": "https://hotline.ua/ua/deti/aksessuary-dlya-kolyasok/60249/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 425,
+    "categoryName": "Парасольки",
+    "categoryUrl": "https://hotline.ua/ua/deti/aksessuary-dlya-kolyasok/60248/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 426,
+    "categoryName": "Сумки",
+    "categoryUrl": "https://hotline.ua/ua/deti/aksessuary-dlya-kolyasok/60242/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 427,
+    "categoryName": "Шасі",
+    "categoryUrl": "https://hotline.ua/ua/deti/aksessuary-dlya-kolyasok/60238/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 428,
+    "categoryName": "Підгузки і трусики",
+    "categoryUrl": "https://hotline.ua/ua/deti/podguzniki-i-trusiki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 429,
+    "categoryName": "Дитячі горщики і сидіння",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-gorshki-i-sidenya/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 430,
+    "categoryName": "Ванночки і аксесуари для купання",
+    "categoryUrl": "https://hotline.ua/ua/deti/tovary-dlya-detskogo-kupaniya/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 431,
+    "categoryName": "Косметика по догляду за малюком",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskaya-gigiena/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 432,
+    "categoryName": "Дитячі ваги",
+    "categoryUrl": "https://hotline.ua/ua/bt/detskie-vesy/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 433,
+    "categoryName": "Засоби для миття дитячого посуду",
+    "categoryUrl": "https://hotline.ua/ua/dom/sredstva-dlya-mytya-posudy/567563/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 434,
+    "categoryName": "Засоби для прання дитячих речей",
+    "categoryUrl": "https://hotline.ua/ua/dom/sredstva-dlya-stirki/34903/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 435,
+    "categoryName": "Стільчики для годування",
+    "categoryUrl": "https://hotline.ua/ua/deti/stulchiki-dlya-kormleniya/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 436,
+    "categoryName": "Дитяче харчування",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskoe-pitanie/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 437,
+    "categoryName": "Пустушки",
+    "categoryUrl": "https://hotline.ua/ua/deti/pustyshki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 438,
+    "categoryName": "Товари для годування",
+    "categoryUrl": "https://hotline.ua/ua/deti/tovary-dlya-kormleniya/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 439,
+    "categoryName": "Підігрівачі, стерилізатори",
+    "categoryUrl": "https://hotline.ua/ua/deti/podogrevateli-sterilizatory/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 440,
+    "categoryName": "Нічники",
+    "categoryUrl": "https://hotline.ua/ua/deti/nochniki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 441,
+    "categoryName": "Дитячі ліжечка, колиски, манежі",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-krovatki-i-manezhi/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 442,
+    "categoryName": "Дитячі комоди, пеленальні столики і пеленатори",
+    "categoryUrl": "https://hotline.ua/ua/deti/pelenalnye-komody-i-stoliki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 443,
+    "categoryName": "Дитячі матраци",
+    "categoryUrl": "https://hotline.ua/ua/dom/matrasy/95648/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 444,
+    "categoryName": "Дитяча постільна білизна та аксесуари",
+    "categoryUrl": "https://hotline.ua/ua/deti/nabory-dlya-detskoj-krovatki-kolyaski/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 445,
+    "categoryName": "Розвиваючі іграшки для малюків",
+    "categoryUrl": "https://hotline.ua/ua/deti/razvivayuschie-igrushki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 446,
+    "categoryName": "Ходунки, стрибуни",
+    "categoryUrl": "https://hotline.ua/ua/deti/hodunki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 447,
+    "categoryName": "Дитячі крісла-гойдалки",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-kresla-kachalki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 448,
+    "categoryName": "Розвиваючі килимки",
+    "categoryUrl": "https://hotline.ua/ua/deti/razvivayuschie-kovriki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 449,
+    "categoryName": "Музичні каруселі, мобілі",
+    "categoryUrl": "https://hotline.ua/ua/deti/muzykalnye-karuseli-mobili/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 450,
+    "categoryName": "Брязкальця, підвіски, прорізувачі",
+    "categoryUrl": "https://hotline.ua/ua/deti/pogremushki-gryzunki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 451,
+    "categoryName": "Товари для годування",
+    "categoryUrl": "https://hotline.ua/ua/deti/tovary-dlya-kormleniya/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 452,
+    "categoryName": "Молоковідсмоктувачі",
+    "categoryUrl": "https://hotline.ua/ua/deti/molokootsosy/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 453,
+    "categoryName": "Радіо-, відеоняні",
+    "categoryUrl": "https://hotline.ua/ua/deti/radio--videonyani/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 454,
+    "categoryName": "Рюкзаки-кенгуру, слінги, віжки",
+    "categoryUrl": "https://hotline.ua/ua/deti/ryukzaki-kenguru-slingi-vozhzhi/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 455,
+    "categoryName": "Подушки для годування",
+    "categoryUrl": "https://hotline.ua/ua/deti/podushki-dlya-kormleniya/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 456,
+    "categoryName": "Підігрівачі, стерилізатори",
+    "categoryUrl": "https://hotline.ua/ua/deti/podogrevateli-sterilizatory/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 457,
+    "categoryName": "Косметика і засоби гігієни для мам",
+    "categoryUrl": "https://hotline.ua/ua/deti/gigiena-dlya-mam/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 458,
+    "categoryName": "Дитяча безпека",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskaya-bezopasnost/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 459,
+    "categoryName": "Сумки для колясок",
+    "categoryUrl": "https://hotline.ua/ua/deti/aksessuary-dlya-kolyasok/60242/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 460,
+    "categoryName": "Дитячі конструктори",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-konstruktory/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 461,
+    "categoryName": "Настільні ігри",
+    "categoryUrl": "https://hotline.ua/ua/deti/nastolnye-igry/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 462,
+    "categoryName": "Ляльки, набори для ляльок",
+    "categoryUrl": "https://hotline.ua/ua/deti/igrushki-dlya-devochek/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 463,
+    "categoryName": "Інтерактивні іграшки, роботи",
+    "categoryUrl": "https://hotline.ua/ua/deti/interaktivnye-igrushki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 464,
+    "categoryName": "М\u0027які іграшки",
+    "categoryUrl": "https://hotline.ua/ua/deti/myagkie-igrushki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 465,
+    "categoryName": "Ігрові набори",
+    "categoryUrl": "https://hotline.ua/ua/deti/igrovye-nabory/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 466,
+    "categoryName": "Персонажі мультфільмів, ігрові фігурки",
+    "categoryUrl": "https://hotline.ua/ua/deti/igrovye-figurki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 467,
+    "categoryName": "Іграшкова зброя",
+    "categoryUrl": "https://hotline.ua/ua/deti/igrushechnoe-oruzhie/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 468,
+    "categoryName": "Головоломки",
+    "categoryUrl": "https://hotline.ua/ua/deti/golovolomki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 469,
+    "categoryName": "Іграшки-антистрес, спіннери",
+    "categoryUrl": "https://hotline.ua/ua/deti/spinnery/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 470,
+    "categoryName": "Дитячі спортивні ігри",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-sportivnye-igry/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 471,
+    "categoryName": "Ящики для іграшок",
+    "categoryUrl": "https://hotline.ua/ua/deti/yaschiki-dlya-igrushek/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 472,
+    "categoryName": "Акумулятори, батарейки",
+    "categoryUrl": "https://hotline.ua/ua/computer/akkumulyatory-batarejki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 473,
+    "categoryName": "Радіокеровані моделі, іграшки",
+    "categoryUrl": "https://hotline.ua/ua/deti/radioupravlyaemye-modeli/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 474,
+    "categoryName": "Іграшкові машинки, техніка",
+    "categoryUrl": "https://hotline.ua/ua/deti/igrushki-dlya-malchikov/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 475,
+    "categoryName": "Автомобільні треки, гаражі, паркінги",
+    "categoryUrl": "https://hotline.ua/ua/deti/avtomobilnye-trekipoint-garazhipoint-parkingi/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 476,
+    "categoryName": "Залізниці",
+    "categoryUrl": "https://hotline.ua/ua/deti/zheleznye-dorogi/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 477,
+    "categoryName": "Масштабні моделі",
+    "categoryUrl": "https://hotline.ua/ua/deti/avtomodeli/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 478,
+    "categoryName": "Збірні моделі",
+    "categoryUrl": "https://hotline.ua/ua/deti/sbornye-modeli/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 479,
+    "categoryName": "Трансформери",
+    "categoryUrl": "https://hotline.ua/ua/deti/transformery/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 480,
+    "categoryName": "Квадрокоптери-іграшки",
+    "categoryUrl": "https://hotline.ua/ua/av/kvadrokoptery-dlya-videosemki/564549/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 481,
+    "categoryName": "Пазли",
+    "categoryUrl": "https://hotline.ua/ua/deti/pazly/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 482,
+    "categoryName": "Набори для творчості і рукоділля",
+    "categoryUrl": "https://hotline.ua/ua/deti/nabory-dlya-detskogo-tvorchestva/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 483,
+    "categoryName": "3D-ручки",
+    "categoryUrl": "https://hotline.ua/ua/computer/3d-ruchki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 484,
+    "categoryName": "Дитячі музичні інструменти",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-muzykalnye-instrumenty/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 485,
+    "categoryName": "Наукові ігри, дослідження, досліди",
+    "categoryUrl": "https://hotline.ua/ua/deti/nauchnye-igrypoint-issledovaniyapoint-opyty/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 486,
+    "categoryName": "Дитячі комп\u0027ютери, електронні ігри",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-kompyuterypoint-elektronnye-igry/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 487,
+    "categoryName": "Розвиваючі іграшки",
+    "categoryUrl": "https://hotline.ua/ua/deti/razvivayuschie-igrushki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 488,
+    "categoryName": "Підліткові ліжка",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-krovati/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 489,
+    "categoryName": "Дитячі столи та стільці",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-stoly-i-stulya/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 490,
+    "categoryName": "Дитячі письмові столи та парти",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-pismennye-stoly-i-party/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 491,
+    "categoryName": "Дитячі ліжечка, колиски, манежі",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-krovatki-i-manezhi/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 492,
+    "categoryName": "Стільчики для годування",
+    "categoryUrl": "https://hotline.ua/ua/deti/stulchiki-dlya-kormleniya/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 493,
+    "categoryName": "Аксесуари до стільчиків для годування",
+    "categoryUrl": "https://hotline.ua/ua/deti/aksessuary-k-stulchikam-dlya-kormleniya/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 494,
+    "categoryName": "Дитячі комоди, пеленальні столики і пеленатори",
+    "categoryUrl": "https://hotline.ua/ua/deti/pelenalnye-komody-i-stoliki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 495,
+    "categoryName": "Дитячі комп\u0027ютерні крісла",
+    "categoryUrl": "https://hotline.ua/ua/dom/ofisnye-kresla/25010/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 496,
+    "categoryName": "Двоярусні ліжка",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-krovati/380728/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 497,
+    "categoryName": "Дитячі дивани",
+    "categoryUrl": "https://hotline.ua/ua/dom/divany/21303/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 498,
+    "categoryName": "Спортивні комплекси",
+    "categoryUrl": "https://hotline.ua/ua/sport/sportivnye-kompleksy/43105/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 499,
+    "categoryName": "Комплекти дитячих меблів",
+    "categoryUrl": "https://hotline.ua/ua/deti/komplekty-detskoj-mebeli/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 500,
+    "categoryName": "Крісла, пуфики",
+    "categoryUrl": "https://hotline.ua/ua/dom/kresla/132187/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 501,
+    "categoryName": "Дитячі шафи, стелажі, тумби, полиці",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-shkafy/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 502,
+    "categoryName": "Вішалки",
+    "categoryUrl": "https://hotline.ua/ua/dom/veshalki/63400/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 503,
+    "categoryName": "Дзеркала для дитячої кімнати",
+    "categoryUrl": "https://hotline.ua/ua/dom/zerkala/32640/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 504,
+    "categoryName": "Ящики для іграшок",
+    "categoryUrl": "https://hotline.ua/ua/deti/yaschiki-dlya-igrushek/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 505,
+    "categoryName": "Комп\u0027ютерні столи",
+    "categoryUrl": "https://hotline.ua/ua/dom/ofisnye-i-kompyuternye-stoly/28389/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 506,
+    "categoryName": "Навчальні пазли",
+    "categoryUrl": "https://hotline.ua/ua/deti/pazly/101476/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 507,
+    "categoryName": "Письмові столи, парти",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-pismennye-stoly-i-party/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 508,
+    "categoryName": "Глобуси, карти",
+    "categoryUrl": "https://hotline.ua/ua/deti/globusypoint-karty/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 509,
+    "categoryName": "Мольберти, дошки для малювання",
+    "categoryUrl": "https://hotline.ua/ua/deti/molberty-i-doski-dlya-risovaniya/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 510,
+    "categoryName": "Комп\u0027ютерні крісла",
+    "categoryUrl": "https://hotline.ua/ua/dom/ofisnye-kresla/25010/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 511,
+    "categoryName": "Шкільні сумки і рюкзаки",
+    "categoryUrl": "https://hotline.ua/ua/fashion/detskie-sumki-i-ryukzaki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 512,
+    "categoryName": "Канцтовари",
+    "categoryUrl": "https://hotline.ua/ua/deti/kancelyarskie-tovary/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 513,
+    "categoryName": "Органайзери, щоденники, блокноти",
+    "categoryUrl": "https://hotline.ua/ua/deti/organajzery-ezhednevniki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 514,
+    "categoryName": "Зошити, щоденники",
+    "categoryUrl": "https://hotline.ua/ua/deti/tetradi-i-bloknoty/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 515,
+    "categoryName": "Блокноти",
+    "categoryUrl": "https://hotline.ua/ua/office/organajzery-ezhednevniki/62327/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 516,
+    "categoryName": "Шкільні пенали",
+    "categoryUrl": "https://hotline.ua/ua/deti/shkolnye-penaly/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 517,
+    "categoryName": "Набори для творчості і рукоділля",
+    "categoryUrl": "https://hotline.ua/ua/deti/nabory-dlya-detskogo-tvorchestva/25276-25277/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 518,
+    "categoryName": "Дослідження, досліди",
+    "categoryUrl": "https://hotline.ua/ua/deti/nauchnye-igrypoint-issledovaniyapoint-opyty/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 519,
+    "categoryName": "Мікроскопи",
+    "categoryUrl": "https://hotline.ua/ua/sport/mikroskopy/619552/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 520,
+    "categoryName": "Телескопи",
+    "categoryUrl": "https://hotline.ua/ua/sport/teleskopy/618962/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 521,
+    "categoryName": "Навчальні посібники для школярів",
+    "categoryUrl": "https://hotline.ua/ua/deti/uchebnye-posobiya-dlya-shkolnikov/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 522,
+    "categoryName": "Санки",
+    "categoryUrl": "https://hotline.ua/ua/deti/sanki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 523,
+    "categoryName": "Електросамокати",
+    "categoryUrl": "https://hotline.ua/ua/sport/elektrosamokaty/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 524,
+    "categoryName": "Гіроскутери, гіроборди",
+    "categoryUrl": "https://hotline.ua/ua/sport/giroskuterypoint-girobordy/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 525,
+    "categoryName": "Самокати",
+    "categoryUrl": "https://hotline.ua/ua/deti/samokaty/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 526,
+    "categoryName": "Дитячі велосипеди",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-velosipedy/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 527,
+    "categoryName": "Роликові ковзани",
+    "categoryUrl": "https://hotline.ua/ua/sport/rolikovye-konki/9331/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 528,
+    "categoryName": "Моноколеса",
+    "categoryUrl": "https://hotline.ua/ua/sport/giroskuterypoint-girobordy/388389/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 529,
+    "categoryName": "Біговели",
+    "categoryUrl": "https://hotline.ua/ua/deti/begovely/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 530,
+    "categoryName": "Толокари, качалки",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-kachalki-katalki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 531,
+    "categoryName": "Ігри на пляжі, плавання",
+    "categoryUrl": "https://hotline.ua/ua/deti/plyazhnye-naduvnye-igrushki-i-bassejny/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 532,
+    "categoryName": "Дитячі електро-та веломобілі",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-elektro--i-velomobili/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 533,
+    "categoryName": "Скейтборди",
+    "categoryUrl": "https://hotline.ua/ua/deti/skejtbordy/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 534,
+    "categoryName": "Аксесуари та колеса для самокатів",
+    "categoryUrl": "https://hotline.ua/ua/deti/aksessuary-i-kolesa-dlya-samokatov/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 535,
+    "categoryName": "Підліткові велосипеди",
+    "categoryUrl": "https://hotline.ua/ua/sport/velosipedy/8747/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 536,
+    "categoryName": "Спортивні ігри",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-sportivnye-igry/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 537,
+    "categoryName": "Настільний футбол, хокей",
+    "categoryUrl": "https://hotline.ua/ua/deti/nastolnye-igry/390853-390854/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 538,
+    "categoryName": "Лижі для найменших",
+    "categoryUrl": "https://hotline.ua/ua/deti/lyzhi-dlya-samyh-malenkih/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 539,
+    "categoryName": "Сніжколіпи",
+    "categoryUrl": "https://hotline.ua/ua/deti/snezhkolepy/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 540,
+    "categoryName": "Лижі для дітей і підлітків",
+    "categoryUrl": "https://hotline.ua/ua/sport/lyzhi/16131-16132/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 541,
+    "categoryName": "Ігрові будиночки, намети",
+    "categoryUrl": "https://hotline.ua/ua/deti/igrovye-domiki-palatki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 542,
+    "categoryName": "Батути",
+    "categoryUrl": "https://hotline.ua/ua/deti/batuty/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 543,
+    "categoryName": "Аксесуари для батутів",
+    "categoryUrl": "https://hotline.ua/ua/deti/aksessuary-dlya-batutov/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 544,
+    "categoryName": "Пісочниці",
+    "categoryUrl": "https://hotline.ua/ua/deti/igrovye-ploschadki/61942/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 545,
+    "categoryName": "Ігрові майданчики",
+    "categoryUrl": "https://hotline.ua/ua/deti/igrovye-ploschadki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 546,
+    "categoryName": "Дитячі гойдалки",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskie-kacheli/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 547,
+    "categoryName": "Гірки",
+    "categoryUrl": "https://hotline.ua/ua/deti/gorki/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 548,
+    "categoryName": "Автокрісла",
+    "categoryUrl": "https://hotline.ua/ua/deti/avtokresla/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 549,
+    "categoryName": "Електросамокати",
+    "categoryUrl": "https://hotline.ua/ua/sport/elektrosamokaty/561372-561424/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 550,
+    "categoryName": "Аксесуари для автокрісел",
+    "categoryUrl": "https://hotline.ua/ua/deti/aksessuary-dlya-avtokresel/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 551,
+    "categoryName": "Гіроборди",
+    "categoryUrl": "https://hotline.ua/ua/sport/giroskuterypoint-girobordy/388387-388421-388422/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 552,
+    "categoryName": "Смарт годинники з GPS",
+    "categoryUrl": "https://hotline.ua/ua/mobile/umnye-chasy-smartwatch/559969-567456/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 553,
+    "categoryName": "Гіроскутери",
+    "categoryUrl": "https://hotline.ua/ua/sport/giroskuterypoint-girobordy/388422-388423-388555/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 554,
+    "categoryName": "Сігвеї",
+    "categoryUrl": "https://hotline.ua/ua/sport/giroskuterypoint-girobordy/388388-388422-388423/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 555,
+    "categoryName": "Шоломи для катання на велосипеді та роликах",
+    "categoryUrl": "https://hotline.ua/ua/sport/velosipednye-shlemy/23467/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 556,
+    "categoryName": "Бар\u0027єри на ліжечко",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskaya-bezopasnost/66631/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 557,
+    "categoryName": "Блокування дверей",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskaya-bezopasnost/66634/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 558,
+    "categoryName": "Замки для шаф",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskaya-bezopasnost/66639/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 559,
+    "categoryName": "Універсальні замки",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskaya-bezopasnost/67023/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 560,
+    "categoryName": "Захисні куточки",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskaya-bezopasnost/66637/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 561,
+    "categoryName": "Ходунки",
+    "categoryUrl": "https://hotline.ua/ua/deti/hodunki/35894/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 562,
+    "categoryName": "Надувні нарукавники",
+    "categoryUrl": "https://hotline.ua/ua/deti/plyazhnye-naduvnye-igrushki-i-bassejny/23420/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 563,
+    "categoryName": "Надувні жилети для плавання",
+    "categoryUrl": "https://hotline.ua/ua/deti/plyazhnye-naduvnye-igrushki-i-bassejny/23414/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 564,
+    "categoryName": "Заглушки для розеток",
+    "categoryUrl": "https://hotline.ua/ua/deti/detskaya-bezopasnost/66635/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 565,
+    "categoryName": "Браслет від комарів",
+    "categoryUrl": "https://hotline.ua/ua/dom/sredstva-ot-nasekomyh/580773/",
+    "parentCategoryId": 412
+  },
+  {
+    "categoryId": 566,
+    "categoryName": "Зоотовари",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 567,
+    "categoryName": "Корм для котів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/korm-dlya-koshek/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 568,
+    "categoryName": "Наповнювачі туалетів для котів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/napolniteli-tualetov-dlya-koshek/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 569,
+    "categoryName": "Переноски, спальні місця для кішок",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/kletki-manezhi-spalnye-mesta-dlya-sobak/31381/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 570,
+    "categoryName": "Грумінг для котів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/gruming-dlya-sobak-i-koshek/32582/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 571,
+    "categoryName": "Посуд для котів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/posuda-dlya-zhivotnyh/63473/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 572,
+    "categoryName": "Дряпки",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/kogtetochki/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 573,
+    "categoryName": "Догляд та гігієна",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/uhod-i-gigiena-dlya-zhivotnyh/64609/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 574,
+    "categoryName": "Дверцята для кішок і собак",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/dvercy-dlya-koshek-i-sobak/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 575,
+    "categoryName": "Клітки, вольєри, будиночки для гризунів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/kletki-volery-domiki-dlya-gryzunov/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 576,
+    "categoryName": "Аксесуари до кліток для гризунів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/aksessuary-k-kletkam-dlya-gryzunov/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 577,
+    "categoryName": "Корм для гризунів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/korm-dlya-gryzunov/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 578,
+    "categoryName": "Корм для собак",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/korm-dlya-sobak/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 579,
+    "categoryName": "Грумінг для собак і котів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/gruming-dlya-sobak-i-koshek/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 580,
+    "categoryName": "Переноски, спальні місця для собак",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/kletki-manezhi-spalnye-mesta-dlya-sobak/31382/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 581,
+    "categoryName": "Одяг та взуття для собак",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/odezhda-i-obuv-dlya-sobak/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 582,
+    "categoryName": "Іграшки для собак",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/igrushki-dlya-zhivotnyh/76732/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 583,
+    "categoryName": "Посуд для собак",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/posuda-dlya-zhivotnyh/63472/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 584,
+    "categoryName": "Догляд та гігієна",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/uhod-i-gigiena-dlya-zhivotnyh/64610/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 585,
+    "categoryName": "Повідці, шлеї",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/povodki-shlei/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 586,
+    "categoryName": "Нашийники",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/oshejniki/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 587,
+    "categoryName": "Гігієна будинку",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/gigiena-doma/31106/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 588,
+    "categoryName": "Намордники",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/namordniki/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 589,
+    "categoryName": "Клітки для птахів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/kletki-dlya-ptic/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 590,
+    "categoryName": "Аксесуари до кліток для птахів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/aksessuary-k-kletkam-dlya-ptic/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 591,
+    "categoryName": "Корм для птахів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/korm-dlya-ptic/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 592,
+    "categoryName": "Годівниці, шпаківні, будиночки для птахів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/kormushkipoint-skvorechnikipoint-domiki-dlya-ptic/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 593,
+    "categoryName": "Догляд та гігієна для тварин",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/uhod-i-gigiena-dlya-zhivotnyh/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 594,
+    "categoryName": "Вітаміни для тварин",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/vitaminy-dlya-zhivotnyh/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 595,
+    "categoryName": "Посуд для тварин",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/posuda-dlya-zhivotnyh/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 596,
+    "categoryName": "Гігієна будинку",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/gigiena-doma/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 597,
+    "categoryName": "Іграшки для тварин",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/igrushki-dlya-zhivotnyh/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 598,
+    "categoryName": "Акваріуми",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/akvariumy/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 599,
+    "categoryName": "Тераріуми",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/terrariumy/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 600,
+    "categoryName": "Корм для риб і рептилій",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/korm-dlya-ryb-i-reptilij/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 601,
+    "categoryName": "Фільтри для акваріумів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/filtry-dlya-akvariumov/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 602,
+    "categoryName": "Аксесуари для акваріумів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/aksessuary-dlya-akvariumov/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 603,
+    "categoryName": "Помпи і компресори для акваріумів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/pompy-i-kompressory-dlya-akvariumov/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 604,
+    "categoryName": "Терморегуляція для акваріумів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/termoregulyaciya-dlya-akvariumov/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 605,
+    "categoryName": "Освітлення для акваріумів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/osveschenie-dlya-akvariumov/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 606,
+    "categoryName": "Обладнання для акваріумів (різне)",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/oborudovanie-dlya-akvariumov-raznoe/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 607,
+    "categoryName": "Обладнання та аксесуари для тераріумів",
+    "categoryUrl": "https://hotline.ua/ua/zootovary/oborudovanie-dlya-terrariumov/",
+    "parentCategoryId": 566
+  },
+  {
+    "categoryId": 608,
+    "categoryName": "Інструменти",
+    "categoryUrl": "https://hotline.ua/ua/tools/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 609,
+    "categoryName": "Шурупокрути, електродрилі",
+    "categoryUrl": "https://hotline.ua/ua/tools/shurupoverty/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 610,
+    "categoryName": "Перфоратори",
+    "categoryUrl": "https://hotline.ua/ua/tools/perforatory/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 611,
+    "categoryName": "Багатофункціональний інструмент",
+    "categoryUrl": "https://hotline.ua/ua/tools/mnogofunkcionalnyj-instrument/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 612,
+    "categoryName": "Свердла, бури, свердлильні коронки",
+    "categoryUrl": "https://hotline.ua/ua/tools/sverla-bury/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 613,
+    "categoryName": "Патрони, насадки для свердлильного інструменту",
+    "categoryUrl": "https://hotline.ua/ua/tools/patronypoint-nasadki-dlya-sverlilnogo-instrumenta/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 614,
+    "categoryName": "Акумулятори, зарядні пристрої для електроінструментів",
+    "categoryUrl": "https://hotline.ua/ua/tools/akkumulyatory-zaryadnye-ustrojstva-dlya-elektroinstrumentov/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 615,
+    "categoryName": "Зварювальні апарати",
+    "categoryUrl": "https://hotline.ua/ua/tools/svarochnye-invertory/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 616,
+    "categoryName": "Засоби індивідуального захисту для зварювальних робіт",
+    "categoryUrl": "https://hotline.ua/ua/tools/sredstva-individualnoj-zaschity-dlya-svarochnyh-rabot/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 617,
+    "categoryName": "Витратні зварювальні матеріали",
+    "categoryUrl": "https://hotline.ua/ua/tools/rashodnye-svarochnye-materialy/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 618,
+    "categoryName": "Комплектуючі для зварювального устаткування",
+    "categoryUrl": "https://hotline.ua/ua/tools/komplektuyuschie-dlya-svarochnogo-oborudovaniya/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 619,
+    "categoryName": "Болгарки (кутові шліфмашини)",
+    "categoryUrl": "https://hotline.ua/ua/tools/uglovye-shlifmashiny-bolgarki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 620,
+    "categoryName": "Електролобзики",
+    "categoryUrl": "https://hotline.ua/ua/tools/elektrolobziki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 621,
+    "categoryName": "Багатофункціональний інструмент",
+    "categoryUrl": "https://hotline.ua/ua/tools/mnogofunkcionalnyj-instrument/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 622,
+    "categoryName": "Електроножиці",
+    "categoryUrl": "https://hotline.ua/ua/tools/elektronozhnicy/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 623,
+    "categoryName": "Дискові (циркулярні) пили",
+    "categoryUrl": "https://hotline.ua/ua/tools/diskovye-pily/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 624,
+    "categoryName": "Вібраційні шліфувальні машини",
+    "categoryUrl": "https://hotline.ua/ua/tools/vibracionnye-shlifmashiny/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 625,
+    "categoryName": "Шабельні пили",
+    "categoryUrl": "https://hotline.ua/ua/tools/sabelnye-pily/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 626,
+    "categoryName": "Стрічкові шліфувальні машини",
+    "categoryUrl": "https://hotline.ua/ua/tools/lentochnye-shlifmashiny/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 627,
+    "categoryName": "Полірувальні машини",
+    "categoryUrl": "https://hotline.ua/ua/tools/polirovalnye-mashiny/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 628,
+    "categoryName": "Відрізні, шліфувальні диски та полотна",
+    "categoryUrl": "https://hotline.ua/ua/tools/otreznye-shlifovalnye-diski/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 629,
+    "categoryName": "Прямі, щіткові шліфувальні машини",
+    "categoryUrl": "https://hotline.ua/ua/tools/pryamye-schetochnye-shlifmashiny/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 630,
+    "categoryName": "Ланцюгові електропили",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/cepnye-pily/9084/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 631,
+    "categoryName": "Акумулятори, зарядні пристрої для електроінструментів",
+    "categoryUrl": "https://hotline.ua/ua/tools/akkumulyatory-zaryadnye-ustrojstva-dlya-elektroinstrumentov/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 632,
+    "categoryName": "Компресори",
+    "categoryUrl": "https://hotline.ua/ua/tools/kompressory-i-prinadlezhnosti/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 633,
+    "categoryName": "Фарбопульти",
+    "categoryUrl": "https://hotline.ua/ua/tools/kraskopulty/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 634,
+    "categoryName": "Приладдя для компресорів",
+    "categoryUrl": "https://hotline.ua/ua/tools/prinadlezhnosti-dlya-kompressorov-i-pnevmoinstrumenta/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 635,
+    "categoryName": "Валики, малярні кисті",
+    "categoryUrl": "https://hotline.ua/ua/tools/valiki-malyarnye-kisti/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 636,
+    "categoryName": "Ємності будівельні",
+    "categoryUrl": "https://hotline.ua/ua/tools/emkosti-stroitelnye/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 637,
+    "categoryName": "Ножі для оздоблювальних робіт",
+    "categoryUrl": "https://hotline.ua/ua/tools/nozhi-dlya-otdelochnyh-rabot/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 638,
+    "categoryName": "Пістолети для герметиків, пін",
+    "categoryUrl": "https://hotline.ua/ua/tools/pistolety-dlya-germetikovpoint-pen/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 639,
+    "categoryName": "Правила",
+    "categoryUrl": "https://hotline.ua/ua/tools/urovni-stroitelnye/71345/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 640,
+    "categoryName": "Шпателі, терки оздоблювальні",
+    "categoryUrl": "https://hotline.ua/ua/tools/shpateli/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 641,
+    "categoryName": "Ящики для інструментів",
+    "categoryUrl": "https://hotline.ua/ua/tools/yaschiki-dlya-instrumentov/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 642,
+    "categoryName": "Генератори",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/generatory/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 643,
+    "categoryName": "Драбини, розсувнi драбини",
+    "categoryUrl": "https://hotline.ua/ua/tools/lestnicy-stremyanki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 644,
+    "categoryName": "Будівельні пилососи, підмітальні машини",
+    "categoryUrl": "https://hotline.ua/ua/tools/stroitelnye-pylesosypoint-podmetalnye-mashiny/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 645,
+    "categoryName": "Плиткорізи",
+    "categoryUrl": "https://hotline.ua/ua/tools/plitkorezy/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 646,
+    "categoryName": "Бетонозмішувачі",
+    "categoryUrl": "https://hotline.ua/ua/tools/betonomeshalki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 647,
+    "categoryName": "Лопати",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/grabli-lopaty-vily/66951-66952-66954/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 648,
+    "categoryName": "Штроборізи",
+    "categoryUrl": "https://hotline.ua/ua/tools/shtroborezy/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 649,
+    "categoryName": "Компресори",
+    "categoryUrl": "https://hotline.ua/ua/tools/kompressory-i-prinadlezhnosti/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 650,
+    "categoryName": "Віброплити, вібробулави",
+    "categoryUrl": "https://hotline.ua/ua/tools/vibroplitypoint-glubinnye-vibratory/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 651,
+    "categoryName": "Дрилі-міксери",
+    "categoryUrl": "https://hotline.ua/ua/tools/shurupoverty/42837/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 652,
+    "categoryName": "Затирочні машини",
+    "categoryUrl": "https://hotline.ua/ua/tools/zatirochnye-mashiny/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 653,
+    "categoryName": "Ломи, обценьки",
+    "categoryUrl": "https://hotline.ua/ua/tools/lomypoint-gvozdodery/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 654,
+    "categoryName": "Мотобури",
+    "categoryUrl": "https://hotline.ua/ua/tools/motobury/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 655,
+    "categoryName": "Склорізи",
+    "categoryUrl": "https://hotline.ua/ua/tools/steklorezy/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 656,
+    "categoryName": "Навантажувачі, штабелери, гідравлічні візки",
+    "categoryUrl": "https://hotline.ua/ua/tools/pogruzchikipoint-shtabelerypoint-gidravlicheskie-telezhki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 657,
+    "categoryName": "Будівельні вишки, помости, риштування",
+    "categoryUrl": "https://hotline.ua/ua/tools/stroitelnye-vyshki-pomosty-lesa/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 658,
+    "categoryName": "Бензорізи",
+    "categoryUrl": "https://hotline.ua/ua/tools/benzorezy/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 659,
+    "categoryName": "Будівельні лебідки, талі",
+    "categoryUrl": "https://hotline.ua/ua/tools/tali/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 660,
+    "categoryName": "Тачки",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/tachki-sadovye-stroitelnye/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 661,
+    "categoryName": "Приладдя для віброплит, глибинних вібраторів",
+    "categoryUrl": "https://hotline.ua/ua/tools/prinadlezhnosti-dlya-vibroplitpoint-glubinnyh-vibratorov/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 662,
+    "categoryName": "Приладдя для компресорів та пневмоінструменту",
+    "categoryUrl": "https://hotline.ua/ua/tools/prinadlezhnosti-dlya-kompressorov-i-pnevmoinstrumenta/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 663,
+    "categoryName": "Приладдя для мотобурів",
+    "categoryUrl": "https://hotline.ua/ua/tools/prinadlezhnosti-dlya-motoburov/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 664,
+    "categoryName": "Лазерний вимірювальний інструмент",
+    "categoryUrl": "https://hotline.ua/ua/tools/lazernyj-izmeritelnyj-instrument/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 665,
+    "categoryName": "Мультиметри",
+    "categoryUrl": "https://hotline.ua/ua/tools/multimetry/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 666,
+    "categoryName": "Ручний вимірювальний інструмент",
+    "categoryUrl": "https://hotline.ua/ua/tools/izmeritelnye-ruletki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 667,
+    "categoryName": "Рівні будівельні",
+    "categoryUrl": "https://hotline.ua/ua/tools/urovni-stroitelnye/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 668,
+    "categoryName": "Спеціалізований вимірювальний інструмент",
+    "categoryUrl": "https://hotline.ua/ua/tools/specializirovannyj-izmeritelnyj-instrument/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 669,
+    "categoryName": "Приладдя для лазерного та оптичного вимірювального інструмента",
+    "categoryUrl": "https://hotline.ua/ua/tools/prinadlezhnosti-dlya-lazernogo-i-opticheskogo-izmeritelnogo-instrumenta/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 670,
+    "categoryName": "Паяльники і паяльні станції",
+    "categoryUrl": "https://hotline.ua/ua/tools/payalniki-i-payalnye-stancii/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 671,
+    "categoryName": "Електрорубанки",
+    "categoryUrl": "https://hotline.ua/ua/tools/elektrorubanki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 672,
+    "categoryName": "Технічні фени",
+    "categoryUrl": "https://hotline.ua/ua/tools/tehnicheskie-feny/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 673,
+    "categoryName": "Металошукачі",
+    "categoryUrl": "https://hotline.ua/ua/tools/metalloiskateli/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 674,
+    "categoryName": "Клейові пістолети",
+    "categoryUrl": "https://hotline.ua/ua/tools/kleevye-pistolety/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 675,
+    "categoryName": "Електростеплери, цвяхозабивачі",
+    "categoryUrl": "https://hotline.ua/ua/tools/elektrosteplery-gvozdezabivateli/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 676,
+    "categoryName": "Стрижні для клейових пістолетів",
+    "categoryUrl": "https://hotline.ua/ua/tools/sterzhni-dlya-kleevyh-pistoletov/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 677,
+    "categoryName": "Фарбопульти",
+    "categoryUrl": "https://hotline.ua/ua/tools/kraskopulty/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 678,
+    "categoryName": "Приладдя для металошукачів",
+    "categoryUrl": "https://hotline.ua/ua/tools/prinadlezhnosti-dlya-metalloiskatelej/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 679,
+    "categoryName": "Багатофункціональний інструмент",
+    "categoryUrl": "https://hotline.ua/ua/tools/mnogofunkcionalnyj-instrument/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 680,
+    "categoryName": "Мультиметри (тестери)",
+    "categoryUrl": "https://hotline.ua/ua/tools/multimetry/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 681,
+    "categoryName": "Паяльне приладдя",
+    "categoryUrl": "https://hotline.ua/ua/tools/payalnye-prinadlezhnosti/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 682,
+    "categoryName": "Лупи",
+    "categoryUrl": "https://hotline.ua/ua/sport/lupy/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 683,
+    "categoryName": "Акумулятори, зарядні пристрої для електроінструментів",
+    "categoryUrl": "https://hotline.ua/ua/tools/akkumulyatory-zaryadnye-ustrojstva-dlya-elektroinstrumentov/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 684,
+    "categoryName": "Набори інструментів",
+    "categoryUrl": "https://hotline.ua/ua/tools/nabory-instrumentov/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 685,
+    "categoryName": "Ящики для інструментів",
+    "categoryUrl": "https://hotline.ua/ua/tools/yaschiki-dlya-instrumentov/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 686,
+    "categoryName": "Викрутки",
+    "categoryUrl": "https://hotline.ua/ua/tools/otvertki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 687,
+    "categoryName": "Лещата, струбцини",
+    "categoryUrl": "https://hotline.ua/ua/tools/tiski-strubciny/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 688,
+    "categoryName": "Плоскогубці, кусачки, кліщі",
+    "categoryUrl": "https://hotline.ua/ua/tools/ploskogubcy-kruglogubcy-passatizhi/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 689,
+    "categoryName": "Торцеві головки",
+    "categoryUrl": "https://hotline.ua/ua/tools/torcevye-golovki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 690,
+    "categoryName": "Знімачі універсальні",
+    "categoryUrl": "https://hotline.ua/ua/tools/semniki-universalnye/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 691,
+    "categoryName": "Гайкові, розвідні ключі",
+    "categoryUrl": "https://hotline.ua/ua/tools/gaechnye-razvodnye-klyuchi/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 692,
+    "categoryName": "Скобозабивачі, скоби",
+    "categoryUrl": "https://hotline.ua/ua/tools/skobozabivateli-skoby/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 693,
+    "categoryName": "Шестигранні ключі",
+    "categoryUrl": "https://hotline.ua/ua/tools/shestigrannye-klyuchi/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 694,
+    "categoryName": "Трубні ключі",
+    "categoryUrl": "https://hotline.ua/ua/tools/klyuchi-trubnye/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 695,
+    "categoryName": "Трещітки, динамометричні ключі",
+    "categoryUrl": "https://hotline.ua/ua/tools/treschetkipoint-dinamometricheskie-klyuchi/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 696,
+    "categoryName": "Воротки, подовжувачі, перехідники",
+    "categoryUrl": "https://hotline.ua/ua/tools/vorotkipoint-udlinitelipoint-perehodniki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 697,
+    "categoryName": "Заклепочники",
+    "categoryUrl": "https://hotline.ua/ua/tools/zaklepochniki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 698,
+    "categoryName": "Зубила, стамески, долото",
+    "categoryUrl": "https://hotline.ua/ua/tools/zubila-stameski-doloto/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 699,
+    "categoryName": "Молотки",
+    "categoryUrl": "https://hotline.ua/ua/tools/molotki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 700,
+    "categoryName": "Напилки, рашпилі, щітки металеві",
+    "categoryUrl": "https://hotline.ua/ua/tools/napilniki-rashpili/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 701,
+    "categoryName": "Ножиці по металу",
+    "categoryUrl": "https://hotline.ua/ua/tools/nozhnicy-po-metallu/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 702,
+    "categoryName": "Ножівки",
+    "categoryUrl": "https://hotline.ua/ua/tools/nozhovki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 703,
+    "categoryName": "Різьбонарізний інструмент",
+    "categoryUrl": "https://hotline.ua/ua/tools/rezbonareznoj-instrument/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 704,
+    "categoryName": "Труборізи",
+    "categoryUrl": "https://hotline.ua/ua/tools/truborezy/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 705,
+    "categoryName": "Фрезер",
+    "categoryUrl": "https://hotline.ua/ua/tools/frezery/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 706,
+    "categoryName": "Заточувальні верстати",
+    "categoryUrl": "https://hotline.ua/ua/tools/zatochnye-stanki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 707,
+    "categoryName": "Рейсмусові верстати",
+    "categoryUrl": "https://hotline.ua/ua/tools/rejsmusovye-stanki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 708,
+    "categoryName": "Свердлильні верстати",
+    "categoryUrl": "https://hotline.ua/ua/tools/sverlilnye-stanki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 709,
+    "categoryName": "Додаткове обладнання для верстатів",
+    "categoryUrl": "https://hotline.ua/ua/tools/dopolnitelnoe-oborudovanie-dlya-stankov/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 710,
+    "categoryName": "Стрічкопильні верстати",
+    "categoryUrl": "https://hotline.ua/ua/tools/lentochnopilnye-stanki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 711,
+    "categoryName": "Токарні верстати",
+    "categoryUrl": "https://hotline.ua/ua/tools/tokarnye-stanki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 712,
+    "categoryName": "Фрезерні верстати",
+    "categoryUrl": "https://hotline.ua/ua/tools/frezernye-stanki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 713,
+    "categoryName": "Верстати (інші)",
+    "categoryUrl": "https://hotline.ua/ua/tools/stanki-ostalnye/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 714,
+    "categoryName": "Фрези для верстатів",
+    "categoryUrl": "https://hotline.ua/ua/tools/frezy-dlya-stankov/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 715,
+    "categoryName": "Сокири",
+    "categoryUrl": "https://hotline.ua/ua/tools/topory/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 716,
+    "categoryName": "Обценьки",
+    "categoryUrl": "https://hotline.ua/ua/tools/lomypoint-gvozdodery/105714/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 717,
+    "categoryName": "Ножівки",
+    "categoryUrl": "https://hotline.ua/ua/tools/nozhovki/81510/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 718,
+    "categoryName": "Столярні молотки",
+    "categoryUrl": "https://hotline.ua/ua/tools/molotki/77477-77479/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 719,
+    "categoryName": "Рашпілі",
+    "categoryUrl": "https://hotline.ua/ua/tools/napilniki-rashpili/77800/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 720,
+    "categoryName": "Рубанки",
+    "categoryUrl": "https://hotline.ua/ua/tools/rubanki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 721,
+    "categoryName": "Стамески",
+    "categoryUrl": "https://hotline.ua/ua/tools/zubila-stameski-doloto/78475/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 722,
+    "categoryName": "Струбцини",
+    "categoryUrl": "https://hotline.ua/ua/tools/tiski-strubciny/65706/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 723,
+    "categoryName": "Ящики для інструментів",
+    "categoryUrl": "https://hotline.ua/ua/tools/yaschiki-dlya-instrumentov/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 724,
+    "categoryName": "Підмітальна машина",
+    "categoryUrl": "https://hotline.ua/ua/tools/stroitelnye-pylesosypoint-podmetalnye-mashiny/88488/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 725,
+    "categoryName": "Для зварювальних робіт",
+    "categoryUrl": "https://hotline.ua/ua/tools/sredstva-individualnoj-zaschity-dlya-svarochnyh-rabot/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 726,
+    "categoryName": "Свердла і бури",
+    "categoryUrl": "https://hotline.ua/ua/tools/sverla-bury/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 727,
+    "categoryName": "Набори інструментів",
+    "categoryUrl": "https://hotline.ua/ua/tools/nabory-instrumentov/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 728,
+    "categoryName": "Плоскогубці, кусачки, кліщі",
+    "categoryUrl": "https://hotline.ua/ua/tools/ploskogubcy-kruglogubcy-passatizhi/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 729,
+    "categoryName": "Підлогомиюча машина",
+    "categoryUrl": "https://hotline.ua/ua/tools/stroitelnye-pylesosypoint-podmetalnye-mashiny/88489/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 730,
+    "categoryName": "Для будівельних робіт",
+    "categoryUrl": "https://hotline.ua/ua/remont/specodezhda-dlya-stroitelnyh-rabot/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 731,
+    "categoryName": "Витратні зварювальні матеріали",
+    "categoryUrl": "https://hotline.ua/ua/tools/rashodnye-svarochnye-materialy/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 732,
+    "categoryName": "Домкрат",
+    "categoryUrl": "https://hotline.ua/ua/auto/domkraty/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 733,
+    "categoryName": "Шурупокрути",
+    "categoryUrl": "https://hotline.ua/ua/tools/shurupoverty/4281/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 734,
+    "categoryName": "Будівельний пилосос",
+    "categoryUrl": "https://hotline.ua/ua/tools/stroitelnye-pylesosypoint-podmetalnye-mashiny/88490/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 735,
+    "categoryName": "Респіратори",
+    "categoryUrl": "https://hotline.ua/ua/krasota/maski-i-respiratory/632268/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 736,
+    "categoryName": "Відрізні, шліфувальні диски і полотна",
+    "categoryUrl": "https://hotline.ua/ua/tools/otreznye-shlifovalnye-diski/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 737,
+    "categoryName": "Компресори",
+    "categoryUrl": "https://hotline.ua/ua/tools/kompressory-i-prinadlezhnosti/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 738,
+    "categoryName": "Вимірювальна рулетка",
+    "categoryUrl": "https://hotline.ua/ua/tools/izmeritelnye-ruletki/72191/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 739,
+    "categoryName": "Стружкоотсос",
+    "categoryUrl": "https://hotline.ua/ua/tools/stroitelnye-pylesosypoint-podmetalnye-mashiny/576424/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 740,
+    "categoryName": "Вимірювач товщини фарби",
+    "categoryUrl": "https://hotline.ua/ua/tools/specializirovannyj-izmeritelnyj-instrument/111229/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 741,
+    "categoryName": "Метр складаний",
+    "categoryUrl": "https://hotline.ua/ua/tools/izmeritelnye-ruletki/72192/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 742,
+    "categoryName": "Паропилосос KARCHER",
+    "categoryUrl": "https://hotline.ua/ua/bt/pylesosy/2509-298553/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 743,
+    "categoryName": "Знімач підшипників універсальний",
+    "categoryUrl": "https://hotline.ua/ua/tools/semniki-universalnye/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 744,
+    "categoryName": "Штангенциркуль",
+    "categoryUrl": "https://hotline.ua/ua/tools/izmeritelnye-ruletki/80293/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 745,
+    "categoryName": "Професійний пилосос",
+    "categoryUrl": "https://hotline.ua/ua/bt/pylesosy/24053/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 746,
+    "categoryName": "Полірувальна машина",
+    "categoryUrl": "https://hotline.ua/ua/tools/polirovalnye-mashiny/64215/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 747,
+    "categoryName": "Набір шестигранних ключів",
+    "categoryUrl": "https://hotline.ua/ua/tools/shestigrannye-klyuchi/83000/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 748,
+    "categoryName": "Мінімийки",
+    "categoryUrl": "https://hotline.ua/ua/dacha_sad/minimojki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 749,
+    "categoryName": "Ключі динамометричні і тріскачки",
+    "categoryUrl": "https://hotline.ua/ua/tools/treschetkipoint-dinamometricheskie-klyuchi/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 750,
+    "categoryName": "Набір гайкових ключів",
+    "categoryUrl": "https://hotline.ua/ua/tools/gaechnye-razvodnye-klyuchi/84428/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 751,
+    "categoryName": "Торцеві головки",
+    "categoryUrl": "https://hotline.ua/ua/tools/torcevye-golovki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 752,
+    "categoryName": "Дриль",
+    "categoryUrl": "https://hotline.ua/ua/tools/shurupoverty/42836/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 753,
+    "categoryName": "Засоби по догляду за побутовою технікою",
+    "categoryUrl": "https://hotline.ua/ua/dom/sredstva-po-uhodu-za-bytovoj-tehnikoj/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 754,
+    "categoryName": "Мастила і консерванти",
+    "categoryUrl": "https://hotline.ua/ua/auto/smazkipoint-konservanty/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 755,
+    "categoryName": "Викрутки",
+    "categoryUrl": "https://hotline.ua/ua/tools/otvertki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 756,
+    "categoryName": "Засіб для миття посуду",
+    "categoryUrl": "https://hotline.ua/ua/dom/sredstva-dlya-mytya-posudy/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 757,
+    "categoryName": "Монтування",
+    "categoryUrl": "https://hotline.ua/ua/tools/lomypoint-gvozdodery/105716/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 758,
+    "categoryName": "Молотки",
+    "categoryUrl": "https://hotline.ua/ua/tools/molotki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 759,
+    "categoryName": "Господарські товари",
+    "categoryUrl": "https://hotline.ua/ua/dom/hoztovary/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 760,
+    "categoryName": "Розвідні ключі",
+    "categoryUrl": "https://hotline.ua/ua/tools/gaechnye-razvodnye-klyuchi/84249/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 761,
+    "categoryName": "Засоби для прибирання будинку",
+    "categoryUrl": "https://hotline.ua/ua/dom/sredstva-dlya-uborki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 762,
+    "categoryName": "Зберігання інструменту",
+    "categoryUrl": "https://hotline.ua/ua/tools/yaschiki-dlya-instrumentov/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 763,
+    "categoryName": "Канцелярський ніж",
+    "categoryUrl": "https://hotline.ua/ua/office/kancelyarskie-tovary/61680/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 764,
+    "categoryName": "Мастило",
+    "categoryUrl": "https://hotline.ua/ua/auto/smazkipoint-konservanty/112416/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 765,
+    "categoryName": "Ножівки",
+    "categoryUrl": "https://hotline.ua/ua/tools/nozhovki/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 766,
+    "categoryName": "Універсальний набір інструментів",
+    "categoryUrl": "https://hotline.ua/ua/tools/nabory-instrumentov/86153/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 767,
+    "categoryName": "Клей, герметики",
+    "categoryUrl": "https://hotline.ua/ua/remont/klejpoint-zhidkie-gvozdi/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 768,
+    "categoryName": "Ліхтарики",
+    "categoryUrl": "https://hotline.ua/ua/tourism/fonariki/8534-8535/",
+    "parentCategoryId": 608
+  },
+  {
+    "categoryId": 769,
+    "categoryName": "Комп\u0027ютери, Мережі",
+    "categoryUrl": "https://hotline.ua/ua/computer/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 770,
+    "categoryName": "Ноутбуки",
+    "categoryUrl": "https://hotline.ua/ua/computer/noutbuki-netbuki/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 771,
+    "categoryName": "Планшети",
+    "categoryUrl": "https://hotline.ua/ua/computer/planshety/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 772,
+    "categoryName": "Електронні книги",
+    "categoryUrl": "https://hotline.ua/ua/computer/elektronnye-knigi/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 773,
+    "categoryName": "Модеми 4G (LTE), 3G, CDMA",
+    "categoryUrl": "https://hotline.ua/ua/computer/modemy-3g-gsm-cdma/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 774,
+    "categoryName": "Підставки для ноутбуків",
+    "categoryUrl": "https://hotline.ua/ua/computer/podstavki-dlya-noutbukov/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 775,
+    "categoryName": "Рюкзаки для ноутбуків",
+    "categoryUrl": "https://hotline.ua/ua/fashion/gorodskie-ryukzaki/562837/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 776,
+    "categoryName": "Чохли для планшетів",
+    "categoryUrl": "https://hotline.ua/ua/computer/chehly-dlya-planshetov/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 777,
+    "categoryName": "Чохли для ноутбуків",
+    "categoryUrl": "https://hotline.ua/ua/computer/sumki-kejsy-ryukzaki-dlya-noutbukov/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 778,
+    "categoryName": "Блоки живлення для ноутбуків",
+    "categoryUrl": "https://hotline.ua/ua/computer/bloki-pitaniya-dlya-noutbukov/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 779,
+    "categoryName": "Зарядні пристрої для планшетів",
+    "categoryUrl": "https://hotline.ua/ua/mobile/zaryadnye-ustrojstva-dlya-mobilnyh-telefonov/563439/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 780,
+    "categoryName": "Миші для ноутбуків",
+    "categoryUrl": "https://hotline.ua/ua/computer/myshi-klaviatury/1362-37211/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 781,
+    "categoryName": "Автомобільні тримачі для планшетів",
+    "categoryUrl": "https://hotline.ua/ua/mobile/avtomobilnye-derzhateli-dlya-smartfonov-i-kpk/34857/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 782,
+    "categoryName": "Карти пам\u0027яті",
+    "categoryUrl": "https://hotline.ua/ua/computer/flash-karty/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 783,
+    "categoryName": "Захисні плівки для планшетів",
+    "categoryUrl": "https://hotline.ua/ua/computer/zaschitnaya-plenka-dlya-planshetov/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 784,
+    "categoryName": "Зовнішні жорсткі диски",
+    "categoryUrl": "https://hotline.ua/ua/computer/zhestkie-diski/942/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 785,
+    "categoryName": "Стилуси для смартфонів і планшетів",
+    "categoryUrl": "https://hotline.ua/ua/mobile/stilusy-dlya-smartfonov-i-planshetov/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 786,
+    "categoryName": "Диски SSD",
+    "categoryUrl": "https://hotline.ua/ua/computer/diski-ssd/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 787,
+    "categoryName": "Чохли, обкладинки для електронних книг",
+    "categoryUrl": "https://hotline.ua/ua/computer/chehly-oblozhki-dlya-elektronnyh-knig/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 788,
+    "categoryName": "Спортивні браслети",
+    "categoryUrl": "https://hotline.ua/ua/mobile/umnye-chasy-smartwatch/559993/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 789,
+    "categoryName": "Зовнішні мережеві карти",
+    "categoryUrl": "https://hotline.ua/ua/computer/setevye-adaptery/558986-559281/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 790,
+    "categoryName": "Акумулятори для ноутбуків",
+    "categoryUrl": "https://hotline.ua/ua/computer/akkumulyatory-dlya-noutbukov/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 791,
+    "categoryName": "Адаптери Wi-Fi",
+    "categoryUrl": "https://hotline.ua/ua/computer/setevye-adaptery/558985/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 792,
+    "categoryName": "Комп\u0027ютерні аксесуари",
+    "categoryUrl": "https://hotline.ua/ua/computer/kompyuternye-aksessuary/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 793,
+    "categoryName": "Wi-Fi маршрутизатори та точки доступу",
+    "categoryUrl": "https://hotline.ua/ua/computer/besprovodnoe-oborudovanie/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 794,
+    "categoryName": "Комутатори",
+    "categoryUrl": "https://hotline.ua/ua/computer/kommutatory/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 795,
+    "categoryName": "Антени, кабелі для бездротових мереж",
+    "categoryUrl": "https://hotline.ua/ua/computer/antenny-dlya-besprovodnyh-setej/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 796,
+    "categoryName": "Мережеві адаптери",
+    "categoryUrl": "https://hotline.ua/ua/computer/setevye-adaptery/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 797,
+    "categoryName": "Маршрутизатори",
+    "categoryUrl": "https://hotline.ua/ua/computer/marshrutizatory/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 798,
+    "categoryName": "Мережеві накопичувачі (NAS)",
+    "categoryUrl": "https://hotline.ua/ua/computer/setevye-nakopiteli-nas/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 799,
+    "categoryName": "Модеми 4G (LTE), 3G, CDMA",
+    "categoryUrl": "https://hotline.ua/ua/computer/modemy-3g-gsm-cdma/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 800,
+    "categoryName": "Powerline-адаптери",
+    "categoryUrl": "https://hotline.ua/ua/computer/powerline-adaptery/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 801,
+    "categoryName": "Комутатори консолей (KVM Switches)",
+    "categoryUrl": "https://hotline.ua/ua/computer/kommutatory-konsolej-kvm-switches/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 802,
+    "categoryName": "Медіаконвертери, оптичні модулі",
+    "categoryUrl": "https://hotline.ua/ua/computer/konvertory/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 803,
+    "categoryName": "Міжмережеві екрани (Firewall)",
+    "categoryUrl": "https://hotline.ua/ua/computer/mezhsetevye-ekrany/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 804,
+    "categoryName": "Камери відеоспостереження",
+    "categoryUrl": "https://hotline.ua/ua/office/ip-kamery-videonablyudeniya/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 805,
+    "categoryName": "Кабелі витої пари, патч-корди",
+    "categoryUrl": "https://hotline.ua/ua/computer/kabeli-quotvitaya-paraquot-patch-kordy/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 806,
+    "categoryName": "Монтажні шафи і стійки",
+    "categoryUrl": "https://hotline.ua/ua/computer/montazhnye-shkafy-i-stojki/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 807,
+    "categoryName": "Інструмент для прокладки мережі",
+    "categoryUrl": "https://hotline.ua/ua/computer/instrument-dlya-prokladki-seti/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 808,
+    "categoryName": "IP-телефони",
+    "categoryUrl": "https://hotline.ua/ua/computer/ip--skype-telefony/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 809,
+    "categoryName": "VoIP-шлюзи",
+    "categoryUrl": "https://hotline.ua/ua/computer/voip-shlyuzy/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 810,
+    "categoryName": "Обладнання для конференц-зв\u0027язку",
+    "categoryUrl": "https://hotline.ua/ua/computer/oborudovanie-dlya-konferenc-svyazi/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 811,
+    "categoryName": "Ігрові приставки",
+    "categoryUrl": "https://hotline.ua/ua/computer/igrovye-pristavki/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 812,
+    "categoryName": "Ігри для приставок і ПК",
+    "categoryUrl": "https://hotline.ua/ua/computer/igry-dlya-pristavok/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 813,
+    "categoryName": "Геймпади, джойстики, керма",
+    "categoryUrl": "https://hotline.ua/ua/computer/gejmpady-dzhojstiki-ruli/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 814,
+    "categoryName": "Ігрові ноутбуки",
+    "categoryUrl": "https://hotline.ua/ua/computer/noutbuki-netbuki/33373/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 815,
+    "categoryName": "Ігрові комп\u0027ютери",
+    "categoryUrl": "https://hotline.ua/ua/computer/nastolnye-kompyutery/14830/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 816,
+    "categoryName": "Навушники та гарнітури",
+    "categoryUrl": "https://hotline.ua/ua/av/naushniki-garnitury/77315/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 817,
+    "categoryName": "Ігрові відеокарти",
+    "categoryUrl": "https://hotline.ua/ua/computer/videokarty/609215/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 818,
+    "categoryName": "Аксесуари для ігрових приставок",
+    "categoryUrl": "https://hotline.ua/ua/computer/dopolnitelnoe-oborudovanie-dlya-igrovyh-pristavok/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 819,
+    "categoryName": "Ігрові монітори",
+    "categoryUrl": "https://hotline.ua/ua/computer/monitory/388973/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 820,
+    "categoryName": "Ігрові миші",
+    "categoryUrl": "https://hotline.ua/ua/computer/myshi-klaviatury/1362-37209/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 821,
+    "categoryName": "Ігрові клавіатури",
+    "categoryUrl": "https://hotline.ua/ua/computer/myshi-klaviatury/1363-37209/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 822,
+    "categoryName": "Окуляри віртуальної реальності",
+    "categoryUrl": "https://hotline.ua/ua/mobile/ochki-virtualnoj-realnosti/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 823,
+    "categoryName": "Крісла для геймерів",
+    "categoryUrl": "https://hotline.ua/ua/dom/ofisnye-kresla/109153/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 824,
+    "categoryName": "Веб-камери",
+    "categoryUrl": "https://hotline.ua/ua/computer/web-kamery/46168-556099/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 825,
+    "categoryName": "Столи для геймерів",
+    "categoryUrl": "https://hotline.ua/ua/dom/ofisnye-i-kompyuternye-stoly/588339/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 826,
+    "categoryName": "Мікрофони",
+    "categoryUrl": "https://hotline.ua/ua/musical_instruments/mikrofony/630116/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 827,
+    "categoryName": "Килимки для миші",
+    "categoryUrl": "https://hotline.ua/ua/computer/kovriki-dlya-myshi/673396/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 828,
+    "categoryName": "Картки поповнення ігрових підписок",
+    "categoryUrl": "https://hotline.ua/ua/av/karty-podpiski-onlajn-servisov/631079/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 829,
+    "categoryName": "Монітори",
+    "categoryUrl": "https://hotline.ua/ua/computer/monitory/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 830,
+    "categoryName": "Настільні комп\u0027ютери",
+    "categoryUrl": "https://hotline.ua/ua/computer/nastolnye-kompyutery/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 831,
+    "categoryName": "Сервери",
+    "categoryUrl": "https://hotline.ua/ua/computer/servery/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 832,
+    "categoryName": "Кабелі HDMI",
+    "categoryUrl": "https://hotline.ua/ua/computer/kabeli-hdmi-dvi-vga/10279-40268-40279/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 833,
+    "categoryName": "Калібратори",
+    "categoryUrl": "https://hotline.ua/ua/computer/kalibratory/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 834,
+    "categoryName": "ASIC-майнери і майнінг-ферми",
+    "categoryUrl": "https://hotline.ua/ua/computer/majning-fermy/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 835,
+    "categoryName": "Комп\u0027ютерні та офісні столи",
+    "categoryUrl": "https://hotline.ua/ua/dom/ofisnye-i-kompyuternye-stoly/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 836,
+    "categoryName": "Засоби для чищення техніки",
+    "categoryUrl": "https://hotline.ua/ua/computer/chistyaschie-sredstva-dlya-tehniki/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 837,
+    "categoryName": "Аксесуари для комп\u0027ютерів і ноутбуків",
+    "categoryUrl": "https://hotline.ua/ua/computer/kompyuternye-aksessuary/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 838,
+    "categoryName": "Зарядні станції",
+    "categoryUrl": "https://hotline.ua/ua/mobile/zaryadnye-stancii/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 839,
+    "categoryName": "Стабілізатори напруги",
+    "categoryUrl": "https://hotline.ua/ua/computer/stabilizatory-napryazheniya/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 840,
+    "categoryName": "Джерела безперебійного живлення (ДБЖ)",
+    "categoryUrl": "https://hotline.ua/ua/computer/istochniki-besperebojnogo-pitaniya/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 841,
+    "categoryName": "Акумулятори для ДБЖ",
+    "categoryUrl": "https://hotline.ua/ua/computer/akkumulyatory-dlya-ibp/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 842,
+    "categoryName": "Мережеві фільтри, подовжувачі",
+    "categoryUrl": "https://hotline.ua/ua/computer/setevye-filtry/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 843,
+    "categoryName": "Зовнішні акумулятори (Power Bank)",
+    "categoryUrl": "https://hotline.ua/ua/mobile/universalnye-batarei/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 844,
+    "categoryName": "Акумулятори, батарейки",
+    "categoryUrl": "https://hotline.ua/ua/computer/akkumulyatory-batarejki/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 845,
+    "categoryName": "Зарядні пристрої для акумуляторів AA, AAA",
+    "categoryUrl": "https://hotline.ua/ua/computer/zaryadnye-ustrojstva-dlya-akkumulyatorov-aa-aaa/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 846,
+    "categoryName": "Перетворювачі напруги",
+    "categoryUrl": "https://hotline.ua/ua/auto/preobrazovateli-napryazheniya/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 847,
+    "categoryName": "Миші, клавіатури",
+    "categoryUrl": "https://hotline.ua/ua/computer/myshi-klaviatury/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 848,
+    "categoryName": "Килимки для миші",
+    "categoryUrl": "https://hotline.ua/ua/computer/kovriki-dlya-myshi/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 849,
+    "categoryName": "Монітори",
+    "categoryUrl": "https://hotline.ua/ua/computer/monitory/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 850,
+    "categoryName": "Графічні планшети",
+    "categoryUrl": "https://hotline.ua/ua/computer/graficheskie-planshety/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 851,
+    "categoryName": "Веб-камери",
+    "categoryUrl": "https://hotline.ua/ua/computer/web-kamery/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 852,
+    "categoryName": "Кабелі USB",
+    "categoryUrl": "https://hotline.ua/ua/computer/kabeli-usb/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 853,
+    "categoryName": "Кабелі HDMI, DVI, VGA, DisplayPort",
+    "categoryUrl": "https://hotline.ua/ua/computer/kabeli-hdmi-dvi-vga/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 854,
+    "categoryName": "Зовнішні жорсткі диски",
+    "categoryUrl": "https://hotline.ua/ua/computer/zhestkie-diski/942/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 855,
+    "categoryName": "Аксесуари для графічних планшетів",
+    "categoryUrl": "https://hotline.ua/ua/computer/aksessuary-dlya-graficheskih-planshetov/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 856,
+    "categoryName": "Карти пам\u0027яті",
+    "categoryUrl": "https://hotline.ua/ua/computer/flash-karty/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 857,
+    "categoryName": "Мультимедійна акустика",
+    "categoryUrl": "https://hotline.ua/ua/av/akusticheskie-kolonki/3201/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 858,
+    "categoryName": "USB flash-носії",
+    "categoryUrl": "https://hotline.ua/ua/computer/usb-flash-drajvy/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 859,
+    "categoryName": "Кардрідери і USB концентратори",
+    "categoryUrl": "https://hotline.ua/ua/computer/kardridery/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 860,
+    "categoryName": "Зовнішні дисководи DVD, Blu-ray",
+    "categoryUrl": "https://hotline.ua/ua/computer/opticheskie-nakopiteli/682/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 861,
+    "categoryName": "Диски DVD, CD, Blu-ray",
+    "categoryUrl": "https://hotline.ua/ua/computer/diski-dvd-cd-blu-ray/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 862,
+    "categoryName": "Відеокарти",
+    "categoryUrl": "https://hotline.ua/ua/computer/videokarty/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 863,
+    "categoryName": "SSD накопичувачі",
+    "categoryUrl": "https://hotline.ua/ua/computer/diski-ssd/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 864,
+    "categoryName": "Процесори",
+    "categoryUrl": "https://hotline.ua/ua/computer/processory/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 865,
+    "categoryName": "Оперативна пам\u0027ять для ПК і ноутбуків",
+    "categoryUrl": "https://hotline.ua/ua/computer/moduli-pamyati-dlya-pk-i-noutbukov/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 866,
+    "categoryName": "Жорсткі диски",
+    "categoryUrl": "https://hotline.ua/ua/computer/zhestkie-diski/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 867,
+    "categoryName": "Материнські плати",
+    "categoryUrl": "https://hotline.ua/ua/computer/materinskie-platy/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 868,
+    "categoryName": "Корпуси для комп\u0027ютерів",
+    "categoryUrl": "https://hotline.ua/ua/computer/korpusa/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 869,
+    "categoryName": "Кулери та системи охолодження",
+    "categoryUrl": "https://hotline.ua/ua/computer/kulery-i-radiatory/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 870,
+    "categoryName": "Блоки живлення",
+    "categoryUrl": "https://hotline.ua/ua/computer/bloki-pitaniya/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 871,
+    "categoryName": "Кишені для дисків",
+    "categoryUrl": "https://hotline.ua/ua/computer/karmany-dlya-hdd/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 872,
+    "categoryName": "Термопаста, термоклей, термопрокладки",
+    "categoryUrl": "https://hotline.ua/ua/computer/termopasta/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 873,
+    "categoryName": "Звукові карти",
+    "categoryUrl": "https://hotline.ua/ua/computer/zvukovye-karty/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 874,
+    "categoryName": "Дисководи DVD, Blu-ray",
+    "categoryUrl": "https://hotline.ua/ua/computer/opticheskie-nakopiteli/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 875,
+    "categoryName": "Аксесуари для системних блоків",
+    "categoryUrl": "https://hotline.ua/ua/computer/aksessuary-dlya-korpusov-kulerov/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 876,
+    "categoryName": "Карти відеозахоплення, TV-тюнери",
+    "categoryUrl": "https://hotline.ua/ua/computer/tv-tyunery/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 877,
+    "categoryName": "Контролери, плати",
+    "categoryUrl": "https://hotline.ua/ua/computer/kontrollery-platy/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 878,
+    "categoryName": "Принтери, БФП",
+    "categoryUrl": "https://hotline.ua/ua/computer/printery-kopiry-mfu/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 879,
+    "categoryName": "3D-принтери",
+    "categoryUrl": "https://hotline.ua/ua/computer/3d-printery/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 880,
+    "categoryName": "3D-ручки",
+    "categoryUrl": "https://hotline.ua/ua/computer/3d-ruchki/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 881,
+    "categoryName": "Плоттери",
+    "categoryUrl": "https://hotline.ua/ua/computer/plottery/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 882,
+    "categoryName": "Сканери",
+    "categoryUrl": "https://hotline.ua/ua/computer/skanery/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 883,
+    "categoryName": "Матричні принтери",
+    "categoryUrl": "https://hotline.ua/ua/computer/matrichnye-printery/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 884,
+    "categoryName": "Ламінатори",
+    "categoryUrl": "https://hotline.ua/ua/computer/laminatory/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 885,
+    "categoryName": "Принт-сервери",
+    "categoryUrl": "https://hotline.ua/ua/computer/print-servery/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 886,
+    "categoryName": "Принтери етикеток, чеків",
+    "categoryUrl": "https://hotline.ua/ua/computer/specializirovannye-printery/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 887,
+    "categoryName": "Знищувачі документів",
+    "categoryUrl": "https://hotline.ua/ua/computer/unichtozhiteli-dokumentov/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 888,
+    "categoryName": "Картриджі для принтерів та БФП",
+    "categoryUrl": "https://hotline.ua/ua/computer/kartridzhi-dlya-printerov-i-mfu/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 889,
+    "categoryName": "Чорнила, тонери для принтерів і БФП",
+    "categoryUrl": "https://hotline.ua/ua/computer/chernila-tonery/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 890,
+    "categoryName": "Системи безперервної подачі чорнил",
+    "categoryUrl": "https://hotline.ua/ua/computer/sistemy-nepreryvnoj-podachi-chernil/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 891,
+    "categoryName": "Папір і плівка для офісу",
+    "categoryUrl": "https://hotline.ua/ua/computer/bumaga-ofisnaya/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 892,
+    "categoryName": "Папір і плівка для плотерів",
+    "categoryUrl": "https://hotline.ua/ua/computer/bumaga-i-plenka-dlya-plotterov/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 893,
+    "categoryName": "Фотопапір",
+    "categoryUrl": "https://hotline.ua/ua/av/fotobumaga/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 894,
+    "categoryName": "Друкуючі головки для струменевих принтерів",
+    "categoryUrl": "https://hotline.ua/ua/computer/pechatayuschie-golovki/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 895,
+    "categoryName": "Витратні матеріали для 3D-принтерів",
+    "categoryUrl": "https://hotline.ua/ua/computer/rashodnye-materialy-dlya-3d-printerov/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 896,
+    "categoryName": "Операційні системи",
+    "categoryUrl": "https://hotline.ua/ua/computer/programmnoe-obespechenie/363191-363192-363193-363216/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 897,
+    "categoryName": "Офісні пакети",
+    "categoryUrl": "https://hotline.ua/ua/computer/programmnoe-obespechenie/363210/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 898,
+    "categoryName": "Антивіруси",
+    "categoryUrl": "https://hotline.ua/ua/computer/programmnoe-obespechenie/363196/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 899,
+    "categoryName": "Графічні редактори",
+    "categoryUrl": "https://hotline.ua/ua/computer/programmnoe-obespechenie/363227/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 900,
+    "categoryName": "Розпізнавання тексту",
+    "categoryUrl": "https://hotline.ua/ua/computer/programmnoe-obespechenie/363217/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 901,
+    "categoryName": "Перекладачі та словники",
+    "categoryUrl": "https://hotline.ua/ua/computer/programmnoe-obespechenie/363215/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 902,
+    "categoryName": "Ігри для приставок і ПК",
+    "categoryUrl": "https://hotline.ua/ua/computer/igry-dlya-pristavok/",
+    "parentCategoryId": 769
+  },
+  {
+    "categoryId": 903,
+    "categoryName": "Краса і здоров\u0027я",
+    "categoryUrl": "https://hotline.ua/ua/krasota/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 904,
+    "categoryName": "Музичні інструменти",
+    "categoryUrl": "https://hotline.ua/ua/musical_instruments/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 905,
+    "categoryName": "Сантехніка, Будматеріали",
+    "categoryUrl": "https://hotline.ua/ua/remont/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 906,
+    "categoryName": "Смартфони, Телефони",
+    "categoryUrl": "https://hotline.ua/ua/mobile/mobilnye-telefony-i-smartfony/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 907,
+    "categoryName": "Спорт, Активний відпочинок",
+    "categoryUrl": "https://hotline.ua/ua/sport/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 908,
+    "categoryName": "ТВ, Аудіо, Відео, Фото",
+    "categoryUrl": "https://hotline.ua/ua/av/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 909,
+    "categoryName": "Товари для дорослих",
+    "categoryUrl": "https://hotline.ua/ua/catalog/#adult",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 910,
+    "categoryName": "Товари для геймерів",
+    "categoryUrl": "https://hotline.ua/ua/computer/sredstva-multimedia/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 911,
+    "categoryName": "Туризм, Риболовля",
+    "categoryUrl": "https://hotline.ua/ua/tourism/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 912,
+    "categoryName": "Годинники, Сумки, Аксесуари",
+    "categoryUrl": "https://hotline.ua/ua/fashion/",
+    "parentCategoryId": 0
+  }
+]

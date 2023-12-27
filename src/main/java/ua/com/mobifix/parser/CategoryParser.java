@@ -1,31 +1,40 @@
 package ua.com.mobifix.parser;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class CategoryParser {
     public List<AllScanCategory> getCatalog(ScanCategorySettings settings, Long lastCategoryId){
         lastCategoryId++;
         List<AllScanCategory> categoryList = new ArrayList<>();
-
-        if (settings.getCookieName().equals("") || settings.getCookieValue().equals("")){
-            settings.setCookieName("noName");
-            settings.setCookieValue("noValue");
+        Map<String, String> cookies = settings.getCookies();
+        if (cookies == null) {
+            cookies.put("noName", "noValue");
         }
-
         try {
             Connection.Response response = Jsoup.connect(settings.getUrlShop()).method(Connection.Method.GET).execute();
             Document page = Jsoup.connect(settings.getUrlShop())
                     .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-                    .cookie(settings.getCookieName(), settings.getCookieValue())
+                    .cookies(cookies)
                     .get();
+            try {
+                Thread.sleep(1000);
+                System.out.println("sleep page 1");
+            } catch (Exception e){
+                e.printStackTrace();
+            }
             Elements elements = page.select(settings.getSelectCategoryTag());
             for (Element element : elements) {
                 String name = element.select(settings.getSelectCategoryNameTag()).text()
@@ -43,7 +52,15 @@ public class CategoryParser {
                     System.out.println(category.getCategoryId() + " " + category.getCategoryName() + " " + category.getCategoryUrl() + " " + category.getParentCategoryId());
 
                     try {
-                        Document page2 = Jsoup.connect(link).get();
+                        Document page2 = Jsoup.connect(link)
+                                .cookies(cookies)
+                                .get();
+                        try {
+                            Thread.sleep(1000);
+                            System.out.println("sleep page 2");
+                        } catch (Exception e){
+                            e.printStackTrace();
+                        }
                         Elements elements2 = page2.select(settings.getSelectCategoryTagLevel2());
                         for (Element element2 : elements2) {
                             String name2 = element2.select(settings.getSelectCategoryNameTagLevel2()).text()
@@ -61,7 +78,15 @@ public class CategoryParser {
                                 System.out.println(category2.getCategoryId() + " " + category2.getCategoryName() + " " + category2.getCategoryUrl() + " " + category2.getParentCategoryId());
 
                                 try {
-                                    Document page3 = Jsoup.connect(link2).get();
+                                    Document page3 = Jsoup.connect(link2)
+                                            .cookies(cookies)
+                                            .get();
+                                    try {
+                                        Thread.sleep(1000);
+                                        System.out.println("sleep page 3");
+                                    } catch (Exception e){
+                                        e.printStackTrace();
+                                    }
                                     Elements elements3 = page3.select(settings.getSelectCategoryTagLevel3());
                                     for (Element element3 : elements3) {
                                         String name3 = element3.select(settings.getSelectCategoryNameTagLevel3()).text()
@@ -79,7 +104,15 @@ public class CategoryParser {
                                             System.out.println(category3.getCategoryId() + " " + category3.getCategoryName() + " " + category3.getCategoryUrl() + " " + category3.getParentCategoryId());
 
                                             try {
-                                                Document page4 = Jsoup.connect(link3).get();
+                                                Document page4 = Jsoup.connect(link3)
+                                                        .cookies(cookies)
+                                                        .get();
+                                                try {
+                                                    Thread.sleep(1000);
+                                                    System.out.println("sleep page 4");
+                                                } catch (Exception e){
+                                                    e.printStackTrace();
+                                                }
                                                 Elements elements4 = page4.select(settings.getSelectCategoryTagLevel4());
                                                 for (Element element4 : elements4) {
                                                     String name4 = element4.select(settings.getSelectCategoryNameTagLevel4()).text()
@@ -97,7 +130,9 @@ public class CategoryParser {
                                                         System.out.println(category4.getCategoryId() + " " + category4.getCategoryName() + " " + category4.getCategoryUrl() + " " + category4.getParentCategoryId());
 
                                                         try {
-                                                            Document page5 = Jsoup.connect(link4).get();
+                                                            Document page5 = Jsoup.connect(link4)
+                                                                    .cookies(cookies)
+                                                                    .get();
                                                             Elements elements5 = page5.select(settings.getSelectCategoryTagLevel5());
                                                             for (Element element5 : elements5) {
                                                                 String name5 = element5.select(settings.getSelectCategoryNameTagLevel5()).text()
@@ -138,7 +173,13 @@ public class CategoryParser {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println("\nКонец отработки модуля -> return categoryList\n");
+//        System.out.println("\nКонец отработки модуля -> return categoryList\n");
+        try (FileWriter writer = new FileWriter("C:\\Users\\dima2\\IdeaProjects\\webParser\\src\\main\\resources\\data" + settings.getShopName() + "_categories.json")) {
+            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+            gson.toJson(categoryList, writer);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         return categoryList;
     }
 }
