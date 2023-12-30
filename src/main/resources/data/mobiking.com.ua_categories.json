@@ -1,0 +1,104 @@
+[
+  {
+    "categoryId": 1,
+    "categoryName": "Автоэлектроника и аксессуары",
+    "categoryUrl": "https://mobiking.com.ua/ru/catalog/category/3836/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 2,
+    "categoryName": "Аккумуляторы",
+    "categoryUrl": "https://mobiking.com.ua/ru/catalog/category/3533/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 3,
+    "categoryName": "Батарейки",
+    "categoryUrl": "https://mobiking.com.ua/ru/catalog/category/3364/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 4,
+    "categoryName": "Гаджеты",
+    "categoryUrl": "https://mobiking.com.ua/ru/catalog/category/4187/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 5,
+    "categoryName": "Гарнитуры и Наушники",
+    "categoryUrl": "https://mobiking.com.ua/ru/catalog/category/3842/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 6,
+    "categoryName": "Дополнительные батареи [PowerBank]",
+    "categoryUrl": "https://mobiking.com.ua/ru/catalog/category/3516/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 7,
+    "categoryName": "Зарядные устройства",
+    "categoryUrl": "https://mobiking.com.ua/ru/catalog/category/3576/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 8,
+    "categoryName": "Кабеля USB",
+    "categoryUrl": "https://mobiking.com.ua/ru/catalog/category/5008/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 9,
+    "categoryName": "Защитные пленки / Стекла",
+    "categoryUrl": "https://mobiking.com.ua/ru/catalog/category/3258/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 10,
+    "categoryName": "Карты памяти / Накопители",
+    "categoryUrl": "https://mobiking.com.ua/ru/catalog/category/3797/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 11,
+    "categoryName": "Колонки",
+    "categoryUrl": "https://mobiking.com.ua/ru/catalog/category/3815/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 12,
+    "categoryName": "Компьютерная периферия",
+    "categoryUrl": "https://mobiking.com.ua/ru/catalog/category/4160/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 13,
+    "categoryName": "Комплектующие / Запчасти",
+    "categoryUrl": "https://mobiking.com.ua/ru/catalog/category/3621/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 14,
+    "categoryName": "Ремонтное оборудование и материалы",
+    "categoryUrl": "https://mobiking.com.ua/ru/catalog/category/3728/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 15,
+    "categoryName": "Моноподы для селфи / Штативы",
+    "categoryUrl": "https://mobiking.com.ua/ru/catalog/category/3338/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 16,
+    "categoryName": "Чехлы",
+    "categoryUrl": "https://mobiking.com.ua/ru/catalog/category/3867/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 17,
+    "categoryName": "",
+    "categoryUrl": "https://mobiking.com.ua",
+    "parentCategoryId": 0
+  }
+]

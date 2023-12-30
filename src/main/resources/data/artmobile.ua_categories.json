@@ -1,0 +1,50 @@
+[
+  {
+    "categoryId": 1,
+    "categoryName": "Комплектующие к смартфонам и планшетам",
+    "categoryUrl": "https://artmobile.ua/shop/category-1/category678",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 2,
+    "categoryName": "Комплектующие к Apple",
+    "categoryUrl": "https://artmobile.ua/shop/category-1/category679",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 3,
+    "categoryName": "Чехлы",
+    "categoryUrl": "https://artmobile.ua/shop/category-1/category680",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 4,
+    "categoryName": "Аксессуары",
+    "categoryUrl": "https://artmobile.ua/shop/category-1/category681",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 5,
+    "categoryName": "Защитные пленки/стёкла",
+    "categoryUrl": "https://artmobile.ua/shop/category-1/category682",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 6,
+    "categoryName": "Аккумуляторы",
+    "categoryUrl": "https://artmobile.ua/shop/category-1/category683",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 7,
+    "categoryName": "РАСПРОДАЖА",
+    "categoryUrl": "https://artmobile.ua/shop/category-1/category896",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 8,
+    "categoryName": "Оборудование для ремонта",
+    "categoryUrl": "https://artmobile.ua/shop/category-1/category983",
+    "parentCategoryId": 0
+  }
+]

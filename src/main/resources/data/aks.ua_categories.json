@@ -1,0 +1,2078 @@
+[
+  {
+    "categoryId": 1,
+    "categoryName": "Телефоны, планшеты и аксессуары",
+    "categoryUrl": "https://www.aks.ua/catalog/telefony-aksessuary/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 2,
+    "categoryName": "Мобильные телефоны, смартфоны",
+    "categoryUrl": "https://www.aks.ua/catalog/mobilnye-telefony/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 3,
+    "categoryName": "Аксессуары к мобильным телефонам",
+    "categoryUrl": "https://www.aks.ua/catalog/aksessuaru-k-mobilnum-telefonam/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 4,
+    "categoryName": "Защитные стекла для мобильного телефона (смартфона)",
+    "categoryUrl": "https://www.aks.ua/catalog/zashitnue-stekla-dla-mobilnogo-telefona/",
+    "parentCategoryId": 3
+  },
+  {
+    "categoryId": 5,
+    "categoryName": "Защитные пленки для мобильных телефонов",
+    "categoryUrl": "https://www.aks.ua/catalog/zashitnye-plenki/",
+    "parentCategoryId": 3
+  },
+  {
+    "categoryId": 6,
+    "categoryName": "Карты памяти",
+    "categoryUrl": "https://www.aks.ua/catalog/karta-pamyati/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 7,
+    "categoryName": "Красивые номера",
+    "categoryUrl": "https://www.aks.ua/catalog/phone-number/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 8,
+    "categoryName": "Зарядные устройства",
+    "categoryUrl": "https://www.aks.ua/catalog/zaryadnye-ustroistva/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 9,
+    "categoryName": "USB кабели",
+    "categoryUrl": "https://www.aks.ua/catalog/usb/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 10,
+    "categoryName": "Переходники",
+    "categoryUrl": "https://www.aks.ua/catalog/perehodniki/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 11,
+    "categoryName": "Крепления для мобильных телефонов",
+    "categoryUrl": "https://www.aks.ua/catalog/krepleniya-dlya-mobilnyh-telefonov/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 12,
+    "categoryName": "Автомобильные держатели для телефонов и планшетов",
+    "categoryUrl": "https://www.aks.ua/catalog/avtoderzhatel/",
+    "parentCategoryId": 11
+  },
+  {
+    "categoryId": 13,
+    "categoryName": "Фиксаторы для кабеля",
+    "categoryUrl": "https://www.aks.ua/catalog/fiksatory-dlya-kabelya/",
+    "parentCategoryId": 11
+  },
+  {
+    "categoryId": 14,
+    "categoryName": "Bluetooth-гарнитуры",
+    "categoryUrl": "https://www.aks.ua/catalog/bluetooth-garnityru/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 15,
+    "categoryName": "Часы, браслеты",
+    "categoryUrl": "https://www.aks.ua/catalog/chasy-braslety/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 16,
+    "categoryName": "Смарт-часы",
+    "categoryUrl": "https://www.aks.ua/catalog/umnye-chasy-smartwatch/",
+    "parentCategoryId": 15
+  },
+  {
+    "categoryId": 17,
+    "categoryName": "Фитнес-браслеты",
+    "categoryUrl": "https://www.aks.ua/catalog/fitnes-braslety/",
+    "parentCategoryId": 15
+  },
+  {
+    "categoryId": 18,
+    "categoryName": "Аксессуары для смарт-часов и фитнес-браслетов",
+    "categoryUrl": "https://www.aks.ua/catalog/aksessuary-dlya-sportivnyh-brasletov/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 19,
+    "categoryName": "Аксессуары для селфи",
+    "categoryUrl": "https://www.aks.ua/catalog/aksessuary-dlya-selfi/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 20,
+    "categoryName": "Моноподы, триподы, штативы",
+    "categoryUrl": "https://www.aks.ua/catalog/monopody/",
+    "parentCategoryId": 19
+  },
+  {
+    "categoryId": 21,
+    "categoryName": "Брелки для селфи",
+    "categoryUrl": "https://www.aks.ua/catalog/breloki/",
+    "parentCategoryId": 19
+  },
+  {
+    "categoryId": 22,
+    "categoryName": "Наборы блогеров",
+    "categoryUrl": "https://www.aks.ua/catalog/nabory-blogerov/",
+    "parentCategoryId": 19
+  },
+  {
+    "categoryId": 23,
+    "categoryName": "Планшеты",
+    "categoryUrl": "https://www.aks.ua/catalog/planshetnye-pk/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 24,
+    "categoryName": "Аксессуары для планшета",
+    "categoryUrl": "https://www.aks.ua/catalog/aksessyaru-dlya-plansheta/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 25,
+    "categoryName": "Чехлы для планшетов",
+    "categoryUrl": "https://www.aks.ua/catalog/chehly-dlya-planshetnyh-pk/",
+    "parentCategoryId": 24
+  },
+  {
+    "categoryId": 26,
+    "categoryName": "Защитные стекла для планшетов",
+    "categoryUrl": "https://www.aks.ua/catalog/zashitnoe-steklo-dlaya-planshetov/",
+    "parentCategoryId": 24
+  },
+  {
+    "categoryId": 27,
+    "categoryName": "Защитные пленки для планшетов",
+    "categoryUrl": "https://www.aks.ua/catalog/zashitnye-plenki-dlya-planshetnyh-pk/",
+    "parentCategoryId": 24
+  },
+  {
+    "categoryId": 28,
+    "categoryName": "Стилусы",
+    "categoryUrl": "https://www.aks.ua/catalog/stilusy/",
+    "parentCategoryId": 24
+  },
+  {
+    "categoryId": 29,
+    "categoryName": "Электронные книги",
+    "categoryUrl": "https://www.aks.ua/catalog/elektronnye-knigi/",
+    "parentCategoryId": 1
+  },
+  {
+    "categoryId": 30,
+    "categoryName": "Электронные книги",
+    "categoryUrl": "https://www.aks.ua/catalog/elektronnaya-kniga/",
+    "parentCategoryId": 29
+  },
+  {
+    "categoryId": 31,
+    "categoryName": "Аккумуляторы, элементы питания",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyatory-lementy-pitaniya/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 32,
+    "categoryName": "Аккумуляторы для телефона",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyator-dlya-mobilnogo-telefona/",
+    "parentCategoryId": 31
+  },
+  {
+    "categoryId": 33,
+    "categoryName": "Аккумуляторы для планшетов",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyatory-dlya-planshetov/",
+    "parentCategoryId": 31
+  },
+  {
+    "categoryId": 34,
+    "categoryName": "Аккумуляторы, зарядные устройства для электроинструментов (шуруповерты, дрели)",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyatory-dlya-ruchnyh-instrumentov/",
+    "parentCategoryId": 31
+  },
+  {
+    "categoryId": 35,
+    "categoryName": "Аккумуляторы для ноутбуков",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyator-dlya-noutbuka/",
+    "parentCategoryId": 31
+  },
+  {
+    "categoryId": 36,
+    "categoryName": "Повербанки (power bank)",
+    "categoryUrl": "https://www.aks.ua/catalog/dopakkym/",
+    "parentCategoryId": 31
+  },
+  {
+    "categoryId": 37,
+    "categoryName": "Зарядные станции",
+    "categoryUrl": "https://www.aks.ua/catalog/zaryadnye-stancii/",
+    "parentCategoryId": 31
+  },
+  {
+    "categoryId": 38,
+    "categoryName": "Аккумуляторы для радиоуправляемых моделей",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyatory-dlya-radioupravlyaemyh-modelei/",
+    "parentCategoryId": 31
+  },
+  {
+    "categoryId": 39,
+    "categoryName": "Батарейки, аккумуляторы и аксессуары",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyatory-batareiki-aksessuary/",
+    "parentCategoryId": 31
+  },
+  {
+    "categoryId": 40,
+    "categoryName": "Аккумуляторы",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyatory-i-batareiki/",
+    "parentCategoryId": 39
+  },
+  {
+    "categoryId": 41,
+    "categoryName": "Батарейки",
+    "categoryUrl": "https://www.aks.ua/catalog/batareiki-lithium/",
+    "parentCategoryId": 39
+  },
+  {
+    "categoryId": 42,
+    "categoryName": "Батарейки промышленные",
+    "categoryUrl": "https://www.aks.ua/catalog/batareiki-promyshlennye/",
+    "parentCategoryId": 39
+  },
+  {
+    "categoryId": 43,
+    "categoryName": "Зарядные устройства для аккумуляторов",
+    "categoryUrl": "https://www.aks.ua/catalog/zaryadnye-ustroistva-dlya-akkumulyatorov-aa-aaa-c-d/",
+    "parentCategoryId": 39
+  },
+  {
+    "categoryId": 44,
+    "categoryName": "Корпуса (отсеки) для элементов питания",
+    "categoryUrl": "https://www.aks.ua/catalog/korpusa-otseki-dlya-lementov-pitaniya/",
+    "parentCategoryId": 39
+  },
+  {
+    "categoryId": 45,
+    "categoryName": "Электропитание",
+    "categoryUrl": "https://www.aks.ua/catalog/ustroistva-pitaniya/",
+    "parentCategoryId": 31
+  },
+  {
+    "categoryId": 46,
+    "categoryName": "Аккумуляторные батареи",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyator-dlya-lektromashin-i-motociklov/",
+    "parentCategoryId": 45
+  },
+  {
+    "categoryId": 47,
+    "categoryName": "Сетевые фильтры (удлинители)",
+    "categoryUrl": "https://www.aks.ua/catalog/setevye-filtry/",
+    "parentCategoryId": 45
+  },
+  {
+    "categoryId": 48,
+    "categoryName": "Универсальные блоки питания",
+    "categoryUrl": "https://www.aks.ua/catalog/universalnye-impulsnye-bp/",
+    "parentCategoryId": 45
+  },
+  {
+    "categoryId": 49,
+    "categoryName": "Сетевые кабели и переходники",
+    "categoryUrl": "https://www.aks.ua/catalog/setevye-adaptery/",
+    "parentCategoryId": 45
+  },
+  {
+    "categoryId": 50,
+    "categoryName": "Преобразователи напряжения",
+    "categoryUrl": "https://www.aks.ua/catalog/preobrazovatel-12-220/",
+    "parentCategoryId": 45
+  },
+  {
+    "categoryId": 51,
+    "categoryName": "Источник бесперебойного питания (ИБП)",
+    "categoryUrl": "https://www.aks.ua/catalog/istochnik-bespereboinogo-pitaniya/",
+    "parentCategoryId": 45
+  },
+  {
+    "categoryId": 52,
+    "categoryName": "Блоки питания для электротранспорта",
+    "categoryUrl": "https://www.aks.ua/catalog/bloki-pitaniya-dlya-lektrotransporta/",
+    "parentCategoryId": 45
+  },
+  {
+    "categoryId": 53,
+    "categoryName": "Элементы питания для фото и видеокамер",
+    "categoryUrl": "https://www.aks.ua/catalog/elementy-pitaniya-dlya-foto-i-videokamer/",
+    "parentCategoryId": 31
+  },
+  {
+    "categoryId": 54,
+    "categoryName": "Аккумуляторы для фотоаппаратов и видеокамер",
+    "categoryUrl": "https://www.aks.ua/catalog/akkymylatoru-dla-fotoapparatov-i-videokamer/",
+    "parentCategoryId": 53
+  },
+  {
+    "categoryId": 55,
+    "categoryName": "Батарейные блоки для фото и видеокамер",
+    "categoryUrl": "https://www.aks.ua/catalog/batareinye-bloki/",
+    "parentCategoryId": 53
+  },
+  {
+    "categoryId": 56,
+    "categoryName": "Зарядные устройства для фото и видео",
+    "categoryUrl": "https://www.aks.ua/catalog/zaryadnoe-ustroistvo-k-foto-i-video/",
+    "parentCategoryId": 53
+  },
+  {
+    "categoryId": 57,
+    "categoryName": "Аккумуляторы для электроники",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyatory-dlya-lektroniki/",
+    "parentCategoryId": 31
+  },
+  {
+    "categoryId": 58,
+    "categoryName": "Аккумуляторы для Bluetooth гарнитур",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyatori-dlya-bluetooth-garnitur/",
+    "parentCategoryId": 57
+  },
+  {
+    "categoryId": 59,
+    "categoryName": "Аккумуляторы для экшн-камер",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyatory-dlya-kshn-kamer/",
+    "parentCategoryId": 57
+  },
+  {
+    "categoryId": 60,
+    "categoryName": "Аккумуляторы к умным часам",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyatory-k-umnym-chasam/",
+    "parentCategoryId": 57
+  },
+  {
+    "categoryId": 61,
+    "categoryName": "Аккумуляторы для радиотелефонов",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyator-dlya-radiotelefonov/",
+    "parentCategoryId": 57
+  },
+  {
+    "categoryId": 62,
+    "categoryName": "Аккумуляторы для пылесоса",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyatory-dlya-pylesosa/",
+    "parentCategoryId": 57
+  },
+  {
+    "categoryId": 63,
+    "categoryName": "Чехлы для телефонов",
+    "categoryUrl": "https://www.aks.ua/catalog/chehly-dlya-mobilnyh-telefonov/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 64,
+    "categoryName": "Запчасти для телефонов и электроники",
+    "categoryUrl": "https://www.aks.ua/catalog/zapchasti-k-mobilnym-ustroistvam/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 65,
+    "categoryName": "Дисплеи и сенсора к мобильным устройствам",
+    "categoryUrl": "https://www.aks.ua/catalog/komplektuyushie-k-mobilnym-ustroistvam/",
+    "parentCategoryId": 64
+  },
+  {
+    "categoryId": 66,
+    "categoryName": "Дисплеи (экраны) для телефона",
+    "categoryUrl": "https://www.aks.ua/catalog/displei-ekrany/",
+    "parentCategoryId": 65
+  },
+  {
+    "categoryId": 67,
+    "categoryName": "Сенсорные экраны (тачскрины) для телефона",
+    "categoryUrl": "https://www.aks.ua/catalog/sensornaya-panel/",
+    "parentCategoryId": 65
+  },
+  {
+    "categoryId": 68,
+    "categoryName": "Стекла дисплея для телефона",
+    "categoryUrl": "https://www.aks.ua/catalog/steklo/",
+    "parentCategoryId": 65
+  },
+  {
+    "categoryId": 69,
+    "categoryName": "Шлейфы, динамики, разъемы и другие запчасти для мобильного телефона",
+    "categoryUrl": "https://www.aks.ua/catalog/shleyfi-dinamiki-k-mobilnym-telefonam/",
+    "parentCategoryId": 64
+  },
+  {
+    "categoryId": 70,
+    "categoryName": "Шлейфы для телефонов",
+    "categoryUrl": "https://www.aks.ua/catalog/shleif/",
+    "parentCategoryId": 69
+  },
+  {
+    "categoryId": 71,
+    "categoryName": "Нижние платы для телефона",
+    "categoryUrl": "https://www.aks.ua/catalog/shleif/tip-zapchasti/nizhnyaya-plata",
+    "parentCategoryId": 69
+  },
+  {
+    "categoryId": 72,
+    "categoryName": "Динамики для мобильных телефонов",
+    "categoryUrl": "https://www.aks.ua/catalog/dinamiki/",
+    "parentCategoryId": 69
+  },
+  {
+    "categoryId": 73,
+    "categoryName": "Камеры для мобильных телефонов",
+    "categoryUrl": "https://www.aks.ua/catalog/kamery/",
+    "parentCategoryId": 69
+  },
+  {
+    "categoryId": 74,
+    "categoryName": "Гнездо зарядки",
+    "categoryUrl": "https://www.aks.ua/catalog/razyomy/tip-zapchasti/razem-zaryadki",
+    "parentCategoryId": 69
+  },
+  {
+    "categoryId": 75,
+    "categoryName": "Коннекторы SIM-карты",
+    "categoryUrl": "https://www.aks.ua/catalog/razyomy/tip-zapchasti/razem-sim-karty",
+    "parentCategoryId": 69
+  },
+  {
+    "categoryId": 76,
+    "categoryName": "Разъемы USB Type-C",
+    "categoryUrl": "https://www.aks.ua/catalog/razyomy/tip-zapchasti/razem-usb-type-c",
+    "parentCategoryId": 69
+  },
+  {
+    "categoryId": 77,
+    "categoryName": "Разъёмы для мобильных телефонов",
+    "categoryUrl": "https://www.aks.ua/catalog/razyomy/",
+    "parentCategoryId": 69
+  },
+  {
+    "categoryId": 78,
+    "categoryName": "Вибромоторы для мобильного телефона",
+    "categoryUrl": "https://www.aks.ua/catalog/vibromotory/",
+    "parentCategoryId": 69
+  },
+  {
+    "categoryId": 79,
+    "categoryName": "Микрофоны для мобильных телефонов",
+    "categoryUrl": "https://www.aks.ua/catalog/mikrofony-microphones/",
+    "parentCategoryId": 69
+  },
+  {
+    "categoryId": 80,
+    "categoryName": "Клавиатурные модули для телефонов",
+    "categoryUrl": "https://www.aks.ua/catalog/klaviaturnye-membrany/",
+    "parentCategoryId": 69
+  },
+  {
+    "categoryId": 81,
+    "categoryName": "Антенны для телефонов",
+    "categoryUrl": "https://www.aks.ua/catalog/antennye-moduli/",
+    "parentCategoryId": 69
+  },
+  {
+    "categoryId": 82,
+    "categoryName": "Микросхемы и контроллеры для телефонов",
+    "categoryUrl": "https://www.aks.ua/catalog/mikroshemy-i-kontrollery-dlya-telefonov/",
+    "parentCategoryId": 69
+  },
+  {
+    "categoryId": 83,
+    "categoryName": "Аккумуляторы для телефонов",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyator-dlya-mobilnogo-telefona/",
+    "parentCategoryId": 69
+  },
+  {
+    "categoryId": 84,
+    "categoryName": "Корпуса и корпусные части для мобильного телефона",
+    "categoryUrl": "https://www.aks.ua/catalog/komplektuyushie-k-mobilnym-telefonam/",
+    "parentCategoryId": 64
+  },
+  {
+    "categoryId": 85,
+    "categoryName": "Корпуса для телефона",
+    "categoryUrl": "https://www.aks.ua/catalog/korpus-na-mobilnuy-telefon/",
+    "parentCategoryId": 84
+  },
+  {
+    "categoryId": 86,
+    "categoryName": "Задние крышки для телефона",
+    "categoryUrl": "https://www.aks.ua/catalog/zadnie-kryshki/",
+    "parentCategoryId": 84
+  },
+  {
+    "categoryId": 87,
+    "categoryName": "Держатели SIM-карт для телефона",
+    "categoryUrl": "https://www.aks.ua/catalog/derzhateli-kart-pamyati-i-sim/",
+    "parentCategoryId": 84
+  },
+  {
+    "categoryId": 88,
+    "categoryName": "Стекла камеры",
+    "categoryUrl": "https://www.aks.ua/catalog/stekla-kamery/",
+    "parentCategoryId": 84
+  },
+  {
+    "categoryId": 89,
+    "categoryName": "Дисплейные (корпусные) рамки",
+    "categoryUrl": "https://www.aks.ua/catalog/licevaya-panel/",
+    "parentCategoryId": 84
+  },
+  {
+    "categoryId": 90,
+    "categoryName": "Мелкие корпусные части для телефона",
+    "categoryUrl": "https://www.aks.ua/catalog/melkie-korpusnye-chasti/",
+    "parentCategoryId": 84
+  },
+  {
+    "categoryId": 91,
+    "categoryName": "Внешние кнопки и клавиатуры для телефона",
+    "categoryUrl": "https://www.aks.ua/catalog/kolpachki-na-knopku-vkl-vykl/",
+    "parentCategoryId": 84
+  },
+  {
+    "categoryId": 92,
+    "categoryName": "Винты для мобильных телефонов",
+    "categoryUrl": "https://www.aks.ua/catalog/shurupy/",
+    "parentCategoryId": 84
+  },
+  {
+    "categoryId": 93,
+    "categoryName": "Стикеры для телефонов (двухсторонний скотч)",
+    "categoryUrl": "https://www.aks.ua/catalog/stikery-dlya-telefonov-dvuhstoronnii-skotch/",
+    "parentCategoryId": 84
+  },
+  {
+    "categoryId": 94,
+    "categoryName": "Комплектующие для планшетов",
+    "categoryUrl": "https://www.aks.ua/catalog/komplektuyushie-dlya-planshetnyh-pk/",
+    "parentCategoryId": 64
+  },
+  {
+    "categoryId": 95,
+    "categoryName": "Дисплеи (экраны) для планшетов",
+    "categoryUrl": "https://www.aks.ua/catalog/displei-ekran/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 96,
+    "categoryName": "Сенсорные панели (тачскрины) для планшетов",
+    "categoryUrl": "https://www.aks.ua/catalog/sensornaya-paneli/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 97,
+    "categoryName": "Стекла дисплея для планшета",
+    "categoryUrl": "https://www.aks.ua/catalog/steklo-displeya-dlya-planshetov/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 98,
+    "categoryName": "Корпуса для планшетов",
+    "categoryUrl": "https://www.aks.ua/catalog/korpusa-planshetov/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 99,
+    "categoryName": "Держатели SIM-карт для планшетов",
+    "categoryUrl": "https://www.aks.ua/catalog/derzhateli-sim-kart-dlya-planshetov/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 100,
+    "categoryName": "Шлейфы для планшетов",
+    "categoryUrl": "https://www.aks.ua/catalog/shleify1/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 101,
+    "categoryName": "Динамики для планшетов",
+    "categoryUrl": "https://www.aks.ua/catalog/dinamiki-dlya-planshetov/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 102,
+    "categoryName": "Мелкие запчасти для планшетов",
+    "categoryUrl": "https://www.aks.ua/catalog/melkie-komplektuyushie-dlya-planshetov/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 103,
+    "categoryName": "Аккумуляторы для планшетов",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyatory-dlya-planshetov/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 104,
+    "categoryName": "Камеры для планшетов",
+    "categoryUrl": "https://www.aks.ua/catalog/kamery-dlya-planshetov/",
+    "parentCategoryId": 94
+  },
+  {
+    "categoryId": 105,
+    "categoryName": "Комплектующие для умных часов",
+    "categoryUrl": "https://www.aks.ua/catalog/komplektuyushie-dlya-umnyh-chasov/",
+    "parentCategoryId": 64
+  },
+  {
+    "categoryId": 106,
+    "categoryName": "Дисплеи (экраны) для умных часов",
+    "categoryUrl": "https://www.aks.ua/catalog/displei-dlya-umnyh-chasov/",
+    "parentCategoryId": 105
+  },
+  {
+    "categoryId": 107,
+    "categoryName": "Сенсорные экраны (тачскрины) для умных часов",
+    "categoryUrl": "https://www.aks.ua/catalog/sensora-dlya-umnyh-chasov/",
+    "parentCategoryId": 105
+  },
+  {
+    "categoryId": 108,
+    "categoryName": "Стекла дисплея для умных часов",
+    "categoryUrl": "https://www.aks.ua/catalog/stekla-displeya-dlya-umnyh-chasov/",
+    "parentCategoryId": 105
+  },
+  {
+    "categoryId": 109,
+    "categoryName": "Шлейфы для умных часов",
+    "categoryUrl": "https://www.aks.ua/catalog/shleify-dlya-umnyh-chasov/",
+    "parentCategoryId": 105
+  },
+  {
+    "categoryId": 110,
+    "categoryName": "Корпуса для умных часов",
+    "categoryUrl": "https://www.aks.ua/catalog/korpusa-dlya-umnyh-chasov/",
+    "parentCategoryId": 105
+  },
+  {
+    "categoryId": 111,
+    "categoryName": "Аккумуляторы к умным часам",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyatory-k-umnym-chasam/",
+    "parentCategoryId": 105
+  },
+  {
+    "categoryId": 112,
+    "categoryName": "Оборудование для ремонта",
+    "categoryUrl": "https://www.aks.ua/catalog/oborudovanie-dlya-remonta/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 113,
+    "categoryName": "Паяльное оборудование",
+    "categoryUrl": "https://www.aks.ua/catalog/payalnoe-oborudovanie/",
+    "parentCategoryId": 112
+  },
+  {
+    "categoryId": 114,
+    "categoryName": "Паяльная станция",
+    "categoryUrl": "https://www.aks.ua/catalog/payalnaya-stanciya/",
+    "parentCategoryId": 113
+  },
+  {
+    "categoryId": 115,
+    "categoryName": "Паяльники",
+    "categoryUrl": "https://www.aks.ua/catalog/payalnik-ruchnoi/",
+    "parentCategoryId": 113
+  },
+  {
+    "categoryId": 116,
+    "categoryName": "Дополнительное оборудование",
+    "categoryUrl": "https://www.aks.ua/catalog/vspomogatelnoe-oborudovanie/",
+    "parentCategoryId": 113
+  },
+  {
+    "categoryId": 117,
+    "categoryName": "Держатели плат (третья рука)",
+    "categoryUrl": "https://www.aks.ua/catalog/derzhateli-plat-tretya-ruka/",
+    "parentCategoryId": 113
+  },
+  {
+    "categoryId": 118,
+    "categoryName": "Аксессуары, запчасти для паяльного оборудования",
+    "categoryUrl": "https://www.aks.ua/catalog/aksessuary-zapchasti-dlya-payalnogo-oborudovaniya/",
+    "parentCategoryId": 112
+  },
+  {
+    "categoryId": 119,
+    "categoryName": "Жала и насадки для термофенов",
+    "categoryUrl": "https://www.aks.ua/catalog/zhala-dlya-payalnikov/",
+    "parentCategoryId": 118
+  },
+  {
+    "categoryId": 120,
+    "categoryName": "Запчасти для паяльного оборудования",
+    "categoryUrl": "https://www.aks.ua/catalog/zapchasti-dlya-payalnogo-oborudovaniya/",
+    "parentCategoryId": 118
+  },
+  {
+    "categoryId": 121,
+    "categoryName": "Лабораторные блоки питания",
+    "categoryUrl": "https://www.aks.ua/catalog/bloki-pitaniya/",
+    "parentCategoryId": 112
+  },
+  {
+    "categoryId": 122,
+    "categoryName": "Изоляционный материал",
+    "categoryUrl": "https://www.aks.ua/catalog/termousadochnaya-trubka-termousadka/",
+    "parentCategoryId": 112
+  },
+  {
+    "categoryId": 123,
+    "categoryName": "Ремонт дисплеев и дисплейных модулей",
+    "categoryUrl": "https://www.aks.ua/catalog/oborudovanie-dlya-remonta-displeinyh-modulei/",
+    "parentCategoryId": 112
+  },
+  {
+    "categoryId": 124,
+    "categoryName": "Сепараторы, ламинаторы, станки",
+    "categoryUrl": "https://www.aks.ua/catalog/separatory/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 125,
+    "categoryName": "Клей для телефона",
+    "categoryUrl": "https://www.aks.ua/catalog/kley/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 126,
+    "categoryName": "Скотч для ремонта телефонов",
+    "categoryUrl": "https://www.aks.ua/catalog/skotch/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 127,
+    "categoryName": "Химия и очистители",
+    "categoryUrl": "https://www.aks.ua/catalog/ochistiteli-i-drugaya-himiya/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 128,
+    "categoryName": "OCA-пленки",
+    "categoryUrl": "https://www.aks.ua/catalog/oca-plenki/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 129,
+    "categoryName": "Поляризационные пленки",
+    "categoryUrl": "https://www.aks.ua/catalog/polyarizacionnye-plenki/",
+    "parentCategoryId": 123
+  },
+  {
+    "categoryId": 130,
+    "categoryName": "Оптика",
+    "categoryUrl": "https://www.aks.ua/catalog/optisa/",
+    "parentCategoryId": 112
+  },
+  {
+    "categoryId": 131,
+    "categoryName": "Увеличительные стекла",
+    "categoryUrl": "https://www.aks.ua/catalog/lupy-i-uvelichitelnye-stekla/",
+    "parentCategoryId": 130
+  },
+  {
+    "categoryId": 132,
+    "categoryName": "Микроскопы",
+    "categoryUrl": "https://www.aks.ua/catalog/mikroskopy/",
+    "parentCategoryId": 130
+  },
+  {
+    "categoryId": 133,
+    "categoryName": "Аксессуары к оптике и микроскопам",
+    "categoryUrl": "https://www.aks.ua/catalog/aksessuary-k-optike-i-mikroskopam/",
+    "parentCategoryId": 130
+  },
+  {
+    "categoryId": 134,
+    "categoryName": "Расходные материалы",
+    "categoryUrl": "https://www.aks.ua/catalog/rashodnye/",
+    "parentCategoryId": 112
+  },
+  {
+    "categoryId": 135,
+    "categoryName": "Расходные материалы для пайки",
+    "categoryUrl": "https://www.aks.ua/catalog/rashodnye-materialy-dlya-paiki/",
+    "parentCategoryId": 134
+  },
+  {
+    "categoryId": 136,
+    "categoryName": "Припой",
+    "categoryUrl": "https://www.aks.ua/catalog/rashodnye-materialy-dlya-paiki/tip-rashodnika/pripoi",
+    "parentCategoryId": 134
+  },
+  {
+    "categoryId": 137,
+    "categoryName": "Флюс",
+    "categoryUrl": "https://www.aks.ua/catalog/rashodnye-materialy-dlya-paiki/tip-rashodnika/flyus",
+    "parentCategoryId": 134
+  },
+  {
+    "categoryId": 138,
+    "categoryName": "BGA",
+    "categoryUrl": "https://www.aks.ua/catalog/rashodnye-materialy-dlya-paiki/tip-rashodnika/bga-pasty",
+    "parentCategoryId": 134
+  },
+  {
+    "categoryId": 139,
+    "categoryName": "Ленты-оплетки",
+    "categoryUrl": "https://www.aks.ua/catalog/rashodnye-materialy-dlya-paiki/tip-rashodnika/lenty-opletki",
+    "parentCategoryId": 134
+  },
+  {
+    "categoryId": 140,
+    "categoryName": "Инструменты",
+    "categoryUrl": "https://www.aks.ua/catalog/instrumentu-dla-remonta-mobilnuh-telefonov/",
+    "parentCategoryId": 112
+  },
+  {
+    "categoryId": 141,
+    "categoryName": "Мелкий ремонтный инструмент",
+    "categoryUrl": "https://www.aks.ua/catalog/skalpeli/",
+    "parentCategoryId": 140
+  },
+  {
+    "categoryId": 142,
+    "categoryName": "Отвертки",
+    "categoryUrl": "https://www.aks.ua/catalog/otvertki/",
+    "parentCategoryId": 140
+  },
+  {
+    "categoryId": 143,
+    "categoryName": "Инструмент для ремонта телефонов",
+    "categoryUrl": "https://www.aks.ua/catalog/vspomogatelnyi-instrument/",
+    "parentCategoryId": 140
+  },
+  {
+    "categoryId": 144,
+    "categoryName": "Пинцеты",
+    "categoryUrl": "https://www.aks.ua/catalog/skalpeli/instrumenty-dlya-remonta/pincet",
+    "parentCategoryId": 140
+  },
+  {
+    "categoryId": 145,
+    "categoryName": "Режущий инструмент",
+    "categoryUrl": "https://www.aks.ua/catalog/skalpeli/instrumenty-dlya-remonta/skalpeli-lezviya-nozhi",
+    "parentCategoryId": 140
+  },
+  {
+    "categoryId": 146,
+    "categoryName": "Кусачки",
+    "categoryUrl": "https://www.aks.ua/catalog/skalpeli/instrumenty-dlya-remonta/mehanicheskii-instrument/tip-instrumenta/shipcy",
+    "parentCategoryId": 140
+  },
+  {
+    "categoryId": 147,
+    "categoryName": "Контрольно-измерительные приборы",
+    "categoryUrl": "https://www.aks.ua/catalog/izmeritelnye-pribory/",
+    "parentCategoryId": 112
+  },
+  {
+    "categoryId": 148,
+    "categoryName": "Специализированный измерительный инструмент",
+    "categoryUrl": "https://www.aks.ua/catalog/specpribory/",
+    "parentCategoryId": 147
+  },
+  {
+    "categoryId": 149,
+    "categoryName": "Мультиметры",
+    "categoryUrl": "https://www.aks.ua/catalog/multimetry/",
+    "parentCategoryId": 147
+  },
+  {
+    "categoryId": 150,
+    "categoryName": "Аксессуары и запчасти к измерительным приборам",
+    "categoryUrl": "https://www.aks.ua/catalog/aksessuary-k-izmiritelnym-priboram/",
+    "parentCategoryId": 147
+  },
+  {
+    "categoryId": 151,
+    "categoryName": "Кабельные тестеры",
+    "categoryUrl": "https://www.aks.ua/catalog/specpribory/tip-pribora/kabelnyi-tester",
+    "parentCategoryId": 147
+  },
+  {
+    "categoryId": 152,
+    "categoryName": "Кабельные инструменты",
+    "categoryUrl": "https://www.aks.ua/catalog/setevoiinstrument/",
+    "parentCategoryId": 112
+  },
+  {
+    "categoryId": 153,
+    "categoryName": "Ультразвуковые ванны (мойки)",
+    "categoryUrl": "https://www.aks.ua/catalog/ultrazvukovaya-vynna/",
+    "parentCategoryId": 112
+  },
+  {
+    "categoryId": 154,
+    "categoryName": "Компьютерная техника",
+    "categoryUrl": "https://www.aks.ua/catalog/kompyuternaya-teh-i-nositeli-informacii/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 155,
+    "categoryName": "Ноутбуки",
+    "categoryUrl": "https://www.aks.ua/catalog/notebook/",
+    "parentCategoryId": 154
+  },
+  {
+    "categoryId": 156,
+    "categoryName": "Комплектующие к ноутбукам",
+    "categoryUrl": "https://www.aks.ua/catalog/komplektuyushie-k-noutbukam/",
+    "parentCategoryId": 154
+  },
+  {
+    "categoryId": 157,
+    "categoryName": "Блок питания для ноутбука",
+    "categoryUrl": "https://www.aks.ua/catalog/zaryadnoye-ustroistvo-noutbuk/",
+    "parentCategoryId": 156
+  },
+  {
+    "categoryId": 158,
+    "categoryName": "Аккумуляторы для ноутбуков",
+    "categoryUrl": "https://www.aks.ua/catalog/akkumulyator-dlya-noutbuka/",
+    "parentCategoryId": 156
+  },
+  {
+    "categoryId": 159,
+    "categoryName": "Клавиатуры для ноутбука",
+    "categoryUrl": "https://www.aks.ua/catalog/klaviatury-dlya-noutbukov/",
+    "parentCategoryId": 156
+  },
+  {
+    "categoryId": 160,
+    "categoryName": "Наклейки на клавиатуру",
+    "categoryUrl": "https://www.aks.ua/catalog/klaviatury-dlya-noutbukov/tip/nakleiki",
+    "parentCategoryId": 156
+  },
+  {
+    "categoryId": 161,
+    "categoryName": "Матрицы для ноутбуков",
+    "categoryUrl": "https://www.aks.ua/catalog/matrici-dlya-noutbukov/",
+    "parentCategoryId": 156
+  },
+  {
+    "categoryId": 162,
+    "categoryName": "Петли для ноутбука",
+    "categoryUrl": "https://www.aks.ua/catalog/petli-dlya-noutbuka/",
+    "parentCategoryId": 156
+  },
+  {
+    "categoryId": 163,
+    "categoryName": "Шлейфы матрицы для ноутбуков",
+    "categoryUrl": "https://www.aks.ua/catalog/shleify-matricy-dlya-noutbukov/",
+    "parentCategoryId": 156
+  },
+  {
+    "categoryId": 164,
+    "categoryName": "Вентиляторы для ноутбуков",
+    "categoryUrl": "https://www.aks.ua/catalog/ventilyatory-dla-noutbukov/",
+    "parentCategoryId": 156
+  },
+  {
+    "categoryId": 165,
+    "categoryName": "Разъемы для ноутбуков",
+    "categoryUrl": "https://www.aks.ua/catalog/razemy-pitaniya-dlya-noutbukov/",
+    "parentCategoryId": 156
+  },
+  {
+    "categoryId": 166,
+    "categoryName": "Оперативная память для ноутбуков",
+    "categoryUrl": "https://www.aks.ua/catalog/operativnaya-pamyat-dlya-noutbuka/",
+    "parentCategoryId": 156
+  },
+  {
+    "categoryId": 167,
+    "categoryName": "Жесткий диск для ноутбука (HDD)",
+    "categoryUrl": "https://www.aks.ua/catalog/zhestkii-disk-dlya-noutbuka-hdd-ssd/",
+    "parentCategoryId": 156
+  },
+  {
+    "categoryId": 168,
+    "categoryName": "SSD Диски",
+    "categoryUrl": "https://www.aks.ua/catalog/nakopiteli-ssd/",
+    "parentCategoryId": 156
+  },
+  {
+    "categoryId": 169,
+    "categoryName": "Аксессуары для ноутбуков",
+    "categoryUrl": "https://www.aks.ua/catalog/aksessuary-dlya-noutbukov/",
+    "parentCategoryId": 154
+  },
+  {
+    "categoryId": 170,
+    "categoryName": "Сумки и рюкзаки для ноутбуков",
+    "categoryUrl": "https://www.aks.ua/catalog/sumka-dlya-noutbuka/",
+    "parentCategoryId": 169
+  },
+  {
+    "categoryId": 171,
+    "categoryName": "Компьютеры",
+    "categoryUrl": "https://www.aks.ua/catalog/kompyutery/",
+    "parentCategoryId": 154
+  },
+  {
+    "categoryId": 172,
+    "categoryName": "Мониторы",
+    "categoryUrl": "https://www.aks.ua/catalog/monitory/",
+    "parentCategoryId": 154
+  },
+  {
+    "categoryId": 173,
+    "categoryName": "Комплектующие для компьютеров",
+    "categoryUrl": "https://www.aks.ua/catalog/kompyuternye-komplektuyushie-arhiv/",
+    "parentCategoryId": 154
+  },
+  {
+    "categoryId": 174,
+    "categoryName": "Процессоры для компьютеров",
+    "categoryUrl": "https://www.aks.ua/catalog/processor-dlya-nastolnyh-pk/",
+    "parentCategoryId": 173
+  },
+  {
+    "categoryId": 175,
+    "categoryName": "Материнские платы для компьютеров",
+    "categoryUrl": "https://www.aks.ua/catalog/materinskie-platy/",
+    "parentCategoryId": 173
+  },
+  {
+    "categoryId": 176,
+    "categoryName": "Видеокарты для компьютеров",
+    "categoryUrl": "https://www.aks.ua/catalog/videokarta/",
+    "parentCategoryId": 173
+  },
+  {
+    "categoryId": 177,
+    "categoryName": "Жесткие диски для компьютеров (HDD)",
+    "categoryUrl": "https://www.aks.ua/catalog/zhestkyi-disk/",
+    "parentCategoryId": 173
+  },
+  {
+    "categoryId": 178,
+    "categoryName": "Накопители SSD",
+    "categoryUrl": "https://www.aks.ua/catalog/nakopiteli-ssd/",
+    "parentCategoryId": 173
+  },
+  {
+    "categoryId": 179,
+    "categoryName": "Блоки питания для компьютеров",
+    "categoryUrl": "https://www.aks.ua/catalog/bloki-pitaniya-dlya-kompyuterov/",
+    "parentCategoryId": 173
+  },
+  {
+    "categoryId": 180,
+    "categoryName": "Системы охлаждения компьютера",
+    "categoryUrl": "https://www.aks.ua/catalog/sistemy-ohlazhdeniya-kompyutera/",
+    "parentCategoryId": 173
+  },
+  {
+    "categoryId": 181,
+    "categoryName": "Оперативная память для компьютеров",
+    "categoryUrl": "https://www.aks.ua/catalog/operativnaya-pamyat/",
+    "parentCategoryId": 173
+  },
+  {
+    "categoryId": 182,
+    "categoryName": "Корпуса для ПК",
+    "categoryUrl": "https://www.aks.ua/catalog/korpusa-dlya-kompyuterov/",
+    "parentCategoryId": 173
+  },
+  {
+    "categoryId": 183,
+    "categoryName": "Термопаста",
+    "categoryUrl": "https://www.aks.ua/catalog/termopasta/",
+    "parentCategoryId": 154
+  },
+  {
+    "categoryId": 184,
+    "categoryName": "Аксессуары для ПК",
+    "categoryUrl": "https://www.aks.ua/catalog/aksessuary-dlya-pk/",
+    "parentCategoryId": 154
+  },
+  {
+    "categoryId": 185,
+    "categoryName": "Мышки",
+    "categoryUrl": "https://www.aks.ua/catalog/mysh/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 186,
+    "categoryName": "Коврики",
+    "categoryUrl": "https://www.aks.ua/catalog/kovrik/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 187,
+    "categoryName": "Клавиатуры",
+    "categoryUrl": "https://www.aks.ua/catalog/klaviaturya-kompyuternaya/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 188,
+    "categoryName": "Комплекты (клавиатура+мышка)",
+    "categoryUrl": "https://www.aks.ua/catalog/komplekt-klaviatura-mysh/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 189,
+    "categoryName": "Графические планшеты",
+    "categoryUrl": "https://www.aks.ua/catalog/graficheskiy-planshet/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 190,
+    "categoryName": "Bluetooth адаптеры",
+    "categoryUrl": "https://www.aks.ua/catalog/bluetooth-adaptery-dlya-pk/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 191,
+    "categoryName": "Игровые манипуляторы и аксессуары для консолей",
+    "categoryUrl": "https://www.aks.ua/catalog/igrovye-manipulyatory-i-aksessuary-dlya-konsolei/",
+    "parentCategoryId": 184
+  },
+  {
+    "categoryId": 192,
+    "categoryName": "Носители информации",
+    "categoryUrl": "https://www.aks.ua/catalog/nositeli-informacii/",
+    "parentCategoryId": 154
+  },
+  {
+    "categoryId": 193,
+    "categoryName": "Внешний жесткий диск",
+    "categoryUrl": "https://www.aks.ua/catalog/zhestkii-disk-vneshnii/",
+    "parentCategoryId": 192
+  },
+  {
+    "categoryId": 194,
+    "categoryName": "Флешки",
+    "categoryUrl": "https://www.aks.ua/catalog/usb-flash-nakopiteli/",
+    "parentCategoryId": 192
+  },
+  {
+    "categoryId": 195,
+    "categoryName": "Кардридеры",
+    "categoryUrl": "https://www.aks.ua/catalog/usb-card-reader/",
+    "parentCategoryId": 192
+  },
+  {
+    "categoryId": 196,
+    "categoryName": "Карманы для HDD",
+    "categoryUrl": "https://www.aks.ua/catalog/karmany-dlya-hdd/",
+    "parentCategoryId": 192
+  },
+  {
+    "categoryId": 197,
+    "categoryName": "SSD",
+    "categoryUrl": "https://www.aks.ua/catalog/nakopiteli-ssd/",
+    "parentCategoryId": 192
+  },
+  {
+    "categoryId": 198,
+    "categoryName": "Карты памяти",
+    "categoryUrl": "https://www.aks.ua/catalog/karta-pamyati/",
+    "parentCategoryId": 192
+  },
+  {
+    "categoryId": 199,
+    "categoryName": "Жесткие диски 3.5\"",
+    "categoryUrl": "https://www.aks.ua/catalog/zhestkyi-disk/",
+    "parentCategoryId": 192
+  },
+  {
+    "categoryId": 200,
+    "categoryName": "Жесткие диски 2.5\"",
+    "categoryUrl": "https://www.aks.ua/catalog/zhestkii-disk-dlya-noutbuka-hdd-ssd/",
+    "parentCategoryId": 192
+  },
+  {
+    "categoryId": 201,
+    "categoryName": "Сетевое оборудование",
+    "categoryUrl": "https://www.aks.ua/catalog/setevoe-oborudovanie/",
+    "parentCategoryId": 154
+  },
+  {
+    "categoryId": 202,
+    "categoryName": "Роутеры",
+    "categoryUrl": "https://www.aks.ua/catalog/router/",
+    "parentCategoryId": 201
+  },
+  {
+    "categoryId": 203,
+    "categoryName": "Точка доступа",
+    "categoryUrl": "https://www.aks.ua/catalog/tochka-dostupa/",
+    "parentCategoryId": 201
+  },
+  {
+    "categoryId": 204,
+    "categoryName": "Беспроводные сетевые адаптеры",
+    "categoryUrl": "https://www.aks.ua/catalog/setevaya-plata/",
+    "parentCategoryId": 201
+  },
+  {
+    "categoryId": 205,
+    "categoryName": "Коммутаторы (свитчи)",
+    "categoryUrl": "https://www.aks.ua/catalog/svitch/",
+    "parentCategoryId": 201
+  },
+  {
+    "categoryId": 206,
+    "categoryName": "Блоки питания для роутеров",
+    "categoryUrl": "https://www.aks.ua/catalog/blok-pitaniya-dlya-routera/",
+    "parentCategoryId": 201
+  },
+  {
+    "categoryId": 207,
+    "categoryName": "Пассивное сетевое оборудование",
+    "categoryUrl": "https://www.aks.ua/catalog/passivnoye-setevoye-oborudovaniye/",
+    "parentCategoryId": 201
+  },
+  {
+    "categoryId": 208,
+    "categoryName": "3G/4G Модемы и аксессуары",
+    "categoryUrl": "https://www.aks.ua/catalog/umts-cdma-modem/",
+    "parentCategoryId": 201
+  },
+  {
+    "categoryId": 209,
+    "categoryName": "Чистящие средства",
+    "categoryUrl": "https://www.aks.ua/catalog/chistyashie-salfetki/",
+    "parentCategoryId": 154
+  },
+  {
+    "categoryId": 210,
+    "categoryName": "Серверы",
+    "categoryUrl": "https://www.aks.ua/catalog/servery/",
+    "parentCategoryId": 154
+  },
+  {
+    "categoryId": 211,
+    "categoryName": "Аудио, видеотехника и аксессуары",
+    "categoryUrl": "https://www.aks.ua/catalog/tv-dvd-sputnikovoe-tv/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 212,
+    "categoryName": "Телевизоры",
+    "categoryUrl": "https://www.aks.ua/catalog/televizoru/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 213,
+    "categoryName": "Аксессуары для телевизоров",
+    "categoryUrl": "https://www.aks.ua/catalog/televizor/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 214,
+    "categoryName": "Кронштейны для телевизора",
+    "categoryUrl": "https://www.aks.ua/catalog/nastennye-krepleniya/",
+    "parentCategoryId": 213
+  },
+  {
+    "categoryId": 215,
+    "categoryName": "Ресиверы цифрового телевидения ( Тюнеры Т2 )",
+    "categoryUrl": "https://www.aks.ua/catalog/resiver/",
+    "parentCategoryId": 213
+  },
+  {
+    "categoryId": 216,
+    "categoryName": "ТВ-антенны",
+    "categoryUrl": "https://www.aks.ua/catalog/tv-antenna-dvb-t2/",
+    "parentCategoryId": 213
+  },
+  {
+    "categoryId": 217,
+    "categoryName": "Смарт приставки и аксессуары",
+    "categoryUrl": "https://www.aks.ua/catalog/mediapleery/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 218,
+    "categoryName": "Смарт приставки",
+    "categoryUrl": "https://www.aks.ua/catalog/blu-ray-pleery/",
+    "parentCategoryId": 217
+  },
+  {
+    "categoryId": 219,
+    "categoryName": "Фото и видео",
+    "categoryUrl": "https://www.aks.ua/catalog/video/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 220,
+    "categoryName": "Камеры видеонаблюдения",
+    "categoryUrl": "https://www.aks.ua/catalog/kamery-videonablyudeniya/",
+    "parentCategoryId": 219
+  },
+  {
+    "categoryId": 221,
+    "categoryName": "Аудио",
+    "categoryUrl": "https://www.aks.ua/catalog/audio/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 222,
+    "categoryName": "Наушники",
+    "categoryUrl": "https://www.aks.ua/catalog/naushniki/",
+    "parentCategoryId": 221
+  },
+  {
+    "categoryId": 223,
+    "categoryName": "Колонки",
+    "categoryUrl": "https://www.aks.ua/catalog/akustika/",
+    "parentCategoryId": 221
+  },
+  {
+    "categoryId": 224,
+    "categoryName": "Радиоприемники",
+    "categoryUrl": "https://www.aks.ua/catalog/stacionarnye-radiopriemniki/",
+    "parentCategoryId": 221
+  },
+  {
+    "categoryId": 225,
+    "categoryName": "Микрофоны",
+    "categoryUrl": "https://www.aks.ua/catalog/mikrofon/",
+    "parentCategoryId": 221
+  },
+  {
+    "categoryId": 226,
+    "categoryName": "Аксессуары для аудиотехники",
+    "categoryUrl": "https://www.aks.ua/catalog/aksessuary-dlya-audiotehniki/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 227,
+    "categoryName": "Аксессуары для акустики",
+    "categoryUrl": "https://www.aks.ua/catalog/aksessuary-dlya-akustiki/",
+    "parentCategoryId": 226
+  },
+  {
+    "categoryId": 228,
+    "categoryName": "Аксессуары для наушников и гарнитур",
+    "categoryUrl": "https://www.aks.ua/catalog/aksessuary-dlya-naushnikov-i-garnitur/",
+    "parentCategoryId": 226
+  },
+  {
+    "categoryId": 229,
+    "categoryName": "Аксессуары для автомобиля",
+    "categoryUrl": "https://www.aks.ua/catalog/aksessuary-dlya-avtomobilya/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 230,
+    "categoryName": "Пульты",
+    "categoryUrl": "https://www.aks.ua/catalog/pylt/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 231,
+    "categoryName": "Пульты для телевизоров",
+    "categoryUrl": "https://www.aks.ua/catalog/pult-tv/",
+    "parentCategoryId": 230
+  },
+  {
+    "categoryId": 232,
+    "categoryName": "Пульты для кондиционеров",
+    "categoryUrl": "https://www.aks.ua/catalog/pulty-dlya-kondicionerov/",
+    "parentCategoryId": 230
+  },
+  {
+    "categoryId": 233,
+    "categoryName": "Пульты для ТВ тюнеров",
+    "categoryUrl": "https://www.aks.ua/catalog/pult-dlya-tv-tyunera/",
+    "parentCategoryId": 230
+  },
+  {
+    "categoryId": 234,
+    "categoryName": "Пульты универсальные",
+    "categoryUrl": "https://www.aks.ua/catalog/pult-universalnyi/",
+    "parentCategoryId": 230
+  },
+  {
+    "categoryId": 235,
+    "categoryName": "Пульты VCR, DVD, AUDIO",
+    "categoryUrl": "https://www.aks.ua/catalog/pult-vcr-dvd-audio/",
+    "parentCategoryId": 230
+  },
+  {
+    "categoryId": 236,
+    "categoryName": "Чехлы для пультов",
+    "categoryUrl": "https://www.aks.ua/catalog/chehly-dlya-pultov/",
+    "parentCategoryId": 230
+  },
+  {
+    "categoryId": 237,
+    "categoryName": "Кабели, шлейфы, переходники",
+    "categoryUrl": "https://www.aks.ua/catalog/kontroller-kabel/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 238,
+    "categoryName": "Видеокабели",
+    "categoryUrl": "https://www.aks.ua/catalog/video-kabel/",
+    "parentCategoryId": 237
+  },
+  {
+    "categoryId": 239,
+    "categoryName": "Аудиокабели",
+    "categoryUrl": "https://www.aks.ua/catalog/audio-kabeli/",
+    "parentCategoryId": 237
+  },
+  {
+    "categoryId": 240,
+    "categoryName": "Интерфейсные кабели и адаптеры",
+    "categoryUrl": "https://www.aks.ua/catalog/kabel-shleif/",
+    "parentCategoryId": 237
+  },
+  {
+    "categoryId": 241,
+    "categoryName": "Концентраторы (HUB)",
+    "categoryUrl": "https://www.aks.ua/catalog/usb-hab/",
+    "parentCategoryId": 237
+  },
+  {
+    "categoryId": 242,
+    "categoryName": "Штекера (кабели) питания",
+    "categoryUrl": "https://www.aks.ua/catalog/shtekera-kabeli-pitaniya/",
+    "parentCategoryId": 237
+  },
+  {
+    "categoryId": 243,
+    "categoryName": "Кабель",
+    "categoryUrl": "https://www.aks.ua/catalog/kabel/",
+    "parentCategoryId": 237
+  },
+  {
+    "categoryId": 244,
+    "categoryName": "Спутниковое телевиденье",
+    "categoryUrl": "https://www.aks.ua/catalog/sputnikovoe-televidene/",
+    "parentCategoryId": 211
+  },
+  {
+    "categoryId": 245,
+    "categoryName": "Бытовая техника",
+    "categoryUrl": "https://www.aks.ua/catalog/bytovaya-tehnika/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 246,
+    "categoryName": "Климатическая техника",
+    "categoryUrl": "https://www.aks.ua/catalog/klimaticheskaya-tehnika/",
+    "parentCategoryId": 245
+  },
+  {
+    "categoryId": 247,
+    "categoryName": "Бойлеры",
+    "categoryUrl": "https://www.aks.ua/catalog/boyleru/",
+    "parentCategoryId": 246
+  },
+  {
+    "categoryId": 248,
+    "categoryName": "Кондиционеры",
+    "categoryUrl": "https://www.aks.ua/catalog/kondicioner-split/",
+    "parentCategoryId": 246
+  },
+  {
+    "categoryId": 249,
+    "categoryName": "Увлажнители воздуха",
+    "categoryUrl": "https://www.aks.ua/catalog/zvolozuvach-povitrya/",
+    "parentCategoryId": 246
+  },
+  {
+    "categoryId": 250,
+    "categoryName": "Очиститель воздуха",
+    "categoryUrl": "https://www.aks.ua/catalog/ochushuvach-povitrya/",
+    "parentCategoryId": 246
+  },
+  {
+    "categoryId": 251,
+    "categoryName": "Крупная бытовая техника",
+    "categoryUrl": "https://www.aks.ua/catalog/krupnaya-bytovaya-tehnika/",
+    "parentCategoryId": 245
+  },
+  {
+    "categoryId": 252,
+    "categoryName": "Холодильники",
+    "categoryUrl": "https://www.aks.ua/catalog/holodilniki/",
+    "parentCategoryId": 251
+  },
+  {
+    "categoryId": 253,
+    "categoryName": "Стиральные машины",
+    "categoryUrl": "https://www.aks.ua/catalog/pralni-mashiny/",
+    "parentCategoryId": 251
+  },
+  {
+    "categoryId": 254,
+    "categoryName": "Сушильные машины",
+    "categoryUrl": "https://www.aks.ua/catalog/sushilni-mashini/",
+    "parentCategoryId": 251
+  },
+  {
+    "categoryId": 255,
+    "categoryName": "Посудомоечные машины",
+    "categoryUrl": "https://www.aks.ua/catalog/posudomoechnye-mashiny/",
+    "parentCategoryId": 251
+  },
+  {
+    "categoryId": 256,
+    "categoryName": "Плиты",
+    "categoryUrl": "https://www.aks.ua/catalog/plity/",
+    "parentCategoryId": 251
+  },
+  {
+    "categoryId": 257,
+    "categoryName": "Уход за собой",
+    "categoryUrl": "https://www.aks.ua/catalog/dogliad-za-soboiu/",
+    "parentCategoryId": 245
+  },
+  {
+    "categoryId": 258,
+    "categoryName": "Машинки для стрижки (триммеры)",
+    "categoryUrl": "https://www.aks.ua/catalog/mashinka-dlya-strizhki/",
+    "parentCategoryId": 257
+  },
+  {
+    "categoryId": 259,
+    "categoryName": "Весы напольные",
+    "categoryUrl": "https://www.aks.ua/catalog/vesy-napolnye/",
+    "parentCategoryId": 257
+  },
+  {
+    "categoryId": 260,
+    "categoryName": "Фены",
+    "categoryUrl": "https://www.aks.ua/catalog/fen/",
+    "parentCategoryId": 257
+  },
+  {
+    "categoryId": 261,
+    "categoryName": "Техника для кухни",
+    "categoryUrl": "https://www.aks.ua/catalog/tehnika-dlya-kuhni/",
+    "parentCategoryId": 245
+  },
+  {
+    "categoryId": 262,
+    "categoryName": "Блендеры",
+    "categoryUrl": "https://www.aks.ua/catalog/blender/",
+    "parentCategoryId": 261
+  },
+  {
+    "categoryId": 263,
+    "categoryName": "Миксеры",
+    "categoryUrl": "https://www.aks.ua/catalog/mikser/",
+    "parentCategoryId": 261
+  },
+  {
+    "categoryId": 264,
+    "categoryName": "Электрочайники",
+    "categoryUrl": "https://www.aks.ua/catalog/elektrochainik/",
+    "parentCategoryId": 261
+  },
+  {
+    "categoryId": 265,
+    "categoryName": "Вафельницы",
+    "categoryUrl": "https://www.aks.ua/catalog/vafelnicy/",
+    "parentCategoryId": 261
+  },
+  {
+    "categoryId": 266,
+    "categoryName": "Весы кухонные",
+    "categoryUrl": "https://www.aks.ua/catalog/vesy-kuhonnye/",
+    "parentCategoryId": 261
+  },
+  {
+    "categoryId": 267,
+    "categoryName": "Кофеварки",
+    "categoryUrl": "https://www.aks.ua/catalog/kofevarka/",
+    "parentCategoryId": 261
+  },
+  {
+    "categoryId": 268,
+    "categoryName": "Кофемолки",
+    "categoryUrl": "https://www.aks.ua/catalog/kofemolka/",
+    "parentCategoryId": 261
+  },
+  {
+    "categoryId": 269,
+    "categoryName": "Микроволновые печи",
+    "categoryUrl": "https://www.aks.ua/catalog/mikrovolnovaya-pech/",
+    "parentCategoryId": 261
+  },
+  {
+    "categoryId": 270,
+    "categoryName": "Тостеры",
+    "categoryUrl": "https://www.aks.ua/catalog/toster/",
+    "parentCategoryId": 261
+  },
+  {
+    "categoryId": 271,
+    "categoryName": "Электроплиты",
+    "categoryUrl": "https://www.aks.ua/catalog/elektroplita/",
+    "parentCategoryId": 261
+  },
+  {
+    "categoryId": 272,
+    "categoryName": "Бутербродницы",
+    "categoryUrl": "https://www.aks.ua/catalog/buterbrodnica/",
+    "parentCategoryId": 261
+  },
+  {
+    "categoryId": 273,
+    "categoryName": "Мультиварки",
+    "categoryUrl": "https://www.aks.ua/catalog/multivarka/",
+    "parentCategoryId": 261
+  },
+  {
+    "categoryId": 274,
+    "categoryName": "Мясорубки",
+    "categoryUrl": "https://www.aks.ua/catalog/myasorubka/",
+    "parentCategoryId": 261
+  },
+  {
+    "categoryId": 275,
+    "categoryName": "Электрогрили",
+    "categoryUrl": "https://www.aks.ua/catalog/electrogrili/",
+    "parentCategoryId": 261
+  },
+  {
+    "categoryId": 276,
+    "categoryName": "Встраиваемая техника",
+    "categoryUrl": "https://www.aks.ua/catalog/vbudovana-tehnika/",
+    "parentCategoryId": 245
+  },
+  {
+    "categoryId": 277,
+    "categoryName": "Варочные поверхности",
+    "categoryUrl": "https://www.aks.ua/catalog/varochnye-poverhnosti/",
+    "parentCategoryId": 276
+  },
+  {
+    "categoryId": 278,
+    "categoryName": "Духовые шкафы",
+    "categoryUrl": "https://www.aks.ua/catalog/duhovyu-skaf/",
+    "parentCategoryId": 276
+  },
+  {
+    "categoryId": 279,
+    "categoryName": "Вытяжки",
+    "categoryUrl": "https://www.aks.ua/catalog/vytyazhki/",
+    "parentCategoryId": 276
+  },
+  {
+    "categoryId": 280,
+    "categoryName": "Уборка и уход за домом и одеждой",
+    "categoryUrl": "https://www.aks.ua/catalog/uborka-i-uhod-za-odezhdoi/",
+    "parentCategoryId": 245
+  },
+  {
+    "categoryId": 281,
+    "categoryName": "Утюги",
+    "categoryUrl": "https://www.aks.ua/catalog/prasku/",
+    "parentCategoryId": 280
+  },
+  {
+    "categoryId": 282,
+    "categoryName": "Пылесосы",
+    "categoryUrl": "https://www.aks.ua/catalog/pylososu/",
+    "parentCategoryId": 280
+  },
+  {
+    "categoryId": 283,
+    "categoryName": "Роботы-пылесосы",
+    "categoryUrl": "https://www.aks.ua/catalog/roboty-pylesosy/",
+    "parentCategoryId": 280
+  },
+  {
+    "categoryId": 284,
+    "categoryName": "Фонари и аксессуары",
+    "categoryUrl": "https://www.aks.ua/catalog/fonari-i-aksessuary/",
+    "parentCategoryId": 245
+  },
+  {
+    "categoryId": 285,
+    "categoryName": "Фонарики",
+    "categoryUrl": "https://www.aks.ua/catalog/fonar/",
+    "parentCategoryId": 284
+  },
+  {
+    "categoryId": 286,
+    "categoryName": "Аксессуары к фонарям",
+    "categoryUrl": "https://www.aks.ua/catalog/aksessuary-k-fonaryam/",
+    "parentCategoryId": 284
+  },
+  {
+    "categoryId": 287,
+    "categoryName": "Ножи и аксессуары",
+    "categoryUrl": "https://www.aks.ua/catalog/nozhi-i-aksessuary/",
+    "parentCategoryId": 245
+  },
+  {
+    "categoryId": 288,
+    "categoryName": "Ножи",
+    "categoryUrl": "https://www.aks.ua/catalog/nozhi/",
+    "parentCategoryId": 287
+  },
+  {
+    "categoryId": 289,
+    "categoryName": "Мультитулы",
+    "categoryUrl": "https://www.aks.ua/catalog/nozhi/vid/multitul",
+    "parentCategoryId": 287
+  },
+  {
+    "categoryId": 290,
+    "categoryName": "Аксессуары для ножей",
+    "categoryUrl": "https://www.aks.ua/catalog/aksessuary-dlya-nozhei/",
+    "parentCategoryId": 287
+  },
+  {
+    "categoryId": 291,
+    "categoryName": "Обогреватели",
+    "categoryUrl": "https://www.aks.ua/catalog/obogrevatel/",
+    "parentCategoryId": 245
+  },
+  {
+    "categoryId": 292,
+    "categoryName": "Электрические конвекторы",
+    "categoryUrl": "https://www.aks.ua/catalog/elektricheskie-konvektory/",
+    "parentCategoryId": 291
+  },
+  {
+    "categoryId": 293,
+    "categoryName": "Масляные обогреватели",
+    "categoryUrl": "https://www.aks.ua/catalog/obogrevateli-maslyanye/",
+    "parentCategoryId": 291
+  },
+  {
+    "categoryId": 294,
+    "categoryName": "Керамические обогреватели",
+    "categoryUrl": "https://www.aks.ua/catalog/keramicheskie-obogrevateli/",
+    "parentCategoryId": 291
+  },
+  {
+    "categoryId": 295,
+    "categoryName": "Тепловентиляторы",
+    "categoryUrl": "https://www.aks.ua/catalog/teploventilyator/",
+    "parentCategoryId": 291
+  },
+  {
+    "categoryId": 296,
+    "categoryName": "Инфракрасные обогреватели",
+    "categoryUrl": "https://www.aks.ua/catalog/obogrevateli-infrakrasnye/",
+    "parentCategoryId": 291
+  },
+  {
+    "categoryId": 297,
+    "categoryName": "Климатическая техника",
+    "categoryUrl": "https://www.aks.ua/catalog/klimaticheskaya-tehnika/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 298,
+    "categoryName": "Крупная бытовая техника",
+    "categoryUrl": "https://www.aks.ua/catalog/krupnaya-bytovaya-tehnika/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 299,
+    "categoryName": "Уход за собой",
+    "categoryUrl": "https://www.aks.ua/catalog/dogliad-za-soboiu/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 300,
+    "categoryName": "Техника для кухни",
+    "categoryUrl": "https://www.aks.ua/catalog/tehnika-dlya-kuhni/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 301,
+    "categoryName": "Встраиваемая техника",
+    "categoryUrl": "https://www.aks.ua/catalog/vbudovana-tehnika/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 302,
+    "categoryName": "Уборка и уход за домом и одеждой",
+    "categoryUrl": "https://www.aks.ua/catalog/uborka-i-uhod-za-odezhdoi/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 303,
+    "categoryName": "Фонари и аксессуары",
+    "categoryUrl": "https://www.aks.ua/catalog/fonari-i-aksessuary/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 304,
+    "categoryName": "Ножи и аксессуары",
+    "categoryUrl": "https://www.aks.ua/catalog/nozhi-i-aksessuary/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 305,
+    "categoryName": "Обогреватели",
+    "categoryUrl": "https://www.aks.ua/catalog/obogrevatel/",
+    "parentCategoryId": 296
+  },
+  {
+    "categoryId": 306,
+    "categoryName": "Ремонт и услуги",
+    "categoryUrl": "https://www.aks.ua/remont/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 307,
+    "categoryName": "Туризм, отдых и электротранспорт",
+    "categoryUrl": "https://www.aks.ua/catalog/turizm-i-otdyh/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 308,
+    "categoryName": "Электротранспорт",
+    "categoryUrl": "https://www.aks.ua/catalog/elektrotransport/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 309,
+    "categoryName": "Электросамокаты",
+    "categoryUrl": "https://www.aks.ua/catalog/elektrosamokaty/",
+    "parentCategoryId": 308
+  },
+  {
+    "categoryId": 310,
+    "categoryName": "Электроскутеры",
+    "categoryUrl": "https://www.aks.ua/catalog/elektroskutery/",
+    "parentCategoryId": 308
+  },
+  {
+    "categoryId": 311,
+    "categoryName": "Фонари",
+    "categoryUrl": "https://www.aks.ua/catalog/fonar/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 312,
+    "categoryName": "Туризм и кемпинг",
+    "categoryUrl": "https://www.aks.ua/catalog/turyzm-ta-kemping/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 313,
+    "categoryName": "Раскладные столы",
+    "categoryUrl": "https://www.aks.ua/catalog/raskladnye-stoly/",
+    "parentCategoryId": 312
+  },
+  {
+    "categoryId": 314,
+    "categoryName": "Раскладные стулья",
+    "categoryUrl": "https://www.aks.ua/catalog/raskladnye-stulya/",
+    "parentCategoryId": 312
+  },
+  {
+    "categoryId": 315,
+    "categoryName": "Раскладушки и шезлонги",
+    "categoryUrl": "https://www.aks.ua/catalog/rozkladachky-ta-shezlonhy/",
+    "parentCategoryId": 312
+  },
+  {
+    "categoryId": 316,
+    "categoryName": "Наборы для пикника и термосумки",
+    "categoryUrl": "https://www.aks.ua/catalog/nabory-dlay-piknika/",
+    "parentCategoryId": 312
+  },
+  {
+    "categoryId": 317,
+    "categoryName": "Палатки и зонты",
+    "categoryUrl": "https://www.aks.ua/catalog/palatka/",
+    "parentCategoryId": 312
+  },
+  {
+    "categoryId": 318,
+    "categoryName": "Термобелье, одежда",
+    "categoryUrl": "https://www.aks.ua/catalog/termobele-odezhda/",
+    "parentCategoryId": 312
+  },
+  {
+    "categoryId": 319,
+    "categoryName": "Рюкзаки и чехлы",
+    "categoryUrl": "https://www.aks.ua/catalog/ryukzaki/",
+    "parentCategoryId": 312
+  },
+  {
+    "categoryId": 320,
+    "categoryName": "Аксессуары для туризма",
+    "categoryUrl": "https://www.aks.ua/catalog/aksesuary-dlia-turyzmu/",
+    "parentCategoryId": 312
+  },
+  {
+    "categoryId": 321,
+    "categoryName": "Спальные мешки и коврики",
+    "categoryUrl": "https://www.aks.ua/catalog/spalnye-meshki/",
+    "parentCategoryId": 312
+  },
+  {
+    "categoryId": 322,
+    "categoryName": "Раскладные кресла",
+    "categoryUrl": "https://www.aks.ua/catalog/rozkladni-krisla/",
+    "parentCategoryId": 312
+  },
+  {
+    "categoryId": 323,
+    "categoryName": "Термос",
+    "categoryUrl": "https://www.aks.ua/catalog/termos/",
+    "parentCategoryId": 312
+  },
+  {
+    "categoryId": 324,
+    "categoryName": "Газовое оборудование",
+    "categoryUrl": "https://www.aks.ua/catalog/gazovye-plity/",
+    "parentCategoryId": 312
+  },
+  {
+    "categoryId": 325,
+    "categoryName": "Мангалы, гриль, барбекю",
+    "categoryUrl": "https://www.aks.ua/catalog/gril-barbekyu/",
+    "parentCategoryId": 312
+  },
+  {
+    "categoryId": 326,
+    "categoryName": "Ножи",
+    "categoryUrl": "https://www.aks.ua/catalog/nozhi/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 327,
+    "categoryName": "Аксессуары для ножей",
+    "categoryUrl": "https://www.aks.ua/catalog/aksessuary-dlya-nozhei/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 328,
+    "categoryName": "Запчасти для квадрокоптеров",
+    "categoryUrl": "https://www.aks.ua/catalog/kvadrokoptery/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 329,
+    "categoryName": "Зарядные устройства для электромобилей",
+    "categoryUrl": "https://www.aks.ua/catalog/zaryadnye-ustroistva-dlya-lektromobilei/",
+    "parentCategoryId": 307
+  },
+  {
+    "categoryId": 330,
+    "categoryName": "Товары для дома",
+    "categoryUrl": "https://www.aks.ua/catalog/tovary-dlya-doma/",
+    "parentCategoryId": 0
+  },
+  {
+    "categoryId": 331,
+    "categoryName": "Матрасы",
+    "categoryUrl": "https://www.aks.ua/catalog/matrazy/",
+    "parentCategoryId": 330
+  },
+  {
+    "categoryId": 332,
+    "categoryName": "Подушки",
+    "categoryUrl": "https://www.aks.ua/catalog/podushka/",
+    "parentCategoryId": 330
+  },
+  {
+    "categoryId": 333,
+    "categoryName": "Мебель",
+    "categoryUrl": "https://www.aks.ua/catalog/mebli/",
+    "parentCategoryId": 330
+  },
+  {
+    "categoryId": 334,
+    "categoryName": "Кровати",
+    "categoryUrl": "https://www.aks.ua/catalog/lizka/",
+    "parentCategoryId": 333
+  },
+  {
+    "categoryId": 335,
+    "categoryName": "Умный дом",
+    "categoryUrl": "https://www.aks.ua/catalog/umnyi-dom/",
+    "parentCategoryId": 330
+  },
+  {
+    "categoryId": 336,
+    "categoryName": "Подарки",
+    "categoryUrl": "https://www.aks.ua/catalog/podarki/",
+    "parentCategoryId": 330
+  },
+  {
+    "categoryId": 337,
+    "categoryName": "Часы",
+    "categoryUrl": "https://www.aks.ua/catalog/nastennye-chasy/",
+    "parentCategoryId": 330
+  },
+  {
+    "categoryId": 338,
+    "categoryName": "Освещение",
+    "categoryUrl": "https://www.aks.ua/catalog/osveshenie/",
+    "parentCategoryId": 330
+  },
+  {
+    "categoryId": 339,
+    "categoryName": "Гирлянда",
+    "categoryUrl": "https://www.aks.ua/catalog/girlyanda/",
+    "parentCategoryId": 330
+  },
+  {
+    "categoryId": 340,
+    "categoryName": "Аксессуары для AirTag",
+    "categoryUrl": "https://www.aks.ua/catalog/aksessuary-dlya-airtag/",
+    "parentCategoryId": 330
+  },
+  {
+    "categoryId": 341,
+    "categoryName": "Чехлы-брелки",
+    "categoryUrl": "https://www.aks.ua/catalog/chehly-brelki/",
+    "parentCategoryId": 340
+  },
+  {
+    "categoryId": 342,
+    "categoryName": "Кабельные наконечники",
+    "categoryUrl": "https://www.aks.ua/catalog/kabelnye-nakonechniki/",
+    "parentCategoryId": 330
+  },
+  {
+    "categoryId": 343,
+    "categoryName": "Товары первой необходимости",
+    "categoryUrl": "https://www.aks.ua/catalog/tovarov-pervoi-neobhodimosti/",
+    "parentCategoryId": 330
+  },
+  {
+    "categoryId": 344,
+    "categoryName": "Генераторы",
+    "categoryUrl": "https://www.aks.ua/catalog/generatory/",
+    "parentCategoryId": 330
+  },
+  {
+    "categoryId": 345,
+    "categoryName": "Разное",
+    "categoryUrl": "https://www.aks.ua/catalog/raznoe/",
+    "parentCategoryId": 330
+  },
+  {
+    "categoryId": 346,
+    "categoryName": "Все категории",
+    "categoryUrl": "https://www.aks.ua/sitemap.html",
+    "parentCategoryId": 0
+  }
+]
