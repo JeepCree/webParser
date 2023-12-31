@@ -12,7 +12,7 @@ public class RunAllProduct {public static void main(String[] args) throws IOExce
     sps.setName("div.component_product_list_info_right > a");
     sps.setArticle("span.component_product_list_product-info_item.info-id > span");
     sps.setLink("div.component_product_list_info_right > a");
-    sps.setImageLink("div.component_product_list_info > div.component_product_list_image-container > a > picture > img");
+    sps.setImageLink("div.component_product_list_info > div.component_product_list_image-container > a");
     sps.setStock("div.component_product_list_in-stock.type-2 > div > ul");
     sps.setPrice("div.-current.-red");
     sps.setHref("href");
