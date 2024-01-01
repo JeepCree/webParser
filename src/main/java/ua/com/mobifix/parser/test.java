@@ -28,6 +28,7 @@ public class test {
         array[0] = "Значение1";
         array[1] = "Значение2";
 
+
         // Создаем список (List) массивов и добавляем в него наш массив
         List<String[]> listOfArrays = new ArrayList<>();
         listOfArrays.add(array);
