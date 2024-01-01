@@ -174,7 +174,7 @@ public class CategoryParser {
             e.printStackTrace();
         }
 //        System.out.println("\nКонец отработки модуля -> return categoryList\n");
-        try (FileWriter writer = new FileWriter("C:\\Users\\dima2\\IdeaProjects\\webParser\\src\\main\\resources\\data\\" + settings.getShopName() + "_categories.json")) {
+        try (FileWriter writer = new FileWriter("..\\webParser\\src\\main\\resources\\data\\categories\\" + settings.getShopName() + "_categories.json")) {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
             gson.toJson(categoryList, writer);
         } catch (IOException e) {

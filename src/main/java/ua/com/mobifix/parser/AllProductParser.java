@@ -18,7 +18,7 @@ public class AllProductParser {
     List<AllScanProduct> productList = new ArrayList<>();
 
     public void saveList(List<AllScanProduct> productList, ScanProductSettings settings){
-        try (FileWriter writer = new FileWriter("..\\webParser\\src\\main\\resources\\data\\" + settings.getScanUrl().replace("/", "-").replace(":", "") + "products.json")) {
+        try (FileWriter writer = new FileWriter("..\\webParser\\src\\main\\resources\\data\\products\\" + settings.getScanUrl().replace("/", "-").replace(":", "") + "products.json")) {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
             gson.toJson(productList, writer);
@@ -42,8 +42,12 @@ public class AllProductParser {
                     .execute();
             int statusCode = response.statusCode();
             if (statusCode >= 300 && statusCode < 400){
-                saveList(productList, settings);
-                return false;
+                if (productList.size() != 0) {
+                    saveList(productList, settings);
+                    return false;
+                } else {
+                    return false;
+                }
             } else {
                 Document page = Jsoup.connect(url)
                         .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
@@ -51,6 +55,7 @@ public class AllProductParser {
 //                        .proxy("78.46.210.112", 80)
                         .get();
                 Elements elements = page.select(settings.getProductCart());
+                System.out.println(elements.size());
                 for (Element element : elements){
                     AllScanProduct asp = new AllScanProduct();
                     String name = element.select(settings.getName()).text();
@@ -63,21 +68,29 @@ public class AllProductParser {
                     if (stock.equals("")){
                         stock = "-";
                     }
-                    asp.setArticle(article);
-                    asp.setName(name);
-                    asp.setLink(productUrl);
-                    asp.setImageLink(imageLink);
-                    asp.setStock(stock);
-                    asp.setPrice(price);
-                    productList.add(asp);
+                    if (!article.equals("")){
+                        asp.setArticle(article);
+                        asp.setName(name);
+                        asp.setLink(productUrl);
+                        asp.setImageLink(imageLink);
+                        asp.setStock(stock);
+                        asp.setPrice(price);
+                        productList.add(asp);
 
-                    System.out.println(article);
+//                    System.out.println(article);
                     System.out.println(name);
-                    System.out.println(productUrl);
-                    System.out.println(imageLink);
-                    System.out.println(stock);
-                    System.out.println(price);
-                    System.out.println("\n");
+//                    System.out.println(productUrl);
+//                    System.out.println(imageLink);
+//                    System.out.println(stock);
+//                    System.out.println(price);
+//                    System.out.println("\n");
+                    } else {
+                        return false;
+                    }
+
+
+
+
                 }
                 return true;
             }

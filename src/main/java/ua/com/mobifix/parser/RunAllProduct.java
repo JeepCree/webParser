@@ -6,8 +6,11 @@ import java.util.Map;
 
 public class RunAllProduct {public static void main(String[] args) throws IOException {
     ScanProductSettings sps = new ScanProductSettings();
+    AllProductParser app = new AllProductParser();
+
     Map<String, String> cookies = new HashMap<>();
     cookies.put("auth", "F98JfjM3DF%2BVMLtW7J6XJQ4cog1s%2Fypdp9%2BRQtnVRaVzL5Iyq9NI3jAIal4lYLLgqYy2B7gx5ThqIUPJrEbMrw");
+
     sps.setCookies(cookies);
     sps.setName("div.component_product_list_info_right > a");
     sps.setArticle("span.component_product_list_product-info_item.info-id > span");
@@ -19,11 +22,11 @@ public class RunAllProduct {public static void main(String[] args) throws IOExce
     sps.setSrc("src");
     sps.setPrefix("https://all-spares.ua");
     sps.setProductCart("div.row.d-flex.product-cards-wrapper > div > div > div");
-    sps.setScanUrl("https://all-spares.ua/ru/spares/connectors/charge-connectors/");
-    sps.setPagination("?page=");
+    sps.setScanUrl("https://all-spares.ua/ru/accessories/cases/");
+    sps.setPagination("?ipp=192&page=");
     sps.setReplacePrice(" ₴");
     sps.setReplacementPrice("");
-    AllProductParser app = new AllProductParser();
+
 
     int num = 1;
     while (app.getProduct(sps, num)){
