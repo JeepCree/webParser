@@ -29,6 +29,11 @@ public class RunAllProduct {public static void main(String[] args) throws IOExce
     while (app.getProduct(sps, num)){
 //        System.out.println(num);
         num++;
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
 }

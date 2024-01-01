@@ -18,7 +18,7 @@ public class AllProductParser {
     List<AllScanProduct> productList = new ArrayList<>();
 
     public void saveList(List<AllScanProduct> productList, ScanProductSettings settings){
-        try (FileWriter writer = new FileWriter("C:\\Users\\dima2\\IdeaProjects\\webParser\\src\\main\\resources\\data\\products\\" + settings.getScanUrl().replace("/", "-").replace(":", "") + "products.json")) {
+        try (FileWriter writer = new FileWriter("..\\webParser\\src\\main\\resources\\data\\" + settings.getScanUrl().replace("/", "-").replace(":", "") + "products.json")) {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
             gson.toJson(productList, writer);
