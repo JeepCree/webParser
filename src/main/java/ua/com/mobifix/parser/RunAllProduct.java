@@ -22,7 +22,7 @@ public class RunAllProduct {public static void main(String[] args) throws IOExce
     sps.setSrc("src");
     sps.setPrefix("https://all-spares.ua");
     sps.setProductCart("div.row.d-flex.product-cards-wrapper > div > div > div");
-    sps.setScanUrl("https://all-spares.ua/ru/accessories/cases/");
+    sps.setScanUrl("https://all-spares.ua/ru/spares/housing-and-accessories-for-them/touchscreen-double-side-adhesive-tapes/");
     sps.setPagination("?ipp=192&page=");
     sps.setReplacePrice(" ₴");
     sps.setReplacementPrice("");
@@ -30,7 +30,6 @@ public class RunAllProduct {public static void main(String[] args) throws IOExce
 
     int num = 1;
     while (app.getProduct(sps, num)){
-//        System.out.println(num);
         num++;
         try {
             Thread.sleep(1000);
