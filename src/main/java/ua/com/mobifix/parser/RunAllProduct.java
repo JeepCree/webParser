@@ -22,14 +22,14 @@ public class RunAllProduct {public static void main(String[] args) throws IOExce
     sps.setSrc("src");
     sps.setPrefix("https://all-spares.ua");
     sps.setProductCart("div.row.d-flex.product-cards-wrapper > div > div > div");
-    sps.setScanUrl("https://all-spares.ua/ru/spares/housing-and-accessories-for-them/touchscreen-double-side-adhesive-tapes/");
+    sps.setScanUrl("https://all-spares.ua/ru/spares/ics-and-processor/emi-filters/");
     sps.setPagination("?ipp=192&page=");
     sps.setReplacePrice(" ₴");
     sps.setReplacementPrice("");
 
 
     int num = 1;
-    while (app.getProduct(sps, num)){
+    while (app.getProducts(sps, num)){
         num++;
         try {
             Thread.sleep(1000);

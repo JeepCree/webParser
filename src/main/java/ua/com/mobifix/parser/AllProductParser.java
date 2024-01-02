@@ -27,7 +27,8 @@ public class AllProductParser {
             e.printStackTrace();
         }
     }
-    public boolean getProduct(ScanProductSettings settings, int num){
+
+    public boolean getProducts(ScanProductSettings settings, int num){
         String url = settings.getScanUrl() + settings.getPagination() + num;
 
 
