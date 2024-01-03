@@ -42,7 +42,8 @@ public class AllProductParser {
                     .followRedirects(false)
                     .execute();
             int statusCode = response.statusCode();
-            if (statusCode >= 300 && statusCode < 400){
+            System.out.println(statusCode);
+            if (statusCode >= 300 && statusCode < 400 || statusCode == 404){
                 if (productList.size() != 0) {
                     saveList(productList, settings);
                     return false;
@@ -56,7 +57,6 @@ public class AllProductParser {
 //                        .proxy("78.46.210.112", 80)
                         .get();
                 Elements elements = page.select(settings.getProductCart());
-                System.out.println(elements.size());
                 for (Element element : elements){
                     AllScanProduct asp = new AllScanProduct();
                     String name = element.select(settings.getName()).text();

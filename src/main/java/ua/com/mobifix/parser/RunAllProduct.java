@@ -22,7 +22,7 @@ public class RunAllProduct {public static void main(String[] args) throws IOExce
     sps.setSrc("src");
     sps.setPrefix("https://all-spares.ua");
     sps.setProductCart("div.row.d-flex.product-cards-wrapper > div > div > div");
-    sps.setScanUrl("https://all-spares.ua/ru/spares/ics-and-processor/emi-filters/");
+    sps.setScanUrl("https://monkeyfix.com.ua/dyplei/1111/filter/page=20/");
     sps.setPagination("?ipp=192&page=");
     sps.setReplacePrice(" ₴");
     sps.setReplacementPrice("");
