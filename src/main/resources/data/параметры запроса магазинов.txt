@@ -1,21 +1,26 @@
 https://all-spares.ua/uk/spares/lcds/?ipp=192&page=2&sort=name-A-Z
 https://www.aks.ua/uk/catalog/mobilnye-telefony/sort/name/page/2
-
 PROM.UA
 {
 	https://mobileparts.com.ua/ua/g6682268-displei-tachskriny-dlya/page_2?product_items_per_page=48&sort=position
 	https://flat-cable.in.ua/g12870833-displei-ekrany-xiaomi/page_2?product_items_per_page=48&sort=position
 	https://mobile112.in.ua/ua/g125435662-displei/page_2?product_items_per_page=48&sort=position
 }
-
 https://gsm-komplekt.ua/category/zapchasti-dlja-xiaomi/page-2/n-120/orderby-name/orderway-asc
 https://vseplus.com/product/mobilnye-telefony/7-displei/p-200?s=rating
-
 https://ekran.store/zapchastyny-dlia-telefoniv-ta-planshetiv/filter/page=3;sort_title=ASC/
-https://monkeyfix.com.ua/dyplei/1111/filter/page=3;sort_title=ASC/
-https://ddkua.com.ua/zaryadni-pristroi/filter/page=2;sort_title=ASC/
-https://acpointt.com.ua/katalog/search/filter/page=2;sort_title=ASC/
-https://rozetka.com.ua/zapchasti-dlya-telefonov/c4650580/page=4;sort=rank/
+https://monkeyfix.com.ua/dyplei/1111/filter/page=3;sort_title=ASC/ {JavaScript}
+{
+https://ddkua.com.ua/zaryadni-pristroi/filter/page=2;sort_title=ASC/ {ошибка 404, а не переадресация)
+https://ddkua.com.ua/trimachi-dlya-telefoniv/filter/page=2/
+}
+https://acpointt.com.ua/katalog/search/filter/page=2;sort_title=ASC/ {ошибка 404, а не переадресация)
+
+
 https://fixup.ua/uk/zapchasti-dlja-telefonov?page=3&limit=2000&sort=pd.name-ASC
 https://mobline.com.ua/catalog/zapchasti?sort=name&page=5
 https://ukr-mobil.com/zapchasti_dlya_telefonov_10000086/displei_10000117/xiaomi_10000147?page=4
+https://rozetka.com.ua/zapchasti-dlya-telefonov/c4650580/page=4;sort=rank/
+
+
+body > main > div > div.section.layout-box__catalog.catalog-line.test
