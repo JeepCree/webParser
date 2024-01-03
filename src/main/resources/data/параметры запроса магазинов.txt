@@ -23,4 +23,4 @@ https://ukr-mobil.com/zapchasti_dlya_telefonov_10000086/displei_10000117/xiaomi_
 https://rozetka.com.ua/zapchasti-dlya-telefonov/c4650580/page=4;sort=rank/
 
 
-body > main > div > div.section.layout-box__catalog.catalog-line.test
+#product-list > div.uk-position-relative.uk-container.uk-margin-medium.uk-margin-medium-top > div:nth-child(1)

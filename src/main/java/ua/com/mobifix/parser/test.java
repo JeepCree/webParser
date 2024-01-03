@@ -15,10 +15,10 @@ import java.util.Map;
 
 public class test {
     public static void main(String[] args) {
-            int i = 1;
+            int i = 900;
             boolean bool = true;
-            String url = "https://ukr-mobil.com/zapchasti_dlya_telefonov_10000086/displei_10000117/xiaomi_10000147?page=";
-            String select = "div.section.layout-box__catalog.catalog-line.test";
+            String url = "https://www.mobilife.com.ua/category/cat1930-Telefoniya_remonthtml?page=";
+            String select = "div.uk-position-relative.uk-container.uk-margin-medium.uk-margin-medium-top";
             while (bool){
                 try {
                     String page = Jsoup.connect( url + i + "/")
