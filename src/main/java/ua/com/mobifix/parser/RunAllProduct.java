@@ -4,7 +4,8 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RunAllProduct {public static void main(String[] args) throws IOException {
+public class RunAllProduct {
+    public static void main(String[] args) throws IOException {
     ScanProductSettings sps = new ScanProductSettings();
     AllProductParser app = new AllProductParser();
 
@@ -29,13 +30,6 @@ public class RunAllProduct {public static void main(String[] args) throws IOExce
 
 
     int num = 1;
-    while (app.getProducts(sps, num)){
-        num++;
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+   app.getProducts(sps, num);
     }
-}
 }

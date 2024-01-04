@@ -18,9 +18,11 @@ public class AllProductParser {
     List<AllScanProduct> productList = new ArrayList<>();
 
     public void saveList(List<AllScanProduct> productList, ScanProductSettings settings){
-        try (FileWriter writer = new FileWriter("..\\webParser\\src\\main\\resources\\data\\products\\" + settings.getScanUrl().replace("/", "-").replace(":", "") + "products.json")) {
+        try (FileWriter writer = new FileWriter("..\\webParser\\src\\main\\resources\\data\\products\\" + settings
+                .getScanUrl()
+                .replace("/", "-")
+                .replace(":", "") + "products.json")) {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
-
             gson.toJson(productList, writer);
             System.out.println(productList.size());
         } catch (IOException e) {
@@ -28,36 +30,31 @@ public class AllProductParser {
         }
     }
 
-    public boolean getProducts(ScanProductSettings settings, int num){
-        String url = settings.getScanUrl() + settings.getPagination() + num;
+    public boolean getProducts(ScanProductSettings settings, int num) {
+        String url = settings.getScanUrl() + settings.getPagination();
 
 
         Map<String, String> cookies = settings.getCookies();
         if (cookies == null) {
             cookies.put("noName", "noValue");
         }
-        Connection.Response response = null;
-        try {
-            response = Jsoup.connect(url)
-                    .followRedirects(false)
-                    .execute();
-            int statusCode = response.statusCode();
-            System.out.println(statusCode);
-            if (statusCode >= 300 && statusCode < 400 || statusCode == 404){
-                if (productList.size() != 0) {
-                    saveList(productList, settings);
-                    return false;
-                } else {
-                    return false;
-                }
-            } else {
-                Document page = Jsoup.connect(url)
-                        .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-                        .cookies(cookies)
-//                        .proxy("78.46.210.112", 80)
+
+        boolean bool = true;
+        String selected = "div.uk-position-relative.uk-container.uk-margin-medium.uk-margin-medium-top";
+        while (bool) {
+            try {
+                String page = Jsoup.connect(url  + num + "/")
+                        .get()
+                        .select(selected).text();
+                String newPage = Jsoup.connect(url + (num + 1) + "/")
+                        .get()
+                        .select(selected).text();
+                Document scanPage = Jsoup.connect(url  + num + "/")
                         .get();
-                Elements elements = page.select(settings.getProductCart());
-                for (Element element : elements){
+                System.out.println("Сканируем страницу " + num);
+                //вставка
+                Elements elements = scanPage.select(settings.getProductCart());
+                for (Element element : elements) {
                     AllScanProduct asp = new AllScanProduct();
                     String name = element.select(settings.getName()).text();
                     String article = element.select(settings.getArticle()).text();
@@ -66,10 +63,10 @@ public class AllProductParser {
                     String price = element.select(settings.getPrice()).text()
                             .replace(settings.getReplacePrice(), settings.getReplacementPrice());
                     String imageLink = element.select(settings.getImageLink()).attr(settings.getSrc());
-                    if (stock.equals("")){
+                    if (stock.equals("")) {
                         stock = "-";
                     }
-                    if (!article.equals("")){
+                    if (!article.equals("")) {
                         asp.setArticle(article);
                         asp.setName(name);
                         asp.setLink(productUrl);
@@ -79,7 +76,7 @@ public class AllProductParser {
                         productList.add(asp);
 
 //                    System.out.println(article);
-                    System.out.println(name);
+                        System.out.println(name);
 //                    System.out.println(productUrl);
 //                    System.out.println(imageLink);
 //                    System.out.println(stock);
@@ -88,18 +85,35 @@ public class AllProductParser {
                     } else {
                         return false;
                     }
-
-
-
-
                 }
-                return true;
+
+                //конец вставка
+
+                bool = !page.equals(newPage);
+//                    System.out.println(!page.equals(newPage) + " " + i);
+                num++;
+            } catch (IOException e) {
+                if (e instanceof org.jsoup.HttpStatusException) {
+                    org.jsoup.HttpStatusException httpStatusException = (org.jsoup.HttpStatusException) e;
+                    int statusCode = httpStatusException.getStatusCode();
+                    if (statusCode == 404) {
+                        System.out.println("Страница не найдена (ошибка 404).");
+                        bool = false; // Устанавливаем флаг в false, чтобы завершить цикл
+                    } else {
+                        System.out.println("Другая ошибка HTTP: " + statusCode);
+                    }
+                } else {
+                    System.out.println("Ошибка сканирования. Посторное сканирование страницы...");
+                    try {
+                        Thread.sleep(1000);
+                    } catch (Exception ex) {
+                        System.out.println("ошибка Thread.sleep(1000);");
+                    }
+                }
             }
-
-        } catch (IOException e) {
-            throw new RuntimeException(e);
         }
-
-
+        saveList(productList, settings);
+        System.out.println("Конец сканирования!");
+        return bool;
     }
 }
