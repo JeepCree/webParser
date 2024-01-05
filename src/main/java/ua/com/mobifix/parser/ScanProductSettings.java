@@ -18,10 +18,19 @@ public class ScanProductSettings {
     private String pagination;
     private String parameter;
     private String scanUrl;
-    private String prefix;
+    private String linkPrefix;
+    private String imagePrefix;
     private String replacePrice;
     private String replacementPrice;
     private Map cookies;
+
+    public String getImagePrefix() {
+        return imagePrefix;
+    }
+
+    public void setImagePrefix(String imagePrefix) {
+        this.imagePrefix = imagePrefix;
+    }
 
     public String getParameter() {
         return parameter;
@@ -87,12 +96,12 @@ public class ScanProductSettings {
         this.productCart = productCart;
     }
 
-    public String getPrefix() {
-        return prefix;
+    public String getLinkPrefix() {
+        return linkPrefix;
     }
 
-    public void setPrefix(String prefix) {
-        this.prefix = prefix;
+    public void setLinkPrefix(String linkPrefix) {
+        this.linkPrefix = linkPrefix;
     }
 
     public String getHref() {

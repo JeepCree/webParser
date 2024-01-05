@@ -2,7 +2,6 @@ package ua.com.mobifix.parser;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -43,31 +42,33 @@ public class AllProductParser {
         while (bool) {
             try {
                 System.out.println(url + settings.getParameter() + settings.getPagination() + num);
-                String page = Jsoup.connect(url + settings.getParameter() + settings.getPagination() + num)
+                String page = Jsoup.connect(url  + settings.getPagination() + num+ settings.getParameter())
                         .get()
                         .select(settings.getProductListCart()).text();
 
-                String newPage = Jsoup.connect(url + settings.getParameter() + settings.getPagination() + (num + 1))
+                String newPage = Jsoup.connect(url + settings.getPagination() + (num + 1) + settings.getParameter())
                         .get()
                         .select(settings.getProductListCart()).text();
-                Document scanPage = Jsoup.connect(url + settings.getParameter() + settings.getPagination() + num)
+                Document scanPage = Jsoup.connect(url + settings.getPagination() + num + settings.getParameter())
+                        .cookies(settings.getCookies())
                         .get();
                 System.out.println("Сканируем страницу " + num);
                 //вставка
                 Elements elements = scanPage.select(settings.getProductCart());
+                System.out.println(elements.size());
                 for (Element element : elements) {
                     AllScanProduct asp = new AllScanProduct();
                     String name = element.select(settings.getName()).text();
                     String article = element.select(settings.getArticle()).text();
-                    String productUrl = settings.getPrefix() + element.select(settings.getLink()).attr(settings.getHref());
+                    String productUrl = settings.getLinkPrefix() + element.select(settings.getLink()).attr(settings.getHref());
                     String stock = element.select(settings.getStock()).text();
                     String price = element.select(settings.getPrice()).text()
                             .replace(settings.getReplacePrice(), settings.getReplacementPrice());
-                    String imageLink = element.select(settings.getImageLink()).attr(settings.getSrc());
-                    if (stock.equals("")) {
-                        stock = "-";
-                    }
-                    if (!article.equals("")) {
+                    String imageLink = settings.getImagePrefix() + element.select(settings.getImageLink()).attr(settings.getSrc());
+//                    if (stock.equals("")) {
+//                        stock = "-";
+//                    }
+//                    if (!article.equals("")) {
                         asp.setArticle(article);
                         asp.setName(name);
                         asp.setLink(productUrl);
@@ -83,9 +84,9 @@ public class AllProductParser {
                     System.out.println(stock);
                     System.out.println(price);
                     System.out.println("\n");
-                    } else {
-                        return false;
-                    }
+//                    } else {
+//                        return false;
+//                    }
                 }
 
                 //конец вставка
