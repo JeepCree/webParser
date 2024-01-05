@@ -3,7 +3,7 @@ package ua.com.mobifix.parser;
 import java.util.Map;
 
 public class ScanProductSettings {
-    private String pagination;
+
     private String article;
     private String name;
     private String price;
@@ -13,14 +13,31 @@ public class ScanProductSettings {
     private String href;
     private String src;
     private String imageLink;
-
-    private String prefix;
     private String productCart;
+    private String productListCart;
+    private String pagination;
+    private String parameter;
     private String scanUrl;
+    private String prefix;
     private String replacePrice;
     private String replacementPrice;
     private Map cookies;
 
+    public String getParameter() {
+        return parameter;
+    }
+
+    public void setParameter(String parameter) {
+        this.parameter = parameter;
+    }
+
+    public String getProductListCart() {
+        return productListCart;
+    }
+
+    public void setProductListCart(String productListCart) {
+        this.productListCart = productListCart;
+    }
 
     public String getImageLink() {
         return imageLink;

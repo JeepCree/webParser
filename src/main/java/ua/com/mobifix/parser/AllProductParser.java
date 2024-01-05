@@ -31,7 +31,7 @@ public class AllProductParser {
     }
 
     public boolean getProducts(ScanProductSettings settings, int num) {
-        String url = settings.getScanUrl() + settings.getPagination();
+        String url = settings.getScanUrl();
 
 
         Map<String, String> cookies = settings.getCookies();
@@ -40,16 +40,17 @@ public class AllProductParser {
         }
 
         boolean bool = true;
-        String selected = "div.uk-position-relative.uk-container.uk-margin-medium.uk-margin-medium-top";
         while (bool) {
             try {
-                String page = Jsoup.connect(url  + num + "/")
+                System.out.println(url + settings.getParameter() + settings.getPagination() + num);
+                String page = Jsoup.connect(url + settings.getParameter() + settings.getPagination() + num)
                         .get()
-                        .select(selected).text();
-                String newPage = Jsoup.connect(url + (num + 1) + "/")
+                        .select(settings.getProductListCart()).text();
+
+                String newPage = Jsoup.connect(url + settings.getParameter() + settings.getPagination() + (num + 1))
                         .get()
-                        .select(selected).text();
-                Document scanPage = Jsoup.connect(url  + num + "/")
+                        .select(settings.getProductListCart()).text();
+                Document scanPage = Jsoup.connect(url + settings.getParameter() + settings.getPagination() + num)
                         .get();
                 System.out.println("Сканируем страницу " + num);
                 //вставка
@@ -75,13 +76,13 @@ public class AllProductParser {
                         asp.setPrice(price);
                         productList.add(asp);
 
-//                    System.out.println(article);
-                        System.out.println(name);
-//                    System.out.println(productUrl);
-//                    System.out.println(imageLink);
-//                    System.out.println(stock);
-//                    System.out.println(price);
-//                    System.out.println("\n");
+                    System.out.println(article);
+                    System.out.println(name);
+                    System.out.println(productUrl);
+                    System.out.println(imageLink);
+                    System.out.println(stock);
+                    System.out.println(price);
+                    System.out.println("\n");
                     } else {
                         return false;
                     }
@@ -103,7 +104,7 @@ public class AllProductParser {
                         System.out.println("Другая ошибка HTTP: " + statusCode);
                     }
                 } else {
-                    System.out.println("Ошибка сканирования. Посторное сканирование страницы...");
+                    System.out.println("Ошибка сканирования. Повторное сканирование страницы...");
                     try {
                         Thread.sleep(1000);
                     } catch (Exception ex) {

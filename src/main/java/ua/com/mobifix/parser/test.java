@@ -15,6 +15,12 @@ import java.util.Map;
 
 public class test {
     public static void main(String[] args) {
+        try {
+            Document doc = Jsoup.connect("https://www.aks.ua/uk/catalog/mobilnye-telefony/page/2").get();
+            System.out.println(doc);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
     }
 }
