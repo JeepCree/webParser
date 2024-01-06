@@ -16,7 +16,7 @@ import java.util.Map;
 public class AllProductParser {
     List<AllScanProduct> productList = new ArrayList<>();
 
-    public void saveList(List<AllScanProduct> productList, ScanProductSettings settings) {
+    public void saveList(List<AllScanProduct> productList, ScanProductsSettings settings) {
         try (FileWriter writer = new FileWriter("..\\webParser\\src\\main\\resources\\data\\products\\" + settings
                 .getScanUrl()
                 .replace("/", "-")
@@ -29,7 +29,7 @@ public class AllProductParser {
         }
     }
 
-    public boolean getProducts(ScanProductSettings settings, int num) {
+    public boolean getProducts(ScanProductsSettings settings, int num) {
         String url = settings.getScanUrl();
 
 

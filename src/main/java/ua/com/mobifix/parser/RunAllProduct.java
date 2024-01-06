@@ -1,14 +1,17 @@
 package ua.com.mobifix.parser;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class RunAllProduct {
     public static void main(String[] args) throws IOException {
-    ScanProductSettings sps = new ScanProductSettings();
+    ScanProductsSettings sps = new ScanProductsSettings();
     AllProductParser app = new AllProductParser();
     Map<String, String> cookies = new HashMap<>();
     ArrayList<ReplaceString> replaceArticleStringList = new ArrayList();
@@ -141,6 +144,14 @@ public class RunAllProduct {
 //        sps.setReplacePrice("₴");
 //        sps.setReplacementPrice("");
 
+        try (FileWriter writer = new FileWriter("..\\webParser\\src\\main\\resources\\data\\settings\\" + sps.getLinkPrefix()
+                .replace("/", "-")
+                .replace(":", "") + "_settings.json")) {
+            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+            gson.toJson(sps, writer);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     int num = 15;
    app.getProducts(sps, num);
     }

@@ -3,7 +3,7 @@ package ua.com.mobifix.parser;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Run {
+public class RunCategory {
     public static void main(String[] args) {
         ScanCategorySettings settings = new ScanCategorySettings();
         CategoryParser parser = new CategoryParser();
