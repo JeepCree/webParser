@@ -1,5 +1,7 @@
 package ua.com.mobifix.parser;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Map;
 
 public class ScanProductSettings {
@@ -20,9 +22,54 @@ public class ScanProductSettings {
     private String scanUrl;
     private String linkPrefix;
     private String imagePrefix;
-    private String replacePrice;
-    private String replacementPrice;
+    private ArrayList<ReplaceString> replaceArticle = new ArrayList<>();
+    private ArrayList<ReplaceString> replaceStock = new ArrayList<>();
+    private ArrayList<ReplaceString> replacePrice = new ArrayList<>();
+    private ArrayList<ReplaceString> containArticle = new ArrayList<>();
+    private ArrayList<ReplaceString> containStock = new ArrayList<>();
+    private ArrayList<ReplaceString> containPrice = new ArrayList<>();
     private Map cookies;
+
+
+    public ArrayList<ReplaceString> getContainArticle() {
+        return containArticle;
+    }
+
+    public void setContainArticle(ArrayList<ReplaceString> containArticle) {
+        this.containArticle = containArticle;
+    }
+
+    public ArrayList<ReplaceString> getContainStock() {
+        return containStock;
+    }
+
+    public void setContainStock(ArrayList<ReplaceString> containStock) {
+        this.containStock = containStock;
+    }
+
+    public ArrayList<ReplaceString> getContainPrice() {
+        return containPrice;
+    }
+
+    public void setContainPrice(ArrayList<ReplaceString> containPrice) {
+        this.containPrice = containPrice;
+    }
+
+    public ArrayList<ReplaceString> getReplaceArticle() {
+        return replaceArticle;
+    }
+
+    public void setReplaceArticle(ArrayList<ReplaceString> replaceArticle) {
+        this.replaceArticle = replaceArticle;
+    }
+
+    public ArrayList<ReplaceString> getReplaceStock() {
+        return replaceStock;
+    }
+
+    public void setReplaceStock(ArrayList<ReplaceString> replaceStock) {
+        this.replaceStock = replaceStock;
+    }
 
     public String getImagePrefix() {
         return imagePrefix;
@@ -64,21 +111,14 @@ public class ScanProductSettings {
         this.src = src;
     }
 
-    public String getReplacePrice() {
+    public ArrayList<ReplaceString> getReplacePrice() {
         return replacePrice;
     }
 
-    public void setReplacePrice(String replacePrice) {
+    public void setReplacePrice(ArrayList<ReplaceString> replacePrice) {
         this.replacePrice = replacePrice;
     }
 
-    public String getReplacementPrice() {
-        return replacementPrice;
-    }
-
-    public void setReplacementPrice(String replacementPrice) {
-        this.replacementPrice = replacementPrice;
-    }
 
     public String getScanUrl() {
         return scanUrl;

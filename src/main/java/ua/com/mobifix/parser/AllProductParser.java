@@ -16,7 +16,7 @@ import java.util.Map;
 public class AllProductParser {
     List<AllScanProduct> productList = new ArrayList<>();
 
-    public void saveList(List<AllScanProduct> productList, ScanProductSettings settings){
+    public void saveList(List<AllScanProduct> productList, ScanProductSettings settings) {
         try (FileWriter writer = new FileWriter("..\\webParser\\src\\main\\resources\\data\\products\\" + settings
                 .getScanUrl()
                 .replace("/", "-")
@@ -41,8 +41,8 @@ public class AllProductParser {
         boolean bool = true;
         while (bool) {
             try {
-                System.out.println(url + settings.getParameter() + settings.getPagination() + num);
-                String page = Jsoup.connect(url  + settings.getPagination() + num+ settings.getParameter())
+                System.out.println(url + settings.getPagination() + num + settings.getParameter());
+                String page = Jsoup.connect(url + settings.getPagination() + num + settings.getParameter())
                         .get()
                         .select(settings.getProductListCart()).text();
 
@@ -60,15 +60,37 @@ public class AllProductParser {
                     AllScanProduct asp = new AllScanProduct();
                     String name = element.select(settings.getName()).text();
                     String article = element.select(settings.getArticle()).text();
+                    for (ReplaceString art : settings.getReplaceArticle()) {
+                        article = article.replace(art.getReplace(), art.getReplacement());
+                    }
+                    for (ReplaceString prCont : settings.getContainArticle()) {
+                        if (article.contains(prCont.getReplace())) {
+                            article = prCont.getReplacement();
+                        }
+                    }
                     String productUrl = settings.getLinkPrefix() + element.select(settings.getLink()).attr(settings.getHref());
                     String stock = element.select(settings.getStock()).text();
-                    String price = element.select(settings.getPrice()).text()
-                            .replace(settings.getReplacePrice(), settings.getReplacementPrice());
-                    String imageLink = settings.getImagePrefix() + element.select(settings.getImageLink()).attr(settings.getSrc());
-//                    if (stock.equals("")) {
-//                        stock = "-";
-//                    }
-//                    if (!article.equals("")) {
+                    for (ReplaceString st : settings.getReplaceStock()) {
+                        stock = stock.replace(st.getReplace(), st.getReplacement());
+                    }
+                    for (ReplaceString stCont : settings.getContainStock()) {
+                        if (stock.contains(stCont.getReplace())) {
+                            stock = stCont.getReplacement();
+                            }
+                        }
+
+
+                    String price = element.select(settings.getPrice()).text();
+                    for (ReplaceString pr : settings.getReplacePrice()) {
+                        price = price.replace(pr.getReplace(), pr.getReplacement());
+                    }
+                    for (ReplaceString prCont : settings.getContainPrice()) {
+                        if (price.contains(prCont.getReplace())) {
+                            price = prCont.getReplacement();
+                        }
+                    }
+
+                        String imageLink = settings.getImagePrefix() + element.select(settings.getImageLink()).attr(settings.getSrc());
                         asp.setArticle(article);
                         asp.setName(name);
                         asp.setLink(productUrl);
@@ -77,45 +99,45 @@ public class AllProductParser {
                         asp.setPrice(price);
                         productList.add(asp);
 
-                    System.out.println(article);
-                    System.out.println(name);
-                    System.out.println(productUrl);
-                    System.out.println(imageLink);
-                    System.out.println(stock);
-                    System.out.println(price);
-                    System.out.println("\n");
+                        System.out.println(article);
+                        System.out.println(name);
+                        System.out.println(productUrl);
+                        System.out.println(imageLink);
+                        System.out.println(stock);
+                        System.out.println(price);
+                        System.out.println("\n");
 //                    } else {
 //                        return false;
 //                    }
-                }
-
-                //конец вставка
-
-                bool = !page.equals(newPage);
-//                    System.out.println(!page.equals(newPage) + " " + i);
-                num++;
-            } catch (IOException e) {
-                if (e instanceof org.jsoup.HttpStatusException) {
-                    org.jsoup.HttpStatusException httpStatusException = (org.jsoup.HttpStatusException) e;
-                    int statusCode = httpStatusException.getStatusCode();
-                    if (statusCode == 404) {
-                        System.out.println("Страница не найдена (ошибка 404).");
-                        bool = false; // Устанавливаем флаг в false, чтобы завершить цикл
-                    } else {
-                        System.out.println("Другая ошибка HTTP: " + statusCode);
                     }
-                } else {
-                    System.out.println("Ошибка сканирования. Повторное сканирование страницы...");
-                    try {
-                        Thread.sleep(1000);
-                    } catch (Exception ex) {
-                        System.out.println("ошибка Thread.sleep(1000);");
+
+                    //конец вставка
+
+                    bool = !page.equals(newPage);
+//                    System.out.println(!page.equals(newPage) + " " + i);
+                    num++;
+                } catch (IOException e){
+                    if (e instanceof org.jsoup.HttpStatusException) {
+                        org.jsoup.HttpStatusException httpStatusException = (org.jsoup.HttpStatusException) e;
+                        int statusCode = httpStatusException.getStatusCode();
+                        if (statusCode == 404) {
+                            System.out.println("Страница не найдена (ошибка 404).");
+                            bool = false; // Устанавливаем флаг в false, чтобы завершить цикл
+                        } else {
+                            System.out.println("Другая ошибка HTTP: " + statusCode);
+                        }
+                    } else {
+                        System.out.println("Ошибка сканирования. Повторное сканирование страницы...");
+                        try {
+                            Thread.sleep(1000);
+                        } catch (Exception ex) {
+                            System.out.println("ошибка Thread.sleep(1000);");
+                        }
                     }
                 }
             }
+            saveList(productList, settings);
+            System.out.println("Конец сканирования!");
+            return bool;
         }
-        saveList(productList, settings);
-        System.out.println("Конец сканирования!");
-        return bool;
     }
-}
