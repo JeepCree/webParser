@@ -12,14 +12,13 @@ public class ProductParser {
     public void getProduct(ScanProductSettings settings, ArrayList<String> scanList){
         for (String url : scanList){
             try {
-                Document page = Jsoup.connect(url).get();
+                Document page = Jsoup.connect(url).cookies(settings.getCookies()).get();
                 String article = page.select(settings.getArticle()).text();
                 String name = page.select(settings.getName()).text();
                 String stock = page.select(settings.getStock()).text();
                 String price = page.select(settings.getPrice()).text();
                 Elements breadcrumbs = page.select(settings.getBreadcrumbs());
                 String breadcr = "";
-                System.out.println(breadcrumbs.size());
                 for (Element str : breadcrumbs){
                     breadcr = breadcr + str.select("a").text() + ";";
                 }
@@ -33,6 +32,7 @@ public class ProductParser {
                 System.out.println(breadcr);
                 System.out.println(link);
                 System.out.println(imageLink);
+//                System.out.println(page);
             } catch (IOException e) {
                 System.out.println("ошибка чтения страницы...");
             }
