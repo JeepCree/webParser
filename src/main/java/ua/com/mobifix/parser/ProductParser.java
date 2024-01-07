@@ -12,6 +12,15 @@ public class ProductParser {
     public void getProduct(ScanProductSettings settings, ArrayList<String> scanList){
         for (String url : scanList){
             try {
+//
+//            try (final WebClient webClient = new WebClient()) {
+//                webClient.getOptions().setJavaScriptEnabled(true);
+//
+//                // Открываем веб-страницу
+//                HtmlPage page1 = webClient.getPage("http://www.example.com");
+//                HtmlElement selectedElement = page1.getFirstByXPath(cssSelector);
+
+
                 Document page = Jsoup.connect(url).cookies(settings.getCookies()).get();
                 String article = page.select(settings.getArticle()).text();
                 String name = page.select(settings.getName()).text();
@@ -32,7 +41,6 @@ public class ProductParser {
                 System.out.println(breadcr);
                 System.out.println(link);
                 System.out.println(imageLink);
-//                System.out.println(page);
             } catch (IOException e) {
                 System.out.println("ошибка чтения страницы...");
             }
