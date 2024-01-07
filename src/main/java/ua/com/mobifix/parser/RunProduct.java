@@ -8,19 +8,18 @@ import java.util.Map;
 
 public class RunProduct {
     public static void main(String[] args) {
-        ArrayList<String> scanList = new ArrayList<>();
-        scanList.add("https://all-spares.ua/ru/on-off-and-sound-button-for-china-tablet-pc-10-1-6-8-7-7-85-8-9-9-7-tablets-type-3/");
-        scanList.add("https://all-spares.ua/ru/case-baseus-cylinder-slide-cover-black-waterproof-universal-pouch-silicone-plastic-acfsd-e01/");
-        scanList.add("https://all-spares.ua/ru/case-compatible-with-xiaomi-redmi-10c-black-original-soft-case-silicone-black-18/");
         ScanProductSettings spc = new ScanProductSettings();
         ArrayList<ReplaceString> replacePrice = new ArrayList<>();
+        ArrayList<String> scanList = new ArrayList<>();
+        Map<String, String> cookies = new HashMap<>();
+        scanList.add("https://all-spares.ua/ru/on-off-and-sound-button-for-china-tablet-pc-10-1-6-8-7-7-85-8-9-9-7-tablets-type-3/");
+        scanList.add("https://all-spares.ua/ru/case-baseus-cylinder-slide-cover-black-waterproof-universal-pouch-silicone-plastic-acfsd-e01/");
+        scanList.add("https://all-spares.ua/ru/case-compatible-with-xiaomi-redmi-10c-black-original-soft-case-silicone-black-18/");        scanList.add("https://all-spares.ua/ru/on-off-and-sound-button-for-china-tablet-pc-10-1-6-8-7-7-85-8-9-9-7-tablets-type-3/");
+
+
         replacePrice.add(new ReplaceString(" ", ""));
         replacePrice.add(new ReplaceString("₴", ""));
-        Map<String, String> cookies = new HashMap<>();
         cookies.put("auth", "F98JfjM3DF%2BVMLtW7J6XJfwBpwUz16Eb7hfplc7eUbouyNQqkS237h68BCA5FyeW8yFDwpMKKPuez9UtaurFuQ");
-
-
-
         spc.setArticle("span.prp_info_item.info-id > span");
         spc.setName("div.sop-main-content > div > main > div > div > div > h1");
         spc.setStock("div.prp_info > div > div > ul");
