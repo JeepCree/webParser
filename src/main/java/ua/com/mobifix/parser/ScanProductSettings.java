@@ -16,6 +16,7 @@ public class ScanProductSettings {
     private String imagePrefix = "";
     private String href = "";
     private String src = "";
+    private int maxRetriesLoadPage = 1;
     private ArrayList<ReplaceString> replaceArticle = new ArrayList<>();
     private ArrayList<ReplaceString> replaceStock = new ArrayList<>();
     private ArrayList<ReplaceString> replacePrice = new ArrayList<>();
@@ -25,6 +26,31 @@ public class ScanProductSettings {
     private ArrayList<ReplaceString> containPrice = new ArrayList<>();
     private ArrayList<ReplaceString> containBreadcrumbs = new ArrayList<>();
     private Map cookies = new HashMap();
+
+
+    public int getMaxRetriesLoadPage() {
+        return maxRetriesLoadPage;
+    }
+
+    public void setMaxRetriesLoadPage(int maxRetriesLoadPage) {
+        this.maxRetriesLoadPage = maxRetriesLoadPage;
+    }
+
+    public ArrayList<ReplaceString> getReplaceBreadcrumbs() {
+        return replaceBreadcrumbs;
+    }
+
+    public void setReplaceBreadcrumbs(ArrayList<ReplaceString> replaceBreadcrumbs) {
+        this.replaceBreadcrumbs = replaceBreadcrumbs;
+    }
+
+    public ArrayList<ReplaceString> getContainBreadcrumbs() {
+        return containBreadcrumbs;
+    }
+
+    public void setContainBreadcrumbs(ArrayList<ReplaceString> containBreadcrumbs) {
+        this.containBreadcrumbs = containBreadcrumbs;
+    }
 
     public Map getCookies() {
         return cookies;

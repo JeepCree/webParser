@@ -31,6 +31,7 @@ public class RunProduct {
         spc.setHref("href");
         spc.setLinkPrefix("https://all-spares.ua");
         spc.setSrc("src");
+        spc.setMaxRetriesLoadPage(5);
         spc.setReplacePrice(replacePrice);
         spc.setCookies(cookies);
 
