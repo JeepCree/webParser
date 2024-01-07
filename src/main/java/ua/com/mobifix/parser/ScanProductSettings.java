@@ -19,9 +19,11 @@ public class ScanProductSettings {
     private ArrayList<ReplaceString> replaceArticle = new ArrayList<>();
     private ArrayList<ReplaceString> replaceStock = new ArrayList<>();
     private ArrayList<ReplaceString> replacePrice = new ArrayList<>();
+    private ArrayList<ReplaceString> replaceBreadcrumbs = new ArrayList<>();
     private ArrayList<ReplaceString> containArticle = new ArrayList<>();
     private ArrayList<ReplaceString> containStock = new ArrayList<>();
     private ArrayList<ReplaceString> containPrice = new ArrayList<>();
+    private ArrayList<ReplaceString> containBreadcrumbs = new ArrayList<>();
     private Map cookies = new HashMap();
 
     public Map getCookies() {
