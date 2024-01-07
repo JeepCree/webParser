@@ -4,6 +4,7 @@ import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.WebRequest;
 import com.gargoylesoftware.htmlunit.html.HtmlElement;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import jakarta.persistence.criteria.CriteriaBuilder;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -61,6 +62,7 @@ public class ProductParser {
                         breadcr = breadcr + ";";
                     }
                 }
+
                 String link = settings.getLinkPrefix() + page.select(settings.getLink()).attr(settings.getHref());
                 String imageLink = settings.getImagePrefix() + page.select(settings.getImageLink()).attr(settings.getSrc());
 
