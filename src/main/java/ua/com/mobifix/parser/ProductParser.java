@@ -5,6 +5,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import ua.com.mobifix.entity.Product;
 
 import java.io.IOException;
 import java.net.URL;
@@ -22,54 +23,64 @@ public class ProductParser {
                             .get();
 
                     String article = page.select(settings.getArticle()).text();
-                    for (ReplaceString art : settings.getReplaceArticle()) {
-                        article = article.replace(art.getReplace(), art.getReplacement());
+                    for (ReplaceString obj : settings.getReplaceArticle()) {
+                        article = article.replace(obj.getReplace(), obj.getReplacement());
                     }
-                    for (ReplaceString prCont : settings.getContainArticle()) {
-                        if (article.contains(prCont.getReplace())) {
-                            article = prCont.getReplacement();
+                    for (ReplaceString obj : settings.getContainArticle()) {
+                        if (article.contains(obj.getReplace())) {
+                            article = obj.getReplacement();
                         }
                     }
                     String name = page.select(settings.getName()).text();
                     String stock = page.select(settings.getStock()).text();
-                    for (ReplaceString st : settings.getReplaceStock()) {
-                        stock = stock.replace(st.getReplace(), st.getReplacement());
+                    for (ReplaceString obj : settings.getReplaceStock()) {
+                        stock = stock.replace(obj.getReplace(), obj.getReplacement());
                     }
-                    for (ReplaceString stCont : settings.getContainStock()) {
-                        if (stock.contains(stCont.getReplace())) {
-                            stock = stCont.getReplacement();
+                    for (ReplaceString obj : settings.getContainStock()) {
+                        if (stock.contains(obj.getReplace())) {
+                            stock = obj.getReplacement();
                         }
                     }
                     String price = page.select(settings.getPrice()).text();
-                    for (ReplaceString pr : settings.getReplacePrice()) {
-                        price = price.replace(pr.getReplace(), pr.getReplacement());
+                    for (ReplaceString obj : settings.getReplacePrice()) {
+                        price = price.replace(obj.getReplace(), obj.getReplacement());
                     }
-                    for (ReplaceString prCont : settings.getContainPrice()) {
-                        if (price.contains(prCont.getReplace())) {
-                            price = prCont.getReplacement();
+                    for (ReplaceString obj : settings.getContainPrice()) {
+                        if (price.contains(obj.getReplace())) {
+                            price = obj.getReplacement();
                         }
                     }
+                    Elements breadcrumbsList = page.select(settings.getBreadcrumbs());
+                    String breadcrumbs = "";
 
-                    Elements breadcrumbs = page.select(settings.getBreadcrumbs());
-                    String breadcr = "";
-                    int size = breadcrumbs.size();
-                    for (int i = 0; i < size; i++) {
-                        breadcr = breadcr + breadcrumbs.get(i).select("a").text();
-                        if (i < size - 1) {
-                            breadcr = breadcr + ";";
+                    for (int i = 0; i < breadcrumbsList.size(); i++) {
+                        breadcrumbs = breadcrumbs + breadcrumbsList.get(i).select("a").text();
+                        if (i < breadcrumbsList.size() - 1) {
+                            breadcrumbs = breadcrumbs + ";";
                         }
                     }
 
                     String link = settings.getLinkPrefix() + page.select(settings.getLink()).attr(settings.getHref());
                     String imageLink = settings.getImagePrefix() + page.select(settings.getImageLink()).attr(settings.getSrc());
 
+                    Product product = new Product();
+                    product.setArticle(Integer.parseInt(article));
+                    product.setName(name);
+                    product.setStock(stock);
+                    product.setPrice(Double.parseDouble(price));
+                    product.setBreadcrumbs(breadcrumbs);
+                    product.setLink(link);
+                    product.setImageLink(imageLink);
+
+
                     System.out.println(article);
                     System.out.println(name);
                     System.out.println(stock);
                     System.out.println(price);
-                    System.out.println(breadcr);
+                    System.out.println(breadcrumbs);
                     System.out.println(link);
                     System.out.println(imageLink);
+                    System.out.println("\n");
 
                         break;
                 } catch (IOException e) {

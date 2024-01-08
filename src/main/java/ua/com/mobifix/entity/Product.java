@@ -14,7 +14,8 @@ public class Product {
     private Long categories;
     @Column(nullable = false)
     private String name;
-    private Integer stock;
+    private String breadcrumbs;
+    private String stock;
     private Double price;
     @Column(unique = true, nullable = false)
     private String link;
@@ -24,6 +25,15 @@ public class Product {
     private Long shopId;
     @Temporal(TemporalType.TIMESTAMP)
     private Timestamp timestampField;
+
+
+    public String getBreadcrumbs() {
+        return breadcrumbs;
+    }
+
+    public void setBreadcrumbs(String breadcrumbs) {
+        this.breadcrumbs = breadcrumbs;
+    }
 
     public String getImageLink() {
         return imageLink;
@@ -65,11 +75,11 @@ public class Product {
         this.name = name;
     }
 
-    public Integer getStock() {
+    public String getStock() {
         return stock;
     }
 
-    public void setStock(Integer stock) {
+    public void setStock(String stock) {
         this.stock = stock;
     }
 
