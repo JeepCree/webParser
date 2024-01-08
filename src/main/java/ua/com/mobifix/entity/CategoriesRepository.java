@@ -15,29 +15,25 @@ public interface CategoriesRepository extends JpaRepository<Categories, Integer>
     List<Categories> findAllByOrderByNameAsc();
     List<Categories> findAllByIdNotInOrderByNameAsc(List<Long> idsToExclude);
     List<Categories> findAllByShopIdOrderByNameAsc(Long shopId);
+    Categories findFirstByOrderByIdDesc();
 
-    Optional<Categories> findById(Long article);
+    Optional<Categories> findByUrl(String url);
 
-    default Categories updateOrSaveById(Categories newCategory) {
+    default Categories updateOrSaveByUrl(Categories newCategory) {
 
-        Optional<Categories> existingCategoryOptional = findById(newCategory.getId());
+        Optional<Categories> existingCategoryOptional = findByUrl(newCategory.getUrl());
 
         if (existingCategoryOptional.isPresent()) {
             Categories existingCategory = existingCategoryOptional.get();
             // Выполните обновление полей существующей категории, например:
-            existingCategory.setId(newCategory.getId());
+
             existingCategory.setName(newCategory.getName());
-            existingCategory.setUrl(newCategory.getUrl());
-            existingCategory.setDescription(newCategory.getDescription());
-            existingCategory.setParentId(newCategory.getParentId());
-            existingCategory.setShopId(5L);
+            existingCategory.setShopId(newCategory.getShopId());
             // Другие поля для обновления
-            System.out.println("true");
+
             return save(existingCategory);
         } else {
             // Если категория с таким артикулом не существует, добавьте новую запись
-            System.out.println("else");
-            System.out.println(newCategory.getId());
             return save(newCategory);
         }
     }

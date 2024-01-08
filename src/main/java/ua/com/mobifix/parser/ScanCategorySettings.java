@@ -43,14 +43,14 @@ public class ScanCategorySettings {
     private String replacementCategoryUrlLevel3 = "";
     private String replacementCategoryUrlLevel4 = "";
     private String replacementCategoryUrlLevel5 = "";
-    private Integer shopId;
+    private Long shopId;
 
 
-    public Integer getShopId() {
+    public Long getShopId() {
         return shopId;
     }
 
-    public void setShopId(Integer shopId) {
+    public void setShopId(Long shopId) {
         this.shopId = shopId;
     }
 

@@ -255,19 +255,11 @@ public class CategoriesController {
         cookies.put("auth", "F98JfjM3DF%2BVMLtW7J6XJfwBpwUz16Eb7hfplc7eUbqIcOcmo4ugkcvwdoWqa39lQjJWtuMFN8k3EtG5fGcYFQ");
         cookies.put("language", "5");
         settings.setCookies(cookies);
-        settings.setShopId(5);
-        Categories cat = new Categories();
-        cat.setId(50001L);
-        cat.setDescription("sdfvsd");
-        cat.setName("Cat 1");
-        cat.setUrl("httP://");
-        cat.setParentId(0L);
-        cat.setShopId(5L);
-        ArrayList<Categories> listCat = new ArrayList<>();
-        listCat.add(cat);
-//        for (AllScanCategory el : parser.getCatalog(settings, 0L)) {
-        for (Categories el : listCat) {
-            categoriesRepository.updateOrSaveById(el);
+        settings.setShopId(5L);
+
+        for (Categories el : parser.getCatalog(settings, categoriesRepository.findFirstByOrderByIdDesc().getId())) {
+//        for (Categories el : listCat) {
+            categoriesRepository.updateOrSaveByUrl(el);
 //            System.out.println(el.getCategoryId() + " " + el.getCategoryName() + " " + el.getCategoryUrl() + " " + el.getParentCategoryId());
         }
     }

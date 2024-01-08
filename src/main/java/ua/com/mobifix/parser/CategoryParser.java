@@ -7,6 +7,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import ua.com.mobifix.entity.Categories;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -14,11 +15,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.CancellationException;
 
 public class CategoryParser {
-    public List<AllScanCategory> getCatalog(ScanCategorySettings settings, Long lastCategoryId){
+    public List<Categories> getCatalog(ScanCategorySettings settings, Long lastCategoryId){
         lastCategoryId++;
-        List<AllScanCategory> categoryList = new ArrayList<>();
+        List<Categories> categoryList = new ArrayList<>();
         Map<String, String> cookies = settings.getCookies();
         if (cookies == null) {
             cookies.put("noName", "noValue");
@@ -42,14 +44,21 @@ public class CategoryParser {
                 String link = settings.getUrlPrefix() + element.select(settings.getSelectCategoryNameTag()).attr(settings.getSelectCategoryAttrHref())
                         .replace(settings.getReplaceCategoryUrl(), settings.getReplacementCategoryUrl());
                 if (!link.isEmpty() || !name.isEmpty()) {
-                    AllScanCategory category = new AllScanCategory();
-                    category.setCategoryId(lastCategoryId);
-                    category.setCategoryName(name);
-                    category.setCategoryUrl(link);
-                    category.setParentCategoryId(0L);
+//                    AllScanCategory category = new AllScanCategory();
+//                    category.setCategoryId(lastCategoryId);
+//                    category.setCategoryName(name);
+//                    category.setCategoryUrl(link);
+//                    category.setParentCategoryId(0L);
+//                    categoryList.add(category);
+                    Categories category = new Categories();
+                    category.setId(lastCategoryId);
+                    category.setName(name);
+                    category.setUrl(link);
+                    category.setParentId(0L);
+                    category.setShopId(settings.getShopId());
                     categoryList.add(category);
                     lastCategoryId++;
-                    System.out.println(category.getCategoryId() + " " + category.getCategoryName() + " " + category.getCategoryUrl() + " " + category.getParentCategoryId());
+                    System.out.println(category.getId() + " " + category.getName() + " " + category.getUrl() + " " + category.getParentId());
 
                     try {
                         Document page2 = Jsoup.connect(link)
@@ -68,14 +77,15 @@ public class CategoryParser {
                             String link2 = settings.getUrlPrefix() + element2.select(settings.getSelectCategoryNameTagLevel2()).attr(settings.getSelectCategoryAttrHrefLevel2())
                                     .replace(settings.getReplaceCategoryUrlLevel2(), settings.getReplacementCategoryUrlLevel2());
                             if (!link.isEmpty() || !name.isEmpty()) {
-                                AllScanCategory category2 = new AllScanCategory();
-                                category2.setCategoryId(lastCategoryId);
-                                category2.setCategoryName(name2);
-                                category2.setCategoryUrl(link2);
-                                category2.setParentCategoryId(category.getCategoryId());
+                                Categories category2 = new Categories();
+                                category2.setId(lastCategoryId);
+                                category2.setName(name2);
+                                category2.setUrl(link2);
+                                category2.setParentId(category.getId());
+                                category2.setShopId(settings.getShopId());
                                 categoryList.add(category2);
                                 lastCategoryId++;
-                                System.out.println(category2.getCategoryId() + " " + category2.getCategoryName() + " " + category2.getCategoryUrl() + " " + category2.getParentCategoryId());
+                                System.out.println(category2.getId() + " " + category2.getName() + " " + category2.getUrl() + " " + category2.getParentId());
 
                                 try {
                                     Document page3 = Jsoup.connect(link2)
@@ -94,14 +104,15 @@ public class CategoryParser {
                                         String link3 = settings.getUrlPrefix() + element3.select(settings.getSelectCategoryNameTagLevel3()).attr(settings.getSelectCategoryAttrHrefLevel3())
                                                 .replace(settings.getReplaceCategoryUrlLevel3(), settings.getReplacementCategoryUrlLevel3());
                                         if (!link.isEmpty() || !name.isEmpty()) {
-                                            AllScanCategory category3 = new AllScanCategory();
-                                            category3.setCategoryId(lastCategoryId);
-                                            category3.setCategoryName(name3);
-                                            category3.setCategoryUrl(link3);
-                                            category3.setParentCategoryId(category2.getCategoryId());
+                                            Categories category3 = new Categories();
+                                            category3.setId(lastCategoryId);
+                                            category3.setName(name3);
+                                            category3.setUrl(link3);
+                                            category3.setParentId(category2.getId());
+                                            category3.setShopId(settings.getShopId());
                                             categoryList.add(category3);
                                             lastCategoryId++;
-                                            System.out.println(category3.getCategoryId() + " " + category3.getCategoryName() + " " + category3.getCategoryUrl() + " " + category3.getParentCategoryId());
+                                            System.out.println(category3.getId() + " " + category3.getName() + " " + category3.getUrl() + " " + category3.getParentId());
 
                                             try {
                                                 Document page4 = Jsoup.connect(link3)
@@ -120,14 +131,15 @@ public class CategoryParser {
                                                     String link4 = settings.getUrlPrefix() + element4.select(settings.getSelectCategoryNameTagLevel4()).attr(settings.getSelectCategoryAttrHrefLevel4())
                                                             .replace(settings.getReplaceCategoryUrlLevel4(), settings.getReplacementCategoryUrlLevel4());
                                                     if (!link.isEmpty() || !name.isEmpty()) {
-                                                        AllScanCategory category4 = new AllScanCategory();
-                                                        category4.setCategoryId(lastCategoryId);
-                                                        category4.setCategoryName(name4);
-                                                        category4.setCategoryUrl(link4);
-                                                        category4.setParentCategoryId(category3.getCategoryId());
+                                                        Categories category4 = new Categories();
+                                                        category4.setId(lastCategoryId);
+                                                        category4.setName(name4);
+                                                        category4.setUrl(link4);
+                                                        category4.setParentId(category3.getId());
+                                                        category4.setShopId(settings.getShopId());
                                                         categoryList.add(category4);
                                                         lastCategoryId++;
-                                                        System.out.println(category4.getCategoryId() + " " + category4.getCategoryName() + " " + category4.getCategoryUrl() + " " + category4.getParentCategoryId());
+                                                        System.out.println(category4.getId() + " " + category4.getName() + " " + category4.getUrl() + " " + category4.getParentId());
 
                                                         try {
                                                             Document page5 = Jsoup.connect(link4)
@@ -140,14 +152,15 @@ public class CategoryParser {
                                                                 String link5 = settings.getUrlPrefix() + element5.select(settings.getSelectCategoryNameTagLevel5()).attr(settings.getSelectCategoryAttrHrefLevel5())
                                                                         .replace(settings.getReplaceCategoryUrlLevel5(), settings.getReplacementCategoryUrlLevel5());
                                                                 if (!link.isEmpty() || !name.isEmpty()) {
-                                                                    AllScanCategory category5 = new AllScanCategory();
-                                                                    category5.setCategoryId(lastCategoryId);
-                                                                    category5.setCategoryName(name5);
-                                                                    category5.setCategoryUrl(link5);
-                                                                    category5.setParentCategoryId(category4.getCategoryId());
+                                                                    Categories category5 = new Categories();
+                                                                    category5.setId(lastCategoryId);
+                                                                    category5.setName(name5);
+                                                                    category5.setUrl(link5);
+                                                                    category5.setParentId(category4.getId());
+                                                                    category5.setShopId(settings.getShopId());
                                                                     categoryList.add(category5);
                                                                     lastCategoryId++;
-                                                                    System.out.println(category5.getCategoryId() + " " + category5.getCategoryName() + " " + category5.getCategoryUrl() + " " + category5.getParentCategoryId());
+                                                                    System.out.println(category5.getId() + " " + category5.getName() + " " + category5.getUrl() + " " + category5.getParentId());
                                                                 }
                                                             }
                                                         } catch (Exception e){

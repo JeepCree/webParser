@@ -1,5 +1,7 @@
 package ua.com.mobifix.parser;
 
+import ua.com.mobifix.entity.Categories;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -107,7 +109,7 @@ public class RunCategory {
         cookies.put("auth", "F98JfjM3DF%2BVMLtW7J6XJfwBpwUz16Eb7hfplc7eUbqIcOcmo4ugkcvwdoWqa39lQjJWtuMFN8k3EtG5fGcYFQ");
         cookies.put("language", "5");
         settings.setCookies(cookies);
-        settings.setShopId(5);
+        settings.setShopId(5L);
 
 //moyo
 //        settings.setShopName("moyo.ua");
@@ -156,8 +158,8 @@ public class RunCategory {
 //        settings.setReplaceCategoryUrl("https://hotline.ua//hotline.finance/");
 //        settings.setReplacementCategoryUrl("https://hotline.finance/");
 
-        for (AllScanCategory el : parser.getCatalog(settings, 0L)) {
-            System.out.println(el.getCategoryId() + " " + el.getCategoryName() + " " + el.getCategoryUrl() + " " + el.getParentCategoryId());
+        for (Categories el : parser.getCatalog(settings, 0L)) {
+            System.out.println(el.getId() + " " + el.getName() + " " + el.getUrl() + " " + el.getParentId());
         }
 
     }
