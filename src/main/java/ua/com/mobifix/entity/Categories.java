@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 @Entity
 public class Categories {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     @Column(nullable = false)
     private boolean active;
@@ -22,8 +22,17 @@ public class Categories {
     private String metaKeywords;
     private String humanReadableUrl;
     private String urlImage;
+    private String url;
     @Column(nullable = false)
     private Long shopId;
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
 
     public Long getId() {
         return id;

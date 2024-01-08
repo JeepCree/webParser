@@ -22,8 +22,6 @@ public class ScanCategorySettings {
     private String selectCategoryAttrHrefLevel4 = "";
     private String selectCategoryAttrHrefLevel5 = "";
     private String urlPrefix = "";
-    private String cookieName = "";
-    private String cookieValue = "";
     private Map cookies;
     private String replaceCategoryName = "";
     private String replaceCategoryNameLevel2 = "";
@@ -45,6 +43,16 @@ public class ScanCategorySettings {
     private String replacementCategoryUrlLevel3 = "";
     private String replacementCategoryUrlLevel4 = "";
     private String replacementCategoryUrlLevel5 = "";
+    private Integer shopId;
+
+
+    public Integer getShopId() {
+        return shopId;
+    }
+
+    public void setShopId(Integer shopId) {
+        this.shopId = shopId;
+    }
 
     public Map getCookies() {
         return cookies;
@@ -196,22 +204,6 @@ public class ScanCategorySettings {
 
     public void setUrlPrefix(String urlPrefix) {
         this.urlPrefix = urlPrefix;
-    }
-
-    public String getCookieName() {
-        return cookieName;
-    }
-
-    public void setCookieName(String cookieName) {
-        this.cookieName = cookieName;
-    }
-
-    public String getCookieValue() {
-        return cookieValue;
-    }
-
-    public void setCookieValue(String cookieValue) {
-        this.cookieValue = cookieValue;
     }
 
     public String getReplaceCategoryName() {

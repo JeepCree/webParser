@@ -11,28 +11,28 @@ public class RunCategory {
 
 
 //artmobile
-        settings.setShopName("artmobile.ua");
-        settings.setUrlShop("https://artmobile.ua/");
-        settings.setSelectCategoryTag("#sb-site > div.wrapper > div.container-fluid > div > div.col-md-3.col-md-pull-7.cats > div.category-sidebar.hidden-xs.hidden-sm > div.cats-menu > ul > li");
-        settings.setSelectCategoryNameTag("#sb-site > div.wrapper > div.container-fluid > div > div.col-md-3.col-md-pull-7.cats > div.category-sidebar.hidden-xs.hidden-sm > div.cats-menu > ul > li > a");
-        settings.setSelectCategoryAttrHref("href");
-        settings.setUrlPrefix("https:");
-        settings.setSelectCategoryTagLevel2("#sb-site > div.wrapper > div.container-fluid > div > div.col-md-3.col-md-pull-9.cats > div.category-sidebar.hidden-xs.hidden-sm > div.cats-menu > ul > li > ul > li > a");
-        settings.setSelectCategoryNameTagLevel2("a");
-        settings.setSelectCategoryAttrHrefLevel2("href");
-        settings.setSelectCategoryTagLevel3("empty");
-        settings.setSelectCategoryNameTagLevel3("empty");
-        settings.setSelectCategoryAttrHrefLevel3("empty");
-        settings.setSelectCategoryTagLevel4("empty");
-        settings.setSelectCategoryNameTagLevel4("empty");
-        settings.setSelectCategoryAttrHrefLevel4("empty");
-        settings.setSelectCategoryTagLevel5("empty");
-        settings.setSelectCategoryNameTagLevel5("empty");
-        settings.setSelectCategoryAttrHrefLevel5("empty");
-        Map<String, String> cookies = new HashMap<>();
-        cookies.put("PHPSESSID", "c7e6a1b83e31b95148a7c48de216b729");
-        cookies.put("dcjq-accordion", "");
-        settings.setCookies(cookies);
+//        settings.setShopName("artmobile.ua");
+//        settings.setUrlShop("https://artmobile.ua/");
+//        settings.setSelectCategoryTag("#sb-site > div.wrapper > div.container-fluid > div > div.col-md-3.col-md-pull-7.cats > div.category-sidebar.hidden-xs.hidden-sm > div.cats-menu > ul > li");
+//        settings.setSelectCategoryNameTag("#sb-site > div.wrapper > div.container-fluid > div > div.col-md-3.col-md-pull-7.cats > div.category-sidebar.hidden-xs.hidden-sm > div.cats-menu > ul > li > a");
+//        settings.setSelectCategoryAttrHref("href");
+//        settings.setUrlPrefix("https:");
+//        settings.setSelectCategoryTagLevel2("#sb-site > div.wrapper > div.container-fluid > div > div.col-md-3.col-md-pull-9.cats > div.category-sidebar.hidden-xs.hidden-sm > div.cats-menu > ul > li > ul > li > a");
+//        settings.setSelectCategoryNameTagLevel2("a");
+//        settings.setSelectCategoryAttrHrefLevel2("href");
+//        settings.setSelectCategoryTagLevel3("empty");
+//        settings.setSelectCategoryNameTagLevel3("empty");
+//        settings.setSelectCategoryAttrHrefLevel3("empty");
+//        settings.setSelectCategoryTagLevel4("empty");
+//        settings.setSelectCategoryNameTagLevel4("empty");
+//        settings.setSelectCategoryAttrHrefLevel4("empty");
+//        settings.setSelectCategoryTagLevel5("empty");
+//        settings.setSelectCategoryNameTagLevel5("empty");
+//        settings.setSelectCategoryAttrHrefLevel5("empty");
+//        Map<String, String> cookies = new HashMap<>();
+//        cookies.put("PHPSESSID", "c7e6a1b83e31b95148a7c48de216b729");
+//        cookies.put("dcjq-accordion", "");
+//        settings.setCookies(cookies);
 
 //mobiking
 //        settings.setShopName("mobiking.com.ua");
@@ -84,29 +84,30 @@ public class RunCategory {
 //        settings.setCookies(cookies);
 
 //all-spares
-//        settings.setShopName("all-spares.ua");
-//        settings.setUrlShop("https://all-spares.ua");
-//        settings.setSelectCategoryTag("body > div > div > header > div.widget_site-menu > div > div.menu-row > div > div > div.layout_header_quick-catalog_menu_nav > a");
-//        settings.setSelectCategoryNameTag("a");
-//        settings.setSelectCategoryAttrHref("href");
-//        settings.setUrlPrefix("https://all-spares.ua");
-//        settings.setSelectCategoryTagLevel2("body > div > div > div.sop-main-content > div > div > main > div.page_menu_category > div > div > article > div > a");
-//        settings.setSelectCategoryNameTagLevel2("a");
-//        settings.setSelectCategoryAttrHrefLevel2("href");
-//        settings.setSelectCategoryTagLevel3("body > div > div > div.sop-main-content > div > div > div > div.col-12.col-md-8.col-lg-9 > main > div.row.d-flex.product-cards-wrapper > div > div > div > a");
-//        settings.setSelectCategoryNameTagLevel3("a");
-//        settings.setSelectCategoryAttrHrefLevel3("href");
-//        settings.setSelectCategoryTagLevel4("body > div > div > div.sop-main-content > div > div > div > div.col-12.col-md-8.col-lg-9 > main > div.row.d-flex.product-cards-wrapper > div > div > div > a");
-//        settings.setSelectCategoryNameTagLevel4("a");
-//        settings.setSelectCategoryAttrHrefLevel4("href");
-//        settings.setSelectCategoryTagLevel5("body > div > div > div.sop-main-content > div > div > div > div.col-12.col-md-8.col-lg-9 > main > div.row.d-flex.product-cards-wrapper > div > div > div > a");
-//        settings.setSelectCategoryNameTagLevel5("a");
-//        settings.setSelectCategoryAttrHrefLevel5("href");
-//        Map<String, String> cookies = new HashMap<>();
-//        cookies.put("visitor", "9ea6fa5e03088598d37dce644143026b");
-//        cookies.put("auth", "F98JfjM3DF%2BVMLtW7J6XJSCoJVtjpygDy%2BSnDEbI000vkgd8MMDzPHrcFP%2BQ%2BwQ4%2Bdbk9e5I%2FZMpDPKLfKqIGA");
-//        cookies.put("language", "5");
-//        settings.setCookies(cookies);
+        settings.setShopName("all-spares.ua");
+        settings.setUrlShop("https://all-spares.ua");
+        settings.setSelectCategoryTag("body > div > div > header > div.widget_site-menu > div > div.menu-row > div > div > div.layout_header_quick-catalog_menu_nav > a");
+        settings.setSelectCategoryNameTag("a");
+        settings.setSelectCategoryAttrHref("href");
+        settings.setUrlPrefix("https://all-spares.ua");
+        settings.setSelectCategoryTagLevel2("body > div > div > div.sop-main-content > div > div > main > div.page_menu_category > div > div > article > div > a");
+        settings.setSelectCategoryNameTagLevel2("a");
+        settings.setSelectCategoryAttrHrefLevel2("href");
+        settings.setSelectCategoryTagLevel3("body > div > div > div.sop-main-content > div > div > div > div.col-12.col-md-8.col-lg-9 > main > div.row.d-flex.product-cards-wrapper > div > div > div > a");
+        settings.setSelectCategoryNameTagLevel3("a");
+        settings.setSelectCategoryAttrHrefLevel3("href");
+        settings.setSelectCategoryTagLevel4("body > div > div > div.sop-main-content > div > div > div > div.col-12.col-md-8.col-lg-9 > main > div.row.d-flex.product-cards-wrapper > div > div > div > a");
+        settings.setSelectCategoryNameTagLevel4("a");
+        settings.setSelectCategoryAttrHrefLevel4("href");
+        settings.setSelectCategoryTagLevel5("body > div > div > div.sop-main-content > div > div > div > div.col-12.col-md-8.col-lg-9 > main > div.row.d-flex.product-cards-wrapper > div > div > div > a");
+        settings.setSelectCategoryNameTagLevel5("a");
+        settings.setSelectCategoryAttrHrefLevel5("href");
+        Map<String, String> cookies = new HashMap<>();
+        cookies.put("visitor", "d0de6e4eb1e4479708300ffeee4bbcbb");
+        cookies.put("auth", "F98JfjM3DF%2BVMLtW7J6XJfwBpwUz16Eb7hfplc7eUbqIcOcmo4ugkcvwdoWqa39lQjJWtuMFN8k3EtG5fGcYFQ");
+        cookies.put("language", "5");
+        settings.setCookies(cookies);
+        settings.setShopId(5);
 
 //moyo
 //        settings.setShopName("moyo.ua");

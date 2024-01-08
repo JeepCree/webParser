@@ -1,8 +1,6 @@
 package ua.com.mobifix.parser;
 
-import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.WebRequest;
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
+
 import org.apache.commons.collections.map.HashedMap;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;

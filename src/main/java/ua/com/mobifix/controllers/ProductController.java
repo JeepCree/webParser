@@ -40,7 +40,7 @@ public class ProductController {
                 product.setArticle(Integer.parseInt(row[0]));
                 product.setName(row[1]);
                 product.setPrice(Double.parseDouble(row[2]));
-                product.setStock(Integer.getInteger(row[3]));
+                product.setStock(row[3]);
                 product.setLink(row[4]);
                 product.setCategories(Long.parseLong(row[5]));
                 // Установите другие поля по мере необходимости
@@ -72,7 +72,7 @@ public class ProductController {
                 productRepository.save(product);
             } else if (columnName.equals("stock")){
                 Product product = productRepository.findById(productId.intValue()).get();
-                product.setStock(Integer.parseInt(newValue));
+                product.setStock(newValue);
                 productRepository.save(product);
             } else if (columnName.equals("price")) {
                 Product product = productRepository.findById(productId.intValue()).get();
@@ -101,7 +101,7 @@ public class ProductController {
         }
         product.setCategories(Long.parseLong(catId));
         product.setName(name);
-        product.setStock(Integer.parseInt(stock));
+        product.setStock(stock);
         product.setPrice(Double.parseDouble(price));
         product.setLink(link);
         this.productRepository.save(product);

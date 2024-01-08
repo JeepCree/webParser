@@ -72,7 +72,6 @@ public class ProductParser {
                     product.setLink(link);
                     product.setImageLink(imageLink);
 
-
                     System.out.println(article);
                     System.out.println(name);
                     System.out.println(stock);
