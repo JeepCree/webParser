@@ -233,25 +233,25 @@ public class CategoriesController {
     private void setShopSettings(Long shopId){
         Shop shop = new Shop();
         shop.setId(shopId);
-        shop.setName("aks.ua");
-        shop.setLink("https://www.aks.ua");
-        shop.setUrlPrefix("https://www.aks.ua");
-        shop.setSelectCategoryTag(".nav-list-block > ul > li > a");
-        shop.setSelectCategoryTagLevel2("#mainContent > section.main > div > section.category > div > div > div.category-item > div.category-link");
-        shop.setSelectCategoryTagLevel3("#mainContent > section.main > div > section.category > div > div > div.category-item > div.category-link");
-        shop.setSelectCategoryTagLevel4("#mainContent > section.main > div > section.category > div > div > div.category-item > div.category-link");
-        shop.setSelectCategoryTagLevel5("#mainContent > section.main > div > section.category > div > div > div.category-item > div.category-link");
-        shop.setSelectCategoryNameTag("a");
-        shop.setSelectCategoryNameTagLevel2("a");
-        shop.setSelectCategoryNameTagLevel3("a");
-        shop.setSelectCategoryNameTagLevel4("a");
-        shop.setSelectCategoryNameTagLevel5("a");
+        shop.setName("moyo.ua");
+        shop.setLink("https://www.moyo.ua/");
+        shop.setUrlPrefix("https://www.moyo.ua");
+        shop.setSelectCategoryTag("#js-menu > ul > li");
+        shop.setSelectCategoryTagLevel2("#main-wrap > main > div.seo-order.container > div.portal-category-list > div > a.portal-category-list__title");
+        shop.setSelectCategoryTagLevel3("#main-wrap > main > div.seo-order.container > div.portal-category-list > div > a.portal-category-list__title");
+        shop.setSelectCategoryTagLevel4("#main-wrap > main > div.seo-order.container > div.portal-category-list > div > a.portal-category-list__title");
+        shop.setSelectCategoryTagLevel5("#main-wrap > main > div.seo-order.container > div.portal-category-list > div > a.portal-category-list__title");
+        shop.setSelectCategoryNameTag("#js-menu > ul > li > a > span");
+        shop.setSelectCategoryNameTagLevel2("#main-wrap > main > div.seo-order.container > div.portal-category-list > div > a.portal-category-list__title");
+        shop.setSelectCategoryNameTagLevel3("#main-wrap > main > div.seo-order.container > div.portal-category-list > div > a.portal-category-list__title");
+        shop.setSelectCategoryNameTagLevel4("#main-wrap > main > div.seo-order.container > div.portal-category-list > div > a.portal-category-list__title");
+        shop.setSelectCategoryNameTagLevel5("#main-wrap > main > div.seo-order.container > div.portal-category-list > div > a.portal-category-list__title");
         shop.setSelectCategoryAttrHref("href");
         shop.setSelectCategoryAttrHrefLevel2("href");
         shop.setSelectCategoryAttrHrefLevel3("href");
         shop.setSelectCategoryAttrHrefLevel4("href");
         shop.setSelectCategoryAttrHrefLevel5("href");
-        shop.setCookies("{PHPSESSID=egchs22pl3ugrcrmp7eah6at3a}");
+        shop.setCookies("{lang=ru, PHPSESSID=gi8e1vpsl3ob7crhin4nlr1bt6}");
         shop.setReplaceCategoryName("");
         shop.setReplaceCategoryNameLevel2("");
         shop.setReplaceCategoryNameLevel3("");
@@ -392,5 +392,6 @@ public class CategoriesController {
         for (Categories el : categoryParser.getCatalog(settings, categoriesRepository.findFirstByOrderByIdDesc().getId())) {
             categoriesRepository.updateOrSaveByUrl(el);
         }
+        System.out.println("End of scan!");
     }
 }

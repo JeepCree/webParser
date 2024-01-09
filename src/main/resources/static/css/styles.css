@@ -138,7 +138,7 @@ input.search-input {
 .catalog-conteiner:hover{
     overflow-y: auto;
     overflow-x: auto;
-    width: 25%;
+    width: 50%;
     height: 85%;
     padding: 5px;
     background-size: 25px 25px;
