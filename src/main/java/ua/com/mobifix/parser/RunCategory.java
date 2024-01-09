@@ -63,53 +63,53 @@ public class RunCategory {
 //        settings.setCookies(cookies);
 
 //AKS
-//        settings.setShopName("aks.ua");
-//        settings.setUrlShop("https://www.aks.ua");
-//        settings.setSelectCategoryTag(".nav-list-block > ul > li > a");
-//        settings.setSelectCategoryNameTag("a");
-//        settings.setSelectCategoryAttrHref("href");
-//        settings.setUrlPrefix("https://www.aks.ua");
-//        settings.setSelectCategoryTagLevel2("#mainContent > section.main > div > section.category > div > div > div.category-item > div.category-link");
-//        settings.setSelectCategoryNameTagLevel2("a");
-//        settings.setSelectCategoryAttrHrefLevel2("href");
-//        settings.setSelectCategoryTagLevel3("#mainContent > section.main > div > section.category > div > div > div.category-item > div.category-link");
-//        settings.setSelectCategoryNameTagLevel3("a");
-//        settings.setSelectCategoryAttrHrefLevel3("href");
-//        settings.setSelectCategoryTagLevel4("#mainContent > section.main > div > section.category > div > div > div.category-item > div.category-link");
-//        settings.setSelectCategoryNameTagLevel4("a");
-//        settings.setSelectCategoryAttrHrefLevel4("href");
-//        settings.setSelectCategoryTagLevel5("#mainContent > section.main > div > section.category > div > div > div.category-item > div.category-link");
-//        settings.setSelectCategoryNameTagLevel5("a");
-//        settings.setSelectCategoryAttrHrefLevel5("href");
-//        Map<String, String> cookies = new HashMap<>();
-//        cookies.put("PHPSESSID", "egchs22pl3ugrcrmp7eah6at3a");
-//        settings.setCookies(cookies);
-
-//all-spares
-        settings.setShopName("all-spares.ua");
-        settings.setUrlShop("https://all-spares.ua");
-        settings.setSelectCategoryTag("body > div > div > header > div.widget_site-menu > div > div.menu-row > div > div > div.layout_header_quick-catalog_menu_nav > a");
+        settings.setShopName("aks.ua");
+        settings.setUrlShop("https://www.aks.ua");
+        settings.setSelectCategoryTag(".nav-list-block > ul > li > a");
         settings.setSelectCategoryNameTag("a");
         settings.setSelectCategoryAttrHref("href");
-        settings.setUrlPrefix("https://all-spares.ua");
-        settings.setSelectCategoryTagLevel2("body > div > div > div.sop-main-content > div > div > main > div.page_menu_category > div > div > article > div > a");
+        settings.setUrlPrefix("https://www.aks.ua");
+        settings.setSelectCategoryTagLevel2("#mainContent > section.main > div > section.category > div > div > div.category-item > div.category-link");
         settings.setSelectCategoryNameTagLevel2("a");
         settings.setSelectCategoryAttrHrefLevel2("href");
-        settings.setSelectCategoryTagLevel3("body > div > div > div.sop-main-content > div > div > div > div.col-12.col-md-8.col-lg-9 > main > div.row.d-flex.product-cards-wrapper > div > div > div > a");
+        settings.setSelectCategoryTagLevel3("#mainContent > section.main > div > section.category > div > div > div.category-item > div.category-link");
         settings.setSelectCategoryNameTagLevel3("a");
         settings.setSelectCategoryAttrHrefLevel3("href");
-        settings.setSelectCategoryTagLevel4("body > div > div > div.sop-main-content > div > div > div > div.col-12.col-md-8.col-lg-9 > main > div.row.d-flex.product-cards-wrapper > div > div > div > a");
+        settings.setSelectCategoryTagLevel4("#mainContent > section.main > div > section.category > div > div > div.category-item > div.category-link");
         settings.setSelectCategoryNameTagLevel4("a");
         settings.setSelectCategoryAttrHrefLevel4("href");
-        settings.setSelectCategoryTagLevel5("body > div > div > div.sop-main-content > div > div > div > div.col-12.col-md-8.col-lg-9 > main > div.row.d-flex.product-cards-wrapper > div > div > div > a");
+        settings.setSelectCategoryTagLevel5("#mainContent > section.main > div > section.category > div > div > div.category-item > div.category-link");
         settings.setSelectCategoryNameTagLevel5("a");
         settings.setSelectCategoryAttrHrefLevel5("href");
         Map<String, String> cookies = new HashMap<>();
-        cookies.put("visitor", "d0de6e4eb1e4479708300ffeee4bbcbb");
-        cookies.put("auth", "F98JfjM3DF%2BVMLtW7J6XJfwBpwUz16Eb7hfplc7eUbqIcOcmo4ugkcvwdoWqa39lQjJWtuMFN8k3EtG5fGcYFQ");
-        cookies.put("language", "5");
+        cookies.put("PHPSESSID", "egchs22pl3ugrcrmp7eah6at3a");
         settings.setCookies(cookies);
-        settings.setShopId(5L);
+
+//all-spares
+//        settings.setShopName("all-spares.ua");
+//        settings.setUrlShop("https://all-spares.ua");
+//        settings.setSelectCategoryTag("body > div > div > header > div.widget_site-menu > div > div.menu-row > div > div > div.layout_header_quick-catalog_menu_nav > a");
+//        settings.setSelectCategoryNameTag("a");
+//        settings.setSelectCategoryAttrHref("href");
+//        settings.setUrlPrefix("https://all-spares.ua");
+//        settings.setSelectCategoryTagLevel2("body > div > div > div.sop-main-content > div > div > main > div.page_menu_category > div > div > article > div > a");
+//        settings.setSelectCategoryNameTagLevel2("a");
+//        settings.setSelectCategoryAttrHrefLevel2("href");
+//        settings.setSelectCategoryTagLevel3("body > div > div > div.sop-main-content > div > div > div > div.col-12.col-md-8.col-lg-9 > main > div.row.d-flex.product-cards-wrapper > div > div > div > a");
+//        settings.setSelectCategoryNameTagLevel3("a");
+//        settings.setSelectCategoryAttrHrefLevel3("href");
+//        settings.setSelectCategoryTagLevel4("body > div > div > div.sop-main-content > div > div > div > div.col-12.col-md-8.col-lg-9 > main > div.row.d-flex.product-cards-wrapper > div > div > div > a");
+//        settings.setSelectCategoryNameTagLevel4("a");
+//        settings.setSelectCategoryAttrHrefLevel4("href");
+//        settings.setSelectCategoryTagLevel5("body > div > div > div.sop-main-content > div > div > div > div.col-12.col-md-8.col-lg-9 > main > div.row.d-flex.product-cards-wrapper > div > div > div > a");
+//        settings.setSelectCategoryNameTagLevel5("a");
+//        settings.setSelectCategoryAttrHrefLevel5("href");
+//        Map<String, String> cookies = new HashMap<>();
+//        cookies.put("visitor", "d0de6e4eb1e4479708300ffeee4bbcbb");
+//        cookies.put("auth", "F98JfjM3DF%2BVMLtW7J6XJfwBpwUz16Eb7hfplc7eUbqIcOcmo4ugkcvwdoWqa39lQjJWtuMFN8k3EtG5fGcYFQ");
+//        cookies.put("language", "5");
+//        settings.setCookies(cookies);
+//        settings.setShopId(5L);
 
 //moyo
 //        settings.setShopName("moyo.ua");

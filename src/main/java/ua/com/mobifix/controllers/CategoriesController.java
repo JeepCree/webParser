@@ -17,6 +17,7 @@ import ua.com.mobifix.service.*;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.HttpCookie;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -227,40 +228,169 @@ public class CategoriesController {
         }
     }
 
-    @GetMapping("/scan-catalog")
+    @GetMapping("/set-shop-settings")
     @ResponseBody
-    private void addNewCategory1(Model model){
-        ScanCategorySettings settings = new ScanCategorySettings();
-        CategoryParser parser = new CategoryParser();
-        settings.setShopName("all-spares.ua");
-        settings.setUrlShop("https://all-spares.ua");
-        settings.setSelectCategoryTag("body > div > div > header > div.widget_site-menu > div > div.menu-row > div > div > div.layout_header_quick-catalog_menu_nav > a");
-        settings.setSelectCategoryNameTag("a");
-        settings.setSelectCategoryAttrHref("href");
-        settings.setUrlPrefix("https://all-spares.ua");
-        settings.setSelectCategoryTagLevel2("body > div > div > div.sop-main-content > div > div > main > div.page_menu_category > div > div > article > div > a");
-        settings.setSelectCategoryNameTagLevel2("a");
-        settings.setSelectCategoryAttrHrefLevel2("href");
-        settings.setSelectCategoryTagLevel3("body > div > div > div.sop-main-content > div > div > div > div.col-12.col-md-8.col-lg-9 > main > div.row.d-flex.product-cards-wrapper > div > div > div > a");
-        settings.setSelectCategoryNameTagLevel3("a");
-        settings.setSelectCategoryAttrHrefLevel3("href");
-        settings.setSelectCategoryTagLevel4("body > div > div > div.sop-main-content > div > div > div > div.col-12.col-md-8.col-lg-9 > main > div.row.d-flex.product-cards-wrapper > div > div > div > a");
-        settings.setSelectCategoryNameTagLevel4("a");
-        settings.setSelectCategoryAttrHrefLevel4("href");
-        settings.setSelectCategoryTagLevel5("body > div > div > div.sop-main-content > div > div > div > div.col-12.col-md-8.col-lg-9 > main > div.row.d-flex.product-cards-wrapper > div > div > div > a");
-        settings.setSelectCategoryNameTagLevel5("a");
-        settings.setSelectCategoryAttrHrefLevel5("href");
-        Map<String, String> cookies = new HashMap<>();
-        cookies.put("visitor", "d0de6e4eb1e4479708300ffeee4bbcbb");
-        cookies.put("auth", "F98JfjM3DF%2BVMLtW7J6XJfwBpwUz16Eb7hfplc7eUbqIcOcmo4ugkcvwdoWqa39lQjJWtuMFN8k3EtG5fGcYFQ");
-        cookies.put("language", "5");
-        settings.setCookies(cookies);
-        settings.setShopId(5L);
+    private void setShopSettings(Long shopId){
+        Shop shop = new Shop();
+        shop.setId(shopId);
+        shop.setName("aks.ua");
+        shop.setLink("https://www.aks.ua");
+        shop.setUrlPrefix("https://www.aks.ua");
+        shop.setSelectCategoryTag(".nav-list-block > ul > li > a");
+        shop.setSelectCategoryTagLevel2("#mainContent > section.main > div > section.category > div > div > div.category-item > div.category-link");
+        shop.setSelectCategoryTagLevel3("#mainContent > section.main > div > section.category > div > div > div.category-item > div.category-link");
+        shop.setSelectCategoryTagLevel4("#mainContent > section.main > div > section.category > div > div > div.category-item > div.category-link");
+        shop.setSelectCategoryTagLevel5("#mainContent > section.main > div > section.category > div > div > div.category-item > div.category-link");
+        shop.setSelectCategoryNameTag("a");
+        shop.setSelectCategoryNameTagLevel2("a");
+        shop.setSelectCategoryNameTagLevel3("a");
+        shop.setSelectCategoryNameTagLevel4("a");
+        shop.setSelectCategoryNameTagLevel5("a");
+        shop.setSelectCategoryAttrHref("href");
+        shop.setSelectCategoryAttrHrefLevel2("href");
+        shop.setSelectCategoryAttrHrefLevel3("href");
+        shop.setSelectCategoryAttrHrefLevel4("href");
+        shop.setSelectCategoryAttrHrefLevel5("href");
+        shop.setCookies("{PHPSESSID=egchs22pl3ugrcrmp7eah6at3a}");
+        shop.setReplaceCategoryName("");
+        shop.setReplaceCategoryNameLevel2("");
+        shop.setReplaceCategoryNameLevel3("");
+        shop.setReplaceCategoryNameLevel4("");
+        shop.setReplaceCategoryNameLevel5("");
+        shop.setReplacementCategoryName("");
+        shop.setReplacementCategoryNameLevel2("");
+        shop.setReplacementCategoryNameLevel3("");
+        shop.setReplacementCategoryNameLevel4("");
+        shop.setReplacementCategoryNameLevel5("");
+        shop.setReplaceCategoryUrl("");
+        shop.setReplaceCategoryUrlLevel2("");
+        shop.setReplaceCategoryUrlLevel3("");
+        shop.setReplaceCategoryUrlLevel4("");
+        shop.setReplaceCategoryUrlLevel5("");
+        shop.setReplacementCategoryUrl("");
+        shop.setReplacementCategoryUrlLevel2("");
+        shop.setReplacementCategoryUrlLevel3("");
+        shop.setReplacementCategoryUrlLevel4("");
+        shop.setReplacementCategoryUrlLevel5("");
+        shopRepository.save(shop);
+    }
 
-        for (Categories el : parser.getCatalog(settings, categoriesRepository.findFirstByOrderByIdDesc().getId())) {
-//        for (Categories el : listCat) {
+    @GetMapping("/scan-shop-catalog")
+    @ResponseBody
+    private void addNewShopCategory(Model model, Long shopId){
+        ScanCategorySettings settings = new ScanCategorySettings();
+        CategoryParser categoryParser = new CategoryParser();
+        Shop shop = shopRepository.getById(shopId);
+
+        Map<String, String> cookies = new HashMap<>();
+        List<HttpCookie> httpCookies = HttpCookie.parse(shop.getCookies());
+        for (HttpCookie httpCookie : httpCookies) {
+            cookies.put(httpCookie.getName(), httpCookie.getValue());
+        }
+
+        settings.setShopId(shop.getId());
+        settings.setShopName(shop.getName());
+        settings.setUrlShop(shop.getLink());
+        settings.setUrlPrefix(shop.getUrlPrefix());
+        settings.setSelectCategoryTag(shop.getSelectCategoryTag());
+        settings.setSelectCategoryTagLevel2(shop.getSelectCategoryTagLevel2());
+        settings.setSelectCategoryTagLevel3(shop.getSelectCategoryTagLevel3());
+        settings.setSelectCategoryTagLevel4(shop.getSelectCategoryTagLevel4());
+        settings.setSelectCategoryTagLevel5(shop.getSelectCategoryTagLevel5());
+        settings.setSelectCategoryNameTag(shop.getSelectCategoryNameTag());
+        settings.setSelectCategoryNameTagLevel2(shop.getSelectCategoryNameTagLevel2());
+        settings.setSelectCategoryNameTagLevel3(shop.getSelectCategoryNameTagLevel3());
+        settings.setSelectCategoryNameTagLevel4(shop.getSelectCategoryNameTagLevel4());
+        settings.setSelectCategoryNameTagLevel5(shop.getSelectCategoryNameTagLevel5());
+        settings.setSelectCategoryAttrHref(shop.getSelectCategoryAttrHref());
+        settings.setSelectCategoryAttrHrefLevel2(shop.getSelectCategoryAttrHrefLevel2());
+        settings.setSelectCategoryAttrHrefLevel3(shop.getSelectCategoryAttrHrefLevel3());
+        settings.setSelectCategoryAttrHrefLevel4(shop.getSelectCategoryAttrHrefLevel4());
+        settings.setSelectCategoryAttrHrefLevel5(shop.getSelectCategoryAttrHrefLevel5());
+        if (shop.getReplaceCategoryName() == null){
+            shop.setReplaceCategoryName("");
+        }
+        settings.setReplaceCategoryName(shop.getReplaceCategoryName());
+        if (shop.getReplaceCategoryNameLevel2() == null){
+            shop.setReplaceCategoryNameLevel2("");
+        }
+        settings.setReplaceCategoryNameLevel2(shop.getReplaceCategoryNameLevel2());
+        if (shop.getReplaceCategoryNameLevel3() == null){
+            shop.setReplaceCategoryNameLevel3("");
+        }
+        settings.setReplaceCategoryNameLevel3(shop.getReplaceCategoryNameLevel3());
+        if (shop.getReplaceCategoryNameLevel4() == null){
+            shop.setReplaceCategoryNameLevel4("");
+        }
+        settings.setReplaceCategoryNameLevel4(shop.getReplaceCategoryNameLevel4());
+        if (shop.getReplaceCategoryNameLevel5() == null){
+            shop.setReplaceCategoryNameLevel5("");
+        }
+        settings.setReplaceCategoryNameLevel5(shop.getReplaceCategoryNameLevel5());
+        if (shop.getReplacementCategoryName() == null){
+            shop.setReplacementCategoryName("");
+        }
+        settings.setReplacementCategoryName(shop.getReplacementCategoryName());
+        if (shop.getReplacementCategoryNameLevel2() == null){
+            shop.setReplacementCategoryNameLevel2("");
+        }
+        settings.setReplacementCategoryNameLevel2(shop.getReplacementCategoryNameLevel2());
+        if (shop.getReplacementCategoryNameLevel3() == null){
+            shop.setReplacementCategoryNameLevel3("");
+        }
+        settings.setReplacementCategoryNameLevel3(shop.getReplacementCategoryNameLevel3());
+        if (shop.getReplacementCategoryNameLevel4() == null){
+            shop.setReplacementCategoryNameLevel4("");
+        }
+        settings.setReplacementCategoryNameLevel4(shop.getReplacementCategoryNameLevel4());
+        if (shop.getReplacementCategoryNameLevel5() == null){
+            shop.setReplacementCategoryNameLevel5("");
+        }
+        settings.setReplacementCategoryNameLevel5(shop.getReplacementCategoryNameLevel5());
+        if (shop.getReplaceCategoryUrl() == null){
+            shop.setReplaceCategoryUrl("");
+        }
+        settings.setReplaceCategoryUrl(shop.getReplaceCategoryUrl());
+        if (shop.getReplaceCategoryUrlLevel2() == null){
+            shop.setReplaceCategoryUrlLevel2("");
+        }
+        settings.setReplaceCategoryUrlLevel2(shop.getReplaceCategoryUrlLevel2());
+        if (shop.getReplaceCategoryUrlLevel3() == null){
+            shop.setReplaceCategoryUrlLevel3("");
+        }
+        settings.setReplaceCategoryUrlLevel3(shop.getReplaceCategoryUrlLevel3());
+        if (shop.getReplaceCategoryUrlLevel4() == null){
+            shop.setReplaceCategoryUrlLevel4("");
+        }
+        settings.setReplaceCategoryUrlLevel4(shop.getReplaceCategoryUrlLevel4());
+        if (shop.getReplaceCategoryUrlLevel5() == null){
+            shop.setReplaceCategoryUrlLevel5("");
+        }
+        settings.setReplaceCategoryUrlLevel5(shop.getReplaceCategoryUrlLevel5());
+        if (shop.getReplacementCategoryUrl() == null){
+            shop.setReplacementCategoryUrl("");
+        }
+        settings.setReplacementCategoryUrl(shop.getReplacementCategoryUrl());
+        if (shop.getReplacementCategoryUrlLevel2() == null){
+            shop.setReplacementCategoryUrlLevel2("");
+        }
+        settings.setReplacementCategoryUrlLevel2(shop.getReplacementCategoryUrlLevel2());
+        if (shop.getReplacementCategoryUrlLevel3() == null){
+            shop.setReplacementCategoryUrlLevel3("");
+        }
+        settings.setReplacementCategoryUrlLevel3(shop.getReplacementCategoryUrlLevel3());
+        if (shop.getReplacementCategoryUrlLevel4() == null){
+            shop.setReplacementCategoryUrlLevel4("");
+        }
+        settings.setReplacementCategoryUrlLevel4(shop.getReplacementCategoryUrlLevel4());
+        if (shop.getReplacementCategoryUrlLevel5() == null){
+            shop.setReplacementCategoryUrlLevel5("");
+        }
+        settings.setReplacementCategoryUrlLevel5(shop.getReplacementCategoryUrlLevel5());
+        settings.setCookies(cookies);
+
+        for (Categories el : categoryParser.getCatalog(settings, categoriesRepository.findFirstByOrderByIdDesc().getId())) {
             categoriesRepository.updateOrSaveByUrl(el);
-//            System.out.println(el.getCategoryId() + " " + el.getCategoryName() + " " + el.getCategoryUrl() + " " + el.getParentCategoryId());
         }
     }
 }
