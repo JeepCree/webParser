@@ -233,29 +233,29 @@ public class CategoriesController {
     private void setShopSettings(Long shopId){
         Shop shop = new Shop();
         shop.setId(shopId);
-        shop.setName("hotline.ua");
-        shop.setLink("https://hotline.ua/");
-        shop.setUrlPrefix("https://hotline.ua");
-        shop.setUrlPrefixLevel2("https://hotline.ua");
-        shop.setUrlPrefixLevel3("https://hotline.ua");
-        shop.setUrlPrefixLevel4("https://hotline.ua");
-        shop.setUrlPrefixLevel5("https://hotline.ua");
-        shop.setSelectCategoryTag("a.categories-section__link.link--black");
-        shop.setSelectCategoryTagLevel2("a.section-navigation__link.link--black");
-        shop.setSelectCategoryTagLevel3("a.section-navigation__link.link--black");
-        shop.setSelectCategoryTagLevel4("a.section-navigation__link.link--black");
-        shop.setSelectCategoryTagLevel5("a.section-navigation__link.link--black");
-        shop.setSelectCategoryNameTag("span.text");
-        shop.setSelectCategoryNameTagLevel2("div.section-navigation__link-text");
-        shop.setSelectCategoryNameTagLevel3("div.section-navigation__link-text");
-        shop.setSelectCategoryNameTagLevel4("div.section-navigation__link-text");
-        shop.setSelectCategoryNameTagLevel5("div.section-navigation__link-text");
+        shop.setName("allo.ua");
+        shop.setLink("https://allo.ua/ru/");
+        shop.setUrlPrefix("");
+        shop.setUrlPrefixLevel2("");
+        shop.setUrlPrefixLevel3("");
+        shop.setUrlPrefixLevel4("");
+        shop.setUrlPrefixLevel5("");
+        shop.setSelectCategoryTag("a.mm__a");
+        shop.setSelectCategoryTagLevel2("a.portal-group__title-link");
+        shop.setSelectCategoryTagLevel3("a.portal-group__title-link");
+        shop.setSelectCategoryTagLevel4("a.portal-group__title-link");
+        shop.setSelectCategoryTagLevel5("a.portal-group__title-link");
+        shop.setSelectCategoryNameTag("a.mm__a");
+        shop.setSelectCategoryNameTagLevel2("a.portal-group__title-link");
+        shop.setSelectCategoryNameTagLevel3("a.portal-group__title-link");
+        shop.setSelectCategoryNameTagLevel4("a.portal-group__title-link");
+        shop.setSelectCategoryNameTagLevel5("a.portal-group__title-link");
         shop.setSelectCategoryAttrHref("href");
         shop.setSelectCategoryAttrHrefLevel2("href");
         shop.setSelectCategoryAttrHrefLevel3("href");
         shop.setSelectCategoryAttrHrefLevel4("href");
         shop.setSelectCategoryAttrHrefLevel5("href");
-        shop.setCookies("{PHPSESSID=837ddb8da7821e288ff951f93971ee8e, language=ru, languageSetByUser=true}");
+        shop.setCookies("store=default");
         shop.setReplaceCategoryName("");
         shop.setReplaceCategoryNameLevel2("");
         shop.setReplaceCategoryNameLevel3("");
@@ -276,7 +276,7 @@ public class CategoriesController {
         shop.setReplacementCategoryUrlLevel3("");
         shop.setReplacementCategoryUrlLevel4("");
         shop.setReplacementCategoryUrlLevel5("");
-        shop.setNoScanList("kjdfgnvd;sfsc");
+        shop.setNoScanList("Держи заряд;Акции");
         shopRepository.save(shop);
     }
 
