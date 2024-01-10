@@ -37,11 +37,21 @@ public class CategoryParser {
             } catch (Exception e){
                 e.printStackTrace();
             }
+            ArrayList<String> list = new ArrayList<>();
             Elements elements = page.select(settings.getSelectCategoryTag());
             for (Element element : elements) {
                 String name = element.select(settings.getSelectCategoryNameTag()).text()
                         .replace(settings.getReplaceCategoryName(), settings.getReplacementCategoryName());
-                String link = settings.getUrlPrefix() + element.select(settings.getSelectCategoryNameTag()).attr(settings.getSelectCategoryAttrHref())
+                boolean bool1 = false;
+                for(String string : settings.getNoScanList()){
+                    if (name.equals(string)){
+                        bool1 = true;
+                    }
+                }
+                if(bool1 == true){
+                    continue;
+                }
+                String link = (settings.getUrlPrefix() + element.select(settings.getSelectCategoryNameTag()).attr(settings.getSelectCategoryAttrHref()))
                         .replace(settings.getReplaceCategoryUrl(), settings.getReplacementCategoryUrl());
                 if (!link.isEmpty() || !name.isEmpty()) {
 //                    AllScanCategory category = new AllScanCategory();
@@ -74,9 +84,18 @@ public class CategoryParser {
                         for (Element element2 : elements2) {
                             String name2 = element2.select(settings.getSelectCategoryNameTagLevel2()).text()
                                     .replace(settings.getReplaceCategoryNameLevel2(), settings.getReplacementCategoryNameLevel2());
-                            String link2 = settings.getUrlPrefix() + element2.select(settings.getSelectCategoryNameTagLevel2()).attr(settings.getSelectCategoryAttrHrefLevel2())
+                            boolean bool2 = false;
+                            for(String string : settings.getNoScanList()){
+                                if (name2.equals(string)){
+                                    bool2 = true;
+                                }
+                            }
+                            if(bool2 == true){
+                                continue;
+                            }
+                            String link2 = (settings.getUrlPrefixLevel2() + element2.select(settings.getSelectCategoryNameTagLevel2()).attr(settings.getSelectCategoryAttrHrefLevel2()))
                                     .replace(settings.getReplaceCategoryUrlLevel2(), settings.getReplacementCategoryUrlLevel2());
-                            if (!link.isEmpty() || !name.isEmpty()) {
+                            if (!link2.isEmpty() || !name2.isEmpty()) {
                                 Categories category2 = new Categories();
                                 category2.setId(lastCategoryId);
                                 category2.setName(name2);
@@ -101,9 +120,18 @@ public class CategoryParser {
                                     for (Element element3 : elements3) {
                                         String name3 = element3.select(settings.getSelectCategoryNameTagLevel3()).text()
                                                 .replace(settings.getReplaceCategoryNameLevel3(), settings.getReplacementCategoryNameLevel3());
-                                        String link3 = settings.getUrlPrefix() + element3.select(settings.getSelectCategoryNameTagLevel3()).attr(settings.getSelectCategoryAttrHrefLevel3())
+                                        boolean bool3 = false;
+                                        for(String string : settings.getNoScanList()){
+                                            if (name3.equals(string)){
+                                                bool3 = true;
+                                            }
+                                        }
+                                        if(bool3 == true){
+                                            continue;
+                                        }
+                                        String link3 = (settings.getUrlPrefixLevel3() + element3.select(settings.getSelectCategoryNameTagLevel3()).attr(settings.getSelectCategoryAttrHrefLevel3()))
                                                 .replace(settings.getReplaceCategoryUrlLevel3(), settings.getReplacementCategoryUrlLevel3());
-                                        if (!link.isEmpty() || !name.isEmpty()) {
+                                        if (!link3.isEmpty() || !name3.isEmpty()) {
                                             Categories category3 = new Categories();
                                             category3.setId(lastCategoryId);
                                             category3.setName(name3);
@@ -128,9 +156,18 @@ public class CategoryParser {
                                                 for (Element element4 : elements4) {
                                                     String name4 = element4.select(settings.getSelectCategoryNameTagLevel4()).text()
                                                             .replace(settings.getReplaceCategoryNameLevel4(), settings.getReplacementCategoryNameLevel4());
-                                                    String link4 = settings.getUrlPrefix() + element4.select(settings.getSelectCategoryNameTagLevel4()).attr(settings.getSelectCategoryAttrHrefLevel4())
+                                                    boolean bool4 = false;
+                                                    for(String string : settings.getNoScanList()){
+                                                        if (name4.equals(string)){
+                                                            bool4 = true;
+                                                        }
+                                                    }
+                                                    if(bool4 == true){
+                                                        continue;
+                                                    }
+                                                    String link4 = (settings.getUrlPrefixLevel4() + element4.select(settings.getSelectCategoryNameTagLevel4()).attr(settings.getSelectCategoryAttrHrefLevel4()))
                                                             .replace(settings.getReplaceCategoryUrlLevel4(), settings.getReplacementCategoryUrlLevel4());
-                                                    if (!link.isEmpty() || !name.isEmpty()) {
+                                                    if (!link4.isEmpty() || !name4.isEmpty()) {
                                                         Categories category4 = new Categories();
                                                         category4.setId(lastCategoryId);
                                                         category4.setName(name4);
@@ -149,9 +186,18 @@ public class CategoryParser {
                                                             for (Element element5 : elements5) {
                                                                 String name5 = element5.select(settings.getSelectCategoryNameTagLevel5()).text()
                                                                         .replace(settings.getReplaceCategoryNameLevel5(), settings.getReplacementCategoryNameLevel5());
-                                                                String link5 = settings.getUrlPrefix() + element5.select(settings.getSelectCategoryNameTagLevel5()).attr(settings.getSelectCategoryAttrHrefLevel5())
+                                                                boolean bool5 = false;
+                                                                for(String string : settings.getNoScanList()){
+                                                                    if (name5.equals(string)){
+                                                                        bool5 = true;
+                                                                    }
+                                                                }
+                                                                if(bool5 == true){
+                                                                    continue;
+                                                                }
+                                                                String link5 = (settings.getUrlPrefixLevel5() + element5.select(settings.getSelectCategoryNameTagLevel5()).attr(settings.getSelectCategoryAttrHrefLevel5()))
                                                                         .replace(settings.getReplaceCategoryUrlLevel5(), settings.getReplacementCategoryUrlLevel5());
-                                                                if (!link.isEmpty() || !name.isEmpty()) {
+                                                                if (!link5.isEmpty() || !name5.isEmpty()) {
                                                                     Categories category5 = new Categories();
                                                                     category5.setId(lastCategoryId);
                                                                     category5.setName(name5);

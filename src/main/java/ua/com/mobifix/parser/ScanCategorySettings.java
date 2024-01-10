@@ -1,15 +1,16 @@
 package ua.com.mobifix.parser;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class ScanCategorySettings {
     private Long shopId = 0L;
     private String shopName = "noNameShop";
     private String urlShop = "";
     private String urlPrefix = "";
+    private String urlPrefixLevel2 = "";
+    private String urlPrefixLevel3 = "";
+    private String urlPrefixLevel4 = "";
+    private String urlPrefixLevel5 = "";
     private String selectCategoryTag = "";
     private String selectCategoryTagLevel2 = "";
     private String selectCategoryTagLevel3 = "";
@@ -46,8 +47,48 @@ public class ScanCategorySettings {
     private String replacementCategoryUrlLevel3 = "";
     private String replacementCategoryUrlLevel4 = "";
     private String replacementCategoryUrlLevel5 = "";
+    private List<String> noScanList = new ArrayList<>();
 
 
+    public List<String> getNoScanList() {
+        return noScanList;
+    }
+
+    public void setNoScanList(List<String> noScanList) {
+        this.noScanList = noScanList;
+    }
+
+    public String getUrlPrefixLevel2() {
+        return urlPrefixLevel2;
+    }
+
+    public void setUrlPrefixLevel2(String urlPrefixLevel2) {
+        this.urlPrefixLevel2 = urlPrefixLevel2;
+    }
+
+    public String getUrlPrefixLevel3() {
+        return urlPrefixLevel3;
+    }
+
+    public void setUrlPrefixLevel3(String urlPrefixLevel3) {
+        this.urlPrefixLevel3 = urlPrefixLevel3;
+    }
+
+    public String getUrlPrefixLevel4() {
+        return urlPrefixLevel4;
+    }
+
+    public void setUrlPrefixLevel4(String urlPrefixLevel4) {
+        this.urlPrefixLevel4 = urlPrefixLevel4;
+    }
+
+    public String getUrlPrefixLevel5() {
+        return urlPrefixLevel5;
+    }
+
+    public void setUrlPrefixLevel5(String urlPrefixLevel5) {
+        this.urlPrefixLevel5 = urlPrefixLevel5;
+    }
 
     public Long getShopId() {
         return shopId;

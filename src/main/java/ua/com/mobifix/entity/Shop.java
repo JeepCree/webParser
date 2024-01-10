@@ -2,6 +2,8 @@ package ua.com.mobifix.entity;
 
 import jakarta.persistence.*;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 @Entity
@@ -27,6 +29,10 @@ public class Shop {
     private String selectCategoryAttrHrefLevel4;
     private String selectCategoryAttrHrefLevel5;
     private String urlPrefix;
+    private String urlPrefixLevel2 = "";
+    private String urlPrefixLevel3 = "";
+    private String urlPrefixLevel4 = "";
+    private String urlPrefixLevel5 = "";
     private String cookies;
     private String replaceCategoryName;
     private String replaceCategoryNameLevel2;
@@ -48,6 +54,47 @@ public class Shop {
     private String replacementCategoryUrlLevel3;
     private String replacementCategoryUrlLevel4;
     private String replacementCategoryUrlLevel5;
+    private String noScanList;
+
+    public String getNoScanList() {
+        return noScanList;
+    }
+
+    public void setNoScanList(String noScanList) {
+        this.noScanList = noScanList;
+    }
+
+    public String getUrlPrefixLevel2() {
+        return urlPrefixLevel2;
+    }
+
+    public void setUrlPrefixLevel2(String urlPrefixLevel2) {
+        this.urlPrefixLevel2 = urlPrefixLevel2;
+    }
+
+    public String getUrlPrefixLevel3() {
+        return urlPrefixLevel3;
+    }
+
+    public void setUrlPrefixLevel3(String urlPrefixLevel3) {
+        this.urlPrefixLevel3 = urlPrefixLevel3;
+    }
+
+    public String getUrlPrefixLevel4() {
+        return urlPrefixLevel4;
+    }
+
+    public void setUrlPrefixLevel4(String urlPrefixLevel4) {
+        this.urlPrefixLevel4 = urlPrefixLevel4;
+    }
+
+    public String getUrlPrefixLevel5() {
+        return urlPrefixLevel5;
+    }
+
+    public void setUrlPrefixLevel5(String urlPrefixLevel5) {
+        this.urlPrefixLevel5 = urlPrefixLevel5;
+    }
 
     public Long getId() {
         return id;

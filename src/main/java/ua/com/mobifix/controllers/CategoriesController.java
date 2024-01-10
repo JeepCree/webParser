@@ -233,25 +233,29 @@ public class CategoriesController {
     private void setShopSettings(Long shopId){
         Shop shop = new Shop();
         shop.setId(shopId);
-        shop.setName("moyo.ua");
-        shop.setLink("https://www.moyo.ua/");
-        shop.setUrlPrefix("https://www.moyo.ua");
-        shop.setSelectCategoryTag("body > div.main-wrap > main > div > section > div.catalog-banner > div.catalog-container > ul > li");
-        shop.setSelectCategoryTagLevel2("#main-wrap > main > div > div.portal-category-list > div > a.portal-category-list__title");
-        shop.setSelectCategoryTagLevel3("#main-wrap > main > div > div.portal-category-list > div > a.portal-category-list__title");
-        shop.setSelectCategoryTagLevel4("#main-wrap > main > div > div.portal-category-list > div > a.portal-category-list__title");
-        shop.setSelectCategoryTagLevel5("#main-wrap > main > div > div.portal-category-list > div > a.portal-category-list__title");
-        shop.setSelectCategoryNameTag("body > div.main-wrap > main > div > section:nth-child(1) > div.catalog-banner > div.catalog-container > ul > li > span");
-        shop.setSelectCategoryNameTagLevel2("#main-wrap > main > div > div.portal-category-list > div > a.portal-category-list__title > p");
-        shop.setSelectCategoryNameTagLevel3("#main-wrap > main > div > div.portal-category-list > div > a.portal-category-list__title > p");
-        shop.setSelectCategoryNameTagLevel4("#main-wrap > main > div > div.portal-category-list > div > a.portal-category-list__title > p");
-        shop.setSelectCategoryNameTagLevel5("#main-wrap > main > div > div.portal-category-list > div > a.portal-category-list__title > p");
-        shop.setSelectCategoryAttrHref("data-href");
+        shop.setName("hotline.ua");
+        shop.setLink("https://hotline.ua/");
+        shop.setUrlPrefix("https://hotline.ua");
+        shop.setUrlPrefixLevel2("https://hotline.ua");
+        shop.setUrlPrefixLevel3("https://hotline.ua");
+        shop.setUrlPrefixLevel4("https://hotline.ua");
+        shop.setUrlPrefixLevel5("https://hotline.ua");
+        shop.setSelectCategoryTag("a.categories-section__link.link--black");
+        shop.setSelectCategoryTagLevel2("a.section-navigation__link.link--black");
+        shop.setSelectCategoryTagLevel3("a.section-navigation__link.link--black");
+        shop.setSelectCategoryTagLevel4("a.section-navigation__link.link--black");
+        shop.setSelectCategoryTagLevel5("a.section-navigation__link.link--black");
+        shop.setSelectCategoryNameTag("span.text");
+        shop.setSelectCategoryNameTagLevel2("div.section-navigation__link-text");
+        shop.setSelectCategoryNameTagLevel3("div.section-navigation__link-text");
+        shop.setSelectCategoryNameTagLevel4("div.section-navigation__link-text");
+        shop.setSelectCategoryNameTagLevel5("div.section-navigation__link-text");
+        shop.setSelectCategoryAttrHref("href");
         shop.setSelectCategoryAttrHrefLevel2("href");
         shop.setSelectCategoryAttrHrefLevel3("href");
         shop.setSelectCategoryAttrHrefLevel4("href");
         shop.setSelectCategoryAttrHrefLevel5("href");
-        shop.setCookies("{lang=ru, PHPSESSID=gi8e1vpsl3ob7crhin4nlr1bt6}");
+        shop.setCookies("{PHPSESSID=837ddb8da7821e288ff951f93971ee8e, language=ru, languageSetByUser=true}");
         shop.setReplaceCategoryName("");
         shop.setReplaceCategoryNameLevel2("");
         shop.setReplaceCategoryNameLevel3("");
@@ -272,6 +276,7 @@ public class CategoriesController {
         shop.setReplacementCategoryUrlLevel3("");
         shop.setReplacementCategoryUrlLevel4("");
         shop.setReplacementCategoryUrlLevel5("");
+        shop.setNoScanList("kjdfgnvd;sfsc");
         shopRepository.save(shop);
     }
 
@@ -284,14 +289,20 @@ public class CategoriesController {
 
         Map<String, String> cookies = new HashMap<>();
         List<HttpCookie> httpCookies = HttpCookie.parse(shop.getCookies());
+        System.out.println(httpCookies.size());
         for (HttpCookie httpCookie : httpCookies) {
             cookies.put(httpCookie.getName(), httpCookie.getValue());
+            System.out.println(httpCookie.getName() + " " + httpCookie.getValue());
         }
 
         settings.setShopId(shop.getId());
         settings.setShopName(shop.getName());
         settings.setUrlShop(shop.getLink());
         settings.setUrlPrefix(shop.getUrlPrefix());
+        settings.setUrlPrefixLevel2(shop.getUrlPrefixLevel2());
+        settings.setUrlPrefixLevel3(shop.getUrlPrefixLevel3());
+        settings.setUrlPrefixLevel4(shop.getUrlPrefixLevel4());
+        settings.setUrlPrefixLevel5(shop.getUrlPrefixLevel5());
         settings.setSelectCategoryTag(shop.getSelectCategoryTag());
         settings.setSelectCategoryTagLevel2(shop.getSelectCategoryTagLevel2());
         settings.setSelectCategoryTagLevel3(shop.getSelectCategoryTagLevel3());
@@ -388,6 +399,8 @@ public class CategoriesController {
         }
         settings.setReplacementCategoryUrlLevel5(shop.getReplacementCategoryUrlLevel5());
         settings.setCookies(cookies);
+
+        settings.setNoScanList((List<String>) Arrays.asList(shop.getNoScanList().split(";")));
 
         for (Categories el : categoryParser.getCatalog(settings, categoriesRepository.findFirstByOrderByIdDesc().getId())) {
             categoriesRepository.updateOrSaveByUrl(el);
