@@ -20,28 +20,11 @@ import java.util.Map;
 
 public class test {
     public static void main(String[] args) {
-        // Указываем путь к ChromeDriver (замените путь на ваш)
-        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Google\\Chrome\\Application\\chromedriver.exe");
-
-        // Создаем экземпляр WebDriver (в данном случае - ChromeDriver)
-        WebDriver driver = new ChromeDriver();
-
         try {
-            // Открываем веб-страницу
-            driver.get("https://www.example.com");
-
-
-            // Получаем HTML-код страницы после выполнения JavaScript
-            String pageSource = driver.getPageSource();
-
-            // Выводим HTML-код страницы
-            System.out.println(pageSource);
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            // Закрываем браузер
-            driver.quit();
+            Document page = Jsoup.connect("https://hotline.ua/ru/").get();
+            System.out.println(page.select("a.link--black").attr("href"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
 }

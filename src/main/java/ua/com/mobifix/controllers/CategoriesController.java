@@ -233,29 +233,29 @@ public class CategoriesController {
     private void setShopSettings(Long shopId){
         Shop shop = new Shop();
         shop.setId(shopId);
-        shop.setName("allo.ua");
-        shop.setLink("https://allo.ua/ru/");
-        shop.setUrlPrefix("");
-        shop.setUrlPrefixLevel2("");
-        shop.setUrlPrefixLevel3("");
-        shop.setUrlPrefixLevel4("");
-        shop.setUrlPrefixLevel5("");
-        shop.setSelectCategoryTag("a.mm__a");
-        shop.setSelectCategoryTagLevel2("a.portal-group__title-link");
-        shop.setSelectCategoryTagLevel3("a.portal-group__title-link");
-        shop.setSelectCategoryTagLevel4("a.portal-group__title-link");
-        shop.setSelectCategoryTagLevel5("a.portal-group__title-link");
-        shop.setSelectCategoryNameTag("a.mm__a");
-        shop.setSelectCategoryNameTagLevel2("a.portal-group__title-link");
-        shop.setSelectCategoryNameTagLevel3("a.portal-group__title-link");
-        shop.setSelectCategoryNameTagLevel4("a.portal-group__title-link");
-        shop.setSelectCategoryNameTagLevel5("a.portal-group__title-link");
+        shop.setName("hotline.ua");
+        shop.setLink("https://hotline.ua/ru/");
+        shop.setUrlPrefix("https://hotline.ua");
+        shop.setUrlPrefixLevel2("https://hotline.ua");
+        shop.setUrlPrefixLevel3("https://hotline.ua");
+        shop.setUrlPrefixLevel4("https://hotline.ua");
+        shop.setUrlPrefixLevel5("https://hotline.ua");
+        shop.setSelectCategoryTag("#__layout > div > div.default-layout__content-container > main > section.index-page-section.categories-section > div > a");
+        shop.setSelectCategoryTagLevel2("#__layout > div > div.default-layout__content-container > div > div.row.flex-wrap > div > div > div > div > div.catalog-links > div > a");
+        shop.setSelectCategoryTagLevel3("#__layout > div > div.default-layout__content-container > div > div.row.flex-wrap > div > div > div > div > div.catalog-links > div > a");
+        shop.setSelectCategoryTagLevel4("#__layout > div > div.default-layout__content-container > div > div.row.flex-wrap > div > div > div > div > div.catalog-links > div > a");
+        shop.setSelectCategoryTagLevel5("#__layout > div > div.default-layout__content-container > div > div.row.flex-wrap > div > div > div > div > div.catalog-links > div > a");
+        shop.setSelectCategoryNameTag("a");
+        shop.setSelectCategoryNameTagLevel2("a");
+        shop.setSelectCategoryNameTagLevel3("a");
+        shop.setSelectCategoryNameTagLevel4("a");
+        shop.setSelectCategoryNameTagLevel5("a");
         shop.setSelectCategoryAttrHref("href");
         shop.setSelectCategoryAttrHrefLevel2("href");
         shop.setSelectCategoryAttrHrefLevel3("href");
         shop.setSelectCategoryAttrHrefLevel4("href");
         shop.setSelectCategoryAttrHrefLevel5("href");
-        shop.setCookies("store=default");
+        shop.setCookies("language=ru");
         shop.setReplaceCategoryName("");
         shop.setReplaceCategoryNameLevel2("");
         shop.setReplaceCategoryNameLevel3("");
@@ -276,7 +276,7 @@ public class CategoriesController {
         shop.setReplacementCategoryUrlLevel3("");
         shop.setReplacementCategoryUrlLevel4("");
         shop.setReplacementCategoryUrlLevel5("");
-        shop.setNoScanList("Держи заряд;Акции");
+        shop.setNoScanList("HOTLINE.FINANCE;Все каталоги;Бренды");
         shopRepository.save(shop);
     }
 
