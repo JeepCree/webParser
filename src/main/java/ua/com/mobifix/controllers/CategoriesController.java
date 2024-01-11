@@ -233,29 +233,29 @@ public class CategoriesController {
     private void setShopSettings(Long shopId){
         Shop shop = new Shop();
         shop.setId(shopId);
-        shop.setName("hotline.ua");
-        shop.setLink("https://hotline.ua/ru/");
-        shop.setUrlPrefix("https://hotline.ua");
-        shop.setUrlPrefixLevel2("https://hotline.ua");
-        shop.setUrlPrefixLevel3("https://hotline.ua");
-        shop.setUrlPrefixLevel4("https://hotline.ua");
-        shop.setUrlPrefixLevel5("https://hotline.ua");
-        shop.setSelectCategoryTag("#__layout > div > div.default-layout__content-container > main > section.index-page-section.categories-section > div > a");
-        shop.setSelectCategoryTagLevel2("#__layout > div > div.default-layout__content-container > div > div.row.flex-wrap > div > div > div > div > div.catalog-links > div > a");
-        shop.setSelectCategoryTagLevel3("#__layout > div > div.default-layout__content-container > div > div.row.flex-wrap > div > div > div > div > div.catalog-links > div > a");
-        shop.setSelectCategoryTagLevel4("#__layout > div > div.default-layout__content-container > div > div.row.flex-wrap > div > div > div > div > div.catalog-links > div > a");
-        shop.setSelectCategoryTagLevel5("#__layout > div > div.default-layout__content-container > div > div.row.flex-wrap > div > div > div > div > div.catalog-links > div > a");
+        shop.setName("ek.ua");
+        shop.setLink("https://ek.ua/");
+        shop.setUrlPrefix("https://ek.ua");
+        shop.setUrlPrefixLevel2("https://ek.ua");
+        shop.setUrlPrefixLevel3("https://ek.ua");
+        shop.setUrlPrefixLevel4("https://ek.ua");
+        shop.setUrlPrefixLevel5("https://ek.ua");
+        shop.setSelectCategoryTag("a.s-catalog-cat");
+        shop.setSelectCategoryTagLevel2("span.sub-katalogs-title");
+        shop.setSelectCategoryTagLevel3("span.sub-katalogs-title");
+        shop.setSelectCategoryTagLevel4("span.sub-katalogs-title");
+        shop.setSelectCategoryTagLevel5("span.sub-katalogs-title");
         shop.setSelectCategoryNameTag("a");
-        shop.setSelectCategoryNameTagLevel2("a");
-        shop.setSelectCategoryNameTagLevel3("a");
-        shop.setSelectCategoryNameTagLevel4("a");
-        shop.setSelectCategoryNameTagLevel5("a");
+        shop.setSelectCategoryNameTagLevel2("span");
+        shop.setSelectCategoryNameTagLevel3("span");
+        shop.setSelectCategoryNameTagLevel4("span");
+        shop.setSelectCategoryNameTagLevel5("span");
         shop.setSelectCategoryAttrHref("href");
         shop.setSelectCategoryAttrHrefLevel2("href");
         shop.setSelectCategoryAttrHrefLevel3("href");
         shop.setSelectCategoryAttrHrefLevel4("href");
         shop.setSelectCategoryAttrHrefLevel5("href");
-        shop.setCookies("language=ru; PHPSESSID=837ddb8da7821e288ff951f93971ee8e; city_id=187; user_jwt=eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ%3D%3D.eyJ1c2VySWQiOjcwOTUxNzI3OH0%3D.4BQCNmhGbdPeGvSXaeJqQn8rJjmXc73Kf9114d01j88%3D");
+        shop.setCookies("PHPSESSID=ef3a66niml1mu8v726ras0msrt; PHPSESSID=tprsfdgc43uvaarhnshab3jqgk; SEARCH_SAMESITE=CgQIlJoB; n_session_id_cookie=057589445f6854d898decc34568b7625");
         shop.setReplaceCategoryName("");
         shop.setReplaceCategoryNameLevel2("");
         shop.setReplaceCategoryNameLevel3("");
@@ -276,7 +276,7 @@ public class CategoriesController {
         shop.setReplacementCategoryUrlLevel3("");
         shop.setReplacementCategoryUrlLevel4("");
         shop.setReplacementCategoryUrlLevel5("");
-        shop.setNoScanList("HOTLINE.FINANCE;Все каталоги;Бренды");
+        shop.setNoScanList("");
         shopRepository.save(shop);
     }
 
