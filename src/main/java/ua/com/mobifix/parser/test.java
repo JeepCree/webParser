@@ -20,11 +20,14 @@ import java.util.Map;
 
 public class test {
     public static void main(String[] args) {
-        try {
-            Document page = Jsoup.connect("https://hotline.ua/ru/").get();
-            System.out.println(page.select("a.link--black").attr("href"));
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+        Map<String, String> cookies = new HashMap<>();
+        String cookiesString = "cookie1=Value1; cookie2=Value2; cookie3=Value3";
+        String[] cookiePairs = cookiesString.split("; ");
+        for (String cookiePair : cookiePairs) {
+            String[] parts = cookiePair.split("=");
+            if (parts.length == 2) {
+                cookies.put(parts[0], parts[1]);
+            }
         }
     }
 }

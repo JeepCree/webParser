@@ -25,6 +25,7 @@ public class CategoryParser {
         if (cookies == null) {
             cookies.put("noName", "noValue");
         }
+        System.out.println(cookies);
         try {
             Connection.Response response = Jsoup.connect(settings.getUrlShop()).method(Connection.Method.GET).execute();
             Document page = Jsoup.connect(settings.getUrlShop())

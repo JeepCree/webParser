@@ -255,7 +255,7 @@ public class CategoriesController {
         shop.setSelectCategoryAttrHrefLevel3("href");
         shop.setSelectCategoryAttrHrefLevel4("href");
         shop.setSelectCategoryAttrHrefLevel5("href");
-        shop.setCookies("language=ru");
+        shop.setCookies("language=ru; PHPSESSID=837ddb8da7821e288ff951f93971ee8e; city_id=187; user_jwt=eyJhbGciOiJzaGEyNTYiLCJ0eXAiOiJKV1QifQ%3D%3D.eyJ1c2VySWQiOjcwOTUxNzI3OH0%3D.4BQCNmhGbdPeGvSXaeJqQn8rJjmXc73Kf9114d01j88%3D");
         shop.setReplaceCategoryName("");
         shop.setReplaceCategoryNameLevel2("");
         shop.setReplaceCategoryNameLevel3("");
@@ -288,11 +288,12 @@ public class CategoriesController {
         Shop shop = shopRepository.getById(shopId);
 
         Map<String, String> cookies = new HashMap<>();
-        List<HttpCookie> httpCookies = HttpCookie.parse(shop.getCookies());
-        System.out.println(httpCookies.size());
-        for (HttpCookie httpCookie : httpCookies) {
-            cookies.put(httpCookie.getName(), httpCookie.getValue());
-            System.out.println(httpCookie.getName() + " " + httpCookie.getValue());
+        String[] cookiePairs = shop.getCookies().split("; ");
+        for (String cookiePair : cookiePairs) {
+            String[] parts = cookiePair.split("=");
+            if (parts.length == 2) {
+                cookies.put(parts[0], parts[1]);
+            }
         }
 
         settings.setShopId(shop.getId());
