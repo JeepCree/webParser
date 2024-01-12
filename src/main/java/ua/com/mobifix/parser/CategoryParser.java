@@ -56,12 +56,6 @@ public class CategoryParser {
                 String link = (settings.getUrlPrefix() + element.select(settings.getSelectCategoryNameTag()).attr(settings.getSelectCategoryAttrHref()))
                         .replace(settings.getReplaceCategoryUrl(), settings.getReplacementCategoryUrl()).trim();
                 if (!link.isEmpty() || !name.isEmpty()) {
-//                    AllScanCategory category = new AllScanCategory();
-//                    category.setCategoryId(lastCategoryId);
-//                    category.setCategoryName(name);
-//                    category.setCategoryUrl(link);
-//                    category.setParentCategoryId(0L);
-//                    categoryList.add(category);
                     Categories category = new Categories();
                     category.setId(lastCategoryId);
                     category.setName(name);

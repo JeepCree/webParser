@@ -19,16 +19,16 @@ import java.util.List;
 import java.util.Map;
 
 public class test {
-    public static void main(String[] args) {
-        Map<String, String> cookies = new HashMap<>();
-        String cookiesString = "cookie1=Value1; cookie2=Value2; cookie3=Value3";
-        String[] cookiePairs = cookiesString.split("; ");
-        for (String cookiePair : cookiePairs) {
-            String[] parts = cookiePair.split("=");
-            if (parts.length == 2) {
-                cookies.put(parts[0], parts[1]);
-            }
+    public static void main(String[] args) throws IOException {
+        Document  page = Jsoup.connect("https://vseplus.com/product/radiodetali-mikroshemy").get();
+        Elements elementsName = page.select("#middle > aside > nav > section.sidebar__item.sidebar__item_root-preview > ul > li > div > ul > li");
+        System.out.println(elementsName.size());
+        for (Element el : elementsName){
+            String name = el.select("a").text();
+            String link = el.select("a").attr("href");
+            System.out.println(name + " " + link);
         }
+
     }
 }
 

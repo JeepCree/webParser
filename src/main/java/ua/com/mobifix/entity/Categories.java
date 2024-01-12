@@ -9,13 +9,13 @@ public class Categories {
     private Long id;
     @Column(nullable = false)
     private boolean active;
-    @Column(nullable = false, length = 80192)
+    @Column(nullable = false, length = 8192)
     private String name;
     @Column(nullable = false)
     private Long parentId;
     @Column(nullable = false)
     private boolean rootCategory;
-    @Column(length = 80192)
+    @Column(length = 8192)
     private String description;
     private String metaTitle;
     private String metaDescription;
