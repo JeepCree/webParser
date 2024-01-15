@@ -19,14 +19,24 @@ import java.util.List;
 import java.util.Map;
 
 public class test {
-    public static void main(String[] args) throws IOException {
-        Document  page = Jsoup.connect("https://vseplus.com/product/radiodetali-mikroshemy").get();
-        Elements elementsName = page.select("#middle > aside > nav > section.sidebar__item.sidebar__item_root-preview > ul > li > div > ul > li");
-        System.out.println(elementsName.size());
-        for (Element el : elementsName){
-            String name = el.select("a").text();
-            String link = el.select("a").attr("href");
-            System.out.println(name + " " + link);
+    public static void main(String[] args) {
+        boolean bool = true;
+        while(bool) {
+            try {
+                Document page = Jsoup.connect("https://all-spares.ua/ru/").get();
+                System.out.println(page);
+                Elements elements = page.select("div.menu-box__menu-item.menu-box__menu-item_catalog > div > div > ul > li.catalog__item");
+                System.out.println(elements.size());
+                for (Element element : elements) {
+                    String name = element.select("a.catalog__link").text();
+                    String link = element.select("a.catalog__link").attr("href");
+                    System.out.println(name + " " + link);
+                }
+                bool = false;
+            } catch (IOException e) {
+                System.out.println("err");
+                bool = true;
+            }
         }
 
     }
