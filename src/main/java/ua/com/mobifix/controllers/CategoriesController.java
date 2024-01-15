@@ -240,8 +240,8 @@ public class CategoriesController {
         shop.setUrlPrefixLevel3("noEl");
         shop.setUrlPrefixLevel4("noEl");
         shop.setUrlPrefixLevel5("noEl");
-        shop.setSelectCategoryTag("body > div.wrap.header__wrap > div > div > div.menu-box__menu-item.menu-box__menu-item_catalog > div > div > ul > li > a");
-        shop.setSelectCategoryTagLevel2("#middle > aside > nav > section.sidebar__item.sidebar__item_root-preview > ul > li > div > ul > li");
+        shop.setSelectCategoryTag("div.menu-box__menu-item.menu-box__menu-item_catalog > div > div > ul > li > a");
+        shop.setSelectCategoryTagLevel2("section.sidebar__item.sidebar__item_root-preview > ul > li > div > ul > li > a");
         shop.setSelectCategoryTagLevel3("noEl");
         shop.setSelectCategoryTagLevel4("noEl");
         shop.setSelectCategoryTagLevel5("noEl");

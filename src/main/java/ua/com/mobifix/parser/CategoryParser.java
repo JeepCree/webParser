@@ -32,7 +32,7 @@ public class CategoryParser {
                     .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
                     .cookies(cookies)
                     .get();
-            System.out.println(page);
+//            System.out.println(page);
             try {
                 Thread.sleep(1000);
                 System.out.println("sleep page 1");

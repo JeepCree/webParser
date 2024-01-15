@@ -23,19 +23,24 @@ public class test {
         boolean bool = true;
         while(bool) {
             try {
-                Document page = Jsoup.connect("https://all-spares.ua/ru/").get();
-                System.out.println(page);
-                Elements elements = page.select("div.menu-box__menu-item.menu-box__menu-item_catalog > div > div > ul > li.catalog__item");
+                Document page = Jsoup.connect("https://vseplus.com/product/radiodetali-mikroshemy").get();
+//                System.out.println(page);
+                Elements elements = page.select("section.sidebar__item.sidebar__item_root-preview > ul > li > div > ul > li");
                 System.out.println(elements.size());
                 for (Element element : elements) {
-                    String name = element.select("a.catalog__link").text();
-                    String link = element.select("a.catalog__link").attr("href");
+                    String name = element.select("a").text();
+                    String link = element.select("a").attr("href");
                     System.out.println(name + " " + link);
                 }
                 bool = false;
             } catch (IOException e) {
                 System.out.println("err");
                 bool = true;
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException ex) {
+                    throw new RuntimeException(ex);
+                }
             }
         }
 
