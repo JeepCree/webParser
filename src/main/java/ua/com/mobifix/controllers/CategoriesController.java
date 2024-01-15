@@ -17,7 +17,6 @@ import ua.com.mobifix.service.*;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.net.HttpCookie;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -232,9 +231,9 @@ public class CategoriesController {
     @ResponseBody
     private void setShopSettings(Long shopId){
         Shop shop = new Shop();
-        shop.setId(shopId);
-        shop.setName("vseplus.com");
-        shop.setLink("https://vseplus.com/");
+        shop.setIdShop(shopId);
+        shop.setNameShop("vseplus.com");
+        shop.setLinkShop("https://vseplus.com/");
         shop.setUrlPrefix("https://vseplus.com");
         shop.setUrlPrefixLevel2("https://vseplus.com");
         shop.setUrlPrefixLevel3("noEl");
@@ -296,9 +295,9 @@ public class CategoriesController {
             }
         }
 
-        settings.setShopId(shop.getId());
-        settings.setShopName(shop.getName());
-        settings.setUrlShop(shop.getLink());
+        settings.setShopId(shop.getIdShop());
+        settings.setShopName(shop.getNameShop());
+        settings.setUrlShop(shop.getLinkShop());
         settings.setUrlPrefix(shop.getUrlPrefix());
         settings.setUrlPrefixLevel2(shop.getUrlPrefixLevel2());
         settings.setUrlPrefixLevel3(shop.getUrlPrefixLevel3());

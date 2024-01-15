@@ -1,34 +1,40 @@
-package ua.com.mobifix.parser;
+package ua.com.mobifix.entity;
 
-import ua.com.mobifix.entity.Shop;
+import jakarta.persistence.*;
+import ua.com.mobifix.parser.ScanCategorySettings;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
-public class ScanCategorySettings extends Shop {
-    private Long shopId = 0L;
-    private String shopName = "noNameShop";
-    private String urlShop = "";
+@Entity
+public class Shop {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String name;
+    private String link;
+    private String selectCategoryTag = "noTag";
+    private String selectCategoryTagLevel2 = "noTag";
+    private String selectCategoryTagLevel3 = "noTag";
+    private String selectCategoryTagLevel4 = "noTag";
+    private String selectCategoryTagLevel5 = "noTag";
+    private String selectCategoryNameTag = "noNameTag";
+    private String selectCategoryNameTagLevel2 = "noNameTag";
+    private String selectCategoryNameTagLevel3 = "noNameTag";
+    private String selectCategoryNameTagLevel4 = "noNameTag";
+    private String selectCategoryNameTagLevel5 = "noNameTag";
+    private String selectCategoryAttrHref = "noAttrHref";
+    private String selectCategoryAttrHrefLevel2 = "noAttrHref";
+    private String selectCategoryAttrHrefLevel3 = "noAttrHref";
+    private String selectCategoryAttrHrefLevel4 = "noAttrHref";
+    private String selectCategoryAttrHrefLevel5 = "noAttrHref";
     private String urlPrefix = "";
     private String urlPrefixLevel2 = "";
     private String urlPrefixLevel3 = "";
     private String urlPrefixLevel4 = "";
     private String urlPrefixLevel5 = "";
-    private String selectCategoryTag = "";
-    private String selectCategoryTagLevel2 = "";
-    private String selectCategoryTagLevel3 = "";
-    private String selectCategoryTagLevel4 = "";
-    private String selectCategoryTagLevel5 = "";
-    private String selectCategoryNameTag = "";
-    private String selectCategoryNameTagLevel2 = "";
-    private String selectCategoryNameTagLevel3 = "";
-    private String selectCategoryNameTagLevel4 = "";
-    private String selectCategoryNameTagLevel5 = "";
-    private String selectCategoryAttrHref = "";
-    private String selectCategoryAttrHrefLevel2 = "";
-    private String selectCategoryAttrHrefLevel3 = "";
-    private String selectCategoryAttrHrefLevel4 = "";
-    private String selectCategoryAttrHrefLevel5 = "";
-    private Map cookies = new HashMap();
+    private String cookies = "noCookie=noValue";
     private String replaceCategoryName = "";
     private String replaceCategoryNameLevel2 = "";
     private String replaceCategoryNameLevel3 = "";
@@ -38,7 +44,7 @@ public class ScanCategorySettings extends Shop {
     private String replacementCategoryNameLevel2 = "";
     private String replacementCategoryNameLevel3 = "";
     private String replacementCategoryNameLevel4 = "";
-    private String replacementCategoryNameLevel5;
+    private String replacementCategoryNameLevel5 = "";
     private String replaceCategoryUrl = "";
     private String replaceCategoryUrlLevel2 = "";
     private String replaceCategoryUrlLevel3 = "";
@@ -49,14 +55,13 @@ public class ScanCategorySettings extends Shop {
     private String replacementCategoryUrlLevel3 = "";
     private String replacementCategoryUrlLevel4 = "";
     private String replacementCategoryUrlLevel5 = "";
-    private List<String> noScanList = new ArrayList<>();
+    private String noScanList = "";
 
-
-    public List<String> getNoScanList() {
+    public String getNoScanList() {
         return noScanList;
     }
 
-    public void setNoScanList(List<String> noScanList) {
+    public void setNoScanList(String noScanList) {
         this.noScanList = noScanList;
     }
 
@@ -92,36 +97,28 @@ public class ScanCategorySettings extends Shop {
         this.urlPrefixLevel5 = urlPrefixLevel5;
     }
 
-    public Long getShopId() {
-        return shopId;
+    public Long getId() {
+        return id;
     }
 
-    public void setShopId(Long shopId) {
-        this.shopId = shopId;
+    public void setId(Long id) {
+        this.id = id;
     }
 
-    public Map getCookies() {
-        return cookies;
+    public String getName() {
+        return name;
     }
 
-    public void setCookies(Map cookies) {
-        this.cookies = cookies;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getShopName() {
-        return shopName;
+    public String getLink() {
+        return link;
     }
 
-    public void setShopName(String shopName) {
-        this.shopName = shopName;
-    }
-
-    public String getUrlShop() {
-        return urlShop;
-    }
-
-    public void setUrlShop(String urlShop) {
-        this.urlShop = urlShop;
+    public void setLink(String link) {
+        this.link = link;
     }
 
     public String getSelectCategoryTag() {
@@ -250,6 +247,14 @@ public class ScanCategorySettings extends Shop {
 
     public void setUrlPrefix(String urlPrefix) {
         this.urlPrefix = urlPrefix;
+    }
+
+    public String getCookies() {
+        return cookies;
+    }
+
+    public void setCookies(String cookies) {
+        this.cookies = cookies;
     }
 
     public String getReplaceCategoryName() {

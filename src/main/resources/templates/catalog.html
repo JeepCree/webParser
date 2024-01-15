@@ -52,7 +52,7 @@
     <div class="catalog-conteiner">
         <form id="storeForm">
             <select id="storeSelect" name="store" onchange="sendSelectedStore()">
-                <option th:each="item : ${shops}" th:value="${item.getId()}" th:text="${item.getName()}"></option>
+                <option th:each="item : ${shops}" th:value="${item.getIdShop()}" th:text="${item.getNameShop()}"></option>
             </select>
         </form>
         <h2>Категории</h2>
