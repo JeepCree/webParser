@@ -8,6 +8,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import ua.com.mobifix.entity.Categories;
+import ua.com.mobifix.entity.Shop;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -18,21 +19,27 @@ import java.util.Map;
 import java.util.concurrent.CancellationException;
 
 public class CategoryParser {
-    public List<Categories> getCatalog(ScanCategorySettings settings, Long lastCategoryId){
+    public List<Categories> getCatalog(Shop settings, Long lastCategoryId){
         lastCategoryId++;
         List<Categories> categoryList = new ArrayList<>();
-        Map<String, String> cookies = settings.getCookies();
+        Map<String, String> cookies = new HashMap<>();
+        String[] cookiePairs = settings.getCookies().split("; ");
+        for (String cookiePair : cookiePairs) {
+            String[] parts = cookiePair.split("=");
+            if (parts.length == 2) {
+                cookies.put(parts[0], parts[1]);
+            }
+        }
         if (cookies == null) {
             cookies.put("noName", "noValue");
         }
         System.out.println(cookies);
         try {
-            Connection.Response response = Jsoup.connect(settings.getUrlShop()).method(Connection.Method.GET).execute();
-            Document page = Jsoup.connect(settings.getUrlShop())
+            Connection.Response response = Jsoup.connect(settings.getLinkShop()).method(Connection.Method.GET).execute();
+            Document page = Jsoup.connect(settings.getLinkShop())
                     .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
                     .cookies(cookies)
                     .get();
-//            System.out.println(page);
             try {
                 Thread.sleep(1000);
                 System.out.println("sleep page 1");

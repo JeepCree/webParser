@@ -4,7 +4,7 @@ import ua.com.mobifix.entity.Shop;
 
 import java.util.*;
 
-public class ScanCategorySettings extends Shop {
+public class ScanCategorySettings {
     private Long shopId = 0L;
     private String shopName = "noNameShop";
     private String urlShop = "";

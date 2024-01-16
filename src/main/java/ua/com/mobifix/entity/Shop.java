@@ -118,7 +118,7 @@ public class Shop {
     private String containProductBreadcrumbs = "";
     //Данные Cookies магазина
     @Column(length = 8192)
-    private String cookies = "noCookie=noValue";
+    private String cookies = "noCookie1=noValue1; noCookie2=noValue2";
 
     public Long getIdShop() {
         return idShop;

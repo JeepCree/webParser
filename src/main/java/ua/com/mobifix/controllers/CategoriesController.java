@@ -234,11 +234,11 @@ public class CategoriesController {
         shop.setIdShop(shopId);
         shop.setNameShop("vseplus.com");
         shop.setLinkShop("https://vseplus.com/");
-        shop.setUrlPrefix("https://vseplus.com");
-        shop.setUrlPrefixLevel2("https://vseplus.com");
-        shop.setUrlPrefixLevel3("noEl");
-        shop.setUrlPrefixLevel4("noEl");
-        shop.setUrlPrefixLevel5("noEl");
+        shop.setUrlCategoryPrefix("https://vseplus.com");
+        shop.setUrlCategoryPrefixLevel2("https://vseplus.com");
+        shop.setUrlCategoryPrefixLevel3("noEl");
+        shop.setUrlCategoryPrefixLevel4("noEl");
+        shop.setUrlCategoryPrefixLevel5("noEl");
         shop.setSelectCategoryTag("div.menu-box__menu-item.menu-box__menu-item_catalog > div > div > ul > li > a");
         shop.setSelectCategoryTagLevel2("section.sidebar__item.sidebar__item_root-preview > ul > li > div > ul > li > a");
         shop.setSelectCategoryTagLevel3("noEl");
@@ -260,31 +260,21 @@ public class CategoriesController {
         shop.setReplaceCategoryNameLevel3("");
         shop.setReplaceCategoryNameLevel4("");
         shop.setReplaceCategoryNameLevel5("");
-        shop.setReplacementCategoryName("");
-        shop.setReplacementCategoryNameLevel2("");
-        shop.setReplacementCategoryNameLevel3("");
-        shop.setReplacementCategoryNameLevel4("");
-        shop.setReplacementCategoryNameLevel5("");
         shop.setReplaceCategoryUrl("");
         shop.setReplaceCategoryUrlLevel2("");
         shop.setReplaceCategoryUrlLevel3("");
         shop.setReplaceCategoryUrlLevel4("");
         shop.setReplaceCategoryUrlLevel5("");
-        shop.setReplacementCategoryUrl("");
-        shop.setReplacementCategoryUrlLevel2("");
-        shop.setReplacementCategoryUrlLevel3("");
-        shop.setReplacementCategoryUrlLevel4("");
-        shop.setReplacementCategoryUrlLevel5("");
-        shop.setNoScanList("");
+        shop.setNoScanCategoryList("");
         shopRepository.save(shop);
     }
 
     @GetMapping("/scan-shop-catalog")
     @ResponseBody
     private void addNewShopCategory(Model model, Long shopId){
-        ScanCategorySettings settings = new ScanCategorySettings();
+        Shop shop = new Shop();
         CategoryParser categoryParser = new CategoryParser();
-        Shop shop = shopRepository.getById(shopId);
+        shop = shopRepository.getById(shopId);
 
         Map<String, String> cookies = new HashMap<>();
         String[] cookiePairs = shop.getCookies().split("; ");
@@ -295,114 +285,73 @@ public class CategoriesController {
             }
         }
 
-        settings.setShopId(shop.getIdShop());
-        settings.setShopName(shop.getNameShop());
-        settings.setUrlShop(shop.getLinkShop());
-        settings.setUrlPrefix(shop.getUrlPrefix());
-        settings.setUrlPrefixLevel2(shop.getUrlPrefixLevel2());
-        settings.setUrlPrefixLevel3(shop.getUrlPrefixLevel3());
-        settings.setUrlPrefixLevel4(shop.getUrlPrefixLevel4());
-        settings.setUrlPrefixLevel5(shop.getUrlPrefixLevel5());
-        settings.setSelectCategoryTag(shop.getSelectCategoryTag());
-        settings.setSelectCategoryTagLevel2(shop.getSelectCategoryTagLevel2());
-        settings.setSelectCategoryTagLevel3(shop.getSelectCategoryTagLevel3());
-        settings.setSelectCategoryTagLevel4(shop.getSelectCategoryTagLevel4());
-        settings.setSelectCategoryTagLevel5(shop.getSelectCategoryTagLevel5());
-        settings.setSelectCategoryNameTag(shop.getSelectCategoryNameTag());
-        settings.setSelectCategoryNameTagLevel2(shop.getSelectCategoryNameTagLevel2());
-        settings.setSelectCategoryNameTagLevel3(shop.getSelectCategoryNameTagLevel3());
-        settings.setSelectCategoryNameTagLevel4(shop.getSelectCategoryNameTagLevel4());
-        settings.setSelectCategoryNameTagLevel5(shop.getSelectCategoryNameTagLevel5());
-        settings.setSelectCategoryAttrHref(shop.getSelectCategoryAttrHref());
-        settings.setSelectCategoryAttrHrefLevel2(shop.getSelectCategoryAttrHrefLevel2());
-        settings.setSelectCategoryAttrHrefLevel3(shop.getSelectCategoryAttrHrefLevel3());
-        settings.setSelectCategoryAttrHrefLevel4(shop.getSelectCategoryAttrHrefLevel4());
-        settings.setSelectCategoryAttrHrefLevel5(shop.getSelectCategoryAttrHrefLevel5());
+        shop.setIdShop(shop.getIdShop());
+        shop.setNameShop(shop.getNameShop());
+        shop.setLinkShop(shop.getLinkShop());
+        shop.setUrlCategoryPrefix(shop.getUrlCategoryPrefix());
+        shop.setUrlCategoryPrefixLevel2(shop.getUrlCategoryPrefixLevel2());
+        shop.setUrlCategoryPrefixLevel3(shop.getUrlCategoryPrefixLevel3());
+        shop.setUrlCategoryPrefixLevel4(shop.getUrlCategoryPrefixLevel4());
+        shop.setUrlCategoryPrefixLevel5(shop.getUrlCategoryPrefixLevel5());
+        shop.setSelectCategoryTag(shop.getSelectCategoryTag());
+        shop.setSelectCategoryTagLevel2(shop.getSelectCategoryTagLevel2());
+        shop.setSelectCategoryTagLevel3(shop.getSelectCategoryTagLevel3());
+        shop.setSelectCategoryTagLevel4(shop.getSelectCategoryTagLevel4());
+        shop.setSelectCategoryTagLevel5(shop.getSelectCategoryTagLevel5());
+        shop.setSelectCategoryNameTag(shop.getSelectCategoryNameTag());
+        shop.setSelectCategoryNameTagLevel2(shop.getSelectCategoryNameTagLevel2());
+        shop.setSelectCategoryNameTagLevel3(shop.getSelectCategoryNameTagLevel3());
+        shop.setSelectCategoryNameTagLevel4(shop.getSelectCategoryNameTagLevel4());
+        shop.setSelectCategoryNameTagLevel5(shop.getSelectCategoryNameTagLevel5());
+        shop.setSelectCategoryAttrHref(shop.getSelectCategoryAttrHref());
+        shop.setSelectCategoryAttrHrefLevel2(shop.getSelectCategoryAttrHrefLevel2());
+        shop.setSelectCategoryAttrHrefLevel3(shop.getSelectCategoryAttrHrefLevel3());
+        shop.setSelectCategoryAttrHrefLevel4(shop.getSelectCategoryAttrHrefLevel4());
+        shop.setSelectCategoryAttrHrefLevel5(shop.getSelectCategoryAttrHrefLevel5());
         if (shop.getReplaceCategoryName() == null){
             shop.setReplaceCategoryName("");
         }
-        settings.setReplaceCategoryName(shop.getReplaceCategoryName());
+        shop.setReplaceCategoryName(shop.getReplaceCategoryName());
         if (shop.getReplaceCategoryNameLevel2() == null){
             shop.setReplaceCategoryNameLevel2("");
         }
-        settings.setReplaceCategoryNameLevel2(shop.getReplaceCategoryNameLevel2());
+        shop.setReplaceCategoryNameLevel2(shop.getReplaceCategoryNameLevel2());
         if (shop.getReplaceCategoryNameLevel3() == null){
             shop.setReplaceCategoryNameLevel3("");
         }
-        settings.setReplaceCategoryNameLevel3(shop.getReplaceCategoryNameLevel3());
+        shop.setReplaceCategoryNameLevel3(shop.getReplaceCategoryNameLevel3());
         if (shop.getReplaceCategoryNameLevel4() == null){
             shop.setReplaceCategoryNameLevel4("");
         }
-        settings.setReplaceCategoryNameLevel4(shop.getReplaceCategoryNameLevel4());
+        shop.setReplaceCategoryNameLevel4(shop.getReplaceCategoryNameLevel4());
         if (shop.getReplaceCategoryNameLevel5() == null){
             shop.setReplaceCategoryNameLevel5("");
         }
-        settings.setReplaceCategoryNameLevel5(shop.getReplaceCategoryNameLevel5());
-        if (shop.getReplacementCategoryName() == null){
-            shop.setReplacementCategoryName("");
-        }
-        settings.setReplacementCategoryName(shop.getReplacementCategoryName());
-        if (shop.getReplacementCategoryNameLevel2() == null){
-            shop.setReplacementCategoryNameLevel2("");
-        }
-        settings.setReplacementCategoryNameLevel2(shop.getReplacementCategoryNameLevel2());
-        if (shop.getReplacementCategoryNameLevel3() == null){
-            shop.setReplacementCategoryNameLevel3("");
-        }
-        settings.setReplacementCategoryNameLevel3(shop.getReplacementCategoryNameLevel3());
-        if (shop.getReplacementCategoryNameLevel4() == null){
-            shop.setReplacementCategoryNameLevel4("");
-        }
-        settings.setReplacementCategoryNameLevel4(shop.getReplacementCategoryNameLevel4());
-        if (shop.getReplacementCategoryNameLevel5() == null){
-            shop.setReplacementCategoryNameLevel5("");
-        }
-        settings.setReplacementCategoryNameLevel5(shop.getReplacementCategoryNameLevel5());
-        if (shop.getReplaceCategoryUrl() == null){
-            shop.setReplaceCategoryUrl("");
-        }
-        settings.setReplaceCategoryUrl(shop.getReplaceCategoryUrl());
+        shop.setReplaceCategoryNameLevel5(shop.getReplaceCategoryNameLevel5());
+
+        shop.setReplaceCategoryUrl(shop.getReplaceCategoryUrl());
         if (shop.getReplaceCategoryUrlLevel2() == null){
             shop.setReplaceCategoryUrlLevel2("");
         }
-        settings.setReplaceCategoryUrlLevel2(shop.getReplaceCategoryUrlLevel2());
+        shop.setReplaceCategoryUrlLevel2(shop.getReplaceCategoryUrlLevel2());
         if (shop.getReplaceCategoryUrlLevel3() == null){
             shop.setReplaceCategoryUrlLevel3("");
         }
-        settings.setReplaceCategoryUrlLevel3(shop.getReplaceCategoryUrlLevel3());
+        shop.setReplaceCategoryUrlLevel3(shop.getReplaceCategoryUrlLevel3());
         if (shop.getReplaceCategoryUrlLevel4() == null){
             shop.setReplaceCategoryUrlLevel4("");
         }
-        settings.setReplaceCategoryUrlLevel4(shop.getReplaceCategoryUrlLevel4());
+        shop.setReplaceCategoryUrlLevel4(shop.getReplaceCategoryUrlLevel4());
         if (shop.getReplaceCategoryUrlLevel5() == null){
             shop.setReplaceCategoryUrlLevel5("");
         }
-        settings.setReplaceCategoryUrlLevel5(shop.getReplaceCategoryUrlLevel5());
-        if (shop.getReplacementCategoryUrl() == null){
-            shop.setReplacementCategoryUrl("");
-        }
-        settings.setReplacementCategoryUrl(shop.getReplacementCategoryUrl());
-        if (shop.getReplacementCategoryUrlLevel2() == null){
-            shop.setReplacementCategoryUrlLevel2("");
-        }
-        settings.setReplacementCategoryUrlLevel2(shop.getReplacementCategoryUrlLevel2());
-        if (shop.getReplacementCategoryUrlLevel3() == null){
-            shop.setReplacementCategoryUrlLevel3("");
-        }
-        settings.setReplacementCategoryUrlLevel3(shop.getReplacementCategoryUrlLevel3());
-        if (shop.getReplacementCategoryUrlLevel4() == null){
-            shop.setReplacementCategoryUrlLevel4("");
-        }
-        settings.setReplacementCategoryUrlLevel4(shop.getReplacementCategoryUrlLevel4());
-        if (shop.getReplacementCategoryUrlLevel5() == null){
-            shop.setReplacementCategoryUrlLevel5("");
-        }
-        settings.setReplacementCategoryUrlLevel5(shop.getReplacementCategoryUrlLevel5());
-        settings.setCookies(cookies);
+        shop.setReplaceCategoryUrlLevel5(shop.getReplaceCategoryUrlLevel5());
 
-        settings.setNoScanList((List<String>) Arrays.asList(shop.getNoScanList().split(";")));
+        shop.setCookies("cookie=value");
 
-        for (Categories el : categoryParser.getCatalog(settings, categoriesRepository.findFirstByOrderByIdDesc().getId())) {
+        shop.setNoScanCategoryList("");
+
+        for (Categories el : categoryParser.getCatalog(shop, categoriesRepository.findFirstByOrderByIdDesc().getId())) {
             categoriesRepository.updateOrSaveByUrl(el);
         }
         System.out.println("End of scan!");
