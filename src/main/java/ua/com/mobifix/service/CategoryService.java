@@ -16,11 +16,13 @@ import java.util.stream.Collectors;
 @Service
 public class CategoryService {
     private CategoriesRepository categoriesRepository;
+//    public CategoryService(){}
     @Autowired
     public CategoryService(CategoriesRepository categoriesRepository){
         this.categoriesRepository = categoriesRepository;
     }
-     public Categories findCategoryById(Long categoryId) {
+
+    public Categories findCategoryById(Long categoryId) {
         Optional<Categories> optionalCategory = categoriesRepository.findById(categoryId.intValue());
         return optionalCategory.orElse(null);
     }
