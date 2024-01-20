@@ -1,0 +1,2981 @@
+[
+  {
+    "id": 40527,
+    "active": false,
+    "name": "Аксессуары для гаджетов",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/aksessuary",
+    "shopId": 25
+  },
+  {
+    "id": 40528,
+    "active": false,
+    "name": "Bluetooth-гарнитуры",
+    "parentId": 40527,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/aksessuary/223-bluetooth-garnitury",
+    "shopId": 25
+  },
+  {
+    "id": 40529,
+    "active": false,
+    "name": "USB кабеля",
+    "parentId": 40527,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/aksessuary/224-usb-kabela",
+    "shopId": 25
+  },
+  {
+    "id": 40530,
+    "active": false,
+    "name": "Беспроводные зарядки для телефона",
+    "parentId": 40527,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/aksessuary/235-besprovodny-e-zaryadki-dlya-telefona",
+    "shopId": 25
+  },
+  {
+    "id": 40531,
+    "active": false,
+    "name": "Держатели и подставки",
+    "parentId": 40527,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/aksessuary/228-avtomobilny-e-derzhateli",
+    "shopId": 25
+  },
+  {
+    "id": 40532,
+    "active": false,
+    "name": "Другие гаджеты",
+    "parentId": 40527,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/aksessuary/257-drugie-gadzety",
+    "shopId": 25
+  },
+  {
+    "id": 40533,
+    "active": false,
+    "name": "Зарядные устройства USB",
+    "parentId": 40527,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/aksessuary/225-zaryadny-e-ustrojstva-usb",
+    "shopId": 25
+  },
+  {
+    "id": 40534,
+    "active": false,
+    "name": "Защитные пленки",
+    "parentId": 40527,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/aksessuary/449-zasitnye-plenki",
+    "shopId": 25
+  },
+  {
+    "id": 40535,
+    "active": false,
+    "name": "Защитные стекла",
+    "parentId": 40527,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/aksessuary/450-zasitnye-stekla",
+    "shopId": 25
+  },
+  {
+    "id": 40536,
+    "active": false,
+    "name": "Моноподы, штативы",
+    "parentId": 40527,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/aksessuary/249-monopody-stativy",
+    "shopId": 25
+  },
+  {
+    "id": 40537,
+    "active": false,
+    "name": "Наушники",
+    "parentId": 40527,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/aksessuary/227-naushniki",
+    "shopId": 25
+  },
+  {
+    "id": 40538,
+    "active": false,
+    "name": "Попсокеты",
+    "parentId": 40527,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/aksessuary/595-popsokety",
+    "shopId": 25
+  },
+  {
+    "id": 40539,
+    "active": false,
+    "name": "Портативные зарядные устройства",
+    "parentId": 40527,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/aksessuary/226-portativny-e-zaryadny-e-ustrojstva",
+    "shopId": 25
+  },
+  {
+    "id": 40540,
+    "active": false,
+    "name": "Портативные колонки",
+    "parentId": 40527,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/aksessuary/229-portativny-e-kolonki",
+    "shopId": 25
+  },
+  {
+    "id": 40541,
+    "active": false,
+    "name": "Стилусы для экрана",
+    "parentId": 40527,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/aksessuary/596-stilusy-dla-ekrana",
+    "shopId": 25
+  },
+  {
+    "id": 40542,
+    "active": false,
+    "name": "Чехлы",
+    "parentId": 40527,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/aksessuary/230-chehly",
+    "shopId": 25
+  },
+  {
+    "id": 40543,
+    "active": false,
+    "name": "Запчасти для телефонов",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony",
+    "shopId": 25
+  },
+  {
+    "id": 40544,
+    "active": false,
+    "name": "Аккумуляторы для телефонов",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/24-akkumulyatory",
+    "shopId": 25
+  },
+  {
+    "id": 40545,
+    "active": false,
+    "name": "Антенны",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/4-antenny",
+    "shopId": 25
+  },
+  {
+    "id": 40546,
+    "active": false,
+    "name": "Болты для телефонов",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/89-bolty",
+    "shopId": 25
+  },
+  {
+    "id": 40547,
+    "active": false,
+    "name": "Держатели SIM карты для телефонов",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/346-derzateli-sim-karty",
+    "shopId": 25
+  },
+  {
+    "id": 40548,
+    "active": false,
+    "name": "Джойстики",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/5-dzhoystiki",
+    "shopId": 25
+  },
+  {
+    "id": 40549,
+    "active": false,
+    "name": "Дисплеи для телефонов",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/7-displei",
+    "shopId": 25
+  },
+  {
+    "id": 40550,
+    "active": false,
+    "name": "Другие запчасти",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/210-drugie-zapchasti",
+    "shopId": 25
+  },
+  {
+    "id": 40551,
+    "active": false,
+    "name": "Звуковые запчасти",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/96-zvonki",
+    "shopId": 25
+  },
+  {
+    "id": 40552,
+    "active": false,
+    "name": "Камеры",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/21-kamery",
+    "shopId": 25
+  },
+  {
+    "id": 40553,
+    "active": false,
+    "name": "Кнопки",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/94-knopki-regulirovki-gromkosti",
+    "shopId": 25
+  },
+  {
+    "id": 40554,
+    "active": false,
+    "name": "Корпусные части для телефонов",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/18-korpusy",
+    "shopId": 25
+  },
+  {
+    "id": 40555,
+    "active": false,
+    "name": "Микросхемы для телефонов",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/9-mikroshemy",
+    "shopId": 25
+  },
+  {
+    "id": 40556,
+    "active": false,
+    "name": "Платы для телефонов",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/79-platy",
+    "shopId": 25
+  },
+  {
+    "id": 40557,
+    "active": false,
+    "name": "Поворотные механизмы",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/13-povorotnye-mehanizmy",
+    "shopId": 25
+  },
+  {
+    "id": 40558,
+    "active": false,
+    "name": "Подсветка дисплея",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/211-podsvetka-displea",
+    "shopId": 25
+  },
+  {
+    "id": 40559,
+    "active": false,
+    "name": "Разьемы",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/92-razemy-na-zaryadku",
+    "shopId": 25
+  },
+  {
+    "id": 40560,
+    "active": false,
+    "name": "Сенсорные стекла",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/104-sensornye-stekla",
+    "shopId": 25
+  },
+  {
+    "id": 40561,
+    "active": false,
+    "name": "Шлейфы",
+    "parentId": 40543,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/mobilnye-telefony/17-shleyfy",
+    "shopId": 25
+  },
+  {
+    "id": 40562,
+    "active": false,
+    "name": "Комплектующие для планшетов",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety",
+    "shopId": 25
+  },
+  {
+    "id": 40563,
+    "active": false,
+    "name": "Аккумуляторы для планшетов",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/128-akkumulyatory",
+    "shopId": 25
+  },
+  {
+    "id": 40564,
+    "active": false,
+    "name": "Антенны для планшетов",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/151-antenny",
+    "shopId": 25
+  },
+  {
+    "id": 40565,
+    "active": false,
+    "name": "Болты для планшетов",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/176-bolty",
+    "shopId": 25
+  },
+  {
+    "id": 40566,
+    "active": false,
+    "name": "Держатели SIM карты",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/347-derzateli-sim-karty",
+    "shopId": 25
+  },
+  {
+    "id": 40567,
+    "active": false,
+    "name": "Дисплеи",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/127-displei",
+    "shopId": 25
+  },
+  {
+    "id": 40568,
+    "active": false,
+    "name": "Дисплеи под китайские планшеты",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/145-displei-pod-kitayskie-planshety",
+    "shopId": 25
+  },
+  {
+    "id": 40569,
+    "active": false,
+    "name": "Звонки",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/135-zvonki",
+    "shopId": 25
+  },
+  {
+    "id": 40570,
+    "active": false,
+    "name": "Звонки-Динамики",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/177-zvonki-dinamiki",
+    "shopId": 25
+  },
+  {
+    "id": 40571,
+    "active": false,
+    "name": "Камеры",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/152-kamery",
+    "shopId": 25
+  },
+  {
+    "id": 40572,
+    "active": false,
+    "name": "Кнопки",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/153-knopki-kamery-i-menyu",
+    "shopId": 25
+  },
+  {
+    "id": 40573,
+    "active": false,
+    "name": "Корпусы",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/130-korpusy",
+    "shopId": 25
+  },
+  {
+    "id": 40574,
+    "active": false,
+    "name": "Микросхемы",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/148-mikroshemy",
+    "shopId": 25
+  },
+  {
+    "id": 40575,
+    "active": false,
+    "name": "Микрофоны",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/179-mikrofony",
+    "shopId": 25
+  },
+  {
+    "id": 40576,
+    "active": false,
+    "name": "Платы",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/126-platy",
+    "shopId": 25
+  },
+  {
+    "id": 40577,
+    "active": false,
+    "name": "Подсветка дисплея",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/439-podsvetka-displea",
+    "shopId": 25
+  },
+  {
+    "id": 40578,
+    "active": false,
+    "name": "Разьемы",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/149-razemy-na-zaryadku",
+    "shopId": 25
+  },
+  {
+    "id": 40579,
+    "active": false,
+    "name": "Рамки",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/174-ramki",
+    "shopId": 25
+  },
+  {
+    "id": 40580,
+    "active": false,
+    "name": "Сенсорные стекла",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/125-sensornye-stekla",
+    "shopId": 25
+  },
+  {
+    "id": 40581,
+    "active": false,
+    "name": "Сенсорные стекла под китайские планшеты",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/124-sensornye-stekla-pod-kitayskie-planshety",
+    "shopId": 25
+  },
+  {
+    "id": 40582,
+    "active": false,
+    "name": "Стекло к корпусу",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/215-steklo-k-korpusu",
+    "shopId": 25
+  },
+  {
+    "id": 40583,
+    "active": false,
+    "name": "Шлейфы",
+    "parentId": 40562,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/planshety/123-shleyfy",
+    "shopId": 25
+  },
+  {
+    "id": 40584,
+    "active": false,
+    "name": "Смарт-часы и трекеры",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/smart-casy-i-trekery",
+    "shopId": 25
+  },
+  {
+    "id": 40585,
+    "active": false,
+    "name": "Умные часы",
+    "parentId": 40584,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/smart-casy-i-trekery/447-umnye-casy",
+    "shopId": 25
+  },
+  {
+    "id": 40586,
+    "active": false,
+    "name": "Фитнес-браслеты",
+    "parentId": 40584,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/smart-casy-i-trekery/448-fitnes-braslety",
+    "shopId": 25
+  },
+  {
+    "id": 40587,
+    "active": false,
+    "name": "Инструменты и оборудование",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie",
+    "shopId": 25
+  },
+  {
+    "id": 40588,
+    "active": false,
+    "name": "Аксессуары для поклейки стекол",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/351-aksessuary-dla-poklejki-stekol",
+    "shopId": 25
+  },
+  {
+    "id": 40589,
+    "active": false,
+    "name": "Другие инструменты",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/204-drugie-instrumenty",
+    "shopId": 25
+  },
+  {
+    "id": 40590,
+    "active": false,
+    "name": "Жала для паяльников",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/182-zhala-dlya-payalnikov",
+    "shopId": 25
+  },
+  {
+    "id": 40591,
+    "active": false,
+    "name": "Зажимы, прищепки",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/353-zazimy-prisepki",
+    "shopId": 25
+  },
+  {
+    "id": 40592,
+    "active": false,
+    "name": "Инструменты для дисплейного модуля",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/183-instrumenty-dlya-displejnogo-modulya",
+    "shopId": 25
+  },
+  {
+    "id": 40593,
+    "active": false,
+    "name": "Кисточки, емкости",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/354-kistocki-emkosti",
+    "shopId": 25
+  },
+  {
+    "id": 40594,
+    "active": false,
+    "name": "Магниты",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/410-magnity",
+    "shopId": 25
+  },
+  {
+    "id": 40595,
+    "active": false,
+    "name": "Монтажные столы",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/186-montazhny-e-stoly",
+    "shopId": 25
+  },
+  {
+    "id": 40596,
+    "active": false,
+    "name": "Наборы инструментов",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/187-nabory-instrumentov",
+    "shopId": 25
+  },
+  {
+    "id": 40597,
+    "active": false,
+    "name": "Органайзеры",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/357-organajzery",
+    "shopId": 25
+  },
+  {
+    "id": 40598,
+    "active": false,
+    "name": "Отвертки",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/188-otvertki",
+    "shopId": 25
+  },
+  {
+    "id": 40599,
+    "active": false,
+    "name": "Отмычки для ремонта гаджетов",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/185-lopatki-mediatory",
+    "shopId": 25
+  },
+  {
+    "id": 40600,
+    "active": false,
+    "name": "Пинцеты",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/189-pinczety",
+    "shopId": 25
+  },
+  {
+    "id": 40601,
+    "active": false,
+    "name": "Шарнирно-губцевый инструмент",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/184-kusachki-ploskogubczy",
+    "shopId": 25
+  },
+  {
+    "id": 40602,
+    "active": false,
+    "name": "Аксессуары для измерительного оборудования",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/350-kabela-supy-zazimy",
+    "shopId": 25
+  },
+  {
+    "id": 40603,
+    "active": false,
+    "name": "Активаторы аккумуляторов",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/352-aktivatory-akkumulatorov",
+    "shopId": 25
+  },
+  {
+    "id": 40604,
+    "active": false,
+    "name": "Блоки питания",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/191-bloki-pitania",
+    "shopId": 25
+  },
+  {
+    "id": 40605,
+    "active": false,
+    "name": "Другое оборудование",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/205-drugoe-oborudovanie",
+    "shopId": 25
+  },
+  {
+    "id": 40606,
+    "active": false,
+    "name": "Измерительные приборы",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/206-izmeritelny-e-pribory",
+    "shopId": 25
+  },
+  {
+    "id": 40607,
+    "active": false,
+    "name": "Нагревательные елементы",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/192-nagrevatelny-e-elementy",
+    "shopId": 25
+  },
+  {
+    "id": 40608,
+    "active": false,
+    "name": "Осциллографы",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/358-oscillografy",
+    "shopId": 25
+  },
+  {
+    "id": 40609,
+    "active": false,
+    "name": "Паяльники",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/193-payalniki",
+    "shopId": 25
+  },
+  {
+    "id": 40610,
+    "active": false,
+    "name": "Паяльные станции",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/194-payalny-e-stanczii",
+    "shopId": 25
+  },
+  {
+    "id": 40611,
+    "active": false,
+    "name": "Программаторы",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/359-programmatory",
+    "shopId": 25
+  },
+  {
+    "id": 40612,
+    "active": false,
+    "name": "Сепараторы",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/195-separatory",
+    "shopId": 25
+  },
+  {
+    "id": 40613,
+    "active": false,
+    "name": "Увеличительные приборы",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/196-uvelichitelny-e-pribory",
+    "shopId": 25
+  },
+  {
+    "id": 40614,
+    "active": false,
+    "name": "Ультразвуковые ванны",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/197-ultrazvukovy-e-vanny",
+    "shopId": 25
+  },
+  {
+    "id": 40615,
+    "active": false,
+    "name": "Фены для станций",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/198-feny-dlya-stanczij",
+    "shopId": 25
+  },
+  {
+    "id": 40616,
+    "active": false,
+    "name": "Другая химия",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/203-drugaa-himia",
+    "shopId": 25
+  },
+  {
+    "id": 40617,
+    "active": false,
+    "name": "Другие материалы",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/208-drugie-materialy",
+    "shopId": 25
+  },
+  {
+    "id": 40618,
+    "active": false,
+    "name": "Клей",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/355-klej",
+    "shopId": 25
+  },
+  {
+    "id": 40619,
+    "active": false,
+    "name": "Скотч",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/360-skotc",
+    "shopId": 25
+  },
+  {
+    "id": 40620,
+    "active": false,
+    "name": "Трафареты",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/201-trafarety",
+    "shopId": 25
+  },
+  {
+    "id": 40621,
+    "active": false,
+    "name": "Химия для печатных плат",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/349-himia-dla-pecatnyh-plat",
+    "shopId": 25
+  },
+  {
+    "id": 40622,
+    "active": false,
+    "name": "Дрели и шуруповерты",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/285-dreli-i-surupoverty",
+    "shopId": 25
+  },
+  {
+    "id": 40623,
+    "active": false,
+    "name": "Пасты",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/451-pasty",
+    "shopId": 25
+  },
+  {
+    "id": 40624,
+    "active": false,
+    "name": "Припой",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/199-pripoj",
+    "shopId": 25
+  },
+  {
+    "id": 40625,
+    "active": false,
+    "name": "Флюсы",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/202-flyusy-pasty",
+    "shopId": 25
+  },
+  {
+    "id": 40626,
+    "active": false,
+    "name": "Ленты",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/452-lenty",
+    "shopId": 25
+  },
+  {
+    "id": 40627,
+    "active": false,
+    "name": "Проволоки",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/453-provoloki",
+    "shopId": 25
+  },
+  {
+    "id": 40628,
+    "active": false,
+    "name": "Струны",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/356-lenty-provoloki-struny",
+    "shopId": 25
+  },
+  {
+    "id": 40629,
+    "active": false,
+    "name": "OCA пленки",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/207-oca-plenki",
+    "shopId": 25
+  },
+  {
+    "id": 40630,
+    "active": false,
+    "name": "Гидрогелевые пленки",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/362-gidrogelevye-plenki",
+    "shopId": 25
+  },
+  {
+    "id": 40631,
+    "active": false,
+    "name": "Поляризационные плёнки",
+    "parentId": 40587,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/instrumenty-i-oborudovanie/209-polyarizaczionny-e-plyonki",
+    "shopId": 25
+  },
+  {
+    "id": 40632,
+    "active": false,
+    "name": "Электронные компоненты, Arduino, ЧПУ",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy",
+    "shopId": 25
+  },
+  {
+    "id": 40633,
+    "active": false,
+    "name": "Аудиоусилители",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/454-audiousiliteli",
+    "shopId": 25
+  },
+  {
+    "id": 40634,
+    "active": false,
+    "name": "Датчики Arduino",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/532-datciki-arduino",
+    "shopId": 25
+  },
+  {
+    "id": 40635,
+    "active": false,
+    "name": "Двигатели Arduino",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/496-dvigateli-kontrollery-sim",
+    "shopId": 25
+  },
+  {
+    "id": 40636,
+    "active": false,
+    "name": "Дисплеи",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/456-displei",
+    "shopId": 25
+  },
+  {
+    "id": 40637,
+    "active": false,
+    "name": "Кабели программирования",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/501-kabeli-programmirovania",
+    "shopId": 25
+  },
+  {
+    "id": 40638,
+    "active": false,
+    "name": "Коннекторы Arduino",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/497-maketnye-platy-konnektory-provoda",
+    "shopId": 25
+  },
+  {
+    "id": 40639,
+    "active": false,
+    "name": "Контроллеры Arduino",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/494-kontrollery-arduino",
+    "shopId": 25
+  },
+  {
+    "id": 40640,
+    "active": false,
+    "name": "Макетные платы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/498-maketnye-platy",
+    "shopId": 25
+  },
+  {
+    "id": 40641,
+    "active": false,
+    "name": "Модули",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/457-moduli",
+    "shopId": 25
+  },
+  {
+    "id": 40642,
+    "active": false,
+    "name": "Отладочные платы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/500-otladocnye-platy-i-kabeli-programmirovania",
+    "shopId": 25
+  },
+  {
+    "id": 40643,
+    "active": false,
+    "name": "Панели Arduino",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/507-paneli-arduino",
+    "shopId": 25
+  },
+  {
+    "id": 40644,
+    "active": false,
+    "name": "Переходники",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/506-programmatory-paneli-perehodniki",
+    "shopId": 25
+  },
+  {
+    "id": 40645,
+    "active": false,
+    "name": "Платы расширений",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/502-platy-rassirenij",
+    "shopId": 25
+  },
+  {
+    "id": 40646,
+    "active": false,
+    "name": "Преобразователи интерфейсов",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/505-preobrazovateli-interfejsov",
+    "shopId": 25
+  },
+  {
+    "id": 40647,
+    "active": false,
+    "name": "Преобразователи напряжения",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/504-preobrazovateli-naprazenia-interfejsov",
+    "shopId": 25
+  },
+  {
+    "id": 40648,
+    "active": false,
+    "name": "Провода для Arduino",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/499-provoda-dla-arduino",
+    "shopId": 25
+  },
+  {
+    "id": 40649,
+    "active": false,
+    "name": "Программаторы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/508-programmatory",
+    "shopId": 25
+  },
+  {
+    "id": 40650,
+    "active": false,
+    "name": "Средства разработки",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/503-sredstva-razrabotki",
+    "shopId": 25
+  },
+  {
+    "id": 40651,
+    "active": false,
+    "name": "ШИМ регуляторы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/495-sim-regulatory",
+    "shopId": 25
+  },
+  {
+    "id": 40652,
+    "active": false,
+    "name": "3D ручки",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/512-3d-rucki",
+    "shopId": 25
+  },
+  {
+    "id": 40653,
+    "active": false,
+    "name": "Вентиляторы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/509-ventilatory-kontrollery-dvigateli",
+    "shopId": 25
+  },
+  {
+    "id": 40654,
+    "active": false,
+    "name": "Двигатели",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/510-dvigateli",
+    "shopId": 25
+  },
+  {
+    "id": 40655,
+    "active": false,
+    "name": "Контроллеры",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/511-kontrollery",
+    "shopId": 25
+  },
+  {
+    "id": 40656,
+    "active": false,
+    "name": "Механика, электроника",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/458-mehanika-elektronika",
+    "shopId": 25
+  },
+  {
+    "id": 40657,
+    "active": false,
+    "name": "Столы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/513-stoly",
+    "shopId": 25
+  },
+  {
+    "id": 40658,
+    "active": false,
+    "name": "ЧПУ станки и лазерная гравировка",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/459-cpu-stanki-i-lazernaa-gravirovka",
+    "shopId": 25
+  },
+  {
+    "id": 40659,
+    "active": false,
+    "name": "Экструдеры",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/514-ekstrudery-stoly-3d-rucki",
+    "shopId": 25
+  },
+  {
+    "id": 40660,
+    "active": false,
+    "name": "Датчики",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/455-datciki",
+    "shopId": 25
+  },
+  {
+    "id": 40661,
+    "active": false,
+    "name": "Динисторы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/516-dinistory",
+    "shopId": 25
+  },
+  {
+    "id": 40662,
+    "active": false,
+    "name": "Диодные мосты",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/460-diodnye-mosty",
+    "shopId": 25
+  },
+  {
+    "id": 40663,
+    "active": false,
+    "name": "Диоды",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/461-diody",
+    "shopId": 25
+  },
+  {
+    "id": 40664,
+    "active": false,
+    "name": "Модемы и радиомодули",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/462-modemy-i-radiomoduli",
+    "shopId": 25
+  },
+  {
+    "id": 40665,
+    "active": false,
+    "name": "Панели для микросхем",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/463-paneli-dla-mikroshem",
+    "shopId": 25
+  },
+  {
+    "id": 40666,
+    "active": false,
+    "name": "Симистор (триак)",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/464-simistor-triak",
+    "shopId": 25
+  },
+  {
+    "id": 40667,
+    "active": false,
+    "name": "Стабилитроны (диод Зенера)",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/465-stabilitrony-diod-zenera",
+    "shopId": 25
+  },
+  {
+    "id": 40668,
+    "active": false,
+    "name": "Тиристоры",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/515-tiristory-dinistory",
+    "shopId": 25
+  },
+  {
+    "id": 40669,
+    "active": false,
+    "name": "Транзисторы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/466-tranzistory",
+    "shopId": 25
+  },
+  {
+    "id": 40670,
+    "active": false,
+    "name": "Фотоэлектрические полупроводники",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/467-fotoelektriceskie-poluprovodniki",
+    "shopId": 25
+  },
+  {
+    "id": 40671,
+    "active": false,
+    "name": "Аккумуляторы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/517-akkumulatory",
+    "shopId": 25
+  },
+  {
+    "id": 40672,
+    "active": false,
+    "name": "Аккумуляторы универсальные",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/597-akkumulatory-universalnye",
+    "shopId": 25
+  },
+  {
+    "id": 40673,
+    "active": false,
+    "name": "Батарейки",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/518-akkumulatory-i-batarejki",
+    "shopId": 25
+  },
+  {
+    "id": 40674,
+    "active": false,
+    "name": "Держатели и отсеки для батареек",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/468-derzateli-i-otseki-dla-batareek",
+    "shopId": 25
+  },
+  {
+    "id": 40675,
+    "active": false,
+    "name": "Зарядные устройства",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/469-zaradnye-ustrojstva",
+    "shopId": 25
+  },
+  {
+    "id": 40676,
+    "active": false,
+    "name": "Беспаечные макетные платы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/470-bespaecnye-maketnye-platy",
+    "shopId": 25
+  },
+  {
+    "id": 40677,
+    "active": false,
+    "name": "Макетные платы под пайку",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/471-maketnye-platy-pod-pajku",
+    "shopId": 25
+  },
+  {
+    "id": 40678,
+    "active": false,
+    "name": "АЦП цифровые преобразователи",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/525-cap-acp-cifrovye-preobrazovateli",
+    "shopId": 25
+  },
+  {
+    "id": 40679,
+    "active": false,
+    "name": "Аналоговые",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/472-analogovye",
+    "shopId": 25
+  },
+  {
+    "id": 40680,
+    "active": false,
+    "name": "Драйверы двигателей",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/473-drajvery-dvigatelej",
+    "shopId": 25
+  },
+  {
+    "id": 40681,
+    "active": false,
+    "name": "Драйверы светодиодов",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/474-drajvery-svetodiodov",
+    "shopId": 25
+  },
+  {
+    "id": 40682,
+    "active": false,
+    "name": "Драйверы транзисторов",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/475-drajvery-tranzistorov",
+    "shopId": 25
+  },
+  {
+    "id": 40683,
+    "active": false,
+    "name": "Интерфейсные",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/476-interfejsnye",
+    "shopId": 25
+  },
+  {
+    "id": 40684,
+    "active": false,
+    "name": "Источников питания",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/477-istocnikov-pitania",
+    "shopId": 25
+  },
+  {
+    "id": 40685,
+    "active": false,
+    "name": "Ключи интеллектуальные",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/522-kluci-intellektualnye-multipleksory-analogovye",
+    "shopId": 25
+  },
+  {
+    "id": 40686,
+    "active": false,
+    "name": "Компaраторы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/478-komparatory",
+    "shopId": 25
+  },
+  {
+    "id": 40687,
+    "active": false,
+    "name": "Логика",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/479-logika",
+    "shopId": 25
+  },
+  {
+    "id": 40688,
+    "active": false,
+    "name": "Микроконтроллеры",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/480-mikrokontrollery",
+    "shopId": 25
+  },
+  {
+    "id": 40689,
+    "active": false,
+    "name": "Мультиплексоры аналоговые",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/523-multipleksory-analogovye",
+    "shopId": 25
+  },
+  {
+    "id": 40690,
+    "active": false,
+    "name": "Обвеска для микроконтроллеров",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/481-obveska-dla-mikrokontrollerov",
+    "shopId": 25
+  },
+  {
+    "id": 40691,
+    "active": false,
+    "name": "Операционные усилители",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/482-operacionnye-usiliteli",
+    "shopId": 25
+  },
+  {
+    "id": 40692,
+    "active": false,
+    "name": "Оптроны",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/483-optrony",
+    "shopId": 25
+  },
+  {
+    "id": 40693,
+    "active": false,
+    "name": "Память",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/484-pamat",
+    "shopId": 25
+  },
+  {
+    "id": 40694,
+    "active": false,
+    "name": "Прочие Микросхемы IC",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/485-procie-mikroshemy-ic",
+    "shopId": 25
+  },
+  {
+    "id": 40695,
+    "active": false,
+    "name": "Стабилизаторы напряжения",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/486-stabilizatory-naprazenia",
+    "shopId": 25
+  },
+  {
+    "id": 40696,
+    "active": false,
+    "name": "Супервизоры напряжения, контроллеры заряда",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/487-supervizory-naprazenia-kontrollery-zarada",
+    "shopId": 25
+  },
+  {
+    "id": 40697,
+    "active": false,
+    "name": "Счетчиков электроэнергии",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/488-scetcikov-elektroenergii",
+    "shopId": 25
+  },
+  {
+    "id": 40698,
+    "active": false,
+    "name": "Таймеры",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/489-tajmery",
+    "shopId": 25
+  },
+  {
+    "id": 40699,
+    "active": false,
+    "name": "Телевидение",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/490-televidenie",
+    "shopId": 25
+  },
+  {
+    "id": 40700,
+    "active": false,
+    "name": "Телефония",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/491-telefonia",
+    "shopId": 25
+  },
+  {
+    "id": 40701,
+    "active": false,
+    "name": "Транзисторные сборки",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/492-tranzistornye-sborki",
+    "shopId": 25
+  },
+  {
+    "id": 40702,
+    "active": false,
+    "name": "Усилители низкой частоты",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/493-usiliteli-nizkoj-castoty",
+    "shopId": 25
+  },
+  {
+    "id": 40703,
+    "active": false,
+    "name": "ЦАП цифровые преобразователи",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/524-cap-cifrovye-preobrazovateli",
+    "shopId": 25
+  },
+  {
+    "id": 40704,
+    "active": false,
+    "name": "Аксессуары для корпусов",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/430-aksessuary-dla-korpusov",
+    "shopId": 25
+  },
+  {
+    "id": 40705,
+    "active": false,
+    "name": "Антенны",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/437-antenny",
+    "shopId": 25
+  },
+  {
+    "id": 40706,
+    "active": false,
+    "name": "Болты, гайки, шайбы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/425-bolty-gajki-sajby",
+    "shopId": 25
+  },
+  {
+    "id": 40707,
+    "active": false,
+    "name": "Динамики",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/519-dinamiki",
+    "shopId": 25
+  },
+  {
+    "id": 40708,
+    "active": false,
+    "name": "Дроссели на торе",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/530-drosseli-na-tore",
+    "shopId": 25
+  },
+  {
+    "id": 40709,
+    "active": false,
+    "name": "Звукоизлучатели",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/520-dinamiki-mikrofony-zvukoizlucateli",
+    "shopId": 25
+  },
+  {
+    "id": 40710,
+    "active": false,
+    "name": "Ионисторы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/422-ionistory",
+    "shopId": 25
+  },
+  {
+    "id": 40711,
+    "active": false,
+    "name": "Кабельные переходники и соединители с разъемами",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/432-kabelnye-perehodniki-i-soediniteli-s-razemami",
+    "shopId": 25
+  },
+  {
+    "id": 40712,
+    "active": false,
+    "name": "Кнопочные детали (разъемы, коннекторы, кнопки, переключатели)",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/296-razemy-konnektory-knopki-pereklucateli",
+    "shopId": 25
+  },
+  {
+    "id": 40713,
+    "active": false,
+    "name": "Корпуса",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/426-korpusa",
+    "shopId": 25
+  },
+  {
+    "id": 40714,
+    "active": false,
+    "name": "Механические компоненты",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/427-mehaniceskie-komponenty",
+    "shopId": 25
+  },
+  {
+    "id": 40715,
+    "active": false,
+    "name": "Микросхемы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/289-mikroshemy",
+    "shopId": 25
+  },
+  {
+    "id": 40716,
+    "active": false,
+    "name": "Микрофоны",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/521-mikrofony",
+    "shopId": 25
+  },
+  {
+    "id": 40717,
+    "active": false,
+    "name": "Предохранители (диоды, стабилитроны, предохранители)",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/292-diody-stabilitrony-predohraniteli",
+    "shopId": 25
+  },
+  {
+    "id": 40718,
+    "active": false,
+    "name": "Провода монтажные",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/436-provoda-montaznye",
+    "shopId": 25
+  },
+  {
+    "id": 40719,
+    "active": false,
+    "name": "Прочие радиодетали",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/291-procie-radiodetali",
+    "shopId": 25
+  },
+  {
+    "id": 40720,
+    "active": false,
+    "name": "Радиаторы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/434-radiatory",
+    "shopId": 25
+  },
+  {
+    "id": 40721,
+    "active": false,
+    "name": "Реле",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/424-rele",
+    "shopId": 25
+  },
+  {
+    "id": 40722,
+    "active": false,
+    "name": "Ручки для потенциометров",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/435-rucki-dla-potenciometrov",
+    "shopId": 25
+  },
+  {
+    "id": 40723,
+    "active": false,
+    "name": "Стойки дистанцирующие",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/429-stojki-distanciruusie",
+    "shopId": 25
+  },
+  {
+    "id": 40724,
+    "active": false,
+    "name": "Стяжки",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/431-stazki",
+    "shopId": 25
+  },
+  {
+    "id": 40725,
+    "active": false,
+    "name": "Телефонные гнезда",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/428-telefonnye-stekery-i-gnezda",
+    "shopId": 25
+  },
+  {
+    "id": 40726,
+    "active": false,
+    "name": "Телефонные штекеры",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/529-telefonnye-stekery",
+    "shopId": 25
+  },
+  {
+    "id": 40727,
+    "active": false,
+    "name": "Фильтры линейные",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/531-filtry-linejnye",
+    "shopId": 25
+  },
+  {
+    "id": 40728,
+    "active": false,
+    "name": "Фильтры сетевые",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/419-filtry-linejnye-setevye-drosseli-na-tore",
+    "shopId": 25
+  },
+  {
+    "id": 40729,
+    "active": false,
+    "name": "Варисторы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/411-varistory",
+    "shopId": 25
+  },
+  {
+    "id": 40730,
+    "active": false,
+    "name": "Дискриминаторы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/421-diskriminatory",
+    "shopId": 25
+  },
+  {
+    "id": 40731,
+    "active": false,
+    "name": "Дроссели",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/412-induktivnosti-drosseli",
+    "shopId": 25
+  },
+  {
+    "id": 40732,
+    "active": false,
+    "name": "Индуктивности",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/526-induktivnosti",
+    "shopId": 25
+  },
+  {
+    "id": 40733,
+    "active": false,
+    "name": "Кварцевые резонаторы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/527-kvarcevye-rezonatory",
+    "shopId": 25
+  },
+  {
+    "id": 40734,
+    "active": false,
+    "name": "Конденсаторы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/295-kondensatory",
+    "shopId": 25
+  },
+  {
+    "id": 40735,
+    "active": false,
+    "name": "Потенциометры",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/528-potenciometry",
+    "shopId": 25
+  },
+  {
+    "id": 40736,
+    "active": false,
+    "name": "Разрядники",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/413-razradniki",
+    "shopId": 25
+  },
+  {
+    "id": 40737,
+    "active": false,
+    "name": "Резисторы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/294-rezistory-potenciometry-kvarcevye-rezonatory",
+    "shopId": 25
+  },
+  {
+    "id": 40738,
+    "active": false,
+    "name": "Резонаторы и генераторы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/414-rezonatory-i-generatory",
+    "shopId": 25
+  },
+  {
+    "id": 40739,
+    "active": false,
+    "name": "Сердечники, каркасы, скобы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/415-serdecniki-karkasy-skoby",
+    "shopId": 25
+  },
+  {
+    "id": 40740,
+    "active": false,
+    "name": "Термисторы",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/416-termistory",
+    "shopId": 25
+  },
+  {
+    "id": 40741,
+    "active": false,
+    "name": "Трансформаторы залитые герметичные",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/417-transformatory-zalitye-germeticnye",
+    "shopId": 25
+  },
+  {
+    "id": 40742,
+    "active": false,
+    "name": "Трансформаторы прочие",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/418-transformatory-procie",
+    "shopId": 25
+  },
+  {
+    "id": 40743,
+    "active": false,
+    "name": "Фильтры",
+    "parentId": 40632,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/radiodetali-mikroshemy/420-filtry",
+    "shopId": 25
+  },
+  {
+    "id": 40744,
+    "active": false,
+    "name": "Комплектующие для ПК и периферия",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia",
+    "shopId": 25
+  },
+  {
+    "id": 40745,
+    "active": false,
+    "name": "SSD, HDD-накопители",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/274-ssd-hdd-nakopiteli-karmany",
+    "shopId": 25
+  },
+  {
+    "id": 40746,
+    "active": false,
+    "name": "USB-накопители",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/250-usb-nakopiteli",
+    "shopId": 25
+  },
+  {
+    "id": 40747,
+    "active": false,
+    "name": "Блоки питания для ноутбуков",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/270-bloki-pitania-dla-noutbukov",
+    "shopId": 25
+  },
+  {
+    "id": 40748,
+    "active": false,
+    "name": "Внешние накопители",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/533-vnesnie-nakopiteli",
+    "shopId": 25
+  },
+  {
+    "id": 40749,
+    "active": false,
+    "name": "Звуковые карты",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/273-zvukovye-karty",
+    "shopId": 25
+  },
+  {
+    "id": 40750,
+    "active": false,
+    "name": "Кабели",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/265-kabeli-perehodniki-kontrollery",
+    "shopId": 25
+  },
+  {
+    "id": 40751,
+    "active": false,
+    "name": "Карты памяти (Micro SD)",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/253-karty-pamati",
+    "shopId": 25
+  },
+  {
+    "id": 40752,
+    "active": false,
+    "name": "Контроллеры",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/534-kontrollery",
+    "shopId": 25
+  },
+  {
+    "id": 40753,
+    "active": false,
+    "name": "Переходники",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/535-perehodniki",
+    "shopId": 25
+  },
+  {
+    "id": 40754,
+    "active": false,
+    "name": "Подсветка LCD/TV, лампы, инверторы",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/267-podsvetka-lcdtv-lampy-invertory",
+    "shopId": 25
+  },
+  {
+    "id": 40755,
+    "active": false,
+    "name": "Системы охлаждения",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/268-sistemy-ohlazdenia",
+    "shopId": 25
+  },
+  {
+    "id": 40756,
+    "active": false,
+    "name": "Тестеры, анализаторы, post карты",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/271-testery-analizatory-post-karty",
+    "shopId": 25
+  },
+  {
+    "id": 40757,
+    "active": false,
+    "name": "USB-хабы",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/256-kartridery-usb-haby",
+    "shopId": 25
+  },
+  {
+    "id": 40758,
+    "active": false,
+    "name": "Картридеры",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/536-kartridery",
+    "shopId": 25
+  },
+  {
+    "id": 40759,
+    "active": false,
+    "name": "Клавиатуры",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/538-klaviatury",
+    "shopId": 25
+  },
+  {
+    "id": 40760,
+    "active": false,
+    "name": "Коврики для мыши",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/255-kovriki-dla-mysi",
+    "shopId": 25
+  },
+  {
+    "id": 40761,
+    "active": false,
+    "name": "Мыши",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/269-mysi-klaviatury-pulty-gejmpady",
+    "shopId": 25
+  },
+  {
+    "id": 40762,
+    "active": false,
+    "name": "Наушники, гарнитура",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/345-nausniki-garnitura",
+    "shopId": 25
+  },
+  {
+    "id": 40763,
+    "active": false,
+    "name": "Разное",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/258-raznoe",
+    "shopId": 25
+  },
+  {
+    "id": 40764,
+    "active": false,
+    "name": "Сетевое оборудование",
+    "parentId": 40744,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/komputernaa-periferia/272-setevoe-oborudovanie",
+    "shopId": 25
+  },
+  {
+    "id": 40765,
+    "active": false,
+    "name": "Авто и мототовары",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/avtotovary",
+    "shopId": 25
+  },
+  {
+    "id": 40766,
+    "active": false,
+    "name": "Автозвук",
+    "parentId": 40765,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/avtotovary/552-avtozvuk",
+    "shopId": 25
+  },
+  {
+    "id": 40767,
+    "active": false,
+    "name": "Автомагнитолы",
+    "parentId": 40765,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/avtotovary/553-avtomagnitoly",
+    "shopId": 25
+  },
+  {
+    "id": 40768,
+    "active": false,
+    "name": "Автомобильные FM-трансмиттеры",
+    "parentId": 40765,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/avtotovary/320-avtoelektrika-zvuk-osvesenie",
+    "shopId": 25
+  },
+  {
+    "id": 40769,
+    "active": false,
+    "name": "Автосвет",
+    "parentId": 40765,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/avtotovary/554-avtosvet",
+    "shopId": 25
+  },
+  {
+    "id": 40770,
+    "active": false,
+    "name": "Автосигнализации",
+    "parentId": 40765,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/avtotovary/546-avtosignalizacii",
+    "shopId": 25
+  },
+  {
+    "id": 40771,
+    "active": false,
+    "name": "Автосканеры",
+    "parentId": 40765,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/avtotovary/319-avtoskanery",
+    "shopId": 25
+  },
+  {
+    "id": 40772,
+    "active": false,
+    "name": "Автоэлектроника",
+    "parentId": 40765,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/avtotovary/555-avtoelektronika",
+    "shopId": 25
+  },
+  {
+    "id": 40773,
+    "active": false,
+    "name": "Аксессуары для авто",
+    "parentId": 40765,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/avtotovary/321-interer-aksessuary",
+    "shopId": 25
+  },
+  {
+    "id": 40774,
+    "active": false,
+    "name": "Брелоки, ключи",
+    "parentId": 40765,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/avtotovary/318-avtosignalizacii-breloki-kluci",
+    "shopId": 25
+  },
+  {
+    "id": 40775,
+    "active": false,
+    "name": "Видеорегистраторы",
+    "parentId": 40765,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/avtotovary/323-parktroniki-kamery-videoregistratory",
+    "shopId": 25
+  },
+  {
+    "id": 40776,
+    "active": false,
+    "name": "Дополнительные электроприборы в авто",
+    "parentId": 40765,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/avtotovary/556-dopolnitelnye-elektropribory-v-avto",
+    "shopId": 25
+  },
+  {
+    "id": 40777,
+    "active": false,
+    "name": "Интерьер для авто",
+    "parentId": 40765,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/avtotovary/547-interer-dla-avto",
+    "shopId": 25
+  },
+  {
+    "id": 40778,
+    "active": false,
+    "name": "Камеры заднего вида",
+    "parentId": 40765,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/avtotovary/557-kamery-zadnego-vida",
+    "shopId": 25
+  },
+  {
+    "id": 40779,
+    "active": false,
+    "name": "Парктроники",
+    "parentId": 40765,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/avtotovary/559-parktroniki",
+    "shopId": 25
+  },
+  {
+    "id": 40780,
+    "active": false,
+    "name": "Ремонт и обслуживание",
+    "parentId": 40765,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/avtotovary/322-remont-i-obsluzivanie",
+    "shopId": 25
+  },
+  {
+    "id": 40781,
+    "active": false,
+    "name": "Гаджеты",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/gadzety-i-elektrotransport",
+    "shopId": 25
+  },
+  {
+    "id": 40782,
+    "active": false,
+    "name": "Другие гаджеты",
+    "parentId": 40781,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/gadzety-i-elektrotransport/573-drugie-gadzety",
+    "shopId": 25
+  },
+  {
+    "id": 40783,
+    "active": false,
+    "name": "Гейминг и комплектующие",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/gejming-i-komplektuusie",
+    "shopId": 25
+  },
+  {
+    "id": 40784,
+    "active": false,
+    "name": "Аксессуары для консолей",
+    "parentId": 40783,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/gejming-i-komplektuusie/598-aksessuary-dla-konsolej",
+    "shopId": 25
+  },
+  {
+    "id": 40785,
+    "active": false,
+    "name": "Игровые консоли",
+    "parentId": 40783,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/gejming-i-komplektuusie/599-igrovye-konsoli",
+    "shopId": 25
+  },
+  {
+    "id": 40786,
+    "active": false,
+    "name": "Игровые манипуляторы, геймпады",
+    "parentId": 40783,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/gejming-i-komplektuusie/600-igrovye-manipulatory-gejmpady",
+    "shopId": 25
+  },
+  {
+    "id": 40787,
+    "active": false,
+    "name": "Манипуляторы, геймпады",
+    "parentId": 40783,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/gejming-i-komplektuusie/537-igrovye-manipulatory-gejmpady",
+    "shopId": 25
+  },
+  {
+    "id": 40788,
+    "active": false,
+    "name": "Для дома и сада",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/dom-i-byt",
+    "shopId": 25
+  },
+  {
+    "id": 40789,
+    "active": false,
+    "name": "Домашний уют",
+    "parentId": 40788,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/dom-i-byt/339-domasnij-uut",
+    "shopId": 25
+  },
+  {
+    "id": 40790,
+    "active": false,
+    "name": "Другое",
+    "parentId": 40788,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/dom-i-byt/72-drugoe",
+    "shopId": 25
+  },
+  {
+    "id": 40791,
+    "active": false,
+    "name": "Игры и развлечения",
+    "parentId": 40788,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/dom-i-byt/338-igry-i-razvlecenia",
+    "shopId": 25
+  },
+  {
+    "id": 40792,
+    "active": false,
+    "name": "Климатическая техника",
+    "parentId": 40788,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/dom-i-byt/262-klimaticeskaa-tehnika",
+    "shopId": 25
+  },
+  {
+    "id": 40793,
+    "active": false,
+    "name": "Красота",
+    "parentId": 40788,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/dom-i-byt/335-krasota",
+    "shopId": 25
+  },
+  {
+    "id": 40794,
+    "active": false,
+    "name": "Кухонные принадлежности",
+    "parentId": 40788,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/dom-i-byt/336-kuhonnye-prinadleznosti",
+    "shopId": 25
+  },
+  {
+    "id": 40795,
+    "active": false,
+    "name": "Рукоделие и творчество",
+    "parentId": 40788,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/dom-i-byt/340-rukodelie-i-tvorcestvo",
+    "shopId": 25
+  },
+  {
+    "id": 40796,
+    "active": false,
+    "name": "Сад и огород",
+    "parentId": 40788,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/dom-i-byt/342-sad-i-ogorod",
+    "shopId": 25
+  },
+  {
+    "id": 40797,
+    "active": false,
+    "name": "Термосы",
+    "parentId": 40788,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/dom-i-byt/343-termosy",
+    "shopId": 25
+  },
+  {
+    "id": 40798,
+    "active": false,
+    "name": "Товары для животных",
+    "parentId": 40788,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/dom-i-byt/337-tovary-dla-zivotnyh",
+    "shopId": 25
+  },
+  {
+    "id": 40799,
+    "active": false,
+    "name": "Торговое оборудование",
+    "parentId": 40788,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/dom-i-byt/334-torgovoe-oborudovanie",
+    "shopId": 25
+  },
+  {
+    "id": 40800,
+    "active": false,
+    "name": "Звук и музыка",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/zvuk-i-muzyka",
+    "shopId": 25
+  },
+  {
+    "id": 40801,
+    "active": false,
+    "name": "Акустика",
+    "parentId": 40800,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/zvuk-i-muzyka/575-akustika",
+    "shopId": 25
+  },
+  {
+    "id": 40802,
+    "active": false,
+    "name": "Музыка",
+    "parentId": 40800,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/zvuk-i-muzyka/567-muzyka",
+    "shopId": 25
+  },
+  {
+    "id": 40803,
+    "active": false,
+    "name": "Спорт и здоровье",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sport-i-turizm",
+    "shopId": 25
+  },
+  {
+    "id": 40804,
+    "active": false,
+    "name": "Здоровье",
+    "parentId": 40803,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sport-i-turizm/568-zdorove",
+    "shopId": 25
+  },
+  {
+    "id": 40805,
+    "active": false,
+    "name": "Спортинвентарь",
+    "parentId": 40803,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sport-i-turizm/332-sportinventar",
+    "shopId": 25
+  },
+  {
+    "id": 40806,
+    "active": false,
+    "name": "Туризм, отдых",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/turizm-otdyh",
+    "shopId": 25
+  },
+  {
+    "id": 40807,
+    "active": false,
+    "name": "Велоаксессуары",
+    "parentId": 40806,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/turizm-otdyh/565-veloaksessuary",
+    "shopId": 25
+  },
+  {
+    "id": 40808,
+    "active": false,
+    "name": "Рыбалка",
+    "parentId": 40806,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/turizm-otdyh/566-rybalka",
+    "shopId": 25
+  },
+  {
+    "id": 40809,
+    "active": false,
+    "name": "Туризм и кемпинг",
+    "parentId": 40806,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/turizm-otdyh/572-turizm-i-kemping",
+    "shopId": 25
+  },
+  {
+    "id": 40810,
+    "active": false,
+    "name": "Умный дом и безопасность",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti",
+    "shopId": 25
+  },
+  {
+    "id": 40811,
+    "active": false,
+    "name": "Запчасти для роботов-пылесосов",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/576-zapcasti-dla-robotov-pylesosov",
+    "shopId": 25
+  },
+  {
+    "id": 40812,
+    "active": false,
+    "name": "Инверторы для солнечных батарей",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/577-invertory-dla-solnecnyh-batarej",
+    "shopId": 25
+  },
+  {
+    "id": 40813,
+    "active": false,
+    "name": "Комплекты для умного дома",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/578-komplekty-dla-umnogo-doma",
+    "shopId": 25
+  },
+  {
+    "id": 40814,
+    "active": false,
+    "name": "Портативные электростанции",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/579-portativnye-elektrostancii",
+    "shopId": 25
+  },
+  {
+    "id": 40815,
+    "active": false,
+    "name": "Разное",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/574-umnyj-dom",
+    "shopId": 25
+  },
+  {
+    "id": 40816,
+    "active": false,
+    "name": "Солнечные панели",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/580-solnecnye-paneli",
+    "shopId": 25
+  },
+  {
+    "id": 40817,
+    "active": false,
+    "name": "Умные выключатели",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/581-umnye-vyklucateli",
+    "shopId": 25
+  },
+  {
+    "id": 40818,
+    "active": false,
+    "name": "Умные датчики",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/582-umnye-datciki",
+    "shopId": 25
+  },
+  {
+    "id": 40819,
+    "active": false,
+    "name": "Умные реле и диммеры",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/584-umnye-rele-i-dimmery",
+    "shopId": 25
+  },
+  {
+    "id": 40820,
+    "active": false,
+    "name": "Умные розетки",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/585-umnye-rozetki",
+    "shopId": 25
+  },
+  {
+    "id": 40821,
+    "active": false,
+    "name": "Блоки питания для систем охраны",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/327-montaz-bloki-pitania",
+    "shopId": 25
+  },
+  {
+    "id": 40822,
+    "active": false,
+    "name": "Видеонаблюдение",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/561-videonabludenie",
+    "shopId": 25
+  },
+  {
+    "id": 40823,
+    "active": false,
+    "name": "Контроль доступа",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/326-kontrol-dostupa",
+    "shopId": 25
+  },
+  {
+    "id": 40824,
+    "active": false,
+    "name": "Коплектующие для систем охраны",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/560-koplektuusie-dla-sistem-ohrany",
+    "shopId": 25
+  },
+  {
+    "id": 40825,
+    "active": false,
+    "name": "Сигнализация",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/325-signalizacii-videonabludenie",
+    "shopId": 25
+  },
+  {
+    "id": 40826,
+    "active": false,
+    "name": "LED матрицы",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/562-led-matricy",
+    "shopId": 25
+  },
+  {
+    "id": 40827,
+    "active": false,
+    "name": "Освещение, выключатели, реле",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/569-osvesenie-vyklucateli-rele",
+    "shopId": 25
+  },
+  {
+    "id": 40828,
+    "active": false,
+    "name": "Светильники",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/570-svetilniki",
+    "shopId": 25
+  },
+  {
+    "id": 40829,
+    "active": false,
+    "name": "Светодиодные ленты",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/563-svetodiodnye-lenty",
+    "shopId": 25
+  },
+  {
+    "id": 40830,
+    "active": false,
+    "name": "Светодиоды",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/564-svetodiody-svetodiodnye-lenty-led-matricy",
+    "shopId": 25
+  },
+  {
+    "id": 40831,
+    "active": false,
+    "name": "Электромонтажное оборудование",
+    "parentId": 40810,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/sistemy-ohrany-i-bezopasnosti/571-elektromontaznoe-oborudovanie",
+    "shopId": 25
+  },
+  {
+    "id": 40832,
+    "active": false,
+    "name": "Фото, видео и аксессуары",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/fototehnika",
+    "shopId": 25
+  },
+  {
+    "id": 40833,
+    "active": false,
+    "name": "Аксессуары",
+    "parentId": 40832,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/fototehnika/315-aksessuary",
+    "shopId": 25
+  },
+  {
+    "id": 40834,
+    "active": false,
+    "name": "Байонетные переходники, адаптеры",
+    "parentId": 40832,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/fototehnika/317-bajonetnye-perehodniki-adaptery",
+    "shopId": 25
+  },
+  {
+    "id": 40835,
+    "active": false,
+    "name": "Бленды, степ-кольца",
+    "parentId": 40832,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/fototehnika/313-blendy-step-kolca",
+    "shopId": 25
+  },
+  {
+    "id": 40836,
+    "active": false,
+    "name": "Крышки, наглазники",
+    "parentId": 40832,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/fototehnika/314-kryski-naglazniki",
+    "shopId": 25
+  },
+  {
+    "id": 40837,
+    "active": false,
+    "name": "Светофильтры, рассеиватели",
+    "parentId": 40832,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/fototehnika/312-svetofiltry-rasseivateli",
+    "shopId": 25
+  },
+  {
+    "id": 40838,
+    "active": false,
+    "name": "Штативы, крепления",
+    "parentId": 40832,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/fototehnika/316-stativy-kreplenia",
+    "shopId": 25
+  },
+  {
+    "id": 40839,
+    "active": false,
+    "name": "Аксессуары для ТВ",
+    "parentId": 40832,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/fototehnika/548-aksessuary-dla-tv",
+    "shopId": 25
+  },
+  {
+    "id": 40840,
+    "active": false,
+    "name": "Запчасти для ТВ",
+    "parentId": 40832,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/fototehnika/549-zapcasti-dla-tv",
+    "shopId": 25
+  },
+  {
+    "id": 40841,
+    "active": false,
+    "name": "Кабели для видеотехники",
+    "parentId": 40832,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/fototehnika/540-kabeli-perehodniki-i-konvertory",
+    "shopId": 25
+  },
+  {
+    "id": 40842,
+    "active": false,
+    "name": "Конверторы для видеотехники",
+    "parentId": 40832,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/fototehnika/541-konvertory-dla-videotehniki",
+    "shopId": 25
+  },
+  {
+    "id": 40843,
+    "active": false,
+    "name": "Медиаплееры",
+    "parentId": 40832,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/fototehnika/544-mediapleery-konsoli-proektory",
+    "shopId": 25
+  },
+  {
+    "id": 40844,
+    "active": false,
+    "name": "Переходники для видеотехники",
+    "parentId": 40832,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/fototehnika/542-perehodniki-dla-videotehniki",
+    "shopId": 25
+  },
+  {
+    "id": 40845,
+    "active": false,
+    "name": "Проекторы",
+    "parentId": 40832,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/fototehnika/545-proektory",
+    "shopId": 25
+  },
+  {
+    "id": 40846,
+    "active": false,
+    "name": "Пульты ДУ",
+    "parentId": 40832,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/fototehnika/550-pulty-du",
+    "shopId": 25
+  },
+  {
+    "id": 40847,
+    "active": false,
+    "name": "Электротранспорт, квадрокоптеры",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/elektrotransport",
+    "shopId": 25
+  },
+  {
+    "id": 40848,
+    "active": false,
+    "name": "LCD панели",
+    "parentId": 40847,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/elektrotransport/586-lcd-paneli",
+    "shopId": 25
+  },
+  {
+    "id": 40849,
+    "active": false,
+    "name": "Аккумуляторы для электротранспорта",
+    "parentId": 40847,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/elektrotransport/587-akkumulatory-dla-elektrotransporta",
+    "shopId": 25
+  },
+  {
+    "id": 40850,
+    "active": false,
+    "name": "Комплектующие для электротранспорта",
+    "parentId": 40847,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/elektrotransport/589-komplektuusie-dla-elektrotransporta",
+    "shopId": 25
+  },
+  {
+    "id": 40851,
+    "active": false,
+    "name": "Контроллеры",
+    "parentId": 40847,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/elektrotransport/590-kontrollery",
+    "shopId": 25
+  },
+  {
+    "id": 40852,
+    "active": false,
+    "name": "Покрышки и камеры",
+    "parentId": 40847,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/elektrotransport/591-pokryski-i-kamery",
+    "shopId": 25
+  },
+  {
+    "id": 40853,
+    "active": false,
+    "name": "Разное",
+    "parentId": 40847,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/elektrotransport/442-raznoe",
+    "shopId": 25
+  },
+  {
+    "id": 40854,
+    "active": false,
+    "name": "Электровелосипеды, скутеры",
+    "parentId": 40847,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/elektrotransport/592-elektrovelosipedy-skutery",
+    "shopId": 25
+  },
+  {
+    "id": 40855,
+    "active": false,
+    "name": "Электродвигатели",
+    "parentId": 40847,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/elektrotransport/593-elektrodvigateli",
+    "shopId": 25
+  },
+  {
+    "id": 40856,
+    "active": false,
+    "name": "Электросамокаты",
+    "parentId": 40847,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/elektrotransport/594-elektrosamokaty",
+    "shopId": 25
+  },
+  {
+    "id": 40857,
+    "active": false,
+    "name": "Запчасти для квадрокоптеров",
+    "parentId": 40847,
+    "rootCategory": false,
+    "url": "https://vseplus.com/product/elektrotransport/588-zapcasti-dla-kvadrokopterov",
+    "shopId": 25
+  }
+]

@@ -1,0 +1,614 @@
+[
+  {
+    "id": 31426,
+    "active": false,
+    "name": "Аксесуари та акумулятори для рацій",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120556186-aksessuary-akkumulyatory-dlya",
+    "shopId": 22
+  },
+  {
+    "id": 31427,
+    "active": false,
+    "name": "Дисплеї",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120526922-displei",
+    "shopId": 22
+  },
+  {
+    "id": 31428,
+    "active": false,
+    "name": "Дисплеї iPhone",
+    "parentId": 31427,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420792-displei-iphone",
+    "shopId": 22
+  },
+  {
+    "id": 31429,
+    "active": false,
+    "name": "Дисплеї Apple Watch",
+    "parentId": 31427,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120526958-displei-apple-watch",
+    "shopId": 22
+  },
+  {
+    "id": 31430,
+    "active": false,
+    "name": "Матриці та дисплеї MacBook",
+    "parentId": 31427,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120528350-matritsy-displei-macbook",
+    "shopId": 22
+  },
+  {
+    "id": 31431,
+    "active": false,
+    "name": "Дисплей в зборі MacBook",
+    "parentId": 31430,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120661381-displej-sbore-macbook",
+    "shopId": 22
+  },
+  {
+    "id": 31432,
+    "active": false,
+    "name": "Матриця MacBook",
+    "parentId": 31430,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120661397-matritsa-macbook",
+    "shopId": 22
+  },
+  {
+    "id": 31433,
+    "active": false,
+    "name": "Дисплеї iPad",
+    "parentId": 31427,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420777-displei-ipad",
+    "shopId": 22
+  },
+  {
+    "id": 31434,
+    "active": false,
+    "name": "IMac",
+    "parentId": 31427,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420805-imac",
+    "shopId": 22
+  },
+  {
+    "id": 31435,
+    "active": false,
+    "name": "Проклейка дисплею",
+    "parentId": 31427,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120526995-proklejka-displeya",
+    "shopId": 22
+  },
+  {
+    "id": 31436,
+    "active": false,
+    "name": "Дисплеї Samsung Galaxy Tab",
+    "parentId": 31427,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g124824716-displei-samsung-galaxy",
+    "shopId": 22
+  },
+  {
+    "id": 31437,
+    "active": false,
+    "name": "Акумулятори",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120527458-akkumulyatory",
+    "shopId": 22
+  },
+  {
+    "id": 31438,
+    "active": false,
+    "name": "Акумулятори iPhone",
+    "parentId": 31437,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420789-akkumulyatory-iphone",
+    "shopId": 22
+  },
+  {
+    "id": 31439,
+    "active": false,
+    "name": "Акумулятори Ipad",
+    "parentId": 31437,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420776-akkumulyatory-ipad",
+    "shopId": 22
+  },
+  {
+    "id": 31440,
+    "active": false,
+    "name": "Акумулятори JBL/Harman",
+    "parentId": 31437,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120527510-akkumulyatory-jblharman",
+    "shopId": 22
+  },
+  {
+    "id": 31441,
+    "active": false,
+    "name": "Акумулятори Macbook",
+    "parentId": 31437,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420770-akkumulyatory-macbook",
+    "shopId": 22
+  },
+  {
+    "id": 31442,
+    "active": false,
+    "name": "Акумулятори Apple watch",
+    "parentId": 31437,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420784-akkumulyatory-apple-watch",
+    "shopId": 22
+  },
+  {
+    "id": 31443,
+    "active": false,
+    "name": "Акумулятори AirPods",
+    "parentId": 31437,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120556292-akkumulyatory-airpods",
+    "shopId": 22
+  },
+  {
+    "id": 31444,
+    "active": false,
+    "name": "Корпуси",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120527565-korpusy",
+    "shopId": 22
+  },
+  {
+    "id": 31445,
+    "active": false,
+    "name": "Корпуси iPhone",
+    "parentId": 31444,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120527594-korpusy-iphone",
+    "shopId": 22
+  },
+  {
+    "id": 31446,
+    "active": false,
+    "name": "Скло корпусу iPhone",
+    "parentId": 31445,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120561266-steklo-korpusa-iphone",
+    "shopId": 22
+  },
+  {
+    "id": 31447,
+    "active": false,
+    "name": "Корпус iPhone",
+    "parentId": 31445,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120561271-korpus-iphone",
+    "shopId": 22
+  },
+  {
+    "id": 31448,
+    "active": false,
+    "name": "Задня кришка корпусу Apple Watch",
+    "parentId": 31444,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120556335-zadnyaya-kryshka-korpusa",
+    "shopId": 22
+  },
+  {
+    "id": 31449,
+    "active": false,
+    "name": "Сім-лоток",
+    "parentId": 31444,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120528279-sim-lotok",
+    "shopId": 22
+  },
+  {
+    "id": 31450,
+    "active": false,
+    "name": "Шлейфи",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120528100-shlejfy",
+    "shopId": 22
+  },
+  {
+    "id": 31451,
+    "active": false,
+    "name": "Шлейфи iPhone",
+    "parentId": 31450,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420766-shlejfy-iphone",
+    "shopId": 22
+  },
+  {
+    "id": 31452,
+    "active": false,
+    "name": "Шлейфи iPad",
+    "parentId": 31450,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420783-shlejfy-ipad",
+    "shopId": 22
+  },
+  {
+    "id": 31453,
+    "active": false,
+    "name": "Кнопка Home",
+    "parentId": 31450,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120528288-knopka-home",
+    "shopId": 22
+  },
+  {
+    "id": 31454,
+    "active": false,
+    "name": "Шлейфи Apple Watch",
+    "parentId": 31450,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120611315-shlejfy-apple-watch",
+    "shopId": 22
+  },
+  {
+    "id": 31455,
+    "active": false,
+    "name": "Динаміки",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120527904-dinamiki",
+    "shopId": 22
+  },
+  {
+    "id": 31456,
+    "active": false,
+    "name": "Динаміки iPhone",
+    "parentId": 31455,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420793-dinamiki-iphone",
+    "shopId": 22
+  },
+  {
+    "id": 31457,
+    "active": false,
+    "name": "Динаміки iPad",
+    "parentId": 31455,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420778-dinamiki-ipad",
+    "shopId": 22
+  },
+  {
+    "id": 31458,
+    "active": false,
+    "name": "Динаміки MacBook",
+    "parentId": 31455,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420771-dinamiki-macbook",
+    "shopId": 22
+  },
+  {
+    "id": 31459,
+    "active": false,
+    "name": "Macbook",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g121162219-macbook",
+    "shopId": 22
+  },
+  {
+    "id": 31460,
+    "active": false,
+    "name": "Клавиатуры Macbook",
+    "parentId": 31459,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g125315275-klaviatury-macbook",
+    "shopId": 22
+  },
+  {
+    "id": 31461,
+    "active": false,
+    "name": "Камери",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120528127-kamery",
+    "shopId": 22
+  },
+  {
+    "id": 31462,
+    "active": false,
+    "name": "Камери iPhone",
+    "parentId": 31461,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420794-kamery-iphone",
+    "shopId": 22
+  },
+  {
+    "id": 31463,
+    "active": false,
+    "name": "Камери iPad",
+    "parentId": 31461,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420779-kamery-ipad",
+    "shopId": 22
+  },
+  {
+    "id": 31464,
+    "active": false,
+    "name": "Тачскрін | Скло дисплею",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120527609-tachskrin-steklo-displeya",
+    "shopId": 22
+  },
+  {
+    "id": 31465,
+    "active": false,
+    "name": "Тачскрін та скло дисплея iPhone",
+    "parentId": 31464,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420796-tachskrin-steklo-displeya",
+    "shopId": 22
+  },
+  {
+    "id": 31466,
+    "active": false,
+    "name": "Тачскрін та скло дисплею iPad",
+    "parentId": 31464,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420782-tachskrin-steklo-displeya",
+    "shopId": 22
+  },
+  {
+    "id": 31467,
+    "active": false,
+    "name": "Тачскрін та скло дисплею Apple Watch",
+    "parentId": 31464,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120527659-tachskrin-steklo-displeya",
+    "shopId": 22
+  },
+  {
+    "id": 31468,
+    "active": false,
+    "name": "Клавіатура і тачпади",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120528192-klaviatura-tachpady",
+    "shopId": 22
+  },
+  {
+    "id": 31469,
+    "active": false,
+    "name": "Клавіатури MacBook",
+    "parentId": 31468,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420772-klaviatury-macbook",
+    "shopId": 22
+  },
+  {
+    "id": 31470,
+    "active": false,
+    "name": "Тачпади (трекпад) Macbook",
+    "parentId": 31468,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420774-tachpady-trekpad-macbook",
+    "shopId": 22
+  },
+  {
+    "id": 31471,
+    "active": false,
+    "name": "JCID",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120527727-jcid",
+    "shopId": 22
+  },
+  {
+    "id": 31472,
+    "active": false,
+    "name": "Програматори і плати JC",
+    "parentId": 31471,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120527725-programmatory-platy",
+    "shopId": 22
+  },
+  {
+    "id": 31473,
+    "active": false,
+    "name": "Шлейф Face ID (JC)",
+    "parentId": 31471,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120527745-shlejf-face",
+    "shopId": 22
+  },
+  {
+    "id": 31474,
+    "active": false,
+    "name": "Шлейф Tag-on",
+    "parentId": 31471,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120527758-shlejf-tag",
+    "shopId": 22
+  },
+  {
+    "id": 31475,
+    "active": false,
+    "name": "Верхній шлейф JC FPC",
+    "parentId": 31471,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120527770-verhnij-shlejf-fpc",
+    "shopId": 22
+  },
+  {
+    "id": 31476,
+    "active": false,
+    "name": "Для ремонту",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g119420740-dlya-remonta",
+    "shopId": 22
+  },
+  {
+    "id": 31477,
+    "active": false,
+    "name": "Інструменти",
+    "parentId": 31476,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120457957-instrumenty",
+    "shopId": 22
+  },
+  {
+    "id": 31478,
+    "active": false,
+    "name": "Паяльне обладнання",
+    "parentId": 31476,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120457958-payalnoe-oborudovanie",
+    "shopId": 22
+  },
+  {
+    "id": 31479,
+    "active": false,
+    "name": "Програматори",
+    "parentId": 31476,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g120611303-programmatory",
+    "shopId": 22
+  },
+  {
+    "id": 31480,
+    "active": false,
+    "name": "Запчастини для Android",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g121137743-zapchasti-dlya-android",
+    "shopId": 22
+  },
+  {
+    "id": 31481,
+    "active": false,
+    "name": "Запчастини Samsung",
+    "parentId": 31480,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g121137751-zapchasti-samsung",
+    "shopId": 22
+  },
+  {
+    "id": 31482,
+    "active": false,
+    "name": "Samsung Galaxy A",
+    "parentId": 31481,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g125585888-samsung-galaxy",
+    "shopId": 22
+  },
+  {
+    "id": 31483,
+    "active": false,
+    "name": "Samsung Galaxy S",
+    "parentId": 31481,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g125585892-samsung-galaxy",
+    "shopId": 22
+  },
+  {
+    "id": 31484,
+    "active": false,
+    "name": "Запчастини Xiaomi",
+    "parentId": 31480,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g122342154-zapchasti-xiaomi",
+    "shopId": 22
+  },
+  {
+    "id": 31485,
+    "active": false,
+    "name": "Запчастини Google Pixel",
+    "parentId": 31480,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g122342155-zapchasti-google-pixel",
+    "shopId": 22
+  },
+  {
+    "id": 31486,
+    "active": false,
+    "name": "Запчастини Motorola",
+    "parentId": 31480,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g122715213-zapchasti-motorola",
+    "shopId": 22
+  },
+  {
+    "id": 31487,
+    "active": false,
+    "name": "Запчастини Oppo",
+    "parentId": 31480,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g122715214-zapchasti-oppo",
+    "shopId": 22
+  },
+  {
+    "id": 31488,
+    "active": false,
+    "name": "Запчастини Meizu",
+    "parentId": 31480,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g122715215-zapchasti-meizu",
+    "shopId": 22
+  },
+  {
+    "id": 31489,
+    "active": false,
+    "name": "Запчастини OnePlus",
+    "parentId": 31480,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g122976140-zapchasti-oneplus",
+    "shopId": 22
+  },
+  {
+    "id": 31490,
+    "active": false,
+    "name": "Запчастини Huawei",
+    "parentId": 31480,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g125506653-zapchasti-huawei",
+    "shopId": 22
+  },
+  {
+    "id": 31491,
+    "active": false,
+    "name": "Скло та сенсор G+Oca Pro",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g124016946-steklo-sensor-goca",
+    "shopId": 22
+  },
+  {
+    "id": 31492,
+    "active": false,
+    "name": "Аксесуари",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g125506654-aksessuary",
+    "shopId": 22
+  },
+  {
+    "id": 31493,
+    "active": false,
+    "name": "Защитные стекла",
+    "parentId": 31492,
+    "rootCategory": false,
+    "url": "https://quality-parts.com.ua/ua/g123428526-zaschitnye-stekla",
+    "shopId": 22
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "article": "div.catalog-item-id",
+  "name": "div.catalog-default \u003e div \u003e div \u003e div.catalog-name",
+  "price": "div.catalog-price-new",
+  "stock": "div.catalog-default \u003e div \u003e div \u003e div.catalog-bottom-box \u003e div.catalog-item-id.catalog-bottom.inactive",
+  "link": "div.catalog-default \u003e div \u003e div \u003e div.catalog-name \u003e a",
+  "href": "href",
+  "src": "src",
+  "imageLink": "div.catalog-img \u003e a \u003e img",
+  "productCart": "div.catalog-default \u003e div \u003e div",
+  "productListCart": "div.catalog-default",
+  "pagination": "page/",
+  "parameter": "",
+  "scanUrl": "https://www.aks.ua/catalog/mobilnye-telefony/",
+  "linkPrefix": "https://www.aks.ua",
+  "imagePrefix": "https://www.aks.ua",
+  "replaceArticle": [
+    {
+      "replace": "Код товара: ",
+      "replacement": ""
+    },
+    {
+      "replace": "нет в наличии ",
+      "replacement": ""
+    }
+  ],
+  "replaceStock": [],
+  "replacePrice": [
+    {
+      "replace": " ",
+      "replacement": ""
+    },
+    {
+      "replace": "грн",
+      "replacement": ""
+    }
+  ],
+  "containArticle": [],
+  "containStock": [
+    {
+      "replace": "нет в наличии ",
+      "replacement": "нет в наличии"
+    }
+  ],
+  "containPrice": [],
+  "cookies": {
+    "auth": "F98JfjM3DF%2BVMLtW7J6XJQ4cog1s%2Fypdp9%2BRQtnVRaW%2FyMBqVGY%2BJtpMqLyKaFaeQwYHrzwkLHE1LbCMryFs7w"
+  }
+}

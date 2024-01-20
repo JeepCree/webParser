@@ -1,123 +1,147 @@
 package ua.com.mobifix.entity;
 
 import jakarta.persistence.*;
+import ua.com.mobifix.parser.ReplaceString;
 
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 
 @Entity
 public class Shop {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private String name;
-    private String link;
-    private String selectCategoryTag;
-    private String selectCategoryTagLevel2;
-    private String selectCategoryTagLevel3;
-    private String selectCategoryTagLevel4;
-    private String selectCategoryTagLevel5;
-    private String selectCategoryNameTag;
-    private String selectCategoryNameTagLevel2;
-    private String selectCategoryNameTagLevel3;
-    private String selectCategoryNameTagLevel4;
-    private String selectCategoryNameTagLevel5;
-    private String selectCategoryAttrHref;
-    private String selectCategoryAttrHrefLevel2;
-    private String selectCategoryAttrHrefLevel3;
-    private String selectCategoryAttrHrefLevel4;
-    private String selectCategoryAttrHrefLevel5;
-    private String urlPrefix;
-    private String urlPrefixLevel2 = "";
-    private String urlPrefixLevel3 = "";
-    private String urlPrefixLevel4 = "";
-    private String urlPrefixLevel5 = "";
-    private String cookies;
-    private String replaceCategoryName;
-    private String replaceCategoryNameLevel2;
-    private String replaceCategoryNameLevel3;
-    private String replaceCategoryNameLevel4;
-    private String replaceCategoryNameLevel5;
-    private String replacementCategoryName;
-    private String replacementCategoryNameLevel2;
-    private String replacementCategoryNameLevel3;
-    private String replacementCategoryNameLevel4;
-    private String replacementCategoryNameLevel5;
-    private String replaceCategoryUrl;
-    private String replaceCategoryUrlLevel2;
-    private String replaceCategoryUrlLevel3;
-    private String replaceCategoryUrlLevel4;
-    private String replaceCategoryUrlLevel5;
-    private String replacementCategoryUrl;
-    private String replacementCategoryUrlLevel2;
-    private String replacementCategoryUrlLevel3;
-    private String replacementCategoryUrlLevel4;
-    private String replacementCategoryUrlLevel5;
-    private String noScanList;
+    //Данные о магазине
+    private Long idShop;
+    private String nameShop;
+    private String linkShop;
+    //Данные о настройках сканирования каталога категорий магазина
+    private String selectCategoryTag = "noTag";
+    private String selectCategoryTagLevel2 = "noTag";
+    private String selectCategoryTagLevel3 = "noTag";
+    private String selectCategoryTagLevel4 = "noTag";
+    private String selectCategoryTagLevel5 = "noTag";
+    private String selectCategoryNameTag = "noNameTag";
+    private String selectCategoryNameTagLevel2 = "noNameTag";
+    private String selectCategoryNameTagLevel3 = "noNameTag";
+    private String selectCategoryNameTagLevel4 = "noNameTag";
+    private String selectCategoryNameTagLevel5 = "noNameTag";
+    private String selectCategoryAttrHref = "noAttrHref";
+    private String selectCategoryAttrHrefLevel2 = "noAttrHref";
+    private String selectCategoryAttrHrefLevel3 = "noAttrHref";
+    private String selectCategoryAttrHrefLevel4 = "noAttrHref";
+    private String selectCategoryAttrHrefLevel5 = "noAttrHref";
+    private String urlCategoryPrefix = "";
+    private String urlCategoryPrefixLevel2 = "";
+    private String urlCategoryPrefixLevel3 = "";
+    private String urlCategoryPrefixLevel4 = "";
+    private String urlCategoryPrefixLevel5 = "";
+    @Column(length = 8192)
+    private String replaceCategoryName = "";
+    @Column(length = 8192)
+    private String replaceCategoryNameLevel2 = "";
+    @Column(length = 8192)
+    private String replaceCategoryNameLevel3 = "";
+    @Column(length = 8192)
+    private String replaceCategoryNameLevel4 = "";
+    @Column(length = 8192)
+    private String replaceCategoryNameLevel5 = "";
+    @Column(length = 8192)
+    private String replaceCategoryUrl = "";
+    @Column(length = 8192)
+    private String replaceCategoryUrlLevel2 = "";
+    @Column(length = 8192)
+    private String replaceCategoryUrlLevel3 = "";
+    @Column(length = 8192)
+    private String replaceCategoryUrlLevel4 = "";
+    @Column(length = 8192)
+    private String replaceCategoryUrlLevel5 = "";
+    @Column(length = 8192)
+    private String noScanCategoryList = "";
+    //Данные о настройках сканирования товаров в категории магазина
+    private String scanProductsUrl;
+    private String pagination = "1";
+    private String parameter = "";
+    private String urlProductsLinkPrefix = "";
+    private String urlProductsImageLinkPrefix = "";
+    private String selectProductsListCartTag = "noTag";
+    private String selectProductsCartTag = "noTag";
+    private String selectProductsArticleTag = "noTag";
+    private String selectProductsNameTag = "noTag";
+    private String selectProductsPriceTag = "noTag";
+    private String selectProductsStockTag = "noTag";
+    private String selectProductsLinkTag = "noTag";
+    private String selectProductsImageLinkTag = "noTag";
+    private String selectProductsBreadcrumbsTag = "noTag";
+    private String selectProductsAttrHref = "noHrefTag";
+    private String selectProductsAttrSrc = "noSrcTag";
+    @Column(length = 8192)
+    private String replaceProductsArticle = "";
+    @Column(length = 8192)
+    private String replaceProductsStock = "";
+    @Column(length = 8192)
+    private String replaceProductsPrice = "";
+    @Column(length = 8192)
+    private String containProductsArticle = "";
+    @Column(length = 8192)
+    private String containProductsStock = "";
+    @Column(length = 8192)
+    private String containProductsPrice = "";
+    @Column(length = 8192)
+    //Данные о настройках сканирования карточки товара магазина
+    private String scanProductUrl;
+    private String urlProductLinkPrefix = "";
+    private String urlProductImagePrefix = "";
+    private String selectProductAarticleTag = "";
+    private String selectProductNameTag = "";
+    private String selectProductStockTag = "";
+    private String selectProductPriceTag = "";
+    private String selectProductBreadcrumbsTag = "";
+    private String selectProductLinkTag = "";
+    private String selectProductImageLinkTag = "";
+    private String selectProductAttrHref = "";
+    private String selectProductAttrSrc = "";
+    private int maxRetriesLoadPage = 1;
+    @Column(length = 8192)
+    private String replaceProductArticle = "";
+    @Column(length = 8192)
+    private String replaceProductStock = "";
+    @Column(length = 8192)
+    private String replaceProductPrice = "";
+    @Column(length = 8192)
+    private String replaceProductBreadcrumbs = "";
+    @Column(length = 8192)
+    private String containProductArticle = "";
+    @Column(length = 8192)
+    private String containProductStock = "";
+    @Column(length = 8192)
+    private String containProductPrice = "";
+    @Column(length = 8192)
+    private String containProductBreadcrumbs = "";
+    //Данные Cookies магазина
+    @Column(length = 8192)
+    private String cookies = "noCookie1=noValue1; noCookie2=noValue2";
 
-    public String getNoScanList() {
-        return noScanList;
+    public Long getIdShop() {
+        return idShop;
     }
 
-    public void setNoScanList(String noScanList) {
-        this.noScanList = noScanList;
+    public void setIdShop(Long idShop) {
+        this.idShop = idShop;
     }
 
-    public String getUrlPrefixLevel2() {
-        return urlPrefixLevel2;
+    public String getNameShop() {
+        return nameShop;
     }
 
-    public void setUrlPrefixLevel2(String urlPrefixLevel2) {
-        this.urlPrefixLevel2 = urlPrefixLevel2;
+    public void setNameShop(String nameShop) {
+        this.nameShop = nameShop;
     }
 
-    public String getUrlPrefixLevel3() {
-        return urlPrefixLevel3;
+    public String getLinkShop() {
+        return linkShop;
     }
 
-    public void setUrlPrefixLevel3(String urlPrefixLevel3) {
-        this.urlPrefixLevel3 = urlPrefixLevel3;
-    }
-
-    public String getUrlPrefixLevel4() {
-        return urlPrefixLevel4;
-    }
-
-    public void setUrlPrefixLevel4(String urlPrefixLevel4) {
-        this.urlPrefixLevel4 = urlPrefixLevel4;
-    }
-
-    public String getUrlPrefixLevel5() {
-        return urlPrefixLevel5;
-    }
-
-    public void setUrlPrefixLevel5(String urlPrefixLevel5) {
-        this.urlPrefixLevel5 = urlPrefixLevel5;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getLink() {
-        return link;
-    }
-
-    public void setLink(String link) {
-        this.link = link;
+    public void setLinkShop(String linkShop) {
+        this.linkShop = linkShop;
     }
 
     public String getSelectCategoryTag() {
@@ -240,20 +264,44 @@ public class Shop {
         this.selectCategoryAttrHrefLevel5 = selectCategoryAttrHrefLevel5;
     }
 
-    public String getUrlPrefix() {
-        return urlPrefix;
+    public String getUrlCategoryPrefix() {
+        return urlCategoryPrefix;
     }
 
-    public void setUrlPrefix(String urlPrefix) {
-        this.urlPrefix = urlPrefix;
+    public void setUrlCategoryPrefix(String urlCategoryPrefix) {
+        this.urlCategoryPrefix = urlCategoryPrefix;
     }
 
-    public String getCookies() {
-        return cookies;
+    public String getUrlCategoryPrefixLevel2() {
+        return urlCategoryPrefixLevel2;
     }
 
-    public void setCookies(String cookies) {
-        this.cookies = cookies;
+    public void setUrlCategoryPrefixLevel2(String urlCategoryPrefixLevel2) {
+        this.urlCategoryPrefixLevel2 = urlCategoryPrefixLevel2;
+    }
+
+    public String getUrlCategoryPrefixLevel3() {
+        return urlCategoryPrefixLevel3;
+    }
+
+    public void setUrlCategoryPrefixLevel3(String urlCategoryPrefixLevel3) {
+        this.urlCategoryPrefixLevel3 = urlCategoryPrefixLevel3;
+    }
+
+    public String getUrlCategoryPrefixLevel4() {
+        return urlCategoryPrefixLevel4;
+    }
+
+    public void setUrlCategoryPrefixLevel4(String urlCategoryPrefixLevel4) {
+        this.urlCategoryPrefixLevel4 = urlCategoryPrefixLevel4;
+    }
+
+    public String getUrlCategoryPrefixLevel5() {
+        return urlCategoryPrefixLevel5;
+    }
+
+    public void setUrlCategoryPrefixLevel5(String urlCategoryPrefixLevel5) {
+        this.urlCategoryPrefixLevel5 = urlCategoryPrefixLevel5;
     }
 
     public String getReplaceCategoryName() {
@@ -296,46 +344,6 @@ public class Shop {
         this.replaceCategoryNameLevel5 = replaceCategoryNameLevel5;
     }
 
-    public String getReplacementCategoryName() {
-        return replacementCategoryName;
-    }
-
-    public void setReplacementCategoryName(String replacementCategoryName) {
-        this.replacementCategoryName = replacementCategoryName;
-    }
-
-    public String getReplacementCategoryNameLevel2() {
-        return replacementCategoryNameLevel2;
-    }
-
-    public void setReplacementCategoryNameLevel2(String replacementCategoryNameLevel2) {
-        this.replacementCategoryNameLevel2 = replacementCategoryNameLevel2;
-    }
-
-    public String getReplacementCategoryNameLevel3() {
-        return replacementCategoryNameLevel3;
-    }
-
-    public void setReplacementCategoryNameLevel3(String replacementCategoryNameLevel3) {
-        this.replacementCategoryNameLevel3 = replacementCategoryNameLevel3;
-    }
-
-    public String getReplacementCategoryNameLevel4() {
-        return replacementCategoryNameLevel4;
-    }
-
-    public void setReplacementCategoryNameLevel4(String replacementCategoryNameLevel4) {
-        this.replacementCategoryNameLevel4 = replacementCategoryNameLevel4;
-    }
-
-    public String getReplacementCategoryNameLevel5() {
-        return replacementCategoryNameLevel5;
-    }
-
-    public void setReplacementCategoryNameLevel5(String replacementCategoryNameLevel5) {
-        this.replacementCategoryNameLevel5 = replacementCategoryNameLevel5;
-    }
-
     public String getReplaceCategoryUrl() {
         return replaceCategoryUrl;
     }
@@ -376,43 +384,363 @@ public class Shop {
         this.replaceCategoryUrlLevel5 = replaceCategoryUrlLevel5;
     }
 
-    public String getReplacementCategoryUrl() {
-        return replacementCategoryUrl;
+    public String getNoScanCategoryList() {
+        return noScanCategoryList;
     }
 
-    public void setReplacementCategoryUrl(String replacementCategoryUrl) {
-        this.replacementCategoryUrl = replacementCategoryUrl;
+    public void setNoScanCategoryList(String noScanCategoryList) {
+        this.noScanCategoryList = noScanCategoryList;
     }
 
-    public String getReplacementCategoryUrlLevel2() {
-        return replacementCategoryUrlLevel2;
+    public String getScanProductsUrl() {
+        return scanProductsUrl;
     }
 
-    public void setReplacementCategoryUrlLevel2(String replacementCategoryUrlLevel2) {
-        this.replacementCategoryUrlLevel2 = replacementCategoryUrlLevel2;
+    public void setScanProductsUrl(String scanProductsUrl) {
+        this.scanProductsUrl = scanProductsUrl;
     }
 
-    public String getReplacementCategoryUrlLevel3() {
-        return replacementCategoryUrlLevel3;
+    public String getPagination() {
+        return pagination;
     }
 
-    public void setReplacementCategoryUrlLevel3(String replacementCategoryUrlLevel3) {
-        this.replacementCategoryUrlLevel3 = replacementCategoryUrlLevel3;
+    public void setPagination(String pagination) {
+        this.pagination = pagination;
     }
 
-    public String getReplacementCategoryUrlLevel4() {
-        return replacementCategoryUrlLevel4;
+    public String getParameter() {
+        return parameter;
     }
 
-    public void setReplacementCategoryUrlLevel4(String replacementCategoryUrlLevel4) {
-        this.replacementCategoryUrlLevel4 = replacementCategoryUrlLevel4;
+    public void setParameter(String parameter) {
+        this.parameter = parameter;
     }
 
-    public String getReplacementCategoryUrlLevel5() {
-        return replacementCategoryUrlLevel5;
+    public String getUrlProductsLinkPrefix() {
+        return urlProductsLinkPrefix;
     }
 
-    public void setReplacementCategoryUrlLevel5(String replacementCategoryUrlLevel5) {
-        this.replacementCategoryUrlLevel5 = replacementCategoryUrlLevel5;
+    public void setUrlProductsLinkPrefix(String urlProductsLinkPrefix) {
+        this.urlProductsLinkPrefix = urlProductsLinkPrefix;
+    }
+
+    public String getUrlProductsImageLinkPrefix() {
+        return urlProductsImageLinkPrefix;
+    }
+
+    public void setUrlProductsImageLinkPrefix(String urlProductsImageLinkPrefix) {
+        this.urlProductsImageLinkPrefix = urlProductsImageLinkPrefix;
+    }
+
+    public String getSelectProductsListCartTag() {
+        return selectProductsListCartTag;
+    }
+
+    public void setSelectProductsListCartTag(String selectProductsListCartTag) {
+        this.selectProductsListCartTag = selectProductsListCartTag;
+    }
+
+    public String getSelectProductsCartTag() {
+        return selectProductsCartTag;
+    }
+
+    public void setSelectProductsCartTag(String selectProductsCartTag) {
+        this.selectProductsCartTag = selectProductsCartTag;
+    }
+
+    public String getSelectProductsArticleTag() {
+        return selectProductsArticleTag;
+    }
+
+    public void setSelectProductsArticleTag(String selectProductsArticleTag) {
+        this.selectProductsArticleTag = selectProductsArticleTag;
+    }
+
+    public String getSelectProductsNameTag() {
+        return selectProductsNameTag;
+    }
+
+    public void setSelectProductsNameTag(String selectProductsNameTag) {
+        this.selectProductsNameTag = selectProductsNameTag;
+    }
+
+    public String getSelectProductsPriceTag() {
+        return selectProductsPriceTag;
+    }
+
+    public void setSelectProductsPriceTag(String selectProductsPriceTag) {
+        this.selectProductsPriceTag = selectProductsPriceTag;
+    }
+
+    public String getSelectProductsStockTag() {
+        return selectProductsStockTag;
+    }
+
+    public void setSelectProductsStockTag(String selectProductsStockTag) {
+        this.selectProductsStockTag = selectProductsStockTag;
+    }
+
+    public String getSelectProductsLinkTag() {
+        return selectProductsLinkTag;
+    }
+
+    public void setSelectProductsLinkTag(String selectProductsLinkTag) {
+        this.selectProductsLinkTag = selectProductsLinkTag;
+    }
+
+    public String getSelectProductsImageLinkTag() {
+        return selectProductsImageLinkTag;
+    }
+
+    public void setSelectProductsImageLinkTag(String selectProductsImageLinkTag) {
+        this.selectProductsImageLinkTag = selectProductsImageLinkTag;
+    }
+
+    public String getSelectProductsBreadcrumbsTag() {
+        return selectProductsBreadcrumbsTag;
+    }
+
+    public void setSelectProductsBreadcrumbsTag(String selectProductsBreadcrumbsTag) {
+        this.selectProductsBreadcrumbsTag = selectProductsBreadcrumbsTag;
+    }
+
+    public String getSelectProductsAttrHref() {
+        return selectProductsAttrHref;
+    }
+
+    public void setSelectProductsAttrHref(String selectProductsAttrHref) {
+        this.selectProductsAttrHref = selectProductsAttrHref;
+    }
+
+    public String getSelectProductsAttrSrc() {
+        return selectProductsAttrSrc;
+    }
+
+    public void setSelectProductsAttrSrc(String selectProductsAttrSrc) {
+        this.selectProductsAttrSrc = selectProductsAttrSrc;
+    }
+
+    public String getReplaceProductsArticle() {
+        return replaceProductsArticle;
+    }
+
+    public void setReplaceProductsArticle(String replaceProductsArticle) {
+        this.replaceProductsArticle = replaceProductsArticle;
+    }
+
+    public String getReplaceProductsStock() {
+        return replaceProductsStock;
+    }
+
+    public void setReplaceProductsStock(String replaceProductsStock) {
+        this.replaceProductsStock = replaceProductsStock;
+    }
+
+    public String getReplaceProductsPrice() {
+        return replaceProductsPrice;
+    }
+
+    public void setReplaceProductsPrice(String replaceProductsPrice) {
+        this.replaceProductsPrice = replaceProductsPrice;
+    }
+
+    public String getContainProductsArticle() {
+        return containProductsArticle;
+    }
+
+    public void setContainProductsArticle(String containProductsArticle) {
+        this.containProductsArticle = containProductsArticle;
+    }
+
+    public String getContainProductsStock() {
+        return containProductsStock;
+    }
+
+    public void setContainProductsStock(String containProductsStock) {
+        this.containProductsStock = containProductsStock;
+    }
+
+    public String getContainProductsPrice() {
+        return containProductsPrice;
+    }
+
+    public void setContainProductsPrice(String containProductsPrice) {
+        this.containProductsPrice = containProductsPrice;
+    }
+
+    public String getScanProductUrl() {
+        return scanProductUrl;
+    }
+
+    public void setScanProductUrl(String scanProductUrl) {
+        this.scanProductUrl = scanProductUrl;
+    }
+
+    public String getUrlProductLinkPrefix() {
+        return urlProductLinkPrefix;
+    }
+
+    public void setUrlProductLinkPrefix(String urlProductLinkPrefix) {
+        this.urlProductLinkPrefix = urlProductLinkPrefix;
+    }
+
+    public String getUrlProductImagePrefix() {
+        return urlProductImagePrefix;
+    }
+
+    public void setUrlProductImagePrefix(String urlProductImagePrefix) {
+        this.urlProductImagePrefix = urlProductImagePrefix;
+    }
+
+    public String getSelectProductAarticleTag() {
+        return selectProductAarticleTag;
+    }
+
+    public void setSelectProductAarticleTag(String selectProductAarticleTag) {
+        this.selectProductAarticleTag = selectProductAarticleTag;
+    }
+
+    public String getSelectProductNameTag() {
+        return selectProductNameTag;
+    }
+
+    public void setSelectProductNameTag(String selectProductNameTag) {
+        this.selectProductNameTag = selectProductNameTag;
+    }
+
+    public String getSelectProductStockTag() {
+        return selectProductStockTag;
+    }
+
+    public void setSelectProductStockTag(String selectProductStockTag) {
+        this.selectProductStockTag = selectProductStockTag;
+    }
+
+    public String getSelectProductPriceTag() {
+        return selectProductPriceTag;
+    }
+
+    public void setSelectProductPriceTag(String selectProductPriceTag) {
+        this.selectProductPriceTag = selectProductPriceTag;
+    }
+
+    public String getSelectProductBreadcrumbsTag() {
+        return selectProductBreadcrumbsTag;
+    }
+
+    public void setSelectProductBreadcrumbsTag(String selectProductBreadcrumbsTag) {
+        this.selectProductBreadcrumbsTag = selectProductBreadcrumbsTag;
+    }
+
+    public String getSelectProductLinkTag() {
+        return selectProductLinkTag;
+    }
+
+    public void setSelectProductLinkTag(String selectProductLinkTag) {
+        this.selectProductLinkTag = selectProductLinkTag;
+    }
+
+    public String getSelectProductImageLinkTag() {
+        return selectProductImageLinkTag;
+    }
+
+    public void setSelectProductImageLinkTag(String selectProductImageLinkTag) {
+        this.selectProductImageLinkTag = selectProductImageLinkTag;
+    }
+
+    public String getSelectProductAttrHref() {
+        return selectProductAttrHref;
+    }
+
+    public void setSelectProductAttrHref(String selectProductAttrHref) {
+        this.selectProductAttrHref = selectProductAttrHref;
+    }
+
+    public String getSelectProductAttrSrc() {
+        return selectProductAttrSrc;
+    }
+
+    public void setSelectProductAttrSrc(String selectProductAttrSrc) {
+        this.selectProductAttrSrc = selectProductAttrSrc;
+    }
+
+    public int getMaxRetriesLoadPage() {
+        return maxRetriesLoadPage;
+    }
+
+    public void setMaxRetriesLoadPage(int maxRetriesLoadPage) {
+        this.maxRetriesLoadPage = maxRetriesLoadPage;
+    }
+
+    public String getReplaceProductArticle() {
+        return replaceProductArticle;
+    }
+
+    public void setReplaceProductArticle(String replaceProductArticle) {
+        this.replaceProductArticle = replaceProductArticle;
+    }
+
+    public String getReplaceProductStock() {
+        return replaceProductStock;
+    }
+
+    public void setReplaceProductStock(String replaceProductStock) {
+        this.replaceProductStock = replaceProductStock;
+    }
+
+    public String getReplaceProductPrice() {
+        return replaceProductPrice;
+    }
+
+    public void setReplaceProductPrice(String replaceProductPrice) {
+        this.replaceProductPrice = replaceProductPrice;
+    }
+
+    public String getReplaceProductBreadcrumbs() {
+        return replaceProductBreadcrumbs;
+    }
+
+    public void setReplaceProductBreadcrumbs(String replaceProductBreadcrumbs) {
+        this.replaceProductBreadcrumbs = replaceProductBreadcrumbs;
+    }
+
+    public String getContainProductArticle() {
+        return containProductArticle;
+    }
+
+    public void setContainProductArticle(String containProductArticle) {
+        this.containProductArticle = containProductArticle;
+    }
+
+    public String getContainProductStock() {
+        return containProductStock;
+    }
+
+    public void setContainProductStock(String containProductStock) {
+        this.containProductStock = containProductStock;
+    }
+
+    public String getContainProductPrice() {
+        return containProductPrice;
+    }
+
+    public void setContainProductPrice(String containProductPrice) {
+        this.containProductPrice = containProductPrice;
+    }
+
+    public String getContainProductBreadcrumbs() {
+        return containProductBreadcrumbs;
+    }
+
+    public void setContainProductBreadcrumbs(String containProductBreadcrumbs) {
+        this.containProductBreadcrumbs = containProductBreadcrumbs;
+    }
+
+    public String getCookies() {
+        return cookies;
+    }
+
+    public void setCookies(String cookies) {
+        this.cookies = cookies;
     }
 }
