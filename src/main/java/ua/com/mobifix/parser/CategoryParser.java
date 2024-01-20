@@ -26,9 +26,9 @@ public class CategoryParser {
 
     public Map<String, String> parseStringToMap (String str){
         Map<String, String> map = new HashMap<>();
-        String[] stringPairs = str.split("; ");
+        String[] stringPairs = str.split("<';'>");
         for (String stringPair : stringPairs) {
-            String[] parts = stringPair.split("=");
+            String[] parts = stringPair.split("-->");
             if (parts.length == 2) {
                 map.put(parts[0], parts[1]);
             }

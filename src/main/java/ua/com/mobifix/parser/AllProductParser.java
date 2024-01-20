@@ -113,7 +113,7 @@ public class AllProductParser extends CategoryParser {
 //                    }
                     }
 
-                    //конец вставка
+                    //конец вставки
 
                     bool = !page.equals(newPage);
 //                    System.out.println(!page.equals(newPage) + " " + i);
