@@ -34,27 +34,27 @@ public class Shop {
     private String urlCategoryPrefixLevel3 = "";
     private String urlCategoryPrefixLevel4 = "";
     private String urlCategoryPrefixLevel5 = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String replaceCategoryName = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String replaceCategoryNameLevel2 = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String replaceCategoryNameLevel3 = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String replaceCategoryNameLevel4 = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String replaceCategoryNameLevel5 = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String replaceCategoryUrl = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String replaceCategoryUrlLevel2 = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String replaceCategoryUrlLevel3 = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String replaceCategoryUrlLevel4 = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String replaceCategoryUrlLevel5 = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String noScanCategoryList = "";
     //Данные о настройках сканирования товаров в категории магазина
     private String scanProductsUrl;
@@ -73,19 +73,19 @@ public class Shop {
     private String selectProductsBreadcrumbsTag = "noTag";
     private String selectProductsAttrHref = "noHrefTag";
     private String selectProductsAttrSrc = "noSrcTag";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String replaceProductsArticle = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String replaceProductsStock = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String replaceProductsPrice = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String containProductsArticle = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String containProductsStock = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String containProductsPrice = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     //Данные о настройках сканирования карточки товара магазина
     private String scanProductUrl;
     private String urlProductLinkPrefix = "";
@@ -100,25 +100,27 @@ public class Shop {
     private String selectProductAttrHref = "";
     private String selectProductAttrSrc = "";
     private int maxRetriesLoadPage = 1;
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String replaceProductArticle = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String replaceProductStock = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String replaceProductPrice = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String replaceProductBreadcrumbs = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String containProductArticle = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String containProductStock = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String containProductPrice = "";
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String containProductBreadcrumbs = "";
     //Данные Cookies магазина
-    @Column(length = 8192)
+    @Column(columnDefinition = "TEXT")
     private String cookies = "noCookie1=noValue1; noCookie2=noValue2";
+    @Column(columnDefinition = "TEXT")
+    private String userAgent = "";
 
     public Long getIdShop() {
         return idShop;
@@ -742,5 +744,13 @@ public class Shop {
 
     public void setCookies(String cookies) {
         this.cookies = cookies;
+    }
+
+    public String getUserAgent() {
+        return userAgent;
+    }
+
+    public void setUserAgent(String userAgent) {
+        this.userAgent = userAgent;
     }
 }

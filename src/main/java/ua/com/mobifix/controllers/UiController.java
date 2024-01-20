@@ -5,13 +5,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import ua.com.mobifix.entity.*;
 import ua.com.mobifix.service.CategoryService;
 import com.fasterxml.jackson.databind.ObjectMapper;
-
-import java.util.List;
 
 @Controller
 @RequestMapping(path="/")
@@ -40,7 +37,7 @@ public class UiController {
     public String getAddShopPage(Model model){
         String homePage = "Add Shop";
         model.addAttribute("pageInfo", homePage);
-        model.addAttribute("catalog", shopRepository.findAllByOrderByNameAsc());
+        model.addAttribute("catalog", shopRepository.findAllByOrderByNameShopAsc());
         return "add-shop";
     }
     @GetMapping("/shop-settings")
@@ -65,9 +62,9 @@ public class UiController {
         try {
             String categoriesJson = objectMapper.writeValueAsString(categoriesRepository.findAllByOrderByNameAsc());
             model.addAttribute("jsonString", categoriesJson);
-//            String shopJson = objectMapper.writeValueAsString(shopRepository.findAllByOrderByNameAsc());
-            model.addAttribute("shops", shopRepository.findAllByOrderByNameAsc());
-//            System.out.println(shopRepository.findAllByOrderByNameAsc());
+//            String shopJson = objectMapper.writeValueAsString(shopRepository.findAllByOrderByNameShopAsc());
+            model.addAttribute("shops", shopRepository.findAllByOrderByNameShopAsc());
+//            System.out.println(shopRepository.findAllByOrderByNameShopAsc());
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -92,7 +89,7 @@ public class UiController {
             }
             model.addAttribute("showElement", true);
             model.addAttribute("catalog", categoriesRepository.findAllByOrderByNameAsc());
-            model.addAttribute("shops", shopRepository.findAllByOrderByNameAsc());
+            model.addAttribute("shops", shopRepository.findAllByOrderByNameShopAsc());
         }
         return "catalog-settings";
     }

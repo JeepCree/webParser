@@ -30,7 +30,7 @@ public class ShopController {
         shop.setNameShop(newShop);
         shop.setLinkShop(link);
         shopRepository.save(shop);
-        model.addAttribute("catalog", shopRepository.findAllByOrderByNameAsc());
+        model.addAttribute("catalog", shopRepository.findAllByOrderByNameShopAsc());
         return "add-shop";
         }
 
@@ -39,8 +39,8 @@ public class ShopController {
     public String editShop(Model model, Long editShop ){
         String homePage = "Edit Shop";
         model.addAttribute("pageInfo", homePage);
-        model.addAttribute("catalog", shopRepository.findAllByOrderByNameAsc());
-        Shop shop = shopRepository.getById(editShop);
+        model.addAttribute("catalog", shopRepository.findAllByOrderByNameShopAsc());
+        Shop shop = shopRepository.getByIdShop(editShop);
         model.addAttribute("shop", shop);
         return "edit-shop";
     }
@@ -66,7 +66,7 @@ public class ShopController {
     public String saveToJson(){
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try (FileWriter writer = new FileWriter("C:\\Users\\dima2\\IdeaProjects\\webParser\\src\\main\\resources\\data\\shop_export_" + Time.getTime() + ".json")) {
-            gson.toJson(shopRepository.findAllByOrderByNameAsc(), writer);
+            gson.toJson(shopRepository.findAllByOrderByNameShopAsc(), writer);
         } catch (IOException e) {
             e.printStackTrace();
         }

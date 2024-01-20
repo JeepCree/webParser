@@ -6,6 +6,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import ua.com.mobifix.entity.Shop;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -13,12 +14,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class AllProductParser {
+public class AllProductParser extends CategoryParser {
     List<AllScanProduct> productList = new ArrayList<>();
 
-    public void saveList(List<AllScanProduct> productList, ScanProductsSettings settings) {
+    public void saveList(List<AllScanProduct> productList, Shop settings) {
         try (FileWriter writer = new FileWriter("..\\webParser\\src\\main\\resources\\data\\products\\" + settings
-                .getScanUrl()
+                .getNameShop()
                 .replace("/", "-")
                 .replace(":", "") + "products.json")) {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
@@ -29,11 +30,10 @@ public class AllProductParser {
         }
     }
 
-    public boolean getProducts(ScanProductsSettings settings, int num) {
-        String url = settings.getScanUrl();
+    public boolean getProducts(Shop settings, int num) {
+        String url = settings.getScanProductsUrl();
 
-
-        Map<String, String> cookies = settings.getCookies();
+        Map<String, String> cookies = parseStringToMap(settings.getCookies());
         if (cookies == null) {
             cookies.put("noName", "noValue");
         }
@@ -43,54 +43,56 @@ public class AllProductParser {
             try {
                 System.out.println(url + settings.getPagination() + num + settings.getParameter());
                 String page = Jsoup.connect(url + settings.getPagination() + num + settings.getParameter())
+                        .cookies(parseStringToMap(settings.getCookies()))
                         .get()
-                        .select(settings.getProductListCart()).text();
+                        .select(settings.getSelectProductsListCartTag()).text();
 
                 String newPage = Jsoup.connect(url + settings.getPagination() + (num + 1) + settings.getParameter())
+                        .cookies(parseStringToMap(settings.getCookies()))
                         .get()
-                        .select(settings.getProductListCart()).text();
+                        .select(settings.getSelectProductsListCartTag()).text();
                 Document scanPage = Jsoup.connect(url + settings.getPagination() + num + settings.getParameter())
-                        .cookies(settings.getCookies())
+                        .cookies(parseStringToMap(settings.getCookies()))
                         .get();
                 System.out.println("Сканируем страницу " + num);
                 //вставка
-                Elements elements = scanPage.select(settings.getProductCart());
+                Elements elements = scanPage.select(settings.getSelectProductsListCartTag());
                 System.out.println(elements.size());
                 for (Element element : elements) {
                     AllScanProduct asp = new AllScanProduct();
-                    String name = element.select(settings.getName()).text();
-                    String article = element.select(settings.getArticle()).text();
-                    for (ReplaceString art : settings.getReplaceArticle()) {
-                        article = article.replace(art.getReplace(), art.getReplacement());
+                    String name = element.select(settings.getSelectProductsNameTag()).text();
+                    String article = element.select(settings.getSelectProductsArticleTag()).text();
+                    for (Map.Entry<String, String> art : parseStringToMap(settings.getReplaceProductsArticle()).entrySet()) {
+                        article = article.replace(art.getKey(), art.getValue());
                     }
-                    for (ReplaceString prCont : settings.getContainArticle()) {
-                        if (article.contains(prCont.getReplace())) {
-                            article = prCont.getReplacement();
+                    for (Map.Entry<String, String> prCont : parseStringToMap(settings.getContainProductsArticle()).entrySet()) {
+                        if (article.contains(prCont.getKey())) {
+                            article = prCont.getValue();
                         }
                     }
-                    String productUrl = settings.getLinkPrefix() + element.select(settings.getLink()).attr(settings.getHref());
-                    String stock = element.select(settings.getStock()).text();
-                    for (ReplaceString st : settings.getReplaceStock()) {
-                        stock = stock.replace(st.getReplace(), st.getReplacement());
+                    String productUrl = settings.getUrlProductsLinkPrefix() + element.select(settings.getSelectProductsLinkTag()).attr(settings.getSelectProductsAttrHref());
+                    String stock = element.select(settings.getSelectProductsStockTag()).text();
+                    for (Map.Entry<String, String> st : parseStringToMap(settings.getReplaceProductsStock()).entrySet()) {
+                        stock = stock.replace(st.getKey(), st.getValue());
                     }
-                    for (ReplaceString stCont : settings.getContainStock()) {
-                        if (stock.contains(stCont.getReplace())) {
-                            stock = stCont.getReplacement();
+                    for (Map.Entry<String, String> stCont : parseStringToMap(settings.getContainProductsStock()).entrySet()) {
+                        if (stock.contains(stCont.getKey())) {
+                            stock = stCont.getValue();
                             }
                         }
 
 
-                    String price = element.select(settings.getPrice()).text();
-                    for (ReplaceString pr : settings.getReplacePrice()) {
-                        price = price.replace(pr.getReplace(), pr.getReplacement());
+                    String price = element.select(settings.getSelectProductsPriceTag()).text();
+                    for (Map.Entry<String, String> pr : parseStringToMap(settings.getReplaceProductsPrice()).entrySet()) {
+                        price = price.replace(pr.getKey(), pr.getValue());
                     }
-                    for (ReplaceString prCont : settings.getContainPrice()) {
-                        if (price.contains(prCont.getReplace())) {
-                            price = prCont.getReplacement();
+                    for (Map.Entry<String, String> prCont : parseStringToMap(settings.getContainProductsPrice()).entrySet()) {
+                        if (price.contains(prCont.getKey())) {
+                            price = prCont.getValue();
                         }
                     }
 
-                        String imageLink = settings.getImagePrefix() + element.select(settings.getImageLink()).attr(settings.getSrc());
+                        String imageLink = settings.getUrlProductsImageLinkPrefix() + element.select(settings.getSelectProductImageLinkTag()).attr(settings.getSelectProductsAttrSrc());
                         asp.setArticle(article);
                         asp.setName(name);
                         asp.setLink(productUrl);
@@ -111,7 +113,7 @@ public class AllProductParser {
 //                    }
                     }
 
-                    //конец вставка
+                    //конец вставки
 
                     bool = !page.equals(newPage);
 //                    System.out.println(!page.equals(newPage) + " " + i);

@@ -1,13 +1,14 @@
 package ua.com.mobifix.parser;
 
 import ua.com.mobifix.entity.Categories;
+import ua.com.mobifix.entity.Shop;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class RunCategory {
     public static void main(String[] args) {
-        ScanCategorySettings settings = new ScanCategorySettings();
+        Shop settings = new Shop();
         CategoryParser parser = new CategoryParser();
 
 
@@ -137,12 +138,12 @@ public class RunCategory {
 //        settings.setCookies(cookies);
 
 //hotline
-        settings.setShopName("hotline.ua");
-        settings.setUrlShop("https://hotline.ua");
+        settings.setNameShop("hotline.ua");
+        settings.setLinkShop("https://hotline.ua");
         settings.setSelectCategoryTag("#__layout > div > div.default-layout__content-container > main > section.index-page-section.categories-section > div > a");
         settings.setSelectCategoryNameTag("a");
         settings.setSelectCategoryAttrHref("href");
-        settings.setUrlPrefix("https://hotline.ua");
+        settings.setUrlCategoryPrefix("https://hotline.ua");
         settings.setSelectCategoryTagLevel2("#__layout > div > div.default-layout__content-container > div > div.row.flex-wrap > div > div > div > div > div.catalog-links > div > a");
         settings.setSelectCategoryNameTagLevel2("a");
         settings.setSelectCategoryAttrHrefLevel2("href");
@@ -156,7 +157,7 @@ public class RunCategory {
         settings.setSelectCategoryNameTagLevel5("a");
         settings.setSelectCategoryAttrHrefLevel5("href");
         settings.setReplaceCategoryUrl("https://hotline.ua//hotline.finance/");
-        settings.setReplacementCategoryUrl("https://hotline.finance/");
+        settings.setReplaceCategoryUrl("https://hotline.finance/");
 
         for (Categories el : parser.getCatalog(settings, 0L)) {
             System.out.println(el.getId() + " " + el.getName() + " " + el.getUrl() + " " + el.getParentId());
