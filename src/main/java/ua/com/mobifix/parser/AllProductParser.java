@@ -6,6 +6,14 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.springframework.data.domain.Example;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.repository.query.FluentQuery;
+import ua.com.mobifix.entity.Categories;
+import ua.com.mobifix.entity.CategoriesRepository;
+import ua.com.mobifix.entity.Product;
 import ua.com.mobifix.entity.Shop;
 
 import java.io.FileWriter;
@@ -13,11 +21,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
+import java.util.function.Function;
 
 public class AllProductParser extends CategoryParser {
-    List<AllScanProduct> productList = new ArrayList<>();
+    List<Product> productList = new ArrayList<>();
 
-    public void saveList(List<AllScanProduct> productList, Shop settings) {
+    public void saveList(List<Product> productList, Shop settings) {
         try (FileWriter writer = new FileWriter("..\\webParser\\src\\main\\resources\\data\\products\\" + settings
                 .getNameShop()
                 .replace("/", "-")
@@ -30,28 +40,24 @@ public class AllProductParser extends CategoryParser {
         }
     }
 
-    public boolean getProducts(Shop settings, int num) {
-        String url = settings.getScanProductsUrl();
+    public boolean getProducts(Shop settings, Long categoryId) {
+        int num = 1;
 
-        Map<String, String> cookies = parseStringToMap(settings.getCookies());
-        if (cookies == null) {
-            cookies.put("noName", "noValue");
-        }
 
         boolean bool = true;
         while (bool) {
             try {
-                System.out.println(url + settings.getPagination() + num + settings.getParameter());
-                String page = Jsoup.connect(url + settings.getPagination() + num + settings.getParameter())
+                System.out.println(settings.getScanProductsUrl() + settings.getPagination() + num + settings.getParameter());
+                String page = Jsoup.connect(settings.getScanProductsUrl() + settings.getPagination() + num + settings.getParameter())
                         .cookies(parseStringToMap(settings.getCookies()))
                         .get()
                         .select(settings.getSelectProductsListCartTag()).text();
 
-                String newPage = Jsoup.connect(url + settings.getPagination() + (num + 1) + settings.getParameter())
+                String newPage = Jsoup.connect(settings.getScanProductsUrl() + settings.getPagination() + (num + 1) + settings.getParameter())
                         .cookies(parseStringToMap(settings.getCookies()))
                         .get()
                         .select(settings.getSelectProductsListCartTag()).text();
-                Document scanPage = Jsoup.connect(url + settings.getPagination() + num + settings.getParameter())
+                Document scanPage = Jsoup.connect(settings.getScanProductsUrl() + settings.getPagination() + num + settings.getParameter())
                         .cookies(parseStringToMap(settings.getCookies()))
                         .get();
                 System.out.println("Сканируем страницу " + num);
@@ -59,7 +65,7 @@ public class AllProductParser extends CategoryParser {
                 Elements elements = scanPage.select(settings.getSelectProductsListCartTag());
                 System.out.println(elements.size());
                 for (Element element : elements) {
-                    AllScanProduct asp = new AllScanProduct();
+                    Product product =new Product();
                     String name = element.select(settings.getSelectProductsNameTag()).text();
                     String article = element.select(settings.getSelectProductsArticleTag()).text();
                     for (Map.Entry<String, String> art : parseStringToMap(settings.getReplaceProductsArticle()).entrySet()) {
@@ -91,15 +97,17 @@ public class AllProductParser extends CategoryParser {
                             price = prCont.getValue();
                         }
                     }
-
                         String imageLink = settings.getUrlProductsImageLinkPrefix() + element.select(settings.getSelectProductImageLinkTag()).attr(settings.getSelectProductsAttrSrc());
-                        asp.setArticle(article);
-                        asp.setName(name);
-                        asp.setLink(productUrl);
-                        asp.setImageLink(imageLink);
-                        asp.setStock(stock);
-                        asp.setPrice(price);
-                        productList.add(asp);
+
+                        product.setArticle(Integer.parseInt(article));
+                        product.setName(name);
+                        product.setLink(productUrl);
+                        product.setImageLink(imageLink);
+                        product.setStock(stock);
+                        product.setPrice(Double.parseDouble(price));
+                        product.setCategories(categoryId);
+                        product.setShopId(settings.getIdShop());
+                        productList.add(product);
 
                         System.out.println(article);
                         System.out.println(name);
@@ -108,9 +116,6 @@ public class AllProductParser extends CategoryParser {
                         System.out.println(stock);
                         System.out.println(price);
                         System.out.println("\n");
-//                    } else {
-//                        return false;
-//                    }
                     }
 
                     //конец вставки
@@ -138,7 +143,7 @@ public class AllProductParser extends CategoryParser {
                     }
                 }
             }
-            saveList(productList, settings);
+//            saveList(productList, settings);
             System.out.println("Конец сканирования!");
             return bool;
         }

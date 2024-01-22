@@ -20,30 +20,9 @@ import java.util.Map;
 
 public class test {
     public static void main(String[] args) {
-        boolean bool = true;
-        while(bool) {
-            try {
-                Document page = Jsoup.connect("https://vseplus.com/product/radiodetali-mikroshemy").get();
-//                System.out.println(page);
-                Elements elements = page.select("section.sidebar__item.sidebar__item_root-preview > ul > li > div > ul > li");
-                System.out.println(elements.size());
-                for (Element element : elements) {
-                    String name = element.select("a").text();
-                    String link = element.select("a").attr("href");
-                    System.out.println(name + " " + link);
-                }
-                bool = false;
-            } catch (IOException e) {
-                System.out.println("err");
-                bool = true;
-                try {
-                    Thread.sleep(1000);
-                } catch (InterruptedException ex) {
-                    throw new RuntimeException(ex);
-                }
-            }
+        for (int i = 0; i < 1000000; i++){
+            System.out.println(i);
         }
-
     }
 }
 

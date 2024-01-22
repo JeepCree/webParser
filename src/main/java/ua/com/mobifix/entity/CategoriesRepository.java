@@ -19,6 +19,7 @@ public interface CategoriesRepository extends JpaRepository<Categories, Integer>
 
     Optional<Categories> findByUrl(String url);
 
+
     default Categories updateOrSaveByUrl(Categories newCategory) {
 
         Optional<Categories> existingCategoryOptional = findByUrl(newCategory.getUrl());
