@@ -1,0 +1,25 @@
+{
+  "article": "span.component_product_list_product-info_item.info-id \u003e span",
+  "name": "div.component_product_list_info_right \u003e a",
+  "price": "div.-current.-red",
+  "stock": "div.component_product_list_in-stock.type-2 \u003e div \u003e ul",
+  "link": "div.component_product_list_info_right \u003e a",
+  "href": "href",
+  "src": "lazy-src",
+  "imageLink": "div.component_product_list_image-container \u003e a \u003e picture \u003e img",
+  "productCart": "div.row.d-flex.product-cards-wrapper \u003e div \u003e div \u003e div",
+  "productListCart": "div.row.d-flex.product-cards-wrapper",
+  "pagination": "?page\u003d",
+  "parameter": "\u0026ipp\u003d192",
+  "scanUrl": "https://all-spares.ua/ru/search/?searchword\u003d882809",
+  "linkPrefix": "https://all-spares.ua",
+  "replaceArticle": [],
+  "replaceStock": [],
+  "replacePrice": [],
+  "containArticle": [],
+  "containStock": [],
+  "containPrice": [],
+  "cookies": {
+    "auth": "F98JfjM3DF%2BVMLtW7J6XJQ4cog1s%2Fypdp9%2BRQtnVRaW%2FyMBqVGY%2BJtpMqLyKaFaeQwYHrzwkLHE1LbCMryFs7w"
+  }
+}
