@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import ua.com.mobifix.entity.Product;
 import ua.com.mobifix.entity.ProductRepository;
 import ua.com.mobifix.service.CsvParser;
+import ua.com.mobifix.service.ProductService;
 
 import java.io.IOException;
 import java.sql.Timestamp;
@@ -56,6 +57,7 @@ public class ProductController {
             throw new RuntimeException(e);
         }
     }
+
     @PostMapping("/save-sheet")
     @ResponseBody
     public boolean getAllCatalog(@RequestBody String requestBody, Model model) {
@@ -89,6 +91,7 @@ public class ProductController {
             return false;
         }
     }
+
     @PostMapping({"/add-new-product"})
     @ResponseBody
     public boolean saveNewProduct(String catId, String name, String stock, String price, String link, Model model) {
@@ -106,6 +109,12 @@ public class ProductController {
         product.setLink(link);
         this.productRepository.save(product);
         return true;
+    }
+
+    @PostMapping("/save-scan-products")
+    @ResponseBody
+    public void saveScanProducts(Long categoryId){
+
     }
 
     @PostMapping("/full-edit-product")
