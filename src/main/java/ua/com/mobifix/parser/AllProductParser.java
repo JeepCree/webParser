@@ -40,14 +40,15 @@ public class AllProductParser extends CategoryParser {
         }
     }
 
-    public boolean getProducts(Shop settings, Long categoryId) {
+    public List<Product> getProducts(Shop settings, Long categoryId) {
         int num = 1;
+
 
 
         boolean bool = true;
         while (bool) {
             try {
-                System.out.println(settings.getScanProductsUrl() + settings.getPagination() + num + settings.getParameter());
+//                System.out.println(settings.getScanProductsUrl() + settings.getPagination() + num + settings.getParameter());
                 String page = Jsoup.connect(settings.getScanProductsUrl() + settings.getPagination() + num + settings.getParameter())
                         .cookies(parseStringToMap(settings.getCookies()))
                         .get()
@@ -62,10 +63,11 @@ public class AllProductParser extends CategoryParser {
                         .get();
                 System.out.println("Сканируем страницу " + num);
                 //вставка
+
                 Elements elements = scanPage.select(settings.getSelectProductsListCartTag());
                 System.out.println(elements.size());
                 for (Element element : elements) {
-                    Product product =new Product();
+                    Product product = new Product();
                     String name = element.select(settings.getSelectProductsNameTag()).text();
                     String article = element.select(settings.getSelectProductsArticleTag()).text();
                     for (Map.Entry<String, String> art : parseStringToMap(settings.getReplaceProductsArticle()).entrySet()) {
@@ -97,9 +99,9 @@ public class AllProductParser extends CategoryParser {
                             price = prCont.getValue();
                         }
                     }
-                        String imageLink = settings.getUrlProductsImageLinkPrefix() + element.select(settings.getSelectProductImageLinkTag()).attr(settings.getSelectProductsAttrSrc());
+                        String imageLink = settings.getUrlProductsImageLinkPrefix() + element.select(settings.getSelectProductsImageLinkTag()).attr(settings.getSelectProductsAttrSrc());
 
-                        product.setArticle(Integer.parseInt(article));
+                        product.setArticle(article);
                         product.setName(name);
                         product.setLink(productUrl);
                         product.setImageLink(imageLink);
@@ -145,6 +147,6 @@ public class AllProductParser extends CategoryParser {
             }
 //            saveList(productList, settings);
             System.out.println("Конец сканирования!");
-            return bool;
+            return productList;
         }
     }

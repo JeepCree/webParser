@@ -9,7 +9,7 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private Integer article;
+    private String article;
     @Column(nullable = false)
     private Long categories;
     @Column(nullable = false)
@@ -51,11 +51,11 @@ public class Product {
         this.id = id;
     }
 
-    public Integer getArticle() {
+    public String getArticle() {
         return article;
     }
 
-    public void setArticle(Integer article) {
+    public void setArticle(String article) {
         this.article = article;
     }
 

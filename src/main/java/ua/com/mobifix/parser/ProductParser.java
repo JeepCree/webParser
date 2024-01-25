@@ -64,7 +64,7 @@ public class ProductParser {
                     String imageLink = settings.getImagePrefix() + page.select(settings.getImageLink()).attr(settings.getSrc());
 
                     Product product = new Product();
-                    product.setArticle(Integer.parseInt(article));
+                    product.setArticle(article);
                     product.setName(name);
                     product.setStock(stock);
                     product.setPrice(Double.parseDouble(price));

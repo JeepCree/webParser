@@ -1,9 +1,6 @@
 package ua.com.mobifix.entity;
 
 import jakarta.persistence.*;
-import ua.com.mobifix.parser.ReplaceString;
-
-import java.util.ArrayList;
 
 @Entity
 public class Shop {
@@ -90,7 +87,7 @@ public class Shop {
     private String scanProductUrl;
     private String urlProductLinkPrefix = "";
     private String urlProductImagePrefix = "";
-    private String selectProductAarticleTag = "";
+    private String selectProductArticleTag = "";
     private String selectProductNameTag = "";
     private String selectProductStockTag = "";
     private String selectProductPriceTag = "";
@@ -594,12 +591,12 @@ public class Shop {
         this.urlProductImagePrefix = urlProductImagePrefix;
     }
 
-    public String getSelectProductAarticleTag() {
-        return selectProductAarticleTag;
+    public String getSelectProductArticleTag() {
+        return selectProductArticleTag;
     }
 
-    public void setSelectProductAarticleTag(String selectProductAarticleTag) {
-        this.selectProductAarticleTag = selectProductAarticleTag;
+    public void setSelectProductArticleTag(String selectProductAarticleTag) {
+        this.selectProductArticleTag = selectProductAarticleTag;
     }
 
     public String getSelectProductNameTag() {

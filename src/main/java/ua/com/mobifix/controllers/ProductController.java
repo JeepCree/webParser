@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.opencsv.exceptions.CsvException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -16,19 +15,18 @@ import ua.com.mobifix.service.ProductService;
 
 import java.io.IOException;
 import java.sql.Timestamp;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Controller
 @RequestMapping(path="/")
 public class ProductController {
     private final ProductRepository productRepository;
+    private final ProductService productService;
     @Autowired
-    public ProductController(ProductRepository productRepository){
+    public ProductController(ProductRepository productRepository, ProductService productService){
         this.productRepository = productRepository;
+        this.productService = productService;
     }
 
     @GetMapping("/import-product")
@@ -38,7 +36,7 @@ public class ProductController {
 
             for (String[] row : csvData) {
                 Product product = new Product();
-                product.setArticle(Integer.parseInt(row[0]));
+                product.setArticle(row[0]);
                 product.setName(row[1]);
                 product.setPrice(Double.parseDouble(row[2]));
                 product.setStock(row[3]);
@@ -96,11 +94,11 @@ public class ProductController {
     @ResponseBody
     public boolean saveNewProduct(String catId, String name, String stock, String price, String link, Model model) {
         Product product = new Product();
-        System.out.println(productRepository.findTopByOrderByArticleDesc());
-        if (productRepository.findTopByOrderByArticleDesc() == null){
-            product.setArticle(1);
+        System.out.println(productRepository.findTopByOrderByIdDesc());
+        if (productRepository.findTopByOrderByIdDesc() == null){
+            product.setArticle("1");
         } else {
-            product.setArticle(this.productRepository.findTopByOrderByArticleDesc().getArticle() + 1);
+            product.setArticle(this.productRepository.findTopByOrderByIdDesc().getArticle() + 1);
         }
         product.setCategories(Long.parseLong(catId));
         product.setName(name);
@@ -111,16 +109,17 @@ public class ProductController {
         return true;
     }
 
-    @PostMapping("/save-scan-products")
+    @GetMapping("/save-scan-products")
     @ResponseBody
     public void saveScanProducts(Long categoryId){
+        productService.saveScanProducts(categoryId);
 
     }
 
     @PostMapping("/full-edit-product")
     @ResponseBody
-    public JsonNode fullEditProduct(@RequestBody Map<String, Integer> requestBody) {
-        Integer article = requestBody.get("article");
+    public JsonNode fullEditProduct(@RequestBody Map<String, String> requestBody) {
+        String article = requestBody.get("article");
 
         // Добавьте необходимую обработку ошибок, например, проверку на null или отсутствие статьи
 

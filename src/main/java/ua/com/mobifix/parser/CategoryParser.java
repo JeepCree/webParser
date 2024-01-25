@@ -30,6 +30,9 @@ public class CategoryParser {
         for (String stringPair : stringPairs) {
             String[] parts = stringPair.split("-->");
             if (parts.length == 2) {
+                if(parts[1].equals("empty_replacement")){
+                    parts[1] = "";
+                }
                 map.put(parts[0], parts[1]);
             }
         }
