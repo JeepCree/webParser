@@ -47,6 +47,7 @@ public class ProductService {
             product.setLink(obj.getLink());
             product.setImageLink(obj.getImageLink());
             product.setBreadcrumbs(obj.getBreadcrumbs());
+            product.setShopId(categoriesRepository.findById(idCat.intValue()).get().getShopId());
                 productRepository.save(product);
             }
         }
