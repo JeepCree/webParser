@@ -36,8 +36,18 @@ public class ProductService {
         AllProductParser allProductParser = new AllProductParser();
 
         List<Product> productList = allProductParser.getProducts(settings, idCat);
-        for(Product product : productList){
-                product.getArticle();
+        for(Product obj : productList){
+
+            Product product = new Product();
+            product.setArticle(obj.getArticle());
+            product.setName(obj.getName());
+            product.setStock(obj.getStock());
+            product.setPrice(obj.getPrice());
+            product.setCategories(obj.getCategories());
+            product.setLink(obj.getLink());
+            product.setImageLink(obj.getImageLink());
+            product.setBreadcrumbs(obj.getBreadcrumbs());
+                productRepository.save(product);
             }
         }
 
