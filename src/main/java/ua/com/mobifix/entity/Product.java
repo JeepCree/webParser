@@ -19,7 +19,6 @@ public class Product {
     private Double price;
     @Column(unique = true, nullable = false)
     private String link;
-    @Column(unique = true)
     private String imageLink;
 //    @Column(nullable = false)
     private Long shopId;

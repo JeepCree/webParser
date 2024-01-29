@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import ua.com.mobifix.entity.*;
 import ua.com.mobifix.parser.AllProductParser;
 
+import java.sql.Timestamp;
 import java.util.List;
 import java.util.Optional;
 
@@ -29,13 +30,15 @@ public class ProductService {
         // Если товар найден, выполнить обновление
         if (existingProductOptional.isPresent()) {
             Product existingProduct = existingProductOptional.get();
-
             // Обновить поля товара
+            existingProduct.setCategories(product.getCategories());
             existingProduct.setArticle(product.getArticle());
             existingProduct.setName(product.getName());
             existingProduct.setPrice(product.getPrice());
             existingProduct.setStock(product.getStock());
             existingProduct.setImageLink(product.getImageLink());
+            existingProduct.setBreadcrumbs(product.getBreadcrumbs());
+            existingProduct.setTimestampField(new Timestamp(System.currentTimeMillis()));
             // Другие поля, которые нужно обновить
 
             // Сохранить обновленный товар
