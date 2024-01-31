@@ -112,8 +112,7 @@ public class ProductController {
     @GetMapping("/save-scan-products")
     @ResponseBody
     public void saveScanProducts(Long categoryId){
-        productService.saveScanProducts(categoryId);
-
+            productService.saveScanProducts(categoryId);
     }
 
     @PostMapping("/full-edit-product")

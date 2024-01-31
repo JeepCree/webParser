@@ -12,12 +12,12 @@ public class Product {
     private String article;
     @Column(nullable = false)
     private Long categories;
-    @Column(nullable = false)
+    @Column(nullable = false, columnDefinition = "TEXT")
     private String name;
     private String breadcrumbs;
     private String stock;
     private Double price;
-    @Column(unique = true, nullable = false)
+    @Column(/*unique = true, */nullable = false, columnDefinition = "TEXT")
     private String link;
     private String imageLink;
 //    @Column(nullable = false)

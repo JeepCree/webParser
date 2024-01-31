@@ -106,6 +106,9 @@ public class AllProductParser extends CategoryParser {
                         product.setLink(productUrl);
                         product.setImageLink(imageLink);
                         product.setStock(stock);
+                        if (price.equals("")){
+                            price = "0";
+                        }
                         product.setPrice(Double.parseDouble(price));
                         product.setCategories(categoryId);
                         product.setShopId(settings.getIdShop());
@@ -134,6 +137,11 @@ public class AllProductParser extends CategoryParser {
                             bool = false; // Устанавливаем флаг в false, чтобы завершить цикл
                         } else {
                             System.out.println("Другая ошибка HTTP: " + statusCode);
+                            try {
+                                Thread.sleep(1000);
+                            } catch (InterruptedException ex) {
+                                System.out.println("ошибка Thread.sleep(1000);");
+                            }
                         }
                     } else {
                         System.out.println("Ошибка сканирования. Повторное сканирование страницы...");

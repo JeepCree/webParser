@@ -8,15 +8,19 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import ua.com.mobifix.entity.Categories;
+import ua.com.mobifix.entity.CategoriesRepository;
 import ua.com.mobifix.entity.Shop;
 import ua.com.mobifix.service.CategoryService;
 
+import javax.net.ssl.SSLException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.CancellationException;
 
 public class CategoryParser {
+
+
     public List<String> parseStringToList (String str){
         String[] stringPairs = str.split("<';'>");
         List<String> list = new ArrayList<>(Arrays.asList(stringPairs));
@@ -42,17 +46,8 @@ public class CategoryParser {
     public List<Categories> getCatalog(Shop settings, Long lastCategoryId){
         lastCategoryId++;
         List<Categories> categoryList = new ArrayList<>();
-        Map<String, String> cookies = new HashMap<>();
-        String[] cookiePairs = settings.getCookies().split("; ");
-        for (String cookiePair : cookiePairs) {
-            String[] parts = cookiePair.split("=");
-            if (parts.length == 2) {
-                cookies.put(parts[0], parts[1]);
-            }
-        }
-        if (cookies == null) {
-            cookies.put("noName", "noValue");
-        }
+        Map<String, String> cookies = parseStringToMap(settings.getCookies());
+
         System.out.println(cookies);
         try {
             Connection.Response response = Jsoup.connect(settings.getLinkShop()).method(Connection.Method.GET).execute();
@@ -264,27 +259,27 @@ public class CategoryParser {
                                                                 }
                                                             }
                                                         } catch (Exception e){
-                                                            e.printStackTrace();
+                                                            e.getMessage();
                                                         }
                                                     }
                                                 }
                                             } catch (Exception e) {
-                                                e.printStackTrace();
+                                                e.getMessage();
                                             }
                                         }
                                     }
                                 } catch (Exception e) {
-                                    e.printStackTrace();
+                                    e.getMessage();
                                 }
                             }
                         }
                     } catch (Exception e) {
-                        e.printStackTrace();
+                        e.getMessage();
                     }
                 }
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            e.getMessage();
         }
 //        System.out.println("\nКонец отработки модуля -> return categoryList\n");
         try (FileWriter writer = new FileWriter("..\\webParser\\src\\main\\resources\\data\\categories\\" + settings.getNameShop() + "_categories.json")) {

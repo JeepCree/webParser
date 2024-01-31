@@ -1,3422 +1,3539 @@
 [
   {
-    "id": 31025,
+    "id": 1190,
     "active": false,
     "name": "Телефоны, планшеты и аксессуары",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/telefony-aksessuary/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31026,
+    "id": 1191,
     "active": false,
     "name": "Мобильные телефоны, смартфоны",
-    "parentId": 31025,
+    "parentId": 1190,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/mobilnye-telefony/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31027,
+    "id": 1192,
     "active": false,
     "name": "Аксессуары к мобильным телефонам",
-    "parentId": 31025,
+    "parentId": 1190,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessuaru-k-mobilnum-telefonam/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31028,
+    "id": 1193,
     "active": false,
     "name": "Защитные стекла для мобильного телефона (смартфона)",
-    "parentId": 31027,
+    "parentId": 1192,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zashitnue-stekla-dla-mobilnogo-telefona/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31029,
+    "id": 1194,
     "active": false,
     "name": "Защитные пленки для мобильных телефонов",
-    "parentId": 31027,
+    "parentId": 1192,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zashitnye-plenki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31030,
+    "id": 1195,
     "active": false,
     "name": "Карты памяти",
-    "parentId": 31025,
+    "parentId": 1190,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/karta-pamyati/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31031,
+    "id": 1196,
     "active": false,
     "name": "Красивые номера",
-    "parentId": 31025,
+    "parentId": 1190,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/phone-number/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31032,
+    "id": 1197,
     "active": false,
     "name": "Зарядные устройства",
-    "parentId": 31025,
+    "parentId": 1190,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zaryadnye-ustroistva/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31033,
+    "id": 1198,
     "active": false,
     "name": "USB кабели",
-    "parentId": 31025,
+    "parentId": 1190,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/usb/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31034,
+    "id": 1199,
     "active": false,
     "name": "Переходники",
-    "parentId": 31025,
+    "parentId": 1190,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/perehodniki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31035,
+    "id": 1200,
     "active": false,
     "name": "Крепления для мобильных телефонов",
-    "parentId": 31025,
+    "parentId": 1190,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/krepleniya-dlya-mobilnyh-telefonov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31036,
+    "id": 1201,
     "active": false,
     "name": "Автомобильные держатели для телефонов и планшетов",
-    "parentId": 31035,
+    "parentId": 1200,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/avtoderzhatel/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31037,
+    "id": 1202,
     "active": false,
     "name": "Фиксаторы для кабеля",
-    "parentId": 31035,
+    "parentId": 1200,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/fiksatory-dlya-kabelya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31038,
+    "id": 1203,
     "active": false,
     "name": "Bluetooth-гарнитуры",
-    "parentId": 31025,
+    "parentId": 1190,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/bluetooth-garnityru/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31039,
+    "id": 1204,
     "active": false,
     "name": "Часы, браслеты",
-    "parentId": 31025,
+    "parentId": 1190,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/chasy-braslety/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31040,
+    "id": 1205,
     "active": false,
     "name": "Смарт-часы",
-    "parentId": 31039,
+    "parentId": 1204,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/umnye-chasy-smartwatch/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31041,
+    "id": 1206,
     "active": false,
     "name": "Фитнес-браслеты",
-    "parentId": 31039,
+    "parentId": 1204,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/fitnes-braslety/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31042,
+    "id": 1207,
     "active": false,
     "name": "Аксессуары для смарт-часов и фитнес-браслетов",
-    "parentId": 31025,
+    "parentId": 1190,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessuary-dlya-sportivnyh-brasletov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31043,
+    "id": 1208,
     "active": false,
     "name": "Аксессуары для селфи",
-    "parentId": 31025,
+    "parentId": 1190,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessuary-dlya-selfi/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31044,
+    "id": 1209,
     "active": false,
     "name": "Моноподы, триподы, штативы",
-    "parentId": 31043,
+    "parentId": 1208,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/monopody/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31045,
+    "id": 1210,
     "active": false,
     "name": "Брелки для селфи",
-    "parentId": 31043,
+    "parentId": 1208,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/breloki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31046,
+    "id": 1211,
     "active": false,
     "name": "Наборы блогеров",
-    "parentId": 31043,
+    "parentId": 1208,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/nabory-blogerov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31047,
+    "id": 1212,
     "active": false,
     "name": "Планшеты",
-    "parentId": 31025,
+    "parentId": 1190,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/planshetnye-pk/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31048,
+    "id": 1213,
     "active": false,
     "name": "Аксессуары для планшета",
-    "parentId": 31025,
+    "parentId": 1190,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessyaru-dlya-plansheta/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31049,
+    "id": 1214,
     "active": false,
     "name": "Чехлы для планшетов",
-    "parentId": 31048,
+    "parentId": 1213,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/chehly-dlya-planshetnyh-pk/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31050,
+    "id": 1215,
     "active": false,
     "name": "Защитные стекла для планшетов",
-    "parentId": 31048,
+    "parentId": 1213,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zashitnoe-steklo-dlaya-planshetov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31051,
+    "id": 1216,
     "active": false,
     "name": "Защитные пленки для планшетов",
-    "parentId": 31048,
+    "parentId": 1213,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zashitnye-plenki-dlya-planshetnyh-pk/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31052,
+    "id": 1217,
     "active": false,
     "name": "Стилусы",
-    "parentId": 31048,
+    "parentId": 1213,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/stilusy/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31053,
+    "id": 1218,
     "active": false,
     "name": "Электронные книги",
-    "parentId": 31025,
+    "parentId": 1190,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/elektronnye-knigi/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31054,
+    "id": 1219,
     "active": false,
     "name": "Электронные книги",
-    "parentId": 31053,
+    "parentId": 1218,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/elektronnaya-kniga/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31055,
+    "id": 1220,
     "active": false,
     "name": "Аккумуляторы, элементы питания",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyatory-lementy-pitaniya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31056,
+    "id": 1221,
     "active": false,
     "name": "Аккумуляторы для телефона",
-    "parentId": 31055,
+    "parentId": 1220,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyator-dlya-mobilnogo-telefona/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31057,
+    "id": 1222,
     "active": false,
     "name": "Аккумуляторы для планшетов",
-    "parentId": 31055,
+    "parentId": 1220,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyatory-dlya-planshetov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31058,
+    "id": 1223,
     "active": false,
     "name": "Аккумуляторы, зарядные устройства для электроинструментов (шуруповерты, дрели)",
-    "parentId": 31055,
+    "parentId": 1220,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyatory-dlya-ruchnyh-instrumentov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31059,
+    "id": 1224,
     "active": false,
     "name": "Аккумуляторы для ноутбуков",
-    "parentId": 31055,
+    "parentId": 1220,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyator-dlya-noutbuka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31060,
+    "id": 1225,
     "active": false,
     "name": "Повербанки (power bank)",
-    "parentId": 31055,
+    "parentId": 1220,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/dopakkym/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31061,
+    "id": 1226,
     "active": false,
     "name": "Зарядные станции",
-    "parentId": 31055,
+    "parentId": 1220,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zaryadnye-stancii/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31062,
+    "id": 1227,
     "active": false,
     "name": "Аккумуляторы для радиоуправляемых моделей",
-    "parentId": 31055,
+    "parentId": 1220,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyatory-dlya-radioupravlyaemyh-modelei/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31063,
+    "id": 1228,
     "active": false,
     "name": "Батарейки, аккумуляторы и аксессуары",
-    "parentId": 31055,
+    "parentId": 1220,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyatory-batareiki-aksessuary/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31064,
+    "id": 1229,
     "active": false,
     "name": "Аккумуляторы",
-    "parentId": 31063,
+    "parentId": 1228,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyatory-i-batareiki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31065,
+    "id": 1230,
     "active": false,
     "name": "Батарейки",
-    "parentId": 31063,
+    "parentId": 1228,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/batareiki-lithium/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31066,
+    "id": 1231,
     "active": false,
     "name": "Батарейки промышленные",
-    "parentId": 31063,
+    "parentId": 1228,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/batareiki-promyshlennye/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31067,
+    "id": 1232,
     "active": false,
     "name": "Зарядные устройства для аккумуляторов",
-    "parentId": 31063,
+    "parentId": 1228,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zaryadnye-ustroistva-dlya-akkumulyatorov-aa-aaa-c-d/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31068,
+    "id": 1233,
     "active": false,
     "name": "Корпуса (отсеки) для элементов питания",
-    "parentId": 31063,
+    "parentId": 1228,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/korpusa-otseki-dlya-lementov-pitaniya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31069,
+    "id": 1234,
     "active": false,
     "name": "Электропитание",
-    "parentId": 31055,
+    "parentId": 1220,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/ustroistva-pitaniya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31070,
+    "id": 1235,
     "active": false,
     "name": "Аккумуляторные батареи",
-    "parentId": 31069,
+    "parentId": 1234,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyator-dlya-lektromashin-i-motociklov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31071,
+    "id": 1236,
     "active": false,
     "name": "Сетевые фильтры (удлинители)",
-    "parentId": 31069,
+    "parentId": 1234,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/setevye-filtry/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31072,
+    "id": 1237,
     "active": false,
     "name": "Универсальные блоки питания",
-    "parentId": 31069,
+    "parentId": 1234,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/universalnye-impulsnye-bp/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31073,
+    "id": 1238,
     "active": false,
     "name": "Сетевые кабели и переходники",
-    "parentId": 31069,
+    "parentId": 1234,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/setevye-adaptery/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31074,
+    "id": 1239,
     "active": false,
     "name": "Преобразователи напряжения",
-    "parentId": 31069,
+    "parentId": 1234,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/preobrazovatel-12-220/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31075,
+    "id": 1240,
     "active": false,
     "name": "Источник бесперебойного питания (ИБП)",
-    "parentId": 31069,
+    "parentId": 1234,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/istochnik-bespereboinogo-pitaniya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31076,
+    "id": 1241,
     "active": false,
     "name": "Блоки питания для электротранспорта",
-    "parentId": 31069,
+    "parentId": 1234,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/bloki-pitaniya-dlya-lektrotransporta/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31077,
+    "id": 1242,
     "active": false,
     "name": "Элементы питания для фото и видеокамер",
-    "parentId": 31055,
+    "parentId": 1220,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/elementy-pitaniya-dlya-foto-i-videokamer/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31078,
+    "id": 1243,
     "active": false,
     "name": "Аккумуляторы для фотоаппаратов и видеокамер",
-    "parentId": 31077,
+    "parentId": 1242,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkymylatoru-dla-fotoapparatov-i-videokamer/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31079,
+    "id": 1244,
     "active": false,
     "name": "Батарейные блоки для фото и видеокамер",
-    "parentId": 31077,
+    "parentId": 1242,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/batareinye-bloki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31080,
+    "id": 1245,
     "active": false,
     "name": "Зарядные устройства для фото и видео",
-    "parentId": 31077,
+    "parentId": 1242,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zaryadnoe-ustroistvo-k-foto-i-video/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31081,
+    "id": 1246,
     "active": false,
     "name": "Аккумуляторы для электроники",
-    "parentId": 31055,
+    "parentId": 1220,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyatory-dlya-lektroniki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31082,
+    "id": 1247,
     "active": false,
     "name": "Аккумуляторы для Bluetooth гарнитур",
-    "parentId": 31081,
+    "parentId": 1246,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyatori-dlya-bluetooth-garnitur/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31083,
+    "id": 1248,
     "active": false,
     "name": "Аккумуляторы для экшн-камер",
-    "parentId": 31081,
+    "parentId": 1246,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyatory-dlya-kshn-kamer/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31084,
+    "id": 1249,
     "active": false,
     "name": "Аккумуляторы к умным часам",
-    "parentId": 31081,
+    "parentId": 1246,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyatory-k-umnym-chasam/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31085,
+    "id": 1250,
     "active": false,
     "name": "Аккумуляторы для радиотелефонов",
-    "parentId": 31081,
+    "parentId": 1246,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyator-dlya-radiotelefonov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31086,
+    "id": 1251,
     "active": false,
     "name": "Аккумуляторы для пылесоса",
-    "parentId": 31081,
+    "parentId": 1246,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyatory-dlya-pylesosa/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31087,
+    "id": 1252,
     "active": false,
     "name": "Чехлы для телефонов",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/chehly-dlya-mobilnyh-telefonov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31088,
+    "id": 1253,
     "active": false,
     "name": "Запчасти для телефонов и электроники",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zapchasti-k-mobilnym-ustroistvam/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31089,
+    "id": 1254,
     "active": false,
     "name": "Дисплеи и сенсора к мобильным устройствам",
-    "parentId": 31088,
+    "parentId": 1253,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/komplektuyushie-k-mobilnym-ustroistvam/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31090,
+    "id": 1255,
     "active": false,
     "name": "Дисплеи (экраны) для телефона",
-    "parentId": 31089,
+    "parentId": 1254,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/displei-ekrany/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31091,
+    "id": 1256,
     "active": false,
     "name": "Сенсорные экраны (тачскрины) для телефона",
-    "parentId": 31089,
+    "parentId": 1254,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/sensornaya-panel/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31092,
+    "id": 1257,
     "active": false,
     "name": "Стекла дисплея для телефона",
-    "parentId": 31089,
+    "parentId": 1254,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/steklo/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31093,
+    "id": 1258,
     "active": false,
     "name": "Шлейфы, динамики, разъемы и другие запчасти для мобильного телефона",
-    "parentId": 31088,
+    "parentId": 1253,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/shleyfi-dinamiki-k-mobilnym-telefonam/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31094,
+    "id": 1259,
     "active": false,
     "name": "Шлейфы для телефонов",
-    "parentId": 31093,
+    "parentId": 1258,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/shleif/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31095,
+    "id": 1260,
     "active": false,
     "name": "Нижние платы для телефона",
-    "parentId": 31093,
+    "parentId": 1258,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/shleif/tip-zapchasti/nizhnyaya-plata",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31096,
+    "id": 1261,
     "active": false,
     "name": "Динамики для мобильных телефонов",
-    "parentId": 31093,
+    "parentId": 1258,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/dinamiki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31097,
+    "id": 1262,
     "active": false,
     "name": "Камеры для мобильных телефонов",
-    "parentId": 31093,
+    "parentId": 1258,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kamery/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31098,
+    "id": 1263,
     "active": false,
     "name": "Гнездо зарядки",
-    "parentId": 31093,
+    "parentId": 1258,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/razyomy/tip-zapchasti/razem-zaryadki",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31099,
+    "id": 1264,
     "active": false,
     "name": "Коннекторы SIM-карты",
-    "parentId": 31093,
+    "parentId": 1258,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/razyomy/tip-zapchasti/razem-sim-karty",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31100,
+    "id": 1265,
     "active": false,
     "name": "Разъемы USB Type-C",
-    "parentId": 31093,
+    "parentId": 1258,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/razyomy/tip-zapchasti/razem-usb-type-c",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31101,
+    "id": 1266,
     "active": false,
     "name": "Разъёмы для мобильных телефонов",
-    "parentId": 31093,
+    "parentId": 1258,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/razyomy/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31102,
+    "id": 1267,
     "active": false,
     "name": "Вибромоторы для мобильного телефона",
-    "parentId": 31093,
+    "parentId": 1258,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/vibromotory/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31103,
+    "id": 1268,
     "active": false,
     "name": "Микрофоны для мобильных телефонов",
-    "parentId": 31093,
+    "parentId": 1258,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/mikrofony-microphones/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31104,
+    "id": 1269,
     "active": false,
     "name": "Клавиатурные модули для телефонов",
-    "parentId": 31093,
+    "parentId": 1258,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/klaviaturnye-membrany/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31105,
+    "id": 1270,
     "active": false,
     "name": "Антенны для телефонов",
-    "parentId": 31093,
+    "parentId": 1258,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/antennye-moduli/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31106,
+    "id": 1271,
     "active": false,
     "name": "Микросхемы и контроллеры для телефонов",
-    "parentId": 31093,
+    "parentId": 1258,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/mikroshemy-i-kontrollery-dlya-telefonov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31107,
+    "id": 1272,
     "active": false,
     "name": "Аккумуляторы для телефонов",
-    "parentId": 31093,
+    "parentId": 1258,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyator-dlya-mobilnogo-telefona/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31108,
+    "id": 1273,
     "active": false,
     "name": "Корпуса и корпусные части для мобильного телефона",
-    "parentId": 31088,
+    "parentId": 1253,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/komplektuyushie-k-mobilnym-telefonam/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31109,
+    "id": 1274,
     "active": false,
     "name": "Корпуса для телефона",
-    "parentId": 31108,
+    "parentId": 1273,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/korpus-na-mobilnuy-telefon/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31110,
+    "id": 1275,
     "active": false,
     "name": "Задние крышки для телефона",
-    "parentId": 31108,
+    "parentId": 1273,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zadnie-kryshki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31111,
+    "id": 1276,
     "active": false,
     "name": "Держатели SIM-карт для телефона",
-    "parentId": 31108,
+    "parentId": 1273,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/derzhateli-kart-pamyati-i-sim/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31112,
+    "id": 1277,
     "active": false,
     "name": "Стекла камеры",
-    "parentId": 31108,
+    "parentId": 1273,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/stekla-kamery/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31113,
+    "id": 1278,
     "active": false,
     "name": "Дисплейные (корпусные) рамки",
-    "parentId": 31108,
+    "parentId": 1273,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/licevaya-panel/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31114,
+    "id": 1279,
     "active": false,
     "name": "Мелкие корпусные части для телефона",
-    "parentId": 31108,
+    "parentId": 1273,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/melkie-korpusnye-chasti/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31115,
+    "id": 1280,
     "active": false,
     "name": "Внешние кнопки и клавиатуры для телефона",
-    "parentId": 31108,
+    "parentId": 1273,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kolpachki-na-knopku-vkl-vykl/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31116,
+    "id": 1281,
     "active": false,
     "name": "Винты для мобильных телефонов",
-    "parentId": 31108,
+    "parentId": 1273,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/shurupy/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31117,
+    "id": 1282,
     "active": false,
     "name": "Стикеры для телефонов (двухсторонний скотч)",
-    "parentId": 31108,
+    "parentId": 1273,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/stikery-dlya-telefonov-dvuhstoronnii-skotch/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31118,
+    "id": 1283,
     "active": false,
     "name": "Комплектующие для планшетов",
-    "parentId": 31088,
+    "parentId": 1253,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/komplektuyushie-dlya-planshetnyh-pk/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31119,
+    "id": 1284,
     "active": false,
     "name": "Дисплеи (экраны) для планшетов",
-    "parentId": 31118,
+    "parentId": 1283,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/displei-ekran/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31120,
+    "id": 1285,
     "active": false,
     "name": "Сенсорные панели (тачскрины) для планшетов",
-    "parentId": 31118,
+    "parentId": 1283,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/sensornaya-paneli/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31121,
+    "id": 1286,
     "active": false,
     "name": "Стекла дисплея для планшета",
-    "parentId": 31118,
+    "parentId": 1283,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/steklo-displeya-dlya-planshetov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31122,
+    "id": 1287,
     "active": false,
     "name": "Корпуса для планшетов",
-    "parentId": 31118,
+    "parentId": 1283,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/korpusa-planshetov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31123,
+    "id": 1288,
     "active": false,
     "name": "Держатели SIM-карт для планшетов",
-    "parentId": 31118,
+    "parentId": 1283,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/derzhateli-sim-kart-dlya-planshetov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31124,
+    "id": 1289,
     "active": false,
     "name": "Шлейфы для планшетов",
-    "parentId": 31118,
+    "parentId": 1283,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/shleify1/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31125,
+    "id": 1290,
     "active": false,
     "name": "Динамики для планшетов",
-    "parentId": 31118,
+    "parentId": 1283,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/dinamiki-dlya-planshetov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31126,
+    "id": 1291,
     "active": false,
     "name": "Мелкие запчасти для планшетов",
-    "parentId": 31118,
+    "parentId": 1283,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/melkie-komplektuyushie-dlya-planshetov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31127,
+    "id": 1292,
     "active": false,
     "name": "Аккумуляторы для планшетов",
-    "parentId": 31118,
+    "parentId": 1283,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyatory-dlya-planshetov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31128,
+    "id": 1293,
     "active": false,
     "name": "Камеры для планшетов",
-    "parentId": 31118,
+    "parentId": 1283,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kamery-dlya-planshetov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31129,
+    "id": 1294,
     "active": false,
     "name": "Комплектующие для умных часов",
-    "parentId": 31088,
+    "parentId": 1253,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/komplektuyushie-dlya-umnyh-chasov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31130,
+    "id": 1295,
     "active": false,
     "name": "Дисплеи (экраны) для умных часов",
-    "parentId": 31129,
+    "parentId": 1294,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/displei-dlya-umnyh-chasov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31131,
+    "id": 1296,
     "active": false,
     "name": "Сенсорные экраны (тачскрины) для умных часов",
-    "parentId": 31129,
+    "parentId": 1294,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/sensora-dlya-umnyh-chasov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31132,
+    "id": 1297,
     "active": false,
     "name": "Стекла дисплея для умных часов",
-    "parentId": 31129,
+    "parentId": 1294,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/stekla-displeya-dlya-umnyh-chasov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31133,
+    "id": 1298,
     "active": false,
     "name": "Шлейфы для умных часов",
-    "parentId": 31129,
+    "parentId": 1294,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/shleify-dlya-umnyh-chasov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31134,
+    "id": 1299,
     "active": false,
     "name": "Корпуса для умных часов",
-    "parentId": 31129,
+    "parentId": 1294,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/korpusa-dlya-umnyh-chasov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31135,
+    "id": 1300,
     "active": false,
     "name": "Аккумуляторы к умным часам",
-    "parentId": 31129,
+    "parentId": 1294,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyatory-k-umnym-chasam/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31136,
+    "id": 1301,
+    "active": false,
+    "name": "Вибромоторы для умных часов",
+    "parentId": 1294,
+    "rootCategory": false,
+    "url": "https://www.aks.ua/catalog/vibromotory-dlya-umnyh-chasov/",
+    "shopId": 1
+  },
+  {
+    "id": 1302,
     "active": false,
     "name": "Оборудование для ремонта",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/oborudovanie-dlya-remonta/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31137,
+    "id": 1303,
     "active": false,
     "name": "Паяльное оборудование",
-    "parentId": 31136,
+    "parentId": 1302,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/payalnoe-oborudovanie/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31138,
+    "id": 1304,
     "active": false,
     "name": "Паяльная станция",
-    "parentId": 31137,
+    "parentId": 1303,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/payalnaya-stanciya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31139,
+    "id": 1305,
     "active": false,
     "name": "Паяльники",
-    "parentId": 31137,
+    "parentId": 1303,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/payalnik-ruchnoi/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31140,
+    "id": 1306,
     "active": false,
     "name": "Дополнительное оборудование",
-    "parentId": 31137,
+    "parentId": 1303,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/vspomogatelnoe-oborudovanie/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31141,
+    "id": 1307,
     "active": false,
     "name": "Держатели плат (третья рука)",
-    "parentId": 31137,
+    "parentId": 1303,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/derzhateli-plat-tretya-ruka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31142,
+    "id": 1308,
     "active": false,
     "name": "Аксессуары, запчасти для паяльного оборудования",
-    "parentId": 31136,
+    "parentId": 1302,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessuary-zapchasti-dlya-payalnogo-oborudovaniya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31143,
+    "id": 1309,
     "active": false,
     "name": "Жала и насадки для термофенов",
-    "parentId": 31142,
+    "parentId": 1308,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zhala-dlya-payalnikov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31144,
+    "id": 1310,
     "active": false,
     "name": "Запчасти для паяльного оборудования",
-    "parentId": 31142,
+    "parentId": 1308,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zapchasti-dlya-payalnogo-oborudovaniya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31145,
+    "id": 1311,
     "active": false,
     "name": "Лабораторные блоки питания",
-    "parentId": 31136,
+    "parentId": 1302,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/bloki-pitaniya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31146,
+    "id": 1312,
     "active": false,
     "name": "Изоляционный материал",
-    "parentId": 31136,
+    "parentId": 1302,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/termousadochnaya-trubka-termousadka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31147,
+    "id": 1313,
     "active": false,
     "name": "Ремонт дисплеев и дисплейных модулей",
-    "parentId": 31136,
+    "parentId": 1302,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/oborudovanie-dlya-remonta-displeinyh-modulei/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31148,
+    "id": 1314,
     "active": false,
     "name": "Сепараторы, ламинаторы, станки",
-    "parentId": 31147,
+    "parentId": 1313,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/separatory/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31149,
+    "id": 1315,
     "active": false,
     "name": "Клей для телефона",
-    "parentId": 31147,
+    "parentId": 1313,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kley/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31150,
+    "id": 1316,
     "active": false,
     "name": "Скотч для ремонта телефонов",
-    "parentId": 31147,
+    "parentId": 1313,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/skotch/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31151,
+    "id": 1317,
     "active": false,
     "name": "Химия и очистители",
-    "parentId": 31147,
+    "parentId": 1313,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/ochistiteli-i-drugaya-himiya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31152,
+    "id": 1318,
     "active": false,
     "name": "OCA-пленки",
-    "parentId": 31147,
+    "parentId": 1313,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/oca-plenki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31153,
+    "id": 1319,
     "active": false,
     "name": "Поляризационные пленки",
-    "parentId": 31147,
+    "parentId": 1313,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/polyarizacionnye-plenki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31154,
+    "id": 1320,
     "active": false,
     "name": "Оптика",
-    "parentId": 31136,
+    "parentId": 1302,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/optisa/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31155,
+    "id": 1321,
     "active": false,
     "name": "Увеличительные стекла",
-    "parentId": 31154,
+    "parentId": 1320,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/lupy-i-uvelichitelnye-stekla/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31156,
+    "id": 1322,
     "active": false,
     "name": "Микроскопы",
-    "parentId": 31154,
+    "parentId": 1320,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/mikroskopy/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31157,
+    "id": 1323,
     "active": false,
     "name": "Аксессуары к оптике и микроскопам",
-    "parentId": 31154,
+    "parentId": 1320,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessuary-k-optike-i-mikroskopam/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31158,
+    "id": 1324,
     "active": false,
     "name": "Расходные материалы",
-    "parentId": 31136,
+    "parentId": 1302,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/rashodnye/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31159,
+    "id": 1325,
     "active": false,
     "name": "Расходные материалы для пайки",
-    "parentId": 31158,
+    "parentId": 1324,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/rashodnye-materialy-dlya-paiki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31160,
+    "id": 1326,
     "active": false,
     "name": "Припой",
-    "parentId": 31158,
+    "parentId": 1324,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/rashodnye-materialy-dlya-paiki/tip-rashodnika/pripoi",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31161,
+    "id": 1327,
     "active": false,
     "name": "Флюс",
-    "parentId": 31158,
+    "parentId": 1324,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/rashodnye-materialy-dlya-paiki/tip-rashodnika/flyus",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31162,
+    "id": 1328,
     "active": false,
     "name": "BGA",
-    "parentId": 31158,
+    "parentId": 1324,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/rashodnye-materialy-dlya-paiki/tip-rashodnika/bga-pasty",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31163,
+    "id": 1329,
     "active": false,
     "name": "Ленты-оплетки",
-    "parentId": 31158,
+    "parentId": 1324,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/rashodnye-materialy-dlya-paiki/tip-rashodnika/lenty-opletki",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31164,
+    "id": 1330,
     "active": false,
     "name": "Инструменты",
-    "parentId": 31136,
+    "parentId": 1302,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/instrumentu-dla-remonta-mobilnuh-telefonov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31165,
+    "id": 1331,
     "active": false,
     "name": "Мелкий ремонтный инструмент",
-    "parentId": 31164,
+    "parentId": 1330,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/skalpeli/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31166,
+    "id": 1332,
     "active": false,
     "name": "Отвертки",
-    "parentId": 31164,
+    "parentId": 1330,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/otvertki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31167,
+    "id": 1333,
     "active": false,
     "name": "Инструмент для ремонта телефонов",
-    "parentId": 31164,
+    "parentId": 1330,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/vspomogatelnyi-instrument/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31168,
+    "id": 1334,
     "active": false,
     "name": "Пинцеты",
-    "parentId": 31164,
+    "parentId": 1330,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/skalpeli/instrumenty-dlya-remonta/pincet",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31169,
+    "id": 1335,
     "active": false,
     "name": "Режущий инструмент",
-    "parentId": 31164,
+    "parentId": 1330,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/skalpeli/instrumenty-dlya-remonta/skalpeli-lezviya-nozhi",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31170,
+    "id": 1336,
     "active": false,
     "name": "Кусачки",
-    "parentId": 31164,
+    "parentId": 1330,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/skalpeli/instrumenty-dlya-remonta/mehanicheskii-instrument/tip-instrumenta/shipcy",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31171,
+    "id": 1337,
     "active": false,
     "name": "Контрольно-измерительные приборы",
-    "parentId": 31136,
+    "parentId": 1302,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/izmeritelnye-pribory/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31172,
+    "id": 1338,
     "active": false,
     "name": "Специализированный измерительный инструмент",
-    "parentId": 31171,
+    "parentId": 1337,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/specpribory/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31173,
+    "id": 1339,
     "active": false,
     "name": "Мультиметры",
-    "parentId": 31171,
+    "parentId": 1337,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/multimetry/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31174,
+    "id": 1340,
     "active": false,
     "name": "Аксессуары и запчасти к измерительным приборам",
-    "parentId": 31171,
+    "parentId": 1337,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessuary-k-izmiritelnym-priboram/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31175,
+    "id": 1341,
     "active": false,
     "name": "Кабельные тестеры",
-    "parentId": 31171,
+    "parentId": 1337,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/specpribory/tip-pribora/kabelnyi-tester",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31176,
+    "id": 1342,
     "active": false,
     "name": "Кабельные инструменты",
-    "parentId": 31136,
+    "parentId": 1302,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/setevoiinstrument/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31177,
+    "id": 1343,
     "active": false,
     "name": "Ультразвуковые ванны (мойки)",
-    "parentId": 31136,
+    "parentId": 1302,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/ultrazvukovaya-vynna/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31178,
+    "id": 1344,
     "active": false,
     "name": "Компьютерная техника",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kompyuternaya-teh-i-nositeli-informacii/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31179,
+    "id": 1345,
     "active": false,
     "name": "Ноутбуки",
-    "parentId": 31178,
+    "parentId": 1344,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/notebook/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31180,
+    "id": 1346,
     "active": false,
     "name": "Комплектующие к ноутбукам",
-    "parentId": 31178,
+    "parentId": 1344,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/komplektuyushie-k-noutbukam/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31181,
+    "id": 1347,
     "active": false,
     "name": "Блок питания для ноутбука",
-    "parentId": 31180,
+    "parentId": 1346,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zaryadnoye-ustroistvo-noutbuk/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31182,
+    "id": 1348,
     "active": false,
     "name": "Аккумуляторы для ноутбуков",
-    "parentId": 31180,
+    "parentId": 1346,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akkumulyator-dlya-noutbuka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31183,
+    "id": 1349,
     "active": false,
     "name": "Клавиатуры для ноутбука",
-    "parentId": 31180,
+    "parentId": 1346,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/klaviatury-dlya-noutbukov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31184,
+    "id": 1350,
     "active": false,
     "name": "Наклейки на клавиатуру",
-    "parentId": 31180,
+    "parentId": 1346,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/klaviatury-dlya-noutbukov/tip/nakleiki",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31185,
+    "id": 1351,
     "active": false,
     "name": "Матрицы для ноутбуков",
-    "parentId": 31180,
+    "parentId": 1346,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/matrici-dlya-noutbukov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31186,
+    "id": 1352,
     "active": false,
     "name": "Петли для ноутбука",
-    "parentId": 31180,
+    "parentId": 1346,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/petli-dlya-noutbuka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31187,
+    "id": 1353,
     "active": false,
     "name": "Шлейфы матрицы для ноутбуков",
-    "parentId": 31180,
+    "parentId": 1346,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/shleify-matricy-dlya-noutbukov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31188,
+    "id": 1354,
     "active": false,
     "name": "Вентиляторы для ноутбуков",
-    "parentId": 31180,
+    "parentId": 1346,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/ventilyatory-dla-noutbukov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31189,
+    "id": 1355,
     "active": false,
     "name": "Разъемы для ноутбуков",
-    "parentId": 31180,
+    "parentId": 1346,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/razemy-pitaniya-dlya-noutbukov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31190,
+    "id": 1356,
     "active": false,
     "name": "Оперативная память для ноутбуков",
-    "parentId": 31180,
+    "parentId": 1346,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/operativnaya-pamyat-dlya-noutbuka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31191,
+    "id": 1357,
     "active": false,
     "name": "Жесткий диск для ноутбука (HDD)",
-    "parentId": 31180,
+    "parentId": 1346,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zhestkii-disk-dlya-noutbuka-hdd-ssd/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31192,
+    "id": 1358,
     "active": false,
     "name": "SSD Диски",
-    "parentId": 31180,
+    "parentId": 1346,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/nakopiteli-ssd/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31193,
+    "id": 1359,
     "active": false,
     "name": "Аксессуары для ноутбуков",
-    "parentId": 31178,
+    "parentId": 1344,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessuary-dlya-noutbukov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31194,
+    "id": 1360,
     "active": false,
     "name": "Сумки и рюкзаки для ноутбуков",
-    "parentId": 31193,
+    "parentId": 1359,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/sumka-dlya-noutbuka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31195,
+    "id": 1361,
     "active": false,
     "name": "Компьютеры",
-    "parentId": 31178,
+    "parentId": 1344,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kompyutery/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31196,
+    "id": 1362,
     "active": false,
     "name": "Мониторы",
-    "parentId": 31178,
+    "parentId": 1344,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/monitory/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31197,
+    "id": 1363,
     "active": false,
     "name": "Комплектующие для компьютеров",
-    "parentId": 31178,
+    "parentId": 1344,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kompyuternye-komplektuyushie-arhiv/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31198,
+    "id": 1364,
     "active": false,
     "name": "Процессоры для компьютеров",
-    "parentId": 31197,
+    "parentId": 1363,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/processor-dlya-nastolnyh-pk/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31199,
+    "id": 1365,
     "active": false,
     "name": "Материнские платы для компьютеров",
-    "parentId": 31197,
+    "parentId": 1363,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/materinskie-platy/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31200,
+    "id": 1366,
     "active": false,
     "name": "Видеокарты для компьютеров",
-    "parentId": 31197,
+    "parentId": 1363,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/videokarta/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31201,
+    "id": 1367,
     "active": false,
     "name": "Жесткие диски для компьютеров (HDD)",
-    "parentId": 31197,
+    "parentId": 1363,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zhestkyi-disk/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31202,
+    "id": 1368,
     "active": false,
     "name": "Накопители SSD",
-    "parentId": 31197,
+    "parentId": 1363,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/nakopiteli-ssd/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31203,
+    "id": 1369,
     "active": false,
     "name": "Блоки питания для компьютеров",
-    "parentId": 31197,
+    "parentId": 1363,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/bloki-pitaniya-dlya-kompyuterov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31204,
+    "id": 1370,
     "active": false,
     "name": "Системы охлаждения компьютера",
-    "parentId": 31197,
+    "parentId": 1363,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/sistemy-ohlazhdeniya-kompyutera/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31205,
+    "id": 1371,
     "active": false,
     "name": "Оперативная память для компьютеров",
-    "parentId": 31197,
+    "parentId": 1363,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/operativnaya-pamyat/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31206,
+    "id": 1372,
     "active": false,
     "name": "Корпуса для ПК",
-    "parentId": 31197,
+    "parentId": 1363,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/korpusa-dlya-kompyuterov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31207,
+    "id": 1373,
     "active": false,
     "name": "Термопаста",
-    "parentId": 31178,
+    "parentId": 1344,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/termopasta/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31208,
+    "id": 1374,
     "active": false,
     "name": "Аксессуары для ПК",
-    "parentId": 31178,
+    "parentId": 1344,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessuary-dlya-pk/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31209,
+    "id": 1375,
     "active": false,
     "name": "Мышки",
-    "parentId": 31208,
+    "parentId": 1374,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/mysh/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31210,
+    "id": 1376,
     "active": false,
     "name": "Коврики",
-    "parentId": 31208,
+    "parentId": 1374,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kovrik/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31211,
+    "id": 1377,
     "active": false,
     "name": "Клавиатуры",
-    "parentId": 31208,
+    "parentId": 1374,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/klaviaturya-kompyuternaya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31212,
+    "id": 1378,
     "active": false,
     "name": "Комплекты (клавиатура+мышка)",
-    "parentId": 31208,
+    "parentId": 1374,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/komplekt-klaviatura-mysh/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31213,
+    "id": 1379,
     "active": false,
     "name": "Графические планшеты",
-    "parentId": 31208,
+    "parentId": 1374,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/graficheskiy-planshet/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31214,
+    "id": 1380,
     "active": false,
     "name": "Bluetooth адаптеры",
-    "parentId": 31208,
+    "parentId": 1374,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/bluetooth-adaptery-dlya-pk/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31215,
+    "id": 1381,
     "active": false,
     "name": "Игровые манипуляторы и аксессуары для консолей",
-    "parentId": 31208,
+    "parentId": 1374,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/igrovye-manipulyatory-i-aksessuary-dlya-konsolei/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31216,
+    "id": 1382,
     "active": false,
     "name": "Носители информации",
-    "parentId": 31178,
+    "parentId": 1344,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/nositeli-informacii/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31217,
+    "id": 1383,
     "active": false,
     "name": "Внешний жесткий диск",
-    "parentId": 31216,
+    "parentId": 1382,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zhestkii-disk-vneshnii/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31218,
+    "id": 1384,
     "active": false,
     "name": "Флешки",
-    "parentId": 31216,
+    "parentId": 1382,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/usb-flash-nakopiteli/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31219,
+    "id": 1385,
     "active": false,
     "name": "Кардридеры",
-    "parentId": 31216,
+    "parentId": 1382,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/usb-card-reader/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31220,
+    "id": 1386,
     "active": false,
     "name": "Карманы для HDD",
-    "parentId": 31216,
+    "parentId": 1382,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/karmany-dlya-hdd/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31221,
+    "id": 1387,
     "active": false,
     "name": "SSD",
-    "parentId": 31216,
+    "parentId": 1382,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/nakopiteli-ssd/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31222,
+    "id": 1388,
     "active": false,
     "name": "Карты памяти",
-    "parentId": 31216,
+    "parentId": 1382,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/karta-pamyati/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31223,
+    "id": 1389,
     "active": false,
     "name": "Жесткие диски 3.5\"",
-    "parentId": 31216,
+    "parentId": 1382,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zhestkyi-disk/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31224,
+    "id": 1390,
     "active": false,
     "name": "Жесткие диски 2.5\"",
-    "parentId": 31216,
+    "parentId": 1382,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zhestkii-disk-dlya-noutbuka-hdd-ssd/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31225,
+    "id": 1391,
     "active": false,
     "name": "Сетевое оборудование",
-    "parentId": 31178,
+    "parentId": 1344,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/setevoe-oborudovanie/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31226,
+    "id": 1392,
     "active": false,
     "name": "Роутеры",
-    "parentId": 31225,
+    "parentId": 1391,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/router/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31227,
+    "id": 1393,
     "active": false,
     "name": "Точка доступа",
-    "parentId": 31225,
+    "parentId": 1391,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/tochka-dostupa/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31228,
+    "id": 1394,
     "active": false,
     "name": "Беспроводные сетевые адаптеры",
-    "parentId": 31225,
+    "parentId": 1391,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/setevaya-plata/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31229,
+    "id": 1395,
     "active": false,
     "name": "Коммутаторы (свитчи)",
-    "parentId": 31225,
+    "parentId": 1391,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/svitch/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31230,
+    "id": 1396,
     "active": false,
     "name": "Блоки питания для роутеров",
-    "parentId": 31225,
+    "parentId": 1391,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/blok-pitaniya-dlya-routera/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31231,
+    "id": 1397,
     "active": false,
     "name": "Пассивное сетевое оборудование",
-    "parentId": 31225,
+    "parentId": 1391,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/passivnoye-setevoye-oborudovaniye/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31232,
+    "id": 1398,
     "active": false,
     "name": "3G/4G Модемы и аксессуары",
-    "parentId": 31225,
+    "parentId": 1391,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/umts-cdma-modem/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31233,
+    "id": 1399,
     "active": false,
     "name": "Чистящие средства",
-    "parentId": 31178,
+    "parentId": 1344,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/chistyashie-salfetki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31234,
+    "id": 1400,
     "active": false,
     "name": "Серверы",
-    "parentId": 31178,
+    "parentId": 1344,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/servery/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31235,
+    "id": 1401,
     "active": false,
     "name": "Аудио, видеотехника и аксессуары",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/tv-dvd-sputnikovoe-tv/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31236,
+    "id": 1402,
     "active": false,
     "name": "Телевизоры",
-    "parentId": 31235,
+    "parentId": 1401,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/televizoru/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31237,
+    "id": 1403,
     "active": false,
     "name": "Аксессуары для телевизоров",
-    "parentId": 31235,
+    "parentId": 1401,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/televizor/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31238,
+    "id": 1404,
     "active": false,
     "name": "Кронштейны для телевизора",
-    "parentId": 31237,
+    "parentId": 1403,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/nastennye-krepleniya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31239,
+    "id": 1405,
     "active": false,
     "name": "Ресиверы цифрового телевидения ( Тюнеры Т2 )",
-    "parentId": 31237,
+    "parentId": 1403,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/resiver/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31240,
+    "id": 1406,
     "active": false,
     "name": "ТВ-антенны",
-    "parentId": 31237,
+    "parentId": 1403,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/tv-antenna-dvb-t2/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31241,
+    "id": 1407,
     "active": false,
     "name": "Смарт приставки и аксессуары",
-    "parentId": 31235,
+    "parentId": 1401,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/mediapleery/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31242,
+    "id": 1408,
     "active": false,
     "name": "Смарт приставки",
-    "parentId": 31241,
+    "parentId": 1407,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/blu-ray-pleery/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31243,
+    "id": 1409,
     "active": false,
     "name": "Фото и видео",
-    "parentId": 31235,
+    "parentId": 1401,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/video/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31244,
+    "id": 1410,
     "active": false,
     "name": "Камеры видеонаблюдения",
-    "parentId": 31243,
+    "parentId": 1409,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kamery-videonablyudeniya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31245,
+    "id": 1411,
     "active": false,
     "name": "Аудио",
-    "parentId": 31235,
+    "parentId": 1401,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/audio/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31246,
+    "id": 1412,
     "active": false,
     "name": "Наушники",
-    "parentId": 31245,
+    "parentId": 1411,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/naushniki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31247,
+    "id": 1413,
     "active": false,
     "name": "Колонки",
-    "parentId": 31245,
+    "parentId": 1411,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/akustika/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31248,
+    "id": 1414,
     "active": false,
     "name": "Радиоприемники",
-    "parentId": 31245,
+    "parentId": 1411,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/stacionarnye-radiopriemniki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31249,
+    "id": 1415,
     "active": false,
     "name": "Микрофоны",
-    "parentId": 31245,
+    "parentId": 1411,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/mikrofon/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31250,
+    "id": 1416,
     "active": false,
     "name": "Аксессуары для аудиотехники",
-    "parentId": 31235,
+    "parentId": 1401,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessuary-dlya-audiotehniki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31251,
+    "id": 1417,
     "active": false,
     "name": "Аксессуары для акустики",
-    "parentId": 31250,
+    "parentId": 1416,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessuary-dlya-akustiki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31252,
+    "id": 1418,
     "active": false,
     "name": "Аксессуары для наушников и гарнитур",
-    "parentId": 31250,
+    "parentId": 1416,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessuary-dlya-naushnikov-i-garnitur/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31253,
+    "id": 1419,
     "active": false,
     "name": "Аксессуары для автомобиля",
-    "parentId": 31235,
+    "parentId": 1401,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessuary-dlya-avtomobilya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31254,
+    "id": 1420,
     "active": false,
     "name": "Пульты",
-    "parentId": 31235,
+    "parentId": 1401,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/pylt/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31255,
+    "id": 1421,
     "active": false,
     "name": "Пульты для телевизоров",
-    "parentId": 31254,
+    "parentId": 1420,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/pult-tv/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31256,
+    "id": 1422,
     "active": false,
     "name": "Пульты для кондиционеров",
-    "parentId": 31254,
+    "parentId": 1420,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/pulty-dlya-kondicionerov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31257,
+    "id": 1423,
     "active": false,
     "name": "Пульты для ТВ тюнеров",
-    "parentId": 31254,
+    "parentId": 1420,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/pult-dlya-tv-tyunera/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31258,
+    "id": 1424,
     "active": false,
     "name": "Пульты универсальные",
-    "parentId": 31254,
+    "parentId": 1420,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/pult-universalnyi/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31259,
+    "id": 1425,
     "active": false,
     "name": "Пульты VCR, DVD, AUDIO",
-    "parentId": 31254,
+    "parentId": 1420,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/pult-vcr-dvd-audio/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31260,
+    "id": 1426,
     "active": false,
     "name": "Чехлы для пультов",
-    "parentId": 31254,
+    "parentId": 1420,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/chehly-dlya-pultov/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31261,
+    "id": 1427,
     "active": false,
     "name": "Кабели, шлейфы, переходники",
-    "parentId": 31235,
+    "parentId": 1401,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kontroller-kabel/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31262,
+    "id": 1428,
     "active": false,
     "name": "Видеокабели",
-    "parentId": 31261,
+    "parentId": 1427,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/video-kabel/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31263,
+    "id": 1429,
     "active": false,
     "name": "Аудиокабели",
-    "parentId": 31261,
+    "parentId": 1427,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/audio-kabeli/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31264,
+    "id": 1430,
     "active": false,
     "name": "Интерфейсные кабели и адаптеры",
-    "parentId": 31261,
+    "parentId": 1427,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kabel-shleif/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31265,
+    "id": 1431,
     "active": false,
     "name": "Концентраторы (HUB)",
-    "parentId": 31261,
+    "parentId": 1427,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/usb-hab/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31266,
+    "id": 1432,
     "active": false,
     "name": "Штекера (кабели) питания",
-    "parentId": 31261,
+    "parentId": 1427,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/shtekera-kabeli-pitaniya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31267,
+    "id": 1433,
     "active": false,
     "name": "Кабель",
-    "parentId": 31261,
+    "parentId": 1427,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kabel/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31268,
+    "id": 1434,
     "active": false,
     "name": "Спутниковое телевиденье",
-    "parentId": 31235,
+    "parentId": 1401,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/sputnikovoe-televidene/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31269,
+    "id": 1435,
     "active": false,
     "name": "Бытовая техника",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/bytovaya-tehnika/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31270,
-    "active": false,
-    "name": "Климатическая техника",
-    "parentId": 31269,
-    "rootCategory": false,
-    "url": "https://www.aks.ua/catalog/klimaticheskaya-tehnika/",
-    "shopId": 16
-  },
-  {
-    "id": 31271,
+    "id": 1436,
     "active": false,
     "name": "Бойлеры",
-    "parentId": 31270,
+    "parentId": 1435,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/boyleru/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31272,
+    "id": 1437,
+    "active": false,
+    "name": "Климатическая техника",
+    "parentId": 1435,
+    "rootCategory": false,
+    "url": "https://www.aks.ua/catalog/klimaticheskaya-tehnika/",
+    "shopId": 1
+  },
+  {
+    "id": 1438,
     "active": false,
     "name": "Кондиционеры",
-    "parentId": 31270,
+    "parentId": 1437,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kondicioner-split/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31273,
+    "id": 1439,
     "active": false,
     "name": "Увлажнители воздуха",
-    "parentId": 31270,
+    "parentId": 1437,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zvolozuvach-povitrya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31274,
+    "id": 1440,
     "active": false,
     "name": "Очиститель воздуха",
-    "parentId": 31270,
+    "parentId": 1437,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/ochushuvach-povitrya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31275,
+    "id": 1441,
     "active": false,
     "name": "Крупная бытовая техника",
-    "parentId": 31269,
+    "parentId": 1435,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/krupnaya-bytovaya-tehnika/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31276,
+    "id": 1442,
     "active": false,
     "name": "Холодильники",
-    "parentId": 31275,
+    "parentId": 1441,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/holodilniki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31277,
+    "id": 1443,
     "active": false,
     "name": "Стиральные машины",
-    "parentId": 31275,
+    "parentId": 1441,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/pralni-mashiny/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31278,
+    "id": 1444,
     "active": false,
     "name": "Сушильные машины",
-    "parentId": 31275,
+    "parentId": 1441,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/sushilni-mashini/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31279,
+    "id": 1445,
     "active": false,
     "name": "Посудомоечные машины",
-    "parentId": 31275,
+    "parentId": 1441,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/posudomoechnye-mashiny/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31280,
+    "id": 1446,
     "active": false,
     "name": "Плиты",
-    "parentId": 31275,
+    "parentId": 1441,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/plity/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31281,
+    "id": 1447,
     "active": false,
     "name": "Уход за собой",
-    "parentId": 31269,
+    "parentId": 1435,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/dogliad-za-soboiu/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31282,
+    "id": 1448,
     "active": false,
     "name": "Машинки для стрижки (триммеры)",
-    "parentId": 31281,
+    "parentId": 1447,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/mashinka-dlya-strizhki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31283,
+    "id": 1449,
     "active": false,
     "name": "Весы напольные",
-    "parentId": 31281,
+    "parentId": 1447,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/vesy-napolnye/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31284,
+    "id": 1450,
     "active": false,
     "name": "Фены",
-    "parentId": 31281,
+    "parentId": 1447,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/fen/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31285,
+    "id": 1451,
     "active": false,
     "name": "Техника для кухни",
-    "parentId": 31269,
+    "parentId": 1435,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/tehnika-dlya-kuhni/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31286,
+    "id": 1452,
     "active": false,
     "name": "Блендеры",
-    "parentId": 31285,
+    "parentId": 1451,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/blender/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31287,
+    "id": 1453,
     "active": false,
     "name": "Миксеры",
-    "parentId": 31285,
+    "parentId": 1451,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/mikser/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31288,
+    "id": 1454,
     "active": false,
     "name": "Электрочайники",
-    "parentId": 31285,
+    "parentId": 1451,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/elektrochainik/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31289,
+    "id": 1455,
     "active": false,
     "name": "Вафельницы",
-    "parentId": 31285,
+    "parentId": 1451,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/vafelnicy/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31290,
+    "id": 1456,
     "active": false,
     "name": "Весы кухонные",
-    "parentId": 31285,
+    "parentId": 1451,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/vesy-kuhonnye/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31291,
+    "id": 1457,
     "active": false,
     "name": "Кофеварки",
-    "parentId": 31285,
+    "parentId": 1451,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kofevarka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31292,
+    "id": 1458,
     "active": false,
     "name": "Кофемолки",
-    "parentId": 31285,
+    "parentId": 1451,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kofemolka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31293,
+    "id": 1459,
     "active": false,
     "name": "Микроволновые печи",
-    "parentId": 31285,
+    "parentId": 1451,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/mikrovolnovaya-pech/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31294,
+    "id": 1460,
     "active": false,
     "name": "Тостеры",
-    "parentId": 31285,
+    "parentId": 1451,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/toster/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31295,
+    "id": 1461,
     "active": false,
     "name": "Электроплиты",
-    "parentId": 31285,
+    "parentId": 1451,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/elektroplita/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31296,
+    "id": 1462,
     "active": false,
     "name": "Бутербродницы",
-    "parentId": 31285,
+    "parentId": 1451,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/buterbrodnica/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31297,
+    "id": 1463,
     "active": false,
     "name": "Мультиварки",
-    "parentId": 31285,
+    "parentId": 1451,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/multivarka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31298,
+    "id": 1464,
     "active": false,
     "name": "Мясорубки",
-    "parentId": 31285,
+    "parentId": 1451,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/myasorubka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31299,
+    "id": 1465,
     "active": false,
     "name": "Электрогрили",
-    "parentId": 31285,
+    "parentId": 1451,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/electrogrili/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31300,
+    "id": 1466,
     "active": false,
     "name": "Встраиваемая техника",
-    "parentId": 31269,
+    "parentId": 1435,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/vbudovana-tehnika/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31301,
+    "id": 1467,
     "active": false,
     "name": "Варочные поверхности",
-    "parentId": 31300,
+    "parentId": 1466,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/varochnye-poverhnosti/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31302,
+    "id": 1468,
     "active": false,
     "name": "Духовые шкафы",
-    "parentId": 31300,
+    "parentId": 1466,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/duhovyu-skaf/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31303,
+    "id": 1469,
     "active": false,
     "name": "Вытяжки",
-    "parentId": 31300,
+    "parentId": 1466,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/vytyazhki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31304,
+    "id": 1470,
     "active": false,
     "name": "Уборка и уход за домом и одеждой",
-    "parentId": 31269,
+    "parentId": 1435,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/uborka-i-uhod-za-odezhdoi/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31305,
+    "id": 1471,
     "active": false,
     "name": "Утюги",
-    "parentId": 31304,
+    "parentId": 1470,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/prasku/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31306,
+    "id": 1472,
     "active": false,
     "name": "Пылесосы",
-    "parentId": 31304,
+    "parentId": 1470,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/pylososu/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31307,
+    "id": 1473,
     "active": false,
     "name": "Роботы-пылесосы",
-    "parentId": 31304,
+    "parentId": 1470,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/roboty-pylesosy/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31308,
+    "id": 1474,
     "active": false,
     "name": "Фонари и аксессуары",
-    "parentId": 31269,
+    "parentId": 1435,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/fonari-i-aksessuary/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31309,
+    "id": 1475,
     "active": false,
     "name": "Фонарики",
-    "parentId": 31308,
+    "parentId": 1474,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/fonar/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31310,
+    "id": 1476,
     "active": false,
     "name": "Аксессуары к фонарям",
-    "parentId": 31308,
+    "parentId": 1474,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessuary-k-fonaryam/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31311,
+    "id": 1477,
     "active": false,
     "name": "Ножи и аксессуары",
-    "parentId": 31269,
+    "parentId": 1435,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/nozhi-i-aksessuary/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31312,
+    "id": 1478,
     "active": false,
     "name": "Ножи",
-    "parentId": 31311,
+    "parentId": 1477,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/nozhi/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31313,
+    "id": 1479,
     "active": false,
     "name": "Мультитулы",
-    "parentId": 31311,
+    "parentId": 1477,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/nozhi/vid/multitul",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31314,
+    "id": 1480,
     "active": false,
     "name": "Аксессуары для ножей",
-    "parentId": 31311,
+    "parentId": 1477,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessuary-dlya-nozhei/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31315,
+    "id": 1481,
     "active": false,
     "name": "Обогреватели",
-    "parentId": 31269,
+    "parentId": 1435,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/obogrevatel/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31316,
+    "id": 1482,
     "active": false,
     "name": "Электрические конвекторы",
-    "parentId": 31315,
+    "parentId": 1481,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/elektricheskie-konvektory/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31317,
+    "id": 1483,
     "active": false,
     "name": "Масляные обогреватели",
-    "parentId": 31315,
+    "parentId": 1481,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/obogrevateli-maslyanye/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31318,
+    "id": 1484,
     "active": false,
     "name": "Керамические обогреватели",
-    "parentId": 31315,
+    "parentId": 1481,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/keramicheskie-obogrevateli/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31319,
+    "id": 1485,
     "active": false,
     "name": "Тепловентиляторы",
-    "parentId": 31315,
+    "parentId": 1481,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/teploventilyator/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31320,
+    "id": 1486,
     "active": false,
     "name": "Инфракрасные обогреватели",
-    "parentId": 31315,
+    "parentId": 1481,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/obogrevateli-infrakrasnye/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31321,
-    "active": false,
-    "name": "Климатическая техника",
-    "parentId": 31320,
-    "rootCategory": false,
-    "url": "https://www.aks.ua/catalog/klimaticheskaya-tehnika/",
-    "shopId": 16
-  },
-  {
-    "id": 31322,
+    "id": 1487,
     "active": false,
     "name": "Бойлеры",
-    "parentId": 31321,
+    "parentId": 1486,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/boyleru/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31323,
+    "id": 1488,
+    "active": false,
+    "name": "Климатическая техника",
+    "parentId": 1486,
+    "rootCategory": false,
+    "url": "https://www.aks.ua/catalog/klimaticheskaya-tehnika/",
+    "shopId": 1
+  },
+  {
+    "id": 1489,
     "active": false,
     "name": "Кондиционеры",
-    "parentId": 31321,
+    "parentId": 1488,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kondicioner-split/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31324,
+    "id": 1490,
     "active": false,
     "name": "Увлажнители воздуха",
-    "parentId": 31321,
+    "parentId": 1488,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zvolozuvach-povitrya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31325,
+    "id": 1491,
     "active": false,
     "name": "Очиститель воздуха",
-    "parentId": 31321,
+    "parentId": 1488,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/ochushuvach-povitrya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31326,
+    "id": 1492,
     "active": false,
     "name": "Крупная бытовая техника",
-    "parentId": 31320,
+    "parentId": 1486,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/krupnaya-bytovaya-tehnika/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31327,
+    "id": 1493,
+    "active": false,
+    "name": "Холодильники",
+    "parentId": 1492,
+    "rootCategory": false,
+    "url": "https://www.aks.ua/catalog/holodilniki/",
+    "shopId": 1
+  },
+  {
+    "id": 1494,
+    "active": false,
+    "name": "Стиральные машины",
+    "parentId": 1492,
+    "rootCategory": false,
+    "url": "https://www.aks.ua/catalog/pralni-mashiny/",
+    "shopId": 1
+  },
+  {
+    "id": 1495,
+    "active": false,
+    "name": "Сушильные машины",
+    "parentId": 1492,
+    "rootCategory": false,
+    "url": "https://www.aks.ua/catalog/sushilni-mashini/",
+    "shopId": 1
+  },
+  {
+    "id": 1496,
+    "active": false,
+    "name": "Посудомоечные машины",
+    "parentId": 1492,
+    "rootCategory": false,
+    "url": "https://www.aks.ua/catalog/posudomoechnye-mashiny/",
+    "shopId": 1
+  },
+  {
+    "id": 1497,
+    "active": false,
+    "name": "Плиты",
+    "parentId": 1492,
+    "rootCategory": false,
+    "url": "https://www.aks.ua/catalog/plity/",
+    "shopId": 1
+  },
+  {
+    "id": 1498,
     "active": false,
     "name": "Уход за собой",
-    "parentId": 31320,
+    "parentId": 1486,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/dogliad-za-soboiu/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31328,
+    "id": 1499,
     "active": false,
     "name": "Машинки для стрижки (триммеры)",
-    "parentId": 31327,
+    "parentId": 1498,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/mashinka-dlya-strizhki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31329,
+    "id": 1500,
     "active": false,
     "name": "Весы напольные",
-    "parentId": 31327,
+    "parentId": 1498,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/vesy-napolnye/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31330,
+    "id": 1501,
     "active": false,
     "name": "Фены",
-    "parentId": 31327,
+    "parentId": 1498,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/fen/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31331,
+    "id": 1502,
     "active": false,
     "name": "Техника для кухни",
-    "parentId": 31320,
+    "parentId": 1486,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/tehnika-dlya-kuhni/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31332,
+    "id": 1503,
     "active": false,
     "name": "Блендеры",
-    "parentId": 31331,
+    "parentId": 1502,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/blender/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31333,
+    "id": 1504,
     "active": false,
     "name": "Миксеры",
-    "parentId": 31331,
+    "parentId": 1502,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/mikser/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31334,
+    "id": 1505,
     "active": false,
     "name": "Электрочайники",
-    "parentId": 31331,
+    "parentId": 1502,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/elektrochainik/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31335,
+    "id": 1506,
     "active": false,
     "name": "Вафельницы",
-    "parentId": 31331,
+    "parentId": 1502,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/vafelnicy/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31336,
+    "id": 1507,
     "active": false,
     "name": "Весы кухонные",
-    "parentId": 31331,
+    "parentId": 1502,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/vesy-kuhonnye/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31337,
+    "id": 1508,
     "active": false,
     "name": "Кофеварки",
-    "parentId": 31331,
+    "parentId": 1502,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kofevarka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31338,
+    "id": 1509,
     "active": false,
     "name": "Кофемолки",
-    "parentId": 31331,
+    "parentId": 1502,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kofemolka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31339,
+    "id": 1510,
     "active": false,
     "name": "Микроволновые печи",
-    "parentId": 31331,
+    "parentId": 1502,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/mikrovolnovaya-pech/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31340,
+    "id": 1511,
     "active": false,
     "name": "Тостеры",
-    "parentId": 31331,
+    "parentId": 1502,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/toster/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31341,
+    "id": 1512,
     "active": false,
     "name": "Электроплиты",
-    "parentId": 31331,
+    "parentId": 1502,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/elektroplita/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31342,
+    "id": 1513,
     "active": false,
     "name": "Бутербродницы",
-    "parentId": 31331,
+    "parentId": 1502,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/buterbrodnica/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31343,
+    "id": 1514,
     "active": false,
     "name": "Мультиварки",
-    "parentId": 31331,
+    "parentId": 1502,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/multivarka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31344,
+    "id": 1515,
     "active": false,
     "name": "Мясорубки",
-    "parentId": 31331,
+    "parentId": 1502,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/myasorubka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31345,
+    "id": 1516,
     "active": false,
     "name": "Электрогрили",
-    "parentId": 31331,
+    "parentId": 1502,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/electrogrili/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31346,
+    "id": 1517,
     "active": false,
     "name": "Встраиваемая техника",
-    "parentId": 31320,
+    "parentId": 1486,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/vbudovana-tehnika/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31347,
+    "id": 1518,
     "active": false,
     "name": "Варочные поверхности",
-    "parentId": 31346,
+    "parentId": 1517,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/varochnye-poverhnosti/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31348,
+    "id": 1519,
     "active": false,
     "name": "Духовые шкафы",
-    "parentId": 31346,
+    "parentId": 1517,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/duhovyu-skaf/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31349,
+    "id": 1520,
     "active": false,
     "name": "Вытяжки",
-    "parentId": 31346,
+    "parentId": 1517,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/vytyazhki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31350,
+    "id": 1521,
     "active": false,
     "name": "Уборка и уход за домом и одеждой",
-    "parentId": 31320,
+    "parentId": 1486,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/uborka-i-uhod-za-odezhdoi/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31351,
+    "id": 1522,
     "active": false,
     "name": "Утюги",
-    "parentId": 31350,
+    "parentId": 1521,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/prasku/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31352,
+    "id": 1523,
     "active": false,
     "name": "Пылесосы",
-    "parentId": 31350,
+    "parentId": 1521,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/pylososu/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31353,
+    "id": 1524,
     "active": false,
     "name": "Роботы-пылесосы",
-    "parentId": 31350,
+    "parentId": 1521,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/roboty-pylesosy/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31354,
+    "id": 1525,
     "active": false,
     "name": "Фонари и аксессуары",
-    "parentId": 31320,
+    "parentId": 1486,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/fonari-i-aksessuary/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31355,
+    "id": 1526,
     "active": false,
     "name": "Фонарики",
-    "parentId": 31354,
+    "parentId": 1525,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/fonar/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31356,
+    "id": 1527,
     "active": false,
     "name": "Аксессуары к фонарям",
-    "parentId": 31354,
+    "parentId": 1525,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessuary-k-fonaryam/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31357,
+    "id": 1528,
     "active": false,
     "name": "Ножи и аксессуары",
-    "parentId": 31320,
+    "parentId": 1486,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/nozhi-i-aksessuary/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31358,
+    "id": 1529,
+    "active": false,
+    "name": "Ножи",
+    "parentId": 1528,
+    "rootCategory": false,
+    "url": "https://www.aks.ua/catalog/nozhi/",
+    "shopId": 1
+  },
+  {
+    "id": 1530,
+    "active": false,
+    "name": "Мультитулы",
+    "parentId": 1528,
+    "rootCategory": false,
+    "url": "https://www.aks.ua/catalog/nozhi/vid/multitul",
+    "shopId": 1
+  },
+  {
+    "id": 1531,
+    "active": false,
+    "name": "Аксессуары для ножей",
+    "parentId": 1528,
+    "rootCategory": false,
+    "url": "https://www.aks.ua/catalog/aksessuary-dlya-nozhei/",
+    "shopId": 1
+  },
+  {
+    "id": 1532,
     "active": false,
     "name": "Обогреватели",
-    "parentId": 31320,
+    "parentId": 1486,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/obogrevatel/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31359,
+    "id": 1533,
     "active": false,
     "name": "Электрические конвекторы",
-    "parentId": 31358,
+    "parentId": 1532,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/elektricheskie-konvektory/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31360,
+    "id": 1534,
     "active": false,
     "name": "Масляные обогреватели",
-    "parentId": 31358,
+    "parentId": 1532,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/obogrevateli-maslyanye/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31361,
+    "id": 1535,
     "active": false,
     "name": "Керамические обогреватели",
-    "parentId": 31358,
+    "parentId": 1532,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/keramicheskie-obogrevateli/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31362,
+    "id": 1536,
     "active": false,
     "name": "Тепловентиляторы",
-    "parentId": 31358,
+    "parentId": 1532,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/teploventilyator/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31363,
+    "id": 1537,
     "active": false,
     "name": "Инфракрасные обогреватели",
-    "parentId": 31358,
+    "parentId": 1532,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/obogrevateli-infrakrasnye/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31364,
+    "id": 1538,
     "active": false,
     "name": "Ремонт и услуги",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://www.aks.ua/remont/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31365,
+    "id": 1539,
     "active": false,
     "name": "Туризм, отдых и электротранспорт",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/turizm-i-otdyh/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31366,
+    "id": 1540,
     "active": false,
     "name": "Электротранспорт",
-    "parentId": 31365,
+    "parentId": 1539,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/elektrotransport/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31367,
+    "id": 1541,
     "active": false,
     "name": "Электросамокаты",
-    "parentId": 31366,
+    "parentId": 1540,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/elektrosamokaty/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31368,
+    "id": 1542,
     "active": false,
     "name": "Электроскутеры",
-    "parentId": 31366,
+    "parentId": 1540,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/elektroskutery/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31369,
+    "id": 1543,
     "active": false,
     "name": "Фонари",
-    "parentId": 31365,
+    "parentId": 1539,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/fonar/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31370,
+    "id": 1544,
     "active": false,
     "name": "Туризм и кемпинг",
-    "parentId": 31365,
+    "parentId": 1539,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/turyzm-ta-kemping/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31371,
+    "id": 1545,
     "active": false,
     "name": "Раскладные столы",
-    "parentId": 31370,
+    "parentId": 1544,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/raskladnye-stoly/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31372,
+    "id": 1546,
     "active": false,
     "name": "Раскладные стулья",
-    "parentId": 31370,
+    "parentId": 1544,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/raskladnye-stulya/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31373,
+    "id": 1547,
     "active": false,
     "name": "Раскладушки и шезлонги",
-    "parentId": 31370,
+    "parentId": 1544,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/rozkladachky-ta-shezlonhy/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31374,
+    "id": 1548,
     "active": false,
     "name": "Наборы для пикника и термосумки",
-    "parentId": 31370,
+    "parentId": 1544,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/nabory-dlay-piknika/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31375,
+    "id": 1549,
     "active": false,
     "name": "Палатки и зонты",
-    "parentId": 31370,
+    "parentId": 1544,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/palatka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31376,
+    "id": 1550,
     "active": false,
     "name": "Термобелье, одежда",
-    "parentId": 31370,
+    "parentId": 1544,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/termobele-odezhda/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31377,
+    "id": 1551,
     "active": false,
     "name": "Рюкзаки и чехлы",
-    "parentId": 31370,
+    "parentId": 1544,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/ryukzaki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31378,
+    "id": 1552,
     "active": false,
     "name": "Аксессуары для туризма",
-    "parentId": 31370,
+    "parentId": 1544,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksesuary-dlia-turyzmu/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31379,
+    "id": 1553,
     "active": false,
     "name": "Спальные мешки и коврики",
-    "parentId": 31370,
+    "parentId": 1544,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/spalnye-meshki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31380,
+    "id": 1554,
     "active": false,
     "name": "Раскладные кресла",
-    "parentId": 31370,
+    "parentId": 1544,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/rozkladni-krisla/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31381,
+    "id": 1555,
     "active": false,
     "name": "Термос",
-    "parentId": 31370,
+    "parentId": 1544,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/termos/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31382,
+    "id": 1556,
     "active": false,
     "name": "Газовое оборудование",
-    "parentId": 31370,
+    "parentId": 1544,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/gazovye-plity/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31383,
+    "id": 1557,
     "active": false,
     "name": "Мангалы, гриль, барбекю",
-    "parentId": 31370,
+    "parentId": 1544,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/gril-barbekyu/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31384,
+    "id": 1558,
     "active": false,
     "name": "Ножи",
-    "parentId": 31365,
+    "parentId": 1539,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/nozhi/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31385,
+    "id": 1559,
     "active": false,
     "name": "Аксессуары для ножей",
-    "parentId": 31365,
+    "parentId": 1539,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessuary-dlya-nozhei/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31386,
+    "id": 1560,
     "active": false,
     "name": "Запчасти для квадрокоптеров",
-    "parentId": 31365,
+    "parentId": 1539,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kvadrokoptery/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31387,
+    "id": 1561,
     "active": false,
     "name": "Зарядные устройства для электромобилей",
-    "parentId": 31365,
+    "parentId": 1539,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/zaryadnye-ustroistva-dlya-lektromobilei/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31388,
+    "id": 1562,
     "active": false,
     "name": "Товары для дома",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/tovary-dlya-doma/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31389,
+    "id": 1563,
     "active": false,
     "name": "Матрасы",
-    "parentId": 31388,
+    "parentId": 1562,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/matrazy/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31390,
+    "id": 1564,
     "active": false,
     "name": "Подушки",
-    "parentId": 31388,
+    "parentId": 1562,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/podushka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31391,
+    "id": 1565,
     "active": false,
     "name": "Мебель",
-    "parentId": 31388,
+    "parentId": 1562,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/mebli/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31392,
+    "id": 1566,
     "active": false,
     "name": "Кровати",
-    "parentId": 31391,
+    "parentId": 1565,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/lizka/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31393,
+    "id": 1567,
     "active": false,
     "name": "Умный дом",
-    "parentId": 31388,
+    "parentId": 1562,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/umnyi-dom/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31394,
+    "id": 1568,
+    "active": false,
+    "name": "Фильтры для воды",
+    "parentId": 1562,
+    "rootCategory": false,
+    "url": "https://www.aks.ua/catalog/filtry-dlya-vody/",
+    "shopId": 1
+  },
+  {
+    "id": 1569,
+    "active": false,
+    "name": "Фильтры (системы) обратного осмоса",
+    "parentId": 1568,
+    "rootCategory": false,
+    "url": "https://www.aks.ua/catalog/systemy-zvorotnoho-osmosu/",
+    "shopId": 1
+  },
+  {
+    "id": 1570,
+    "active": false,
+    "name": "Сменные картриджи, комплекты картриджей и мембраны",
+    "parentId": 1568,
+    "rootCategory": false,
+    "url": "https://www.aks.ua/catalog/zminni-kartrydzhi-dlia-filtriv-vody/",
+    "shopId": 1
+  },
+  {
+    "id": 1571,
+    "active": false,
+    "name": "Колбы для фильтров очистки воды",
+    "parentId": 1568,
+    "rootCategory": false,
+    "url": "https://www.aks.ua/catalog/kolby-dlia-filtriv-ochyshchennia-vody/",
+    "shopId": 1
+  },
+  {
+    "id": 1572,
     "active": false,
     "name": "Подарки",
-    "parentId": 31388,
+    "parentId": 1562,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/podarki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31395,
+    "id": 1573,
     "active": false,
     "name": "Часы",
-    "parentId": 31388,
+    "parentId": 1562,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/nastennye-chasy/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31396,
+    "id": 1574,
     "active": false,
     "name": "Освещение",
-    "parentId": 31388,
+    "parentId": 1562,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/osveshenie/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31397,
+    "id": 1575,
     "active": false,
     "name": "Гирлянда",
-    "parentId": 31388,
+    "parentId": 1562,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/girlyanda/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31398,
+    "id": 1576,
     "active": false,
     "name": "Аксессуары для AirTag",
-    "parentId": 31388,
+    "parentId": 1562,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/aksessuary-dlya-airtag/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31399,
+    "id": 1577,
     "active": false,
     "name": "Чехлы-брелки",
-    "parentId": 31398,
+    "parentId": 1576,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/chehly-brelki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31400,
+    "id": 1578,
     "active": false,
     "name": "Кабельные наконечники",
-    "parentId": 31388,
+    "parentId": 1562,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/kabelnye-nakonechniki/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31401,
+    "id": 1579,
     "active": false,
     "name": "Товары первой необходимости",
-    "parentId": 31388,
+    "parentId": 1562,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/tovarov-pervoi-neobhodimosti/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31402,
+    "id": 1580,
     "active": false,
     "name": "Генераторы",
-    "parentId": 31388,
+    "parentId": 1562,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/generatory/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31403,
+    "id": 1581,
     "active": false,
     "name": "Разное",
-    "parentId": 31388,
+    "parentId": 1562,
     "rootCategory": false,
     "url": "https://www.aks.ua/catalog/raznoe/",
-    "shopId": 16
+    "shopId": 1
   },
   {
-    "id": 31404,
+    "id": 1582,
     "active": false,
     "name": "Все категории",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://www.aks.ua/sitemap.html",
-    "shopId": 16
+    "shopId": 1
   }
 ]

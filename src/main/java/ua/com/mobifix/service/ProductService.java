@@ -1,6 +1,7 @@
 package ua.com.mobifix.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 import ua.com.mobifix.entity.*;
 import ua.com.mobifix.parser.AllProductParser;
@@ -29,24 +30,33 @@ public class ProductService {
 
         // Если товар найден, выполнить обновление
         if (existingProductOptional.isPresent()) {
-            Product existingProduct = existingProductOptional.get();
-            // Обновить поля товара
-            existingProduct.setCategories(product.getCategories());
-            existingProduct.setArticle(product.getArticle());
-            existingProduct.setName(product.getName());
-            existingProduct.setPrice(product.getPrice());
-            existingProduct.setStock(product.getStock());
-            existingProduct.setImageLink(product.getImageLink());
-            existingProduct.setBreadcrumbs(product.getBreadcrumbs());
-            existingProduct.setTimestampField(new Timestamp(System.currentTimeMillis()));
-            // Другие поля, которые нужно обновить
 
-            // Сохранить обновленный товар
-            productRepository.save(existingProduct);
+                Product existingProduct = existingProductOptional.get();
+                // Обновить поля товара
+                existingProduct.setCategories(product.getCategories());
+                existingProduct.setArticle(product.getArticle());
+                existingProduct.setName(product.getName());
+                existingProduct.setPrice(product.getPrice());
+                existingProduct.setStock(product.getStock());
+                existingProduct.setImageLink(product.getImageLink());
+                existingProduct.setBreadcrumbs(product.getBreadcrumbs());
+                existingProduct.setTimestampField(new Timestamp(System.currentTimeMillis()));
+                // Другие поля, которые нужно обновить
+
+                // Сохранить обновленный товар
+                productRepository.save(existingProduct);
+
         } else {
             // Если товар не найден, можно выбрасывать исключение или выполнять другие действия
             // Например, можно просто вывести сообщение об ошибке
-            productRepository.save(product);
+            try {
+                if (!product.getName().equals("")) {
+                    productRepository.save(product);
+                }
+            } catch (DataIntegrityViolationException ex){
+                ex.printStackTrace();
+            }
+
         }
     }
 
@@ -81,7 +91,7 @@ public class ProductService {
             updateByLink(product);
 
         }
-
+        System.out.println("BD Update!");
     }
 }
 
