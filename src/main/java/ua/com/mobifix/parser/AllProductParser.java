@@ -61,7 +61,7 @@ public class AllProductParser extends CategoryParser {
                 Document scanPage = Jsoup.connect(settings.getScanProductsUrl() + settings.getPagination() + num + settings.getParameter())
                         .cookies(parseStringToMap(settings.getCookies()))
                         .get();
-                System.out.println("Сканируем страницу " + num);
+                System.out.println("Сканируем страницу " + num + " (" + settings.getScanProductsUrl() + ")");
                 //вставка
 
                 Elements elements = scanPage.select(settings.getSelectProductsListCartTag());

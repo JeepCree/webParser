@@ -19,10 +19,8 @@ import java.util.List;
 import java.util.Map;
 
 public class test {
-    public static void main(String[] args) {
-        for (int i = 0; i < 1000000; i++){
-            System.out.println(i);
-        }
+    public static void main(String[] args) throws IOException {
+        System.out.println(Jsoup.connect("https://www.aks.ua/catalog/chehly-dlya-mobilnyh-telefonov/").get().select("div.catalog-item").text());
     }
 }
 
