@@ -355,4 +355,18 @@ public class CategoriesController {
         }
         System.out.println("End of scan!");
     }
+    @GetMapping("/run")
+    @ResponseBody
+    public void run(){
+        List<Long> list = new ArrayList<>();
+        for (Categories categories : categoriesRepository.findAll()){
+            System.out.println(categories.getName());
+            if (categoriesRepository.findByParentId(categories.getId()).isEmpty()) {
+                list.add(categories.getId());
+            }
+        }
+        for (Long id : list){
+            productService.saveScanProducts(id);
+        }
+    }
 }

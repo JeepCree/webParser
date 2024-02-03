@@ -1,17 +1,13 @@
 package ua.com.mobifix.entity;
 
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
 
 public interface CategoriesRepository extends JpaRepository<Categories, Integer> {
-
-
+    List<Categories> findByParentId(Long i);
     List<Categories> findAllByOrderByNameAsc();
     List<Categories> findAllByIdNotInOrderByNameAsc(List<Long> idsToExclude);
     List<Categories> findAllByShopIdOrderByNameAsc(Long shopId);
