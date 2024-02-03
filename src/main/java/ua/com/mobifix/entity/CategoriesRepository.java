@@ -8,6 +8,10 @@ import java.util.Optional;
 
 public interface CategoriesRepository extends JpaRepository<Categories, Integer> {
     List<Categories> findByParentId(Long i);
+    List<Categories> findAllByShopId(Long i);
+
+
+
     List<Categories> findAllByOrderByNameAsc();
     List<Categories> findAllByIdNotInOrderByNameAsc(List<Long> idsToExclude);
     List<Categories> findAllByShopIdOrderByNameAsc(Long shopId);

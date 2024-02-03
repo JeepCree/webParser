@@ -75,6 +75,7 @@ public class ProductService {
         AllProductParser allProductParser = new AllProductParser();
 
         List<Product> productList = allProductParser.getProducts(settings, idCat);
+
         for (Product obj : productList) {
 
             Product product = new Product();
@@ -87,11 +88,10 @@ public class ProductService {
             product.setImageLink(obj.getImageLink());
             product.setBreadcrumbs(obj.getBreadcrumbs());
             product.setShopId(categoriesRepository.findById(idCat.intValue()).get().getShopId());
-
-            updateByLink(product);
+            new Thread(() -> updateByLink(product)).start();
 
         }
-        System.out.println("BD Update!");
+        System.out.println("DB Update!");
     }
 }
 

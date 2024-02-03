@@ -360,12 +360,26 @@ public class CategoriesController {
     public void run(){
         List<Long> list = new ArrayList<>();
         for (Categories categories : categoriesRepository.findAll()){
-            System.out.println(categories.getName());
             if (categoriesRepository.findByParentId(categories.getId()).isEmpty()) {
                 list.add(categories.getId());
             }
         }
         for (Long id : list){
+//            new Thread(() -> productService.saveScanProducts(id)).start();
+            productService.saveScanProducts(id);
+        }
+    }
+    @GetMapping("/run-for-shop")
+    @ResponseBody
+    public void runForShop(Long shopId){
+        List<Long> list = new ArrayList<>();
+        for (Categories categories : categoriesRepository.findAllByShopId(shopId)){
+            if (categoriesRepository.findByParentId(categories.getId()).isEmpty()) {
+                list.add(categories.getId());
+            }
+        }
+        for (Long id : list){
+//            new Thread(() -> productService.saveScanProducts(id)).start();
             productService.saveScanProducts(id);
         }
     }
