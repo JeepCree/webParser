@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface ProductRepository extends JpaRepository<Product, Integer> {
+//    Product findAllByShopIdAndCategoriesInAndLink(Long shopId, Long categories, String link);
 
     List<Product> findAllByCategoriesIn(List<Long> categoryIds);
     Product findTopByOrderByIdDesc();

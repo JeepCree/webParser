@@ -42,7 +42,7 @@ public class AllProductParser extends CategoryParser {
 
     public List<Product> getProducts(Shop settings, Long categoryId) {
         int num = 1;
-
+        int i = 0;
 
 
         boolean bool = true;
@@ -134,7 +134,9 @@ public class AllProductParser extends CategoryParser {
                         int statusCode = httpStatusException.getStatusCode();
                         if (statusCode == 404) {
                             System.out.println("Страница не найдена (ошибка 404).");
-                            bool = false; // Устанавливаем флаг в false, чтобы завершить цикл
+                                bool = false; // Устанавливаем флаг в false, чтобы завершить цикл
+
+
                         } else {
                             System.out.println("Другая ошибка HTTP: " + statusCode);
                             try {

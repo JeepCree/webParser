@@ -27,6 +27,7 @@ public class ProductService {
     public void updateByLink(Product product) {
         // Найти товар по ссылке
         Optional<Product> existingProductOptional = productRepository.findByLink(product.getLink());
+//        Product existingProduct = productRepository.findAllByShopIdAndCategoriesInAndLink(product.getShopId(), product.getCategories(), product.getLink());
 
         // Если товар найден, выполнить обновление
         if (existingProductOptional.isPresent()) {
@@ -38,12 +39,10 @@ public class ProductService {
                 existingProduct.setName(product.getName());
                 existingProduct.setPrice(product.getPrice());
                 existingProduct.setStock(product.getStock());
+                existingProduct.setLink(product.getLink());
                 existingProduct.setImageLink(product.getImageLink());
                 existingProduct.setBreadcrumbs(product.getBreadcrumbs());
                 existingProduct.setTimestampField(new Timestamp(System.currentTimeMillis()));
-                // Другие поля, которые нужно обновить
-
-                // Сохранить обновленный товар
                 productRepository.save(existingProduct);
 
         } else {
@@ -88,7 +87,9 @@ public class ProductService {
             product.setImageLink(obj.getImageLink());
             product.setBreadcrumbs(obj.getBreadcrumbs());
             product.setShopId(categoriesRepository.findById(idCat.intValue()).get().getShopId());
-            new Thread(() -> updateByLink(product)).start();
+//            new Thread(() -> updateByLink(product)).start();
+            updateByLink(product);
+
 
         }
         System.out.println("DB Update!");
