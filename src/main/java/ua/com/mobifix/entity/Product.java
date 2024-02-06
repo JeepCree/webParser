@@ -5,6 +5,9 @@ import java.sql.Timestamp;
 import jakarta.persistence.*;
 
 @Entity
+@Table(indexes = {
+        @Index(name = "product_link_sha3_index", columnList = "linkSha3")
+})
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,12 +22,21 @@ public class Product {
     private Double price;
     @Column(/*unique = true, */nullable = false, columnDefinition = "TEXT")
     private String link;
+    @Column(unique = true, length = 128)
+    private String linkSha3;
     private String imageLink;
 //    @Column(nullable = false)
     private Long shopId;
     @Temporal(TemporalType.TIMESTAMP)
     private Timestamp timestampField;
 
+    public String getLinkSha3() {
+        return linkSha3;
+    }
+
+    public void setLinkSha3(String linkSha3) {
+        this.linkSha3 = linkSha3;
+    }
 
     public String getBreadcrumbs() {
         return breadcrumbs;

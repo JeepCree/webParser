@@ -24,9 +24,11 @@ public class ProductService {
         this.categoriesRepository = categoriesRepository;
         this.shopRepository = shopRepository;
     }
-    public void updateByLink(Product product) {
+    public void updateByLinkSha3(Product product) {
         // Найти товар по ссылке
-        Optional<Product> existingProductOptional = productRepository.findByLink(product.getLink());
+//        Optional<Product> existingProductOptional = productRepository.findByLink(product.getLink());
+
+        Optional<Product> existingProductOptional = productRepository.findByLinkSha3(SHA3.generateSHA3Hash(product.getLink()));
 //        Product existingProduct = productRepository.findAllByShopIdAndCategoriesInAndLink(product.getShopId(), product.getCategories(), product.getLink());
 
         // Если товар найден, выполнить обновление
@@ -40,6 +42,7 @@ public class ProductService {
                 existingProduct.setPrice(product.getPrice());
                 existingProduct.setStock(product.getStock());
                 existingProduct.setLink(product.getLink());
+                existingProduct.setLinkSha3(product.getLinkSha3());
                 existingProduct.setImageLink(product.getImageLink());
                 existingProduct.setBreadcrumbs(product.getBreadcrumbs());
                 existingProduct.setTimestampField(new Timestamp(System.currentTimeMillis()));
@@ -84,11 +87,12 @@ public class ProductService {
             product.setPrice(obj.getPrice());
             product.setCategories(obj.getCategories());
             product.setLink(obj.getLink());
+            product.setLinkSha3(SHA3.generateSHA3Hash(obj.getLink()));
             product.setImageLink(obj.getImageLink());
             product.setBreadcrumbs(obj.getBreadcrumbs());
             product.setShopId(categoriesRepository.findById(idCat.intValue()).get().getShopId());
 //            new Thread(() -> updateByLink(product)).start();
-            updateByLink(product);
+            updateByLinkSha3(product);
 
 
         }

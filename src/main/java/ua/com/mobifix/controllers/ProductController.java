@@ -12,11 +12,13 @@ import ua.com.mobifix.entity.Product;
 import ua.com.mobifix.entity.ProductRepository;
 import ua.com.mobifix.service.CsvParser;
 import ua.com.mobifix.service.ProductService;
+import ua.com.mobifix.service.SHA3;
 
 import java.io.IOException;
 import java.sql.Timestamp;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 @Controller
 @RequestMapping(path="/")
@@ -150,6 +152,32 @@ public class ProductController {
             return false;
         }
     }
+    @GetMapping("/link-to-sha3")
+    @ResponseBody
+    public void linkToSha3() {
+        List<Product> productList = productRepository.findAllByLinkSha3IsNull();
+        System.out.println("Run");
+
+        if (!productList.isEmpty()) {
+            for (Product product : productList) {
+                product.setLinkSha3(SHA3.generateSHA3Hash(product.getLink()));
 
 
+                System.out.println(product.getShopId() +
+                        "\n" + product.getName() +
+                        "\n" + product.getLink() +
+                        "\n" + product.getLinkSha3() + "\n\n");
+                try {
+                    productRepository.save(product);
+                } catch (Exception e){
+                    e.getMessage();
+                }
+
+            }
+            } else{
+                System.out.println("Нет продуктов с пустым linkSha3");
+            }
+        System.out.println("End");
+    }
 }
+
