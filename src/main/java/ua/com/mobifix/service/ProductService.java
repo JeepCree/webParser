@@ -92,7 +92,7 @@ public class ProductService {
             product.setBreadcrumbs(obj.getBreadcrumbs());
             product.setShopId(categoriesRepository.findById(idCat.intValue()).get().getShopId());
 //            new Thread(() -> updateByLink(product)).start();
-            updateByLinkSha3(product);
+            new Thread(() -> updateByLinkSha3(product)).start();
 
 
         }

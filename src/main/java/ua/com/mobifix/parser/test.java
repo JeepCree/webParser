@@ -9,6 +9,6 @@ import java.io.IOException;
 
 public class test {
     public static void main(String[] args) throws IOException {
-        System.out.println(SHA3.generateSHA3Hash("jhxdfhghhj"));
+        System.out.println(Jsoup.connect("https://all-spares.ua/uk/spares/batteries/").get());
     }
 }
