@@ -1,0 +1,2513 @@
+[
+  {
+    "id": 1655,
+    "active": false,
+    "name": "Ноутбуки і комп\u0027ютери",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/Noutbuki_i_kompyuteri-c139/",
+    "shopId": 8
+  },
+  {
+    "id": 1656,
+    "active": false,
+    "name": "Ноутбуки",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1657,
+    "active": false,
+    "name": "Комп\u0027ютери",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1658,
+    "active": false,
+    "name": "Монітори та аксесуари",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1659,
+    "active": false,
+    "name": "Маніпулятори",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1660,
+    "active": false,
+    "name": "Планшети та аксесуари",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1661,
+    "active": false,
+    "name": "Електронні книги та аксесуари",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1662,
+    "active": false,
+    "name": "Комплектуючі для ПК",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1663,
+    "active": false,
+    "name": "Активне мережеве обладнання",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1664,
+    "active": false,
+    "name": "Електроживлення",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1665,
+    "active": false,
+    "name": "Накопичувачі інформації",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1666,
+    "active": false,
+    "name": "Пасивне мережеве обладнання",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1667,
+    "active": false,
+    "name": "Програмне забезпечення",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1668,
+    "active": false,
+    "name": "Аксесуари до ноутбуків та ПК",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1669,
+    "active": false,
+    "name": "Товари для геймерів",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1670,
+    "active": false,
+    "name": "Серверне обладнання",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1671,
+    "active": false,
+    "name": "Компоненти систем рідинного охолодження",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1672,
+    "active": false,
+    "name": "Оргтехніка",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1673,
+    "active": false,
+    "name": "Аудіо",
+    "parentId": 1655,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1674,
+    "active": false,
+    "name": "Комплектуючі для ПК",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/Komplektuyuchi_do_PK-c204/",
+    "shopId": 8
+  },
+  {
+    "id": 1675,
+    "active": false,
+    "name": "Процесори",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1676,
+    "active": false,
+    "name": "Материнські плати",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1677,
+    "active": false,
+    "name": "SSD диски",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1678,
+    "active": false,
+    "name": "Відеокарти",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1679,
+    "active": false,
+    "name": "Жорсткі диски та контейнери",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1680,
+    "active": false,
+    "name": "Оперативна пам\u0027ять",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1681,
+    "active": false,
+    "name": "Корпуси для ПК",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1682,
+    "active": false,
+    "name": "Блоки живлення для ПК",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1683,
+    "active": false,
+    "name": "Системи охолодження",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1684,
+    "active": false,
+    "name": "Компоненти систем рідинного охолодження",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1685,
+    "active": false,
+    "name": "Геймерські комплектуючі",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1686,
+    "active": false,
+    "name": "Маніпулятори",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1687,
+    "active": false,
+    "name": "Безперебійне живлення",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1688,
+    "active": false,
+    "name": "Мережеві фільтри та подовжувачі",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1689,
+    "active": false,
+    "name": "Кабелі для ПК",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1690,
+    "active": false,
+    "name": "Оптичні приводи",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1691,
+    "active": false,
+    "name": "Накопичувачі інформації",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1692,
+    "active": false,
+    "name": "Серверне обладнання",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1693,
+    "active": false,
+    "name": "Готові ПК",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1694,
+    "active": false,
+    "name": "Кишені, перехідники та док-станції для накопичувачів",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1695,
+    "active": false,
+    "name": "Послуги для ПК",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1696,
+    "active": false,
+    "name": "Звукові плати",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1697,
+    "active": false,
+    "name": "Аксесуари для ПК",
+    "parentId": 1674,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1698,
+    "active": false,
+    "name": "Смартфони та планшети",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/Smartfoni_zvyazok-c297/",
+    "shopId": 8
+  },
+  {
+    "id": 1699,
+    "active": false,
+    "name": "Мобільні телефони",
+    "parentId": 1698,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1700,
+    "active": false,
+    "name": "Планшети",
+    "parentId": 1698,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1701,
+    "active": false,
+    "name": "Електронні книги та аксесуари",
+    "parentId": 1698,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1702,
+    "active": false,
+    "name": "Аксесуари до смартфонів",
+    "parentId": 1698,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1703,
+    "active": false,
+    "name": "Носимі гаджети",
+    "parentId": 1698,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1704,
+    "active": false,
+    "name": "Аксесуари для планшетів",
+    "parentId": 1698,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1705,
+    "active": false,
+    "name": "Apple",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/brand/apple/",
+    "shopId": 8
+  },
+  {
+    "id": 1706,
+    "active": false,
+    "name": "Телевізори і проектори",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/Televizori_ta_proektori-c241/",
+    "shopId": 8
+  },
+  {
+    "id": 1707,
+    "active": false,
+    "name": "Телевізори",
+    "parentId": 1706,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1708,
+    "active": false,
+    "name": "Аксесуари до телевізорів",
+    "parentId": 1706,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1709,
+    "active": false,
+    "name": "Медіаплеєри",
+    "parentId": 1706,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1710,
+    "active": false,
+    "name": "Презентаційне обладнання",
+    "parentId": 1706,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1711,
+    "active": false,
+    "name": "Аудіо",
+    "parentId": 1706,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1712,
+    "active": false,
+    "name": "Фото і відеотехніка",
+    "parentId": 1706,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1713,
+    "active": false,
+    "name": "Аксесуари для фото та відео",
+    "parentId": 1706,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1714,
+    "active": false,
+    "name": "Товари для геймерів",
+    "parentId": 1706,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1715,
+    "active": false,
+    "name": "Все для друку та офісу",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/Vse_dlya_druku-c284/",
+    "shopId": 8
+  },
+  {
+    "id": 1716,
+    "active": false,
+    "name": "Принтери і БФП",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1717,
+    "active": false,
+    "name": "Сканери",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1718,
+    "active": false,
+    "name": "IP-телефони",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1719,
+    "active": false,
+    "name": "Витратні матеріали",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1720,
+    "active": false,
+    "name": "Кабелі для принтерів",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1721,
+    "active": false,
+    "name": "Папір та вироби з паперу",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1722,
+    "active": false,
+    "name": "Презентаційне обладнання",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1723,
+    "active": false,
+    "name": "Телефонія",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1724,
+    "active": false,
+    "name": "Запчастини до картриджів",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1725,
+    "active": false,
+    "name": "Запчастини до оргтехніки",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1726,
+    "active": false,
+    "name": "Обробка документів",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1727,
+    "active": false,
+    "name": "Аксесуари до офісної техніки",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1728,
+    "active": false,
+    "name": "Офісне приладдя",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1729,
+    "active": false,
+    "name": "Офісні меблі",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1730,
+    "active": false,
+    "name": "Приладдя для діловодства",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1731,
+    "active": false,
+    "name": "Письмове приладдя",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1732,
+    "active": false,
+    "name": "Канцтовари",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1733,
+    "active": false,
+    "name": "Системи охорони і безпеки",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1734,
+    "active": false,
+    "name": "3D друк",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1735,
+    "active": false,
+    "name": "Документ камери",
+    "parentId": 1715,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1736,
+    "active": false,
+    "name": "Мережеве обладнання",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/Merezheve_obladnannya-c423/",
+    "shopId": 8
+  },
+  {
+    "id": 1737,
+    "active": false,
+    "name": "Активне мережеве обладнання",
+    "parentId": 1736,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1738,
+    "active": false,
+    "name": "Пасивне мережеве обладнання",
+    "parentId": 1736,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1739,
+    "active": false,
+    "name": "Стаціонарна телефонія",
+    "parentId": 1736,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1740,
+    "active": false,
+    "name": "Серверне обладнання",
+    "parentId": 1736,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1741,
+    "active": false,
+    "name": "Охоронні системи",
+    "parentId": 1736,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1742,
+    "active": false,
+    "name": "Відеоспостереження",
+    "parentId": 1736,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1743,
+    "active": false,
+    "name": "Розумний дім і охорона",
+    "parentId": 1736,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1744,
+    "active": false,
+    "name": "Навушники та акустика",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/Audio-c970/",
+    "shopId": 8
+  },
+  {
+    "id": 1745,
+    "active": false,
+    "name": "Навушники та гарнітури",
+    "parentId": 1744,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1746,
+    "active": false,
+    "name": "Акустичні системи",
+    "parentId": 1744,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1747,
+    "active": false,
+    "name": "Мікрофони",
+    "parentId": 1744,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1748,
+    "active": false,
+    "name": "Портативні радіоприймачі",
+    "parentId": 1744,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1749,
+    "active": false,
+    "name": "Спікерфони",
+    "parentId": 1744,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1750,
+    "active": false,
+    "name": "Мультимедійні кабелі",
+    "parentId": 1744,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1751,
+    "active": false,
+    "name": "Автозвук та мультимедіа",
+    "parentId": 1744,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1752,
+    "active": false,
+    "name": "Підставки для гарнітури",
+    "parentId": 1744,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1753,
+    "active": false,
+    "name": "Кріплення для акустики",
+    "parentId": 1744,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1754,
+    "active": false,
+    "name": "Амбушюри",
+    "parentId": 1744,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1755,
+    "active": false,
+    "name": "Магнітоли",
+    "parentId": 1744,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1756,
+    "active": false,
+    "name": "Диктофони",
+    "parentId": 1744,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1757,
+    "active": false,
+    "name": "Чохли для навушників",
+    "parentId": 1744,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1758,
+    "active": false,
+    "name": "Мікшерні пульти",
+    "parentId": 1744,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1759,
+    "active": false,
+    "name": "Системи відеоконференції",
+    "parentId": 1744,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1760,
+    "active": false,
+    "name": "Стереопідсилювачі",
+    "parentId": 1744,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1761,
+    "active": false,
+    "name": "Гаджети, фото і відео",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/Gadzheti-c358/",
+    "shopId": 8
+  },
+  {
+    "id": 1762,
+    "active": false,
+    "name": "Фотоапарати",
+    "parentId": 1761,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1763,
+    "active": false,
+    "name": "Екшн камери",
+    "parentId": 1761,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1764,
+    "active": false,
+    "name": "Аксесуари до екшн-камери",
+    "parentId": 1761,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1765,
+    "active": false,
+    "name": "Все для фото",
+    "parentId": 1761,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1766,
+    "active": false,
+    "name": "Носимі гаджети",
+    "parentId": 1761,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1767,
+    "active": false,
+    "name": "Відеокамери",
+    "parentId": 1761,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1768,
+    "active": false,
+    "name": "Відеорекордери",
+    "parentId": 1761,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1769,
+    "active": false,
+    "name": "Електроживлення",
+    "parentId": 1761,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1770,
+    "active": false,
+    "name": "Дрони та коптери",
+    "parentId": 1761,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1771,
+    "active": false,
+    "name": "Окуляри для комп\u0027ютера",
+    "parentId": 1761,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1772,
+    "active": false,
+    "name": "Пошукові системи і аксесуари",
+    "parentId": 1761,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1773,
+    "active": false,
+    "name": "Електротранспорт",
+    "parentId": 1761,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1774,
+    "active": false,
+    "name": "Товари для геймерів",
+    "parentId": 1761,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1775,
+    "active": false,
+    "name": "Розумні гаджети",
+    "parentId": 1761,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1776,
+    "active": false,
+    "name": "Рюкзаки туристичні",
+    "parentId": 1761,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1777,
+    "active": false,
+    "name": "Камери миттєвого друку",
+    "parentId": 1761,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1778,
+    "active": false,
+    "name": "Побутова техніка",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/Pobutova_tehnika-c895/",
+    "shopId": 8
+  },
+  {
+    "id": 1779,
+    "active": false,
+    "name": "Велика побутова техніка",
+    "parentId": 1778,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1780,
+    "active": false,
+    "name": "Вбудована техніка",
+    "parentId": 1778,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1781,
+    "active": false,
+    "name": "Техніка для кухні",
+    "parentId": 1778,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1782,
+    "active": false,
+    "name": "Кліматична техніка",
+    "parentId": 1778,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1783,
+    "active": false,
+    "name": "Прибирання та догляд",
+    "parentId": 1778,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1784,
+    "active": false,
+    "name": "Для краси та догляду",
+    "parentId": 1778,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1785,
+    "active": false,
+    "name": "Аксесуари до побутоваої техніки",
+    "parentId": 1778,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1786,
+    "active": false,
+    "name": "Товари для дітей",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/Tovari_dlya_ditey-c1184/",
+    "shopId": 8
+  },
+  {
+    "id": 1787,
+    "active": false,
+    "name": "Іграшки",
+    "parentId": 1786,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1788,
+    "active": false,
+    "name": "Підгузки і пелюшки",
+    "parentId": 1786,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1789,
+    "active": false,
+    "name": "Прогулянка та відпочинок",
+    "parentId": 1786,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1790,
+    "active": false,
+    "name": "Дитяча кімната",
+    "parentId": 1786,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1791,
+    "active": false,
+    "name": "Автокрісла і аксесуари",
+    "parentId": 1786,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1792,
+    "active": false,
+    "name": "Творчість",
+    "parentId": 1786,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1793,
+    "active": false,
+    "name": "Машинки та спецтехніка",
+    "parentId": 1786,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1794,
+    "active": false,
+    "name": "Товари для школи",
+    "parentId": 1786,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1795,
+    "active": false,
+    "name": "Іграшки для малюків",
+    "parentId": 1786,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1796,
+    "active": false,
+    "name": "Гігієна, догляд і купання",
+    "parentId": 1786,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1797,
+    "active": false,
+    "name": "Все для годування",
+    "parentId": 1786,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1798,
+    "active": false,
+    "name": "Коляски та аксесуари",
+    "parentId": 1786,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1799,
+    "active": false,
+    "name": "Товари для мам",
+    "parentId": 1786,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1800,
+    "active": false,
+    "name": "Дитяче харчування",
+    "parentId": 1786,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1801,
+    "active": false,
+    "name": "Дитячий одяг",
+    "parentId": 1786,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1802,
+    "active": false,
+    "name": "Настінний декор",
+    "parentId": 1786,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1803,
+    "active": false,
+    "name": "Дитячі аксесуари і біжутерія",
+    "parentId": 1786,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1804,
+    "active": false,
+    "name": "Розумний дім та охорона",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/Ohoronni_sistemi-c519/",
+    "shopId": 8
+  },
+  {
+    "id": 1805,
+    "active": false,
+    "name": "Охорона дому",
+    "parentId": 1804,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1806,
+    "active": false,
+    "name": "Відеоспостереження",
+    "parentId": 1804,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1807,
+    "active": false,
+    "name": "Розумне освітлення",
+    "parentId": 1804,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1808,
+    "active": false,
+    "name": "Керування електроприладами",
+    "parentId": 1804,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1809,
+    "active": false,
+    "name": "Альтернативні джерела енергії",
+    "parentId": 1804,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1810,
+    "active": false,
+    "name": "Розумна кухня",
+    "parentId": 1804,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1811,
+    "active": false,
+    "name": "Розумна побутова техніка",
+    "parentId": 1804,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1812,
+    "active": false,
+    "name": "Мультимедіа",
+    "parentId": 1804,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1813,
+    "active": false,
+    "name": "Розумні гаджети",
+    "parentId": 1804,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1814,
+    "active": false,
+    "name": "Електротранспорт",
+    "parentId": 1804,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1815,
+    "active": false,
+    "name": "Інструменти",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/instrumenti-c827/",
+    "shopId": 8
+  },
+  {
+    "id": 1816,
+    "active": false,
+    "name": "Ручний інструмент",
+    "parentId": 1815,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1817,
+    "active": false,
+    "name": "Електро, бензо інструмент",
+    "parentId": 1815,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1818,
+    "active": false,
+    "name": "Витратні матеріали до інструментів",
+    "parentId": 1815,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1819,
+    "active": false,
+    "name": "Вимірювально-розмічувальний інструмент",
+    "parentId": 1815,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1820,
+    "active": false,
+    "name": "Генератори",
+    "parentId": 1815,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1821,
+    "active": false,
+    "name": "Ящики та органайзери для інструментів",
+    "parentId": 1815,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1822,
+    "active": false,
+    "name": "Паяльне обладнання",
+    "parentId": 1815,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1823,
+    "active": false,
+    "name": "Зварювальне обладнання",
+    "parentId": 1815,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1824,
+    "active": false,
+    "name": "Пневматичне обладнання",
+    "parentId": 1815,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1825,
+    "active": false,
+    "name": "Садова техніка",
+    "parentId": 1815,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1826,
+    "active": false,
+    "name": "Товари для будівництва та ремонту",
+    "parentId": 1815,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1827,
+    "active": false,
+    "name": "Верстати та промислове обладнання",
+    "parentId": 1815,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1828,
+    "active": false,
+    "name": "Побутові газові балони та комплекти для підключення",
+    "parentId": 1815,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1829,
+    "active": false,
+    "name": "Спецодяг та ЗІЗ",
+    "parentId": 1815,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1830,
+    "active": false,
+    "name": "Спорт, туризм та захоплення",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/Sport_i_zahoplennya-c1409/",
+    "shopId": 8
+  },
+  {
+    "id": 1831,
+    "active": false,
+    "name": "Туризм та кемпінг",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1832,
+    "active": false,
+    "name": "Велосипеди та аксесуари",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1833,
+    "active": false,
+    "name": "Велозапчастини та інструмент",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1834,
+    "active": false,
+    "name": "Тренажери",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1835,
+    "active": false,
+    "name": "Тактичне спорядження",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1836,
+    "active": false,
+    "name": "Електротранспорт",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1837,
+    "active": false,
+    "name": "Спортивна зброя",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1838,
+    "active": false,
+    "name": "Квадрокоптери та аксесуари",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1839,
+    "active": false,
+    "name": "Аксесуари для фітнесу",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1840,
+    "active": false,
+    "name": "Гантелі, гирі, штанги",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1841,
+    "active": false,
+    "name": "Товари для єдиноборств",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1842,
+    "active": false,
+    "name": "БАДи та харчові добавки",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1843,
+    "active": false,
+    "name": "Активний відпочинок",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1844,
+    "active": false,
+    "name": "Термоодяг і обігрів",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1845,
+    "active": false,
+    "name": "Риболовля",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1846,
+    "active": false,
+    "name": "Металошукачі та аксесуари",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1847,
+    "active": false,
+    "name": "Оптичні прилади",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1848,
+    "active": false,
+    "name": "Ортопедичні товари",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1849,
+    "active": false,
+    "name": "Батути",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1850,
+    "active": false,
+    "name": "Носима електроніка для спорту та фітнесу",
+    "parentId": 1830,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1851,
+    "active": false,
+    "name": "VINGA",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/search/?Search\u003dvinga",
+    "shopId": 8
+  },
+  {
+    "id": 1852,
+    "active": false,
+    "name": "Дім, краса та здоров\u0027я",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/Tovari_dlya_domu_ta_sadu-c1687/",
+    "shopId": 8
+  },
+  {
+    "id": 1853,
+    "active": false,
+    "name": "Домашній текстиль",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1854,
+    "active": false,
+    "name": "Посуд та аксесуари",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1855,
+    "active": false,
+    "name": "Дитяча кімната",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1856,
+    "active": false,
+    "name": "Охорона дому",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1857,
+    "active": false,
+    "name": "Відеоспостереження",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1858,
+    "active": false,
+    "name": "Освітлення",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1859,
+    "active": false,
+    "name": "Альтернативна енергетика",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1860,
+    "active": false,
+    "name": "Електрика",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1861,
+    "active": false,
+    "name": "Побутова хімія та господарські товари",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1862,
+    "active": false,
+    "name": "Краса і здоров\u0027я",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1863,
+    "active": false,
+    "name": "Сантехніка",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1864,
+    "active": false,
+    "name": "Зоотовари",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1865,
+    "active": false,
+    "name": "Продукти харчування",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1866,
+    "active": false,
+    "name": "Меблі",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1867,
+    "active": false,
+    "name": "Інструменти та обладнання",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1868,
+    "active": false,
+    "name": "Ялинки і прикраси",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1869,
+    "active": false,
+    "name": "Книги та комікси",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1870,
+    "active": false,
+    "name": "Скретч постери",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1871,
+    "active": false,
+    "name": "Буржуйки",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1872,
+    "active": false,
+    "name": "Годинники",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1873,
+    "active": false,
+    "name": "Зарядні станції",
+    "parentId": 1852,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1874,
+    "active": false,
+    "name": "Аксесуари до електроніки",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/Manipulyatory-c1547/",
+    "shopId": 8
+  },
+  {
+    "id": 1875,
+    "active": false,
+    "name": "Мишки",
+    "parentId": 1874,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1876,
+    "active": false,
+    "name": "Клавіатури",
+    "parentId": 1874,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1877,
+    "active": false,
+    "name": "Комплекти клавіатури і миші",
+    "parentId": 1874,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1878,
+    "active": false,
+    "name": "Ігрові маніпулятори",
+    "parentId": 1874,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1879,
+    "active": false,
+    "name": "Килимки та поверхні",
+    "parentId": 1874,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1880,
+    "active": false,
+    "name": "Трекпади",
+    "parentId": 1874,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1881,
+    "active": false,
+    "name": "Графічні планшети",
+    "parentId": 1874,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1882,
+    "active": false,
+    "name": "Планшет-монітори",
+    "parentId": 1874,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1883,
+    "active": false,
+    "name": "Наклейки на клавіатуру",
+    "parentId": 1874,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1884,
+    "active": false,
+    "name": "Пера для планшетів",
+    "parentId": 1874,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1885,
+    "active": false,
+    "name": "Геймінг і кіберспорт",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/Komplektuyuchi_do_PK-c204/",
+    "shopId": 8
+  },
+  {
+    "id": 1886,
+    "active": false,
+    "name": "Процесори",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1887,
+    "active": false,
+    "name": "Материнські плати",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1888,
+    "active": false,
+    "name": "SSD диски",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1889,
+    "active": false,
+    "name": "Відеокарти",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1890,
+    "active": false,
+    "name": "Жорсткі диски та контейнери",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1891,
+    "active": false,
+    "name": "Оперативна пам\u0027ять",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1892,
+    "active": false,
+    "name": "Корпуси для ПК",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1893,
+    "active": false,
+    "name": "Блоки живлення для ПК",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1894,
+    "active": false,
+    "name": "Системи охолодження",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1895,
+    "active": false,
+    "name": "Компоненти систем рідинного охолодження",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1896,
+    "active": false,
+    "name": "Геймерські комплектуючі",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1897,
+    "active": false,
+    "name": "Маніпулятори",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1898,
+    "active": false,
+    "name": "Безперебійне живлення",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1899,
+    "active": false,
+    "name": "Мережеві фільтри та подовжувачі",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1900,
+    "active": false,
+    "name": "Кабелі для ПК",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1901,
+    "active": false,
+    "name": "Оптичні приводи",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1902,
+    "active": false,
+    "name": "Накопичувачі інформації",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1903,
+    "active": false,
+    "name": "Серверне обладнання",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1904,
+    "active": false,
+    "name": "Готові ПК",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1905,
+    "active": false,
+    "name": "Кишені, перехідники та док-станції для накопичувачів",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1906,
+    "active": false,
+    "name": "Послуги для ПК",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1907,
+    "active": false,
+    "name": "Звукові плати",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1908,
+    "active": false,
+    "name": "Аксесуари для ПК",
+    "parentId": 1885,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1909,
+    "active": false,
+    "name": "Зоотовари",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/Zootovari-c3157/",
+    "shopId": 8
+  },
+  {
+    "id": 1910,
+    "active": false,
+    "name": "Корм для тварин",
+    "parentId": 1909,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1911,
+    "active": false,
+    "name": "Туалети та наповнювачі",
+    "parentId": 1909,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1912,
+    "active": false,
+    "name": "Догляд та гігієна",
+    "parentId": 1909,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1913,
+    "active": false,
+    "name": "Спальні місця та переноски",
+    "parentId": 1909,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1914,
+    "active": false,
+    "name": "Посуд та аксесуари для тварин",
+    "parentId": 1909,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1915,
+    "active": false,
+    "name": "Іграшки для тварин",
+    "parentId": 1909,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1916,
+    "active": false,
+    "name": "Інструменти для грумінгу",
+    "parentId": 1909,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1917,
+    "active": false,
+    "name": "Амуніція та аксесуари для тварин",
+    "parentId": 1909,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1918,
+    "active": false,
+    "name": "Акваріумістика",
+    "parentId": 1909,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1919,
+    "active": false,
+    "name": "Клітки та аксесуари",
+    "parentId": 1909,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1920,
+    "active": false,
+    "name": "Аксесуари та одяг для тварин",
+    "parentId": 1909,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1921,
+    "active": false,
+    "name": "Тераріуми та аксесуари",
+    "parentId": 1909,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1922,
+    "active": false,
+    "name": "Творчість, дозвілля, свята",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://brain.com.ua/ukr/Tvorchist_dozvillya_svyata-c4023/",
+    "shopId": 8
+  },
+  {
+    "id": 1923,
+    "active": false,
+    "name": "Електронні книги та аксесуари",
+    "parentId": 1922,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1924,
+    "active": false,
+    "name": "Рукоділля та творчість",
+    "parentId": 1922,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1925,
+    "active": false,
+    "name": "Товари для свят",
+    "parentId": 1922,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1926,
+    "active": false,
+    "name": "Настільні ігри та аксесуари",
+    "parentId": 1922,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1927,
+    "active": false,
+    "name": "Товари для геймерів",
+    "parentId": 1922,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1928,
+    "active": false,
+    "name": "Аудіотехніка",
+    "parentId": 1922,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1929,
+    "active": false,
+    "name": "Активний відпочинок",
+    "parentId": 1922,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1930,
+    "active": false,
+    "name": "Набори для блогерів",
+    "parentId": 1922,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1931,
+    "active": false,
+    "name": "Окуляри віртуальної реальності",
+    "parentId": 1922,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1932,
+    "active": false,
+    "name": "Конструктори для підлітків та дорослих",
+    "parentId": 1922,
+    "rootCategory": false,
+    "url": "",
+    "shopId": 8
+  },
+  {
+    "id": 1933,
+    "active": false,
+    "name": "Всі категорії",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "/ukr/catalog/",
+    "shopId": 8
+  }
+]

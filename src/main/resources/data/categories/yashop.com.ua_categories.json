@@ -1,0 +1,659 @@
+[
+  {
+    "id": 1582,
+    "active": false,
+    "name": "Запчасти",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/zapchastini/",
+    "shopId": 7
+  },
+  {
+    "id": 1583,
+    "active": false,
+    "name": "Аккумуляторы",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/akumulyatori/",
+    "shopId": 7
+  },
+  {
+    "id": 1584,
+    "active": false,
+    "name": "Дисплеи",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/displei/",
+    "shopId": 7
+  },
+  {
+    "id": 1585,
+    "active": false,
+    "name": "Шлейфы",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/shleyfi/",
+    "shopId": 7
+  },
+  {
+    "id": 1586,
+    "active": false,
+    "name": "Нижние платы",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/nizhni-plati/",
+    "shopId": 7
+  },
+  {
+    "id": 1587,
+    "active": false,
+    "name": "Динамики и звонки",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/test-1/",
+    "shopId": 7
+  },
+  {
+    "id": 1588,
+    "active": false,
+    "name": "Коаксиальные кабеля",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/test-2/",
+    "shopId": 7
+  },
+  {
+    "id": 1589,
+    "active": false,
+    "name": "Камеры",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/kamery/",
+    "shopId": 7
+  },
+  {
+    "id": 1590,
+    "active": false,
+    "name": "Микросхемы",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/mikroskhemy/",
+    "shopId": 7
+  },
+  {
+    "id": 1591,
+    "active": false,
+    "name": "Микрофоны",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/mikrofony/",
+    "shopId": 7
+  },
+  {
+    "id": 1592,
+    "active": false,
+    "name": "Сенсора",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/sensora/",
+    "shopId": 7
+  },
+  {
+    "id": 1593,
+    "active": false,
+    "name": "Разъемы зарядки",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/roziemy-zariadky/",
+    "shopId": 7
+  },
+  {
+    "id": 1594,
+    "active": false,
+    "name": "Держатели SIM-карты",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/trymachi-sim-kartky/",
+    "shopId": 7
+  },
+  {
+    "id": 1595,
+    "active": false,
+    "name": "Стекла камеры",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/sklo-kamery/",
+    "shopId": 7
+  },
+  {
+    "id": 1596,
+    "active": false,
+    "name": "Разъемы SIM-карты",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/roziem-sim-karty/",
+    "shopId": 7
+  },
+  {
+    "id": 1597,
+    "active": false,
+    "name": "Вибромоторы",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/vibromotory/",
+    "shopId": 7
+  },
+  {
+    "id": 1598,
+    "active": false,
+    "name": "Винты",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/hvynty/",
+    "shopId": 7
+  },
+  {
+    "id": 1599,
+    "active": false,
+    "name": "Форменый скотч",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/formenyi-skotch/",
+    "shopId": 7
+  },
+  {
+    "id": 1600,
+    "active": false,
+    "name": "Задние крышки",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/zadni-kryshky/",
+    "shopId": 7
+  },
+  {
+    "id": 1601,
+    "active": false,
+    "name": "Внешние корпусные части",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/zovnishni-korpusni-chastyny/",
+    "shopId": 7
+  },
+  {
+    "id": 1602,
+    "active": false,
+    "name": "Заглушки",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/zahlushky/",
+    "shopId": 7
+  },
+  {
+    "id": 1603,
+    "active": false,
+    "name": "Корпуса",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/korpusy/",
+    "shopId": 7
+  },
+  {
+    "id": 1604,
+    "active": false,
+    "name": "Подсветки",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/pidsvitky/",
+    "shopId": 7
+  },
+  {
+    "id": 1605,
+    "active": false,
+    "name": "Пылезащитные сетки",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/pylozakhysni-sitky/",
+    "shopId": 7
+  },
+  {
+    "id": 1606,
+    "active": false,
+    "name": "Рамки дисплея",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/ramky-dyspleia/",
+    "shopId": 7
+  },
+  {
+    "id": 1607,
+    "active": false,
+    "name": "Средние части корпуса",
+    "parentId": 1582,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/seredni-chastyny-korpusu/",
+    "shopId": 7
+  },
+  {
+    "id": 1608,
+    "active": false,
+    "name": "Аксессуары для гаджетов",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/aksesuary-dlia-hadzhetiv/",
+    "shopId": 7
+  },
+  {
+    "id": 1609,
+    "active": false,
+    "name": "Портативные батареи",
+    "parentId": 1608,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/portatyvni-batarei/",
+    "shopId": 7
+  },
+  {
+    "id": 1610,
+    "active": false,
+    "name": "Защитные стекла",
+    "parentId": 1608,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/zakhyst-yekranu/",
+    "shopId": 7
+  },
+  {
+    "id": 1611,
+    "active": false,
+    "name": "Зарядные устройства",
+    "parentId": 1608,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/zariadni-prystroi/",
+    "shopId": 7
+  },
+  {
+    "id": 1612,
+    "active": false,
+    "name": "Аксессуары для фото и селфи",
+    "parentId": 1608,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/aksesuary-dlia-foto-ta-selfi/",
+    "shopId": 7
+  },
+  {
+    "id": 1613,
+    "active": false,
+    "name": "Стилусы",
+    "parentId": 1608,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/stylusy/",
+    "shopId": 7
+  },
+  {
+    "id": 1614,
+    "active": false,
+    "name": "Кабели",
+    "parentId": 1608,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/kabeli/",
+    "shopId": 7
+  },
+  {
+    "id": 1615,
+    "active": false,
+    "name": "Чехлы",
+    "parentId": 1608,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/chokhly/",
+    "shopId": 7
+  },
+  {
+    "id": 1616,
+    "active": false,
+    "name": "Аксессуары для гейминга",
+    "parentId": 1608,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/aksesuary-dlia-heiminhu/",
+    "shopId": 7
+  },
+  {
+    "id": 1617,
+    "active": false,
+    "name": "Наушники",
+    "parentId": 1608,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/navushnyky/",
+    "shopId": 7
+  },
+  {
+    "id": 1618,
+    "active": false,
+    "name": "Колонки",
+    "parentId": 1608,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/kolonky/",
+    "shopId": 7
+  },
+  {
+    "id": 1619,
+    "active": false,
+    "name": "Хабы и переходники",
+    "parentId": 1608,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/khaby-ta-perekhidnyky/",
+    "shopId": 7
+  },
+  {
+    "id": 1620,
+    "active": false,
+    "name": "Карты памяти",
+    "parentId": 1608,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/karty-pamiati/",
+    "shopId": 7
+  },
+  {
+    "id": 1621,
+    "active": false,
+    "name": "Ремешки для смарт часов",
+    "parentId": 1608,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/remintsi-dlia-smart-hodynnykiv/",
+    "shopId": 7
+  },
+  {
+    "id": 1622,
+    "active": false,
+    "name": "Держатели",
+    "parentId": 1608,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/trymachi/",
+    "shopId": 7
+  },
+  {
+    "id": 1623,
+    "active": false,
+    "name": "Флеш накопители",
+    "parentId": 1608,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/flesh-nakopychuvachi/",
+    "shopId": 7
+  },
+  {
+    "id": 1624,
+    "active": false,
+    "name": "Автотовары",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/avtotovary/",
+    "shopId": 7
+  },
+  {
+    "id": 1625,
+    "active": false,
+    "name": "Автодержатели",
+    "parentId": 1624,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/avtotrymachi/",
+    "shopId": 7
+  },
+  {
+    "id": 1626,
+    "active": false,
+    "name": "Ароматизаторы и освежители",
+    "parentId": 1624,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/aromatyzatory/",
+    "shopId": 7
+  },
+  {
+    "id": 1627,
+    "active": false,
+    "name": "Автомобильные зарядные устройства",
+    "parentId": 1624,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/zariadni-prystroi/1177/",
+    "shopId": 7
+  },
+  {
+    "id": 1628,
+    "active": false,
+    "name": "FM-трансмиттер",
+    "parentId": 1624,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/fm-transmiter/",
+    "shopId": 7
+  },
+  {
+    "id": 1629,
+    "active": false,
+    "name": "Парковочные карты",
+    "parentId": 1624,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/parkuvalni-karty/",
+    "shopId": 7
+  },
+  {
+    "id": 1630,
+    "active": false,
+    "name": "Пуско-зарядные устройства",
+    "parentId": 1624,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/pusko-zariadni-prystroi/",
+    "shopId": 7
+  },
+  {
+    "id": 1631,
+    "active": false,
+    "name": "Видеорегистраторы",
+    "parentId": 1624,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/videoreiestratory/",
+    "shopId": 7
+  },
+  {
+    "id": 1632,
+    "active": false,
+    "name": "Мойка и чистка автомобиля",
+    "parentId": 1624,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/avtomobilni-pylososy/",
+    "shopId": 7
+  },
+  {
+    "id": 1633,
+    "active": false,
+    "name": "Насосы",
+    "parentId": 1624,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/nasosy/",
+    "shopId": 7
+  },
+  {
+    "id": 1634,
+    "active": false,
+    "name": "Органайзеры",
+    "parentId": 1624,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/orhanizatory/",
+    "shopId": 7
+  },
+  {
+    "id": 1635,
+    "active": false,
+    "name": "Прочие",
+    "parentId": 1624,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/inshe/1182/",
+    "shopId": 7
+  },
+  {
+    "id": 1636,
+    "active": false,
+    "name": "Инверторы",
+    "parentId": 1624,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/invertory/",
+    "shopId": 7
+  },
+  {
+    "id": 1637,
+    "active": false,
+    "name": "Все для пайки",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/vse-dlia-paiannia/",
+    "shopId": 7
+  },
+  {
+    "id": 1638,
+    "active": false,
+    "name": "Инструменты",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/instrumenty/",
+    "shopId": 7
+  },
+  {
+    "id": 1639,
+    "active": false,
+    "name": "Химия и расходные материалы",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/khimiia-ta-vytratni-materialy/",
+    "shopId": 7
+  },
+  {
+    "id": 1640,
+    "active": false,
+    "name": "Скотч",
+    "parentId": 1639,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/skotch/",
+    "shopId": 7
+  },
+  {
+    "id": 1641,
+    "active": false,
+    "name": "Клей",
+    "parentId": 1639,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/klei/",
+    "shopId": 7
+  },
+  {
+    "id": 1642,
+    "active": false,
+    "name": "Растворители и очистители",
+    "parentId": 1639,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/rozchynnyky/",
+    "shopId": 7
+  },
+  {
+    "id": 1643,
+    "active": false,
+    "name": "Токопроводящая паста",
+    "parentId": 1639,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/strumoprovidna-pasta/",
+    "shopId": 7
+  },
+  {
+    "id": 1644,
+    "active": false,
+    "name": "Жидкости для ультразвуковых ванн",
+    "parentId": 1639,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/ridyny-dlia-ultrazvukovykh-vann/",
+    "shopId": 7
+  },
+  {
+    "id": 1645,
+    "active": false,
+    "name": "Термоусадочные трубки",
+    "parentId": 1639,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/termousadochni-trubky/",
+    "shopId": 7
+  },
+  {
+    "id": 1646,
+    "active": false,
+    "name": "Термопаста",
+    "parentId": 1639,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/termopasta/",
+    "shopId": 7
+  },
+  {
+    "id": 1647,
+    "active": false,
+    "name": "Лабораторные блоки питания",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/laboratorni-bloky-zhyvlennia/",
+    "shopId": 7
+  },
+  {
+    "id": 1648,
+    "active": false,
+    "name": "Зарядные станции",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/zariadni-stantsii/",
+    "shopId": 7
+  },
+  {
+    "id": 1649,
+    "active": false,
+    "name": "Платы активации",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/platy-aktyvatsii/",
+    "shopId": 7
+  },
+  {
+    "id": 1650,
+    "active": false,
+    "name": "Ультразвуковые ванны",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/ultrazvukovi-vanny/",
+    "shopId": 7
+  },
+  {
+    "id": 1651,
+    "active": false,
+    "name": "Оптические приборы",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/optychni-prylady/",
+    "shopId": 7
+  },
+  {
+    "id": 1652,
+    "active": false,
+    "name": "Оборудование и расходные материалы для ремонта дисплеев",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/obladnannia-ta-vytratni-materialy-dlia-remontu-dyspleiv/",
+    "shopId": 7
+  },
+  {
+    "id": 1653,
+    "active": false,
+    "name": "Измерительные приборы",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/vymiriuvalni-prylady/",
+    "shopId": 7
+  },
+  {
+    "id": 1654,
+    "active": false,
+    "name": "Освещение",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://yashop.com.ua/ru/osvitlennia/",
+    "shopId": 7
+  }
+]
