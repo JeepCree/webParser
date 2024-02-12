@@ -368,6 +368,7 @@ public class CategoriesController {
 //            new Thread(() -> productService.saveScanProducts(id)).start();
             productService.saveScanProducts(id);
         }
+        System.out.println("Shop is update!");
     }
     @GetMapping("/run-for-shop")
     @ResponseBody

@@ -115,6 +115,7 @@ public class ProductController {
     @ResponseBody
     public void saveScanProducts(Long categoryId){
             productService.saveScanProducts(categoryId);
+        System.out.println("Category is update!");
     }
 
     @PostMapping("/full-edit-product")
