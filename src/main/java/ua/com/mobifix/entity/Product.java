@@ -24,6 +24,7 @@ public class Product {
     private String link;
     @Column(unique = true, length = 128)
     private String linkSha3;
+    @Column(length = 1024)
     private String imageLink;
 //    @Column(nullable = false)
     private Long shopId;

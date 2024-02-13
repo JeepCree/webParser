@@ -28,8 +28,10 @@ public class ProductService {
         // Найти товар по ссылке
 //        Optional<Product> existingProductOptional = productRepository.findByLink(product.getLink());
 
-        Optional<Product> existingProductOptional = productRepository.findByLinkSha3(SHA3.generateSHA3Hash(product.getLink()));
+    Optional<Product> existingProductOptional = productRepository.findByLinkSha3(SHA3.generateSHA3Hash(product.getLink()));
 //        Product existingProduct = productRepository.findAllByShopIdAndCategoriesInAndLink(product.getShopId(), product.getCategories(), product.getLink());
+
+
 
         // Если товар найден, выполнить обновление
         if (existingProductOptional.isPresent()) {
