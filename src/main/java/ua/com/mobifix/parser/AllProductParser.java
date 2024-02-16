@@ -109,7 +109,13 @@ public class AllProductParser extends CategoryParser {
                         if (price.equals("")){
                             price = "0";
                         }
-                        product.setPrice(Double.parseDouble(price));
+                        try {
+                            product.setPrice(Double.parseDouble(price));
+                        } catch (Exception e){
+                            System.out.println("Ошибка записи цены. Обновлена на 0.0");
+                            product.setPrice(0.0);
+                        }
+
                         product.setCategories(categoryId);
                         product.setShopId(settings.getIdShop());
                         productList.add(product);

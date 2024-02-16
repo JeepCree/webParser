@@ -37,6 +37,9 @@ public class CategoryParser {
                 if(parts[1].equals("empty_replacement")){
                     parts[1] = "";
                 }
+                if(parts[0].equals("empty_replacement")){
+                    parts[0] = "";
+                }
                 map.put(parts[0], parts[1]);
             }
         }
@@ -66,7 +69,7 @@ public class CategoryParser {
 
                 String name = element.select(settings.getSelectCategoryNameTag()).text();
                 for (Map.Entry<String, String> entry : parseStringToMap(settings.getReplaceCategoryName()).entrySet()) {
-                    name.replace(entry.getKey(), entry.getValue()).trim();
+                    name = name.replace(entry.getKey(), entry.getValue()).trim();
                 }
                 boolean bool1 = false;
                 for(String string : parseStringToList(settings.getNoScanCategoryList())){
@@ -80,7 +83,7 @@ public class CategoryParser {
 
                 String link = (settings.getUrlCategoryPrefix() + element.select(settings.getSelectCategoryNameTag()).attr(settings.getSelectCategoryAttrHref()));
                 for (Map.Entry<String, String> entry : parseStringToMap(settings.getReplaceCategoryUrl()).entrySet()) {
-                    link.replace(entry.getKey(), entry.getValue()).trim();
+                    link = link.replace(entry.getKey(), entry.getValue()).trim();
                 }
 
                 if (!link.isEmpty() || !name.isEmpty()) {
@@ -110,7 +113,10 @@ public class CategoryParser {
                         for (Element element2 : elements2) {
                             String name2 = element2.select(settings.getSelectCategoryNameTagLevel2()).text();
                             for (Map.Entry<String, String> entry : parseStringToMap(settings.getReplaceCategoryNameLevel2()).entrySet()) {
-                                name2.replace(entry.getKey(), entry.getValue()).trim();
+
+                                name2 = name2.replace(entry.getKey(), entry.getValue()).trim();
+//
+
                             }
                             boolean bool2 = false;
                             for(String string : parseStringToList(settings.getNoScanCategoryList())){
@@ -123,7 +129,7 @@ public class CategoryParser {
                             }
                             String link2 = (settings.getUrlCategoryPrefixLevel2() + element2.select(settings.getSelectCategoryNameTagLevel2()).attr(settings.getSelectCategoryAttrHrefLevel2()));
                             for (Map.Entry<String, String> entry : parseStringToMap(settings.getReplaceCategoryUrlLevel2()).entrySet()) {
-                                link2.replace(entry.getKey(), entry.getValue()).trim();
+                                link2 = link2.replace(entry.getKey(), entry.getValue()).trim();
                             }
 
                             if (!link2.isEmpty() || !name2.isEmpty()) {
@@ -152,7 +158,7 @@ public class CategoryParser {
                                     for (Element element3 : elements3) {
                                         String name3 = element3.select(settings.getSelectCategoryNameTagLevel3()).text();
                                         for (Map.Entry<String, String> entry : parseStringToMap(settings.getReplaceCategoryNameLevel3()).entrySet()) {
-                                            name3.replace(entry.getKey(), entry.getValue()).trim();
+                                            name3 = name3.replace(entry.getKey(), entry.getValue()).trim();
                                         }
                                         boolean bool3 = false;
                                         for(String string : parseStringToList(settings.getNoScanCategoryList())){
@@ -165,7 +171,7 @@ public class CategoryParser {
                                         }
                                         String link3 = (settings.getUrlCategoryPrefixLevel3() + element3.select(settings.getSelectCategoryNameTagLevel3()).attr(settings.getSelectCategoryAttrHrefLevel3()));
                                         for (Map.Entry<String, String> entry : parseStringToMap(settings.getReplaceCategoryUrlLevel3()).entrySet()) {
-                                            link3.replace(entry.getKey(), entry.getValue()).trim();
+                                            link3 = link3.replace(entry.getKey(), entry.getValue()).trim();
                                         }
                                         if (!link3.isEmpty() || !name3.isEmpty()) {
                                             Categories category3 = new Categories();
@@ -193,7 +199,7 @@ public class CategoryParser {
                                                 for (Element element4 : elements4) {
                                                     String name4 = element4.select(settings.getSelectCategoryNameTagLevel4()).text();
                                                     for (Map.Entry<String, String> entry : parseStringToMap(settings.getReplaceCategoryNameLevel4()).entrySet()) {
-                                                        name4.replace(entry.getKey(), entry.getValue()).trim();
+                                                        name4 = name4.replace(entry.getKey(), entry.getValue()).trim();
                                                     }
 
                                                     boolean bool4 = false;
@@ -207,7 +213,7 @@ public class CategoryParser {
                                                     }
                                                     String link4 = (settings.getUrlCategoryPrefixLevel4() + element4.select(settings.getSelectCategoryNameTagLevel4()).attr(settings.getSelectCategoryAttrHrefLevel4()));
                                                     for (Map.Entry<String, String> entry : parseStringToMap(settings.getReplaceCategoryUrlLevel4()).entrySet()) {
-                                                        link4.replace(entry.getKey(), entry.getValue()).trim();
+                                                        link4 = link4.replace(entry.getKey(), entry.getValue()).trim();
                                                     }
                                                     if (!link4.isEmpty() || !name4.isEmpty()) {
                                                         Categories category4 = new Categories();
@@ -229,7 +235,7 @@ public class CategoryParser {
                                                             for (Element element5 : elements5) {
                                                                 String name5 = element5.select(settings.getSelectCategoryNameTagLevel5()).text();
                                                                 for (Map.Entry<String, String> entry : parseStringToMap(settings.getReplaceCategoryNameLevel5()).entrySet()) {
-                                                                    name5.replace(entry.getKey(), entry.getValue()).trim();
+                                                                    name5 = name5.replace(entry.getKey(), entry.getValue()).trim();
                                                                 }
 
                                                                 boolean bool5 = false;
@@ -243,7 +249,7 @@ public class CategoryParser {
                                                                 }
                                                                 String link5 = (settings.getUrlCategoryPrefixLevel5() + element5.select(settings.getSelectCategoryNameTagLevel5()).attr(settings.getSelectCategoryAttrHrefLevel5()));
                                                                 for (Map.Entry<String, String> entry : parseStringToMap(settings.getReplaceCategoryUrlLevel5()).entrySet()) {
-                                                                    link5.replace(entry.getKey(), entry.getValue()).trim();
+                                                                    link5 = link5.replace(entry.getKey(), entry.getValue()).trim();
                                                                 }
 
                                                                 if (!link5.isEmpty() || !name5.isEmpty()) {
