@@ -88,17 +88,23 @@ public class AllProductParser extends CategoryParser {
                             stock = stCont.getValue();
                             }
                         }
-
-
-                    String price = element.select(settings.getSelectProductsPriceTag()).text();
-                    for (Map.Entry<String, String> pr : parseStringToMap(settings.getReplaceProductsPrice()).entrySet()) {
-                        price = price.replace(pr.getKey(), pr.getValue());
-                    }
-                    for (Map.Entry<String, String> prCont : parseStringToMap(settings.getContainProductsPrice()).entrySet()) {
-                        if (price.contains(prCont.getKey())) {
-                            price = prCont.getValue();
+                    String price;
+                    if(element.selectFirst(settings.getSelectProductsPriceTag()) != null){
+                         price = element.selectFirst(settings.getSelectProductsPriceTag()).text();
+                        for (Map.Entry<String, String> pr : parseStringToMap(settings.getReplaceProductsPrice()).entrySet()) {
+                            price = price.replace(pr.getKey(), pr.getValue());
                         }
+                        for (Map.Entry<String, String> prCont : parseStringToMap(settings.getContainProductsPrice()).entrySet()) {
+                            if (price.contains(prCont.getKey())) {
+                                price = prCont.getValue();
+                            }
+                        }
+                    } else {
+                         price = "0";
                     }
+
+
+
                         String imageLink = settings.getUrlProductsImageLinkPrefix() + element.select(settings.getSelectProductsImageLinkTag()).attr(settings.getSelectProductsAttrSrc());
 
                         product.setArticle(article);
