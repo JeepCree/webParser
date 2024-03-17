@@ -365,7 +365,6 @@ public class CategoriesController {
             }
         }
         for (Long id : list){
-//            new Thread(() -> productService.saveScanProducts(id)).start();
             productService.saveScanProducts(id);
         }
         System.out.println("Shop is update!");
