@@ -8,7 +8,9 @@ import com.opencsv.exceptions.CsvException;
 
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class CsvParser {
     public static List<String[]> parseCsv(String filePath) throws IOException, CsvException {

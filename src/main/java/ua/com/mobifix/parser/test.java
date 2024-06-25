@@ -13,5 +13,6 @@ public class test {
     public static void main(String[] args) throws IOException {
         System.out.println(Jsoup.connect("https://all-spares.ua/")
                 .get());
+
     }
 }
