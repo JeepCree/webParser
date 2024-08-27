@@ -14,6 +14,7 @@ import ua.com.mobifix.service.CsvParser;
 import ua.com.mobifix.service.ProductService;
 import ua.com.mobifix.service.SHA3;
 
+import java.io.Console;
 import java.io.IOException;
 import java.sql.Timestamp;
 import java.util.List;
@@ -72,6 +73,7 @@ public class ProductController {
                 Product product = productRepository.findById(productId.intValue()).get();
                 product.setName(newValue);
                 productRepository.save(product);
+                System.out.println("Новое значение: " + newValue);
             } else if (columnName.equals("stock")){
                 Product product = productRepository.findById(productId.intValue()).get();
                 product.setStock(newValue);

@@ -29,14 +29,8 @@ public class SHA3 {
             return hexHash.toString();
         } catch (Exception e) {
             // Обработка возможных исключений
-            e.printStackTrace();
+            System.out.println("Error generate SHA3Hash (return null value)");
             return null;
         }
-    }
-
-    public static void main(String[] args) {
-        String input = "Hello, SHA-3!";
-        String hash = generateSHA3Hash(input);
-        System.out.println("SHA-3 хэш для строки '" + input + "': " + hash);
     }
 }
