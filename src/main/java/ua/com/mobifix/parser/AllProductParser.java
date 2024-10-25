@@ -64,8 +64,10 @@ public class AllProductParser extends CategoryParser {
                 System.out.println("Сканируем страницу " + num + " (" + settings.getScanProductsUrl() + ")");
                 //вставка
 
+
                 Elements elements = scanPage.select(settings.getSelectProductsListCartTag());
-                System.out.println(elements.size());
+
+                System.out.println("Найдено элементов: " + elements.size());
                 for (Element element : elements) {
                     Product product = new Product();
                     String name = element.select(settings.getSelectProductsNameTag()).text();
@@ -126,13 +128,13 @@ public class AllProductParser extends CategoryParser {
                         product.setShopId(settings.getIdShop());
                         productList.add(product);
 
-                        System.out.println(article);
-                        System.out.println(name);
-                        System.out.println(productUrl);
-                        System.out.println(imageLink);
-                        System.out.println(stock);
-                        System.out.println(price);
-                        System.out.println("\n");
+//                        System.out.println(article);
+//                        System.out.println(name);
+//                        System.out.println(productUrl);
+//                        System.out.println(imageLink);
+//                        System.out.println(stock);
+//                        System.out.println(price);
+//                        System.out.println("\n");
                     }
 
                     //конец вставки

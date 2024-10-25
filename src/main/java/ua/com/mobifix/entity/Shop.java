@@ -92,6 +92,7 @@ public class Shop {
     private String selectProductStockTag = "";
     private String selectProductPriceTag = "";
     private String selectProductBreadcrumbsTag = "";
+    private String selectProductDescriptionTag = "";
     private String selectProductLinkTag = "";
     private String selectProductImageLinkTag = "";
     private String selectProductAttrHref = "";
@@ -181,6 +182,14 @@ public class Shop {
 
     public void setSelectCategoryTagLevel5(String selectCategoryTagLevel5) {
         this.selectCategoryTagLevel5 = selectCategoryTagLevel5;
+    }
+
+    public String getSelectProductDescriptionTag() {
+        return selectProductDescriptionTag;
+    }
+
+    public void setSelectProductDescriptionTag(String selectProductDescriptionTag) {
+        this.selectProductDescriptionTag = selectProductDescriptionTag;
     }
 
     public String getSelectCategoryNameTag() {

@@ -1,6 +1,4 @@
-package ua.com.mobifix.parser;
-
-import java.util.Map;
+package ua.com.mobifix.parser.entity;
 
 public class AllScanProduct {
     String pagination;

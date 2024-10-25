@@ -65,11 +65,14 @@ public class CategoryParser {
                 e.printStackTrace();
             }
             Elements elements = page.select(settings.getSelectCategoryTag());
+            System.out.println(elements);
             for (Element element : elements) {
 
                 String name = element.select(settings.getSelectCategoryNameTag()).text();
+
                 for (Map.Entry<String, String> entry : parseStringToMap(settings.getReplaceCategoryName()).entrySet()) {
                     name = name.replace(entry.getKey(), entry.getValue()).trim();
+                    System.out.println(name);
                 }
                 boolean bool1 = false;
                 for(String string : parseStringToList(settings.getNoScanCategoryList())){

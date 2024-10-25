@@ -271,9 +271,8 @@ public class CategoriesController {
     @GetMapping("/scan-shop-catalog")
     @ResponseBody
     private void addNewShopCategory(Model model, Long shopId){
-        Shop shop = new Shop();
         CategoryParser categoryParser = new CategoryParser();
-        shop = shopRepository.getByIdShop(shopId);
+        Shop shop = shopRepository.getByIdShop(shopId);
 
         Map<String, String> cookies = new HashMap<>();
         String[] cookiePairs = shop.getCookies().split("; ");

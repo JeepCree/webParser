@@ -93,6 +93,7 @@ public class ProductService {
             product.setImageLink(obj.getImageLink());
             product.setBreadcrumbs(obj.getBreadcrumbs());
             product.setShopId(categoriesRepository.findById(idCat.intValue()).get().getShopId());
+            product.setTimestampField(new Timestamp(System.currentTimeMillis()));
 //            new Thread(() -> updateByLink(product)).start();
             new Thread(() -> updateByLinkSha3(product)).start();
 

@@ -10,6 +10,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import ua.com.mobifix.entity.Product;
 import ua.com.mobifix.entity.ProductRepository;
+import ua.com.mobifix.parser.ScanProductSettings;
 import ua.com.mobifix.service.CsvParser;
 import ua.com.mobifix.service.ProductService;
 import ua.com.mobifix.service.SHA3;
@@ -118,6 +119,11 @@ public class ProductController {
     public void saveScanProducts(Long categoryId){
             productService.saveScanProducts(categoryId);
         System.out.println("Category is update!");
+    }
+    @PostMapping("/save-scan-product")
+    @ResponseBody
+    public void saveScanProduct(ScanProductSettings settings, Long shopId) {
+
     }
 
     @PostMapping("/full-edit-product")

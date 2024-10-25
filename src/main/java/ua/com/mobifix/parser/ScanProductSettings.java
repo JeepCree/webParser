@@ -10,6 +10,7 @@ public class ScanProductSettings {
     private String stock = "";
     private String price = "";
     private String breadcrumbs = "";
+    private String description = "";
     private String link = "";
     private String imageLink = "";
     private String linkPrefix = "";
@@ -178,6 +179,14 @@ public class ScanProductSettings {
 
     public void setBreadcrumbs(String breadcrumbs) {
         this.breadcrumbs = breadcrumbs;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getLink() {

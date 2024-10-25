@@ -18,6 +18,7 @@ public class Product {
     @Column(nullable = false, columnDefinition = "TEXT")
     private String name;
     private String breadcrumbs;
+    private String description;
     private String stock;
     private Double price;
     @Column(/*unique = true, */nullable = false, columnDefinition = "TEXT")
@@ -101,6 +102,14 @@ public class Product {
 
     public void setPrice(Double price) {
         this.price = price;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getLink() {

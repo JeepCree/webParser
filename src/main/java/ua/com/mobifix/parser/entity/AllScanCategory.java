@@ -1,4 +1,4 @@
-package ua.com.mobifix.parser;
+package ua.com.mobifix.parser.entity;
 
 public class AllScanCategory {
     Long categoryId;

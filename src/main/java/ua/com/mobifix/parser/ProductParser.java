@@ -3,12 +3,10 @@ package ua.com.mobifix.parser;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import ua.com.mobifix.entity.Product;
 
 import java.io.IOException;
-import java.net.URL;
 import java.util.ArrayList;
 
 public class ProductParser {
@@ -59,7 +57,7 @@ public class ProductParser {
                             breadcrumbs = breadcrumbs + ";";
                         }
                     }
-
+                    String description = page.select(settings.getDescription()).text();
                     String link = settings.getLinkPrefix() + page.select(settings.getLink()).attr(settings.getHref());
                     String imageLink = settings.getImagePrefix() + page.select(settings.getImageLink()).attr(settings.getSrc());
 
@@ -69,14 +67,18 @@ public class ProductParser {
                     product.setStock(stock);
                     product.setPrice(Double.parseDouble(price));
                     product.setBreadcrumbs(breadcrumbs);
+                    product.setDescription(description);
                     product.setLink(link);
                     product.setImageLink(imageLink);
+
+
 
                     System.out.println(article);
                     System.out.println(name);
                     System.out.println(stock);
                     System.out.println(price);
                     System.out.println(breadcrumbs);
+                    System.out.println(description);
                     System.out.println(link);
                     System.out.println(imageLink);
                     System.out.println("\n");
