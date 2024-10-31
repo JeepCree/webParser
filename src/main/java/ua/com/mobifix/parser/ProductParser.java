@@ -45,7 +45,7 @@ public class ProductParser {
 */
                     if (shopId == 4) {
                         AllSparesDescriptionParser parser = new AllSparesDescriptionParser();
-                        description = parser.parseHtmlToJson(page.select(settings.getSelectProductDescriptionTag()).html());
+                        description = parser.parseHtmlToJson(page.select(settings.getSelectProductDescriptionTag()).html()).toString();
                     } else if (shopId == 8) {
                         ArtMobileDescriptionParser parser = new ArtMobileDescriptionParser();
                         description = parser.parseHtmlToJson(page.select(settings.getSelectProductDescriptionTag()).html()).toString();
