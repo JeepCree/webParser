@@ -5,6 +5,7 @@ import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 import ua.com.mobifix.entity.*;
 import ua.com.mobifix.parser.AllProductParser;
+import ua.com.mobifix.parser.entity.ScanProduct;
 
 import java.sql.Timestamp;
 import java.util.List;
@@ -47,6 +48,7 @@ public class ProductService {
                 existingProduct.setLinkSha3(product.getLinkSha3());
                 existingProduct.setImageLink(product.getImageLink());
                 existingProduct.setBreadcrumbs(product.getBreadcrumbs());
+                existingProduct.setDescription(product.getDescription());
                 existingProduct.setTimestampField(new Timestamp(System.currentTimeMillis()));
                 productRepository.save(existingProduct);
 
@@ -101,5 +103,6 @@ public class ProductService {
         }
         System.out.println("DB Update!");
     }
+
 }
 

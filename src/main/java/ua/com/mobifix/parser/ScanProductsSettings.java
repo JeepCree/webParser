@@ -11,6 +11,7 @@ public class ScanProductsSettings {
     private String stock;
     private String link;
     private String breadcrumbs;
+    private String description;
     private String href;
     private String src;
     private String imageLink;
@@ -21,6 +22,7 @@ public class ScanProductsSettings {
     private String scanUrl;
     private String linkPrefix;
     private String imagePrefix;
+    private int maxRetriesLoadPage;
     private ArrayList<ReplaceString> replaceArticle = new ArrayList<>();
     private ArrayList<ReplaceString> replaceStock = new ArrayList<>();
     private ArrayList<ReplaceString> replacePrice = new ArrayList<>();
@@ -29,6 +31,21 @@ public class ScanProductsSettings {
     private ArrayList<ReplaceString> containPrice = new ArrayList<>();
     private Map cookies;
 
+    public int getMaxRetriesLoadPage() {
+        return maxRetriesLoadPage;
+    }
+
+    public void setMaxRetriesLoadPage(int maxRetriesLoadPage) {
+        this.maxRetriesLoadPage = maxRetriesLoadPage;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     public ArrayList<ReplaceString> getContainArticle() {
         return containArticle;

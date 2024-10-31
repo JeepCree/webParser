@@ -3,94 +3,67 @@ package ua.com.mobifix.parser;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import ua.com.mobifix.entity.Product;
+import ua.com.mobifix.entity.Shop;
+import ua.com.mobifix.parser.description.AllSparesDescriptionParser;
+import ua.com.mobifix.parser.description.ArtMobileDescriptionParser;
 
 import java.io.IOException;
+import java.sql.Timestamp;
 import java.util.ArrayList;
 
 public class ProductParser {
-    public void getProduct(ScanProductSettings settings, ArrayList<String> scanList){
-        for (String url : scanList){
+    public Product getProduct(Shop settings, String scanLink, Long shopId) throws InterruptedException {
+
+        Product product = new Product();
             int retries = 0;
             while (retries < settings.getMaxRetriesLoadPage()) {
                 try {
-                    Connection connection  = Jsoup.connect(url);
-                    Document page = connection.cookies(settings.getCookies())
+                    System.out.println("\u001B[32m" + "connected to server... " +  "\u001B[0m" + scanLink);
+                    Connection connection  = Jsoup.connect(scanLink);
+                    Document page = connection.cookies(new CategoryParser().parseStringToMap(settings.getCookies()))
                             .method(Connection.Method.GET)
                             .get();
 
-                    String article = page.select(settings.getArticle()).text();
-                    for (ReplaceString obj : settings.getReplaceArticle()) {
-                        article = article.replace(obj.getReplace(), obj.getReplacement());
+
+                    Elements breadcrumbsList = page.select(settings.getSelectProductBreadcrumbsTag());
+                    String breadcrumbs = breadcrumbsList.html();
+                    String description = "";
+                    /*
+                    for(Element el : breadcrumbsList){
+                        breadcrumbs = breadcrumbs + el.select("a").html() + ";";
                     }
-                    for (ReplaceString obj : settings.getContainArticle()) {
-                        if (article.contains(obj.getReplace())) {
-                            article = obj.getReplacement();
-                        }
-                    }
-                    String name = page.select(settings.getName()).text();
-                    String stock = page.select(settings.getStock()).text();
-                    for (ReplaceString obj : settings.getReplaceStock()) {
-                        stock = stock.replace(obj.getReplace(), obj.getReplacement());
-                    }
-                    for (ReplaceString obj : settings.getContainStock()) {
-                        if (stock.contains(obj.getReplace())) {
-                            stock = obj.getReplacement();
-                        }
-                    }
-                    String price = page.select(settings.getPrice()).text();
-                    for (ReplaceString obj : settings.getReplacePrice()) {
-                        price = price.replace(obj.getReplace(), obj.getReplacement());
-                    }
-                    for (ReplaceString obj : settings.getContainPrice()) {
-                        if (price.contains(obj.getReplace())) {
-                            price = obj.getReplacement();
-                        }
-                    }
-                    Elements breadcrumbsList = page.select(settings.getBreadcrumbs());
-                    String breadcrumbs = "";
 
                     for (int i = 0; i < breadcrumbsList.size(); i++) {
-                        breadcrumbs = breadcrumbs + breadcrumbsList.get(i).select("a").text();
+                        breadcrumbs = breadcrumbs + breadcrumbsList.get(i).select("a").html() + ";";
                         if (i < breadcrumbsList.size() - 1) {
                             breadcrumbs = breadcrumbs + ";";
                         }
                     }
-                    String description = page.select(settings.getDescription()).text();
-                    String link = settings.getLinkPrefix() + page.select(settings.getLink()).attr(settings.getHref());
-                    String imageLink = settings.getImagePrefix() + page.select(settings.getImageLink()).attr(settings.getSrc());
+*/
+                    if (shopId == 4) {
+                        AllSparesDescriptionParser parser = new AllSparesDescriptionParser();
+                        description = parser.parseHtmlToJson(page.select(settings.getSelectProductDescriptionTag()).html());
+                    } else if (shopId == 8) {
+                        ArtMobileDescriptionParser parser = new ArtMobileDescriptionParser();
+                        description = parser.parseHtmlToJson(page.select(settings.getSelectProductDescriptionTag()).html()).toString();
+                    }
 
-                    Product product = new Product();
-                    product.setArticle(article);
-                    product.setName(name);
-                    product.setStock(stock);
-                    product.setPrice(Double.parseDouble(price));
+
+
+
                     product.setBreadcrumbs(breadcrumbs);
                     product.setDescription(description);
-                    product.setLink(link);
-                    product.setImageLink(imageLink);
-
-
-
-                    System.out.println(article);
-                    System.out.println(name);
-                    System.out.println(stock);
-                    System.out.println(price);
-                    System.out.println(breadcrumbs);
-                    System.out.println(description);
-                    System.out.println(link);
-                    System.out.println(imageLink);
-                    System.out.println("\n");
-
-                        break;
+                    break;
                 } catch (IOException e) {
-                    System.out.println("ошибка чтения страницы...");
+                    System.out.println("\u001B[31m" + "ошибка чтения страницы..." + "\u001B[0m");
+                    System.out.println(e);
+                    Thread.sleep(1000);
                     retries++;
                 }
-
             }
-        }
-
+        return product;
     }
 }

@@ -7,4 +7,5 @@ import java.util.List;
 public interface ShopRepository extends JpaRepository<Shop, Integer> {
     Shop getByIdShop(Long id);
     List<Shop> findAllByOrderByNameShopAsc();
-}
+    Shop findByIdShop(Long id);
+    }

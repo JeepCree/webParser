@@ -17,10 +17,15 @@ public class Product {
     private Long categories;
     @Column(nullable = false, columnDefinition = "TEXT")
     private String name;
+    @Column(columnDefinition = "TEXT")
     private String breadcrumbs;
+    @Lob
+    @Column(columnDefinition = "LONGTEXT")
     private String description;
     private String stock;
     private Double price;
+    @Column(nullable = false, columnDefinition = "TEXT")
+    private String chpu;
     @Column(/*unique = true, */nullable = false, columnDefinition = "TEXT")
     private String link;
     @Column(unique = true, length = 128)
@@ -31,6 +36,14 @@ public class Product {
     private Long shopId;
     @Temporal(TemporalType.TIMESTAMP)
     private Timestamp timestampField;
+
+    public String getChpu() {
+        return chpu;
+    }
+
+    public void setChpu(String chpu) {
+        this.chpu = chpu;
+    }
 
     public String getLinkSha3() {
         return linkSha3;

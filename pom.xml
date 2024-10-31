@@ -77,6 +77,19 @@
 			<artifactId>jsoup</artifactId>
 			<version>1.17.1</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20210307</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.github.slugify/slugify -->
+		<dependency>
+			<groupId>com.github.slugify</groupId>
+			<artifactId>slugify</artifactId>
+			<version>3.0.7</version>
+		</dependency>
+
 		<dependency>
 			<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 			<groupId>org.seleniumhq.selenium</groupId>

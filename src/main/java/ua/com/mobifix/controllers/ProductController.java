@@ -27,6 +27,7 @@ import java.util.Optional;
 public class ProductController {
     private final ProductRepository productRepository;
     private final ProductService productService;
+
     @Autowired
     public ProductController(ProductRepository productRepository, ProductService productService){
         this.productRepository = productRepository;
@@ -120,6 +121,7 @@ public class ProductController {
             productService.saveScanProducts(categoryId);
         System.out.println("Category is update!");
     }
+
     @PostMapping("/save-scan-product")
     @ResponseBody
     public void saveScanProduct(ScanProductSettings settings, Long shopId) {
@@ -143,7 +145,6 @@ public class ProductController {
         return jsonProduct;
     }
 
-
     @PostMapping("/delete-product")
     @ResponseBody
     public boolean deleteProduct(@RequestParam int catId) {
@@ -161,6 +162,7 @@ public class ProductController {
             return false;
         }
     }
+
     @GetMapping("/link-to-sha3")
     @ResponseBody
     public void linkToSha3() {

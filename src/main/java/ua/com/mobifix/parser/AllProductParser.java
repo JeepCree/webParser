@@ -1,5 +1,6 @@
 package ua.com.mobifix.parser;
 
+import com.github.slugify.Slugify;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.jsoup.Jsoup;
@@ -18,10 +19,7 @@ import ua.com.mobifix.entity.Shop;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 import java.util.function.Function;
 
 public class AllProductParser extends CategoryParser {
@@ -111,6 +109,8 @@ public class AllProductParser extends CategoryParser {
 
                         product.setArticle(article);
                         product.setName(name);
+
+                        product.setChpu(Slugify.builder().locale(new Locale("ru")).build().slugify(name));
                         product.setLink(productUrl);
                         product.setImageLink(imageLink);
                         product.setStock(stock);
@@ -154,7 +154,7 @@ public class AllProductParser extends CategoryParser {
                         } else {
                             System.out.println("Другая ошибка HTTP: " + statusCode);
                             try {
-                                Thread.sleep(1000);
+                                Thread.sleep(10000);
                             } catch (InterruptedException ex) {
                                 System.out.println("ошибка Thread.sleep(1000);");
                             }

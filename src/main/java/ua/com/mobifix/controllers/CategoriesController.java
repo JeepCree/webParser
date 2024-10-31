@@ -6,12 +6,16 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.opencsv.exceptions.CsvException;
+import org.apache.poi.sl.draw.geom.GuideIf;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import ua.com.mobifix.entity.*;
 import ua.com.mobifix.parser.CategoryParser;
+import ua.com.mobifix.parser.ProductParser;
+import ua.com.mobifix.parser.ScanProductSettings;
+import ua.com.mobifix.parser.ScanProductsSettings;
 import ua.com.mobifix.service.*;
 
 import java.io.FileWriter;
@@ -20,7 +24,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @Controller
-@RequestMapping(path="/")
+@RequestMapping(path = "/")
 public class CategoriesController {
     private final CategoriesRepository categoriesRepository;
     private final ShopRepository shopRepository;
@@ -35,7 +39,7 @@ public class CategoriesController {
                                 ShopService shopService,
                                 ShopRepository shopRepository,
                                 ProductService productService,
-                                ProductRepository productRepository){
+                                ProductRepository productRepository) {
         this.categoriesRepository = categoriesRepository;
         this.categoryService = categoryService;
         this.shopService = shopService;
@@ -43,6 +47,7 @@ public class CategoriesController {
         this.productService = productService;
         this.productRepository = productRepository;
     }
+
     @PostMapping("/catalog-settings")
     private String addNewCategory(Model model,
                                   String newCategory,
@@ -54,13 +59,13 @@ public class CategoriesController {
                                   String metaKeywords,
                                   String humanReadableUrl,
                                   String urlImage,
-                                  Long shopId){
-        if(shopRepository.findAll().isEmpty()){
+                                  Long shopId) {
+        if (shopRepository.findAll().isEmpty()) {
             model.addAttribute("subject", "Add Shop");
             model.addAttribute("showElement", false);
             return "catalog-settings";
         } else {
-            if (parentCategory.equals(null)){
+            if (parentCategory.equals(null)) {
                 parentCategory = 0L;
             }
             model.addAttribute("showElement", false);
@@ -91,6 +96,7 @@ public class CategoriesController {
             return "catalog-settings";
         }
     }
+
     @PostMapping("/getCatalog")
     public String getCatalog(@RequestBody String requestBody, Model model) throws JsonProcessingException {
         model.addAttribute("pageInfo", "Edit Category");
@@ -114,6 +120,7 @@ public class CategoriesController {
             return "edit-catalog";
         }
     }
+
     @PostMapping("/get-all-catalog")
     public String getAllCatalog(@RequestBody String requestBody, Model model) {
 
@@ -132,43 +139,44 @@ public class CategoriesController {
             model.addAttribute("productList", productRepository.findAllByCategoriesIn(categoryIdsList));
             return "catalog";
         } catch (Exception e) {
-           e.printStackTrace();
+            e.printStackTrace();
             return "catalog";
         }
     }
 
     @PostMapping("/save-category")
     private String saveCategory(Model model,
-                                  Long id,
-                                  String name,
-                                  Long parentCategory,
-                                  Boolean active,
-                                  String description,
-                                  String metaTitle,
-                                  String metaDescription,
-                                  String metaKeywords,
-                                  String humanReadableUrl,
-                                  String urlImage,
-                                  Long shopId){
-        if (parentCategory.equals(null)){
+                                Long id,
+                                String name,
+                                Long parentCategory,
+                                Boolean active,
+                                String description,
+                                String metaTitle,
+                                String metaDescription,
+                                String metaKeywords,
+                                String humanReadableUrl,
+                                String urlImage,
+                                Long shopId) {
+        if (parentCategory.equals(null)) {
             parentCategory = 0L;
         }
-            Categories category = new Categories();
-            category.setName(name);
-            category.setParentId(parentCategory);
-            category.setActive(active);
-            category.setDescription(description);
-            category.setMetaTitle(metaTitle);
-            category.setMetaDescription(metaDescription);
-            category.setMetaKeywords(metaKeywords);
-            category.setHumanReadableUrl(humanReadableUrl);
-            category.setUrlImage(urlImage);
-            category.setShopId(shopId);
-            categoryService.updateCategory(id, category);
-            return "redirect:/catalog-settings";
+        Categories category = new Categories();
+        category.setName(name);
+        category.setParentId(parentCategory);
+        category.setActive(active);
+        category.setDescription(description);
+        category.setMetaTitle(metaTitle);
+        category.setMetaDescription(metaDescription);
+        category.setMetaKeywords(metaKeywords);
+        category.setHumanReadableUrl(humanReadableUrl);
+        category.setUrlImage(urlImage);
+        category.setShopId(shopId);
+        categoryService.updateCategory(id, category);
+        return "redirect:/catalog-settings";
     }
+
     @PostMapping("/delete-category")
-    private String deleteCategory(Long id){
+    private String deleteCategory(Long id) {
         if (categoriesRepository.existsById(id.intValue())) {
             categoriesRepository.deleteById(id.intValue());
         } else {
@@ -176,8 +184,9 @@ public class CategoriesController {
         }
         return "redirect:/catalog-settings";
     }
+
     @PostMapping("/save-categories-to-json")
-    public String saveCartegoriesToJson(){
+    public String saveCartegoriesToJson() {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try (FileWriter writer = new FileWriter("C:\\Users\\dima2\\OneDrive\\Рабочий стол\\webParser\\src\\main\\resources\\data\\categories_export_" + Time.getTime() + ".json")) {
             gson.toJson(categoriesRepository.findAllByOrderByNameAsc(), writer);
@@ -196,6 +205,7 @@ public class CategoriesController {
 
         return categoriesRepository.findAllByShopIdOrderByNameAsc(shopId);
     }
+
     @GetMapping("/import-categories")
     public String importCsv() {
         System.out.println("start");
@@ -228,7 +238,7 @@ public class CategoriesController {
 
     @GetMapping("/set-shop-settings")
     @ResponseBody
-    private void setShopSettings(Long shopId){
+    private void setShopSettings(Long shopId) {
         Shop shop = new Shop();
         shop.setIdShop(shopId);
         shop.setNameShop("vseplus.com");
@@ -270,7 +280,7 @@ public class CategoriesController {
 
     @GetMapping("/scan-shop-catalog")
     @ResponseBody
-    private void addNewShopCategory(Model model, Long shopId){
+    private void addNewShopCategory(Model model, Long shopId) {
         CategoryParser categoryParser = new CategoryParser();
         Shop shop = shopRepository.getByIdShop(shopId);
 
@@ -354,35 +364,71 @@ public class CategoriesController {
         }
         System.out.println("End of scan!");
     }
+
     @GetMapping("/run")
     @ResponseBody
-    public void run(){
+    public void run() {
         List<Long> list = new ArrayList<>();
-        for (Categories categories : categoriesRepository.findAll()){
+        for (Categories categories : categoriesRepository.findAll()) {
             if (categoriesRepository.findByParentId(categories.getId()).isEmpty()) {
                 list.add(categories.getId());
             }
         }
-        for (Long id : list){
+        for (Long id : list) {
             productService.saveScanProducts(id);
         }
         System.out.println("Shop is update!");
     }
+
     @GetMapping("/run-for-shop")
     @ResponseBody
-    public void runForShop(Long shopId){
+    public void runForShop(Long shopId) {
         List<Long> list = new ArrayList<>();
-        for (Categories categories : categoriesRepository.findAllByShopId(shopId)){
+        for (Categories categories : categoriesRepository.findAllByShopId(shopId)) {
             if (categoriesRepository.findByParentId(categories.getId()).isEmpty()) {
                 list.add(categories.getId());
             }
         }
-        for (Long id : list){
+        for (Long id : list) {
 //            new Thread(() -> productService.saveScanProducts(id);
             productService.saveScanProducts(id);
         }
         System.out.println("Shop is update!");
     }
+
+    @GetMapping("/scan-product-for-shop")
+    @ResponseBody
+    public void scanProductForShop(Long shopId, boolean bool) throws InterruptedException {
+        List<String> allLinks;
+        if (bool){
+            allLinks = productRepository.findLinksByShopIdAndDescriptionIsNull(shopId);
+        } else {
+            allLinks = productRepository.findAllLinksByShopId(shopId);
+        }
+        ProductParser productParser = new ProductParser();
+        System.out.println("quantity of links: " + allLinks.size());
+        Thread.sleep(2000);
+        for (String link : allLinks) {
+            // Извлекаем Product из Optional
+            Product product = productRepository.findByLink(link).orElse(null);
+
+            if (product == null) {
+                product = new Product();
+            }
+            System.out.println("\u001B[36m" + "Start parse product" + "\u001B[0m");
+            Product productExec = productParser.getProduct(shopRepository.findByIdShop(shopId), link, shopId);
+            System.out.println("\u001B[33m" + "execute product from base" + "\u001B[0m");
+            product.setBreadcrumbs(productExec.getBreadcrumbs());
+            product.setDescription(productExec.getDescription());
+            System.out.println("\u001B[35m" + "upgrade product: " + "\u001B[0m" + product.getArticle());
+            System.out.println("description data: " + product.getDescription());
+//            System.out.println(product.getBreadcrumbs());
+            productRepository.save(product);
+            System.out.println("\u001B[32m" + "save product to DB\n" + "\u001B[0m");
+
+
+            Thread.sleep(500); // Если пауза необходима
+        }
+    }
+
 }
-
-
