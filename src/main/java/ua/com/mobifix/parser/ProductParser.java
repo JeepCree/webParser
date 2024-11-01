@@ -7,6 +7,8 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import ua.com.mobifix.entity.Product;
 import ua.com.mobifix.entity.Shop;
+import ua.com.mobifix.parser.breadcrumbs.ArtMobileBreadcrumbsParser;
+import ua.com.mobifix.parser.breadcrumbs.BreadcrumbsParser;
 import ua.com.mobifix.parser.description.AllSparesDescriptionParser;
 import ua.com.mobifix.parser.description.ArtMobileDescriptionParser;
 
@@ -28,8 +30,12 @@ public class ProductParser {
                             .get();
 
 
-                    Elements breadcrumbsList = page.select(settings.getSelectProductBreadcrumbsTag());
-                    String breadcrumbs = breadcrumbsList.html();
+                    String breadcrumbsList = page.select(settings.getSelectProductBreadcrumbsTag()).html();
+
+                    ArtMobileBreadcrumbsParser breadcrumbsParser = new ArtMobileBreadcrumbsParser();
+                    String breadcrumbs = breadcrumbsParser.parseHtmlToJson(breadcrumbsList).toString();
+                    System.out.println(breadcrumbs);
+
                     String description = "";
                     /*
                     for(Element el : breadcrumbsList){

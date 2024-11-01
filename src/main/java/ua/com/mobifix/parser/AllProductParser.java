@@ -109,8 +109,9 @@ public class AllProductParser extends CategoryParser {
 
                         product.setArticle(article);
                         product.setName(name);
-
+//                    System.out.println("upd. name > " + Slugify.builder().locale(new Locale("ru")).build().slugify(name));
                         product.setChpu(Slugify.builder().locale(new Locale("ru")).build().slugify(name));
+//                    System.out.println("in product > " + product.getChpu());
                         product.setLink(productUrl);
                         product.setImageLink(imageLink);
                         product.setStock(stock);

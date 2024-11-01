@@ -1,14 +1,15 @@
 package ua.com.mobifix.service;
 
+import com.github.slugify.Slugify;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 import ua.com.mobifix.entity.*;
 import ua.com.mobifix.parser.AllProductParser;
-import ua.com.mobifix.parser.entity.ScanProduct;
 
 import java.sql.Timestamp;
 import java.util.List;
+import java.util.Locale;
 import java.util.Optional;
 
 @Service
@@ -47,8 +48,9 @@ public class ProductService {
                 existingProduct.setLink(product.getLink());
                 existingProduct.setLinkSha3(product.getLinkSha3());
                 existingProduct.setImageLink(product.getImageLink());
-                existingProduct.setBreadcrumbs(product.getBreadcrumbs());
-                existingProduct.setDescription(product.getDescription());
+//                existingProduct.setBreadcrumbs(product.getBreadcrumbs());
+//                existingProduct.setDescription(product.getDescription());
+                existingProduct.setChpu(product.getChpu());
                 existingProduct.setTimestampField(new Timestamp(System.currentTimeMillis()));
                 productRepository.save(existingProduct);
 
@@ -94,10 +96,13 @@ public class ProductService {
             product.setLinkSha3(SHA3.generateSHA3Hash(obj.getLink()));
             product.setImageLink(obj.getImageLink());
             product.setBreadcrumbs(obj.getBreadcrumbs());
+            product.setDescription(obj.getDescription());
+            product.setChpu(Slugify.builder().locale(new Locale("ru")).build().slugify(obj.getName()));
             product.setShopId(categoriesRepository.findById(idCat.intValue()).get().getShopId());
             product.setTimestampField(new Timestamp(System.currentTimeMillis()));
 //            new Thread(() -> updateByLink(product)).start();
             new Thread(() -> updateByLinkSha3(product)).start();
+
 
 
         }

@@ -1,6 +1,4 @@
-package ua.com.mobifix.parser;
-
-import ua.com.mobifix.entity.Shop;
+package ua.com.mobifix.parser.entity;
 
 import java.util.*;
 

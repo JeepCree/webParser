@@ -10,28 +10,30 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import ua.com.mobifix.entity.Product;
 import ua.com.mobifix.entity.ProductRepository;
-import ua.com.mobifix.parser.ScanProductSettings;
+import ua.com.mobifix.entity.ShopRepository;
+import ua.com.mobifix.parser.ProductParser;
+import ua.com.mobifix.parser.entity.ScanProductSettings;
 import ua.com.mobifix.service.CsvParser;
 import ua.com.mobifix.service.ProductService;
 import ua.com.mobifix.service.SHA3;
 
-import java.io.Console;
 import java.io.IOException;
 import java.sql.Timestamp;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 
 @Controller
 @RequestMapping(path="/")
 public class ProductController {
     private final ProductRepository productRepository;
     private final ProductService productService;
+    private final ShopRepository shopRepository;
 
     @Autowired
-    public ProductController(ProductRepository productRepository, ProductService productService){
+    public ProductController(ProductRepository productRepository, ProductService productService, ShopRepository shopRepository){
         this.productRepository = productRepository;
         this.productService = productService;
+        this.shopRepository = shopRepository;
     }
 
     @GetMapping("/import-product")
@@ -189,6 +191,42 @@ public class ProductController {
                 System.out.println("Нет продуктов с пустым linkSha3");
             }
         System.out.println("End");
+    }
+
+    @GetMapping("/scan-product-for-shop")
+    @ResponseBody
+    public void scanProductForShop(Long shopId, boolean bool) throws InterruptedException {
+        List<String> allLinks;
+        if (bool){
+            allLinks = productRepository.findLinksByShopIdAndDescriptionIsNull(shopId);
+        } else {
+            allLinks = productRepository.findAllLinksByShopId(shopId);
+        }
+        ProductParser productParser = new ProductParser();
+        System.out.println("quantity of links: " + allLinks.size());
+        Thread.sleep(2000);
+        for (String link : allLinks) {
+            // Извлекаем Product из Optional
+            Product product = productRepository.findByLink(link).orElse(null);
+
+            if (product == null) {
+                product = new Product();
+            }
+            System.out.println("\u001B[36m" + "Start parse product" + "\u001B[0m");
+            Product productExec = productParser.getProduct(shopRepository.findByIdShop(shopId), link, shopId);
+            System.out.println("\u001B[33m" + "execute product from base" + "\u001B[0m");
+            product.setBreadcrumbs(productExec.getBreadcrumbs());
+            product.setDescription(productExec.getDescription());
+            System.out.println("\u001B[35m" + "upgrade product: " + "\u001B[0m" + product.getArticle());
+            System.out.println("description data: " + product.getDescription());
+//            System.out.println(product.getBreadcrumbs());
+            productRepository.save(product);
+            System.out.println("\u001B[32m" + "save product to DB\n" + "\u001B[0m");
+
+
+            Thread.sleep(500); // Если пауза необходима
+        }
+        System.out.println("Descriptions & Breadcrumps is update!");
     }
 }
 

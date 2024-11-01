@@ -6,7 +6,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.opencsv.exceptions.CsvException;
-import org.apache.poi.sl.draw.geom.GuideIf;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,8 +13,6 @@ import org.springframework.web.bind.annotation.*;
 import ua.com.mobifix.entity.*;
 import ua.com.mobifix.parser.CategoryParser;
 import ua.com.mobifix.parser.ProductParser;
-import ua.com.mobifix.parser.ScanProductSettings;
-import ua.com.mobifix.parser.ScanProductsSettings;
 import ua.com.mobifix.service.*;
 
 import java.io.FileWriter;
@@ -396,39 +393,6 @@ public class CategoriesController {
         System.out.println("Shop is update!");
     }
 
-    @GetMapping("/scan-product-for-shop")
-    @ResponseBody
-    public void scanProductForShop(Long shopId, boolean bool) throws InterruptedException {
-        List<String> allLinks;
-        if (bool){
-            allLinks = productRepository.findLinksByShopIdAndDescriptionIsNull(shopId);
-        } else {
-            allLinks = productRepository.findAllLinksByShopId(shopId);
-        }
-        ProductParser productParser = new ProductParser();
-        System.out.println("quantity of links: " + allLinks.size());
-        Thread.sleep(2000);
-        for (String link : allLinks) {
-            // Извлекаем Product из Optional
-            Product product = productRepository.findByLink(link).orElse(null);
 
-            if (product == null) {
-                product = new Product();
-            }
-            System.out.println("\u001B[36m" + "Start parse product" + "\u001B[0m");
-            Product productExec = productParser.getProduct(shopRepository.findByIdShop(shopId), link, shopId);
-            System.out.println("\u001B[33m" + "execute product from base" + "\u001B[0m");
-            product.setBreadcrumbs(productExec.getBreadcrumbs());
-            product.setDescription(productExec.getDescription());
-            System.out.println("\u001B[35m" + "upgrade product: " + "\u001B[0m" + product.getArticle());
-            System.out.println("description data: " + product.getDescription());
-//            System.out.println(product.getBreadcrumbs());
-            productRepository.save(product);
-            System.out.println("\u001B[32m" + "save product to DB\n" + "\u001B[0m");
-
-
-            Thread.sleep(500); // Если пауза необходима
-        }
-    }
 
 }

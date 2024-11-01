@@ -1,4 +1,6 @@
-package ua.com.mobifix.parser;
+package ua.com.mobifix.parser.entity;
+
+import ua.com.mobifix.parser.ReplaceString;
 
 import java.util.ArrayList;
 import java.util.HashMap;

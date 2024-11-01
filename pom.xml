@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>ua.com.mobifix</groupId>
 	<artifactId>sellersParser</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>sellersParser</name>
 	<description>parser for internet sellers</description>
@@ -77,6 +77,13 @@
 			<artifactId>jsoup</artifactId>
 			<version>1.17.1</version>
 		</dependency>
+		<!-- JUnit 5 -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.9.3</version>
+			<scope>test</scope>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.json/json -->
 		<dependency>
 			<groupId>org.json</groupId>
@@ -112,7 +119,16 @@
 			<artifactId>commons-text</artifactId>
 			<version>1.9</version>
 		</dependency>
-
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>RELEASE</version>
+			<scope>compile</scope>
+		</dependency>
 
 
 	</dependencies>

@@ -1,5 +1,5 @@
 package ua.com.mobifix.parser.entity;
 
-public class ScanProduct {
+public class AScanProduct {
 
 }

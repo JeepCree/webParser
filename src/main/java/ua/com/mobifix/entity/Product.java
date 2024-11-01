@@ -24,7 +24,7 @@ public class Product {
     private String description;
     private String stock;
     private Double price;
-    @Column(nullable = false, columnDefinition = "TEXT")
+    @Column(columnDefinition = "TEXT")
     private String chpu;
     @Column(/*unique = true, */nullable = false, columnDefinition = "TEXT")
     private String link;
