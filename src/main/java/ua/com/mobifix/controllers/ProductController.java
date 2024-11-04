@@ -2,8 +2,11 @@ package ua.com.mobifix.controllers;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.opencsv.exceptions.CsvException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,15 +15,18 @@ import ua.com.mobifix.entity.Product;
 import ua.com.mobifix.entity.ProductRepository;
 import ua.com.mobifix.entity.ShopRepository;
 import ua.com.mobifix.parser.ProductParser;
+import ua.com.mobifix.parser.breadcrumbs.BreadcrumbsToCatalogParser;
 import ua.com.mobifix.parser.entity.ScanProductSettings;
 import ua.com.mobifix.service.CsvParser;
 import ua.com.mobifix.service.ProductService;
 import ua.com.mobifix.service.SHA3;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.sql.Timestamp;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
 @Controller
 @RequestMapping(path="/")
@@ -28,12 +34,14 @@ public class ProductController {
     private final ProductRepository productRepository;
     private final ProductService productService;
     private final ShopRepository shopRepository;
+    private final DataSourceTransactionManagerAutoConfiguration dataSourceTransactionManagerAutoConfiguration;
 
     @Autowired
-    public ProductController(ProductRepository productRepository, ProductService productService, ShopRepository shopRepository){
+    public ProductController(ProductRepository productRepository, ProductService productService, ShopRepository shopRepository, DataSourceTransactionManagerAutoConfiguration dataSourceTransactionManagerAutoConfiguration){
         this.productRepository = productRepository;
         this.productService = productService;
         this.shopRepository = shopRepository;
+        this.dataSourceTransactionManagerAutoConfiguration = dataSourceTransactionManagerAutoConfiguration;
     }
 
     @GetMapping("/import-product")
@@ -228,5 +236,39 @@ public class ProductController {
         }
         System.out.println("Descriptions & Breadcrumps is update!");
     }
+    @GetMapping("/create-catalog-for-shop")
+    @ResponseBody
+    public void createCatalogForShop(Long shopId) {
+
+        // Получаем список breadcrumbs для магазина
+        List<String> breadcrumbs = productRepository.findAllBreadcrumbsByShopId(shopId);
+
+        // Проверяем, что список не пуст и содержит не только null значения
+        if (breadcrumbs == null || breadcrumbs.isEmpty()) {
+            System.out.println("No breadcrumbs found for the shop with ID: " + shopId);
+            return;
+        }
+
+        // Удаляем все null значения из списка
+        breadcrumbs.removeIf(Objects::isNull);
+
+        // Преобразуем список в массив строк
+        String[] breadcrumbsArray = breadcrumbs.toArray(new String[0]);
+
+        // Создаем объект парсера и строим каталог
+        BreadcrumbsToCatalogParser breadcrumbsToCatalogParser = new BreadcrumbsToCatalogParser();
+        Map<String, Object> catalog = breadcrumbsToCatalogParser.buildCatalog(breadcrumbsArray);
+
+        // Записываем каталог в файл JSON
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        try (FileWriter fileWriter = new FileWriter("src/main/resources/data/categories/catalog_" + shopId +".json")) {
+            gson.toJson(catalog, fileWriter);
+            System.out.println("Catalog has been saved to catalog.json");
+        } catch (IOException e) {
+            System.err.println("Error writing catalog to file: " + e.getMessage());
+        }
+    }
+
+
 }
 
