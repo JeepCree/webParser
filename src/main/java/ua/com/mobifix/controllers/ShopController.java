@@ -67,7 +67,7 @@ public class ShopController {
     public String saveToJson(){
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         String basePath = Paths.get("").toAbsolutePath().toString(); // корень проекта
-        String filePath = basePath + "/src/main/resources/data/shop_export_" + Time.getTime() + ".json";
+        String filePath = basePath + "/src/main/resources/data/settings/shop_export_" + Time.getTime() + ".json";
         try (FileWriter writer = new FileWriter(filePath)) {
             gson.toJson(shopRepository.findAllByOrderByNameShopAsc(), writer);
         } catch (IOException e) {
