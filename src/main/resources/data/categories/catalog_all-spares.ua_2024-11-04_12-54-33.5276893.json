@@ -1,0 +1,3547 @@
+{
+  "Главная": {
+    "subcategories": {
+      "Запчасти": {
+        "subcategories": {
+          "Микросхемы и процессоры": {
+            "subcategories": {
+              "Аудио фильтры": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/audio-filters/"
+              },
+              "Контроллеры заряда батареи": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/battery-charge-controllers/"
+              },
+              "Микросхемы управления гироскопа": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/gyroscope-control-ics/"
+              },
+              "Микросхемы управления зарядкой и USB": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/charging-and-usb-control-chips/"
+              },
+              "Микросхемы управления питанием": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/power-control-ic/"
+              },
+              "Сопроцессоры движения": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/motion-coprocessors/"
+              },
+              "Центральные процессоры": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/cpus/"
+              },
+              "Микросхемы-стабилизаторы карт памяти": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/mmc-regulator-microchips/"
+              },
+              "Микросхемы памяти": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/memory-ics/"
+              },
+              "Микросхемы управления компаса": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/compass-control-ics/"
+              },
+              "GSM-модули": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/gsm-modules/"
+              },
+              "EMI-фильтры": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/emi-filters/"
+              },
+              "Микросхемы управления звуком": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/sound-control-ics/"
+              },
+              "Микросхемы усилители полифонии": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/polyphony-amplifier-ics/"
+              },
+              "Микросхемы управления DUAL SIM": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/dual-sim-control-microchips/"
+              },
+              "Микросхемы-стабилизаторы питания": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/voltage-regulator-chips/"
+              },
+              "Микросхемы управления Wi-Fi": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/wi-fi-ics/"
+              },
+              "Микросхемы управления вспышки": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/flash-control-ics/"
+              },
+              "Микросхемы управления зарядкой": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/charge-control-ics/"
+              },
+              "Микросхемы камеры": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/camera-ics/"
+              },
+              "Микросхемы управления питанием (драйвер дисплея)": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/power-control-ics-display-driver/"
+              },
+              "Микросхемы управления сенсора": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/resistive-sensor-control-ics/"
+              },
+              "Транзисторы подсветки": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/backlight-transistors/"
+              },
+              "Усилители мощности": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/power-amplifier-ics/"
+              },
+              "Микросхемы управления подсветкой": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/light-ics/"
+              },
+              "Микросхемы управления радио": {
+                "subcategories": {},
+                "url": "/ru/spares/ics-and-processor/radio-control-ics/"
+              }
+            },
+            "url": "/ru/spares/ics-and-processor/"
+          },
+          "Шлейфы": {
+            "subcategories": {},
+            "url": "/ru/spares/flat-cables/"
+          },
+          "Камеры": {
+            "subcategories": {},
+            "url": "/ru/spares/cameras/"
+          },
+          "Запчасти для зарядных станций и инверторов": {
+            "subcategories": {
+              "Транзисторы": {
+                "subcategories": {},
+                "url": "/ru/spares/spare-parts-for-charging-stations-and-inverters/transistors/"
+              },
+              "Микросхемы драйверы": {
+                "subcategories": {},
+                "url": "/ru/spares/spare-parts-for-charging-stations-and-inverters/power-control-ics/"
+              }
+            },
+            "url": "/ru/spares/spare-parts-for-charging-stations-and-inverters/"
+          },
+          "Кнопки и джойстики": {
+            "subcategories": {
+              "Кнопки включения": {
+                "subcategories": {},
+                "url": "/ru/spares/buttons-and-joysticks/on-off-buttons/"
+              },
+              "Кнопки универсальные включения/звука": {
+                "subcategories": {},
+                "url": "/ru/spares/buttons-and-joysticks/on-off-and-sound-buttons/"
+              },
+              "Кнопки звука": {
+                "subcategories": {},
+                "url": "/ru/spares/buttons-and-joysticks/sound-buttons/"
+              },
+              "Кнопки ФОТО": {
+                "subcategories": {},
+                "url": "/ru/spares/buttons-and-joysticks/photo-buttons/"
+              },
+              "Джойстики": {
+                "subcategories": {},
+                "url": "/ru/spares/buttons-and-joysticks/joysticks/"
+              },
+              "Кнопки блокировки телефона": {
+                "subcategories": {},
+                "url": "/ru/spares/buttons-and-joysticks/phone-lock-buttons/"
+              }
+            },
+            "url": "/ru/spares/buttons-and-joysticks/"
+          },
+          "Подсветки дисплея": {
+            "subcategories": {},
+            "url": "/ru/spares/lcd-backlight/"
+          },
+          "Дисплеи": {
+            "subcategories": {},
+            "url": "/ru/spares/lcd/"
+          },
+          "Комплектующие для игровых приставок": {
+            "subcategories": {
+              "Кулеры": {
+                "subcategories": {},
+                "url": "/ru/spares/game-console-components/cooler/"
+              },
+              "Механизмы 3D джойстика": {
+                "subcategories": {},
+                "url": "/ru/spares/game-console-components/3d-joystick-mechanism/"
+              },
+              "Стики аналогового 3D механизма": {
+                "subcategories": {},
+                "url": "/ru/spares/game-console-components/3d-analog-stick-mechanisms/"
+              }
+            },
+            "url": "/ru/spares/game-console-components/"
+          },
+          "Звуковые и виброзапчасти": {
+            "subcategories": {
+              "Микрофоны": {
+                "subcategories": {},
+                "url": "/ru/spares/sound-and-vibrating-spares/microphones/"
+              },
+              "Динамики + звонки": {
+                "subcategories": {},
+                "url": "/ru/spares/sound-and-vibrating-spares/speakers-plus-buzzers/"
+              },
+              "Звонки": {
+                "subcategories": {},
+                "url": "/ru/spares/sound-and-vibrating-spares/buzzers/"
+              },
+              "Вибромоторы": {
+                "subcategories": {},
+                "url": "/ru/spares/sound-and-vibrating-spares/vibrating-motors/"
+              },
+              "Динамики": {
+                "subcategories": {},
+                "url": "/ru/spares/sound-and-vibrating-spares/speaker/"
+              }
+            },
+            "url": "/ru/spares/sound-and-vibrating-spares/"
+          },
+          "Сенсорные экраны": {
+            "subcategories": {},
+            "url": "/ru/spares/touchscreen/"
+          },
+          "Корпусные части": {
+            "subcategories": {
+              "Кнопки, джойстики, заглушки": {
+                "subcategories": {
+                  "Пластики кнопки меню": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/buttons-joysticks-plugs/plastics-for-menu-button/"
+                  },
+                  "Заглушки коннектора зарядки": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/buttons-joysticks-plugs/charging-connector-plugs/"
+                  },
+                  "Пластики кнопки HOME": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/buttons-joysticks-plugs/plastics-for-home-button/"
+                  },
+                  "Боковые заглушки": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/buttons-joysticks-plugs/side-button-caps/"
+                  },
+                  "Пластики боковых кнопок корпуса": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/buttons-joysticks-plugs/housing-side-button-plastics/"
+                  }
+                },
+                "url": "/ru/spares/housings-and-accessories/buttons-joysticks-plugs/"
+              },
+              "Внешние корпусные части": {
+                "subcategories": {
+                  "Задние панели корпуса": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/outer-housing-parts/housing-back-covers/"
+                  },
+                  "Рамки сенсорного экрана": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/outer-housing-parts/touchscreen-frames/"
+                  },
+                  "Верхние + нижние панели корпуса": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/outer-housing-parts/top-plus-bottom-housing-panels/"
+                  },
+                  "Задние крышки батареи": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/outer-housing-parts/battery-back-covers/"
+                  },
+                  "Корпусы": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/outer-housing-parts/housings/"
+                  },
+                  "Стекла камер": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/outer-housing-parts/camera-lenses/"
+                  },
+                  "Стекла корпуса": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/outer-housing-parts/housing-glasses/"
+                  }
+                },
+                "url": "/ru/spares/housings-and-accessories/outer-housing-parts/"
+              },
+              "Винты": {
+                "subcategories": {},
+                "url": "/ru/spares/housings-and-accessories/screws/"
+              },
+              "Держатели карт памяти": {
+                "subcategories": {},
+                "url": "/ru/spares/housings-and-accessories/memory-card-slot-holders/"
+              },
+              "Внутренние корпусные части": {
+                "subcategories": {
+                  "Металлические защитные фильтры": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/inner-housing-parts/metal-protective-filters/"
+                  },
+                  "Средние части корпуса": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/inner-housing-parts/housing-middle-parts/"
+                  },
+                  "Рамки крепления дисплея": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/inner-housing-parts/lcd-binding-frames/"
+                  },
+                  "Комплекты для ремонта дисплейного модуля": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/inner-housing-parts/kits-for-lcd-module-repair/"
+                  }
+                },
+                "url": "/ru/spares/housings-and-accessories/inner-housing-parts/"
+              },
+              "Держатели SIM-карты": {
+                "subcategories": {},
+                "url": "/ru/spares/housings-and-accessories/sim-card-holders/"
+              },
+              "Двухсторонние клеящие ленты": {
+                "subcategories": {
+                  "Стикеры батареи": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/touchscreen-double-side-adhesive-tapes/battery-stickers/"
+                  },
+                  "Стикеры задних панелей корпусов (двухсторонний скотч)": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/touchscreen-double-side-adhesive-tapes/housing-back-panel-stickers-double-sided-adhesive-tape/"
+                  },
+                  "Стикеры датчика стилуса": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/touchscreen-double-side-adhesive-tapes/stylus-pen-sensor-stickers/"
+                  },
+                  "Стикеры дисплея": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/touchscreen-double-side-adhesive-tapes/lcd-stickers/"
+                  },
+                  "Защитные стикеры подсветки": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/touchscreen-double-side-adhesive-tapes/backlight-protective-stickers/"
+                  },
+                  "Стикеры тачскрина панели (двухсторонний скотч)": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/touchscreen-double-side-adhesive-tapes/touchscreen-panel-stickers-double-sided-adhesive-tape/"
+                  },
+                  "Стикеры подсветки дисплея": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/touchscreen-double-side-adhesive-tapes/lcd-backlight-sticker/"
+                  },
+                  "Стикеры тачскрина и задней панели корпуса (двухсторонний скотч)": {
+                    "subcategories": {},
+                    "url": "/ru/spares/housings-and-accessories/touchscreen-double-side-adhesive-tapes/touchscreen-and-back-panel-stickers-double-sided-adhesive-tape/"
+                  }
+                },
+                "url": "/ru/spares/housings-and-accessories/touchscreen-double-side-adhesive-tapes/"
+              }
+            },
+            "url": "/ru/spares/housings-and-accessories/"
+          },
+          "Аккумуляторы": {
+            "subcategories": {},
+            "url": "/ru/spares/accumulator/"
+          },
+          "Коннекторы": {
+            "subcategories": {
+              "Коннекторы сенсорного экрана": {
+                "subcategories": {},
+                "url": "/ru/spares/connectors/touchscreen-connectors/"
+              },
+              "Коннекторы micro-USB": {
+                "subcategories": {},
+                "url": "/ru/spares/connectors/micro-usb-connectors/"
+              },
+              "Коннекторы Handsfree": {
+                "subcategories": {},
+                "url": "/ru/spares/connectors/handsfree-connectors/"
+              },
+              "Коннекторы дисплеев": {
+                "subcategories": {},
+                "url": "/ru/spares/connectors/lcd-connectors/"
+              },
+              "Коннекторы зарядки": {
+                "subcategories": {},
+                "url": "/ru/spares/connectors/charge-connectors/"
+              },
+              "Коннекторы карты памяти": {
+                "subcategories": {},
+                "url": "/ru/spares/connectors/memory-cards-connectors/"
+              },
+              "Коннекторы HDMI": {
+                "subcategories": {},
+                "url": "/ru/spares/connectors/hdmi-connectors/"
+              },
+              "Коннекторы батареи": {
+                "subcategories": {},
+                "url": "/ru/spares/connectors/battery-connectors/"
+              },
+              "Коннекторы SIM-карты": {
+                "subcategories": {},
+                "url": "/ru/spares/connectors/sim-card-connectors/"
+              }
+            },
+            "url": "/ru/spares/connectors/"
+          }
+        },
+        "url": "/ru/spares/"
+      },
+      "Питание": {
+        "subcategories": {
+          "Аппараты точечной сварки": {
+            "subcategories": {},
+            "url": "/ru/power/spot-welding-machines/"
+          },
+          "Витратні матеріали для виготовлення акумуляторних збірок": {
+            "subcategories": {
+              "Зажимы для пайки коннекторов": {
+                "subcategories": {},
+                "url": "/ru/power/vitratni-materiali-dlya-vigotovlennya-akumulyatornih-zbirok/clamp-for-connector-soldering/"
+              },
+              "Ленты для сварки аккумуляторов": {
+                "subcategories": {},
+                "url": "/ru/power/vitratni-materiali-dlya-vigotovlennya-akumulyatornih-zbirok/nickel-tapes-for-batteries-welding/"
+              },
+              "Электроды для точечной сварки": {
+                "subcategories": {},
+                "url": "/ru/power/vitratni-materiali-dlya-vigotovlennya-akumulyatornih-zbirok/spot-welding-pins/"
+              },
+              "Держатели электродов для точечной сварки": {
+                "subcategories": {},
+                "url": "/ru/power/vitratni-materiali-dlya-vigotovlennya-akumulyatornih-zbirok/split-spot-welding-pens/"
+              }
+            },
+            "url": "/ru/power/vitratni-materiali-dlya-vigotovlennya-akumulyatornih-zbirok/"
+          },
+          "Гибридные инверторы": {
+            "subcategories": {},
+            "url": "/ru/power/hybrid-inverter/"
+          },
+          "Кабельная продукция": {
+            "subcategories": {
+              "Проводы в силиконовой изоляции": {
+                "subcategories": {},
+                "url": "/ru/power/cable-products/wires-in-silicone-insulation/"
+              }
+            },
+            "url": "/ru/power/cable-products/"
+          },
+          "Расходные материалы для электромонтажа": {
+            "subcategories": {
+              "Разъемы питания": {
+                "subcategories": {},
+                "url": "/ru/power/electrical-installation-consumables/power-connector/"
+              },
+              "Щупы-зажимы тип крючок": {
+                "subcategories": {},
+                "url": "/ru/power/electrical-installation-consumables/hook-type-clamps/"
+              },
+              "Наконечники": {
+                "subcategories": {},
+                "url": "/ru/power/electrical-installation-consumables/tips/"
+              },
+              "Зажимы крокодил": {
+                "subcategories": {},
+                "url": "/ru/power/electrical-installation-consumables/clips-type-alligator/"
+              },
+              "Коннекторы плоские": {
+                "subcategories": {},
+                "url": "/ru/power/electrical-installation-consumables/crimp-connectors/"
+              }
+            },
+            "url": "/ru/power/electrical-installation-consumables/"
+          },
+          "Силовые разъемы питания": {
+            "subcategories": {},
+            "url": "/ru/power/power-connectors/"
+          },
+          "Контрольно-измерительные приборы": {
+            "subcategories": {
+              "Другие измерители": {
+                "subcategories": {
+                  "Тестеры параметров солнечных панелей": {
+                    "subcategories": {},
+                    "url": "/ru/power/test-and-measuring-equipment/other-meters-and-testers/solar-mppt-meter/"
+                  }
+                },
+                "url": "/ru/power/test-and-measuring-equipment/other-meters-and-testers/"
+              },
+              "Аксессуары и ПО для измерительных приборов": {
+                "subcategories": {
+                  "Запасные батареи": {
+                    "subcategories": {},
+                    "url": "/ru/power/test-and-measuring-equipment/accessories-and-measuring-equipment-software/spare-battery/"
+                  },
+                  "Антенна": {
+                    "subcategories": {},
+                    "url": "/ru/power/test-and-measuring-equipment/accessories-and-measuring-equipment-software/antenna/"
+                  },
+                  "Дата-кабели": {
+                    "subcategories": {},
+                    "url": "/ru/power/test-and-measuring-equipment/accessories-and-measuring-equipment-software/usb-cable-adapter/"
+                  },
+                  "Калибровочные наборы для анализаторов спектра": {
+                    "subcategories": {},
+                    "url": "/ru/power/test-and-measuring-equipment/accessories-and-measuring-equipment-software/spectrum-analyzer-calibration-kit/"
+                  },
+                  "Магнитные держатели": {
+                    "subcategories": {},
+                    "url": "/ru/power/test-and-measuring-equipment/accessories-and-measuring-equipment-software/magnetic-holder/"
+                  },
+                  "Принтеры": {
+                    "subcategories": {},
+                    "url": "/ru/power/test-and-measuring-equipment/accessories-and-measuring-equipment-software/printer/"
+                  },
+                  "Сканеры": {
+                    "subcategories": {},
+                    "url": "/ru/power/test-and-measuring-equipment/accessories-and-measuring-equipment-software/scanner/"
+                  },
+                  "Кейсы": {
+                    "subcategories": {},
+                    "url": "/ru/power/test-and-measuring-equipment/accessories-and-measuring-equipment-software/case/"
+                  },
+                  "Лицензионные ключи и ПО": {
+                    "subcategories": {
+                      "Программные расширения \"смещение по постоянному току\"": {
+                        "subcategories": {},
+                        "url": "/ru/power/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/dc-bias-out-output-generation-options/"
+                      }
+                    },
+                    "url": "/ru/power/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/"
+                  },
+                  "Матричные переключатели ВЧ-сигналов": {
+                    "subcategories": {},
+                    "url": "/ru/power/test-and-measuring-equipment/accessories-and-measuring-equipment-software/rf-matrix-switch/"
+                  }
+                },
+                "url": "/ru/power/test-and-measuring-equipment/accessories-and-measuring-equipment-software/"
+              },
+              "Измерители солнечного излучения": {
+                "subcategories": {},
+                "url": "/ru/power/test-and-measuring-equipment/irradiance-meters/"
+              }
+            },
+            "url": "/ru/power/test-and-measuring-equipment/"
+          },
+          "Анализаторы батарей": {
+            "subcategories": {},
+            "url": "/ru/power/internal-resistance-testers/"
+          },
+          "BMS контроллеры, балансиры, зарядные устройства": {
+            "subcategories": {
+              "Балансиры активные": {
+                "subcategories": {},
+                "url": "/ru/power/bms-controllers-balancers-chargers/active-balancers/"
+              },
+              "BMS-контроллеры": {
+                "subcategories": {},
+                "url": "/ru/power/bms-controllers-balancers-chargers/bms-controllers/"
+              },
+              "Дисплеи BMS-контроллера": {
+                "subcategories": {},
+                "url": "/ru/power/bms-controllers-balancers-chargers/bms-controller-displays/"
+              },
+              "Зарядные устройства": {
+                "subcategories": {},
+                "url": "/ru/power/bms-controllers-balancers-chargers/chargers/"
+              }
+            },
+            "url": "/ru/power/bms-controllers-balancers-chargers/"
+          },
+          "Аккумуляторы": {
+            "subcategories": {
+              "Аккумуляторы 18650": {
+                "subcategories": {},
+                "url": "/ru/power/batteries/batteries-18650/"
+              },
+              "Аккумуляторы AAA": {
+                "subcategories": {},
+                "url": "/ru/power/batteries/batteries-aaa/"
+              },
+              "Аккумуляторы Крона": {
+                "subcategories": {},
+                "url": "/ru/power/batteries/9-volt-batteries/"
+              },
+              "Аккумуляторы 21700": {
+                "subcategories": {},
+                "url": "/ru/power/batteries/batteries-21700/"
+              },
+              "Аккумуляторы LiFePO4": {
+                "subcategories": {},
+                "url": "/ru/power/batteries/batteries-lifepo4/"
+              },
+              "Аккумуляторы CR123": {
+                "subcategories": {},
+                "url": "/ru/power/batteries/batteries-cr123/"
+              },
+              "Аккумуляторы D": {
+                "subcategories": {},
+                "url": "/ru/power/batteries/batteries-d/"
+              },
+              "Аккумуляторы AA": {
+                "subcategories": {},
+                "url": "/ru/power/batteries/batteries-aa/"
+              },
+              "Аккумуляторы 32700": {
+                "subcategories": {},
+                "url": "/ru/power/batteries/batteries-32700/"
+              }
+            },
+            "url": "/ru/power/batteries/"
+          },
+          "Cintas, cintas, sujetadores": {
+            "subcategories": {
+              "Тканевые ленты": {
+                "subcategories": {},
+                "url": "/ru/power/holders-for-21700-batteries/cloth-tapes/"
+              },
+              "Ленты армированные односторонние": {
+                "subcategories": {},
+                "url": "/ru/power/holders-for-21700-batteries/reinforced-duct-tapes/"
+              }
+            },
+            "url": "/ru/power/holders-for-21700-batteries/"
+          },
+          "Изоляция": {
+            "subcategories": {
+              "Термоуcадочные трубки": {
+                "subcategories": {},
+                "url": "/ru/power/insulation/heat-shrink-tubes/"
+              },
+              "Стекловолоконные трубки": {
+                "subcategories": {},
+                "url": "/ru/power/insulation/fiberglass-tube/"
+              },
+              "Термоусадочные гильзы с оловом": {
+                "subcategories": {},
+                "url": "/ru/power/insulation/heat-shrink-butt-connectors-with-tin/"
+              }
+            },
+            "url": "/ru/power/insulation/"
+          }
+        },
+        "url": "/ru/power/"
+      },
+      "Светодиодные технологии": {
+        "subcategories": {
+          "Светодиодные лампы и радиопульты": {
+            "subcategories": {
+              "Радиопульты": {
+                "subcategories": {},
+                "url": "/ru/led/led-light-bulbs-and-controls/led-remote-controls/"
+              }
+            },
+            "url": "/ru/led/led-light-bulbs-and-controls/"
+          },
+          "Цокольные переходники": {
+            "subcategories": {},
+            "url": "/ru/led/base-adapters/"
+          },
+          "Светодиодные комплекты для сборки": {
+            "subcategories": {
+              "Светодиодные лампы": {
+                "subcategories": {},
+                "url": "/ru/led/led-diy-kits/led-light-bulbs/"
+              },
+              "Комплекты для LED-подсветки": {
+                "subcategories": {},
+                "url": "/ru/led/led-diy-kits/led-light-set/"
+              },
+              "LED Светодиоды": {
+                "subcategories": {},
+                "url": "/ru/led/led-diy-kits/led-diodes/"
+              },
+              "Платы со светодиодами": {
+                "subcategories": {},
+                "url": "/ru/led/led-diy-kits/pcbs-with-leds/"
+              },
+              "Корпуса для светодиодных ламп": {
+                "subcategories": {
+                  "Цоколи LED лампы": {
+                    "subcategories": {},
+                    "url": "/ru/led/led-diy-kits/led-light-bulb-housings/led-lamp-bases/"
+                  }
+                },
+                "url": "/ru/led/led-diy-kits/led-light-bulb-housings/"
+              }
+            },
+            "url": "/ru/led/led-diy-kits/"
+          },
+          "Светодиодные контроллеры": {
+            "subcategories": {
+              "LED Контроллеры RGB": {
+                "subcategories": {},
+                "url": "/ru/led/led-controllers/led-rgb-controllers/"
+              },
+              "Диммеры": {
+                "subcategories": {},
+                "url": "/ru/led/led-controllers/dimmers/"
+              },
+              "Усилители RGB сигнала": {
+                "subcategories": {},
+                "url": "/ru/led/led-controllers/rgb-signal-amplifiers/"
+              },
+              "Контроллеры Wi-Fi": {
+                "subcategories": {},
+                "url": "/ru/led/led-controllers/wi-fi-controllers/"
+              }
+            },
+            "url": "/ru/led/led-controllers/"
+          },
+          "Светодиодные SMART-контроллеры": {
+            "subcategories": {
+              "3-канальные декодеры сигнала": {
+                "subcategories": {},
+                "url": "/ru/led/led-smart-controllers/3-channel-signal-decoders/"
+              },
+              "Светодиодные светомузыкальные контроллеры": {
+                "subcategories": {},
+                "url": "/ru/led/led-smart-controllers/led-light-music-controllers/"
+              },
+              "Автономные светодиодные контроллеры": {
+                "subcategories": {},
+                "url": "/ru/led/led-smart-controllers/led-standalone-controllers/"
+              },
+              "Соединительные кабели для передачи данных по DMX512-протоколу": {
+                "subcategories": {},
+                "url": "/ru/led/led-smart-controllers/data-cables-for-devices-with-dmx512-protocol/"
+              }
+            },
+            "url": "/ru/led/led-smart-controllers/"
+          },
+          "Блоки питания и драйвера": {
+            "subcategories": {
+              "Драйверы LED ламп": {
+                "subcategories": {},
+                "url": "/ru/led/led-power-supplies-and-drivers/led-lamp-drivers/"
+              },
+              "Блоки питания для LED-лент": {
+                "subcategories": {},
+                "url": "/ru/led/led-power-supplies-and-drivers/led-strip-power-supplies/"
+              }
+            },
+            "url": "/ru/led/led-power-supplies-and-drivers/"
+          },
+          "Светодиодные SMART-ленты": {
+            "subcategories": {
+              "Светодиодные сетки": {
+                "subcategories": {},
+                "url": "/ru/led/led-smart-strips/led-grids/"
+              },
+              "Усилители сигнала для светодиодных SMART-пикселей": {
+                "subcategories": {},
+                "url": "/ru/led/led-smart-strips/signal-amplifiers-for-smart-led-pixels/"
+              },
+              "SMART-ленты": {
+                "subcategories": {},
+                "url": "/ru/led/led-smart-strips/led-smart-strips/"
+              },
+              "Светодиодные пиксели": {
+                "subcategories": {},
+                "url": "/ru/led/led-smart-strips/led-pixels/"
+              }
+            },
+            "url": "/ru/led/led-smart-strips/"
+          },
+          "Светодиодные дисплеи для рекламы (комплектующие)": {
+            "subcategories": {
+              "Видеопроцессоры": {
+                "subcategories": {},
+                "url": "/ru/led/led-diy-advertising-displays/video-processors/"
+              },
+              "Приемные карты": {
+                "subcategories": {},
+                "url": "/ru/led/led-diy-advertising-displays/receiver-cards/"
+              },
+              "HUB-адаптеры": {
+                "subcategories": {},
+                "url": "/ru/led/led-diy-advertising-displays/hub-adapters/"
+              },
+              "LED-дисплеи для рекламы": {
+                "subcategories": {},
+                "url": "/ru/led/led-diy-advertising-displays/led-advertising-displays-diy/"
+              },
+              "Контроллеры": {
+                "subcategories": {},
+                "url": "/ru/led/led-diy-advertising-displays/control-cards/"
+              },
+              "Сенсор-модули": {
+                "subcategories": {
+                  "Сенсор-модули для RGB LED-экранов": {
+                    "subcategories": {},
+                    "url": "/ru/led/led-diy-advertising-displays/sensor-modules/sensor-modules-for-rgb-led-displays/"
+                  },
+                  "Сенсор-модули для монохромных LED-экранов": {
+                    "subcategories": {},
+                    "url": "/ru/led/led-diy-advertising-displays/sensor-modules/sensor-modules-for-monochrome-led-displays/"
+                  },
+                  "Датчики освещенности": {
+                    "subcategories": {},
+                    "url": "/ru/led/led-diy-advertising-displays/sensor-modules/illumination-sensors/"
+                  },
+                  "Датчики температуры": {
+                    "subcategories": {},
+                    "url": "/ru/led/led-diy-advertising-displays/sensor-modules/temperature-sensors/"
+                  }
+                },
+                "url": "/ru/led/led-diy-advertising-displays/sensor-modules/"
+              },
+              "Стойки для экранов": {
+                "subcategories": {},
+                "url": "/ru/led/led-diy-advertising-displays/screen-stands/"
+              },
+              "LED-модули": {
+                "subcategories": {},
+                "url": "/ru/led/led-diy-advertising-displays/led-modules/"
+              },
+              "Комплекты для сборки LED-дисплей для рекламы": {
+                "subcategories": {
+                  "Магниты": {
+                    "subcategories": {},
+                    "url": "/ru/led/led-diy-advertising-displays/indoor-led-module-kits/magnets/"
+                  },
+                  "Кабели для подключения полноцветного сенсора": {
+                    "subcategories": {},
+                    "url": "/ru/led/led-diy-advertising-displays/indoor-led-module-kits/cables-for-a-full-color-sensor-connection/"
+                  },
+                  "Вентиляторы": {
+                    "subcategories": {},
+                    "url": "/ru/led/led-diy-advertising-displays/indoor-led-module-kits/ventilyatory/"
+                  }
+                },
+                "url": "/ru/led/led-diy-advertising-displays/indoor-led-module-kits/"
+              },
+              "Модули беспроводной связи": {
+                "subcategories": {
+                  "4G модуль": {
+                    "subcategories": {},
+                    "url": "/ru/led/led-diy-advertising-displays/wireless-connection-modules/4g-module/"
+                  },
+                  "WI-FI модули": {
+                    "subcategories": {},
+                    "url": "/ru/led/led-diy-advertising-displays/wireless-connection-modules/wi-fi-modules/"
+                  }
+                },
+                "url": "/ru/led/led-diy-advertising-displays/wireless-connection-modules/"
+              }
+            },
+            "url": "/ru/led/led-diy-advertising-displays/"
+          }
+        },
+        "url": "/ru/led/"
+      },
+      "Аксессуары": {
+        "subcategories": {
+          "Гидрогелевые плёнки": {
+            "subcategories": {},
+            "url": "/ru/accessories/hydrogel-films/"
+          },
+          "Micro-SIM, Nano-SIM адаптеры": {
+            "subcategories": {},
+            "url": "/ru/accessories/micro-sim-nano-sim-adapters/"
+          },
+          "Портативные беспроводные колонки": {
+            "subcategories": {},
+            "url": "/ru/accessories/portable-wireless-speakers/"
+          },
+          "Зарядные устройства": {
+            "subcategories": {
+              "Беспроводные зарядные устройства": {
+                "subcategories": {},
+                "url": "/ru/accessories/chargers/wireless-chargers/"
+              },
+              "Сетевые зарядные устройства": {
+                "subcategories": {},
+                "url": "/ru/accessories/chargers/mains-chargers/"
+              },
+              "Автомобильные зарядные устройства": {
+                "subcategories": {},
+                "url": "/ru/accessories/chargers/car-chargers/"
+              }
+            },
+            "url": "/ru/accessories/chargers/"
+          },
+          "Гарнитура": {
+            "subcategories": {},
+            "url": "/ru/accessories/headphones/"
+          },
+          "Микрофоны петличные": {
+            "subcategories": {},
+            "url": "/ru/accessories/lapel-microphones/"
+          },
+          "USB-хабы": {
+            "subcategories": {},
+            "url": "/ru/accessories/usb-hubs/"
+          },
+          "Кольцевые лампы": {
+            "subcategories": {},
+            "url": "/ru/accessories/ring-light-lamps/"
+          },
+          "Защитные стёкла": {
+            "subcategories": {},
+            "url": "/ru/accessories/tempered-glass-screen-protectors/"
+          },
+          "Караоке микрофоны": {
+            "subcategories": {},
+            "url": "/ru/accessories/karaoke-microphone/"
+          },
+          "Органайзеры для кабелей": {
+            "subcategories": {},
+            "url": "/ru/accessories/cable-wrap-tapes/"
+          },
+          "Держатели-крючки": {
+            "subcategories": {},
+            "url": "/ru/accessories/shell-vehicle-hooks/"
+          },
+          "Защитных стекл камеры": {
+            "subcategories": {},
+            "url": "/ru/accessories/camera-glass-screen-protectors/"
+          },
+          "Плоттеры": {
+            "subcategories": {},
+            "url": "/ru/accessories/film-cutting-plotters/"
+          },
+          "Саундбары": {
+            "subcategories": {},
+            "url": "/ru/accessories/soundbar/"
+          },
+          "Коврики для мыши": {
+            "subcategories": {},
+            "url": "/ru/accessories/mouse-mats/"
+          },
+          "Держатели": {
+            "subcategories": {
+              "Автомобильные держатели": {
+                "subcategories": {},
+                "url": "/ru/accessories/holders/car-holders/"
+              },
+              "Металлические пластины": {
+                "subcategories": {},
+                "url": "/ru/accessories/holders/metal-plates/"
+              }
+            },
+            "url": "/ru/accessories/holders/"
+          },
+          "Стилусы": {
+            "subcategories": {},
+            "url": "/ru/accessories/styluses/"
+          },
+          "Наушники": {
+            "subcategories": {},
+            "url": "/ru/accessories/earphones/"
+          },
+          "Защитные плёнки": {
+            "subcategories": {},
+            "url": "/ru/accessories/protective-films/"
+          },
+          "Контроллеры заряда Li-ion аккумуляторов": {
+            "subcategories": {},
+            "url": "/ru/accessories/li-ion-battery-charge-controllers/"
+          },
+          "Наборы для чистки наушников": {
+            "subcategories": {},
+            "url": "/ru/accessories/headphone-cleaning-kit/"
+          },
+          "Усилители мощности Wi-Fi": {
+            "subcategories": {},
+            "url": "/ru/accessories/wi-fi-power-amplifiers/"
+          },
+          "Кабели, адаптеры": {
+            "subcategories": {
+              "Кабели для зарядки": {
+                "subcategories": {},
+                "url": "/ru/accessories/cables-adapters/charging-cables/"
+              },
+              "Адаптеры для зарядки PD trigger": {
+                "subcategories": {},
+                "url": "/ru/accessories/cables-adapters/charging-adapters-for-pd-trigger/"
+              },
+              "AUX-кабели": {
+                "subcategories": {},
+                "url": "/ru/accessories/cables-adapters/aux-cables/"
+              },
+              "OTG-кабеля тип C": {
+                "subcategories": {},
+                "url": "/ru/accessories/cables-adapters/type-c-otg-cables/"
+              },
+              "Кабели HDMI": {
+                "subcategories": {},
+                "url": "/ru/accessories/cables-adapters/hdmi-cables/"
+              },
+              "Кабели питания": {
+                "subcategories": {},
+                "url": "/ru/accessories/cables-adapters/power-supply-cables/"
+              },
+              "Адаптеры": {
+                "subcategories": {},
+                "url": "/ru/accessories/cables-adapters/adapters/"
+              },
+              "Кабеля MHL micro USB в HDMI": {
+                "subcategories": {},
+                "url": "/ru/accessories/cables-adapters/mhl-cables-micro-usb-in-hdmi/"
+              },
+              "Bluetooth адаптеры": {
+                "subcategories": {},
+                "url": "/ru/accessories/cables-adapters/bluetooth-adapters/"
+              },
+              "USB кабели": {
+                "subcategories": {},
+                "url": "/ru/accessories/cables-adapters/usb-cables/"
+              }
+            },
+            "url": "/ru/accessories/cables-adapters/"
+          },
+          "Обучающие игрушки и книги": {
+            "subcategories": {
+              "Головоломки и настольные игры": {
+                "subcategories": {
+                  "Настольные игры": {
+                    "subcategories": {},
+                    "url": "/ru/accessories/stem-toys-and-hobbies/brain-teasers/board-games/"
+                  },
+                  "Головоломки": {
+                    "subcategories": {},
+                    "url": "/ru/accessories/stem-toys-and-hobbies/brain-teasers/brainteasers/"
+                  }
+                },
+                "url": "/ru/accessories/stem-toys-and-hobbies/brain-teasers/"
+              },
+              "Игрушки для малышей": {
+                "subcategories": {},
+                "url": "/ru/accessories/stem-toys-and-hobbies/toddler-toys/"
+              },
+              "Программирование": {
+                "subcategories": {},
+                "url": "/ru/accessories/stem-toys-and-hobbies/coding-and-programming/"
+              },
+              "Инструменты и аксессуары": {
+                "subcategories": {
+                  "Элементы питания": {
+                    "subcategories": {},
+                    "url": "/ru/accessories/stem-toys-and-hobbies/tools-and-accessories/power-sources/"
+                  }
+                },
+                "url": "/ru/accessories/stem-toys-and-hobbies/tools-and-accessories/"
+              },
+              "Электроника": {
+                "subcategories": {
+                  "Электронные наборы": {
+                    "subcategories": {},
+                    "url": "/ru/accessories/stem-toys-and-hobbies/electronics/electronic-kits/"
+                  },
+                  "Наборы электросхем": {
+                    "subcategories": {},
+                    "url": "/ru/accessories/stem-toys-and-hobbies/electronics/circuit-kits/"
+                  }
+                },
+                "url": "/ru/accessories/stem-toys-and-hobbies/electronics/"
+              },
+              "Робототехника": {
+                "subcategories": {},
+                "url": "/ru/accessories/stem-toys-and-hobbies/robotics/"
+              },
+              "Игровые наборы": {
+                "subcategories": {},
+                "url": "/ru/accessories/stem-toys-and-hobbies/play-sets/"
+              },
+              "Инженерия и конструирование": {
+                "subcategories": {
+                  "3D-пазлы": {
+                    "subcategories": {},
+                    "url": "/ru/accessories/stem-toys-and-hobbies/engineering-and-construction/3d-puzzle-models/"
+                  },
+                  "Строительные кубики": {
+                    "subcategories": {},
+                    "url": "/ru/accessories/stem-toys-and-hobbies/engineering-and-construction/building-blocks/"
+                  },
+                  "Конструкторы": {
+                    "subcategories": {},
+                    "url": "/ru/accessories/stem-toys-and-hobbies/engineering-and-construction/construction-toys/"
+                  },
+                  "Пазлы": {
+                    "subcategories": {},
+                    "url": "/ru/accessories/stem-toys-and-hobbies/engineering-and-construction/jigsaw-puzzles/"
+                  }
+                },
+                "url": "/ru/accessories/stem-toys-and-hobbies/engineering-and-construction/"
+              },
+              "Научно-познавательные наборы": {
+                "subcategories": {
+                  "Человек и природа": {
+                    "subcategories": {},
+                    "url": "/ru/accessories/stem-toys-and-hobbies/science-and-experiments/human-and-nature/"
+                  },
+                  "Физика и химия": {
+                    "subcategories": {},
+                    "url": "/ru/accessories/stem-toys-and-hobbies/science-and-experiments/physics-and-chemistry/"
+                  },
+                  "Земля и Вселенная": {
+                    "subcategories": {},
+                    "url": "/ru/accessories/stem-toys-and-hobbies/science-and-experiments/earth-and-space/"
+                  },
+                  "Математика и логика": {
+                    "subcategories": {},
+                    "url": "/ru/accessories/stem-toys-and-hobbies/science-and-experiments/math-and-logic/"
+                  }
+                },
+                "url": "/ru/accessories/stem-toys-and-hobbies/science-and-experiments/"
+              }
+            },
+            "url": "/ru/accessories/stem-toys-and-hobbies/"
+          },
+          "Средства для поклейки стекол и пленок": {
+            "subcategories": {
+              "Ультрафиолетовые лампы для поклейки защитного стекла и плёнки": {
+                "subcategories": {},
+                "url": "/ru/accessories/glass-bonding-solutions/uv-drying-lamps/"
+              },
+              "Шпатели": {
+                "subcategories": {},
+                "url": "/ru/accessories/glass-bonding-solutions/spudger/"
+              },
+              "Наборы для очистки экрана": {
+                "subcategories": {},
+                "url": "/ru/accessories/glass-bonding-solutions/kits-for-screen-cleaning/"
+              },
+              "Пылезащитные камеры": {
+                "subcategories": {},
+                "url": "/ru/accessories/glass-bonding-solutions/dust-free-work-bench/"
+              },
+              "Клей-гели": {
+                "subcategories": {},
+                "url": "/ru/accessories/glass-bonding-solutions/glue-gel/"
+              }
+            },
+            "url": "/ru/accessories/glass-bonding-solutions/"
+          },
+          "Товары для авто": {
+            "subcategories": {
+              "Парковочные карты": {
+                "subcategories": {},
+                "url": "/ru/accessories/products-for-cars/temporary-parking-numbers/"
+              },
+              "Органайзеры": {
+                "subcategories": {},
+                "url": "/ru/accessories/products-for-cars/organizers/"
+              },
+              "Автомобильный свет": {
+                "subcategories": {},
+                "url": "/ru/accessories/products-for-cars/car-lights/"
+              },
+              "Антискользящие коврики": {
+                "subcategories": {},
+                "url": "/ru/accessories/products-for-cars/anti-slip-pads/"
+              },
+              "Фильтры": {
+                "subcategories": {},
+                "url": "/ru/accessories/products-for-cars/filters/"
+              },
+              "Компрессоры": {
+                "subcategories": {},
+                "url": "/ru/accessories/products-for-cars/compressors/"
+              },
+              "FM-трансмиттеры": {
+                "subcategories": {},
+                "url": "/ru/accessories/products-for-cars/fm-transmitters/"
+              },
+              "Пусковые устройства": {
+                "subcategories": {},
+                "url": "/ru/accessories/products-for-cars/car-jump-starters/"
+              },
+              "Автомобильные пылесосы": {
+                "subcategories": {},
+                "url": "/ru/accessories/products-for-cars/car-vacuum-cleaners/"
+              },
+              "Вентиляторы": {
+                "subcategories": {},
+                "url": "/ru/accessories/products-for-cars/fans/"
+              }
+            },
+            "url": "/ru/accessories/products-for-cars/"
+          },
+          "Компьютерные мыши": {
+            "subcategories": {},
+            "url": "/ru/accessories/computer-mouse/"
+          },
+          "Чехлы": {
+            "subcategories": {},
+            "url": "/ru/accessories/cases/"
+          },
+          "Ремешки для телефона": {
+            "subcategories": {},
+            "url": "/ru/accessories/smartphone-strap/"
+          },
+          "Power Bank": {
+            "subcategories": {},
+            "url": "/ru/accessories/power-banks/"
+          },
+          "Подставки для ноутбука": {
+            "subcategories": {},
+            "url": "/ru/accessories/laptop-stands/"
+          },
+          "Наконечники для стилусов": {
+            "subcategories": {},
+            "url": "/ru/accessories/stylus-tips/"
+          },
+          "Инструменты для извлечения SIM-карты": {
+            "subcategories": {},
+            "url": "/ru/accessories/sim-card-extractors/"
+          }
+        },
+        "url": "/ru/accessories/"
+      },
+      "Прошивка и разблокировка": {
+        "subcategories": {
+          "Кабели и адаптеры": {
+            "subcategories": {
+              "Адаптеры": {
+                "subcategories": {},
+                "url": "/ru/gsm/cables-and-adapters/adapters/"
+              }
+            },
+            "url": "/ru/gsm/cables-and-adapters/"
+          }
+        },
+        "url": "/ru/gsm/"
+      },
+      "Оборудование для ремонта": {
+        "subcategories": {
+          "Источники питания": {
+            "subcategories": {
+              "Щупы лабораторного блока питания": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-supplies/power-supply-unit-test-leads/"
+              },
+              "Кабеля для ремонта": {
+                "subcategories": {
+                  "Тест-кабели питания c платами запуска батареи": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-supplies/cables-for-repair/power-supply-test-cables-with-battery-activation-charge-boards/"
+                  },
+                  "Кабели для блоков питания": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-supplies/cables-for-repair/power-supply-cables/"
+                  },
+                  "Тест-кабели питания": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-supplies/cables-for-repair/power-supply-test-cables/"
+                  },
+                  "Тест-кабели для проверки коннектора зарядки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-supplies/cables-for-repair/usb-port-testers/"
+                  },
+                  "Тестеры для USB-кабелей синхронизации и зарядки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-supplies/cables-for-repair/testers-for-usb-synchronization-and-charging-cable/"
+                  },
+                  "Кабели для запуска батареи": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-supplies/cables-for-repair/battery-activation-cables/"
+                  },
+                  "Платы коннектора батареи": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-supplies/cables-for-repair/battery-connector-pcb/"
+                  }
+                },
+                "url": "/ru/equipment/power-supplies/cables-for-repair/"
+              },
+              "Лабораторные блоки питания": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-supplies/power-supply-units/"
+              },
+              "Блоки питания": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-supplies/power-supply-unit/"
+              },
+              "AC/DC-преобразователи": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-supplies/ac-dc-transducers/"
+              }
+            },
+            "url": "/ru/equipment/power-supplies/"
+          },
+          "Ультразвуковая очистка": {
+            "subcategories": {
+              "Ультразвуковые ванны": {
+                "subcategories": {},
+                "url": "/ru/equipment/ultrasonic-cleaning/ultrasonic-cleaners/"
+              }
+            },
+            "url": "/ru/equipment/ultrasonic-cleaning/"
+          },
+          "Контрольно-измерительные приборы": {
+            "subcategories": {
+              "Анализаторы спектра": {
+                "subcategories": {},
+                "url": "/ru/equipment/test-and-measuring-equipment/spectrum-analyzers/"
+              },
+              "Тепловизоры": {
+                "subcategories": {},
+                "url": "/ru/equipment/test-and-measuring-equipment/thermal-imaging-cameras/"
+              },
+              "Измерители RLC": {
+                "subcategories": {},
+                "url": "/ru/equipment/test-and-measuring-equipment/rlc-meters/"
+              },
+              "Измерители сопротивления заземления и аксессуары": {
+                "subcategories": {
+                  "Измерители сопротивления заземления": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/earth-resistance-meters-and-accessories/grounding-resistance-meters/"
+                  }
+                },
+                "url": "/ru/equipment/test-and-measuring-equipment/earth-resistance-meters-and-accessories/"
+              },
+              "Аксессуары и ПО для измерительных приборов": {
+                "subcategories": {
+                  "Активные щупы для осциллографов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/oscilloscope-active-probes/"
+                  },
+                  "Адаптеры питания": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/battery-chargers/"
+                  },
+                  "Токоизмерительные клещи-приставка": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/ac-dc-current-clamp-add-on/"
+                  },
+                  "Модули логического анализатора": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/logic-analyzer-probes/"
+                  },
+                  "Усилители мощности выходного сигнала генератора": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/waveform-generator-signal-power-amplifiers/"
+                  },
+                  "Компенсационные модули": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/deskew-fixtures/"
+                  },
+                  "Внешние адаптеры для анализаторов качества энергоснабжения": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/external-adapter-for-power-quality-analyzers/"
+                  },
+                  "Наборы RF адаптеров анализатора спектра": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/rf-adaptor-kits/"
+                  },
+                  "Наборы аксессуаров анализаторов спектра": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/spectrum-analyzer-accessory-kits/"
+                  },
+                  "Тестеры-пробники напряжения": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/voltprobe/"
+                  },
+                  "Комплекты измерительных проводов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/test-lead-sets/"
+                  },
+                  "Аттенюаторы анализаторов спектра": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/spectrum-analyzer-attenuators/"
+                  },
+                  "Внешние датчики вибрации": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/external-vibration-sensors/"
+                  },
+                  "Входные адаптеры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/input-adapters/"
+                  },
+                  "Сумки для приборов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/equipment-bags/"
+                  },
+                  "Рэковые крепления для измерительных приборов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/instrument-rackmount-kits/"
+                  },
+                  "Измерительные щупы": {
+                    "subcategories": {
+                      "Измерительные щупы для мультиметра": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/test-leads/test-leads-for-multimeter/"
+                      },
+                      "Провода для подключения щупов": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/test-leads/probe-connection-cables/"
+                      },
+                      "Измерительные зажимы": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/test-leads/measuring-clamps/"
+                      },
+                      "Измерительные щупы для осциллографа": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/test-leads/test-leads-for-oscilloscope/"
+                      }
+                    },
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/test-leads/"
+                  },
+                  "Адаптеры Wi-Fi": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/wi-fi-adapters/"
+                  },
+                  "Лицензионные ключи и ПО": {
+                    "subcategories": {
+                      "Программные расширения предусилителя": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/preamplifier-software-licenses/"
+                      },
+                      "Программные расширения \"беспроводное подключение\"": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/wireless-connection-activation-licenses/"
+                      },
+                      "Программные расширения функций запуска": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/trigger-option-software-licenses/"
+                      },
+                      "Программные расширения для измерения ACPR, OBW, CP, TDP": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/acpr-obw-cp-tdp-measurement-software-licenses/"
+                      },
+                      "Программные расширения \"декодирование I2C, SPI, UART/RS232\"": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/i2c-spi-uart-rs232-decoder-software/"
+                      },
+                      "Фильтры ЭМП и квазипиковые детекторы": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/emi-filters-and-quasi-peak-detectors/"
+                      },
+                      "Программные расширения увеличения глубины памяти": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/deep-memory-software-licenses/"
+                      },
+                      "Программные расширения \"увеличения количества каналов\"": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/channel-upgrade-software/"
+                      },
+                      "Программные расширения \"анализ модуляции DMA\"": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/digital-modulation-analysis-software-option/"
+                      },
+                      "Программные расширения \"логический анализатор\"": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/logic-analyzer-software/"
+                      },
+                      "Программные расширения \"анализ модуляции AM/FM\"": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/am-fm-modulation-analyser-software/"
+                      },
+                      "Программные расширения \"анализ мощности\"": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/power-analysis-software/"
+                      },
+                      "Программные расширения \"генератор сигналов\"": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/waveform-generator-software/"
+                      },
+                      "Программные расширения \"измерение расстояния до повреждения\"": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/distance-to-fault-licenses/"
+                      },
+                      "Программные расширения для измерения КСВН": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/vswr-measuring-software-licenses/"
+                      },
+                      "Программное обеспечение": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/software/"
+                      },
+                      "Программные расширения \"независимый генератор\"": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/independent-signal-source-option/"
+                      },
+                      "Программные обеспечения Fluke": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/fluke-software/"
+                      },
+                      "Программные расширения \"анализ модуляции ASK/FSK\"": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/ask-fsk-modulation-analyser-software/"
+                      },
+                      "Опции регистратора": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/waveform-record-and-play-options/"
+                      },
+                      "Программные расширения \"декодирование SENT decoding\"": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/sent-decoding-activation-license/"
+                      },
+                      "Программные расширения \"векторный анализ сети\"": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/vector-network-analysis-licenses/"
+                      },
+                      "Комплекты программных расширений": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/software-license-bundles/"
+                      },
+                      "Трекинг-генераторы": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/tracking-generators/"
+                      },
+                      "Программные расширения \"декодирование Manchester decoder\"": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/manchester-decoding-activation-license/"
+                      },
+                      "Программные расширения \"расширение полосы пропускания\"": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/bandwidth-upgrade-software/"
+                      },
+                      "Программные расширения \"расширеннный измерительный набор\"": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/advanced-measurement-kit-option/"
+                      }
+                    },
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/license-keys-and-software/"
+                  },
+                  "Генераторы AWG": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/awg-generators/"
+                  },
+                  "Датчики температуры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/temperature-probes/"
+                  },
+                  "Мосты для измерения КСВН": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/vswr-bridges/"
+                  },
+                  "Демонстрационные РЧ-модули": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/demo-rf-modules/"
+                  },
+                  "Токовые пробники для осциллографа": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/oscilloscope-probes/"
+                  },
+                  "Наборы антенн ближнего поля анализаторов спектра": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/spectrum-analyzer-near-field-probe-sets/"
+                  },
+                  "Коаксиальные кабели (BNC)": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/coaxial-cables-bnc/"
+                  },
+                  "Аттенюаторы для осциллографов и генераторов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/attenuators-for-oscilloscopes-and-generators/"
+                  }
+                },
+                "url": "/ru/equipment/test-and-measuring-equipment/accessories-and-measuring-equipment-software/"
+              },
+              "Цифровые осциллографы": {
+                "subcategories": {},
+                "url": "/ru/equipment/test-and-measuring-equipment/digital-oscilloscopes/"
+              },
+              "Мегаомметры": {
+                "subcategories": {},
+                "url": "/ru/equipment/test-and-measuring-equipment/insulation-testers/"
+              },
+              "Тестеры-пробники": {
+                "subcategories": {
+                  "Мультиметры-пробники": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/pen-type-testers/pen-type-multimeters/"
+                  },
+                  "Тестеры напряжения": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/pen-type-testers/pen-type-voltage-testers/"
+                  }
+                },
+                "url": "/ru/equipment/test-and-measuring-equipment/pen-type-testers/"
+              },
+              "Токоизмерительные клещи": {
+                "subcategories": {},
+                "url": "/ru/equipment/test-and-measuring-equipment/clamp-meters/"
+              },
+              "Бесконтактные индикаторы": {
+                "subcategories": {},
+                "url": "/ru/equipment/test-and-measuring-equipment/non-contact-detectors/"
+              },
+              "Пирометры": {
+                "subcategories": {},
+                "url": "/ru/equipment/test-and-measuring-equipment/infrared-thermometers/"
+              },
+              "Анализаторы батарей": {
+                "subcategories": {},
+                "url": "/ru/equipment/test-and-measuring-equipment/battery-analyzers/"
+              },
+              "Другие измерители": {
+                "subcategories": {
+                  "Цифровые люксметры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-light-meters/"
+                  },
+                  "Дифманометры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/differential-pressure-gauges/"
+                  },
+                  "Измерители уровня LPG": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/lpg-level-meter/"
+                  },
+                  "Измерители мощности лазеров": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/laser-power-meters/"
+                  },
+                  "Регистраторы качества напряжения": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/voltage-quality-recorder/"
+                  },
+                  "Калибраторы напряжения и тока": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/voltage-current-calibrators/"
+                  },
+                  "Частотомеры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/frequency-counters/"
+                  },
+                  "Фазовые детекторы": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/phase-detectors/"
+                  },
+                  "Калибраторы манометров": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/pressure-gauge-calibrators/"
+                  },
+                  "Цифровые тахометры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-tachometers/"
+                  },
+                  "Тестеры розеток": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/socket-testers/"
+                  },
+                  "Цифровые виброметры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-vibration-testers/"
+                  },
+                  "Твердомеры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/hardness-tester/"
+                  },
+                  "Электронные барометры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-barometers/"
+                  },
+                  "Цифровые шумомеры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-sound-level-meters/"
+                  },
+                  "Обслуживание автомобильных зарядных станций": {
+                    "subcategories": {
+                      "Наборы для тестирования автомобильных зарядных станций": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/car-charging-stations-maintenance/car-charging-station-testing-kit/"
+                      },
+                      "Тестеры автомобильных зарядных станций": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/car-charging-stations-maintenance/car-charging-station-tester/"
+                      },
+                      "Вилки для тестера автомобильных зарядных станций": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/car-charging-stations-maintenance/type-2-plugs-for-test-adapter-ev-charging/"
+                      }
+                    },
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/car-charging-stations-maintenance/"
+                  },
+                  "Цифровые термогигрометры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-temperature-and-humidity-meters/"
+                  },
+                  "Модули давления": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/pressure-modules/"
+                  },
+                  "Измерители цепи фаза-ноль и напряжения прикосновения": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/phase-zero-circuit-and-touch-voltage-meters/"
+                  },
+                  "Анализаторы качества электроэнергии": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/power-quality-analyzers/"
+                  },
+                  "Калибраторы давления": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/pressure-calibrators/"
+                  },
+                  "Устройства акустической визуализации": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/acoustic-imaging-cameras/"
+                  },
+                  "Логические анализаторы": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/logic-analyzers/"
+                  },
+                  "Цифровые анемометры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-anemometers/"
+                  },
+                  "Тестеры интенсивности электромагнитного излучения": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/rf-field-strength-meters/"
+                  },
+                  "Анализаторы кабеля": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/cable-analyzers/"
+                  },
+                  "Электрические калибраторы давления": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/pressure-calibrator/"
+                  },
+                  "Тестеры электроустановок": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/power-line-testers/"
+                  },
+                  "Микроомметры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/micro-ohm-meters/"
+                  },
+                  "Цифровые термометры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-thermometers/"
+                  },
+                  "Дозиметры (радиометры)": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/dosimeters-radiometers/"
+                  },
+                  "Нагрузки электронные программируемые": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/programmable-dc-electronic-loads/"
+                  },
+                  "Цифровые дальномеры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-distance-measurers/"
+                  },
+                  "Цифровые USB регистраторы": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/digital-usb-dataloggers/"
+                  },
+                  "Влагомеры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/moisture-meters/"
+                  },
+                  "Толщиномеры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/coating-thickness-gauge/"
+                  }
+                },
+                "url": "/ru/equipment/test-and-measuring-equipment/other-meters-and-testers/"
+              },
+              "Генераторы сигналов": {
+                "subcategories": {},
+                "url": "/ru/equipment/test-and-measuring-equipment/function-waveform-generators/"
+              },
+              "Анализаторы работы электроприводов": {
+                "subcategories": {},
+                "url": "/ru/equipment/test-and-measuring-equipment/motor-drive-analyzer/"
+              },
+              "Мультиметры": {
+                "subcategories": {},
+                "url": "/ru/equipment/test-and-measuring-equipment/multimeters/"
+              }
+            },
+            "url": "/ru/equipment/test-and-measuring-equipment/"
+          },
+          "Паяльное оборудование": {
+            "subcategories": {
+              "Запчасти для паяльного оборудования": {
+                "subcategories": {
+                  "Запасные фены": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/spare-hot-air-guns/"
+                  },
+                  "Запасные термопинцеты": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/spare-hot-tweezers/"
+                  },
+                  "Нагревательные элементы": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/heating-elements/"
+                  },
+                  "Наконечники": {
+                    "subcategories": {
+                      "Наконечники для демонтажного пистолета": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/tips/desoldering-tips/"
+                      }
+                    },
+                    "url": "/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/tips/"
+                  },
+                  "Запасные паяльники": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/spare-soldering-irons/"
+                  },
+                  "Системы охлаждения": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/cooling-systems/"
+                  },
+                  "Компрессоры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/compressors/"
+                  },
+                  "Накидные гайки паяльника": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/soldering-iron-cap-nuts/"
+                  },
+                  "Наборы фильтров демонтажного паяльника": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/desoldering-gun-filter-sets/"
+                  },
+                  "Пружины-фильтры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/spring-filters/"
+                  }
+                },
+                "url": "/ru/equipment/soldering-equipment/spare-parts-for-soldering-equipment/"
+              },
+              "Инфракрасные паяльные станции": {
+                "subcategories": {},
+                "url": "/ru/equipment/soldering-equipment/infrared-soldering-stations/"
+              },
+              "Аксессуары для пайки": {
+                "subcategories": {
+                  "Паяльные жала": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/soldering-accessories/soldering-iron-tips/"
+                  },
+                  "Кабели питания": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/soldering-accessories/power-cable/"
+                  },
+                  "Комплекты паяльных жал": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/soldering-accessories/soldering-iron-tip-sets/"
+                  },
+                  "Насадки термофена": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/soldering-accessories/replacement-air-nozzles/"
+                  },
+                  "Оловоотсосы": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/soldering-accessories/desoldering-pumps/"
+                  }
+                },
+                "url": "/ru/equipment/soldering-equipment/soldering-accessories/"
+              },
+              "Газовые паяльники": {
+                "subcategories": {},
+                "url": "/ru/equipment/soldering-equipment/gas-powered-soldering-irons/"
+              },
+              "Паяльные комплексы": {
+                "subcategories": {},
+                "url": "/ru/equipment/soldering-equipment/bga-rework-systems/"
+              },
+              "Реболлинг": {
+                "subcategories": {
+                  "3D BGA-трафареты": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/bga-reballing/3d-bga-stencils/"
+                  },
+                  "BGA-трафареты": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/bga-reballing/bga-stencils/"
+                  },
+                  "BGA-шарики": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/bga-reballing/bga-balls/"
+                  },
+                  "Столы для BGA-трафаретов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/bga-reballing/bga-reballing-stands/"
+                  },
+                  "Платформы для предварительного подогрева": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/bga-reballing/preheating-platforms/"
+                  },
+                  "Наборы для BGA-реболлинга": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/bga-reballing/bga-reballing-kits/"
+                  },
+                  "Наборы BGA-трафаретов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/bga-reballing/bga-stencils-kits/"
+                  },
+                  "Фиксаторы плат": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/bga-reballing/pcb-supporters/"
+                  }
+                },
+                "url": "/ru/equipment/soldering-equipment/bga-reballing/"
+              },
+              "Вспомогательное оборудование для пайки": {
+                "subcategories": {
+                  "Пинцеты электровакуумные": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/vacuum-pick-up-stations/"
+                  },
+                  "Макетные платы и компоненты": {
+                    "subcategories": {
+                      "Макетные платы": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/breadboards-and-accessories/breadboards/"
+                      }
+                    },
+                    "url": "/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/breadboards-and-accessories/"
+                  },
+                  "Теплоотводы для микросхем": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/heat-clips/"
+                  },
+                  "Дымопоглотители": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/smoke-absorbers/"
+                  },
+                  "Держатели аккумуляторов для точечной сварки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/battery-holders-for-spot-welding/"
+                  },
+                  "Подставки под паяльник": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/soldering-stands/"
+                  },
+                  "Телескопические зеркала": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/telescopic-inspection-mirrors/"
+                  },
+                  "Пинцеты вакуумные": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/vacuum-pick-up-tools/"
+                  },
+                  "Телескопические магниты": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/telescopic-magnetic-pick-up-tools/"
+                  },
+                  "Подставки для катушки припоя": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/solder-coil-reel-holders/"
+                  },
+                  "Штативы для фенов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/holders/"
+                  },
+                  "Держатели плат": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/pcb-holders/"
+                  }
+                },
+                "url": "/ru/equipment/soldering-equipment/soldering-aid-tools-and-equipment/"
+              },
+              "Термовоздушные паяльные станции": {
+                "subcategories": {},
+                "url": "/ru/equipment/soldering-equipment/hot-air-soldering-stations/"
+              },
+              "Преднагреватели плат": {
+                "subcategories": {},
+                "url": "/ru/equipment/soldering-equipment/preheaters/"
+              },
+              "SMART-преднагреватели": {
+                "subcategories": {},
+                "url": "/ru/equipment/soldering-equipment/smart-pre-heaters/"
+              },
+              "Паяльные станции": {
+                "subcategories": {},
+                "url": "/ru/equipment/soldering-equipment/soldering-stations/"
+              },
+              "Демонтажные станции": {
+                "subcategories": {},
+                "url": "/ru/equipment/soldering-equipment/desoldering-stations/"
+              },
+              "Пaяльники": {
+                "subcategories": {},
+                "url": "/ru/equipment/soldering-equipment/soldering-irons/"
+              },
+              "Специализированное паяльное оборудование": {
+                "subcategories": {
+                  "Паяльные ванны": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/specialized-soldering-equipment/solder-pots/"
+                  },
+                  "Горелки газовые": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/specialized-soldering-equipment/gas-torches/"
+                  },
+                  "Инструменты для постобработки 3D-печати": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/specialized-soldering-equipment/3d-print-retouching-tools/"
+                  },
+                  "Паяльные печи": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/specialized-soldering-equipment/solder-ovens/"
+                  },
+                  "Термопинцеты": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/soldering-equipment/specialized-soldering-equipment/hot-tweezers/"
+                  }
+                },
+                "url": "/ru/equipment/soldering-equipment/specialized-soldering-equipment/"
+              }
+            },
+            "url": "/ru/equipment/soldering-equipment/"
+          },
+          "Хранение и транспортировка": {
+            "subcategories": {
+              "Кассетницы, органайзеры": {
+                "subcategories": {
+                  "Кассетницы наборные": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/storage-and-transportation/utility-component-storage-boxes-organizers/composite-storage-boxes/"
+                  },
+                  "Органайзеры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/storage-and-transportation/utility-component-storage-boxes-organizers/organizer/"
+                  },
+                  "Кассетницы з выдвижными ячейками": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/storage-and-transportation/utility-component-storage-boxes-organizers/modular-utility-component-storage-boxes/"
+                  },
+                  "Модуль к кассетнице с выдвижными ячейками": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/storage-and-transportation/utility-component-storage-boxes-organizers/utility-component-storage-box-module/"
+                  },
+                  "Ячейки кассетницы": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/storage-and-transportation/utility-component-storage-boxes-organizers/cells/"
+                  },
+                  "Кассетницы": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/storage-and-transportation/utility-component-storage-boxes-organizers/utility-component-storage-boxes/"
+                  }
+                },
+                "url": "/ru/equipment/storage-and-transportation/utility-component-storage-boxes-organizers/"
+              },
+              "Кейсы для инструментов": {
+                "subcategories": {},
+                "url": "/ru/equipment/storage-and-transportation/tool-cases/"
+              },
+              "Магнитные браслеты": {
+                "subcategories": {},
+                "url": "/ru/equipment/storage-and-transportation/magnetic-wristbands/"
+              },
+              "Баночки для жидкости с дозатором": {
+                "subcategories": {},
+                "url": "/ru/equipment/storage-and-transportation/liquid-dispenser-bottles/"
+              },
+              "Баночки для флюса с дозатором": {
+                "subcategories": {},
+                "url": "/ru/equipment/storage-and-transportation/flux-bottles/"
+              },
+              "Сумки для инструмента": {
+                "subcategories": {},
+                "url": "/ru/equipment/storage-and-transportation/tool-bags/"
+              },
+              "Пояса для инструмента": {
+                "subcategories": {},
+                "url": "/ru/equipment/storage-and-transportation/tool-belts/"
+              },
+              "Складные ручные тележки": {
+                "subcategories": {},
+                "url": "/ru/equipment/storage-and-transportation/luggage-carts/"
+              },
+              "Кейсы": {
+                "subcategories": {},
+                "url": "/ru/equipment/storage-and-transportation/cases/"
+              }
+            },
+            "url": "/ru/equipment/storage-and-transportation/"
+          },
+          "Линзы, лупы, лампы": {
+            "subcategories": {
+              "Напольные штативы для увеличительных линз": {
+                "subcategories": {},
+                "url": "/ru/equipment/lenses-magnifiers-lamps/magnifying-lamp-floor-stands/"
+              },
+              "Ручные лупы": {
+                "subcategories": {},
+                "url": "/ru/equipment/lenses-magnifiers-lamps/handheld-magnifiers/"
+              },
+              "Запасные лампы": {
+                "subcategories": {},
+                "url": "/ru/equipment/lenses-magnifiers-lamps/replacement-light-bulbs/"
+              },
+              "Налобные линзы": {
+                "subcategories": {},
+                "url": "/ru/equipment/lenses-magnifiers-lamps/headband-magnifiers/"
+              },
+              "Настольные увеличительные линзы": {
+                "subcategories": {},
+                "url": "/ru/equipment/lenses-magnifiers-lamps/desktop-magnifying-lamps/"
+              }
+            },
+            "url": "/ru/equipment/lenses-magnifiers-lamps/"
+          },
+          "Программаторы": {
+            "subcategories": {},
+            "url": "/ru/equipment/programmers/"
+          },
+          "Всё для ремонта дисплейного модуля": {
+            "subcategories": {
+              "Валики прижимные резиновые": {
+                "subcategories": {},
+                "url": "/ru/equipment/mobile-device-lcd-module-repair/rubber-rollers/"
+              },
+              "Присоски для поднятия дисплея, тачскрина": {
+                "subcategories": {},
+                "url": "/ru/equipment/mobile-device-lcd-module-repair/suction-cups/"
+              },
+              "Держатели": {
+                "subcategories": {},
+                "url": "/ru/equipment/mobile-device-lcd-module-repair/soportes/"
+              },
+              "Химия и расходные материалы": {
+                "subcategories": {
+                  "Салфетки из микрофибры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/microfiber-clothes/"
+                  },
+                  "Жидкости": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/glue-removers/"
+                  },
+                  "Сменные лезвия": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/spare-blades/"
+                  },
+                  "Стикеры для OCA-пленки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/sticker-for-oca-film/"
+                  },
+                  "Лезвия для удаления клея": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/glue-removing-blades/"
+                  },
+                  "Фиксаторы резьбы": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/glue-threads/"
+                  },
+                  "Клеи и пистолеты для клея": {
+                    "subcategories": {
+                      "Праймеры": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/glues-and-glue-guns/primers/"
+                      },
+                      "Суперклеи": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/glues-and-glue-guns/superglues/"
+                      },
+                      "Клеи-герметики": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/glues-and-glue-guns/sealant-glues/"
+                      },
+                      "Клеи": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/glues-and-glue-guns/glues/"
+                      },
+                      "Пистолеты универсальные": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/glues-and-glue-guns/universal-guns/"
+                      }
+                    },
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/glues-and-glue-guns/"
+                  },
+                  "Очистители": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/remover/"
+                  },
+                  "Струны для отклеивания стекла": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/glass-separator-wires/"
+                  },
+                  "Жала-лопатки с лезвием": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/shovel-soldering-iron-tips-with-blade/"
+                  }
+                },
+                "url": "/ru/equipment/mobile-device-lcd-module-repair/chemicals-and-consumables/"
+              },
+              "Зажимы для фиксации дисплейного модуля": {
+                "subcategories": {},
+                "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-plastic-clamps/"
+              },
+              "Калибраторы": {
+                "subcategories": {},
+                "url": "/ru/equipment/mobile-device-lcd-module-repair/calibrators/"
+              },
+              "Тестеры материнских плат": {
+                "subcategories": {},
+                "url": "/ru/equipment/mobile-device-lcd-module-repair/motherboard-testers/"
+              },
+              "Толкатели": {
+                "subcategories": {},
+                "url": "/ru/equipment/mobile-device-lcd-module-repair/aluminum-alloy-tube-piston/"
+              },
+              "Инструменты для поднятия дисплея/тачскрина": {
+                "subcategories": {},
+                "url": "/ru/equipment/mobile-device-lcd-module-repair/tools-for-touchscreen-lcd-lifting/"
+              },
+              "Комплектующие для ремонта дисплейного модуля": {
+                "subcategories": {
+                  "Поляризационные пленки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-components/lcd-polarization-films/"
+                  },
+                  "OCA-пленки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-components/double-sided-adhesive-oca-films/"
+                  },
+                  "Задние поляризационные фильтры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-components/back-polarizing-filters/"
+                  }
+                },
+                "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-components/"
+              },
+              "Оборудование для ремонта дисплейного модуля": {
+                "subcategories": {
+                  "Антистатические камеры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/esd-cameras/"
+                  },
+                  "Устройства для приклеивания рамки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/frame-gluing-machines/"
+                  },
+                  "Запасные монтажные коврики": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/extra-insulation-rubber-pads/"
+                  },
+                  "Ручки для разбивания стекла задней крышки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/back-glass-breakers/"
+                  },
+                  "Воздушные компрессоры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/air-compressors/"
+                  },
+                  "Устройства для расклеивания и склеивания дисплейного модуля": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/devices-for-gluing-and-ungluing-lcd-modules/"
+                  },
+                  "Нагревательные коврики для разборки (cепаратор)": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/heating-stations-separator-mat/"
+                  },
+                  "Дымопоглотители": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/smoke-absorbers/"
+                  },
+                  "Устройства для снятия ОСА-клея": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/oca-glue-removing-machine/"
+                  },
+                  "Полуавтоматические устройства для подачи клея": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/semi-automatic-glue-dispensers/"
+                  },
+                  "Устройства для склеивания дисплейного модуля": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/lcd-module-gluing-machines/"
+                  },
+                  "Устройства для расклеивания дисплейного модуля (сепаратор)": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/lcd-touch-screen-glass-separators/"
+                  },
+                  "Пресс-формы": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/molds/"
+                  },
+                  "Полировочные машины": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/buffing-machine/"
+                  },
+                  "Вакуумные насосы": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/vacuum-pumps/"
+                  },
+                  "Лазерные сепараторы": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/laser-separating-machines/"
+                  },
+                  "Базовые платформы": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/basic-platforms/"
+                  }
+                },
+                "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-repair-equipment/"
+              },
+              "Ультрафиолетовые лампы": {
+                "subcategories": {},
+                "url": "/ru/equipment/mobile-device-lcd-module-repair/uv-lamps/"
+              },
+              "Отвертки": {
+                "subcategories": {
+                  "Крестообразные отвертки (Phillips)": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/screwdrivers/phillips-screwdrivers/"
+                  },
+                  "Отвертки Hex": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/screwdrivers/hex-screwdrivers/"
+                  },
+                  "Отвертки крестовые": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/screwdrivers/crosshead-screwdrivers/"
+                  },
+                  "Отвертки шлицевые": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/screwdrivers/slotted-screwdriver/"
+                  },
+                  "Отвертки \"звездочка\"": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/screwdrivers/pentalobe-screwdrivers/"
+                  },
+                  "Отвертки \"звездочка+крестовая\"": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/screwdrivers/pentalobeplusphillips-screwdrivers/"
+                  },
+                  "Отвертки трехлепестковые (Tri-Wing)": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/mobile-device-lcd-module-repair/screwdrivers/tri-wing-screwdrivers/"
+                  }
+                },
+                "url": "/ru/equipment/mobile-device-lcd-module-repair/screwdrivers/"
+              },
+              "Коврики монтажные": {
+                "subcategories": {},
+                "url": "/ru/equipment/mobile-device-lcd-module-repair/insulation-mats/"
+              },
+              "Фиксаторы дисплейного модуля": {
+                "subcategories": {},
+                "url": "/ru/equipment/mobile-device-lcd-module-repair/lcd-module-moulds/"
+              }
+            },
+            "url": "/ru/equipment/mobile-device-lcd-module-repair/"
+          },
+          "Обслуживание телекоммуникационных сетей": {
+            "subcategories": {
+              "Тестеры кабеля": {
+                "subcategories": {},
+                "url": "/ru/equipment/network-equipment/cable-testers/"
+              },
+              "Тестеры телефонные": {
+                "subcategories": {},
+                "url": "/ru/equipment/network-equipment/telecom-testers/"
+              },
+              "Наборы инструментов для обслуживания сетевого оборудования": {
+                "subcategories": {},
+                "url": "/ru/equipment/network-equipment/telecommunication-network-tool-kits/"
+              },
+              "Матрицы обжима коаксиального кабеля": {
+                "subcategories": {},
+                "url": "/ru/equipment/network-equipment/coaxial-cable-crimp-die-sets/"
+              },
+              "Инструменты для заделки плинтов": {
+                "subcategories": {
+                  "Сменные лезвия": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/network-equipment/punch-down-tools-and-blades/spare-blades/"
+                  },
+                  "Инструменты для расшивки кабеля на кросс": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/network-equipment/punch-down-tools-and-blades/punch-down-tools/"
+                  }
+                },
+                "url": "/ru/equipment/network-equipment/punch-down-tools-and-blades/"
+              },
+              "Инструменты для протяжки кабеля": {
+                "subcategories": {},
+                "url": "/ru/equipment/network-equipment/fish-tapes/"
+              },
+              "Матрицы обжима витой пары": {
+                "subcategories": {},
+                "url": "/ru/equipment/network-equipment/twisted-pair-crimp-tool-die-sets/"
+              },
+              "Стрипперы для витой пары": {
+                "subcategories": {},
+                "url": "/ru/equipment/network-equipment/twisted-pair-strippers/"
+              },
+              "Кримперы для витой пары": {
+                "subcategories": {},
+                "url": "/ru/equipment/network-equipment/twisted-pair-crimp-tools/"
+              },
+              "Кримперы для штекеров Scotchlok": {
+                "subcategories": {},
+                "url": "/ru/equipment/network-equipment/scotchlok-crimping-tools/"
+              },
+              "Кримперы для коаксиального кабеля": {
+                "subcategories": {},
+                "url": "/ru/equipment/network-equipment/coaxial-cable-crimp-tools/"
+              },
+              "Стрипперы для коаксиального кабеля": {
+                "subcategories": {},
+                "url": "/ru/equipment/network-equipment/coaxial-cable-strippers/"
+              },
+              "Степлеры": {
+                "subcategories": {
+                  "Кабельные степлеры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/network-equipment/staplers/cable-staples/"
+                  }
+                },
+                "url": "/ru/equipment/network-equipment/staplers/"
+              },
+              "Стрипперы для коаксиального кабеля и витой пары": {
+                "subcategories": {},
+                "url": "/ru/equipment/network-equipment/coaxial-cable-and-twisted-pair-strippers/"
+              },
+              "Кримперы для IDC-коннекторов": {
+                "subcategories": {},
+                "url": "/ru/equipment/network-equipment/idc-crimping-tools/"
+              },
+              "Тестеры-трассоискатели": {
+                "subcategories": {},
+                "url": "/ru/equipment/network-equipment/line-trackers/"
+              }
+            },
+            "url": "/ru/equipment/network-equipment/"
+          },
+          "Наборы инструментов": {
+            "subcategories": {
+              "Наборы отверток": {
+                "subcategories": {
+                  "Наборы для разбора мобильных телефонов и планшетов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/tool-kits/screwdriver-sets/screwdriver-sets-for-cell-phones-and-tablets/"
+                  },
+                  "Наборы подстроечных отверток": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/tool-kits/screwdriver-sets/alignment-screwdrivers-sets/"
+                  }
+                },
+                "url": "/ru/equipment/tool-kits/screwdriver-sets/"
+              },
+              "Наборы инструментов в ящике": {
+                "subcategories": {},
+                "url": "/ru/equipment/tool-kits/tool-kit-in-a-box/"
+              },
+              "Наборы скальпелей": {
+                "subcategories": {},
+                "url": "/ru/equipment/tool-kits/knife-sets/"
+              },
+              "Наборы инструментов для снятия стопорных колец": {
+                "subcategories": {},
+                "url": "/ru/equipment/tool-kits/retaining-ring-pliers-sets/"
+              },
+              "Наборы инструментов в сумке": {
+                "subcategories": {},
+                "url": "/ru/equipment/tool-kits/tool-kits-in-bags/"
+              },
+              "Наборы шестигранных ключей": {
+                "subcategories": {},
+                "url": "/ru/equipment/tool-kits/hex-key-sets/"
+              },
+              "Наборы инструментов для снятия обшивки автомобиля": {
+                "subcategories": {},
+                "url": "/ru/equipment/tool-kits/car-trim-removal-tool-kits/"
+              },
+              "Битодержатели с битами": {
+                "subcategories": {},
+                "url": "/ru/equipment/tool-kits/bit-holders-with-bits/"
+              },
+              "Наборы гаечных ключей": {
+                "subcategories": {},
+                "url": "/ru/equipment/tool-kits/wrench-sets/"
+              },
+              "Наборы торцевых головок и бит": {
+                "subcategories": {},
+                "url": "/ru/equipment/tool-kits/socket-and-bit-sets-with-ratchet/"
+              },
+              "Наборы инструментов в кейсе": {
+                "subcategories": {},
+                "url": "/ru/equipment/tool-kits/tool-kits-in-cases/"
+              },
+              "Наборы пинцетов": {
+                "subcategories": {},
+                "url": "/ru/equipment/tool-kits/tweezers-sets/"
+              },
+              "Наборы инструментов для разборки мобильных устройств": {
+                "subcategories": {},
+                "url": "/ru/equipment/tool-kits/toolkits-for-repairing-mobile-devices/"
+              },
+              "Наборы диэлектрического инструмента": {
+                "subcategories": {},
+                "url": "/ru/equipment/tool-kits/insulated-tool-kits/"
+              },
+              "Инструменты для пайки": {
+                "subcategories": {},
+                "url": "/ru/equipment/tool-kits/soldering-tools/"
+              },
+              "Наборы надфилей": {
+                "subcategories": {},
+                "url": "/ru/equipment/tool-kits/needle-files-sets/"
+              }
+            },
+            "url": "/ru/equipment/tool-kits/"
+          },
+          "Энергонезависимость": {
+            "subcategories": {
+              "Настольные лампы": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-independence/desktop-lamps/"
+              },
+              "Инверторы": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-independence/power-inverter/"
+              },
+              "Резервное питание роутеров, модемов, камер": {
+                "subcategories": {
+                  "Кабели-переходники для питания от 5 В": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-independence/uninterruptible-power-supplies-for-routers-modems-cameras/adapters-cables/"
+                  },
+                  "Резервные источники питания": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-independence/uninterruptible-power-supplies-for-routers-modems-cameras/uninterruptible-power-supplies/"
+                  }
+                },
+                "url": "/ru/equipment/power-independence/uninterruptible-power-supplies-for-routers-modems-cameras/"
+              },
+              "Солнечные панели": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-independence/solar-panel/"
+              },
+              "Газосигнализаторы": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-independence/gas-detectors/"
+              },
+              "Масла для генераторов": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-independence/generators-oils/"
+              },
+              "Фонарики": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-independence/torches/"
+              },
+              "Зарядные станции": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-independence/charging-station/"
+              },
+              "Генераторы": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-independence/generators/"
+              },
+              "Аккумуляторы": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-independence/batteries/"
+              },
+              "Стабилизаторы напряжения": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-independence/voltage-stabilizers/"
+              }
+            },
+            "url": "/ru/equipment/power-independence/"
+          },
+          "Инструменты": {
+            "subcategories": {
+              "Высечные ножницы": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/nibbling-shears/"
+              },
+              "Пилы": {
+                "subcategories": {
+                  "Сменные полотна": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/saws/spare-blades/"
+                  },
+                  "Пилы и ножовки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/saws/saws-and-hacksaws/"
+                  }
+                },
+                "url": "/ru/equipment/hand-tools/saws/"
+              },
+              "Съёмники для стопорных колец": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/retaining-rings-removers/"
+              },
+              "Кусачки, бокорезы": {
+                "subcategories": {
+                  "Кусачки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/cutting-pliers-side-cutting-pliers/cutting-pliers/"
+                  }
+                },
+                "url": "/ru/equipment/hand-tools/cutting-pliers-side-cutting-pliers/"
+              },
+              "Скальпели и лезвия": {
+                "subcategories": {
+                  "Скальпели": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/scalpels-and-blades/scalpels/"
+                  },
+                  "Лезвия скальпеля": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/scalpels-and-blades/scalpel-blades/"
+                  }
+                },
+                "url": "/ru/equipment/hand-tools/scalpels-and-blades/"
+              },
+              "Cкребки для снятия клея": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/glue-scrapers/"
+              },
+              "Разводные ключи": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/adjustable-wrenches/"
+              },
+              "Ключи гаечные регулируемые": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/adjustable-ratcheting-wrenches/"
+              },
+              "Клещи": {
+                "subcategories": {
+                  "Клещи с фиксатором": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/pliers/locking-pliers/"
+                  },
+                  "Клещи переставные": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/pliers/adjustable-pliers/"
+                  }
+                },
+                "url": "/ru/equipment/hand-tools/pliers/"
+              },
+              "Монтажные столики": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/assembly-tables/"
+              },
+              "Груши для обдува": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/blower-brushes/"
+              },
+              "Резаки для кабеля": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/cable-cutters/"
+              },
+              "Пассатижи": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/combination-pliers/"
+              },
+              "Шестигранные ключи": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/hex-keys/"
+              },
+              "Трубные ключи": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/pipe-wrenches/"
+              },
+              "Стрипперы": {
+                "subcategories": {
+                  "Стрипперы для круглого кабеля": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/wire-strippers/round-cable-strippers/"
+                  },
+                  "Стрипперы с возвратным механизмом": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/wire-strippers/wire-strippers-with-return-springs/"
+                  },
+                  "Стрипперы для монтажных проводов торцевые": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/wire-strippers/mounting-cable-face-strippers/"
+                  },
+                  "Стрипперы-кримперы": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/wire-strippers/wire-strippers-and-crimpers/"
+                  },
+                  "Стрипперы для плоского кабеля": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/wire-strippers/flat-cable-strippers/"
+                  },
+                  "Стрипперы с возвратным механизмом торцевые": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/wire-strippers/face-wire-strippers-with-return-spring/"
+                  },
+                  "Стрипперы для монтажных проводов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/wire-strippers/mounting-cables-strippers/"
+                  }
+                },
+                "url": "/ru/equipment/hand-tools/wire-strippers/"
+              },
+              "Длинногубцы": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/long-nose-pliers/"
+              },
+              "Магнитные держатели": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/magnetic-holders/"
+              },
+              "Лопатки": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/spudgers/"
+              },
+              "Кисточки": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/brushes/"
+              },
+              "Пробойники": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/hole-punchers/"
+              },
+              "Кримперы": {
+                "subcategories": {
+                  "Сменные лезвия кримпера": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/crimp-tools/spare-crimper-blades/"
+                  },
+                  "Кримперы без матриц": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/crimp-tools/crimp-tool-frames/"
+                  },
+                  "Кримперы для Solar-коннекторов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/crimp-tools/mc4-crimping-tools/"
+                  },
+                  "Кримперы для неизолированных блокировочных коннекторов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/crimp-tools/inter-locking-and-non-insulated-terminal-crimp-tools/"
+                  },
+                  "Кримперы для неизолированных гаечных клем и втулочных наконечников": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/crimp-tools/heavy-duty-crimping-tools/"
+                  },
+                  "Кримперы для плоских изолированных разъемов (РПИ)": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/crimp-tools/insulated-open-barrel-terminals-crimping-tools/"
+                  },
+                  "Кримперы для штекерных коннекторов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/crimp-tools/pin-terminal-crimp-tools/"
+                  },
+                  "Кримперы для изолированных гаечных клемм": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/crimp-tools/insulated-terminal-crimp-tools/"
+                  },
+                  "Кримперы для D-SUB разъемов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/crimp-tools/d-sub-contact-crimp-tools/"
+                  }
+                },
+                "url": "/ru/equipment/hand-tools/crimp-tools/"
+              },
+              "Матрицы сменные": {
+                "subcategories": {
+                  "Матрицы обжима неизолированных блокировочных коннекторов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/crimp-die-sets/inter-locking-and-non-insulated-terminal-crimp-die-sets/"
+                  },
+                  "Матрицы обжима штекерных коннекторов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/crimp-die-sets/pin-terminal-crimp-die-sets/"
+                  },
+                  "Матрицы обжима неизолированных гаечных клем и втулочных наконечников": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/crimp-die-sets/non-insulated-and-pin-terminals-die-sets/"
+                  },
+                  "Матрицы обжима изолированных гаечных клемм": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/crimp-die-sets/insulated-terminal-die-sets/"
+                  },
+                  "Матрицы обжима Solar-конекторов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/crimp-die-sets/solar-connectors-matrix-crimper/"
+                  }
+                },
+                "url": "/ru/equipment/hand-tools/crimp-die-sets/"
+              },
+              "Инструменты для извлечения микросхем": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/ic-extractors/"
+              },
+              "Резаки для пластиковых труб": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/plastic-pipe-cutters/"
+              },
+              "Плоскогубцы": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/flat-nose-pliers/"
+              },
+              "Ножницы": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/shears/"
+              },
+              "Пинцеты монтажные": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/mounting-tweezers/"
+              },
+              "Защитные очки": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/protective-glasses/"
+              },
+              "Измерительные инструменты": {
+                "subcategories": {
+                  "Нивелирные рейки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/measurement-tools/leveling-rods/"
+                  },
+                  "Рулетки измерительные": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/measurement-tools/measuring-tapes/"
+                  },
+                  "Лазерные нивелиры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/measurement-tools/laser-auto-levels/"
+                  },
+                  "Цифровые электронные уровни": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/measurement-tools/digital-electronic-levels/"
+                  },
+                  "Автоматические оптические нивелиры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/measurement-tools/automatic-optical-levels/"
+                  },
+                  "Приёмники лазерных лучей": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/measurement-tools/laser-receivers/"
+                  },
+                  "Лазерные угломеры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/measurement-tools/digital-angle-measurers/"
+                  },
+                  "Штангенциркули": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/measurement-tools/calipers/"
+                  },
+                  "Держатели приборов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/measurement-tools/instrument-holders/"
+                  },
+                  "Курвиметры": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/measurement-tools/opisometers/"
+                  },
+                  "Лазерные уровни": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/measurement-tools/laser-levels/"
+                  },
+                  "Штативы": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/measurement-tools/tripods/"
+                  }
+                },
+                "url": "/ru/equipment/hand-tools/measurement-tools/"
+              },
+              "Ножи и лезвия": {
+                "subcategories": {
+                  "Ножи": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/knives-and-blades/knives/"
+                  }
+                },
+                "url": "/ru/equipment/hand-tools/knives-and-blades/"
+              },
+              "Ключи гнездовые": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/socket-wrenches/"
+              },
+              "Мультитулы": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/multitools/"
+              },
+              "Отвертки": {
+                "subcategories": {
+                  "Отвертки звездообразные Torx": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/screwdrivers/torx-screwdrivers/"
+                  },
+                  "Отвертки крестовые": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/screwdrivers/crosshead-screwdrivers/"
+                  },
+                  "Отвертки шлицевые": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/screwdrivers/slotted-screwdrivers/"
+                  },
+                  "Намагничивающие устройства": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/screwdrivers/magnetizers/"
+                  },
+                  "Отвертки трехлепестковые Tri-Wing": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/screwdrivers/tri-wing-screwdrivers/"
+                  },
+                  "Отвертки трехлепестковые Tri-Point": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/screwdrivers/tri-point-screwdrivers/"
+                  },
+                  "Отвертки Pentalobe": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/screwdrivers/pentalobe-screwdrivers/"
+                  },
+                  "Отвертки-индикаторы напряжения": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/screwdrivers/voltage-test-screwdrivers/"
+                  },
+                  "Отвертки звездообразные пятиконечные": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/screwdrivers/5-point-torx-screwdrivers/"
+                  },
+                  "Отвертки с битами": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/screwdrivers/screwdrivers-with-bits/"
+                  },
+                  "Отвертки шестигранные": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/screwdrivers/hex-screwdrivers/"
+                  },
+                  "Отвертки квадратные": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/screwdrivers/robertson-screwdrivers/"
+                  },
+                  "Отвертки торцевые": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/hand-tools/screwdrivers/hex-nut-screwdrivers/"
+                  }
+                },
+                "url": "/ru/equipment/hand-tools/screwdrivers/"
+              },
+              "Тиски слесарные": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/vices/"
+              },
+              "Держатели струн": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/wire-holders/"
+              },
+              "Молотки": {
+                "subcategories": {},
+                "url": "/ru/equipment/hand-tools/hammers/"
+              }
+            },
+            "url": "/ru/equipment/hand-tools/"
+          },
+          "Микроскопы и оптика": {
+            "subcategories": {
+              "Объективы": {
+                "subcategories": {},
+                "url": "/ru/equipment/microscopes-and-optical-devices/objectives/"
+              },
+              "Микроскопы": {
+                "subcategories": {},
+                "url": "/ru/equipment/microscopes-and-optical-devices/microscopes/"
+              },
+              "Окуляры": {
+                "subcategories": {},
+                "url": "/ru/equipment/microscopes-and-optical-devices/eyepieces/"
+              },
+              "Защитные стекла для микроскопа": {
+                "subcategories": {},
+                "url": "/ru/equipment/microscopes-and-optical-devices/microscope-cover-glasses/"
+              },
+              "Подсветки для микроскопа": {
+                "subcategories": {},
+                "url": "/ru/equipment/microscopes-and-optical-devices/microscope-illuminations/"
+              },
+              "Эндоскопы": {
+                "subcategories": {},
+                "url": "/ru/equipment/microscopes-and-optical-devices/endoscopes/"
+              }
+            },
+            "url": "/ru/equipment/microscopes-and-optical-devices/"
+          },
+          "Расходные материалы": {
+            "subcategories": {
+              "Скотчи": {
+                "subcategories": {
+                  "Термоскотчи": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/adhesive-tapes/thermal-tapes/"
+                  },
+                  "Изоленты": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/adhesive-tapes/insulating-tapes/"
+                  },
+                  "Двухсторонние скотчи": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/adhesive-tapes/double-sided-adhesive-tapes/"
+                  }
+                },
+                "url": "/ru/equipment/consumables/adhesive-tapes/"
+              },
+              "Вазелин": {
+                "subcategories": {},
+                "url": "/ru/equipment/consumables/vaseline/"
+              },
+              "Клеевые стержни": {
+                "subcategories": {},
+                "url": "/ru/equipment/consumables/glue-sticks/"
+              },
+              "Расходные материалы для электромонтажа": {
+                "subcategories": {
+                  "Ленты-застёжки для кабелей": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/electrical-installation-consumables/mounting-tapes/"
+                  },
+                  "Кабели-провода": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/electrical-installation-consumables/cables-wires/"
+                  },
+                  "Наконечники": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/electrical-installation-consumables/wire-terminals/"
+                  },
+                  "Клеммы самозажимные": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/electrical-installation-consumables/wire-connection-clips/"
+                  },
+                  "Силовые разъемы и вилки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/electrical-installation-consumables/power-connectors-and-plugs/"
+                  }
+                },
+                "url": "/ru/equipment/consumables/electrical-installation-consumables/"
+              },
+              "Расходные материалы для пайки": {
+                "subcategories": {
+                  "BGA пасты": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/soldering-consumables/bga-pastes/"
+                  },
+                  "Канифоли": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/soldering-consumables/rosins/"
+                  },
+                  "Медные площадки для восстановления дорожек": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/soldering-consumables/copper-track-restoration-holders/"
+                  },
+                  "Паяльная паста": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/soldering-consumables/soldering-paste/"
+                  },
+                  "Флюс-пасты": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/soldering-consumables/flux-pastes/"
+                  },
+                  "Провода для восстановления дорожек": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/soldering-consumables/motherboard-tracks-reconstruction-wires/"
+                  },
+                  "Ленты-оплетки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/soldering-consumables/desoldering-wicks/"
+                  },
+                  "Припои": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/soldering-consumables/solders/"
+                  },
+                  "Флюс-гели": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/soldering-consumables/gel-fluxes/"
+                  },
+                  "Очистители жал": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/soldering-consumables/soldering-iron-tip-cleaners/"
+                  },
+                  "Флюсы жидкие": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/soldering-consumables/liquid-fluxes/"
+                  }
+                },
+                "url": "/ru/equipment/consumables/soldering-consumables/"
+              },
+              "Очистители и другая химия": {
+                "subcategories": {
+                  "Активаторы паяльного жала": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/soldering-iron-tip-refreshers/"
+                  },
+                  "Термопасты": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/thermal-compounds/"
+                  },
+                  "Чистящие средства": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/cleaners/"
+                  },
+                  "Антистатические аэрозоли": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/antistatic-spray/"
+                  },
+                  "Распылители": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/nozzles/"
+                  },
+                  "Смазочные масла": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/oils/"
+                  },
+                  "Защитные средства": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/contact-protectors/"
+                  },
+                  "Силиконовое масло": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/silicone-oil/"
+                  },
+                  "Антиокислительные таблетки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/antioxidizing-tablets/"
+                  },
+                  "Обезжиривающие средства": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/degreasers/"
+                  },
+                  "Токопроводящие лаки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/conductive-varnishes/"
+                  },
+                  "Паяльные маски": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/soldering-masks/"
+                  },
+                  "Антикоррозионные средства": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/anti-corrosive-agents/"
+                  },
+                  "Спирты изопропиловые": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/isopropanol/"
+                  },
+                  "Токопроводящие покрытия": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/conductive-coatings/"
+                  },
+                  "Вытеснители влаги": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/water-displacers/"
+                  },
+                  "Спреи для удаления этикеток": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/label-removers/"
+                  },
+                  "Сжатый воздух": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/compressed-air/"
+                  },
+                  "Средства для очистки печатных плат": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/pcb-cleaners/"
+                  },
+                  "Замораживающие средства": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/freeze-sprays/"
+                  },
+                  "Изоляционные лаки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/insulating-varnishes/"
+                  }
+                },
+                "url": "/ru/equipment/consumables/cleaners-and-other-chemicals/"
+              }
+            },
+            "url": "/ru/equipment/consumables/"
+          },
+          "Универcальные USB-программаторы": {
+            "subcategories": {},
+            "url": "/ru/equipment/universal-device-programmers/"
+          },
+          "Антистатическая защита": {
+            "subcategories": {
+              "Антистатические коврики": {
+                "subcategories": {},
+                "url": "/ru/equipment/esd-safety/esd-mats/"
+              },
+              "Антистатические перчатки": {
+                "subcategories": {},
+                "url": "/ru/equipment/esd-safety/esd-gloves/"
+              },
+              "Токопроводящие щетки": {
+                "subcategories": {},
+                "url": "/ru/equipment/esd-safety/esd-brushes/"
+              },
+              "Антистатические браслеты": {
+                "subcategories": {},
+                "url": "/ru/equipment/esd-safety/esd-wrist-straps/"
+              },
+              "Антистатические халаты": {
+                "subcategories": {},
+                "url": "/ru/equipment/esd-safety/esd-coats/"
+              },
+              "Ионизаторы воздуха": {
+                "subcategories": {},
+                "url": "/ru/equipment/esd-safety/air-ionizers/"
+              }
+            },
+            "url": "/ru/equipment/esd-safety/"
+          },
+          "Электроинструменты": {
+            "subcategories": {
+              "Перфораторы": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-tools/perforators/"
+              },
+              "Термофены": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-tools/heat-guns/"
+              },
+              "Фрезерно-гравировальные станки": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-tools/cnc-router-machines/"
+              },
+              "Отбойные молотки": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-tools/demolition-hammers/"
+              },
+              "Мини-шлифмашины, мини-граверы, мини-дрели": {
+                "subcategories": {
+                  "Универсальные инструменты": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-tools/mini-grinders-mini-engravers-mini-rotary-tools/multifunctional-tools/"
+                  },
+                  "Наборы аксессуаров": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-tools/mini-grinders-mini-engravers-mini-rotary-tools/acessories-sets/"
+                  },
+                  "Аксессуары": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-tools/mini-grinders-mini-engravers-mini-rotary-tools/accessories/"
+                  }
+                },
+                "url": "/ru/equipment/power-tools/mini-grinders-mini-engravers-mini-rotary-tools/"
+              },
+              "Электрические отвертки": {
+                "subcategories": {
+                  "Беспроводные электрические отвертки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-tools/electrical-screwdrivers/cordless-power-screwdrivers/"
+                  }
+                },
+                "url": "/ru/equipment/power-tools/electrical-screwdrivers/"
+              },
+              "Аксессуары для электроинструментов": {
+                "subcategories": {
+                  "Наборы сверл": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-tools/power-tool-accessories/drill-sets/"
+                  },
+                  "Стойки для крепления инструмента": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-tools/power-tool-accessories/workstation/"
+                  },
+                  "Наборы сверл по металлу": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-tools/power-tool-accessories/metal-cutting-drill-sets/"
+                  },
+                  "Наборы сверл твердосплавных": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-tools/power-tool-accessories/carborundum-drill-sets/"
+                  },
+                  "Круги зачистные по металлу": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-tools/power-tool-accessories/grinding-wheels-for-metal/"
+                  },
+                  "Сверла по металлу": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-tools/power-tool-accessories/metal-cutting-drills/"
+                  },
+                  "Биты для отвертки": {
+                    "subcategories": {
+                      "Биты": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/power-tools/power-tool-accessories/screwdriver-bits/screwdriver-bits/"
+                      },
+                      "Наборы бит для отвертки": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/power-tools/power-tool-accessories/screwdriver-bits/screwdriver-bit-sets/"
+                      }
+                    },
+                    "url": "/ru/equipment/power-tools/power-tool-accessories/screwdriver-bits/"
+                  },
+                  "Круги зачистные конические": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-tools/power-tool-accessories/conic-grinding-wheels/"
+                  },
+                  "Кулачковые патроны": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-tools/power-tool-accessories/multi-tool-chuck/"
+                  },
+                  "Наборы сверл перьевых": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-tools/power-tool-accessories/spade-drill-sets/"
+                  },
+                  "Наборы метчиков и сверл": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-tools/power-tool-accessories/drill-and-tap-sets/"
+                  },
+                  "Круги отрезные по металлу": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-tools/power-tool-accessories/metalworking-cutoff-wheels/"
+                  },
+                  "Наборы сверл и бит": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/power-tools/power-tool-accessories/drill-and-bit-sets/"
+                  }
+                },
+                "url": "/ru/equipment/power-tools/power-tool-accessories/"
+              },
+              "Аккумуляторные дрели-шуруповерты": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-tools/cordless-drill-screwdrivers/"
+              },
+              "Лазерно-гравировальные станки": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-tools/laser-cnc-router-machines/"
+              },
+              "Угловые шлифмашины": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-tools/angle-grinders/"
+              },
+              "Дрели ударные": {
+                "subcategories": {},
+                "url": "/ru/equipment/power-tools/impact-drills/"
+              }
+            },
+            "url": "/ru/equipment/power-tools/"
+          },
+          "Товары для дома и офиса": {
+            "subcategories": {
+              "Минипылесосы": {
+                "subcategories": {},
+                "url": "/ru/equipment/home-and-office-appliances/mini-vacuum-cleaners/"
+              },
+              "Коврики защитные": {
+                "subcategories": {},
+                "url": "/ru/equipment/home-and-office-appliances/protection-mat/"
+              },
+              "Таймеры": {
+                "subcategories": {},
+                "url": "/ru/equipment/home-and-office-appliances/timers/"
+              },
+              "Метеостанции": {
+                "subcategories": {},
+                "url": "/ru/equipment/home-and-office-appliances/temperature-and-humidity-meters/"
+              },
+              "USB-тестеры": {
+                "subcategories": {},
+                "url": "/ru/equipment/home-and-office-appliances/usb-tester/"
+              },
+              "Клеевые пистолеты": {
+                "subcategories": {},
+                "url": "/ru/equipment/home-and-office-appliances/hot-glue-guns/"
+              },
+              "Озонаторы воздуха": {
+                "subcategories": {},
+                "url": "/ru/equipment/home-and-office-appliances/ozone-generators/"
+              },
+              "Оборудование для домофонов": {
+                "subcategories": {
+                  "Ключи с бесконтактным RFID чипом": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/home-and-office-appliances/intercom-equipment/intercom-key/"
+                  },
+                  "Микросхемы": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/home-and-office-appliances/intercom-equipment/ic/"
+                  },
+                  "Считыватели ключей": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/home-and-office-appliances/intercom-equipment/key-reader/"
+                  },
+                  "Услуги программирования": {
+                    "subcategories": {
+                      "Снятие PIN-кода с панели вызова": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/home-and-office-appliances/intercom-equipment/programming-services/pin-code-readering-from-call-panel/"
+                      }
+                    },
+                    "url": "/ru/equipment/home-and-office-appliances/intercom-equipment/programming-services/"
+                  },
+                  "Блоки управления электрозамками": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/home-and-office-appliances/intercom-equipment/electric-lock-control-units/"
+                  }
+                },
+                "url": "/ru/equipment/home-and-office-appliances/intercom-equipment/"
+              },
+              "Запчасти для газонокосилок": {
+                "subcategories": {},
+                "url": "/ru/equipment/home-and-office-appliances/spare-parts-for-lawn-mowers/"
+              },
+              "Наборы для выжигания по дереву": {
+                "subcategories": {},
+                "url": "/ru/equipment/home-and-office-appliances/wood-burning-kits/"
+              },
+              "Измерители мощности": {
+                "subcategories": {},
+                "url": "/ru/equipment/home-and-office-appliances/power-meters/"
+              },
+              "Компрессоры": {
+                "subcategories": {},
+                "url": "/ru/equipment/home-and-office-appliances/compressor/"
+              },
+              "USB LED лампы": {
+                "subcategories": {},
+                "url": "/ru/equipment/home-and-office-appliances/usb-led-lamps/"
+              }
+            },
+            "url": "/ru/equipment/home-and-office-appliances/"
+          },
+          "Обслуживание оптоволоконных сетей": {
+            "subcategories": {
+              "Стрипперы для оптоволокна": {
+                "subcategories": {},
+                "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optics-strippers/"
+              },
+              "Аксессуары и запчасти для оптоволоконного оборудования": {
+                "subcategories": {
+                  "Сменные ножы": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-accessories-and-spare-parts/fiber-cleaver-blades/"
+                  },
+                  "Соеденители оптоволокна": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-accessories-and-spare-parts/fiber-couplers/"
+                  },
+                  "Запасные электроды сварочного аппарата": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-accessories-and-spare-parts/replacement-electrodes/"
+                  },
+                  "Источники питания для сварочных аппаратов": {
+                    "subcategories": {
+                      "Батареи аккумуляторные": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-accessories-and-spare-parts/fusion-splicer-power-supplies/battery-packs/"
+                      },
+                      "Шнуры питания": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-accessories-and-spare-parts/fusion-splicer-power-supplies/power-cords/"
+                      },
+                      "Универсальные блоки питания": {
+                        "subcategories": {},
+                        "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-accessories-and-spare-parts/fusion-splicer-power-supplies/ac-adapters-battery-chargers/"
+                      }
+                    },
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-accessories-and-spare-parts/fusion-splicer-power-supplies/"
+                  },
+                  "Очистители оптических разъемов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-accessories-and-spare-parts/fiber-optic-connector-cleaners/"
+                  },
+                  "Катушки с кабелем для рефлектометра": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-accessories-and-spare-parts/otdr-launch-cable-boxes/"
+                  },
+                  "Коннекторы оптические": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-accessories-and-spare-parts/fiber-optic-connectors/"
+                  }
+                },
+                "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-accessories-and-spare-parts/"
+              },
+              "Сварочные аппараты для оптоволокна": {
+                "subcategories": {},
+                "url": "/ru/equipment/fiber-optic-network-maintenance/fusion-splicers/"
+              },
+              "Рефлектометры": {
+                "subcategories": {},
+                "url": "/ru/equipment/fiber-optic-network-maintenance/reflectometers/"
+              },
+              "Наборы инструментов для обслуживания оптоволокна": {
+                "subcategories": {},
+                "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-network-tool-kits/"
+              },
+              "Источники стабилизированного лазерного излучения": {
+                "subcategories": {},
+                "url": "/ru/equipment/fiber-optic-network-maintenance/optical-laser-sources/"
+              },
+              "Скалыватели": {
+                "subcategories": {},
+                "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-cleavers/"
+              },
+              "Измерители оптической мощности": {
+                "subcategories": {},
+                "url": "/ru/equipment/fiber-optic-network-maintenance/optical-power-meters/"
+              },
+              "Производство оптоволоконных патч-кордов": {
+                "subcategories": {
+                  "Центрифуги для оптоволоконных коннекторов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-patch-cord-production/optic-connector-centrifugal-mixer/"
+                  },
+                  "Финишные полировочные пленки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-patch-cord-production/final-polishing-films/"
+                  },
+                  "Оптоволоконные тестеры вносимых и возвратных потерь": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-patch-cord-production/insertion-loss-and-return-loss-testers/"
+                  },
+                  "Эпоксидные клеи": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-patch-cord-production/epoxy-adhesives/"
+                  },
+                  "Инспекционные микроскопы для оптоволокна": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-patch-cord-production/fiber-optic-video-microscopes/"
+                  },
+                  "Резиновые полировочные диски": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-patch-cord-production/rubber-polishing-pads/"
+                  },
+                  "Устройства для автоматической полировки оптоволоконных коннекторов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-patch-cord-production/fiber-optic-connector-auto-polishing-devices/"
+                  },
+                  "Печи для оптоволоконных коннекторов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-patch-cord-production/optic-connector-heat-ovens/"
+                  },
+                  "Алмазные полировочные пленки": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-patch-cord-production/diamond-polishing-films/"
+                  },
+                  "Устройства для подачи клея": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-patch-cord-production/adhesive-injection-machines/"
+                  },
+                  "Пневматические кримперы для оптоволоконных коннекторов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-patch-cord-production/fiber-connector-pneumatic-crimping-machines/"
+                  },
+                  "Автоматические резаки оптоволоконного кабеля": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-patch-cord-production/fiber-optic-cable-auto-cutters/"
+                  },
+                  "Полировочные держатели оптоволоконных коннекторов": {
+                    "subcategories": {},
+                    "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-patch-cord-production/optic-connector-polishing-fixtures/"
+                  }
+                },
+                "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-patch-cord-production/"
+              },
+              "Идентификаторы активного волокна": {
+                "subcategories": {},
+                "url": "/ru/equipment/fiber-optic-network-maintenance/optical-fiber-identifiers/"
+              },
+              "Кримперы коннекторов оптоволоконного кабеля": {
+                "subcategories": {},
+                "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-cable-connectors-crimp-tools/"
+              },
+              "Тестеры оптоволокна": {
+                "subcategories": {},
+                "url": "/ru/equipment/fiber-optic-network-maintenance/fiber-optic-testers/"
+              }
+            },
+            "url": "/ru/equipment/fiber-optic-network-maintenance/"
+          }
+        },
+        "url": "/ru/equipment/"
+      }
+    },
+    "url": "/ru/"
+  }
+}

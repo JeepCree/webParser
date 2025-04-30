@@ -1,0 +1,894 @@
+@startuml
+class ua.com.mobifix.parser.entity.ScanProductSettings {
+- String article
+- String name
+- String stock
+- String price
+- String breadcrumbs
+- String description
+- String link
+- String imageLink
+- String linkPrefix
+- String imagePrefix
+- String href
+- String src
+- int maxRetriesLoadPage
+- ArrayList<ReplaceString> replaceArticle
+- ArrayList<ReplaceString> replaceStock
+- ArrayList<ReplaceString> replacePrice
+- ArrayList<ReplaceString> replaceBreadcrumbs
+- ArrayList<ReplaceString> containArticle
+- ArrayList<ReplaceString> containStock
+- ArrayList<ReplaceString> containPrice
+- ArrayList<ReplaceString> containBreadcrumbs
+- Map cookies
++ int getMaxRetriesLoadPage()
++ void setMaxRetriesLoadPage(int)
++ ArrayList<ReplaceString> getReplaceBreadcrumbs()
++ void setReplaceBreadcrumbs(ArrayList<ReplaceString>)
++ ArrayList<ReplaceString> getContainBreadcrumbs()
++ void setContainBreadcrumbs(ArrayList<ReplaceString>)
++ Map getCookies()
++ void setCookies(Map)
++ String getHref()
++ void setHref(String)
++ String getSrc()
++ void setSrc(String)
++ String getLinkPrefix()
++ void setLinkPrefix(String)
++ String getImagePrefix()
++ void setImagePrefix(String)
++ ArrayList<ReplaceString> getReplaceArticle()
++ void setReplaceArticle(ArrayList<ReplaceString>)
++ ArrayList<ReplaceString> getReplaceStock()
++ void setReplaceStock(ArrayList<ReplaceString>)
++ ArrayList<ReplaceString> getReplacePrice()
++ void setReplacePrice(ArrayList<ReplaceString>)
++ ArrayList<ReplaceString> getContainArticle()
++ void setContainArticle(ArrayList<ReplaceString>)
++ ArrayList<ReplaceString> getContainStock()
++ void setContainStock(ArrayList<ReplaceString>)
++ ArrayList<ReplaceString> getContainPrice()
++ void setContainPrice(ArrayList<ReplaceString>)
++ String getArticle()
++ void setArticle(String)
++ String getName()
++ void setName(String)
++ String getStock()
++ void setStock(String)
++ String getPrice()
++ void setPrice(String)
++ String getBreadcrumbs()
++ void setBreadcrumbs(String)
++ String getDescription()
++ void setDescription(String)
++ String getLink()
++ void setLink(String)
++ String getImageLink()
++ void setImageLink(String)
+}
+
+
+class ua.com.mobifix.parser.CategoryParser {
++ List<String> parseStringToList(String)
++ Map<String,String> parseStringToMap(String)
++ List<Categories> getCatalog(Shop,Long)
+}
+
+class ua.com.mobifix.service.CsvParser {
++ {static} List<String[]> parseCsv(String)
+}
+
+class ua.com.mobifix.controllers.ProductController {
+- ProductRepository productRepository
+- ProductService productService
+- ShopRepository shopRepository
+- DataSourceTransactionManagerAutoConfiguration dataSourceTransactionManagerAutoConfiguration
++ String importCsv()
++ boolean getAllCatalog(String,Model)
++ boolean saveNewProduct(String,String,String,String,String,Model)
++ void saveScanProducts(Long)
++ void saveScanProduct(ScanProductSettings,Long)
++ JsonNode fullEditProduct(Map<String,String>)
++ boolean deleteProduct(int)
++ void linkToSha3()
++ void scanProductForShop(Long,boolean)
++ void createCatalogForShop(Long)
+}
+
+
+interface ua.com.mobifix.entity.ShopRepository {
+~ Shop getByIdShop(Long)
+~ List<Shop> findAllByOrderByNameShopAsc()
+~ Shop findByIdShop(Long)
+}
+
+class ua.com.mobifix.parser.ReplaceString {
+- String replace
+- String replacement
++ String getReplace()
++ void setReplace(String)
++ String getReplacement()
++ void setReplacement(String)
+}
+
+
+class ua.com.mobifix.test.Test {
+~ {static} String u
+~ {static} boolean isTrue
++ {static} void main(String[])
+}
+
+
+class ua.com.mobifix.matchers.ExcelProductMatcher {
++ {static} void main(String[])
+- {static} String cleanText(String,Set<String>)
+}
+
+class ua.com.mobifix.parser.breadcrumbs.BreadcrumbsParser {
+- Gson gson
++ String parseHtmlToJson(String)
+}
+
+
+class ua.com.mobifix.parser.description.ArtMobileDescriptionParser {
++ JsonObject parseHtmlToJson(String)
+}
+
+class ua.com.mobifix.controllers.UiController {
+- CategoryService categoryService
+- ShopRepository shopRepository
+- CategoriesRepository categoriesRepository
+- ProductRepository productRepository
++ String getIndexPage(Model)
++ String getAddShopPage(Model)
++ String getShopSettingsPage(Model)
++ String getCatalogPage(Model)
++ String getCatalogSettingsPage(Model)
+}
+
+
+class ua.com.mobifix.service.SHA3 {
++ {static} String generateSHA3Hash(String)
+}
+
+class ua.com.mobifix.parser.breadcrumbs.BreadcrumbsToCatalogParser {
++ {static} Map<String,Object> buildCatalog(String[])
+}
+
+class ua.com.mobifix.parser.ProductParser {
++ Product getProduct(Shop,String,Long)
+}
+
+class ua.com.mobifix.ParserApplication {
++ {static} void main(String[])
+}
+
+class ua.com.mobifix.parser.entity.AScanProduct {
+}
+class ua.com.mobifix.service.ShopService {
+- ShopRepository shopRepository
++ Shop updateShop(Long,Shop)
+}
+
+
+class ua.com.mobifix.controllers.ShopController {
+- ShopRepository shopRepository
+- ShopService shopService
++ String setNewShop(Model,String,String)
++ String editShop(Model,Long)
++ String updateShop(Model,Long,String,String)
++ String deleteShop(Model,Integer)
++ String saveToJson()
+}
+
+
+interface ua.com.mobifix.entity.ProductRepository {
+~ List<Product> findAllByCategoriesIn(List<Long>)
+~ Product findTopByOrderByIdDesc()
+~ List<Product> findAllByOrderByNameAsc()
+~ Product findByArticle(String)
+~ Optional<Product> findByLink(String)
+~ Optional<Product> findByLinkSha3(String)
+~ List<Product> findAllByLinkSha3IsNull()
+~ List<String> findAllLinksByShopId(Long)
+~ List<String> findLinksByShopIdAndDescriptionIsNull(Long)
+~ List<String> findAllBreadcrumbsByShopId(Long)
+}
+
+class ua.com.mobifix.parser.entity.ScanCategorySettings {
+- Long shopId
+- String shopName
+- String urlShop
+- String urlPrefix
+- String urlPrefixLevel2
+- String urlPrefixLevel3
+- String urlPrefixLevel4
+- String urlPrefixLevel5
+- String selectCategoryTag
+- String selectCategoryTagLevel2
+- String selectCategoryTagLevel3
+- String selectCategoryTagLevel4
+- String selectCategoryTagLevel5
+- String selectCategoryNameTag
+- String selectCategoryNameTagLevel2
+- String selectCategoryNameTagLevel3
+- String selectCategoryNameTagLevel4
+- String selectCategoryNameTagLevel5
+- String selectCategoryAttrHref
+- String selectCategoryAttrHrefLevel2
+- String selectCategoryAttrHrefLevel3
+- String selectCategoryAttrHrefLevel4
+- String selectCategoryAttrHrefLevel5
+- Map cookies
+- String replaceCategoryName
+- String replaceCategoryNameLevel2
+- String replaceCategoryNameLevel3
+- String replaceCategoryNameLevel4
+- String replaceCategoryNameLevel5
+- String replacementCategoryName
+- String replacementCategoryNameLevel2
+- String replacementCategoryNameLevel3
+- String replacementCategoryNameLevel4
+- String replacementCategoryNameLevel5
+- String replaceCategoryUrl
+- String replaceCategoryUrlLevel2
+- String replaceCategoryUrlLevel3
+- String replaceCategoryUrlLevel4
+- String replaceCategoryUrlLevel5
+- String replacementCategoryUrl
+- String replacementCategoryUrlLevel2
+- String replacementCategoryUrlLevel3
+- String replacementCategoryUrlLevel4
+- String replacementCategoryUrlLevel5
+- List<String> noScanList
++ List<String> getNoScanList()
++ void setNoScanList(List<String>)
++ String getUrlPrefixLevel2()
++ void setUrlPrefixLevel2(String)
++ String getUrlPrefixLevel3()
++ void setUrlPrefixLevel3(String)
++ String getUrlPrefixLevel4()
++ void setUrlPrefixLevel4(String)
++ String getUrlPrefixLevel5()
++ void setUrlPrefixLevel5(String)
++ Long getShopId()
++ void setShopId(Long)
++ Map getCookies()
++ void setCookies(Map)
++ String getShopName()
++ void setShopName(String)
++ String getUrlShop()
++ void setUrlShop(String)
++ String getSelectCategoryTag()
++ void setSelectCategoryTag(String)
++ String getSelectCategoryTagLevel2()
++ void setSelectCategoryTagLevel2(String)
++ String getSelectCategoryTagLevel3()
++ void setSelectCategoryTagLevel3(String)
++ String getSelectCategoryTagLevel4()
++ void setSelectCategoryTagLevel4(String)
++ String getSelectCategoryTagLevel5()
++ void setSelectCategoryTagLevel5(String)
++ String getSelectCategoryNameTag()
++ void setSelectCategoryNameTag(String)
++ String getSelectCategoryNameTagLevel2()
++ void setSelectCategoryNameTagLevel2(String)
++ String getSelectCategoryNameTagLevel3()
++ void setSelectCategoryNameTagLevel3(String)
++ String getSelectCategoryNameTagLevel4()
++ void setSelectCategoryNameTagLevel4(String)
++ String getSelectCategoryNameTagLevel5()
++ void setSelectCategoryNameTagLevel5(String)
++ String getSelectCategoryAttrHref()
++ void setSelectCategoryAttrHref(String)
++ String getSelectCategoryAttrHrefLevel2()
++ void setSelectCategoryAttrHrefLevel2(String)
++ String getSelectCategoryAttrHrefLevel3()
++ void setSelectCategoryAttrHrefLevel3(String)
++ String getSelectCategoryAttrHrefLevel4()
++ void setSelectCategoryAttrHrefLevel4(String)
++ String getSelectCategoryAttrHrefLevel5()
++ void setSelectCategoryAttrHrefLevel5(String)
++ String getUrlPrefix()
++ void setUrlPrefix(String)
++ String getReplaceCategoryName()
++ void setReplaceCategoryName(String)
++ String getReplaceCategoryNameLevel2()
++ void setReplaceCategoryNameLevel2(String)
++ String getReplaceCategoryNameLevel3()
++ void setReplaceCategoryNameLevel3(String)
++ String getReplaceCategoryNameLevel4()
++ void setReplaceCategoryNameLevel4(String)
++ String getReplaceCategoryNameLevel5()
++ void setReplaceCategoryNameLevel5(String)
++ String getReplacementCategoryName()
++ void setReplacementCategoryName(String)
++ String getReplacementCategoryNameLevel2()
++ void setReplacementCategoryNameLevel2(String)
++ String getReplacementCategoryNameLevel3()
++ void setReplacementCategoryNameLevel3(String)
++ String getReplacementCategoryNameLevel4()
++ void setReplacementCategoryNameLevel4(String)
++ String getReplacementCategoryNameLevel5()
++ void setReplacementCategoryNameLevel5(String)
++ String getReplaceCategoryUrl()
++ void setReplaceCategoryUrl(String)
++ String getReplaceCategoryUrlLevel2()
++ void setReplaceCategoryUrlLevel2(String)
++ String getReplaceCategoryUrlLevel3()
++ void setReplaceCategoryUrlLevel3(String)
++ String getReplaceCategoryUrlLevel4()
++ void setReplaceCategoryUrlLevel4(String)
++ String getReplaceCategoryUrlLevel5()
++ void setReplaceCategoryUrlLevel5(String)
++ String getReplacementCategoryUrl()
++ void setReplacementCategoryUrl(String)
++ String getReplacementCategoryUrlLevel2()
++ void setReplacementCategoryUrlLevel2(String)
++ String getReplacementCategoryUrlLevel3()
++ void setReplacementCategoryUrlLevel3(String)
++ String getReplacementCategoryUrlLevel4()
++ void setReplacementCategoryUrlLevel4(String)
++ String getReplacementCategoryUrlLevel5()
++ void setReplacementCategoryUrlLevel5(String)
+}
+
+
+class ua.com.mobifix.ServletInitializer {
+# SpringApplicationBuilder configure(SpringApplicationBuilder)
+}
+
+class ua.com.mobifix.parser.entity.AllScanProduct {
+~ String pagination
+~ String article
+~ String name
+~ String price
+~ String stock
+~ String link
+~ String imageLink
+~ String breadcrumbs
++ String getImageLink()
++ void setImageLink(String)
++ String getPagination()
++ void setPagination(String)
++ String getArticle()
++ void setArticle(String)
++ String getName()
++ void setName(String)
++ String getPrice()
++ void setPrice(String)
++ String getStock()
++ void setStock(String)
++ String getLink()
++ void setLink(String)
++ String getBreadcrumbs()
++ void setBreadcrumbs(String)
+}
+
+
+class ua.com.mobifix.entity.Categories {
+- Long id
+- boolean active
+- String name
+- Long parentId
+- boolean rootCategory
+- String description
+- String metaTitle
+- String metaDescription
+- String metaKeywords
+- String humanReadableUrl
+- String urlImage
+- String url
+- Long shopId
++ String getUrl()
++ void setUrl(String)
++ Long getId()
++ void setId(Long)
++ boolean getActive()
++ void setActive(boolean)
++ String getName()
++ void setName(String)
++ Long getParentId()
++ void setParentId(Long)
++ boolean isRootCategory()
++ void setRootCategory(boolean)
++ String getDescription()
++ void setDescription(String)
++ String getMetaTitle()
++ void setMetaTitle(String)
++ String getMetaDescription()
++ void setMetaDescription(String)
++ String getMetaKeywords()
++ void setMetaKeywords(String)
++ String getHumanReadableUrl()
++ void setHumanReadableUrl(String)
++ String getUrlImage()
++ void setUrlImage(String)
++ boolean isActive()
++ Long getShopId()
++ void setShopId(Long)
+}
+
+
+class ua.com.mobifix.parser.description.DescriptionToFilterParser {
+}
+class ua.com.mobifix.parser.description.AllSparesDescriptionParser {
+- Gson gson
++ String parseHtmlToJson(String)
+}
+
+
+class ua.com.mobifix.service.Time {
++ {static} String getTime()
+}
+
+class ua.com.mobifix.parser.entity.AllScanCategory {
+~ Long categoryId
+~ String categoryName
+~ String categoryUrl
+~ Long parentCategoryId
++ Long getCategoryId()
++ void setCategoryId(Long)
++ String getCategoryName()
++ void setCategoryName(String)
++ String getCategoryUrl()
++ void setCategoryUrl(String)
++ Long getParentCategoryId()
++ void setParentCategoryId(Long)
+}
+
+
+class ua.com.mobifix.parser.entity.ScanProductsSettings {
+- String article
+- String name
+- String price
+- String stock
+- String link
+- String breadcrumbs
+- String description
+- String href
+- String src
+- String imageLink
+- String productCart
+- String productListCart
+- String pagination
+- String parameter
+- String scanUrl
+- String linkPrefix
+- String imagePrefix
+- int maxRetriesLoadPage
+- ArrayList<ReplaceString> replaceArticle
+- ArrayList<ReplaceString> replaceStock
+- ArrayList<ReplaceString> replacePrice
+- ArrayList<ReplaceString> containArticle
+- ArrayList<ReplaceString> containStock
+- ArrayList<ReplaceString> containPrice
+- Map cookies
++ int getMaxRetriesLoadPage()
++ void setMaxRetriesLoadPage(int)
++ String getDescription()
++ void setDescription(String)
++ ArrayList<ReplaceString> getContainArticle()
++ void setContainArticle(ArrayList<ReplaceString>)
++ ArrayList<ReplaceString> getContainStock()
++ void setContainStock(ArrayList<ReplaceString>)
++ ArrayList<ReplaceString> getContainPrice()
++ void setContainPrice(ArrayList<ReplaceString>)
++ ArrayList<ReplaceString> getReplaceArticle()
++ void setReplaceArticle(ArrayList<ReplaceString>)
++ ArrayList<ReplaceString> getReplaceStock()
++ void setReplaceStock(ArrayList<ReplaceString>)
++ String getImagePrefix()
++ void setImagePrefix(String)
++ String getParameter()
++ void setParameter(String)
++ String getProductListCart()
++ void setProductListCart(String)
++ String getImageLink()
++ void setImageLink(String)
++ String getSrc()
++ void setSrc(String)
++ ArrayList<ReplaceString> getReplacePrice()
++ void setReplacePrice(ArrayList<ReplaceString>)
++ String getScanUrl()
++ void setScanUrl(String)
++ String getProductCart()
++ void setProductCart(String)
++ String getLinkPrefix()
++ void setLinkPrefix(String)
++ String getHref()
++ void setHref(String)
++ Map getCookies()
++ void setCookies(Map)
++ String getPagination()
++ void setPagination(String)
++ String getArticle()
++ void setArticle(String)
++ String getName()
++ void setName(String)
++ String getPrice()
++ void setPrice(String)
++ String getStock()
++ void setStock(String)
++ String getLink()
++ void setLink(String)
++ String getBreadcrumbs()
++ void setBreadcrumbs(String)
+}
+
+
+class ua.com.mobifix.service.CategoryService {
+- CategoriesRepository categoriesRepository
++ Categories findCategoryById(Long)
++ Categories updateCategory(Long,Categories)
+}
+
+
+class ua.com.mobifix.service.ProductService {
+- ProductRepository productRepository
+- CategoriesRepository categoriesRepository
+- ShopRepository shopRepository
++ void updateByLinkSha3(Product)
++ Long getShopByCategory(Long)
++ Optional<Product> getProductByCategory(Long)
++ void saveScanProducts(Long)
+}
+
+
+class ua.com.mobifix.parser.breadcrumbs.AllSparesBreadcrumbsParser {
+- Gson gson
++ String parseHtmlToJson(String)
+}
+
+
+class ua.com.mobifix.parser.breadcrumbs.AksBreadcrumbsParser {
+- Gson gson
++ String parseHtmlToJson(String)
+}
+
+
+class ua.com.mobifix.parser.AllProductParser {
+~ List<Product> productList
++ void saveList(List<Product>,Shop)
++ List<Product> getProducts(Shop,Long)
+}
+
+
+class ua.com.mobifix.entity.Shop {
+- Long idShop
+- String nameShop
+- String linkShop
+- String selectCategoryTag
+- String selectCategoryTagLevel2
+- String selectCategoryTagLevel3
+- String selectCategoryTagLevel4
+- String selectCategoryTagLevel5
+- String selectCategoryNameTag
+- String selectCategoryNameTagLevel2
+- String selectCategoryNameTagLevel3
+- String selectCategoryNameTagLevel4
+- String selectCategoryNameTagLevel5
+- String selectCategoryAttrHref
+- String selectCategoryAttrHrefLevel2
+- String selectCategoryAttrHrefLevel3
+- String selectCategoryAttrHrefLevel4
+- String selectCategoryAttrHrefLevel5
+- String urlCategoryPrefix
+- String urlCategoryPrefixLevel2
+- String urlCategoryPrefixLevel3
+- String urlCategoryPrefixLevel4
+- String urlCategoryPrefixLevel5
+- String replaceCategoryName
+- String replaceCategoryNameLevel2
+- String replaceCategoryNameLevel3
+- String replaceCategoryNameLevel4
+- String replaceCategoryNameLevel5
+- String replaceCategoryUrl
+- String replaceCategoryUrlLevel2
+- String replaceCategoryUrlLevel3
+- String replaceCategoryUrlLevel4
+- String replaceCategoryUrlLevel5
+- String noScanCategoryList
+- String scanProductsUrl
+- String pagination
+- String parameter
+- String urlProductsLinkPrefix
+- String urlProductsImageLinkPrefix
+- String selectProductsListCartTag
+- String selectProductsCartTag
+- String selectProductsArticleTag
+- String selectProductsNameTag
+- String selectProductsPriceTag
+- String selectProductsStockTag
+- String selectProductsLinkTag
+- String selectProductsImageLinkTag
+- String selectProductsBreadcrumbsTag
+- String selectProductsAttrHref
+- String selectProductsAttrSrc
+- String replaceProductsArticle
+- String replaceProductsStock
+- String replaceProductsPrice
+- String containProductsArticle
+- String containProductsStock
+- String containProductsPrice
+- String scanProductUrl
+- String urlProductLinkPrefix
+- String urlProductImagePrefix
+- String selectProductArticleTag
+- String selectProductNameTag
+- String selectProductStockTag
+- String selectProductPriceTag
+- String selectProductBreadcrumbsTag
+- String selectProductDescriptionTag
+- String selectProductLinkTag
+- String selectProductImageLinkTag
+- String selectProductAttrHref
+- String selectProductAttrSrc
+- int maxRetriesLoadPage
+- String replaceProductArticle
+- String replaceProductStock
+- String replaceProductPrice
+- String replaceProductBreadcrumbs
+- String containProductArticle
+- String containProductStock
+- String containProductPrice
+- String containProductBreadcrumbs
+- String cookies
+- String userAgent
++ Long getIdShop()
++ void setIdShop(Long)
++ String getNameShop()
++ void setNameShop(String)
++ String getLinkShop()
++ void setLinkShop(String)
++ String getSelectCategoryTag()
++ void setSelectCategoryTag(String)
++ String getSelectCategoryTagLevel2()
++ void setSelectCategoryTagLevel2(String)
++ String getSelectCategoryTagLevel3()
++ void setSelectCategoryTagLevel3(String)
++ String getSelectCategoryTagLevel4()
++ void setSelectCategoryTagLevel4(String)
++ String getSelectCategoryTagLevel5()
++ void setSelectCategoryTagLevel5(String)
++ String getSelectProductDescriptionTag()
++ void setSelectProductDescriptionTag(String)
++ String getSelectCategoryNameTag()
++ void setSelectCategoryNameTag(String)
++ String getSelectCategoryNameTagLevel2()
++ void setSelectCategoryNameTagLevel2(String)
++ String getSelectCategoryNameTagLevel3()
++ void setSelectCategoryNameTagLevel3(String)
++ String getSelectCategoryNameTagLevel4()
++ void setSelectCategoryNameTagLevel4(String)
++ String getSelectCategoryNameTagLevel5()
++ void setSelectCategoryNameTagLevel5(String)
++ String getSelectCategoryAttrHref()
++ void setSelectCategoryAttrHref(String)
++ String getSelectCategoryAttrHrefLevel2()
++ void setSelectCategoryAttrHrefLevel2(String)
++ String getSelectCategoryAttrHrefLevel3()
++ void setSelectCategoryAttrHrefLevel3(String)
++ String getSelectCategoryAttrHrefLevel4()
++ void setSelectCategoryAttrHrefLevel4(String)
++ String getSelectCategoryAttrHrefLevel5()
++ void setSelectCategoryAttrHrefLevel5(String)
++ String getUrlCategoryPrefix()
++ void setUrlCategoryPrefix(String)
++ String getUrlCategoryPrefixLevel2()
++ void setUrlCategoryPrefixLevel2(String)
++ String getUrlCategoryPrefixLevel3()
++ void setUrlCategoryPrefixLevel3(String)
++ String getUrlCategoryPrefixLevel4()
++ void setUrlCategoryPrefixLevel4(String)
++ String getUrlCategoryPrefixLevel5()
++ void setUrlCategoryPrefixLevel5(String)
++ String getReplaceCategoryName()
++ void setReplaceCategoryName(String)
++ String getReplaceCategoryNameLevel2()
++ void setReplaceCategoryNameLevel2(String)
++ String getReplaceCategoryNameLevel3()
++ void setReplaceCategoryNameLevel3(String)
++ String getReplaceCategoryNameLevel4()
++ void setReplaceCategoryNameLevel4(String)
++ String getReplaceCategoryNameLevel5()
++ void setReplaceCategoryNameLevel5(String)
++ String getReplaceCategoryUrl()
++ void setReplaceCategoryUrl(String)
++ String getReplaceCategoryUrlLevel2()
++ void setReplaceCategoryUrlLevel2(String)
++ String getReplaceCategoryUrlLevel3()
++ void setReplaceCategoryUrlLevel3(String)
++ String getReplaceCategoryUrlLevel4()
++ void setReplaceCategoryUrlLevel4(String)
++ String getReplaceCategoryUrlLevel5()
++ void setReplaceCategoryUrlLevel5(String)
++ String getNoScanCategoryList()
++ void setNoScanCategoryList(String)
++ String getScanProductsUrl()
++ void setScanProductsUrl(String)
++ String getPagination()
++ void setPagination(String)
++ String getParameter()
++ void setParameter(String)
++ String getUrlProductsLinkPrefix()
++ void setUrlProductsLinkPrefix(String)
++ String getUrlProductsImageLinkPrefix()
++ void setUrlProductsImageLinkPrefix(String)
++ String getSelectProductsListCartTag()
++ void setSelectProductsListCartTag(String)
++ String getSelectProductsCartTag()
++ void setSelectProductsCartTag(String)
++ String getSelectProductsArticleTag()
++ void setSelectProductsArticleTag(String)
++ String getSelectProductsNameTag()
++ void setSelectProductsNameTag(String)
++ String getSelectProductsPriceTag()
++ void setSelectProductsPriceTag(String)
++ String getSelectProductsStockTag()
++ void setSelectProductsStockTag(String)
++ String getSelectProductsLinkTag()
++ void setSelectProductsLinkTag(String)
++ String getSelectProductsImageLinkTag()
++ void setSelectProductsImageLinkTag(String)
++ String getSelectProductsBreadcrumbsTag()
++ void setSelectProductsBreadcrumbsTag(String)
++ String getSelectProductsAttrHref()
++ void setSelectProductsAttrHref(String)
++ String getSelectProductsAttrSrc()
++ void setSelectProductsAttrSrc(String)
++ String getReplaceProductsArticle()
++ void setReplaceProductsArticle(String)
++ String getReplaceProductsStock()
++ void setReplaceProductsStock(String)
++ String getReplaceProductsPrice()
++ void setReplaceProductsPrice(String)
++ String getContainProductsArticle()
++ void setContainProductsArticle(String)
++ String getContainProductsStock()
++ void setContainProductsStock(String)
++ String getContainProductsPrice()
++ void setContainProductsPrice(String)
++ String getScanProductUrl()
++ void setScanProductUrl(String)
++ String getUrlProductLinkPrefix()
++ void setUrlProductLinkPrefix(String)
++ String getUrlProductImagePrefix()
++ void setUrlProductImagePrefix(String)
++ String getSelectProductArticleTag()
++ void setSelectProductArticleTag(String)
++ String getSelectProductNameTag()
++ void setSelectProductNameTag(String)
++ String getSelectProductStockTag()
++ void setSelectProductStockTag(String)
++ String getSelectProductPriceTag()
++ void setSelectProductPriceTag(String)
++ String getSelectProductBreadcrumbsTag()
++ void setSelectProductBreadcrumbsTag(String)
++ String getSelectProductLinkTag()
++ void setSelectProductLinkTag(String)
++ String getSelectProductImageLinkTag()
++ void setSelectProductImageLinkTag(String)
++ String getSelectProductAttrHref()
++ void setSelectProductAttrHref(String)
++ String getSelectProductAttrSrc()
++ void setSelectProductAttrSrc(String)
++ int getMaxRetriesLoadPage()
++ void setMaxRetriesLoadPage(int)
++ String getReplaceProductArticle()
++ void setReplaceProductArticle(String)
++ String getReplaceProductStock()
++ void setReplaceProductStock(String)
++ String getReplaceProductPrice()
++ void setReplaceProductPrice(String)
++ String getReplaceProductBreadcrumbs()
++ void setReplaceProductBreadcrumbs(String)
++ String getContainProductArticle()
++ void setContainProductArticle(String)
++ String getContainProductStock()
++ void setContainProductStock(String)
++ String getContainProductPrice()
++ void setContainProductPrice(String)
++ String getContainProductBreadcrumbs()
++ void setContainProductBreadcrumbs(String)
++ String getCookies()
++ void setCookies(String)
++ String getUserAgent()
++ void setUserAgent(String)
+}
+
+
+interface ua.com.mobifix.entity.CategoriesRepository {
+~ List<Categories> findByParentId(Long)
+~ List<Categories> findAllByShopId(Long)
+~ List<Categories> findAllByOrderByNameAsc()
+~ List<Categories> findAllByIdNotInOrderByNameAsc(List<Long>)
+~ List<Categories> findAllByShopIdOrderByNameAsc(Long)
+~ Categories findFirstByOrderByIdDesc()
+~ Optional<Categories> findByUrl(String)
+~ Categories updateOrSaveByUrl(Categories)
+}
+
+class ua.com.mobifix.controllers.CategoriesController {
+- CategoriesRepository categoriesRepository
+- ShopRepository shopRepository
+- ProductRepository productRepository
+- CategoryService categoryService
+- ShopService shopService
+- ProductService productService
+- String addNewCategory(Model,String,Long,Boolean,String,String,String,String,String,String,Long)
++ String getCatalog(String,Model)
++ String getAllCatalog(String,Model)
+- String saveCategory(Model,Long,String,Long,Boolean,String,String,String,String,String,String,Long)
+- String deleteCategory(Long)
++ String saveCartegoriesToJson()
++ List<Categories> getShops(String,Model)
++ String importCsv()
+- void setShopSettings(Long)
+- void addNewShopCategory(Model,Long)
++ void run()
++ void runForShop(Long)
+}
+
+
+class ua.com.mobifix.parser.breadcrumbs.ArtMobileBreadcrumbsParser {
+- Gson gson
++ String parseHtmlToJson(String)
+}
+
+
+class ua.com.mobifix.entity.Product {
+- Long id
+- String article
+- Long categories
+- String name
+- String breadcrumbs
+- String description
+- String stock
+- Double price
+- String chpu
+- String link
+- String linkSha3
+- String imageLink
+- Long shopId
+- Timestamp timestampField
++ String getChpu()
++ void setChpu(String)
++ String getLinkSha3()
++ void setLinkSha3(String)
++ String getBreadcrumbs()
++ void setBreadcrumbs(String)
++ String getImageLink()
++ void setImageLink(String)
++ Long getId()
++ void setId(Long)
++ String getArticle()
++ void setArticle(String)
++ Long getCategories()
++ void setCategories(Long)
++ String getName()
++ void setName(String)
++ String getStock()
++ void setStock(String)
++ Double getPrice()
++ void setPrice(Double)
++ String getDescription()
++ void setDescription(String)
++ String getLink()
++ void setLink(String)
++ Long getShopId()
++ void setShopId(Long)
++ Timestamp getTimestampField()
++ void setTimestampField(Timestamp)
+}
+
+
+
+
+org.springframework.data.jpa.repository.JpaRepository <|-- ua.com.mobifix.entity.ShopRepository
+org.springframework.data.jpa.repository.JpaRepository <|-- ua.com.mobifix.entity.ProductRepository
+org.springframework.boot.web.servlet.support.SpringBootServletInitializer <|-- ua.com.mobifix.ServletInitializer
+ua.com.mobifix.parser.CategoryParser <|-- ua.com.mobifix.parser.AllProductParser
+org.springframework.data.jpa.repository.JpaRepository <|-- ua.com.mobifix.entity.CategoriesRepository
+@enduml
