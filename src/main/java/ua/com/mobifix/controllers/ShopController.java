@@ -13,6 +13,7 @@ import ua.com.mobifix.service.Time;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Paths;
 
 @Controller
 @RequestMapping(path="/")
@@ -46,7 +47,7 @@ public class ShopController {
     }
 
     @PostMapping("/save-shop")
-    public String updateShop(Model model, Long id, String name, String link){
+    public String updateShop(Long id, String name, String link){
         Shop shop = new Shop();
         shop.setNameShop(name);
         shop.setLinkShop(link);
@@ -54,7 +55,7 @@ public class ShopController {
         return "redirect:/add-shop";
     }
     @PostMapping("/delete-shop")
-    public String deleteShop(Model model, Integer deleteShop){
+    public String deleteShop(Integer deleteShop){
         if (shopRepository.existsById(deleteShop)) {
             shopRepository.deleteById(deleteShop);
         } else {
@@ -65,10 +66,12 @@ public class ShopController {
     @PostMapping("/save-to-json")
     public String saveToJson(){
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        try (FileWriter writer = new FileWriter("C:\\Users\\dima2\\IdeaProjects\\webParser\\src\\main\\resources\\data\\shop_export_" + Time.getTime() + ".json")) {
+        String basePath = Paths.get("").toAbsolutePath().toString(); // корень проекта
+        String filePath = basePath + "/src/main/resources/data/shop_export_" + Time.getTime() + ".json";
+        try (FileWriter writer = new FileWriter(filePath)) {
             gson.toJson(shopRepository.findAllByOrderByNameShopAsc(), writer);
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
         return "redirect:/add-shop";
     }

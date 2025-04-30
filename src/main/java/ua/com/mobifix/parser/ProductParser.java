@@ -13,6 +13,8 @@ import ua.com.mobifix.parser.description.AllSparesDescriptionParser;
 import ua.com.mobifix.parser.description.ArtMobileDescriptionParser;
 
 import java.io.IOException;
+import java.net.InetSocketAddress;
+import java.net.Proxy;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 
@@ -25,7 +27,9 @@ public class ProductParser {
                 try {
                     System.out.println("\u001B[32m" + "connected to server... " +  "\u001B[0m" + scanLink);
                     Connection connection  = Jsoup.connect(scanLink);
-                    Document page = connection.cookies(new CategoryParser().parseStringToMap(settings.getCookies()))
+                    Document page = connection
+                            .proxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("195.178.133.59", 50101)))
+                            .cookies(new CategoryParser().parseStringToMap(settings.getCookies()))
                             .method(Connection.Method.GET)
                             .get();
 

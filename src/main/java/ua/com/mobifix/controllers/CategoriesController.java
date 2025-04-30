@@ -17,6 +17,7 @@ import ua.com.mobifix.service.*;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -185,7 +186,9 @@ public class CategoriesController {
     @PostMapping("/save-categories-to-json")
     public String saveCartegoriesToJson() {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        try (FileWriter writer = new FileWriter("C:\\Users\\dima2\\OneDrive\\Рабочий стол\\webParser\\src\\main\\resources\\data\\categories_export_" + Time.getTime() + ".json")) {
+        String basePath = Paths.get("").toAbsolutePath().toString(); // корень проекта
+        String filePath = basePath + "/data/categories_export_" + Time.getTime() + ".json";
+        try (FileWriter writer = new FileWriter(filePath)) {
             gson.toJson(categoriesRepository.findAllByOrderByNameAsc(), writer);
         } catch (IOException e) {
             e.printStackTrace();

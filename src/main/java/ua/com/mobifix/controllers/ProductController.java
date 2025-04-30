@@ -24,6 +24,7 @@ import ua.com.mobifix.service.SHA3;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.sql.Timestamp;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -236,6 +237,7 @@ public class ProductController {
         }
         System.out.println("Descriptions & Breadcrumps is update!");
     }
+
     @GetMapping("/create-catalog-for-shop")
     @ResponseBody
     public void createCatalogForShop(Long shopId) {
@@ -261,7 +263,8 @@ public class ProductController {
 
         // Записываем каталог в файл JSON
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        try (FileWriter fileWriter = new FileWriter("src/main/resources/data/categories/catalog_" + shopId +".json")) {
+        try (FileWriter fileWriter = Objects.requireNonNull(new FileWriter("src/main/resources/data/categories/catalog_" + shopRepository.findByIdShop(shopId)
+                .getNameShop() + "_" + Timestamp.valueOf(LocalDateTime.now()).toString().replace(":", "-").replace(" ", "_") + ".json"))) {
             gson.toJson(catalog, fileWriter);
             System.out.println("Catalog has been saved to catalog.json");
         } catch (IOException e) {

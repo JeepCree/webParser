@@ -7,20 +7,14 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import org.springframework.data.domain.Example;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
-import org.springframework.data.repository.query.FluentQuery;
-import ua.com.mobifix.entity.Categories;
-import ua.com.mobifix.entity.CategoriesRepository;
 import ua.com.mobifix.entity.Product;
 import ua.com.mobifix.entity.Shop;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.InetSocketAddress;
+import java.net.Proxy;
 import java.util.*;
-import java.util.function.Function;
 
 public class AllProductParser extends CategoryParser {
     List<Product> productList = new ArrayList<>();
@@ -40,7 +34,7 @@ public class AllProductParser extends CategoryParser {
 
     public List<Product> getProducts(Shop settings, Long categoryId) {
         int num = 1;
-        int i = 0;
+//        int i = 0;
 
 
         boolean bool = true;
@@ -48,15 +42,18 @@ public class AllProductParser extends CategoryParser {
             try {
 //                System.out.println(settings.getScanProductsUrl() + settings.getPagination() + num + settings.getParameter());
                 String page = Jsoup.connect(settings.getScanProductsUrl() + settings.getPagination() + num + settings.getParameter())
+                        .proxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("195.178.133.59", 50101)))
                         .cookies(parseStringToMap(settings.getCookies()))
                         .get()
                         .select(settings.getSelectProductsListCartTag()).text();
 
                 String newPage = Jsoup.connect(settings.getScanProductsUrl() + settings.getPagination() + (num + 1) + settings.getParameter())
+                        .proxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("195.178.133.59", 50101)))
                         .cookies(parseStringToMap(settings.getCookies()))
                         .get()
                         .select(settings.getSelectProductsListCartTag()).text();
                 Document scanPage = Jsoup.connect(settings.getScanProductsUrl() + settings.getPagination() + num + settings.getParameter())
+                        .proxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("195.178.133.59", 50101)))
                         .cookies(parseStringToMap(settings.getCookies()))
                         .get();
                 System.out.println("Сканируем страницу " + num + " (" + settings.getScanProductsUrl() + ")");
@@ -115,7 +112,7 @@ public class AllProductParser extends CategoryParser {
                         product.setLink(productUrl);
                         product.setImageLink(imageLink);
                         product.setStock(stock);
-                        if (price.equals("")){
+                        if (price.isEmpty()){
                             price = "0";
                         }
                         try {
@@ -129,13 +126,7 @@ public class AllProductParser extends CategoryParser {
                         product.setShopId(settings.getIdShop());
                         productList.add(product);
 
-//                        System.out.println(article);
-//                        System.out.println(name);
-//                        System.out.println(productUrl);
-//                        System.out.println(imageLink);
-//                        System.out.println(stock);
-//                        System.out.println(price);
-//                        System.out.println("\n");
+
                     }
 
                     //конец вставки

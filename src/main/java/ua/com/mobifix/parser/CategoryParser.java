@@ -15,6 +15,8 @@ import ua.com.mobifix.service.CategoryService;
 import javax.net.ssl.SSLException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.InetSocketAddress;
+import java.net.Proxy;
 import java.util.*;
 import java.util.concurrent.CancellationException;
 
@@ -55,6 +57,7 @@ public class CategoryParser {
         try {
             Connection.Response response = Jsoup.connect(settings.getLinkShop()).method(Connection.Method.GET).execute();
             Document page = Jsoup.connect(settings.getLinkShop())
+                    .proxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("195.178.133.59", 50101)))
                     .userAgent(settings.getUserAgent())
                     .cookies(cookies)
                     .get();
