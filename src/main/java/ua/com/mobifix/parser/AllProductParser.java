@@ -42,18 +42,18 @@ public class AllProductParser extends CategoryParser {
             try {
 //                System.out.println(settings.getScanProductsUrl() + settings.getPagination() + num + settings.getParameter());
                 String page = Jsoup.connect(settings.getScanProductsUrl() + settings.getPagination() + num + settings.getParameter())
-                        .proxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("195.178.133.59", 50101)))
+//                        .proxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("195.178.133.59", 50101)))
                         .cookies(parseStringToMap(settings.getCookies()))
                         .get()
                         .select(settings.getSelectProductsListCartTag()).text();
 
                 String newPage = Jsoup.connect(settings.getScanProductsUrl() + settings.getPagination() + (num + 1) + settings.getParameter())
-                        .proxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("195.178.133.59", 50101)))
+//                        .proxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("195.178.133.59", 50101)))
                         .cookies(parseStringToMap(settings.getCookies()))
                         .get()
                         .select(settings.getSelectProductsListCartTag()).text();
                 Document scanPage = Jsoup.connect(settings.getScanProductsUrl() + settings.getPagination() + num + settings.getParameter())
-                        .proxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("195.178.133.59", 50101)))
+//                        .proxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("195.178.133.59", 50101)))
                         .cookies(parseStringToMap(settings.getCookies()))
                         .get();
                 System.out.println("Сканируем страницу " + num + " (" + settings.getScanProductsUrl() + ")");

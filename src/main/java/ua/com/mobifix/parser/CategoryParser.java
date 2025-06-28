@@ -55,9 +55,9 @@ public class CategoryParser {
 
         System.out.println(cookies);
         try {
-            Connection.Response response = Jsoup.connect(settings.getLinkShop()).method(Connection.Method.GET).execute();
+//            Connection.Response response = Jsoup.connect(settings.getLinkShop()).method(Connection.Method.GET).execute();
             Document page = Jsoup.connect(settings.getLinkShop())
-                    .proxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("195.178.133.59", 50101)))
+//                    .proxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("195.178.133.59", 50101)))
                     .userAgent(settings.getUserAgent())
                     .cookies(cookies)
                     .get();
@@ -68,7 +68,7 @@ public class CategoryParser {
                 e.printStackTrace();
             }
             Elements elements = page.select(settings.getSelectCategoryTag());
-            System.out.println(elements);
+
             for (Element element : elements) {
 
                 String name = element.select(settings.getSelectCategoryNameTag()).text();

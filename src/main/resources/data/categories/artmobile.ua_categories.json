@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "id": 9003,
+    "active": false,
+    "name": "Комплектующие к Apple",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/komplektuyuchi-do-apple",
+    "shopId": 8
+  },
+  {
+    "id": 9004,
+    "active": false,
+    "name": "Запчасти",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini",
+    "shopId": 8
+  },
+  {
+    "id": 9005,
+    "active": false,
+    "name": "Запчасти для MacBook",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-dlya-macbook",
+    "shopId": 8
+  },
+  {
+    "id": 9006,
+    "active": false,
+    "name": "Аккумуляторы",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/akumulyatori",
+    "shopId": 8
+  },
+  {
+    "id": 9007,
+    "active": false,
+    "name": "Аксессуары",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/aksesuari",
+    "shopId": 8
+  },
+  {
+    "id": 9008,
+    "active": false,
+    "name": "Защитные пленки и стекло",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zakhisni-plivki-ta-sklo",
+    "shopId": 8
+  },
+  {
+    "id": 9009,
+    "active": false,
+    "name": "Оборудование для ремонта техники",
+    "parentId": 0,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/obladnannya-dlya-remontu-tekhniki",
+    "shopId": 8
+  }
+]
