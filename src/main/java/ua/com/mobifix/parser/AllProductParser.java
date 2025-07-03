@@ -86,10 +86,12 @@ public class AllProductParser extends CategoryParser {
                             }
                         }
                     String price;
+//                    System.out.println(element.selectFirst(settings.getSelectProductsPriceTag()));
                     if(element.selectFirst(settings.getSelectProductsPriceTag()) != null){
                          price = element.selectFirst(settings.getSelectProductsPriceTag()).text();
                         for (Map.Entry<String, String> pr : parseStringToMap(settings.getReplaceProductsPrice()).entrySet()) {
                             price = price.replace(pr.getKey(), pr.getValue());
+
                         }
                         for (Map.Entry<String, String> prCont : parseStringToMap(settings.getContainProductsPrice()).entrySet()) {
                             if (price.contains(prCont.getKey())) {
@@ -100,15 +102,12 @@ public class AllProductParser extends CategoryParser {
                          price = "0";
                     }
 
-
-
                         String imageLink = settings.getUrlProductsImageLinkPrefix() + element.select(settings.getSelectProductsImageLinkTag()).attr(settings.getSelectProductsAttrSrc());
-
+                    if (article != null && article.isEmpty()) {
                         product.setArticle(article);
+                    }
                         product.setName(name);
-//                    System.out.println("upd. name > " + Slugify.builder().locale(new Locale("ru")).build().slugify(name));
                         product.setChpu(Slugify.builder().locale(new Locale("ru")).build().slugify(name));
-//                    System.out.println("in product > " + product.getChpu());
                         product.setLink(productUrl);
                         product.setImageLink(imageLink);
                         product.setStock(stock);

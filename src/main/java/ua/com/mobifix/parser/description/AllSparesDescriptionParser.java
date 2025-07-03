@@ -47,7 +47,6 @@ public class AllSparesDescriptionParser {
 
         // Преобразуем карту в JSON-объект
         JsonObject jsonObject = gson.toJsonTree(dataMap).getAsJsonObject();
-        System.out.println(jsonObject);
         // Возвращаем JSON-строку
         return gson.toJson(jsonObject);
     }

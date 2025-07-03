@@ -4,6 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
+import java.sql.Timestamp;
 import java.util.List;
 import java.util.Optional;
 
@@ -24,6 +25,13 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
     @Query("SELECT p.link FROM Product p WHERE p.shopId = :shopId AND p.description IS NULL")
     List<String> findLinksByShopIdAndDescriptionIsNull(@Param("shopId") Long shopId);
 
+    @Query("SELECT p.link FROM Product p WHERE p.shopId = :shopId AND p.article IS NULL")
+    List<String> findLinksByShopIdAndArticleIsNull(@Param("shopId") Long shopId);
+
     @Query("SELECT p.breadcrumbs FROM Product p WHERE p.shopId = :shopId")
     List<String> findAllBreadcrumbsByShopId(@Param("shopId") Long shopId);
+
+    @Query("SELECT p.link FROM Product p WHERE p.shopId = :shopId AND p.timestampField < :timestamp")
+    List<String> findLinksByShopIdAndTimestampBefore(@Param("shopId") Long shopId,
+                                                    @Param("timestamp") Timestamp timestamp);
 }

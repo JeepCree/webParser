@@ -28,12 +28,7 @@ public class ProductService {
     }
     public void updateByLinkSha3(Product product) {
         // Найти товар по ссылке
-//        Optional<Product> existingProductOptional = productRepository.findByLink(product.getLink());
-
     Optional<Product> existingProductOptional = productRepository.findByLinkSha3(SHA3.generateSHA3Hash(product.getLink()));
-//        Product existingProduct = productRepository.findAllByShopIdAndCategoriesInAndLink(product.getShopId(), product.getCategories(), product.getLink());
-
-
 
         // Если товар найден, выполнить обновление
         if (existingProductOptional.isPresent()) {
@@ -41,7 +36,7 @@ public class ProductService {
                 Product existingProduct = existingProductOptional.get();
                 // Обновить поля товара
                 existingProduct.setCategories(product.getCategories());
-                existingProduct.setArticle(product.getArticle());
+//                existingProduct.setArticle(product.getArticle());
                 existingProduct.setName(product.getName());
                 existingProduct.setPrice(product.getPrice());
                 existingProduct.setStock(product.getStock());
@@ -52,17 +47,27 @@ public class ProductService {
 //                existingProduct.setDescription(product.getDescription());
                 existingProduct.setChpu(product.getChpu());
                 existingProduct.setTimestampField(new Timestamp(System.currentTimeMillis()));
-                productRepository.save(existingProduct);
 
+                productRepository.save(existingProduct);
+//            System.out.println("ТОВАР ОБНОВЛЕН!");
         } else {
-            // Если товар не найден, можно выбрасывать исключение или выполнять другие действия
-            // Например, можно просто вывести сообщение об ошибке
             try {
                 if (!product.getName().equals("")) {
                     productRepository.save(product);
-                }
+                    System.out.println("\u001B[32mДобавлен новый товар: " +
+                            "\n" + product.getArticle() +
+                            "\n" + product.getName() +
+                            "\n" + product.getPrice() +
+                            "\n" + product.getStock() +
+                            "\n" + product.getLink() +
+                            "\u001B[0m"
+                    );
+                } else {
+                System.out.println("\u001B[33mИмя товара пустое — товар не сохранен.\u001B[0m");
+            }
             } catch (DataIntegrityViolationException ex){
                 ex.printStackTrace();
+                System.out.println("\u001B[31mОШИБКА!!! ТОВАР НЕ ДОБАВЛЕН!\u001B[0m");
             }
 
         }
@@ -85,9 +90,10 @@ public class ProductService {
         List<Product> productList = allProductParser.getProducts(settings, idCat);
 
         for (Product obj : productList) {
-
             Product product = new Product();
-            product.setArticle(obj.getArticle());
+            if (obj.getArticle() != null && !obj.getArticle().isEmpty()) {
+                product.setArticle(obj.getArticle());
+            }
             product.setName(obj.getName());
             product.setStock(obj.getStock());
             product.setPrice(obj.getPrice());

@@ -63,6 +63,7 @@ public class Shop {
     private String selectProductsCartTag = "noTag";
     private String selectProductsArticleTag = "noTag";
     private String selectProductsNameTag = "noTag";
+    private String selectProductsPcsTag = "noTag";
     private String selectProductsPriceTag = "noTag";
     private String selectProductsStockTag = "noTag";
     private String selectProductsLinkTag = "noTag";
@@ -89,6 +90,7 @@ public class Shop {
     private String urlProductImagePrefix = "";
     private String selectProductArticleTag = "";
     private String selectProductNameTag = "";
+    private String selectProductPcsTag = "noTag";
     private String selectProductStockTag = "";
     private String selectProductPriceTag = "";
     private String selectProductBreadcrumbsTag = "";
@@ -119,6 +121,22 @@ public class Shop {
     private String cookies = "noCookie1=noValue1; noCookie2=noValue2";
     @Column(columnDefinition = "TEXT")
     private String userAgent = "";
+
+    public String getSelectProductsPcsTag() {
+        return selectProductsPcsTag;
+    }
+
+    public void setSelectProductsPcsTag(String selectProductsPcsTag) {
+        this.selectProductsPcsTag = selectProductsPcsTag;
+    }
+
+    public String getSelectProductPcsTag() {
+        return selectProductPcsTag;
+    }
+
+    public void setSelectProductPcsTag(String selectProductPcsTag) {
+        this.selectProductPcsTag = selectProductPcsTag;
+    }
 
     public Long getIdShop() {
         return idShop;

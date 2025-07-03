@@ -31,7 +31,6 @@ public interface CategoriesRepository extends JpaRepository<Categories, Integer>
             existingCategory.setName(newCategory.getName());
             existingCategory.setShopId(newCategory.getShopId());
             // Другие поля для обновления
-
             return save(existingCategory);
         } else {
             // Если категория с таким артикулом не существует, добавьте новую запись

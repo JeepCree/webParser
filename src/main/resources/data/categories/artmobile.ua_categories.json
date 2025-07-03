@@ -1,65 +1,560 @@
 [
   {
-    "id": 9003,
+    "id": 1214,
     "active": false,
     "name": "Комплектующие к Apple",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://artmobile.ua/ru/komplektuyuchi-do-apple",
-    "shopId": 8
+    "shopId": 200
   },
   {
-    "id": 9004,
+    "id": 1215,
+    "active": false,
+    "name": "Запчасти iPhone",
+    "parentId": 1214,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/komplektuyuchi-do-apple-zapchastini-iphone",
+    "shopId": 200
+  },
+  {
+    "id": 1216,
+    "active": false,
+    "name": "Запчасти iPad",
+    "parentId": 1214,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/komplektuyuchi-do-apple-zapchastini-ipad",
+    "shopId": 200
+  },
+  {
+    "id": 1217,
+    "active": false,
+    "name": "Запчасти Apple Watch",
+    "parentId": 1214,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/komplektuyuchi-do-apple-zapchastini-apple-watch",
+    "shopId": 200
+  },
+  {
+    "id": 1218,
+    "active": false,
+    "name": "Запчасти iPod",
+    "parentId": 1214,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/komplektuyuchi-do-apple-zapchastini-ipod",
+    "shopId": 200
+  },
+  {
+    "id": 1219,
+    "active": false,
+    "name": "Запчасти AirPods",
+    "parentId": 1214,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/komplektuyuchi-do-apple-zapchastini-airpods",
+    "shopId": 200
+  },
+  {
+    "id": 1220,
+    "active": false,
+    "name": "Микросхемы Apple",
+    "parentId": 1214,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/komplektuyuchi-do-apple-mikroskhemi-apple",
+    "shopId": 200
+  },
+  {
+    "id": 1221,
     "active": false,
     "name": "Запчасти",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://artmobile.ua/ru/zapchastini",
-    "shopId": 8
+    "shopId": 200
   },
   {
-    "id": 9005,
+    "id": 1222,
+    "active": false,
+    "name": "Коннекторы",
+    "parentId": 1221,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-konektori",
+    "shopId": 200
+  },
+  {
+    "id": 1223,
+    "active": false,
+    "name": "Корпусные детали",
+    "parentId": 1221,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-korpusni-detali",
+    "shopId": 200
+  },
+  {
+    "id": 1224,
+    "active": false,
+    "name": "Корпус",
+    "parentId": 1221,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-korpus",
+    "shopId": 200
+  },
+  {
+    "id": 1225,
+    "active": false,
+    "name": "Дисплеи",
+    "parentId": 1221,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-displeyi",
+    "shopId": 200
+  },
+  {
+    "id": 1226,
+    "active": false,
+    "name": "Сенсорные экраны",
+    "parentId": 1221,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-sensorni-ekrani",
+    "shopId": 200
+  },
+  {
+    "id": 1227,
+    "active": false,
+    "name": "Шлейфы",
+    "parentId": 1221,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-shleyfa",
+    "shopId": 200
+  },
+  {
+    "id": 1228,
+    "active": false,
+    "name": "Камеры",
+    "parentId": 1221,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-kameri",
+    "shopId": 200
+  },
+  {
+    "id": 1229,
+    "active": false,
+    "name": "Звонки",
+    "parentId": 1221,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-dzvinki",
+    "shopId": 200
+  },
+  {
+    "id": 1230,
+    "active": false,
+    "name": "Виброзвонки",
+    "parentId": 1221,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-vibrodzvinki",
+    "shopId": 200
+  },
+  {
+    "id": 1231,
+    "active": false,
+    "name": "Динамики",
+    "parentId": 1221,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-dinamiki",
+    "shopId": 200
+  },
+  {
+    "id": 1232,
+    "active": false,
+    "name": "Микрофоны",
+    "parentId": 1221,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-mikrofoni",
+    "shopId": 200
+  },
+  {
+    "id": 1233,
+    "active": false,
+    "name": "Антены",
+    "parentId": 1221,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-anteni",
+    "shopId": 200
+  },
+  {
+    "id": 1234,
+    "active": false,
+    "name": "Микросхемы",
+    "parentId": 1221,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-mikroskhemi",
+    "shopId": 200
+  },
+  {
+    "id": 1235,
+    "active": false,
+    "name": "Клавиатурный модуль",
+    "parentId": 1221,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-klaviaturniy-modul",
+    "shopId": 200
+  },
+  {
+    "id": 1236,
+    "active": false,
+    "name": "Кнопки",
+    "parentId": 1221,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-knopki",
+    "shopId": 200
+  },
+  {
+    "id": 1237,
+    "active": false,
+    "name": "Пылезащитные сетки",
+    "parentId": 1221,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-pilozakhisni-sitki",
+    "shopId": 200
+  },
+  {
+    "id": 1238,
     "active": false,
     "name": "Запчасти для MacBook",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://artmobile.ua/ru/zapchastini-dlya-macbook",
-    "shopId": 8
+    "shopId": 200
   },
   {
-    "id": 9006,
+    "id": 1239,
+    "active": false,
+    "name": "Запчасти MacBook",
+    "parentId": 1238,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zapchastini-dlya-macbook-zapchastini-macbook",
+    "shopId": 200
+  },
+  {
+    "id": 1240,
     "active": false,
     "name": "Аккумуляторы",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://artmobile.ua/ru/akumulyatori",
-    "shopId": 8
+    "shopId": 200
   },
   {
-    "id": 9007,
+    "id": 1241,
+    "active": false,
+    "name": "Аккумуляторы (АКБ)",
+    "parentId": 1240,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/akumulyatori-akumulyatori--akb-",
+    "shopId": 200
+  },
+  {
+    "id": 1242,
     "active": false,
     "name": "Аксессуары",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://artmobile.ua/ru/aksesuari",
-    "shopId": 8
+    "shopId": 200
   },
   {
-    "id": 9008,
+    "id": 1243,
+    "active": false,
+    "name": "Чехлы",
+    "parentId": 1242,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/aksesuari-chokhli",
+    "shopId": 200
+  },
+  {
+    "id": 1244,
+    "active": false,
+    "name": "Ремешки Apple Watch",
+    "parentId": 1242,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/aksesuari-remintsi-apple-watch",
+    "shopId": 200
+  },
+  {
+    "id": 1245,
+    "active": false,
+    "name": "Зарядные устройства",
+    "parentId": 1242,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/aksesuari-zaryadni-pristroyi",
+    "shopId": 200
+  },
+  {
+    "id": 1246,
+    "active": false,
+    "name": "Фитнес-браслеты и ремешки",
+    "parentId": 1242,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/aksesuari-fitnes-brasleti-i-remintsi",
+    "shopId": 200
+  },
+  {
+    "id": 1247,
+    "active": false,
+    "name": "Кабели зарядки",
+    "parentId": 1242,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/aksesuari-kabeli-zaryadki",
+    "shopId": 200
+  },
+  {
+    "id": 1248,
+    "active": false,
+    "name": "Хабы и переходники",
+    "parentId": 1242,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/aksesuari-khabi-i-perekhidniki",
+    "shopId": 200
+  },
+  {
+    "id": 1249,
+    "active": false,
+    "name": "Наушники и колонки",
+    "parentId": 1242,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/aksesuari-navushniki-i-kolonki",
+    "shopId": 200
+  },
+  {
+    "id": 1250,
+    "active": false,
+    "name": "Продукция Xiaomi",
+    "parentId": 1242,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/aksesuari-produktsiya-xiaomi",
+    "shopId": 200
+  },
+  {
+    "id": 1251,
+    "active": false,
+    "name": "Автоаксессуары",
+    "parentId": 1242,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/aksesuari-avtoaksesuari",
+    "shopId": 200
+  },
+  {
+    "id": 1252,
+    "active": false,
+    "name": "Фотография и видео",
+    "parentId": 1242,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/aksesuari-fotografiya-ta-video",
+    "shopId": 200
+  },
+  {
+    "id": 1253,
+    "active": false,
+    "name": "Клавиатуры и мыши, стилусы",
+    "parentId": 1242,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/aksesuari-klaviaturi-ta-mishi--stilusi",
+    "shopId": 200
+  },
+  {
+    "id": 1254,
+    "active": false,
+    "name": "Внешние аккумуляторы",
+    "parentId": 1242,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/aksesuari-zovnishni-akumulyatori",
+    "shopId": 200
+  },
+  {
+    "id": 1255,
+    "active": false,
+    "name": "Сумки",
+    "parentId": 1242,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/aksesuari-sumki",
+    "shopId": 200
+  },
+  {
+    "id": 1256,
     "active": false,
     "name": "Защитные пленки и стекло",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://artmobile.ua/ru/zakhisni-plivki-ta-sklo",
-    "shopId": 8
+    "shopId": 200
   },
   {
-    "id": 9009,
+    "id": 1257,
+    "active": false,
+    "name": "Защитные плёнки iPhone",
+    "parentId": 1256,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zakhisni-plivki-ta-sklo-zakhisni-plivki-iphone",
+    "shopId": 200
+  },
+  {
+    "id": 1258,
+    "active": false,
+    "name": "Защитное стекло iPhone",
+    "parentId": 1256,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zakhisni-plivki-ta-sklo-zakhisne-sklo-iphone",
+    "shopId": 200
+  },
+  {
+    "id": 1259,
+    "active": false,
+    "name": "Защитное стекло Android",
+    "parentId": 1256,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zakhisni-plivki-ta-sklo-zakhisne-sklo-android",
+    "shopId": 200
+  },
+  {
+    "id": 1260,
+    "active": false,
+    "name": "Защитное стекло Apple Watch",
+    "parentId": 1256,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zakhisni-plivki-ta-sklo-zakhisne-sklo-apple-watch",
+    "shopId": 200
+  },
+  {
+    "id": 1261,
+    "active": false,
+    "name": "Защитное стекло iPad",
+    "parentId": 1256,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zakhisni-plivki-ta-sklo-zakhisne-sklo-ipad",
+    "shopId": 200
+  },
+  {
+    "id": 1262,
+    "active": false,
+    "name": "Защитное стекло Macbook",
+    "parentId": 1256,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zakhisni-plivki-ta-sklo-zakhisne-sklo-macbook",
+    "shopId": 200
+  },
+  {
+    "id": 1263,
+    "active": false,
+    "name": "Защитные плёнки Android",
+    "parentId": 1256,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zakhisni-plivki-ta-sklo-zakhisni-plivki-android",
+    "shopId": 200
+  },
+  {
+    "id": 1264,
+    "active": false,
+    "name": "Защитные плёнки Apple Watch",
+    "parentId": 1256,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zakhisni-plivki-ta-sklo-zakhisni-plivki-apple-watch",
+    "shopId": 200
+  },
+  {
+    "id": 1265,
+    "active": false,
+    "name": "Защитные плёнки iPad",
+    "parentId": 1256,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zakhisni-plivki-ta-sklo-zakhisni-plivki-ipad",
+    "shopId": 200
+  },
+  {
+    "id": 1266,
+    "active": false,
+    "name": "Защитные плёнки iPod",
+    "parentId": 1256,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zakhisni-plivki-ta-sklo-zakhisni-plivki-ipod",
+    "shopId": 200
+  },
+  {
+    "id": 1267,
+    "active": false,
+    "name": "Защитные плёнки Macbook",
+    "parentId": 1256,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/zakhisni-plivki-ta-sklo-zakhisni-plivki-macbook",
+    "shopId": 200
+  },
+  {
+    "id": 1268,
     "active": false,
     "name": "Оборудование для ремонта техники",
     "parentId": 0,
     "rootCategory": false,
     "url": "https://artmobile.ua/ru/obladnannya-dlya-remontu-tekhniki",
-    "shopId": 8
+    "shopId": 200
+  },
+  {
+    "id": 1269,
+    "active": false,
+    "name": "Химия и расходные материалы",
+    "parentId": 1268,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/obladnannya-dlya-remontu-tekhniki-khimiya-ta-vitratni-materiali",
+    "shopId": 200
+  },
+  {
+    "id": 1270,
+    "active": false,
+    "name": "Инструменты для ремонта",
+    "parentId": 1268,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/obladnannya-dlya-remontu-tekhniki-instrumenti-dlya-remontu",
+    "shopId": 200
+  },
+  {
+    "id": 1271,
+    "active": false,
+    "name": "Клей",
+    "parentId": 1268,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/obladnannya-dlya-remontu-tekhniki-kley",
+    "shopId": 200
+  },
+  {
+    "id": 1272,
+    "active": false,
+    "name": "Оборудование для пайки",
+    "parentId": 1268,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/obladnannya-dlya-remontu-tekhniki-obladnannya-dlya-payannya",
+    "shopId": 200
+  },
+  {
+    "id": 1273,
+    "active": false,
+    "name": "Скотч",
+    "parentId": 1268,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/obladnannya-dlya-remontu-tekhniki-skotchi",
+    "shopId": 200
+  },
+  {
+    "id": 1274,
+    "active": false,
+    "name": "ОСА плёнки",
+    "parentId": 1268,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/obladnannya-dlya-remontu-tekhniki-oca-plivki",
+    "shopId": 200
+  },
+  {
+    "id": 1275,
+    "active": false,
+    "name": "Поляризационные плёнки",
+    "parentId": 1268,
+    "rootCategory": false,
+    "url": "https://artmobile.ua/ru/obladnannya-dlya-remontu-tekhniki-polyarizatsiyni-plivki",
+    "shopId": 200
   }
 ]

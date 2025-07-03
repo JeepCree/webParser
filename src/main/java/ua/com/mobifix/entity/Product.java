@@ -22,6 +22,7 @@ public class Product {
     @Lob
     @Column(columnDefinition = "LONGTEXT")
     private String description;
+    private int pcs;
     private String stock;
     private Double price;
     @Column(columnDefinition = "TEXT")
@@ -99,6 +100,14 @@ public class Product {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getPcs() {
+        return pcs;
+    }
+
+    public void setPcs(int pcs) {
+        this.pcs = pcs;
     }
 
     public String getStock() {

@@ -49,6 +49,9 @@ public class CategoryParser {
     }
 
     public List<Categories> getCatalog(Shop settings, Long lastCategoryId){
+//        if (lastCategoryId == null) {
+//            lastCategoryId = 0L;
+//        }
         lastCategoryId++;
         List<Categories> categoryList = new ArrayList<>();
         Map<String, String> cookies = parseStringToMap(settings.getCookies());

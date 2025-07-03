@@ -17,7 +17,7 @@ public class ArtMobileDescriptionParser {
         JsonObject jsonObject = new JsonObject();
         for (Element item : items) {
             String title = item.selectFirst(".characteristics-title").text();
-            Elements values = item.select(".characteristics-value div");
+            Elements values = item.select(".characteristics-value > div, .characteristics-value > span > div");
 
             // Создание массива значений для текущего заголовка
             JsonArray valueArray = new JsonArray();

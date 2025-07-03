@@ -293,10 +293,13 @@ public class CategoriesController {
             }
         }
 
-        for (Categories el : categoryParser.getCatalog(shop, categoriesRepository.findFirstByOrderByIdDesc().getId())) {
+        Categories lastCategory = categoriesRepository.findFirstByOrderByIdDesc();
+        Long lastId = lastCategory != null ? lastCategory.getId() : 0L;
+
+        for (Categories el : categoryParser.getCatalog(shop, lastId)) {
             categoriesRepository.updateOrSaveByUrl(el);
         }
-        System.out.println("End of scan!");
+        System.out.println("End of scan category!");
     }
 
     @GetMapping("/run")

@@ -184,11 +184,6 @@ public class ProductController {
             for (Product product : productList) {
                 product.setLinkSha3(SHA3.generateSHA3Hash(product.getLink()));
 
-
-                System.out.println(product.getShopId() +
-                        "\n" + product.getName() +
-                        "\n" + product.getLink() +
-                        "\n" + product.getLinkSha3() + "\n\n");
                 try {
                     productRepository.save(product);
                 } catch (Exception e){
@@ -204,12 +199,13 @@ public class ProductController {
 
     @GetMapping("/scan-product-for-shop")
     @ResponseBody
-    public void scanProductForShop(Long shopId, boolean bool) throws InterruptedException {
+    public void scanProductForShop(Long shopId, Timestamp time, boolean bool) throws InterruptedException {
         List<String> allLinks;
         if (bool){
             allLinks = productRepository.findLinksByShopIdAndDescriptionIsNull(shopId);
         } else {
-            allLinks = productRepository.findAllLinksByShopId(shopId);
+            allLinks = productRepository.findLinksByShopIdAndTimestampBefore(shopId, time);
+//            allLinks = productRepository.findAllLinksByShopId(shopId);
         }
         ProductParser productParser = new ProductParser();
         System.out.println("quantity of links: " + allLinks.size());
@@ -223,17 +219,31 @@ public class ProductController {
             }
             System.out.println("\u001B[36m" + "Start parse product" + "\u001B[0m");
             Product productExec = productParser.getProduct(shopRepository.findByIdShop(shopId), link, shopId);
-            System.out.println("\u001B[33m" + "execute product from base" + "\u001B[0m");
-            product.setBreadcrumbs(productExec.getBreadcrumbs());
-            product.setDescription(productExec.getDescription());
-            System.out.println("\u001B[35m" + "upgrade product: " + "\u001B[0m" + product.getArticle());
-            System.out.println("description data: " + product.getDescription());
-//            System.out.println(product.getBreadcrumbs());
-            productRepository.save(product);
-            System.out.println("\u001B[32m" + "save product to DB\n" + "\u001B[0m");
+            if (productExec == null) {
+                productRepository.findByLink(link).ifPresent(productRepository::delete);
+            } else {
+                System.out.println("\u001B[33m" + "execute product from base" + "\u001B[0m");
+                product.setArticle(productExec.getArticle());
+                product.setBreadcrumbs(productExec.getBreadcrumbs());
+                product.setDescription(productExec.getDescription());
+                product.setTimestampField(productExec.getTimestampField());
+                product.setPrice(productExec.getPrice());
+//                if (productExec.getPcs() == ""){
+//                    product.setPcs(0);
+//                }
+                product.setPcs(productExec.getPcs());
+                product.setStock(productExec.getStock());
+                System.out.println("\u001B[35m" + "upgrade product: " + "\u001B[0m" + product.getArticle());
+//                System.out.println("\u001B[35m" + "product pcs " + "\u001B[0m" + product.getPcs());
+                System.out.println("\u001B[35m" + "breadcrumbs data: " + "\u001B[0m" + product.getBreadcrumbs());
+                System.out.println("\u001B[35m" + "description data: " + "\u001B[0m" + product.getDescription());
+
+                productRepository.save(product);
+                System.out.println("\u001B[32m" + "save product to DB\n" + "\u001B[0m");
 
 
-            Thread.sleep(500); // Если пауза необходима
+                Thread.sleep(500); // Если пауза необходима
+            }
         }
         System.out.println("Descriptions & Breadcrumps is update!");
     }
