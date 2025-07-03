@@ -25,6 +25,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -199,17 +200,29 @@ public class ProductController {
 
     @GetMapping("/scan-product-for-shop")
     @ResponseBody
-    public void scanProductForShop(Long shopId, Timestamp time, boolean bool) throws InterruptedException {
-        List<String> allLinks;
-        if (bool){
-            allLinks = productRepository.findLinksByShopIdAndDescriptionIsNull(shopId);
-        } else {
-            allLinks = productRepository.findLinksByShopIdAndTimestampBefore(shopId, time);
-//            allLinks = productRepository.findAllLinksByShopId(shopId);
+    public void scanProductForShop(@RequestParam(defaultValue = "<") String operator,
+                                   Long shopId,
+                                   @RequestParam(required = false) Timestamp time,
+                                   Long categoryId
+    ) throws InterruptedException {
+        List<String> allLinks = new ArrayList<>();
+        if (time == null) {
+            time = new Timestamp(System.currentTimeMillis());
         }
+            switch (operator.toLowerCase()) {
+                case "<" -> allLinks = productRepository.findLinksByShopIdAndTimestampFieldBefore(shopId, time);
+                case ">" -> allLinks = productRepository.findLinksByShopIdAndTimestampFieldAfter(shopId, time);
+                case "=" -> allLinks = productRepository.findLinksByShopIdAndTimestampFieldEqual(shopId, time);
+                case "category" -> allLinks = productRepository.findLinksByCategoryId(shopId, categoryId);
+                case "bynulldescription" -> allLinks = productRepository.findLinksByShopIdAndDescriptionIsNull(shopId);
+                default -> throw new IllegalArgumentException("Неверный оператор: " + operator);
+            }
+//            allLinks = productRepository.findLinksByShopIdAndTimestampFieldBefore(shopId, time);
+//            allLinks = productRepository.findAllLinksByShopId(shopId);
+
         ProductParser productParser = new ProductParser();
         System.out.println("quantity of links: " + allLinks.size());
-        Thread.sleep(2000);
+
         for (String link : allLinks) {
             // Извлекаем Product из Optional
             Product product = productRepository.findByLink(link).orElse(null);
@@ -219,6 +232,7 @@ public class ProductController {
             }
             System.out.println("\u001B[36m" + "Start parse product" + "\u001B[0m");
             Product productExec = productParser.getProduct(shopRepository.findByIdShop(shopId), link, shopId);
+
             if (productExec == null) {
                 productRepository.findByLink(link).ifPresent(productRepository::delete);
             } else {
@@ -237,8 +251,12 @@ public class ProductController {
 //                System.out.println("\u001B[35m" + "product pcs " + "\u001B[0m" + product.getPcs());
                 System.out.println("\u001B[35m" + "breadcrumbs data: " + "\u001B[0m" + product.getBreadcrumbs());
                 System.out.println("\u001B[35m" + "description data: " + "\u001B[0m" + product.getDescription());
+                if(product.getTimestampField() != null){
+                    productRepository.save(product);
+                }  else {
+                    System.out.println("Имя товара отсутствует. Товар не сохранен! \n" + product.getLink());
+                }
 
-                productRepository.save(product);
                 System.out.println("\u001B[32m" + "save product to DB\n" + "\u001B[0m");
 
 

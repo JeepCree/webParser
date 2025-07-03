@@ -32,6 +32,22 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
     List<String> findAllBreadcrumbsByShopId(@Param("shopId") Long shopId);
 
     @Query("SELECT p.link FROM Product p WHERE p.shopId = :shopId AND p.timestampField < :timestamp")
-    List<String> findLinksByShopIdAndTimestampBefore(@Param("shopId") Long shopId,
+    List<String> findLinksByShopIdAndTimestampFieldAfter(@Param("shopId") Long shopId,
+                                                     @Param("timestamp") Timestamp timestamp);
+
+    @Query("SELECT p.link FROM Product p WHERE p.shopId = :shopId AND p.timestampField < :timestamp")
+    List<String> findLinksByShopIdAndTimestampFieldBefore(@Param("shopId") Long shopId,
                                                     @Param("timestamp") Timestamp timestamp);
+
+    @Query("SELECT p.link FROM Product p WHERE p.shopId = :shopId AND p.timestampField = :timestamp")
+    List<String> findLinksByShopIdAndTimestampFieldEqual(@Param("shopId") Long shopId,
+                                                    @Param("timestamp") Timestamp timestamp);
+    @Query("SELECT p.link FROM Product p WHERE p.shopId = :shopId AND p.categories = :categoryId")
+    List<String> findLinksByCategoryId(
+            @Param("shopId") Long shopId,
+            @Param("categoryId") Long categoryId
+    );
+
+
+
 }

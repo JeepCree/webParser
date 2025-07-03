@@ -6,11 +6,12 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import ua.com.mobifix.entity.Shop;
 
 public class AllSparesBreadcrumbsParser {
     private final Gson gson = new Gson();
 
-    public String parseHtmlToJson(String html) {
+    public String parseHtmlToJson(String html, Shop settings) {
         // Парсим HTML в объект Document
         Document document = Jsoup.parse(html);
 
@@ -28,7 +29,7 @@ public class AllSparesBreadcrumbsParser {
                 // Получаем атрибут title в качестве названия категории
                 String categoryName = linkElement.attr("title");
                 // Получаем href в качестве ссылки
-                String link = linkElement.attr("href");
+                String link = settings.getUrlCategoryPrefix() + linkElement.attr("href");
 
                 // Добавляем в JSON-объект
                 jsonObject.addProperty(categoryName, link);

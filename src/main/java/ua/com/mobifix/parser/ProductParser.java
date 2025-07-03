@@ -36,7 +36,6 @@ public class ProductParser {
                             .cookies(new CategoryParser().parseStringToMap(settings.getCookies()))
                             .method(Connection.Method.GET)
                             .get();
-
                     String article = page.select(settings.getSelectProductArticleTag()).text();
                     for (Map.Entry<String, String> art : new CategoryParser().parseStringToMap(settings.getReplaceProductArticle()).entrySet()) {
                         article = article.replace(art.getKey(), art.getValue());
@@ -59,10 +58,10 @@ public class ProductParser {
                     String breadcrumbs = "";
                     if(shopId == 200) {
                         ArtMobileBreadcrumbsParser breadcrumbsParser = new ArtMobileBreadcrumbsParser();
-                        breadcrumbs = breadcrumbsParser.parseHtmlToJson(breadcrumbsList).toString();
+                        breadcrumbs = breadcrumbsParser.parseHtmlToJson(breadcrumbsList, settings).toString();
                     } else if(shopId == 201) {
                         AllSparesBreadcrumbsParser  breadcrumbsParser = new AllSparesBreadcrumbsParser();
-                        breadcrumbs =  breadcrumbsParser.parseHtmlToJson(breadcrumbsList).toString();
+                        breadcrumbs =  breadcrumbsParser.parseHtmlToJson(breadcrumbsList, settings).toString();
                     }
 
 
@@ -105,8 +104,7 @@ public class ProductParser {
                     }
                 } catch (SocketTimeoutException | UnknownHostException | ConnectException e) {
                     System.out.println("\u001B[31m" + "Сетевая ошибка (" + e.getClass().getSimpleName() + "). Ждём..." + "\u001B[0m");
-                    Thread.sleep(10_000);
-                    retries++;
+                    break;
                 } catch (IOException e) {
                     System.out.println("\u001B[31m" + "Другая IO ошибка: " + e.getMessage() + "\u001B[0m");
                     Thread.sleep(30_000);

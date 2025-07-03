@@ -101,8 +101,8 @@ public class ProductService {
             product.setLink(obj.getLink());
             product.setLinkSha3(SHA3.generateSHA3Hash(obj.getLink()));
             product.setImageLink(obj.getImageLink());
-            product.setBreadcrumbs(obj.getBreadcrumbs());
-            product.setDescription(obj.getDescription());
+//            product.setBreadcrumbs(obj.getBreadcrumbs());
+//            product.setDescription(obj.getDescription());
             product.setChpu(Slugify.builder().locale(new Locale("ru")).build().slugify(obj.getName()));
             product.setShopId(categoriesRepository.findById(idCat.intValue()).get().getShopId());
             product.setTimestampField(new Timestamp(System.currentTimeMillis()));

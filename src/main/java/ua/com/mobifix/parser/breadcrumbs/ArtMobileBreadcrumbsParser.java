@@ -6,11 +6,12 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import ua.com.mobifix.entity.Shop;
 
 public class ArtMobileBreadcrumbsParser {
     private final Gson gson = new Gson();
 
-    public String parseHtmlToJson(String html) {
+    public String parseHtmlToJson(String html, Shop settings) {
         // Парсим HTML в объект Document
         Document document = Jsoup.parse(html);
 
