@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сканирование товаров</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cellipse cx='32' cy='12' rx='20' ry='8' fill='%23007bff'/%3E%3Cpath d='M12 12v32c0 4.4 9 8 20 8s20-3.6 20-8V12' fill='%23007bff'/%3E%3Cpath d='M32 18v22' stroke='%23ffffff' stroke-width='6' stroke-linecap='round'/%3E%3Cpath d='M32 40l-10-10' stroke='%23ffffff' stroke-width='6' stroke-linecap='round'/%3E%3Cpath d='M32 40l10-10' stroke='%23ffffff' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f8;
+        }
+
+        body {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            padding: 30px;
+            overflow: hidden;
+        }
+
+        .container, .statuses-container {
+            flex: 1;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .form-box {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+            padding: 10px;
+            margin-bottom: 10px;
+            overflow-y: auto;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 0px;
+            font-weight: 600;
+            color: #444;
+        }
+
+        input[type="number"],
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            font-size: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 5px;
+            background: #fdfdfd;
+        }
+
+        input[type="number"]:invalid {
+            border-color: red;
+        }
+
+        button {
+            padding: 12px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .statuses-container {
+            max-height: 100%;
+            overflow: hidden;
+        }
+
+        .statuses {
+            margin-top: 10px;
+            overflow-y: auto;
+            max-height: 100%;
+            padding-right: 5px;
+        }
+
+        .status-box {
+            position: relative;
+            background-color: #f1f1f1;
+            border-left: 4px solid #007bff;
+            font-family: monospace;
+            white-space: pre-wrap;
+            padding: 12px 35px 12px 12px;
+            margin-bottom: 12px;
+            border-radius: 5px;
+
+            /* Для анимации */
+            transition: opacity 0.4s ease, max-height 0.4s ease, margin-bottom 0.4s ease, padding 0.4s ease;
+            overflow: hidden;
+            max-height: 500px;
+            opacity: 1;
+        }
+
+        .status-box.hide {
+            opacity: 0;
+            max-height: 0;
+            margin-bottom: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .status-box .close-btn {
+            position: absolute;
+            top: 5px;
+            right: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
+            color: #666;
+            user-select: none;
+            background: transparent;
+            border: none;
+            line-height: 1;
+            padding: 0;
+            transition: color 0.2s ease;
+        }
+
+        .status-box .close-btn:hover {
+            color: #ff0000;
+        }
+
+        .small-note {
+            font-size: 12px;
+            color: #888;
+        }
+
+        h2, h3 {
+            margin-top: 0;
+        }
+        #serverPort {
+            color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Форма 1 -->
+    <div class="form-box">
+        <h2>Сканирование товаров по магазину</h2>
+        <form id="scanForm">
+            <label>
+                Shop ID:
+                <input type="number" name="shopId" required min="1" step="1" placeholder="Напр. 201">
+            </label>
+
+            <label>
+                Оператор:
+                <select name="operator">
+                    <option value="<">timestamp &lt;</option>
+                    <option value=">">timestamp &gt;</option>
+                    <option value="=">timestamp =</option>
+                    <option value="category">По categoryId</option>
+                    <option value="bynulldescription">Description is NULL</option>
+                    <option value="bynullbreadcrumbs">Breadcrumbs = {}</option>
+                </select>
+            </label>
+
+            <label>
+                Category ID:
+                <input type="number" name="categoryId" placeholder="Опционально">
+            </label>
+
+            <label>
+                Timestamp:
+                <input type="text" name="time" placeholder="yyyy-MM-dd HH:mm:ss">
+                <span class="small-note">Оставьте пустым для текущего времени</span>
+            </label>
+
+            <button type="submit">Отправить запрос</button>
+        </form>
+    </div>
+
+    <!-- Форма 2 -->
+    <div class="form-box">
+        <h2>Запуск обработки по магазину</h2>
+        <form id="runForm">
+            <label>
+                Shop ID:
+                <input type="number" name="shopId" required min="1" step="1" placeholder="Напр. 201">
+            </label>
+
+            <label>
+                Category ID:
+                <input type="number" name="categoryId" placeholder="Опционально">
+            </label>
+
+            <button type="submit">Запустить</button>
+        </form>
+    </div>
+</div>
+
+<!-- Блок истории -->
+<div class="statuses-container">
+    <h3>История запросов - порт: <span id="serverPort">...</span></h3>
+    <div class="statuses" id="statuses"></div>
+</div>
+<script>
+    // Вставляем порт в span
+    document.getElementById('serverPort').textContent =
+        window.location.port || '80';
+</script>
+<script>
+    const STORAGE_KEY = 'scanStatusHistory';
+
+    // Создаём статус-бокс из текста (чтобы не дублировать код)
+    function createStatusBox(text) {
+        const box = document.createElement('div');
+        box.className = 'status-box';
+
+        const closeBtn = document.createElement('button');
+        closeBtn.className = 'close-btn';
+        closeBtn.innerHTML = '&times;';
+        closeBtn.title = 'Закрыть';
+        closeBtn.onclick = () => {
+            box.classList.add('hide');
+            box.addEventListener('transitionend', () => {
+                box.remove();
+                saveStatuses();
+            }, { once: true });
+        };
+        box.appendChild(closeBtn);
+
+        box.appendChild(document.createTextNode(text));
+
+        return box;
+    }
+
+    // Сохраняем статусы в localStorage
+    function saveStatuses() {
+        const statuses = document.querySelectorAll('.status-box');
+        const arr = [];
+        statuses.forEach(box => {
+            // сохраняем только текст (без кнопки)
+            const text = box.innerText.replace('×', '').trim();
+            arr.push(text);
+        });
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(arr));
+    }
+
+    // Загружаем статусы из localStorage
+    function loadStatuses() {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        if (!saved) return;
+        const arr = JSON.parse(saved);
+        const statuses = document.getElementById('statuses');
+        arr.forEach(text => {
+            const box = createStatusBox(text);
+            statuses.appendChild(box);
+        });
+    }
+
+    // Добавляем новый статус и сохраняем
+    function addStatus(url) {
+        const started = new Date().toLocaleString();
+        const text = `⏳ ${started}\n${url}`;
+        const box = createStatusBox(text);
+
+        const statuses = document.getElementById('statuses');
+        statuses.prepend(box);
+
+        saveStatuses();
+
+        return box;
+    }
+
+    // Отправка запроса и обновление статуса
+    async function sendRequest(url, box) {
+        const startTime = performance.now();
+        try {
+            const res = await fetch(url);
+            const endTime = performance.now();
+            const duration = Math.round(endTime - startTime);
+            const now = new Date().toLocaleString();
+            if (res.ok) {
+                const text = await res.text();
+                box.innerText = `✅ ${now} (${duration} мс)\n${url}\n\n${text}`;
+            } else {
+                box.innerText = `❌ ${now} (${duration} мс)\nОшибка ${res.status}:\n${url}`;
+            }
+        } catch (err) {
+            const now = new Date().toLocaleString();
+            box.innerText = `🚫 ${now}\nОшибка запроса:\n${url}\n\n${err.message}`;
+        }
+        // Добавляем кнопку закрытия обратно, т.к. innerText стирает содержимое
+        const closeBtn = document.createElement('button');
+        closeBtn.className = 'close-btn';
+        closeBtn.innerHTML = '&times;';
+        closeBtn.title = 'Закрыть';
+        closeBtn.onclick = () => {
+            box.classList.add('hide');
+            box.addEventListener('transitionend', () => {
+                box.remove();
+                saveStatuses();
+            }, { once: true });
+        };
+        box.appendChild(closeBtn);
+
+        saveStatuses();
+    }
+
+    // Обработчики форм
+    document.getElementById('scanForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        const form = e.target;
+        const params = new URLSearchParams();
+        for (const field of form.elements) {
+            if (field.name && field.value) {
+                params.append(field.name, field.value);
+            }
+        }
+        const url = `/scan-product-for-shop?${params.toString()}`;
+        const box = addStatus(url);
+        sendRequest(url, box);
+    });
+
+    document.getElementById('runForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        const form = e.target;
+        const params = new URLSearchParams();
+        for (const field of form.elements) {
+            if (field.name && field.value) {
+                params.append(field.name, field.value);
+            }
+        }
+        const url = `/run-for-shop?${params.toString()}`;
+        const box = addStatus(url);
+        sendRequest(url, box);
+    });
+
+    // При загрузке страницы восстанавливаем историю
+    window.addEventListener('DOMContentLoaded', () => {
+        loadStatuses();
+    });
+</script>
+
+</body>
+</html>

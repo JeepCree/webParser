@@ -23,95 +23,107 @@ import java.util.Map;
 
 public class ProductParser {
     public Product getProduct(Shop settings, String scanLink, Long shopId) throws InterruptedException {
-
         Product product = new Product();
-            int retries = 0;
-            while (retries < settings.getMaxRetriesLoadPage()) {
-                try {
-                    System.out.println("\u001B[32m" + "connected to server... " +  "\u001B[0m" + scanLink);
+        int retries = 0;
 
-                    Connection connection  = Jsoup.connect(scanLink);
-                    Document page = connection
-//                            .proxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("195.178.133.59", 50101)))
-                            .cookies(new CategoryParser().parseStringToMap(settings.getCookies()))
-                            .method(Connection.Method.GET)
-                            .get();
-                    String article = page.select(settings.getSelectProductArticleTag()).text();
-                    for (Map.Entry<String, String> art : new CategoryParser().parseStringToMap(settings.getReplaceProductArticle()).entrySet()) {
-                        article = article.replace(art.getKey(), art.getValue());
-                    }
-                    String price = page.select(settings.getSelectProductPriceTag()).text();
-                    for (Map.Entry<String, String> art : new CategoryParser().parseStringToMap(settings.getReplaceProductsPrice()).entrySet()) {
-                        price = price.replace(art.getKey(), art.getValue());
-                        if(price == null || price.equals("")) {
-                            price = "0";
-                        }
-                    }
-//                    String pcs = new AllSparesSeleniumParser().parsePcs(scanLink);
-//                    if (pcs == null || pcs.equals("")) {
-//                        pcs = "0";
-//                    }
-                    String stock = page.select(settings.getSelectProductStockTag()).text();
-                    String breadcrumbsList = page.select(settings.getSelectProductBreadcrumbsTag()).html();
+        while (retries < settings.getMaxRetriesLoadPage()) {
+            try {
+                System.out.println("\u001B[32m" + "connected to server... " + "\u001B[0m" + scanLink);
 
+                Connection connection = Jsoup.connect(scanLink)
+                        .cookies(new CategoryParser().parseStringToMap(settings.getCookies()))
+                        .method(Connection.Method.GET);
 
-                    String breadcrumbs = "";
-                    if(shopId == 200) {
-                        ArtMobileBreadcrumbsParser breadcrumbsParser = new ArtMobileBreadcrumbsParser();
-                        breadcrumbs = breadcrumbsParser.parseHtmlToJson(breadcrumbsList, settings).toString();
-                    } else if(shopId == 201) {
-                        AllSparesBreadcrumbsParser  breadcrumbsParser = new AllSparesBreadcrumbsParser();
-                        breadcrumbs =  breadcrumbsParser.parseHtmlToJson(breadcrumbsList, settings).toString();
-                    }
+                Document page = connection.get();
 
-
-                    String description = "";
-                    if (shopId == 201) {
-                        AllSparesDescriptionParser parser = new AllSparesDescriptionParser();
-                        description = parser.parseHtmlToJson(page.select(settings.getSelectProductDescriptionTag()).html()).toString();
-                    } else if (shopId == 200) {
-                        ArtMobileDescriptionParser parser = new ArtMobileDescriptionParser();
-                        description = parser.parseHtmlToJson(page.select(settings.getSelectProductDescriptionTag()).html()).toString();
-                    }
-
-
-                    product.setArticle(article);
-                    product.setBreadcrumbs(breadcrumbs);
-                    product.setDescription(description);
-                    product.setPrice(Double.parseDouble(price));
-//                    product.setPcs(Integer.parseInt(pcs));
-                    product.setStock(stock);
-                    product.setTimestampField(new Timestamp(System.currentTimeMillis()));
-
-                    break;
-                } catch (HttpStatusException e) {
-                    int code = e.getStatusCode();
-                    if (code == 404) {
-                        System.out.println("\u001B[33m" + "404 — не найдено. Пропускаем." + "\u001B[0m");
-                        Thread.sleep(500);
-                        System.out.println("\u001B[31mПродукт \u001B[0m\n" + scanLink + "\n\u001B[31mне найден. УДАЛЕН!\u001B[0m");
-                        return null;
-                    } else if (code >= 500) {
-                        System.out.println("\u001B[31m" + "Ошибка сервера: " + code + ". Ждём..." + "\u001B[0m");
-                        Thread.sleep(30_000);
-                        retries++;
-                    } else if (code == 429) {
-                        System.out.println("\u001B[35m" + "429 — слишком много запросов. Ждём 5 минут..." + "\u001B[0m");
-                        Thread.sleep(300_000);
-                        retries++;
-                    } else {
-                        System.out.println("\u001B[33m" + "HTTP ошибка: " + code + ". Пропускаем." + "\u001B[0m");
-                    }
-                } catch (SocketTimeoutException | UnknownHostException | ConnectException e) {
-                    System.out.println("\u001B[31m" + "Сетевая ошибка (" + e.getClass().getSimpleName() + "). Ждём..." + "\u001B[0m");
-                    break;
-                } catch (IOException e) {
-                    System.out.println("\u001B[31m" + "Другая IO ошибка: " + e.getMessage() + "\u001B[0m");
-                    Thread.sleep(30_000);
-                    retries++;
+                String article = page.select(settings.getSelectProductArticleTag()).text();
+                for (Map.Entry<String, String> art : new CategoryParser().parseStringToMap(settings.getReplaceProductArticle()).entrySet()) {
+                    article = article.replace(art.getKey(), art.getValue());
                 }
 
+                String price = page.select(settings.getSelectProductPriceTag()).text();
+                for (Map.Entry<String, String> art : new CategoryParser().parseStringToMap(settings.getReplaceProductsPrice()).entrySet()) {
+                    price = price.replace(art.getKey(), art.getValue());
+                }
+                if (price == null || price.isEmpty()) price = "0";
+
+                String stock = page.select(settings.getSelectProductStockTag()).text();
+                String breadcrumbsList = page.select(settings.getSelectProductBreadcrumbsTag()).html();
+
+                String breadcrumbs = "";
+                if (shopId == 200) {
+                    breadcrumbs = new ArtMobileBreadcrumbsParser().parseHtmlToJson(breadcrumbsList, settings).toString();
+                } else if (shopId == 201) {
+                    breadcrumbs = new AllSparesBreadcrumbsParser().parseHtmlToJson(breadcrumbsList, settings).toString();
+                }
+
+                String description = "";
+                if (shopId == 201) {
+                    description = new AllSparesDescriptionParser()
+                            .parseHtmlToJson(page.select(settings.getSelectProductDescriptionTag()).html())
+                            .toString();
+                } else if (shopId == 200) {
+                    description = new ArtMobileDescriptionParser()
+                            .parseHtmlToJson(page.select(settings.getSelectProductDescriptionTag()).html())
+                            .toString();
+                }
+
+                String imageLink = page.select(settings.getSelectProductImageLinkTag()).text();
+
+                product.setArticle(article);
+                product.setBreadcrumbs(breadcrumbs);
+                product.setDescription(description);
+                product.setPrice(Double.parseDouble(price));
+                product.setStock(stock);
+                product.setImageLink(imageLink);
+                product.setTimestampField(new Timestamp(System.currentTimeMillis()));
+
+                return product;
+
+            } catch (HttpStatusException e) {
+                int code = e.getStatusCode();
+                if (code == 404) {
+                    System.out.println("\u001B[33m404 — не найдено. Пропускаем.\u001B[0m");
+                    System.out.println("\u001B[31mПродукт не найден. УДАЛЕН: \u001B[0m\n" + scanLink);
+                    return null;
+                } else if (code == 520) {
+                    System.out.println("\u001B[31m520 — Неизвестная ошибка от прокси или сервера. Пропускаем.\u001B[0m");
+                    return null;
+                } else if (code == 522) {
+                    System.out.println("\u001B[31m520 — Неизвестная ошибка от прокси или сервера. Пропускаем.\u001B[0m");
+                    return null;
+                }else if (code == 429) {
+                    System.out.println("\u001B[35m429 — слишком много запросов. Ждём 5 минут...\u001B[0m");
+                    Thread.sleep(300_000);
+                    retries++;
+                } else if (code >= 500) {
+                    System.out.println("\u001B[31mОшибка сервера: " + code + ". Ждём...\u001B[0m");
+                    Thread.sleep(30_000);
+                    retries++;
+                } else {
+                    System.out.println("\u001B[33mHTTP ошибка: " + code + ". Пропускаем.\u001B[0m");
+                    retries++;
+//                    return null;
+                }
+
+            } catch (SocketTimeoutException | UnknownHostException | ConnectException e) {
+                System.out.println("\u001B[31mСетевая ошибка (" + e.getClass().getSimpleName() + " > " + e.getMessage() + "). Ждём...\u001B[0m");
+
+//удалить товар
+//                System.out.println("\u001B[31mПродукт не найден. УДАЛЕН: \u001B[0m\n" + scanLink);
+//                return null;
+
+//пропустить сканирование товара
+                break;
+
+            } catch (IOException e) {
+                System.out.println("\u001B[31mДругая IO ошибка: " + e.getMessage() + "\u001B[0m");
+                Thread.sleep(30_000);
+                retries++;
             }
+        }
+
         return product;
     }
+
 }

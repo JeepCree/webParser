@@ -17,6 +17,7 @@ import ua.com.mobifix.entity.ShopRepository;
 import ua.com.mobifix.parser.ProductParser;
 import ua.com.mobifix.parser.breadcrumbs.BreadcrumbsToCatalogParser;
 import ua.com.mobifix.parser.entity.ScanProductSettings;
+import ua.com.mobifix.service.Color;
 import ua.com.mobifix.service.CsvParser;
 import ua.com.mobifix.service.ProductService;
 import ua.com.mobifix.service.SHA3;
@@ -215,6 +216,7 @@ public class ProductController {
                 case "=" -> allLinks = productRepository.findLinksByShopIdAndTimestampFieldEqual(shopId, time);
                 case "category" -> allLinks = productRepository.findLinksByCategoryId(shopId, categoryId);
                 case "bynulldescription" -> allLinks = productRepository.findLinksByShopIdAndDescriptionIsNull(shopId);
+                case "bynullbreadcrumbs" -> allLinks = productRepository.findLinksByShopIdAndBreadcrumbs(shopId, "{}");
                 default -> throw new IllegalArgumentException("Неверный оператор: " + operator);
             }
 //            allLinks = productRepository.findLinksByShopIdAndTimestampFieldBefore(shopId, time);
@@ -230,34 +232,36 @@ public class ProductController {
             if (product == null) {
                 product = new Product();
             }
-            System.out.println("\u001B[36m" + "Start parse product" + "\u001B[0m");
+            System.out.print(Color.Bold() + Color.Blue() + Color.BgBlack()+ "             START PARSE PRODUCT             \n" + Color.Reset());
             Product productExec = productParser.getProduct(shopRepository.findByIdShop(shopId), link, shopId);
 
             if (productExec == null) {
                 productRepository.findByLink(link).ifPresent(productRepository::delete);
             } else {
-                System.out.println("\u001B[33m" + "execute product from base" + "\u001B[0m");
+                System.out.println(Color.Yellow() + "execute product from base" + "\u001B[0m");
                 product.setArticle(productExec.getArticle());
                 product.setBreadcrumbs(productExec.getBreadcrumbs());
                 product.setDescription(productExec.getDescription());
                 product.setTimestampField(productExec.getTimestampField());
                 product.setPrice(productExec.getPrice());
-//                if (productExec.getPcs() == ""){
+//                if (productExec.getPcs() == null){
 //                    product.setPcs(0);
 //                }
                 product.setPcs(productExec.getPcs());
                 product.setStock(productExec.getStock());
+                product.setImageLink(productExec.getImageLink());
                 System.out.println("\u001B[35m" + "upgrade product: " + "\u001B[0m" + product.getArticle());
 //                System.out.println("\u001B[35m" + "product pcs " + "\u001B[0m" + product.getPcs());
                 System.out.println("\u001B[35m" + "breadcrumbs data: " + "\u001B[0m" + product.getBreadcrumbs());
                 System.out.println("\u001B[35m" + "description data: " + "\u001B[0m" + product.getDescription());
                 if(product.getTimestampField() != null){
                     productRepository.save(product);
+                    System.out.println(Color.Bold() + Color.Green() + Color.BgBlack() + "            Save Product in DataBase!          \n" + Color.Reset());
                 }  else {
-                    System.out.println("Имя товара отсутствует. Товар не сохранен! \n" + product.getLink());
+                    System.out.println("\u001B[30m" + "Имя товара отсутствует. Товар не сохранен! \n" + product.getLink() + "\u001B[0m");
                 }
 
-                System.out.println("\u001B[32m" + "save product to DB\n" + "\u001B[0m");
+
 
 
                 Thread.sleep(500); // Если пауза необходима

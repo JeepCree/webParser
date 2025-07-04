@@ -1,6 +1,8 @@
 package ua.com.mobifix.entity;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 import java.util.Optional;
@@ -9,6 +11,10 @@ import java.util.Optional;
 public interface CategoriesRepository extends JpaRepository<Categories, Integer> {
     List<Categories> findByParentId(Long i);
     List<Categories> findAllByShopId(Long i);
+
+//    @Query("SELECT c FROM Category c WHERE c.shopId = :shopId AND c.id = :categoryId")
+List<Categories> findByShopIdAndId(@Param("shopId") Long shopId, @Param("categoryId") Long categoryId);
+
 
 
 

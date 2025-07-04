@@ -319,11 +319,19 @@ public class CategoriesController {
 
     @GetMapping("/run-for-shop")
     @ResponseBody
-    public void runForShop(Long shopId) {
+    public void runForShop(Long shopId, Long categoryId) {
         List<Long> list = new ArrayList<>();
-        for (Categories categories : categoriesRepository.findAllByShopId(shopId)) {
-            if (categoriesRepository.findByParentId(categories.getId()).isEmpty()) {
-                list.add(categories.getId());
+        if (categoryId != null) {
+            for (Categories categories : categoriesRepository.findByShopIdAndId(shopId, categoryId)) {
+                if (categoriesRepository.findByParentId(categories.getId()).isEmpty()) {
+                    list.add(categories.getId());
+                }
+            }
+        } else {
+            for (Categories categories : categoriesRepository.findAllByShopId(shopId)) {
+                if (categoriesRepository.findByParentId(categories.getId()).isEmpty()) {
+                    list.add(categories.getId());
+                }
             }
         }
         for (Long id : list) {

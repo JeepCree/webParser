@@ -36,7 +36,9 @@ public class ProductService {
                 Product existingProduct = existingProductOptional.get();
                 // Обновить поля товара
                 existingProduct.setCategories(product.getCategories());
-//                existingProduct.setArticle(product.getArticle());
+                if (product.getArticle() != null && !product.getArticle().isEmpty()) {
+                    existingProduct.setArticle(product.getArticle());
+                }
                 existingProduct.setName(product.getName());
                 existingProduct.setPrice(product.getPrice());
                 existingProduct.setStock(product.getStock());
@@ -91,9 +93,8 @@ public class ProductService {
 
         for (Product obj : productList) {
             Product product = new Product();
-            if (obj.getArticle() != null && !obj.getArticle().isEmpty()) {
-                product.setArticle(obj.getArticle());
-            }
+
+            product.setArticle(obj.getArticle());
             product.setName(obj.getName());
             product.setStock(obj.getStock());
             product.setPrice(obj.getPrice());

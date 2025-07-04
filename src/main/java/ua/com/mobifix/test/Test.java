@@ -15,16 +15,16 @@ import java.net.Proxy;
 public class Test {
 
     public static void main(String[] args) throws IOException {
-        Document page = Jsoup.connect("https://artmobile.ua/ru/shlejjf-dlja-iphone-xs-s-razemom-zarjadki-c-mikrofonom-belyjj-fxschcw")
+        Document page = Jsoup.connect("https://artmobile.ua/ru/silikonovyjj-chekhol-dlja-iphone-12-12-pro-apple-silicone-case-with-magsafe-capri-blue-2021-105")
 //                .proxy("223.25.109.170", 8199)
 //                                        .proxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("45.67.215.199", 80)))
 
                 .get();
 
         // Сохраняем в файл index.html
-//        try (FileWriter writer = new FileWriter("C:\\Users\\dima2\\OneDrive\\Рабочий стол\\index.html")) {
-//            writer.write(page.outerHtml());
-//        }
+        try (FileWriter writer = new FileWriter("C:\\Users\\dima2\\OneDrive\\Рабочий стол\\index.html")) {
+            writer.write(page.outerHtml());
+        }
         System.out.println(page.html());
 //        System.out.println("HTML сохранён в index.html");
 // Укажи путь к chromedriver, если не добавлен в системный PATH

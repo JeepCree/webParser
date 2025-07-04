@@ -67,6 +67,7 @@ public class AllProductParser extends CategoryParser {
                     Product product = new Product();
                     String name = element.select(settings.getSelectProductsNameTag()).text();
                     String article = element.select(settings.getSelectProductsArticleTag()).text();
+
                     for (Map.Entry<String, String> art : parseStringToMap(settings.getReplaceProductsArticle()).entrySet()) {
                         article = article.replace(art.getKey(), art.getValue());
                     }
@@ -75,6 +76,7 @@ public class AllProductParser extends CategoryParser {
                             article = prCont.getValue();
                         }
                     }
+
                     String productUrl = settings.getUrlProductsLinkPrefix() + element.select(settings.getSelectProductsLinkTag()).attr(settings.getSelectProductsAttrHref());
                     String stock = element.select(settings.getSelectProductsStockTag()).text();
                     for (Map.Entry<String, String> st : parseStringToMap(settings.getReplaceProductsStock()).entrySet()) {
@@ -103,9 +105,8 @@ public class AllProductParser extends CategoryParser {
                     }
 
                         String imageLink = settings.getUrlProductsImageLinkPrefix() + element.select(settings.getSelectProductsImageLinkTag()).attr(settings.getSelectProductsAttrSrc());
-                    if (article != null && article.isEmpty()) {
+
                         product.setArticle(article);
-                    }
                         product.setName(name);
                         product.setChpu(Slugify.builder().locale(new Locale("ru")).build().slugify(name));
                         product.setLink(productUrl);

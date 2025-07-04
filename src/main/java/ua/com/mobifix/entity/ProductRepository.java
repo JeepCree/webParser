@@ -48,6 +48,9 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
             @Param("categoryId") Long categoryId
     );
 
+    @Query("SELECT p.link FROM Product p WHERE p.shopId = :shopId AND p.breadcrumbs = :breadcrumbs")
+    List<String> findLinksByShopIdAndBreadcrumbs(@Param("shopId") Long shopId,
+                                                 @Param("breadcrumbs") String breadcrumbs);
 
 
 }
