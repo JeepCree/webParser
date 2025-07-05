@@ -78,6 +78,8 @@ public class Shop {
     @Column(columnDefinition = "TEXT")
     private String replaceProductsPrice = "";
     @Column(columnDefinition = "TEXT")
+    private String replaceProductsImageLink = "";
+    @Column(columnDefinition = "TEXT")
     private String containProductsArticle = "";
     @Column(columnDefinition = "TEXT")
     private String containProductsStock = "";
@@ -109,6 +111,8 @@ public class Shop {
     @Column(columnDefinition = "TEXT")
     private String replaceProductBreadcrumbs = "";
     @Column(columnDefinition = "TEXT")
+    private String replaceProductImageLink = "";
+    @Column(columnDefinition = "TEXT")
     private String containProductArticle = "";
     @Column(columnDefinition = "TEXT")
     private String containProductStock = "";
@@ -121,6 +125,22 @@ public class Shop {
     private String cookies = "noCookie1=noValue1; noCookie2=noValue2";
     @Column(columnDefinition = "TEXT")
     private String userAgent = "";
+
+    public String getReplaceProductsImageLink() {
+        return replaceProductsImageLink;
+    }
+
+    public void setReplaceProductsImageLink(String replaceProductsImageLink) {
+        this.replaceProductsImageLink = replaceProductsImageLink;
+    }
+
+    public String getReplaceProductImageLink() {
+        return replaceProductImageLink;
+    }
+
+    public void setReplaceProductImageLink(String replaceProductImageLink) {
+        this.replaceProductImageLink = replaceProductImageLink;
+    }
 
     public String getSelectProductsPcsTag() {
         return selectProductsPcsTag;

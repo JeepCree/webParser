@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Optional;
 
 
-public interface CategoriesRepository extends JpaRepository<Categories, Integer> {
+public interface CategoriesRepository extends JpaRepository<Categories, Long> {
     List<Categories> findByParentId(Long i);
     List<Categories> findAllByShopId(Long i);
 
@@ -24,6 +24,7 @@ List<Categories> findByShopIdAndId(@Param("shopId") Long shopId, @Param("categor
     Categories findFirstByOrderByIdDesc();
 
     Optional<Categories> findByUrl(String url);
+    Optional<Categories> findFirstByNameAndParentIdAndShopId(String name, Long parentId, Long shopId);
 
 
     default Categories updateOrSaveByUrl(Categories newCategory) {

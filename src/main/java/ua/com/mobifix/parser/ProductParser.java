@@ -19,9 +19,27 @@ import java.io.IOException;
 import java.net.*;
 import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Map;
 
 public class ProductParser {
+    public Map<String, String> parseStringToMap (String str){
+        Map<String, String> map = new HashMap<>();
+        String[] stringPairs = str.split("<';'>");
+        for (String stringPair : stringPairs) {
+            String[] parts = stringPair.split("-->");
+            if (parts.length == 2) {
+                if(parts[1].equals("empty_replacement")){
+                    parts[1] = "";
+                }
+                if(parts[0].equals("empty_replacement")){
+                    parts[0] = "";
+                }
+                map.put(parts[0], parts[1]);
+            }
+        }
+        return map;
+    }
     public Product getProduct(Shop settings, String scanLink, Long shopId) throws InterruptedException {
         Product product = new Product();
         int retries = 0;
@@ -68,7 +86,10 @@ public class ProductParser {
                             .toString();
                 }
 
-                String imageLink = page.select(settings.getSelectProductImageLinkTag()).text();
+                String imageLink = page.select(settings.getSelectProductImageLinkTag()).attr(settings.getSelectProductAttrSrc());
+                for (Map.Entry<String, String> il : parseStringToMap(settings.getReplaceProductImageLink()).entrySet()) {
+                    imageLink = imageLink.replace(il.getKey(), il.getValue());
+                }
 
                 product.setArticle(article);
                 product.setBreadcrumbs(breadcrumbs);

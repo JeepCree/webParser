@@ -23,12 +23,12 @@ public class CategoryService {
     }
 
     public Categories findCategoryById(Long categoryId) {
-        Optional<Categories> optionalCategory = categoriesRepository.findById(categoryId.intValue());
+        Optional<Categories> optionalCategory = categoriesRepository.findById(categoryId);
         return optionalCategory.orElse(null);
     }
 
     public Categories updateCategory (Long id, Categories category){
-        Categories existingCategory = categoriesRepository.findById(id.intValue())
+        Categories existingCategory = categoriesRepository.findById(id)
                 .orElseThrow(() -> new EntityNotFoundException("Категория с id " + id + " не найден"));
         existingCategory.setActive(category.getActive());
         existingCategory.setName(category.getName());

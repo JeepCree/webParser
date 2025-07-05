@@ -9,6 +9,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import ua.com.mobifix.entity.Product;
 import ua.com.mobifix.entity.Shop;
+import ua.com.mobifix.service.Color;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -56,7 +57,8 @@ public class AllProductParser extends CategoryParser {
 //                        .proxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("195.178.133.59", 50101)))
                         .cookies(parseStringToMap(settings.getCookies()))
                         .get();
-                System.out.println("Сканируем страницу " + num + " (" + settings.getScanProductsUrl() + ")");
+                System.out.println(Color.Blue() + Color.Bold() + "          Сканируем страницу " + num + "          \n" + Color.Reset() +
+                        settings.getScanProductsUrl() + settings.getPagination() + num + settings.getParameter());
                 //вставка
 
 
@@ -105,6 +107,10 @@ public class AllProductParser extends CategoryParser {
                     }
 
                         String imageLink = settings.getUrlProductsImageLinkPrefix() + element.select(settings.getSelectProductsImageLinkTag()).attr(settings.getSelectProductsAttrSrc());
+
+                    for (Map.Entry<String, String> il : parseStringToMap(settings.getReplaceProductsImageLink()).entrySet()) {
+                        imageLink = imageLink.replace(il.getKey(), il.getValue());
+                    }
 
                         product.setArticle(article);
                         product.setName(name);

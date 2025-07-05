@@ -206,7 +206,7 @@ public class ProductController {
                                    @RequestParam(required = false) Timestamp time,
                                    Long categoryId
     ) throws InterruptedException {
-        List<String> allLinks = new ArrayList<>();
+        List<String> allLinks;
         if (time == null) {
             time = new Timestamp(System.currentTimeMillis());
         }
@@ -226,7 +226,7 @@ public class ProductController {
         System.out.println("quantity of links: " + allLinks.size());
 
         for (String link : allLinks) {
-            // Извлекаем Product из Optional
+
             Product product = productRepository.findByLink(link).orElse(null);
 
             if (product == null) {
@@ -244,21 +244,19 @@ public class ProductController {
                 product.setDescription(productExec.getDescription());
                 product.setTimestampField(productExec.getTimestampField());
                 product.setPrice(productExec.getPrice());
-//                if (productExec.getPcs() == null){
-//                    product.setPcs(0);
-//                }
+
                 product.setPcs(productExec.getPcs());
                 product.setStock(productExec.getStock());
                 product.setImageLink(productExec.getImageLink());
+
                 System.out.println("\u001B[35m" + "upgrade product: " + "\u001B[0m" + product.getArticle());
-//                System.out.println("\u001B[35m" + "product pcs " + "\u001B[0m" + product.getPcs());
                 System.out.println("\u001B[35m" + "breadcrumbs data: " + "\u001B[0m" + product.getBreadcrumbs());
                 System.out.println("\u001B[35m" + "description data: " + "\u001B[0m" + product.getDescription());
                 if(product.getTimestampField() != null){
                     productRepository.save(product);
                     System.out.println(Color.Bold() + Color.Green() + Color.BgBlack() + "            Save Product in DataBase!          \n" + Color.Reset());
                 }  else {
-                    System.out.println("\u001B[30m" + "Имя товара отсутствует. Товар не сохранен! \n" + product.getLink() + "\u001B[0m");
+                    System.out.println(Color.Bold() + Color.Black() + "Имя товара отсутствует. Товар не сохранен! \n" + Color.Reset() + product.getLink());
                 }
 
 

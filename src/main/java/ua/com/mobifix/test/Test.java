@@ -15,7 +15,7 @@ import java.net.Proxy;
 public class Test {
 
     public static void main(String[] args) throws IOException {
-        Document page = Jsoup.connect("https://artmobile.ua/ru/silikonovyjj-chekhol-dlja-iphone-12-12-pro-apple-silicone-case-with-magsafe-capri-blue-2021-105")
+        Document page = Jsoup.connect("https://all-spares.ua/ru/lcd-compatible-with-iphone-7-samsung-white-with-touchscreen-with-frame-aaa-tianma-with-camera-and-proximity-sensor-plastics/")
 //                .proxy("223.25.109.170", 8199)
 //                                        .proxy(new Proxy(Proxy.Type.HTTP, new InetSocketAddress("45.67.215.199", 80)))
 

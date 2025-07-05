@@ -7,6 +7,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.opencsv.exceptions.CsvException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -30,6 +31,7 @@ public class CategoriesController {
     private final CategoryService categoryService;
     private final ShopService shopService;
     private final ProductService productService;
+    private final CategoriesUpdateService categoriesUpdateService;
 
     @Autowired
     public CategoriesController(CategoriesRepository categoriesRepository,
@@ -37,13 +39,14 @@ public class CategoriesController {
                                 ShopService shopService,
                                 ShopRepository shopRepository,
                                 ProductService productService,
-                                ProductRepository productRepository) {
+                                ProductRepository productRepository, CategoriesUpdateService categoriesUpdateService) {
         this.categoriesRepository = categoriesRepository;
         this.categoryService = categoryService;
         this.shopService = shopService;
         this.shopRepository = shopRepository;
         this.productService = productService;
         this.productRepository = productRepository;
+        this.categoriesUpdateService = categoriesUpdateService;
     }
 
     @PostMapping("/catalog-settings")
@@ -175,8 +178,8 @@ public class CategoriesController {
 
     @PostMapping("/delete-category")
     private String deleteCategory(Long id) {
-        if (categoriesRepository.existsById(id.intValue())) {
-            categoriesRepository.deleteById(id.intValue());
+        if (categoriesRepository.existsById(id)) {
+            categoriesRepository.deleteById(id);
         } else {
             return "redirect:/catalog-settings";
         }
@@ -335,12 +338,15 @@ public class CategoriesController {
             }
         }
         for (Long id : list) {
-//            new Thread(() -> productService.saveScanProducts(id);
             productService.saveScanProducts(id);
         }
         System.out.println("Shop is update!");
     }
-
+    @GetMapping("/import/{shopId}")
+    public ResponseEntity<String> importCategories(@PathVariable Long shopId) {
+        categoriesUpdateService.updateCategoriesFromBreadcrumbs(shopId);
+        return ResponseEntity.ok("✅ Категории успешно обновлены для магазина с ID: " + shopId);
+    }
 
 
 }

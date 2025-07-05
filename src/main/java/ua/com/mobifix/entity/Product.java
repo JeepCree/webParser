@@ -12,6 +12,8 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(nullable = false)
+    private boolean active = true;
     private String article;
     @Column(nullable = false)
     private Long categories;
@@ -37,6 +39,14 @@ public class Product {
     private Long shopId;
     @Temporal(TemporalType.TIMESTAMP)
     private Timestamp timestampField;
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
 
     public String getChpu() {
         return chpu;

@@ -8,7 +8,7 @@ public class Categories {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     @Column(nullable = false)
-    private boolean active;
+    private boolean active = true;
     @Column(nullable = false, columnDefinition = "TEXT")
     private String name;
     @Column(nullable = false)

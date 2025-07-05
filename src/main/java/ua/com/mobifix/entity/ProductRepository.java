@@ -52,5 +52,6 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
     List<String> findLinksByShopIdAndBreadcrumbs(@Param("shopId") Long shopId,
                                                  @Param("breadcrumbs") String breadcrumbs);
 
-
+    @Query("SELECT p.breadcrumbs FROM Product p")
+    List<String> findAllBreadcrumbs();
 }

@@ -45,6 +45,7 @@ public class ProductService {
                 existingProduct.setLink(product.getLink());
                 existingProduct.setLinkSha3(product.getLinkSha3());
                 existingProduct.setImageLink(product.getImageLink());
+                existingProduct.setCategories(product.getCategories());
 //                existingProduct.setBreadcrumbs(product.getBreadcrumbs());
 //                existingProduct.setDescription(product.getDescription());
                 existingProduct.setChpu(product.getChpu());
@@ -75,20 +76,19 @@ public class ProductService {
         }
     }
 
-    public Long getShopByCategory(Long idCat) {
-        return categoriesRepository.findById(idCat.intValue()).get().getShopId();
-    }
+//    public Long getShopByCategory(Long idCat) {
+//        return categoriesRepository.findById(idCat.intValue()).get().getShopId();
+//    }
 
     public Optional<Product> getProductByCategory(Long id) {
         return productRepository.findById(id.intValue());
     }
 
     public void saveScanProducts(Long idCat) {
-        Long idShop = getShopByCategory(idCat);
+        Long idShop = categoriesRepository.findById(idCat).get().getShopId();
         Shop settings = shopRepository.getByIdShop(idShop);
-        settings.setScanProductsUrl(categoriesRepository.findById(idCat.intValue()).get().getUrl());
+        settings.setScanProductsUrl(categoriesRepository.findById(idCat).get().getUrl());
         AllProductParser allProductParser = new AllProductParser();
-
         List<Product> productList = allProductParser.getProducts(settings, idCat);
 
         for (Product obj : productList) {
@@ -102,12 +102,9 @@ public class ProductService {
             product.setLink(obj.getLink());
             product.setLinkSha3(SHA3.generateSHA3Hash(obj.getLink()));
             product.setImageLink(obj.getImageLink());
-//            product.setBreadcrumbs(obj.getBreadcrumbs());
-//            product.setDescription(obj.getDescription());
             product.setChpu(Slugify.builder().locale(new Locale("ru")).build().slugify(obj.getName()));
-            product.setShopId(categoriesRepository.findById(idCat.intValue()).get().getShopId());
+            product.setShopId(categoriesRepository.findById(idCat).get().getShopId());
             product.setTimestampField(new Timestamp(System.currentTimeMillis()));
-//            new Thread(() -> updateByLink(product)).start();
             new Thread(() -> updateByLinkSha3(product)).start();
 
 
